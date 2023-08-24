@@ -1,0 +1,126 @@
+\doxysection{graphics\+\_\+items.\+h}
+\hypertarget{graphics__items_8h_source}{}\label{graphics__items_8h_source}\index{graphics/graphics\_items.h@{graphics/graphics\_items.h}}
+\mbox{\hyperlink{graphics__items_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ graphics\_items\_h\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ graphics\_items\_h\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QtCore>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QtWidgets>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <typeinfo>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}../core/family\_tree.h"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}../core/strings.h"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00016\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{graphics__items_8h_ab8c04527db91ef84279f20f83af0966e}{containsForb}}(\textcolor{keyword}{const}\ QString\&\ value);}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classFileTreeItem}{FileTreeItem}}\ :\ \textcolor{keyword}{public}\ QTreeWidgetItem\{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFileTreeItem}{FileTreeItem}}(\mbox{\hyperlink{classVirtualDrive}{VirtualDrive}}*\ drive,\ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \textcolor{keyword}{const}\ QIcon\&\ icon,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type);}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFileTreeItem}{FileTreeItem}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \textcolor{keyword}{const}\ QIcon\&\ icon,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type);}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFileTreeItem_a2de3bc0c5d050b68c5c1a06f010b5376}{addFile}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \textcolor{keyword}{const}\ QIcon\&\ icon);}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFileTreeItem_a043c464f69dfd7016746503808370906}{addSubDrive}}(\textcolor{keyword}{const}\ QString\&\ folder);}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classVirtualDrive}{VirtualDrive}}*\ \mbox{\hyperlink{classFileTreeItem_af103489f943672b9d584c2f11ee0e8e3}{getDrive}}();}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFileTreeItem_a6b5a2b3add72488574b1a62c2bc355c6}{getId}}();}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFileTreeItem_a3635759ed4ed12344342fd53ef230b8a}{isDirectory}}();}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFileTreeItem_ab995c116878c511cb415c88c015f3bfb}{removeFolder}}();}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFileTreeItem_a065e6d96d9a96a92edee9872c9bbe519}{rename}}(\textcolor{keyword}{const}\ QString\&\ name);}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classVirtualDrive}{VirtualDrive}}*\ \mbox{\hyperlink{classFileTreeItem_afa354812fbbdc59ad4121130f06420e5}{drive\_}};}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFileTreeItem_a5d42ab8c8a9c03dfcb725ad0b63ab24e}{fileId\_}};}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classFileTreeItem_a698e2854f3f5dacbd3988bc92b4f63a0}{FT\_}};}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFileTreeItem_a023df1516f6b11f4e01509eb22f65944}{isDir\_}};}
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFileTreeItem_a167226fbc57960e2bb864c431fc71478}{removeFile}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ \mbox{\hyperlink{classFileTreeItem_ab05bfa56bf67b35783e4d3d678fde133}{type\_}};}
+\DoxyCodeLine{00070\ \};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00073\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}{ProjectItemType}}\ \{\mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdadbb05095c8fe5aa4e7e442c5072c1a63}{PROJECT\_PERSON}},\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda5fdee6973fb0455741f13828615ed93b}{PROJECT\_GROUP}},\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdac1ee97c0246919ac62d252c1ae9baeef}{PROJECT\_FILE}},\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdabfa2ee4e5b50730fed0739b7257891d9}{PROJECT\_MEDIA}},\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda2acc8e7a3cc10b2fdd041a0de03eec42}{PROJECT\_NOTE}},\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda4d2e8ce8163b1f312dbf9311a20fa1be}{PROJECT\_EVENTS}},\ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdaf095ce711bd48e306b2046b4cdda9c1b}{PROJECT\_RELATIONS}}\};}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00076\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classProjectItem}{ProjectItem}}\ :\ \textcolor{keyword}{public}\ QTreeWidgetItem\{}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classProjectItem}{ProjectItem}}(\mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}{ProjectItemType}}\ \mbox{\hyperlink{classProjectItem_a5e9e363ef8fedc6a531a62a737b9c692}{type}},\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id}\ =\ 0);}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classProjectItem_ad23d37c1053979c2b8eff4b6d700ba81}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}{ProjectItemType}}\ \mbox{\hyperlink{classProjectItem_a5e9e363ef8fedc6a531a62a737b9c692}{type}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classProjectItem_a93ba1e5d3771926c50af8e5231c738f9}{id\_}};}
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}{ProjectItemType}}\ \mbox{\hyperlink{classProjectItem_a0dc279c88fc943e55d23bc464f12ad8f}{type\_}};}
+\DoxyCodeLine{00093\ \};}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00096\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEventRoleItem}{EventRoleItem}}\ :\ \textcolor{keyword}{public}\ QTreeWidgetItem\{}
+\DoxyCodeLine{00097\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classEventRoleItem}{EventRoleItem}}(\textcolor{keyword}{const}\ std::string\&\ role,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id}\ =\ 0);}
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEventRoleItem_a5ecfd11b7241295aa1da0f16aeb60136}{getId}}();}
+\DoxyCodeLine{00108\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventRoleItem_a3e523b718c64982d630fd6d07acbf119}{setPerson}}(\textcolor{keyword}{const}\ QString\&\ name,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id}\ =\ 0);}
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEventRoleItem_a09f34f8e95a29bbe9a9a423a8f6fc3b8}{id\_}};}
+\DoxyCodeLine{00112\ \};}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00115\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classPersonsGraphicsItem}{PersonsGraphicsItem}}\ :\ \textcolor{keyword}{public}\ QObject,\ \textcolor{keyword}{public}\ QGraphicsItem\{}
+\DoxyCodeLine{00116\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00117\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00132\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPersonsGraphicsItem}{PersonsGraphicsItem}}(\textcolor{keyword}{const}\ QStringList\&\ lines,\ \textcolor{keywordtype}{int}\ sizex,\ \textcolor{keywordtype}{int}\ sizey,\ \mbox{\hyperlink{classPerson}{Person}}*\ p,\ qreal\ x,\ qreal\ y,}
+\DoxyCodeLine{00133\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QColor\ color,\ QColor\ highlighted,\ QFont\ font,\ QWidget*\ parent,\ QPen*\ pen,\ QPen*\ textPen,\ \textcolor{keywordtype}{int}\ borderRadius);}
+\DoxyCodeLine{00135\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPersonsGraphicsItem_a595e5aeced9d72eb618abd2b8298f6d2}{\string~PersonsGraphicsItem}}();}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ QRectF\ \mbox{\hyperlink{classPersonsGraphicsItem_ad7d8fdd1ee1ca7fa1246fc51ed2b7f5f}{boundingRect}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00143\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classPersonsGraphicsItem_a7541977df9bdac9bac03dfda88760a77}{paint}}(QPainter*\ painter,\ \textcolor{keyword}{const}\ QStyleOptionGraphicsItem*\ option,\ QWidget*\ widget)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ QPainterPath\ \mbox{\hyperlink{classPersonsGraphicsItem_ae609566beda7fbb4945168e064649a39}{shape}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00147\ \ \ \ \ signals:}
+\DoxyCodeLine{00149\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classPersonsGraphicsItem_a1c5a5bf946b83d3319d1b7f57dedb240}{itemClicked}}(\textcolor{keywordtype}{size\_t}\ personId);}
+\DoxyCodeLine{00150\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00153\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classPersonsGraphicsItem_a3c015105bccd641696bd829ed3e8b1b2}{hoverEnterEvent}}(QGraphicsSceneHoverEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00156\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classPersonsGraphicsItem_ad4015cf23cf1b01a7ef6be88113c0f56}{hoverLeaveEvent}}(QGraphicsSceneHoverEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00159\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classPersonsGraphicsItem_a94d2c2485363d1e78085ba24f1a60553}{mousePressEvent}}(QGraphicsSceneMouseEvent*\ event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00160\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00162\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classPersonsGraphicsItem_aaa1d20cc90943daaa4765c58f6510a5f}{borderRadius\_}};}
+\DoxyCodeLine{00164\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classPersonsGraphicsItem_aedecd3c423f8c9e89a32684d19cfd669}{bold\_text\_}};}
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classPersonsGraphicsItem_a47ee1b0ccb8948983b5b2fcfff1f884e}{color\_}};}
+\DoxyCodeLine{00168\ \ \ \ \ \ \ \ \ QFont\ \mbox{\hyperlink{classPersonsGraphicsItem_ac96809bf39d58e83186656642ae3726b}{font\_}};}
+\DoxyCodeLine{00170\ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classPersonsGraphicsItem_a919d0a57f82cc846fc873ee8aad61c04}{highlighted\_}};}
+\DoxyCodeLine{00172\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classPersonsGraphicsItem_a4fa1164d6903726335d0c5019da773f7}{hovered\_}};}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ QPen*\ \mbox{\hyperlink{classPersonsGraphicsItem_a70a44737ab5fc1fa753a7dfe8f8591f9}{pen\_}};}
+\DoxyCodeLine{00176\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classPersonsGraphicsItem_a39df62e25ca0d6264cad4730b572ec92}{person\_}};}
+\DoxyCodeLine{00178\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classPersonsGraphicsItem_a7f17892316b6202c5b2f2b8c14d4f878}{sizex\_}};}
+\DoxyCodeLine{00180\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classPersonsGraphicsItem_a907f9e0678672a4f149f92df80886bb2}{sizey\_}};}
+\DoxyCodeLine{00182\ \ \ \ \ \ \ \ \ QStringList\ \mbox{\hyperlink{classPersonsGraphicsItem_a74355b017cf3234f99d2eba4c634a759}{textLines\_}};}
+\DoxyCodeLine{00184\ \ \ \ \ \ \ \ \ QPen*\ \mbox{\hyperlink{classPersonsGraphicsItem_a623fa31ad085b9836449069fbf3e62d9}{textPen\_}};}
+\DoxyCodeLine{00186\ \ \ \ \ \ \ \ \ qreal\ \mbox{\hyperlink{classPersonsGraphicsItem_a93b0e1a0cdb3a5a323420a28ae24324a}{x\_}};}
+\DoxyCodeLine{00188\ \ \ \ \ \ \ \ \ qreal\ \mbox{\hyperlink{classPersonsGraphicsItem_a68550bac38c23ea88cb405380fbc0da9}{y\_}};}
+\DoxyCodeLine{00189\ \};}
+\DoxyCodeLine{00190\ }
+\DoxyCodeLine{00192\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCellGraphicsItem}{CellGraphicsItem}}\ :\ \textcolor{keyword}{public}\ QGraphicsItem\{}
+\DoxyCodeLine{00193\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00201\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classCellGraphicsItem}{CellGraphicsItem}}(\textcolor{keywordtype}{int}\ sizex,\ \textcolor{keywordtype}{int}\ sizey,\ qreal\ x,\ qreal\ y,\ QPen*\ pen,\ \textcolor{keywordtype}{int}\ borderRadius);}
+\DoxyCodeLine{00204\ \ \ \ \ \ \ \ \ QRectF\ \mbox{\hyperlink{classCellGraphicsItem_a496dbfa2bbbdbfc8740d34f6f16cc220}{boundingRect}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00209\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCellGraphicsItem_aac4c876cf93c441714bbfc1c9b5b36f3}{paint}}(QPainter*\ painter,\ \textcolor{keyword}{const}\ QStyleOptionGraphicsItem*\ option,\ QWidget*\ widget)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00212\ \ \ \ \ \ \ \ \ QPainterPath\ \mbox{\hyperlink{classCellGraphicsItem_a123699a4b88be87c2cc5dbca170fdf6c}{shape}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00213\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00215\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCellGraphicsItem_a1a9152e5cf156208adb5d6ccdd5ed0c7}{borderRadius\_}};}
+\DoxyCodeLine{00217\ \ \ \ \ \ \ \ \ QPen*\ \mbox{\hyperlink{classCellGraphicsItem_a8d05979e43edf7e7c87e0249be098cb2}{pen\_}};}
+\DoxyCodeLine{00219\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCellGraphicsItem_a6ffbf2ec6e8be3ae587356c4fd2eef64}{sizex\_}};}
+\DoxyCodeLine{00221\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCellGraphicsItem_ab87392a358c1b2cbdc0464c8090df7b4}{sizey\_}};}
+\DoxyCodeLine{00223\ \ \ \ \ \ \ \ \ qreal\ \mbox{\hyperlink{classCellGraphicsItem_a57a481d14312bf8426c02a23b6e5fe52}{x\_}};}
+\DoxyCodeLine{00225\ \ \ \ \ \ \ \ \ qreal\ \mbox{\hyperlink{classCellGraphicsItem_a130c36e3d1c33fa65146da1728995e08}{y\_}};}
+\DoxyCodeLine{00226\ \};}
+\DoxyCodeLine{00227\ }
+\DoxyCodeLine{00229\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classGraphicsView}{GraphicsView}}\ :\ \textcolor{keyword}{public}\ QGraphicsView\ \{}
+\DoxyCodeLine{00230\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00234\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classGraphicsView}{GraphicsView}}(QGraphicsScene*\ scene,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00235\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00238\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGraphicsView_ac94ccda22285b9fafea8b39ecd59d2d6}{wheelEvent}}(QWheelEvent*\ event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00239\ \};}
+\DoxyCodeLine{00240\ }
+\DoxyCodeLine{00242\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelationItem}{RelationItem}}\ :\ \textcolor{keyword}{public}\ QTreeWidgetItem\{}
+\DoxyCodeLine{00243\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00248\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelationItem}{RelationItem}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structRelationSuggestion}{RelationSuggestion}}\&\ suggestion,\ \mbox{\hyperlink{classRelationTemplate}{RelationTemplate}}*\ templ);}
+\DoxyCodeLine{00251\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelation}{Relation}}*\ \mbox{\hyperlink{classRelationItem_ac360fb550e5bb7af2662d0e13f74759e}{getRelation}}();}
+\DoxyCodeLine{00253\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationItem_a4c6bce1dd8baa1bc3d562835e1f7990d}{refreshTexts}}();}
+\DoxyCodeLine{00254\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00256\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classRelationItem_a6209aaec747762e861848b324b435e44}{FT\_}};}
+\DoxyCodeLine{00258\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelation}{Relation}}\ \mbox{\hyperlink{classRelationItem_ac09d1037da9f75e3cf73f8c9d111c45f}{relation\_}};}
+\DoxyCodeLine{00259\ \};}
+\DoxyCodeLine{00260\ }
+\DoxyCodeLine{00261\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

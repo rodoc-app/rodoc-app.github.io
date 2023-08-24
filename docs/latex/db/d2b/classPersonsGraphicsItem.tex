@@ -1,0 +1,354 @@
+\doxysection{Persons\+Graphics\+Item Class Reference}
+\hypertarget{classPersonsGraphicsItem}{}\label{classPersonsGraphicsItem}\index{PersonsGraphicsItem@{PersonsGraphicsItem}}
+
+
+Box with persons information.  
+
+
+
+
+{\ttfamily \#include $<$graphics\+\_\+items.\+h$>$}
+
+Inheritance diagram for Persons\+Graphics\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{db/d2b/classPersonsGraphicsItem}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classPersonsGraphicsItem_a1c5a5bf946b83d3319d1b7f57dedb240}{item\+Clicked}} (size\+\_\+t person\+Id)
+\begin{DoxyCompactList}\small\item\em Signal when the item is pressed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPersonsGraphicsItem_a668eb53d33ff543544f5a0ec3765e006}{Persons\+Graphics\+Item}} (const QString\+List \&lines, int sizex, int sizey, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, qreal x, qreal y, QColor color, QColor highlighted, QFont font, QWidget \texorpdfstring{$\ast$}{*}parent, QPen \texorpdfstring{$\ast$}{*}pen, QPen \texorpdfstring{$\ast$}{*}text\+Pen, int border\+Radius)
+\item 
+\mbox{\hyperlink{classPersonsGraphicsItem_a595e5aeced9d72eb618abd2b8298f6d2}{\texorpdfstring{$\sim$}{\string~}\+Persons\+Graphics\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\item 
+QRectF \mbox{\hyperlink{classPersonsGraphicsItem_ad7d8fdd1ee1ca7fa1246fc51ed2b7f5f}{bounding\+Rect}} () const override
+\item 
+void \mbox{\hyperlink{classPersonsGraphicsItem_a7541977df9bdac9bac03dfda88760a77}{paint}} (QPainter \texorpdfstring{$\ast$}{*}painter, const QStyle\+Option\+Graphics\+Item \texorpdfstring{$\ast$}{*}option, QWidget \texorpdfstring{$\ast$}{*}widget) override
+\item 
+QPainter\+Path \mbox{\hyperlink{classPersonsGraphicsItem_ae609566beda7fbb4945168e064649a39}{shape}} () const override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classPersonsGraphicsItem_a3c015105bccd641696bd829ed3e8b1b2}{hover\+Enter\+Event}} (QGraphics\+Scene\+Hover\+Event \texorpdfstring{$\ast$}{*}event) override
+\item 
+void \mbox{\hyperlink{classPersonsGraphicsItem_ad4015cf23cf1b01a7ef6be88113c0f56}{hover\+Leave\+Event}} (QGraphics\+Scene\+Hover\+Event \texorpdfstring{$\ast$}{*}event) override
+\item 
+void \mbox{\hyperlink{classPersonsGraphicsItem_a94d2c2485363d1e78085ba24f1a60553}{mouse\+Press\+Event}} (QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}event) override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classPersonsGraphicsItem_aaa1d20cc90943daaa4765c58f6510a5f}{border\+Radius\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Border radius of the box. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPersonsGraphicsItem_aedecd3c423f8c9e89a32684d19cfd669}{bold\+\_\+text\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Which text should be bold. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classPersonsGraphicsItem_a47ee1b0ccb8948983b5b2fcfff1f884e}{color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Which color will be used to fill the box. \end{DoxyCompactList}\item 
+QFont \mbox{\hyperlink{classPersonsGraphicsItem_ac96809bf39d58e83186656642ae3726b}{font\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Which font is used. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classPersonsGraphicsItem_a919d0a57f82cc846fc873ee8aad61c04}{highlighted\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Which color will be used when highlighted. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classPersonsGraphicsItem_a4fa1164d6903726335d0c5019da773f7}{hovered\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If the box is hovered. \end{DoxyCompactList}\item 
+QPen \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classPersonsGraphicsItem_a70a44737ab5fc1fa753a7dfe8f8591f9}{pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the used pen. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classPersonsGraphicsItem_a39df62e25ca0d6264cad4730b572ec92}{person\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Given person represented in this box. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPersonsGraphicsItem_a7f17892316b6202c5b2f2b8c14d4f878}{sizex\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Size of the cell in the x axis. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPersonsGraphicsItem_a907f9e0678672a4f149f92df80886bb2}{sizey\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Size of the cell in the y axis. \end{DoxyCompactList}\item 
+QString\+List \mbox{\hyperlink{classPersonsGraphicsItem_a74355b017cf3234f99d2eba4c634a759}{text\+Lines\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All text lines to show in the text box. \end{DoxyCompactList}\item 
+QPen \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classPersonsGraphicsItem_a623fa31ad085b9836449069fbf3e62d9}{text\+Pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the text pen. \end{DoxyCompactList}\item 
+qreal \mbox{\hyperlink{classPersonsGraphicsItem_a93b0e1a0cdb3a5a323420a28ae24324a}{x\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Top left point x position. \end{DoxyCompactList}\item 
+qreal \mbox{\hyperlink{classPersonsGraphicsItem_a68550bac38c23ea88cb405380fbc0da9}{y\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Top left point y position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Box with persons information. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classPersonsGraphicsItem_a668eb53d33ff543544f5a0ec3765e006}\label{classPersonsGraphicsItem_a668eb53d33ff543544f5a0ec3765e006} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{PersonsGraphicsItem()}{PersonsGraphicsItem()}}
+{\footnotesize\ttfamily Persons\+Graphics\+Item\+::\+Persons\+Graphics\+Item (\begin{DoxyParamCaption}\item[{const QString\+List \&}]{lines,  }\item[{int}]{sizex,  }\item[{int}]{sizey,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{qreal}]{x,  }\item[{qreal}]{y,  }\item[{QColor}]{color,  }\item[{QColor}]{highlighted,  }\item[{QFont}]{font,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent,  }\item[{QPen \texorpdfstring{$\ast$}{*}}]{pen,  }\item[{QPen \texorpdfstring{$\ast$}{*}}]{text\+Pen,  }\item[{int}]{border\+Radius }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em lines} & Each separate line of text to show in the box. \\
+\hline
+{\em sizex} & Size of the cell in the x axis. \\
+\hline
+{\em sizey} & Size of the cell in the y axis. \\
+\hline
+{\em p} & Given person represented in this box. \\
+\hline
+{\em x} & Top left point x position. \\
+\hline
+{\em y} & Top left point y position. \\
+\hline
+{\em color} & Which color will be used to fill the box. \\
+\hline
+{\em highlighted} & Which color will be used when the box is highlighted. \\
+\hline
+{\em font} & Which font will be used to type the words. \\
+\hline
+{\em parent} & Which widget will take care of clicking the box. \\
+\hline
+{\em pen} & Which pen is used for lines. \\
+\hline
+{\em text\+Pen} & Which pen is used for text. \\
+\hline
+{\em border\+Radius} & What is the radius of the border. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPersonsGraphicsItem_a595e5aeced9d72eb618abd2b8298f6d2}\label{classPersonsGraphicsItem_a595e5aeced9d72eb618abd2b8298f6d2} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!````~PersonsGraphicsItem@{\texorpdfstring{$\sim$}{\string~}PersonsGraphicsItem}}
+\index{````~PersonsGraphicsItem@{\texorpdfstring{$\sim$}{\string~}PersonsGraphicsItem}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}PersonsGraphicsItem()}{\string~PersonsGraphicsItem()}}
+{\footnotesize\ttfamily Persons\+Graphics\+Item\+::\texorpdfstring{$\sim$}{\string~}\+Persons\+Graphics\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classPersonsGraphicsItem_ad7d8fdd1ee1ca7fa1246fc51ed2b7f5f}\label{classPersonsGraphicsItem_ad7d8fdd1ee1ca7fa1246fc51ed2b7f5f} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!boundingRect@{boundingRect}}
+\index{boundingRect@{boundingRect}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{boundingRect()}{boundingRect()}}
+{\footnotesize\ttfamily QRectF Persons\+Graphics\+Item\+::bounding\+Rect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}}
+
+Get the bounding rectangle of the object. \begin{DoxyReturn}{Returns}
+Rectangle that is bounding the item. 
+\end{DoxyReturn}
+\Hypertarget{classPersonsGraphicsItem_a3c015105bccd641696bd829ed3e8b1b2}\label{classPersonsGraphicsItem_a3c015105bccd641696bd829ed3e8b1b2} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!hoverEnterEvent@{hoverEnterEvent}}
+\index{hoverEnterEvent@{hoverEnterEvent}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{hoverEnterEvent()}{hoverEnterEvent()}}
+{\footnotesize\ttfamily void Persons\+Graphics\+Item\+::hover\+Enter\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Hover\+Event \texorpdfstring{$\ast$}{*}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+When the box is hovered by a mouse highlight the box. 
+\begin{DoxyParams}{Parameters}
+{\em event} & \doxylink{classEvent}{Event} when the item was hovered. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPersonsGraphicsItem_ad4015cf23cf1b01a7ef6be88113c0f56}\label{classPersonsGraphicsItem_ad4015cf23cf1b01a7ef6be88113c0f56} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!hoverLeaveEvent@{hoverLeaveEvent}}
+\index{hoverLeaveEvent@{hoverLeaveEvent}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{hoverLeaveEvent()}{hoverLeaveEvent()}}
+{\footnotesize\ttfamily void Persons\+Graphics\+Item\+::hover\+Leave\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Hover\+Event \texorpdfstring{$\ast$}{*}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+When the box is not hovered anymore by a mouse stop highlighting. 
+\begin{DoxyParams}{Parameters}
+{\em event} & \doxylink{classEvent}{Event} when the item is not hovered anymore. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPersonsGraphicsItem_a1c5a5bf946b83d3319d1b7f57dedb240}\label{classPersonsGraphicsItem_a1c5a5bf946b83d3319d1b7f57dedb240} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!itemClicked@{itemClicked}}
+\index{itemClicked@{itemClicked}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{itemClicked}{itemClicked}}
+{\footnotesize\ttfamily void Persons\+Graphics\+Item\+::item\+Clicked (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{person\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Signal when the item is pressed. 
+
+\Hypertarget{classPersonsGraphicsItem_a94d2c2485363d1e78085ba24f1a60553}\label{classPersonsGraphicsItem_a94d2c2485363d1e78085ba24f1a60553} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily void Persons\+Graphics\+Item\+::mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+Press event after clicking the object. 
+\begin{DoxyParams}{Parameters}
+{\em event} & \doxylink{classEvent}{Event} when the item was clicked. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPersonsGraphicsItem_a7541977df9bdac9bac03dfda88760a77}\label{classPersonsGraphicsItem_a7541977df9bdac9bac03dfda88760a77} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!paint@{paint}}
+\index{paint@{paint}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{paint()}{paint()}}
+{\footnotesize\ttfamily void Persons\+Graphics\+Item\+::paint (\begin{DoxyParamCaption}\item[{QPainter \texorpdfstring{$\ast$}{*}}]{painter,  }\item[{const QStyle\+Option\+Graphics\+Item \texorpdfstring{$\ast$}{*}}]{option,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{widget }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Paint the object to its painter. 
+\begin{DoxyParams}{Parameters}
+{\em painter} & Which painter to use to paint the object. \\
+\hline
+{\em option} & Option for the Qt framework (not used). \\
+\hline
+{\em widget} & Widget for the Qt framework (not used). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPersonsGraphicsItem_ae609566beda7fbb4945168e064649a39}\label{classPersonsGraphicsItem_ae609566beda7fbb4945168e064649a39} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!shape@{shape}}
+\index{shape@{shape}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{shape()}{shape()}}
+{\footnotesize\ttfamily QPainter\+Path Persons\+Graphics\+Item\+::shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}}
+
+Get the shape of the item. \begin{DoxyReturn}{Returns}
+Get the shape to paint. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classPersonsGraphicsItem_aedecd3c423f8c9e89a32684d19cfd669}\label{classPersonsGraphicsItem_aedecd3c423f8c9e89a32684d19cfd669} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!bold\_text\_@{bold\_text\_}}
+\index{bold\_text\_@{bold\_text\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{bold\_text\_}{bold\_text\_}}
+{\footnotesize\ttfamily int Persons\+Graphics\+Item\+::bold\+\_\+text\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Which text should be bold. 
+
+\Hypertarget{classPersonsGraphicsItem_aaa1d20cc90943daaa4765c58f6510a5f}\label{classPersonsGraphicsItem_aaa1d20cc90943daaa4765c58f6510a5f} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!borderRadius\_@{borderRadius\_}}
+\index{borderRadius\_@{borderRadius\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{borderRadius\_}{borderRadius\_}}
+{\footnotesize\ttfamily int Persons\+Graphics\+Item\+::border\+Radius\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Border radius of the box. 
+
+\Hypertarget{classPersonsGraphicsItem_a47ee1b0ccb8948983b5b2fcfff1f884e}\label{classPersonsGraphicsItem_a47ee1b0ccb8948983b5b2fcfff1f884e} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!color\_@{color\_}}
+\index{color\_@{color\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{color\_}{color\_}}
+{\footnotesize\ttfamily QColor Persons\+Graphics\+Item\+::color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Which color will be used to fill the box. 
+
+\Hypertarget{classPersonsGraphicsItem_ac96809bf39d58e83186656642ae3726b}\label{classPersonsGraphicsItem_ac96809bf39d58e83186656642ae3726b} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!font\_@{font\_}}
+\index{font\_@{font\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{font\_}{font\_}}
+{\footnotesize\ttfamily QFont Persons\+Graphics\+Item\+::font\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Which font is used. 
+
+\Hypertarget{classPersonsGraphicsItem_a919d0a57f82cc846fc873ee8aad61c04}\label{classPersonsGraphicsItem_a919d0a57f82cc846fc873ee8aad61c04} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!highlighted\_@{highlighted\_}}
+\index{highlighted\_@{highlighted\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{highlighted\_}{highlighted\_}}
+{\footnotesize\ttfamily QColor Persons\+Graphics\+Item\+::highlighted\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Which color will be used when highlighted. 
+
+\Hypertarget{classPersonsGraphicsItem_a4fa1164d6903726335d0c5019da773f7}\label{classPersonsGraphicsItem_a4fa1164d6903726335d0c5019da773f7} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!hovered\_@{hovered\_}}
+\index{hovered\_@{hovered\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{hovered\_}{hovered\_}}
+{\footnotesize\ttfamily bool Persons\+Graphics\+Item\+::hovered\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If the box is hovered. 
+
+\Hypertarget{classPersonsGraphicsItem_a70a44737ab5fc1fa753a7dfe8f8591f9}\label{classPersonsGraphicsItem_a70a44737ab5fc1fa753a7dfe8f8591f9} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!pen\_@{pen\_}}
+\index{pen\_@{pen\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{pen\_}{pen\_}}
+{\footnotesize\ttfamily QPen\texorpdfstring{$\ast$}{*} Persons\+Graphics\+Item\+::pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the used pen. 
+
+\Hypertarget{classPersonsGraphicsItem_a39df62e25ca0d6264cad4730b572ec92}\label{classPersonsGraphicsItem_a39df62e25ca0d6264cad4730b572ec92} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!person\_@{person\_}}
+\index{person\_@{person\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{person\_}{person\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}}\texorpdfstring{$\ast$}{*} Persons\+Graphics\+Item\+::person\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Given person represented in this box. 
+
+\Hypertarget{classPersonsGraphicsItem_a7f17892316b6202c5b2f2b8c14d4f878}\label{classPersonsGraphicsItem_a7f17892316b6202c5b2f2b8c14d4f878} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!sizex\_@{sizex\_}}
+\index{sizex\_@{sizex\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{sizex\_}{sizex\_}}
+{\footnotesize\ttfamily int Persons\+Graphics\+Item\+::sizex\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Size of the cell in the x axis. 
+
+\Hypertarget{classPersonsGraphicsItem_a907f9e0678672a4f149f92df80886bb2}\label{classPersonsGraphicsItem_a907f9e0678672a4f149f92df80886bb2} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!sizey\_@{sizey\_}}
+\index{sizey\_@{sizey\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{sizey\_}{sizey\_}}
+{\footnotesize\ttfamily int Persons\+Graphics\+Item\+::sizey\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Size of the cell in the y axis. 
+
+\Hypertarget{classPersonsGraphicsItem_a74355b017cf3234f99d2eba4c634a759}\label{classPersonsGraphicsItem_a74355b017cf3234f99d2eba4c634a759} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!textLines\_@{textLines\_}}
+\index{textLines\_@{textLines\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{textLines\_}{textLines\_}}
+{\footnotesize\ttfamily QString\+List Persons\+Graphics\+Item\+::text\+Lines\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All text lines to show in the text box. 
+
+\Hypertarget{classPersonsGraphicsItem_a623fa31ad085b9836449069fbf3e62d9}\label{classPersonsGraphicsItem_a623fa31ad085b9836449069fbf3e62d9} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!textPen\_@{textPen\_}}
+\index{textPen\_@{textPen\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{textPen\_}{textPen\_}}
+{\footnotesize\ttfamily QPen\texorpdfstring{$\ast$}{*} Persons\+Graphics\+Item\+::text\+Pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the text pen. 
+
+\Hypertarget{classPersonsGraphicsItem_a93b0e1a0cdb3a5a323420a28ae24324a}\label{classPersonsGraphicsItem_a93b0e1a0cdb3a5a323420a28ae24324a} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!x\_@{x\_}}
+\index{x\_@{x\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{x\_}{x\_}}
+{\footnotesize\ttfamily qreal Persons\+Graphics\+Item\+::x\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Top left point x position. 
+
+\Hypertarget{classPersonsGraphicsItem_a68550bac38c23ea88cb405380fbc0da9}\label{classPersonsGraphicsItem_a68550bac38c23ea88cb405380fbc0da9} 
+\index{PersonsGraphicsItem@{PersonsGraphicsItem}!y\_@{y\_}}
+\index{y\_@{y\_}!PersonsGraphicsItem@{PersonsGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{y\_}{y\_}}
+{\footnotesize\ttfamily qreal Persons\+Graphics\+Item\+::y\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Top left point y position. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{graphics__items_8h}{graphics\+\_\+items.\+h}}\item 
+graphics/\mbox{\hyperlink{graphics__items_8cpp}{graphics\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

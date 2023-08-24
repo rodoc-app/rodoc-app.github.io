@@ -1,0 +1,365 @@
+\doxysection{Visual\+Settings Class Reference}
+\hypertarget{classVisualSettings}{}\label{classVisualSettings}\index{VisualSettings@{VisualSettings}}
+
+
+Dialog for editing and showing graphic settings.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Visual\+Settings\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d7/d47/classVisualSettings}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classVisualSettings_ab30c813c8f5c9c1524b820dfb975a978}{highlighted\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for color change upon clicking on highlighted color change. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_ae429cfcd7e23315d26186923612cdd98}{line\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Change the color of line. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_a4100a96e3219afb478d411941580f6d0}{refresh}} ()
+\begin{DoxyCompactList}\small\item\em Upon clicking the refresh button load the values and show the graphics. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}{proband\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for color change upon clicking on proband color change. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}{promoted\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for color change upon clicking on promoted color change. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_a82b98fc063a438a3069a90aef1925649}{save\+And\+Exit}} ()
+\begin{DoxyCompactList}\small\item\em Emit signal for saving the configuration and exit the dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}{standard\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for color change upon clicking on standard color change. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVisualSettings_aa4275894383ed1824d78ed5f6927c9c9}{text\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Change the color of a text. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classVisualSettings_a0ecd4a4c27652adfb2cfb43d71502caa}{save\+Settings}} (QColor \mbox{\hyperlink{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}{proband\+Color}}, QColor \mbox{\hyperlink{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}{promoted\+Color}}, QColor \mbox{\hyperlink{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}{standard\+Color}}, QColor \mbox{\hyperlink{classVisualSettings_ab30c813c8f5c9c1524b820dfb975a978}{highlighted\+Color}}, int sizeX, int sizeY, QFont font, QColor \mbox{\hyperlink{classVisualSettings_ae429cfcd7e23315d26186923612cdd98}{line\+Color}}, QColor \mbox{\hyperlink{classVisualSettings_aa4275894383ed1824d78ed5f6927c9c9}{text\+Color}}, int line\+Width, int rounding)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVisualSettings_a7ca4f0da2b537b1df1df6606558e9a37}{Visual\+Settings}} (QColor \mbox{\hyperlink{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}{proband\+Color}}, QColor \mbox{\hyperlink{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}{promoted\+Color}}, QColor \mbox{\hyperlink{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}{standard\+Color}}, QColor highlighted, int sizeX, int sizeY, QFont font, QPen \texorpdfstring{$\ast$}{*}pen, QPen \texorpdfstring{$\ast$}{*}text\+Pen, int border\+Radius, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classVisualSettings_a47afe02b213c1b932be9e8c9b62013c8}{\texorpdfstring{$\sim$}{\string~}\+Visual\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classVisualSettings_a9fbea9182174c61d70bc4dd0848e58db}{border\+Radius\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Border radius of the box. \end{DoxyCompactList}\item 
+QFont \mbox{\hyperlink{classVisualSettings_ad940cd67454a8a60101540449c31af53}{font\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Used font. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classVisualSettings_ae4b27bffffc795b26fbd63fa4fa38893}{highlighted\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for highlighting the box. \end{DoxyCompactList}\item 
+QPen \mbox{\hyperlink{classVisualSettings_aeba07f4ec7cb237b3eca4a526d008411}{pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Which pen is used for lines. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classVisualSettings_af2bcb7f818c643b8be2df818cf4e3903}{proband\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for proband. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classVisualSettings_adc3548bab6287205a4fa37cba27acd50}{promoted\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for promoted relations. \end{DoxyCompactList}\item 
+QGraphics\+Scene \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classVisualSettings_afa17b593ff48412d8cf944288ea3f08f}{scene}}
+\begin{DoxyCompactList}\small\item\em Used graphics scene. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classVisualSettings_a35d36965c9546abc985da5f5c880ba83}{size\+X\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Size of the box in x axis. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classVisualSettings_a7eb0c60e67938733673f28d3e469c566}{size\+Y\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Size of the box in y axis. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classVisualSettings_a14e2a15ca337fb61b28ce4ccac6bbd43}{standard\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for standard relations. \end{DoxyCompactList}\item 
+QPen \mbox{\hyperlink{classVisualSettings_a7f663d6cf22148040ee6caec49889552}{text\+Pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pen used for texts. \end{DoxyCompactList}\item 
+Ui\+::\+Visual\+Settings \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classVisualSettings_ada208254b381492e0328a256408a8bf0}{ui}}
+\begin{DoxyCompactList}\small\item\em Used Qt user interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for editing and showing graphic settings. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classVisualSettings_a7ca4f0da2b537b1df1df6606558e9a37}\label{classVisualSettings_a7ca4f0da2b537b1df1df6606558e9a37} 
+\index{VisualSettings@{VisualSettings}!VisualSettings@{VisualSettings}}
+\index{VisualSettings@{VisualSettings}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{VisualSettings()}{VisualSettings()}}
+{\footnotesize\ttfamily Visual\+Settings\+::\+Visual\+Settings (\begin{DoxyParamCaption}\item[{QColor}]{proband\+Color,  }\item[{QColor}]{promoted\+Color,  }\item[{QColor}]{standard\+Color,  }\item[{QColor}]{highlighted,  }\item[{int}]{sizeX,  }\item[{int}]{sizeY,  }\item[{QFont}]{font,  }\item[{QPen \texorpdfstring{$\ast$}{*}}]{pen,  }\item[{QPen \texorpdfstring{$\ast$}{*}}]{text\+Pen,  }\item[{int}]{border\+Radius,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em proband\+Color} & \doxylink{structColor}{Color} used for proband. \\
+\hline
+{\em promoted\+Color} & \doxylink{structColor}{Color} for promoted Relations. \\
+\hline
+{\em standard\+Color} & Standard color. \\
+\hline
+{\em highlighted} & \doxylink{structColor}{Color} for highlighting the box. \\
+\hline
+{\em sizeX} & Size of the box in x axis. \\
+\hline
+{\em sizeY} & Size of the box in y axis. \\
+\hline
+{\em font} & Used font for the text in the box. \\
+\hline
+{\em pen} & Which pen is used for lines. \\
+\hline
+{\em text\+Pen} & Which pen is used for text. \\
+\hline
+{\em border\+Radius} & What is the border radius of the box. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVisualSettings_a47afe02b213c1b932be9e8c9b62013c8}\label{classVisualSettings_a47afe02b213c1b932be9e8c9b62013c8} 
+\index{VisualSettings@{VisualSettings}!````~VisualSettings@{\texorpdfstring{$\sim$}{\string~}VisualSettings}}
+\index{````~VisualSettings@{\texorpdfstring{$\sim$}{\string~}VisualSettings}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}VisualSettings()}{\string~VisualSettings()}}
+{\footnotesize\ttfamily Visual\+Settings\+::\texorpdfstring{$\sim$}{\string~}\+Visual\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classVisualSettings_ab30c813c8f5c9c1524b820dfb975a978}\label{classVisualSettings_ab30c813c8f5c9c1524b820dfb975a978} 
+\index{VisualSettings@{VisualSettings}!highlightedColor@{highlightedColor}}
+\index{highlightedColor@{highlightedColor}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{highlightedColor}{highlightedColor}}
+{\footnotesize\ttfamily void Visual\+Settings\+::highlighted\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for color change upon clicking on highlighted color change. 
+
+\Hypertarget{classVisualSettings_ae429cfcd7e23315d26186923612cdd98}\label{classVisualSettings_ae429cfcd7e23315d26186923612cdd98} 
+\index{VisualSettings@{VisualSettings}!lineColor@{lineColor}}
+\index{lineColor@{lineColor}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{lineColor}{lineColor}}
+{\footnotesize\ttfamily void Visual\+Settings\+::line\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Change the color of line. 
+
+\Hypertarget{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}\label{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2} 
+\index{VisualSettings@{VisualSettings}!probandColor@{probandColor}}
+\index{probandColor@{probandColor}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{probandColor}{probandColor}}
+{\footnotesize\ttfamily void Visual\+Settings\+::proband\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for color change upon clicking on proband color change. 
+
+\Hypertarget{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}\label{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197} 
+\index{VisualSettings@{VisualSettings}!promotedColor@{promotedColor}}
+\index{promotedColor@{promotedColor}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{promotedColor}{promotedColor}}
+{\footnotesize\ttfamily void Visual\+Settings\+::promoted\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for color change upon clicking on promoted color change. 
+
+\Hypertarget{classVisualSettings_a4100a96e3219afb478d411941580f6d0}\label{classVisualSettings_a4100a96e3219afb478d411941580f6d0} 
+\index{VisualSettings@{VisualSettings}!refresh@{refresh}}
+\index{refresh@{refresh}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{refresh}{refresh}}
+{\footnotesize\ttfamily void Visual\+Settings\+::refresh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Upon clicking the refresh button load the values and show the graphics. 
+
+\Hypertarget{classVisualSettings_a82b98fc063a438a3069a90aef1925649}\label{classVisualSettings_a82b98fc063a438a3069a90aef1925649} 
+\index{VisualSettings@{VisualSettings}!saveAndExit@{saveAndExit}}
+\index{saveAndExit@{saveAndExit}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{saveAndExit}{saveAndExit}}
+{\footnotesize\ttfamily void Visual\+Settings\+::save\+And\+Exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Emit signal for saving the configuration and exit the dialog. 
+
+\Hypertarget{classVisualSettings_a0ecd4a4c27652adfb2cfb43d71502caa}\label{classVisualSettings_a0ecd4a4c27652adfb2cfb43d71502caa} 
+\index{VisualSettings@{VisualSettings}!saveSettings@{saveSettings}}
+\index{saveSettings@{saveSettings}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{saveSettings}{saveSettings}}
+{\footnotesize\ttfamily void Visual\+Settings\+::save\+Settings (\begin{DoxyParamCaption}\item[{QColor}]{proband\+Color,  }\item[{QColor}]{promoted\+Color,  }\item[{QColor}]{standard\+Color,  }\item[{QColor}]{highlighted\+Color,  }\item[{int}]{sizeX,  }\item[{int}]{sizeY,  }\item[{QFont}]{font,  }\item[{QColor}]{line\+Color,  }\item[{QColor}]{text\+Color,  }\item[{int}]{line\+Width,  }\item[{int}]{rounding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Signal to emit when OK button is pressed to save this configuration. 
+\begin{DoxyParams}{Parameters}
+{\em proband\+Color} & \doxylink{structColor}{Color} used for proband. \\
+\hline
+{\em promoted\+Color} & \doxylink{structColor}{Color} for promoted Relations. \\
+\hline
+{\em standard\+Color} & Standard color. \\
+\hline
+{\em highlighted\+Color} & Highlighted color. \\
+\hline
+{\em sizeX} & Size of the box in x axis. \\
+\hline
+{\em sizeY} & Size of the box in y axis. \\
+\hline
+{\em font} & Used font for the text in the box. \\
+\hline
+{\em line\+Color} & \doxylink{structColor}{Color} for lines. \\
+\hline
+{\em text\+Color} & \doxylink{structColor}{Color} for texts. \\
+\hline
+{\em line\+Width} & Width of the lines. \\
+\hline
+{\em rounding} & Rounding of the boxes. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}\label{classVisualSettings_a444d447ffaded4c3b50e79d805de4611} 
+\index{VisualSettings@{VisualSettings}!standardColor@{standardColor}}
+\index{standardColor@{standardColor}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{standardColor}{standardColor}}
+{\footnotesize\ttfamily void Visual\+Settings\+::standard\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for color change upon clicking on standard color change. 
+
+\Hypertarget{classVisualSettings_aa4275894383ed1824d78ed5f6927c9c9}\label{classVisualSettings_aa4275894383ed1824d78ed5f6927c9c9} 
+\index{VisualSettings@{VisualSettings}!textColor@{textColor}}
+\index{textColor@{textColor}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{textColor}{textColor}}
+{\footnotesize\ttfamily void Visual\+Settings\+::text\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Change the color of a text. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classVisualSettings_a9fbea9182174c61d70bc4dd0848e58db}\label{classVisualSettings_a9fbea9182174c61d70bc4dd0848e58db} 
+\index{VisualSettings@{VisualSettings}!borderRadius\_@{borderRadius\_}}
+\index{borderRadius\_@{borderRadius\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{borderRadius\_}{borderRadius\_}}
+{\footnotesize\ttfamily int Visual\+Settings\+::border\+Radius\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Border radius of the box. 
+
+\Hypertarget{classVisualSettings_ad940cd67454a8a60101540449c31af53}\label{classVisualSettings_ad940cd67454a8a60101540449c31af53} 
+\index{VisualSettings@{VisualSettings}!font\_@{font\_}}
+\index{font\_@{font\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{font\_}{font\_}}
+{\footnotesize\ttfamily QFont Visual\+Settings\+::font\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used font. 
+
+\Hypertarget{classVisualSettings_ae4b27bffffc795b26fbd63fa4fa38893}\label{classVisualSettings_ae4b27bffffc795b26fbd63fa4fa38893} 
+\index{VisualSettings@{VisualSettings}!highlightedColor\_@{highlightedColor\_}}
+\index{highlightedColor\_@{highlightedColor\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{highlightedColor\_}{highlightedColor\_}}
+{\footnotesize\ttfamily QColor Visual\+Settings\+::highlighted\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for highlighting the box. 
+
+\Hypertarget{classVisualSettings_aeba07f4ec7cb237b3eca4a526d008411}\label{classVisualSettings_aeba07f4ec7cb237b3eca4a526d008411} 
+\index{VisualSettings@{VisualSettings}!pen\_@{pen\_}}
+\index{pen\_@{pen\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{pen\_}{pen\_}}
+{\footnotesize\ttfamily QPen Visual\+Settings\+::pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Which pen is used for lines. 
+
+\Hypertarget{classVisualSettings_af2bcb7f818c643b8be2df818cf4e3903}\label{classVisualSettings_af2bcb7f818c643b8be2df818cf4e3903} 
+\index{VisualSettings@{VisualSettings}!probandColor\_@{probandColor\_}}
+\index{probandColor\_@{probandColor\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{probandColor\_}{probandColor\_}}
+{\footnotesize\ttfamily QColor Visual\+Settings\+::proband\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for proband. 
+
+\Hypertarget{classVisualSettings_adc3548bab6287205a4fa37cba27acd50}\label{classVisualSettings_adc3548bab6287205a4fa37cba27acd50} 
+\index{VisualSettings@{VisualSettings}!promotedColor\_@{promotedColor\_}}
+\index{promotedColor\_@{promotedColor\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{promotedColor\_}{promotedColor\_}}
+{\footnotesize\ttfamily QColor Visual\+Settings\+::promoted\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for promoted relations. 
+
+\Hypertarget{classVisualSettings_afa17b593ff48412d8cf944288ea3f08f}\label{classVisualSettings_afa17b593ff48412d8cf944288ea3f08f} 
+\index{VisualSettings@{VisualSettings}!scene@{scene}}
+\index{scene@{scene}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{scene}{scene}}
+{\footnotesize\ttfamily QGraphics\+Scene\texorpdfstring{$\ast$}{*} Visual\+Settings\+::scene\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used graphics scene. 
+
+\Hypertarget{classVisualSettings_a35d36965c9546abc985da5f5c880ba83}\label{classVisualSettings_a35d36965c9546abc985da5f5c880ba83} 
+\index{VisualSettings@{VisualSettings}!sizeX\_@{sizeX\_}}
+\index{sizeX\_@{sizeX\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{sizeX\_}{sizeX\_}}
+{\footnotesize\ttfamily int Visual\+Settings\+::size\+X\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Size of the box in x axis. 
+
+\Hypertarget{classVisualSettings_a7eb0c60e67938733673f28d3e469c566}\label{classVisualSettings_a7eb0c60e67938733673f28d3e469c566} 
+\index{VisualSettings@{VisualSettings}!sizeY\_@{sizeY\_}}
+\index{sizeY\_@{sizeY\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{sizeY\_}{sizeY\_}}
+{\footnotesize\ttfamily int Visual\+Settings\+::size\+Y\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Size of the box in y axis. 
+
+\Hypertarget{classVisualSettings_a14e2a15ca337fb61b28ce4ccac6bbd43}\label{classVisualSettings_a14e2a15ca337fb61b28ce4ccac6bbd43} 
+\index{VisualSettings@{VisualSettings}!standardColor\_@{standardColor\_}}
+\index{standardColor\_@{standardColor\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{standardColor\_}{standardColor\_}}
+{\footnotesize\ttfamily QColor Visual\+Settings\+::standard\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for standard relations. 
+
+\Hypertarget{classVisualSettings_a7f663d6cf22148040ee6caec49889552}\label{classVisualSettings_a7f663d6cf22148040ee6caec49889552} 
+\index{VisualSettings@{VisualSettings}!textPen\_@{textPen\_}}
+\index{textPen\_@{textPen\_}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{textPen\_}{textPen\_}}
+{\footnotesize\ttfamily QPen Visual\+Settings\+::text\+Pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pen used for texts. 
+
+\Hypertarget{classVisualSettings_ada208254b381492e0328a256408a8bf0}\label{classVisualSettings_ada208254b381492e0328a256408a8bf0} 
+\index{VisualSettings@{VisualSettings}!ui@{ui}}
+\index{ui@{ui}!VisualSettings@{VisualSettings}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Visual\+Settings\texorpdfstring{$\ast$}{*} Visual\+Settings\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used Qt user interface. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

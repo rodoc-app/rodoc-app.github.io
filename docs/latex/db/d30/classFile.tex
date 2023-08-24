@@ -1,0 +1,143 @@
+\doxysection{File Class Reference}
+\hypertarget{classFile}{}\label{classFile}\index{File@{File}}
+
+
+Meta-\/data about one file (media or note). Its real path is \mbox{[}id\mbox{]}-\/\mbox{[}filename\mbox{]}.  
+
+
+
+
+{\ttfamily \#include $<$family\+\_\+tree\+\_\+items.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFile_ae039af5807fc385f41b60644725d15d0}{File}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classFile_a436e7277b6b3b0e514d4fa543181a767}{get\+Filename}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classFile_a4ad9aad30ff70ebfe813713a53738aea}{get\+Id}} () const
+\item 
+std\+::string \mbox{\hyperlink{classFile_a23c9bd9bdd92f4f5faeb09fe4efa2591}{get\+Real\+Name}} () const
+\item 
+void \mbox{\hyperlink{classFile_a58bfe5d99919aa16e79369d0c1497717}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classFile_ae33bd717157407f34c8a1718c8e47ea0}{set\+Filename}} (const std\+::string \&file\+Name)
+\item 
+void \mbox{\hyperlink{classFile_a2bc3c3f99d7390054a393ad60dc37364}{set\+Id}} (size\+\_\+t id)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classFile_a9c712b9949ab0537589cc2ab7287625d}{filename\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classFile}{File} name. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFile_aa676a0b6682021215e291d7b3af6c3ef}{id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Id of the file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Meta-\/data about one file (media or note). Its real path is \mbox{[}id\mbox{]}-\/\mbox{[}filename\mbox{]}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classFile_ae039af5807fc385f41b60644725d15d0}\label{classFile_ae039af5807fc385f41b60644725d15d0} 
+\index{File@{File}!File@{File}}
+\index{File@{File}!File@{File}}
+\doxysubsubsection{\texorpdfstring{File()}{File()}}
+{\footnotesize\ttfamily File\+::\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classFile_a436e7277b6b3b0e514d4fa543181a767}\label{classFile_a436e7277b6b3b0e514d4fa543181a767} 
+\index{File@{File}!getFilename@{getFilename}}
+\index{getFilename@{getFilename}!File@{File}}
+\doxysubsubsection{\texorpdfstring{getFilename()}{getFilename()}}
+{\footnotesize\ttfamily const std\+::string \& File\+::get\+Filename (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the file name. \begin{DoxyReturn}{Returns}
+Constant reference to the file name. 
+\end{DoxyReturn}
+\Hypertarget{classFile_a4ad9aad30ff70ebfe813713a53738aea}\label{classFile_a4ad9aad30ff70ebfe813713a53738aea} 
+\index{File@{File}!getId@{getId}}
+\index{getId@{getId}!File@{File}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t File\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the id of the file. \begin{DoxyReturn}{Returns}
+Id of the file. 
+\end{DoxyReturn}
+\Hypertarget{classFile_a23c9bd9bdd92f4f5faeb09fe4efa2591}\label{classFile_a23c9bd9bdd92f4f5faeb09fe4efa2591} 
+\index{File@{File}!getRealName@{getRealName}}
+\index{getRealName@{getRealName}!File@{File}}
+\doxysubsubsection{\texorpdfstring{getRealName()}{getRealName()}}
+{\footnotesize\ttfamily std\+::string File\+::get\+Real\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the real name of the file. Which is \mbox{[}id\mbox{]}-\/\mbox{[}filename\mbox{]} \begin{DoxyReturn}{Returns}
+The real name of the file. 
+\end{DoxyReturn}
+\Hypertarget{classFile_a58bfe5d99919aa16e79369d0c1497717}\label{classFile_a58bfe5d99919aa16e79369d0c1497717} 
+\index{File@{File}!readJson@{readJson}}
+\index{readJson@{readJson}!File@{File}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void File\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read the file meta-\/data from JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & The JSON value of the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFile_ae33bd717157407f34c8a1718c8e47ea0}\label{classFile_ae33bd717157407f34c8a1718c8e47ea0} 
+\index{File@{File}!setFilename@{setFilename}}
+\index{setFilename@{setFilename}!File@{File}}
+\doxysubsubsection{\texorpdfstring{setFilename()}{setFilename()}}
+{\footnotesize\ttfamily void File\+::set\+Filename (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+Set the file name. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Given name of the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFile_a2bc3c3f99d7390054a393ad60dc37364}\label{classFile_a2bc3c3f99d7390054a393ad60dc37364} 
+\index{File@{File}!setId@{setId}}
+\index{setId@{setId}!File@{File}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void File\+::set\+Id (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the id of the file. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Given id. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classFile_a9c712b9949ab0537589cc2ab7287625d}\label{classFile_a9c712b9949ab0537589cc2ab7287625d} 
+\index{File@{File}!filename\_@{filename\_}}
+\index{filename\_@{filename\_}!File@{File}}
+\doxysubsubsection{\texorpdfstring{filename\_}{filename\_}}
+{\footnotesize\ttfamily std\+::string File\+::filename\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classFile}{File} name. 
+
+\Hypertarget{classFile_aa676a0b6682021215e291d7b3af6c3ef}\label{classFile_aa676a0b6682021215e291d7b3af6c3ef} 
+\index{File@{File}!id\_@{id\_}}
+\index{id\_@{id\_}!File@{File}}
+\doxysubsubsection{\texorpdfstring{id\_}{id\_}}
+{\footnotesize\ttfamily size\+\_\+t File\+::id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Id of the file. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{family__tree__items_8h}{family\+\_\+tree\+\_\+items.\+h}}\item 
+core/\mbox{\hyperlink{family__tree__items_8cpp}{family\+\_\+tree\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

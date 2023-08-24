@@ -1,0 +1,135 @@
+\doxysection{family\+\_\+tree.\+h}
+\hypertarget{family__tree_8h_source}{}\label{family__tree_8h_source}\index{core/family\_tree.h@{core/family\_tree.h}}
+\mbox{\hyperlink{family__tree_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ family\_tree\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ family\_tree\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <ostream>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <set>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <functional>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{file__parser_8h}{file\_parser.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{config_8h}{config.h}}"{}}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{date_8h}{date.h}}"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{person_8h}{person.h}}"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{strings_8h}{strings.h}}"{}}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{family__tree__items_8h}{family\_tree\_items.h}}"{}}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classFamilyTree}{FamilyTree}}\{}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree_a43038e5aa39f3977d67629562ade375f}{FamilyTree}}();}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classEvent}{Event}}*\ \mbox{\hyperlink{classFamilyTree_a9c738bf2830f1c8833b9079090bb7102}{addEvent}}();}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classEvent}{Event}}*\ \mbox{\hyperlink{classFamilyTree_a9c738bf2830f1c8833b9079090bb7102}{addEvent}}(\textcolor{keywordtype}{size\_t}\ index);}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFile}{File}}*\ \mbox{\hyperlink{classFamilyTree_abcd0a7b4c46e27a55520a819ed77d0ea}{addFile}}(\textcolor{keyword}{const}\ std::string\&\ name,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFile}{File}}*\ \mbox{\hyperlink{classFamilyTree_abcd0a7b4c46e27a55520a819ed77d0ea}{addFile}}(\textcolor{keyword}{const}\ std::string\&\ name,\ \textcolor{keywordtype}{size\_t}\ index,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classFamilyTree_a6f1a1054728d2e799c40de60d9e835b2}{addPerson}}();}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classFamilyTree_a6f1a1054728d2e799c40de60d9e835b2}{addPerson}}(\textcolor{keywordtype}{size\_t}\ index);}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelation}{Relation}}*\ \mbox{\hyperlink{classFamilyTree_ad36221a1a94aa4faa06e333808ad6b09}{addRelation}}();}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelation}{Relation}}*\ \mbox{\hyperlink{classFamilyTree_ad36221a1a94aa4faa06e333808ad6b09}{addRelation}}(\textcolor{keywordtype}{size\_t}\ index);}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a2329bfd5a900182f577db414bbdab22b}{append}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}\&\ other);}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ std::pair<bool,\ std::string>\ \mbox{\hyperlink{classFamilyTree_a5a7e4d1a1c3b04d2dedc1d75718dbe56}{checkFileConsistence}}();}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a616620db60c672ce837ecb9b3820480a}{clear}}();}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a328edc7083c9d82cdff0c324ccf65a54}{clearProjectPaths}}();}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a7ef2e1efeba8cf2f16d9add58c80f203}{copyFile}}(\textcolor{keyword}{const}\ std::string\&\ filePath,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a9bea7160daa4a7005e98243e12298ef1}{createDatabase}}(\textcolor{keyword}{const}\ std::string\&\ dirPath);}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a21a1f448a9f6a7df7393c9ee91de5c4f}{createEmptyFile}}(\textcolor{keyword}{const}\ std::string\&\ name,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a9ab2d111760f8665c379d7a176310a44}{enableHelpOnStartup}}(\textcolor{keywordtype}{bool}\ help);}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a58cc904cf76505f0f62447e1adb2ffca}{exportProject}}(\textcolor{keyword}{const}\ std::string\&\ filePath,\ \textcolor{keywordtype}{bool}\ includingEvents,\ \textcolor{keywordtype}{bool}\ includingRelations);}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classFamilyTree_a26fd025c79deb69a72204bc301d41c9d}{createResourcesDir}}(\textcolor{keyword}{const}\ std::string\&\ target);}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_ad74382ca5934350d88fe9c629b573666}{exportTemplates}}(\textcolor{keyword}{const}\ std::vector<size\_t>\&\ eventTemplates,\ \textcolor{keyword}{const}\ std::vector<size\_t>\&\ relTemplates,\ \textcolor{keyword}{const}\ std::string\&\ filename);}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ std::optional<Event*>\ \mbox{\hyperlink{classFamilyTree_ad8ed67fa5d09633eb4850da4bd080078}{getEvent}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::map<size\_t,\ std::unique\_ptr<Event>>\&\ \mbox{\hyperlink{classFamilyTree_a7bef7e40f060b713d652a050de070be3}{getEvents}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00110\ \ \ \ \ \ \ \ \ std::optional<File*>\ \mbox{\hyperlink{classFamilyTree_a534b92bb0e52db5d3fff07d1e154d74f}{getFile}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00115\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_af45bbcf8b18a8e7164f386fc4d0335ee}{getFileAbsolutePath}}(std::string\&\ absolutePath,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00119\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::map<size\_t,\ std::unique\_ptr<File>>\&\ \mbox{\hyperlink{classFamilyTree_adef3b2068790b9a2511deaf635f66dd9}{getFiles}}(\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{classFamilyTree_abbcae1bf5b22454ccc5fb032334d856d}{getOrphanFiles}}();}
+\DoxyCodeLine{00125\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classFamilyTree_a6f8da1a24df00bc4478ec6a75d3a7987}{getMainPerson}}();}
+\DoxyCodeLine{00128\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::map<size\_t,\ std::unique\_ptr<Person>>\&\ \mbox{\hyperlink{classFamilyTree_af5d8f0b2a93a4f77ea2bcea6518e55ea}{getPersons}}();}
+\DoxyCodeLine{00132\ \ \ \ \ \ \ \ \ std::optional<Person*>\ \mbox{\hyperlink{classFamilyTree_a5ebb929d97b28ea96bcb11018d90bd83}{getPerson}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00135\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::vector<std::string>\&\ \mbox{\hyperlink{classFamilyTree_a0d7afdc686ab12b7340c5278a10a0462}{getProjectPaths}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ std::optional<Relation*>\ \mbox{\hyperlink{classFamilyTree_a5bce5570efd374df3132a6e028a46b03}{getRelation}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00142\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::map<size\_t,\ std::unique\_ptr<Relation>>\&\ \mbox{\hyperlink{classFamilyTree_ad1e9f3b5f4ce3c80653e112b9764c782}{getRelations}}();}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ std::vector<RelationSuggestion>\ \mbox{\hyperlink{classFamilyTree_ad9b3095d8dd7c8e9dc63a406b233bdb6}{getRelationSuggestions}}(\textcolor{keywordtype}{size\_t}\ relId);}
+\DoxyCodeLine{00149\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSettings}{Settings}}*\ \mbox{\hyperlink{classFamilyTree_a6f866ca674e9866d6eabc64a638600b1}{getSettings}}();}
+\DoxyCodeLine{00154\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a6689c61f214ab592306dc4fc1594581d}{getUrlFile}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ std::string\&\ fileUrl,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type\ =\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\_FILE}});}
+\DoxyCodeLine{00158\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a30cc376d05755d281638663057f92020}{importProject}}(\textcolor{keyword}{const}\ std::string\&\ filePath);}
+\DoxyCodeLine{00162\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_abb43c1f4e0787a4403ecaebc088e4763}{importRootDir}}(\textcolor{keyword}{const}\ std::string\&\ dirPath);}
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ std::pair<bool,\ size\_t>\ \mbox{\hyperlink{classFamilyTree_aa579645cfd08743687b72670c1faeb16}{importTemplates}}(\textcolor{keyword}{const}\ std::string\&\ filePath);}
+\DoxyCodeLine{00169\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a447046fadb23db987d404c7e6f164605}{isDirectorySet}}();}
+\DoxyCodeLine{00172\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a44a0dca783ce15fe4e58dd309309e855}{isSaved}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00175\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a53a98762b6c8545a3acce526e1703430}{log}}(\textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{namespaceerror}{error}});}
+\DoxyCodeLine{00181\ \ \ \ \ \ \ \ \ std::pair<bool,\ bool>\ \mbox{\hyperlink{classFamilyTree_a322c2624a1c4156cc41d5d68448ad4fb}{openDatabase}}(\textcolor{keyword}{const}\ std::string\&\ dirPath,\ std::string\&\ errorMessage,\ std::string\&\ backupFile);}
+\DoxyCodeLine{00185\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a322c2624a1c4156cc41d5d68448ad4fb}{openDatabase}}(std::string\&\ errorMessage);}
+\DoxyCodeLine{00189\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_aa009d8686ffa6f250964684150f829b4}{openSingleFileDatabase}}(\textcolor{keyword}{const}\ std::string\&\ filePath);}
+\DoxyCodeLine{00192\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a8d3bc52cb8ac0cfe1fc0c7685a30e5bf}{printHtml}}(\textcolor{keyword}{const}\ std::string\&\ dirPath);}
+\DoxyCodeLine{00195\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a5144e2bcd414b6ecb9b9f14b4a14ac33}{printMainPersonHtml}}(\textcolor{keyword}{const}\ std::string\&\ outputFile);}
+\DoxyCodeLine{00198\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_ac75b2d9a13f57cd562cb0adf2937edc9}{promoteRelation}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00200\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a050296748a5c6e005c0fc4a20d06c754}{removeBackup}}();}
+\DoxyCodeLine{00203\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a11c5ce429d98ebbbf297a4d4c3eafcec}{removeEvent}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00206\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a1f73e72a2a4dbc3ebce7f49cc8a07b33}{removeEventTemplate}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00209\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a35dcc7ef1b6b2df0bf2b460319499fea}{removeOrphanFiles}}();}
+\DoxyCodeLine{00211\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_ab2becb8702d71e8cc16bdb78b037d95f}{removePerson}}();}
+\DoxyCodeLine{00214\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_ab9e0e56e89ae2cdcc83341c3616c2204}{removeRelation}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00217\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_abd4bc8be38e936c7b6572b2744dc0981}{removeRelationTemplate}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00222\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a130c2238a0cdf63e9db23e454129d6b6}{renameFile}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \textcolor{keyword}{const}\ std::string\&\ newFilename,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type);}
+\DoxyCodeLine{00227\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a55d16d04f5c5fa91e51c213ce11c4209}{restoreBackup}}(\textcolor{keyword}{const}\ std::string\&\ backupFile,\ std::string\&\ errorMessage);}
+\DoxyCodeLine{00230\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_abc56757af532c546ac520ef623929f24}{setMainPerson}}(\mbox{\hyperlink{classPerson}{Person}}*\ p);}
+\DoxyCodeLine{00233\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_abc56757af532c546ac520ef623929f24}{setMainPerson}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00239\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_af12fe754c08d897fef890ff77c3e580b}{setRelation}}(\textcolor{keywordtype}{size\_t}\ relId,\ \textcolor{keywordtype}{size\_t}\ pers1Id,\ \textcolor{keywordtype}{size\_t}\ pers2Id,\ \textcolor{keywordtype}{size\_t}\ templId);}
+\DoxyCodeLine{00241\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a508ba7917affc204b44dfdd1069249aa}{setUnsaved}}();}
+\DoxyCodeLine{00244\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a147fd6d04f44b8f5a60aef31ffb354e5}{showHelpOnStartup}}();}
+\DoxyCodeLine{00247\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a6686cdfd07601e12b7056ee9828111e7}{storeDatabase}}();}
+\DoxyCodeLine{00251\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_ac76a1810bff0869af4c25361a1554dce}{templatesBasedOnEventTemplate}}(\textcolor{keywordtype}{size\_t}\ templateId);}
+\DoxyCodeLine{00255\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a20a591611e1703daa95f32f4703d79d5}{templatesBasedOnRelationTemplate}}(\textcolor{keywordtype}{size\_t}\ templateId);}
+\DoxyCodeLine{00258\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_aa0fc9a7a042af6d265ceaabaf2a5d5e6}{updateEventsWithTemplate}}(\textcolor{keywordtype}{size\_t}\ templ);}
+\DoxyCodeLine{00262\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a67781b136dd28b91243cd2db129eb058}{writeConfig}}(\textcolor{keyword}{const}\ std::string\&\ newPath);}
+\DoxyCodeLine{00263\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00265\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<Event>>\ \mbox{\hyperlink{classFamilyTree_af54a67942b293557cea3972a9f474790}{allEvents\_}};}
+\DoxyCodeLine{00267\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<File>>\ \mbox{\hyperlink{classFamilyTree_a2ff9b02c0719c96050ea75196b1271fb}{allFiles\_}};}
+\DoxyCodeLine{00269\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<File>>\ \mbox{\hyperlink{classFamilyTree_adb64e5b7deda4a4ab031e52cb41212c3}{allMedia\_}};}
+\DoxyCodeLine{00271\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<File>>\ \mbox{\hyperlink{classFamilyTree_a2ddde54535ea944f59c699ea049abbda}{allNotes\_}};}
+\DoxyCodeLine{00273\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<Person>>\ \mbox{\hyperlink{classFamilyTree_afc736d3082b83409e5dc7a42274ac6ed}{allPersons\_}};}
+\DoxyCodeLine{00275\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<Relation>>\ \mbox{\hyperlink{classFamilyTree_a79908840918f68afed0b920d2aceb5dc}{allRelations\_}};}
+\DoxyCodeLine{00279\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_aa9ab8f19c8ec220b553a743b5099ffd0}{checkFileTypeConsistence}}(std::ostream\&\ os,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type);}
+\DoxyCodeLine{00281\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a9e4806e377b1501cf476d1ce1385bca5}{event\_index\_}};}
+\DoxyCodeLine{00283\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a1b5e7ad2f51932cbbeeacc9eb91e33d3}{file\_index\_}};}
+\DoxyCodeLine{00288\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a799e6d60408cd713e6357d04b61f3005}{getGeneralOrphaFiles}}(std::vector<std::string>\&\ files,\ \textcolor{keyword}{const}\ std::map<\textcolor{keywordtype}{size\_t},\ std::unique\_ptr<File>>\&\ container,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type);}
+\DoxyCodeLine{00297\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a3932c645118ef69fc7c11d83a8faa128}{getParentSuggestions}}(std::vector<RelationSuggestion>\&\ suggestions,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classPerson}{Person}}*\ parent,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classPerson}{Person}}*\ child,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{namespacetrait}{trait}},}
+\DoxyCodeLine{00298\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::set<size\_t>\&\ forbiddenPersonParent,\ \textcolor{keyword}{const}\ std::set<size\_t>\&\ forbiddenPersonChild);}
+\DoxyCodeLine{00305\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a2dc503bd95c679435e8291a59f529c9f}{getPartnersSuggestions}}(std::vector<RelationSuggestion>\&\ suggestions,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{namespaceperson}{person}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classPerson}{Person}}*\ second,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \textcolor{keyword}{const}\ std::set<size\_t>\&\ forbiddenPersons);}
+\DoxyCodeLine{00312\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a4404ffb46996a8d898b11c160c4d4eac}{getSiblingsSuggestions}}(std::vector<RelationSuggestion>\&\ suggestions,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{namespaceperson}{person}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classPerson}{Person}}*\ second,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id},\ \textcolor{keyword}{const}\ std::set<size\_t>\&\ forbiddenPersons);}
+\DoxyCodeLine{00318\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a67c19b54f2239fcf92eb85f79e0ca360}{loadDatabaseFile}}(\textcolor{keyword}{const}\ std::string\&\ file,\ std::function<\textcolor{keywordtype}{void}(\textcolor{keyword}{const}\ Json::Value\&)>\ reader,\ std::string\&\ errorMessage);}
+\DoxyCodeLine{00320\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classFamilyTree_a6cc33e934001db229e4424982278211d}{mainPerson\_}};}
+\DoxyCodeLine{00322\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_ae0fd1c0cc7b33dab45bb6ac410333d3a}{media\_index\_}};}
+\DoxyCodeLine{00324\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_aae75755de328defb9f66363b8fd80b4f}{note\_index\_}};}
+\DoxyCodeLine{00326\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_ae6b8e0f71865dad59737380358d7472c}{openHelp}};}
+\DoxyCodeLine{00328\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classParser}{Parser}}\ \mbox{\hyperlink{classFamilyTree_af37ab96d10ba7ed42db5afe2bbb6099e}{parser\_}};}
+\DoxyCodeLine{00330\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_aebfedf7b6ef207a81c9e827f8161986e}{person\_index\_}};}
+\DoxyCodeLine{00333\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a953f124c855968b429a0431942b1eaab}{printCss}}(\textcolor{keyword}{const}\ std::string\&\ dirPath);}
+\DoxyCodeLine{00338\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a97bf0e2647efb2cc69dc27bcaaedd595}{printFiles}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ std::map<\textcolor{keywordtype}{size\_t},\ std::unique\_ptr<File>>\&\ container,\ \textcolor{keyword}{const}\ std::string\&\ label);}
+\DoxyCodeLine{00341\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_af5565bcb3385bccf7cbb65b49d0bea6a}{printEvents}}(std::ostream\&\ os);}
+\DoxyCodeLine{00346\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a5da6d907ff39dee88a1124e364b59beb}{printHtmlPerson}}(std::ostream\&\ os,\ \textcolor{keywordtype}{bool}\ links,\ \mbox{\hyperlink{classPerson}{Person}}*\ p);}
+\DoxyCodeLine{00349\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_acf15730446b140323fb73b4462ff056a}{printPeople}}(std::ostream\&\ os);}
+\DoxyCodeLine{00352\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_af3c2e81b4542f29ba1cacab9a5aa6630}{printRelations}}(std::ostream\&\ os);}
+\DoxyCodeLine{00354\ \ \ \ \ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{classFamilyTree_a95795f20f8b3b20b3ac0a1338e569130}{projectPaths}};}
+\DoxyCodeLine{00357\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_aa4a8015c5db25f9a88f70180ad01dc3b}{readJsonEvents}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00363\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a8b36fdd0e95d9ced9891823de74c9cab}{readJsonFiles}}(\textcolor{keyword}{const}\ Json::Value\&\ value,\ std::map<\textcolor{keywordtype}{size\_t},\ std::unique\_ptr<File>>\&\ container,\ \textcolor{keyword}{const}\ std::string\&\ label,\ \textcolor{keywordtype}{size\_t}\&\ index);}
+\DoxyCodeLine{00366\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a00fa9371fcc81fe8c39aa84c5182f7bc}{readJsonPeople}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00369\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a2708f1b9224dea6d366b69a8e1c792c7}{readJsonRelations}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00371\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_a2083e97bf1519682b0c234432cc9a499}{relation\_index\_}};}
+\DoxyCodeLine{00377\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFamilyTree_acdb0d9051f41719890f17eab5605a3d2}{removeGeneralOrphanFile}}(std::map<\textcolor{keywordtype}{size\_t},\ std::unique\_ptr<File>>\&\ container,\ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type,\ \textcolor{keyword}{const}\ std::string\&\ dir);}
+\DoxyCodeLine{00379\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classFamilyTree_a3046b9fbaae5c70acde9757db9544675}{savedChanges\_}};}
+\DoxyCodeLine{00381\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSettings}{Settings}}\ \mbox{\hyperlink{classFamilyTree_afc0da6485bbf91242cf9b0a7ea2ced55}{settings\_}};}
+\DoxyCodeLine{00384\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFamilyTree_a7f8943172c2f05e53fb2410262edb1bc}{storeFileDatabase}}(\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type);}
+\DoxyCodeLine{00385\ \};}
+\DoxyCodeLine{00386\ }
+\DoxyCodeLine{00387\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

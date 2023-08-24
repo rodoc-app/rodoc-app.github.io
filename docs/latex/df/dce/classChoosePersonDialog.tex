@@ -1,0 +1,160 @@
+\doxysection{Choose\+Person\+Dialog Class Reference}
+\hypertarget{classChoosePersonDialog}{}\label{classChoosePersonDialog}\index{ChoosePersonDialog@{ChoosePersonDialog}}
+
+
+Dialog for choosing person with find window. Parent have to have slot {\ttfamily \doxylink{classChoosePersonDialog_a8ced413c3fc4d2d7ffa73bac4d9ad0ec}{save\+Person()}}.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Choose\+Person\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{df/dce/classChoosePersonDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classChoosePersonDialog_a7406c4800154643cea64de89d4dec353}{clear\+Filter}} ()
+\begin{DoxyCompactList}\small\item\em Clear filter and show all persons. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classChoosePersonDialog_aa6a213c4756e929d29163b6b38e376bf}{filter\+Persons}} ()
+\begin{DoxyCompactList}\small\item\em Filter persons by the text edit. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classChoosePersonDialog_a180125a12bc41cf6ad377fac088f6ef7}{save\+Selected\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Save currently selected person. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classChoosePersonDialog_a8ced413c3fc4d2d7ffa73bac4d9ad0ec}{save\+Person}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\begin{DoxyCompactList}\small\item\em When save can be proceeded. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classChoosePersonDialog_a81853ec353966d61950bca773064f17c}{Choose\+Person\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classChoosePersonDialog_a624928ca66a22a06f990b516bd96902f}{\texorpdfstring{$\sim$}{\string~}\+Choose\+Person\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classChoosePersonDialog_af762661a056334db6b6192f79c1295c8}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classChoosePersonDialog_ad5f1842dafb2c3b7042102c9a4741421}{person\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer for. \end{DoxyCompactList}\item 
+Ui\+::\+Choose\+Person\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classChoosePersonDialog_ae1418b82bbc8dda81526f63f8017cd51}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for choosing person with find window. Parent have to have slot {\ttfamily \doxylink{classChoosePersonDialog_a8ced413c3fc4d2d7ffa73bac4d9ad0ec}{save\+Person()}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classChoosePersonDialog_a81853ec353966d61950bca773064f17c}\label{classChoosePersonDialog_a81853ec353966d61950bca773064f17c} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!ChoosePersonDialog@{ChoosePersonDialog}}
+\index{ChoosePersonDialog@{ChoosePersonDialog}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{ChoosePersonDialog()}{ChoosePersonDialog()}}
+{\footnotesize\ttfamily Choose\+Person\+Dialog\+::\+Choose\+Person\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em person} & Pointer to the person to be replaced or nullptr to choose new one. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classChoosePersonDialog_a624928ca66a22a06f990b516bd96902f}\label{classChoosePersonDialog_a624928ca66a22a06f990b516bd96902f} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!````~ChoosePersonDialog@{\texorpdfstring{$\sim$}{\string~}ChoosePersonDialog}}
+\index{````~ChoosePersonDialog@{\texorpdfstring{$\sim$}{\string~}ChoosePersonDialog}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}ChoosePersonDialog()}{\string~ChoosePersonDialog()}}
+{\footnotesize\ttfamily Choose\+Person\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Choose\+Person\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classChoosePersonDialog_a7406c4800154643cea64de89d4dec353}\label{classChoosePersonDialog_a7406c4800154643cea64de89d4dec353} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!clearFilter@{clearFilter}}
+\index{clearFilter@{clearFilter}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{clearFilter}{clearFilter}}
+{\footnotesize\ttfamily void Choose\+Person\+Dialog\+::clear\+Filter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Clear filter and show all persons. 
+
+\Hypertarget{classChoosePersonDialog_aa6a213c4756e929d29163b6b38e376bf}\label{classChoosePersonDialog_aa6a213c4756e929d29163b6b38e376bf} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!filterPersons@{filterPersons}}
+\index{filterPersons@{filterPersons}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{filterPersons}{filterPersons}}
+{\footnotesize\ttfamily void Choose\+Person\+Dialog\+::filter\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Filter persons by the text edit. 
+
+\Hypertarget{classChoosePersonDialog_a8ced413c3fc4d2d7ffa73bac4d9ad0ec}\label{classChoosePersonDialog_a8ced413c3fc4d2d7ffa73bac4d9ad0ec} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!savePerson@{savePerson}}
+\index{savePerson@{savePerson}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{savePerson}{savePerson}}
+{\footnotesize\ttfamily void Choose\+Person\+Dialog\+::save\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+When save can be proceeded. 
+
+\Hypertarget{classChoosePersonDialog_a180125a12bc41cf6ad377fac088f6ef7}\label{classChoosePersonDialog_a180125a12bc41cf6ad377fac088f6ef7} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!saveSelectedPerson@{saveSelectedPerson}}
+\index{saveSelectedPerson@{saveSelectedPerson}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{saveSelectedPerson}{saveSelectedPerson}}
+{\footnotesize\ttfamily void Choose\+Person\+Dialog\+::save\+Selected\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save currently selected person. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classChoosePersonDialog_af762661a056334db6b6192f79c1295c8}\label{classChoosePersonDialog_af762661a056334db6b6192f79c1295c8} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Choose\+Person\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classChoosePersonDialog_ad5f1842dafb2c3b7042102c9a4741421}\label{classChoosePersonDialog_ad5f1842dafb2c3b7042102c9a4741421} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!person\_@{person\_}}
+\index{person\_@{person\_}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{person\_}{person\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}}\texorpdfstring{$\ast$}{*} Choose\+Person\+Dialog\+::person\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer for. 
+
+\Hypertarget{classChoosePersonDialog_ae1418b82bbc8dda81526f63f8017cd51}\label{classChoosePersonDialog_ae1418b82bbc8dda81526f63f8017cd51} 
+\index{ChoosePersonDialog@{ChoosePersonDialog}!ui@{ui}}
+\index{ui@{ui}!ChoosePersonDialog@{ChoosePersonDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Choose\+Person\+Dialog\texorpdfstring{$\ast$}{*} Choose\+Person\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

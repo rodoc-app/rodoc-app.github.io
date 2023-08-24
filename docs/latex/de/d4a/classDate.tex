@@ -1,0 +1,206 @@
+\doxysection{Date Class Reference}
+\hypertarget{classDate}{}\label{classDate}\index{Date@{Date}}
+
+
+Basic date format. Holding three numbers for year, month and day. If some of the numbers are not defined 0 is present.  
+
+
+
+
+{\ttfamily \#include $<$date.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDate_a51a980778868f9122be8a55ef8c16fc5}{Date}} (int y=0, int m=0, int d=0)
+\item 
+int \mbox{\hyperlink{classDate_a0f253815240e70f4c39cb93cc68bd3f4}{get\+Day}} () const
+\item 
+int \mbox{\hyperlink{classDate_a332f6e3a2f6a40d73742b6dab7be0f64}{get\+Month}} () const
+\item 
+int \mbox{\hyperlink{classDate_a8b0869f34c2b38d108ab83ee2e770e5d}{get\+Year}} () const
+\item 
+bool \mbox{\hyperlink{classDate_a48b353cea2187ad1522bd529fac32880}{is\+Empty}} () const
+\item 
+bool \mbox{\hyperlink{classDate_ae592a9668598c4177683994f4a4ee9bb}{is\+Exact}} () const
+\item 
+void \mbox{\hyperlink{classDate_a6a4eef59ffef0d373d9883cf0cb7ac70}{read}} (const std\+::string \&date)
+\item 
+void \mbox{\hyperlink{classDate_a785b3d8fbce101d565528b9032cea462}{set\+Day}} (int d)
+\item 
+void \mbox{\hyperlink{classDate_ab137497d665577fb8a5e964eafd7dbfd}{set\+Month}} (int m)
+\item 
+void \mbox{\hyperlink{classDate_ae50d821702b1998f10487e6eee3f4785}{set\+Year}} (int y)
+\item 
+std\+::string \mbox{\hyperlink{classDate_a52423df3bb205ab734915faee9018173}{str}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classDate_a5b192adcabf2b2871e3f0b76c1ec1601}{day}}
+\begin{DoxyCompactList}\small\item\em Day number. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDate_a533843e07c6ac8d19fee9b16f5336ba2}{month}}
+\begin{DoxyCompactList}\small\item\em Month number. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDate_a3eeced2ed56bc95d56782b9e738db8ea}{year}}
+\begin{DoxyCompactList}\small\item\em Year number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Basic date format. Holding three numbers for year, month and day. If some of the numbers are not defined 0 is present. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classDate_a51a980778868f9122be8a55ef8c16fc5}\label{classDate_a51a980778868f9122be8a55ef8c16fc5} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{Date()}{Date()}}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}\item[{int}]{y = {\ttfamily 0},  }\item[{int}]{m = {\ttfamily 0},  }\item[{int}]{d = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em d} & Day number. \\
+\hline
+{\em m} & Month number. \\
+\hline
+{\em y} & Year number. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classDate_a0f253815240e70f4c39cb93cc68bd3f4}\label{classDate_a0f253815240e70f4c39cb93cc68bd3f4} 
+\index{Date@{Date}!getDay@{getDay}}
+\index{getDay@{getDay}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{getDay()}{getDay()}}
+{\footnotesize\ttfamily int Date\+::get\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the day number. \begin{DoxyReturn}{Returns}
+Day number (0 if it was not set). 
+\end{DoxyReturn}
+\Hypertarget{classDate_a332f6e3a2f6a40d73742b6dab7be0f64}\label{classDate_a332f6e3a2f6a40d73742b6dab7be0f64} 
+\index{Date@{Date}!getMonth@{getMonth}}
+\index{getMonth@{getMonth}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{getMonth()}{getMonth()}}
+{\footnotesize\ttfamily int Date\+::get\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the month number. \begin{DoxyReturn}{Returns}
+Month number (0 if it was not set). 
+\end{DoxyReturn}
+\Hypertarget{classDate_a8b0869f34c2b38d108ab83ee2e770e5d}\label{classDate_a8b0869f34c2b38d108ab83ee2e770e5d} 
+\index{Date@{Date}!getYear@{getYear}}
+\index{getYear@{getYear}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{getYear()}{getYear()}}
+{\footnotesize\ttfamily int Date\+::get\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the year number. \begin{DoxyReturn}{Returns}
+Year number (0 if it was not set). 
+\end{DoxyReturn}
+\Hypertarget{classDate_a48b353cea2187ad1522bd529fac32880}\label{classDate_a48b353cea2187ad1522bd529fac32880} 
+\index{Date@{Date}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Date\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if the date is completely not defined. All values are non-\/defined if they are equal to 0. \begin{DoxyReturn}{Returns}
+True if all values are 0. 
+\end{DoxyReturn}
+\Hypertarget{classDate_ae592a9668598c4177683994f4a4ee9bb}\label{classDate_ae592a9668598c4177683994f4a4ee9bb} 
+\index{Date@{Date}!isExact@{isExact}}
+\index{isExact@{isExact}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{isExact()}{isExact()}}
+{\footnotesize\ttfamily bool Date\+::is\+Exact (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if the date is exact or not. \doxylink{classDate}{Date} is exact when all values are defined (non-\/zero). \begin{DoxyReturn}{Returns}
+True if the date is exact. 
+\end{DoxyReturn}
+\Hypertarget{classDate_a6a4eef59ffef0d373d9883cf0cb7ac70}\label{classDate_a6a4eef59ffef0d373d9883cf0cb7ac70} 
+\index{Date@{Date}!read@{read}}
+\index{read@{read}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void Date\+::read (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{date }\end{DoxyParamCaption})}
+
+Load date from string in specified flexible format\+: yyyy-\/mm-\/dd (if there would be for example 05 it can only be 5). If it does not follow the format there will be corrupted data and won\textquotesingle{}t raise an exception. 
+\begin{DoxyParams}{Parameters}
+{\em date} & Written date in correct format. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDate_a785b3d8fbce101d565528b9032cea462}\label{classDate_a785b3d8fbce101d565528b9032cea462} 
+\index{Date@{Date}!setDay@{setDay}}
+\index{setDay@{setDay}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{setDay()}{setDay()}}
+{\footnotesize\ttfamily void Date\+::set\+Day (\begin{DoxyParamCaption}\item[{int}]{d }\end{DoxyParamCaption})}
+
+Set the day number. 
+\begin{DoxyParams}{Parameters}
+{\em d} & Day number. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDate_ab137497d665577fb8a5e964eafd7dbfd}\label{classDate_ab137497d665577fb8a5e964eafd7dbfd} 
+\index{Date@{Date}!setMonth@{setMonth}}
+\index{setMonth@{setMonth}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{setMonth()}{setMonth()}}
+{\footnotesize\ttfamily void Date\+::set\+Month (\begin{DoxyParamCaption}\item[{int}]{m }\end{DoxyParamCaption})}
+
+Set the month number. 
+\begin{DoxyParams}{Parameters}
+{\em m} & Month number. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDate_ae50d821702b1998f10487e6eee3f4785}\label{classDate_ae50d821702b1998f10487e6eee3f4785} 
+\index{Date@{Date}!setYear@{setYear}}
+\index{setYear@{setYear}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{setYear()}{setYear()}}
+{\footnotesize\ttfamily void Date\+::set\+Year (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+Set the year number. 
+\begin{DoxyParams}{Parameters}
+{\em y} & Year number. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDate_a52423df3bb205ab734915faee9018173}\label{classDate_a52423df3bb205ab734915faee9018173} 
+\index{Date@{Date}!str@{str}}
+\index{str@{str}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{str()}{str()}}
+{\footnotesize\ttfamily std\+::string Date\+::str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get string representing the date in format yyyy-\/\+MM-\/\+DD. If one of the values are set to 0, then it is replaced by the same number of ? \begin{DoxyReturn}{Returns}
+String in the format. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classDate_a5b192adcabf2b2871e3f0b76c1ec1601}\label{classDate_a5b192adcabf2b2871e3f0b76c1ec1601} 
+\index{Date@{Date}!day@{day}}
+\index{day@{day}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{day}{day}}
+{\footnotesize\ttfamily int Date\+::day\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Day number. 
+
+\Hypertarget{classDate_a533843e07c6ac8d19fee9b16f5336ba2}\label{classDate_a533843e07c6ac8d19fee9b16f5336ba2} 
+\index{Date@{Date}!month@{month}}
+\index{month@{month}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{month}{month}}
+{\footnotesize\ttfamily int Date\+::month\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Month number. 
+
+\Hypertarget{classDate_a3eeced2ed56bc95d56782b9e738db8ea}\label{classDate_a3eeced2ed56bc95d56782b9e738db8ea} 
+\index{Date@{Date}!year@{year}}
+\index{year@{year}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{year}{year}}
+{\footnotesize\ttfamily int Date\+::year\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Year number. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{date_8h}{date.\+h}}\item 
+core/\mbox{\hyperlink{date_8cpp}{date.\+cpp}}\end{DoxyCompactItemize}

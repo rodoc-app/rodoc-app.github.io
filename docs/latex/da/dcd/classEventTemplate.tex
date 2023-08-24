@@ -1,0 +1,330 @@
+\doxysection{Event\+Template Class Reference}
+\hypertarget{classEventTemplate}{}\label{classEventTemplate}\index{EventTemplate@{EventTemplate}}
+
+
+Template for events. It specifies whether the event includes a date, a place or if more persons are involved and if they have some special roles.  
+
+
+
+
+{\ttfamily \#include $<$config.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEventTemplate_a9cbb4ab4bd054d0ec8a7b8e9838e1986}{Event\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classEventTemplate_a80e2aec54f5a49661a9cd0c162fbe194}{contains\+Date}} () const
+\item 
+bool \mbox{\hyperlink{classEventTemplate_a05b8997c2f7a65e6c089cc0d3287a7b9}{contains\+Place}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classEventTemplate_aee76f4b3257b3d6f2b2d93abf032a73e}{get\+Description}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classEventTemplate_aefe9c6ed3450bc67ac468c796bb49987}{get\+Id}} () const
+\item 
+const std\+::vector$<$ std\+::string $>$ \& \mbox{\hyperlink{classEventTemplate_ad800a0e5e27f6429efe4d8adfe657d98}{get\+Roles}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classEventTemplate_a0873fdee51fa8308af18f0419d41ebf6}{get\+Title}} () const
+\item 
+bool \mbox{\hyperlink{classEventTemplate_a048de05df8938d79854604a149492fa3}{has\+More\+People\+Involved}} () const
+\item 
+bool \mbox{\hyperlink{classEventTemplate_afc7c763e1d6c8b73b985db163fef1a9f}{has\+Roles}} () const
+\item 
+void \mbox{\hyperlink{classEventTemplate_ac882e5c11b04baf21b0f933d4adfe27e}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classEventTemplate_adbeae231da0b241620d425f0f88b6826}{set\+Contains\+Date}} (bool has\+Date)
+\item 
+void \mbox{\hyperlink{classEventTemplate_aea913c15676b92202f5e8df14da579db}{set\+Contains\+Place}} (bool has\+Place)
+\item 
+std\+::string \& \mbox{\hyperlink{classEventTemplate_a600461aeee8404397cff36af8980fc57}{set\+Description}} ()
+\item 
+void \mbox{\hyperlink{classEventTemplate_a7b6c6a50fdf1cb154f6c25d74c36c964}{set\+Id}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classEventTemplate_abe865796656c8c94b2ecf96399e1c9b4}{set\+More\+People\+Involved}} (bool more\+People)
+\item 
+void \mbox{\hyperlink{classEventTemplate_add2990c01cd0daec2db64b736e9572ff}{set\+Roles}} (std\+::vector$<$ std\+::string $>$ \&roles)
+\item 
+std\+::string \& \mbox{\hyperlink{classEventTemplate_aaf27b8d50a072921635400136aad4c23}{set\+Title}} ()
+\item 
+std\+::string \mbox{\hyperlink{classEventTemplate_a82a6a29b5d8b7c294eb4ff438590586d}{str}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classEventTemplate_a8bff591aaeb6fd8e9d223922996b1333}{contains\+Date\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If the event contains a date or not. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classEventTemplate_acb4bf76af61d059b44d79a9237f52c42}{contains\+Place\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If the event contains a place or not. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classEventTemplate_a426b52561a47db99a9e96cf3bc47ee7b}{description\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Description of the event. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classEventTemplate_a12c50254d2cd28b4106021189130310a}{id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Special ID of this template. May change during the execution. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classEventTemplate_a8ef78ebe0163f76999fc753b358f2ec6}{more\+People\+Involved\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If more people are involved. Otherwise only one is involved. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classEventTemplate_a5677fb7e910dc0e270448d341aea2545}{roles\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Vector of special role names. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classEventTemplate_a376393360f7b69feb9604194de2c3334}{title\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Title of the event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Template for events. It specifies whether the event includes a date, a place or if more persons are involved and if they have some special roles. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classEventTemplate_a9cbb4ab4bd054d0ec8a7b8e9838e1986}\label{classEventTemplate_a9cbb4ab4bd054d0ec8a7b8e9838e1986} 
+\index{EventTemplate@{EventTemplate}!EventTemplate@{EventTemplate}}
+\index{EventTemplate@{EventTemplate}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{EventTemplate()}{EventTemplate()}}
+{\footnotesize\ttfamily Event\+Template\+::\+Event\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classEventTemplate_a80e2aec54f5a49661a9cd0c162fbe194}\label{classEventTemplate_a80e2aec54f5a49661a9cd0c162fbe194} 
+\index{EventTemplate@{EventTemplate}!containsDate@{containsDate}}
+\index{containsDate@{containsDate}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{containsDate()}{containsDate()}}
+{\footnotesize\ttfamily bool Event\+Template\+::contains\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If the event contains a date or not. \begin{DoxyReturn}{Returns}
+True if it contains a date, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_a05b8997c2f7a65e6c089cc0d3287a7b9}\label{classEventTemplate_a05b8997c2f7a65e6c089cc0d3287a7b9} 
+\index{EventTemplate@{EventTemplate}!containsPlace@{containsPlace}}
+\index{containsPlace@{containsPlace}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{containsPlace()}{containsPlace()}}
+{\footnotesize\ttfamily bool Event\+Template\+::contains\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If the event contains a place or not. \begin{DoxyReturn}{Returns}
+True if the event contains a place, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_aee76f4b3257b3d6f2b2d93abf032a73e}\label{classEventTemplate_aee76f4b3257b3d6f2b2d93abf032a73e} 
+\index{EventTemplate@{EventTemplate}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily const std\+::string \& Event\+Template\+::get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the description of the event. \begin{DoxyReturn}{Returns}
+Constant reference to the description. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_aefe9c6ed3450bc67ac468c796bb49987}\label{classEventTemplate_aefe9c6ed3450bc67ac468c796bb49987} 
+\index{EventTemplate@{EventTemplate}!getId@{getId}}
+\index{getId@{getId}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t Event\+Template\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the ID of this event template. \begin{DoxyReturn}{Returns}
+ID of this event template. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_ad800a0e5e27f6429efe4d8adfe657d98}\label{classEventTemplate_ad800a0e5e27f6429efe4d8adfe657d98} 
+\index{EventTemplate@{EventTemplate}!getRoles@{getRoles}}
+\index{getRoles@{getRoles}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{getRoles()}{getRoles()}}
+{\footnotesize\ttfamily const std\+::vector$<$ std\+::string $>$ \& Event\+Template\+::get\+Roles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the vector of special roles. \begin{DoxyReturn}{Returns}
+Constant reference to the vector of role names. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_a0873fdee51fa8308af18f0419d41ebf6}\label{classEventTemplate_a0873fdee51fa8308af18f0419d41ebf6} 
+\index{EventTemplate@{EventTemplate}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily const std\+::string \& Event\+Template\+::get\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the title of this event. \begin{DoxyReturn}{Returns}
+Constant reference to the title. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_a048de05df8938d79854604a149492fa3}\label{classEventTemplate_a048de05df8938d79854604a149492fa3} 
+\index{EventTemplate@{EventTemplate}!hasMorePeopleInvolved@{hasMorePeopleInvolved}}
+\index{hasMorePeopleInvolved@{hasMorePeopleInvolved}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{hasMorePeopleInvolved()}{hasMorePeopleInvolved()}}
+{\footnotesize\ttfamily bool Event\+Template\+::has\+More\+People\+Involved (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If there is more people involved in this event. \begin{DoxyReturn}{Returns}
+True if more people are involved. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_afc7c763e1d6c8b73b985db163fef1a9f}\label{classEventTemplate_afc7c763e1d6c8b73b985db163fef1a9f} 
+\index{EventTemplate@{EventTemplate}!hasRoles@{hasRoles}}
+\index{hasRoles@{hasRoles}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{hasRoles()}{hasRoles()}}
+{\footnotesize\ttfamily bool Event\+Template\+::has\+Roles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If the event has special roles. \begin{DoxyReturn}{Returns}
+True if special roles were given. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_ac882e5c11b04baf21b0f933d4adfe27e}\label{classEventTemplate_ac882e5c11b04baf21b0f933d4adfe27e} 
+\index{EventTemplate@{EventTemplate}!readJson@{readJson}}
+\index{readJson@{readJson}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Event\+Template\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read the data from JSON. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Given JSON value. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTemplate_adbeae231da0b241620d425f0f88b6826}\label{classEventTemplate_adbeae231da0b241620d425f0f88b6826} 
+\index{EventTemplate@{EventTemplate}!setContainsDate@{setContainsDate}}
+\index{setContainsDate@{setContainsDate}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setContainsDate()}{setContainsDate()}}
+{\footnotesize\ttfamily void Event\+Template\+::set\+Contains\+Date (\begin{DoxyParamCaption}\item[{bool}]{has\+Date }\end{DoxyParamCaption})}
+
+Set if the template contains date or not. 
+\begin{DoxyParams}{Parameters}
+{\em has\+Date} & If the template contains a date. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTemplate_aea913c15676b92202f5e8df14da579db}\label{classEventTemplate_aea913c15676b92202f5e8df14da579db} 
+\index{EventTemplate@{EventTemplate}!setContainsPlace@{setContainsPlace}}
+\index{setContainsPlace@{setContainsPlace}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setContainsPlace()}{setContainsPlace()}}
+{\footnotesize\ttfamily void Event\+Template\+::set\+Contains\+Place (\begin{DoxyParamCaption}\item[{bool}]{has\+Place }\end{DoxyParamCaption})}
+
+Set if the template contains place or not. 
+\begin{DoxyParams}{Parameters}
+{\em has\+Place} & If the template contains a place. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTemplate_a600461aeee8404397cff36af8980fc57}\label{classEventTemplate_a600461aeee8404397cff36af8980fc57} 
+\index{EventTemplate@{EventTemplate}!setDescription@{setDescription}}
+\index{setDescription@{setDescription}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setDescription()}{setDescription()}}
+{\footnotesize\ttfamily std\+::string \& Event\+Template\+::set\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the description of the event by giving the reference to the string. \begin{DoxyReturn}{Returns}
+Reference to the description. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_a7b6c6a50fdf1cb154f6c25d74c36c964}\label{classEventTemplate_a7b6c6a50fdf1cb154f6c25d74c36c964} 
+\index{EventTemplate@{EventTemplate}!setId@{setId}}
+\index{setId@{setId}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Event\+Template\+::set\+Id (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the ID of this event template. 
+\begin{DoxyParams}{Parameters}
+{\em id} & New ID. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTemplate_abe865796656c8c94b2ecf96399e1c9b4}\label{classEventTemplate_abe865796656c8c94b2ecf96399e1c9b4} 
+\index{EventTemplate@{EventTemplate}!setMorePeopleInvolved@{setMorePeopleInvolved}}
+\index{setMorePeopleInvolved@{setMorePeopleInvolved}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setMorePeopleInvolved()}{setMorePeopleInvolved()}}
+{\footnotesize\ttfamily void Event\+Template\+::set\+More\+People\+Involved (\begin{DoxyParamCaption}\item[{bool}]{more\+People }\end{DoxyParamCaption})}
+
+Set if more people are involved in this event. 
+\begin{DoxyParams}{Parameters}
+{\em more\+People} & True if more people are involved. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTemplate_add2990c01cd0daec2db64b736e9572ff}\label{classEventTemplate_add2990c01cd0daec2db64b736e9572ff} 
+\index{EventTemplate@{EventTemplate}!setRoles@{setRoles}}
+\index{setRoles@{setRoles}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setRoles()}{setRoles()}}
+{\footnotesize\ttfamily void Event\+Template\+::set\+Roles (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{roles }\end{DoxyParamCaption})}
+
+Set the roles. 
+\begin{DoxyParams}{Parameters}
+{\em roles} & Vector of all role names. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTemplate_aaf27b8d50a072921635400136aad4c23}\label{classEventTemplate_aaf27b8d50a072921635400136aad4c23} 
+\index{EventTemplate@{EventTemplate}!setTitle@{setTitle}}
+\index{setTitle@{setTitle}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{setTitle()}{setTitle()}}
+{\footnotesize\ttfamily std\+::string \& Event\+Template\+::set\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the title of the event by giving the reference to the string. \begin{DoxyReturn}{Returns}
+Reference to the title. 
+\end{DoxyReturn}
+\Hypertarget{classEventTemplate_a82a6a29b5d8b7c294eb4ff438590586d}\label{classEventTemplate_a82a6a29b5d8b7c294eb4ff438590586d} 
+\index{EventTemplate@{EventTemplate}!str@{str}}
+\index{str@{str}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{str()}{str()}}
+{\footnotesize\ttfamily std\+::string Event\+Template\+::str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Represent event template as a string. \begin{DoxyReturn}{Returns}
+Newly constructed string representing the template. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classEventTemplate_a8bff591aaeb6fd8e9d223922996b1333}\label{classEventTemplate_a8bff591aaeb6fd8e9d223922996b1333} 
+\index{EventTemplate@{EventTemplate}!containsDate\_@{containsDate\_}}
+\index{containsDate\_@{containsDate\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{containsDate\_}{containsDate\_}}
+{\footnotesize\ttfamily bool Event\+Template\+::contains\+Date\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If the event contains a date or not. 
+
+\Hypertarget{classEventTemplate_acb4bf76af61d059b44d79a9237f52c42}\label{classEventTemplate_acb4bf76af61d059b44d79a9237f52c42} 
+\index{EventTemplate@{EventTemplate}!containsPlace\_@{containsPlace\_}}
+\index{containsPlace\_@{containsPlace\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{containsPlace\_}{containsPlace\_}}
+{\footnotesize\ttfamily bool Event\+Template\+::contains\+Place\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If the event contains a place or not. 
+
+\Hypertarget{classEventTemplate_a426b52561a47db99a9e96cf3bc47ee7b}\label{classEventTemplate_a426b52561a47db99a9e96cf3bc47ee7b} 
+\index{EventTemplate@{EventTemplate}!description\_@{description\_}}
+\index{description\_@{description\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{description\_}{description\_}}
+{\footnotesize\ttfamily std\+::string Event\+Template\+::description\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Description of the event. 
+
+\Hypertarget{classEventTemplate_a12c50254d2cd28b4106021189130310a}\label{classEventTemplate_a12c50254d2cd28b4106021189130310a} 
+\index{EventTemplate@{EventTemplate}!id\_@{id\_}}
+\index{id\_@{id\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{id\_}{id\_}}
+{\footnotesize\ttfamily size\+\_\+t Event\+Template\+::id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Special ID of this template. May change during the execution. 
+
+\Hypertarget{classEventTemplate_a8ef78ebe0163f76999fc753b358f2ec6}\label{classEventTemplate_a8ef78ebe0163f76999fc753b358f2ec6} 
+\index{EventTemplate@{EventTemplate}!morePeopleInvolved\_@{morePeopleInvolved\_}}
+\index{morePeopleInvolved\_@{morePeopleInvolved\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{morePeopleInvolved\_}{morePeopleInvolved\_}}
+{\footnotesize\ttfamily bool Event\+Template\+::more\+People\+Involved\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If more people are involved. Otherwise only one is involved. 
+
+\Hypertarget{classEventTemplate_a5677fb7e910dc0e270448d341aea2545}\label{classEventTemplate_a5677fb7e910dc0e270448d341aea2545} 
+\index{EventTemplate@{EventTemplate}!roles\_@{roles\_}}
+\index{roles\_@{roles\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{roles\_}{roles\_}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Event\+Template\+::roles\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vector of special role names. 
+
+\Hypertarget{classEventTemplate_a376393360f7b69feb9604194de2c3334}\label{classEventTemplate_a376393360f7b69feb9604194de2c3334} 
+\index{EventTemplate@{EventTemplate}!title\_@{title\_}}
+\index{title\_@{title\_}!EventTemplate@{EventTemplate}}
+\doxysubsubsection{\texorpdfstring{title\_}{title\_}}
+{\footnotesize\ttfamily std\+::string Event\+Template\+::title\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Title of the event. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{config_8h}{config.\+h}}\item 
+core/\mbox{\hyperlink{config_8cpp}{config.\+cpp}}\end{DoxyCompactItemize}

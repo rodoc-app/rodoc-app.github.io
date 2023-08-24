@@ -1,0 +1,136 @@
+\doxysection{Tag\+Chooser\+Dialog Class Reference}
+\hypertarget{classTagChooserDialog}{}\label{classTagChooserDialog}\index{TagChooserDialog@{TagChooserDialog}}
+
+
+Dialog for editing or creating tags for a person.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Tag\+Chooser\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d03/classTagChooserDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTagChooserDialog_a0392fcb44e6acd7b276cf14133c5b5e9}{change\+Visible\+Widgets}} (int index)
+\item 
+void \mbox{\hyperlink{classTagChooserDialog_a961405d60a6678f794238805e29d5a5e}{save\+Tag}} ()
+\begin{DoxyCompactList}\small\item\em Save the tag. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTagChooserDialog_a1912a49ff0bc8e5b215e0bb213de3662}{Tag\+Chooser\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, const QString \&tag, const QString \&value, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classTagChooserDialog_a3e7fc73111f6c43a1c98f09c2e5d03a2}{\texorpdfstring{$\sim$}{\string~}\+Tag\+Chooser\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classTagChooserDialog_a70e88a6528f3c2a7f2d40fe08ca4fbfd}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classTagChooserDialog_a03168dd5f656027d3a546f7eddab3bc1}{new\+One\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If the tag is being edited or new one is being created. \end{DoxyCompactList}\item 
+Ui\+::\+Tag\+Chooser\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classTagChooserDialog_a36eee04ff3a1597d9559b611d20681b8}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for editing or creating tags for a person. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classTagChooserDialog_a1912a49ff0bc8e5b215e0bb213de3662}\label{classTagChooserDialog_a1912a49ff0bc8e5b215e0bb213de3662} 
+\index{TagChooserDialog@{TagChooserDialog}!TagChooserDialog@{TagChooserDialog}}
+\index{TagChooserDialog@{TagChooserDialog}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{TagChooserDialog()}{TagChooserDialog()}}
+{\footnotesize\ttfamily Tag\+Chooser\+Dialog\+::\+Tag\+Chooser\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{const QString \&}]{tag,  }\item[{const QString \&}]{value,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em tag} & What to show as a tag. \\
+\hline
+{\em value} & What to show as a value of the tag. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classTagChooserDialog_a3e7fc73111f6c43a1c98f09c2e5d03a2}\label{classTagChooserDialog_a3e7fc73111f6c43a1c98f09c2e5d03a2} 
+\index{TagChooserDialog@{TagChooserDialog}!````~TagChooserDialog@{\texorpdfstring{$\sim$}{\string~}TagChooserDialog}}
+\index{````~TagChooserDialog@{\texorpdfstring{$\sim$}{\string~}TagChooserDialog}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}TagChooserDialog()}{\string~TagChooserDialog()}}
+{\footnotesize\ttfamily Tag\+Chooser\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Tag\+Chooser\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classTagChooserDialog_a0392fcb44e6acd7b276cf14133c5b5e9}\label{classTagChooserDialog_a0392fcb44e6acd7b276cf14133c5b5e9} 
+\index{TagChooserDialog@{TagChooserDialog}!changeVisibleWidgets@{changeVisibleWidgets}}
+\index{changeVisibleWidgets@{changeVisibleWidgets}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{changeVisibleWidgets}{changeVisibleWidgets}}
+{\footnotesize\ttfamily void Tag\+Chooser\+Dialog\+::change\+Visible\+Widgets (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Slot for showing/hiding custom tag edit. 
+\begin{DoxyParams}{Parameters}
+{\em index} & Which index was from the combo box chosen. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classTagChooserDialog_a961405d60a6678f794238805e29d5a5e}\label{classTagChooserDialog_a961405d60a6678f794238805e29d5a5e} 
+\index{TagChooserDialog@{TagChooserDialog}!saveTag@{saveTag}}
+\index{saveTag@{saveTag}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{saveTag}{saveTag}}
+{\footnotesize\ttfamily void Tag\+Chooser\+Dialog\+::save\+Tag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save the tag. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classTagChooserDialog_a70e88a6528f3c2a7f2d40fe08ca4fbfd}\label{classTagChooserDialog_a70e88a6528f3c2a7f2d40fe08ca4fbfd} 
+\index{TagChooserDialog@{TagChooserDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Tag\+Chooser\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classTagChooserDialog_a03168dd5f656027d3a546f7eddab3bc1}\label{classTagChooserDialog_a03168dd5f656027d3a546f7eddab3bc1} 
+\index{TagChooserDialog@{TagChooserDialog}!newOne\_@{newOne\_}}
+\index{newOne\_@{newOne\_}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{newOne\_}{newOne\_}}
+{\footnotesize\ttfamily bool Tag\+Chooser\+Dialog\+::new\+One\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If the tag is being edited or new one is being created. 
+
+\Hypertarget{classTagChooserDialog_a36eee04ff3a1597d9559b611d20681b8}\label{classTagChooserDialog_a36eee04ff3a1597d9559b611d20681b8} 
+\index{TagChooserDialog@{TagChooserDialog}!ui@{ui}}
+\index{ui@{ui}!TagChooserDialog@{TagChooserDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Tag\+Chooser\+Dialog\texorpdfstring{$\ast$}{*} Tag\+Chooser\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

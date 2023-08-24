@@ -1,0 +1,386 @@
+\doxysection{core/strings.h File Reference}
+\hypertarget{strings_8h}{}\label{strings_8h}\index{core/strings.h@{core/strings.h}}
+
+
+Is file containing all English strings.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceperson}{person}}
+\begin{DoxyCompactList}\small\item\em Namespace for strings related to a person. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespacetagchooser}{tagchooser}}
+\begin{DoxyCompactList}\small\item\em Namespace for strings shown in tag chooser dialog. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespaceaddfile}{addfile}}
+\begin{DoxyCompactList}\small\item\em Namespace for strings shown in add file dialog. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespacebutton}{button}}
+\begin{DoxyCompactList}\small\item\em Namespace for general texts on buttons. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespaceerror}{error}}
+\begin{DoxyCompactList}\small\item\em Namespace for errors and exceptions messages. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespacerelation}{relation}}
+\begin{DoxyCompactList}\small\item\em Namespace for strings for default relations. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespaceevents}{events}}
+\begin{DoxyCompactList}\small\item\em Namespace for strings for default events. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespacehtml}{html}}
+\begin{DoxyCompactList}\small\item\em Namespace for html tags and everything with html. \end{DoxyCompactList}\item 
+namespace \mbox{\hyperlink{namespacejsonlabel}{jsonlabel}}
+\begin{DoxyCompactList}\small\item\em Namespace for all JSON labels. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const std\+::string \mbox{\hyperlink{strings_8h_aefd49a74af3b4afc27512f639bcc336f}{EMPTY\+\_\+\+STRING}} = \"{}\"{}
+\begin{DoxyCompactList}\small\item\em Empty string. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceperson_aaf716b3c49aab658a9fc39edd93d3b77}{person\+::\+UNKNOWN\+\_\+\+STR}} = \"{}Unknown\"{}
+\begin{DoxyCompactList}\small\item\em String for unknown tags. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceperson_ae34618855c7397ab58243502b4c6d18f}{person\+::\+SURNAME\+\_\+\+STR}} = \"{}Surname\"{}
+\begin{DoxyCompactList}\small\item\em String for default surname. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceperson_aa39c2efaeb5eb557dfaac8dd42d2522c}{person\+::\+NAME\+\_\+\+STR}} = \"{}Name\"{}
+\begin{DoxyCompactList}\small\item\em String for default name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceperson_a6b09fd2f87482bec2d625e217c803ecc}{person\+::\+ROOT}} = \"{}root\"{}
+\begin{DoxyCompactList}\small\item\em String for default root directories. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceperson_a6d106c9842b30985968aa3ce2b476c00}{person\+::\+DATE\+\_\+\+FROM}} = \"{}From\+: \"{}
+\begin{DoxyCompactList}\small\item\em String for date interval from. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceperson_ac10c40e7a401a8d6204b2605116b6737}{person\+::\+DATE\+\_\+\+TO}} = \"{} to\+: \"{}
+\begin{DoxyCompactList}\small\item\em String for date interval to. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacetagchooser_a7838a00ea487462ef5089e121aff0f58}{tagchooser\+::\+CUSTOM\+\_\+\+TAG}} = \"{}+ Custom tag\"{}
+\begin{DoxyCompactList}\small\item\em Last custom tag choice. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceaddfile_a3a12b2c9ed2e92fb9a0bc5015a81d71e}{addfile\+::\+NONE}} = \"{}None\"{}
+\begin{DoxyCompactList}\small\item\em String for no extension. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacebutton_a79df7037c483076d895270598c4c748c}{button\+::\+ADD\+\_\+\+NEW}} = \"{}Add new\"{}
+\begin{DoxyCompactList}\small\item\em Text for adding new element. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacebutton_a11a03a330af5a5cc4ac36dd6b18d5913}{button\+::\+CANCEL}} = \"{}Cancel\"{}
+\begin{DoxyCompactList}\small\item\em Text for cancelling. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacebutton_adf10990dc342dbf828ea8e0c159414f7}{button\+::\+REMOVE}} = \"{}Remove\"{}
+\begin{DoxyCompactList}\small\item\em text for removing element. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_a44d0a9f8aa2160cace94a4764312ce2a}{error\+::\+UNKNOWN\+\_\+\+EXCEP\+\_\+\+STR}} = \"{}Unknown exception catch.\"{}
+\begin{DoxyCompactList}\small\item\em String for catching unknown exception. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_ad4f329640d531152675f4afc6bc80557}{error\+::\+EXCEPTION\+\_\+\+STR}} = \"{}Exception\+: \"{}
+\begin{DoxyCompactList}\small\item\em String for adding before exception description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_ab37556544dd781d3f6c5d3a5ec3d83c1}{error\+::\+CORRUPTED\+\_\+\+DATABASE}} = \"{}Given database is corrupted\+: \"{}
+\begin{DoxyCompactList}\small\item\em String shown when database is corrupted. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_aa131b6e4dc34df1239f9ff7965a8a367}{error\+::\+EMPTY\+\_\+\+BOXES}} = \"{}All boxes must not be empty.\"{}
+\begin{DoxyCompactList}\small\item\em String for showing that some boxes were left empty. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_a4e3a09ad93a03885509bc2e3337ec88d}{error\+::\+NO\+\_\+\+CHOSEN\+\_\+\+FILE}} = \"{}No file was chosen.\"{}
+\begin{DoxyCompactList}\small\item\em No file chosen and empty box. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_acf665a76438c7865a88c375ea1174fec}{error\+::\+NO\+\_\+\+ROLE}} = \"{}Given role \textquotesingle{}no role\textquotesingle{} cannot be used. It would be considered as no special role.\"{}
+\begin{DoxyCompactList}\small\item\em When person tries to add \"{}no role\"{} role, which is allocated for no roles. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceerror_a7ddec56158745b8060a062b2b07fab9c}{error\+::\+FORBIDDEN\+\_\+\+CHARS}} = \"{}Text cannot contain forbidden characters. \&lt; \&gt; \textbackslash{}\"{}\"{}
+\begin{DoxyCompactList}\small\item\em When in any box where inserted forbidden characters. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ac7cf0b37661da2f7d125852692dd0d50}{relation\+::\+FATHERHOOD}} = \"{}Fatherhood\"{}
+\begin{DoxyCompactList}\small\item\em String for Fatherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a23733f116e3e0685e64500794526ac2d}{relation\+::\+FATHERHOOD\+\_\+\+DESC}} = \"{}Relation between father and his child.\"{}
+\begin{DoxyCompactList}\small\item\em String for Fatherhood description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_acd1436bd4e962e98b37d501a63d7ca80}{relation\+::\+FATHER}} = \"{}Father\"{}
+\begin{DoxyCompactList}\small\item\em String for father. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a36082f0dafc3f49028bc05162b00e87e}{relation\+::\+CHILD}} = \"{}Child\"{}
+\begin{DoxyCompactList}\small\item\em String for child. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a072d048d3db9dfec4d47417d6fb80142}{relation\+::\+MOTHERHOOD}} = \"{}Motherhood\"{}
+\begin{DoxyCompactList}\small\item\em String for Motherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ad7dd8a1d0831d555f7a368e3543885f4}{relation\+::\+MOTHERHOOD\+\_\+\+DESC}} = \"{}Relation between mother and her child.\"{}
+\begin{DoxyCompactList}\small\item\em String for Motherhood description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ad73dac9cb4e50c8e0fdadef6123ba087}{relation\+::\+MOTHER}} = \"{}Mother\"{}
+\begin{DoxyCompactList}\small\item\em String for mother. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_af62335ea39a1e38e7b28cf6a588ae33c}{relation\+::\+PARTNERSHIP}} = \"{}Partnership\"{}
+\begin{DoxyCompactList}\small\item\em String for Partnership. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a87a4e2093d859f2a3c062c5353a7696c}{relation\+::\+PARTNERSHIP\+\_\+\+DESC}} = \"{}Relation between two partners.\"{}
+\begin{DoxyCompactList}\small\item\em String for description of partnership. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ae5707eec5f36c4367be7d91236c09938}{relation\+::\+PARTNER}} = \"{}Partner\"{}
+\begin{DoxyCompactList}\small\item\em String for partner. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ac9e708f3475333b418b9fb3f65cf9f9c}{relation\+::\+MARRIAGE}} = \"{}Marriage\"{}
+\begin{DoxyCompactList}\small\item\em String for Marriage. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ad9edebd4b623a49282644de9f166e76b}{relation\+::\+MARRIAGE\+\_\+\+DESC}} = \"{}Bound by law between two people. Usually a man (husband) and a woman (wife).\"{}
+\begin{DoxyCompactList}\small\item\em String for Marriage description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a79ba053d1d8c1182500fa8e39aa974fb}{relation\+::\+WIFE}} = \"{}Wife\"{}
+\begin{DoxyCompactList}\small\item\em String for wife. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ab39a163245a0fa2751ae7351b2ce3f28}{relation\+::\+HUSBAND}} = \"{}Husband\"{}
+\begin{DoxyCompactList}\small\item\em String for husband. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ac277b41a02bb1f23114b73e073118d82}{relation\+::\+ADOPTIVE\+\_\+\+FATHERHOOD}} = \"{}Adoptive fatherhood\"{}
+\begin{DoxyCompactList}\small\item\em String for title for adoptive fatherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a5d16793f3a48903d80c19b939705ca70}{relation\+::\+DESC\+\_\+\+ADOPTIVE\+\_\+\+FATHERHOOD}} = \"{}Fatherhood provided by adopting a child.\"{}
+\begin{DoxyCompactList}\small\item\em String for description for adoptive fatherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_acabd9be9bb9e2be3d5a015c200f630ca}{relation\+::\+ADOPTIVE\+\_\+\+FATHER}} = \"{}Adoptive father\"{}
+\begin{DoxyCompactList}\small\item\em String for adoptive father. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a38b10fd0478ffe0aff7785776b966d8c}{relation\+::\+ADOPTED\+\_\+\+CHILD}} = \"{}Adopted child\"{}
+\begin{DoxyCompactList}\small\item\em String for adopted child. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a0b421fd3eed7d815c8a3f485d6a61af7}{relation\+::\+ADOPTIVE\+\_\+\+MOTHERHOOD}} = \"{}Adoptive motherhood\"{}
+\begin{DoxyCompactList}\small\item\em String for title for adoptive motherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a22605542f3c015bc5516ef09d3bba982}{relation\+::\+DESC\+\_\+\+ADOPTIVE\+\_\+\+MOTHERHOOD}} = \"{}Motherhood provided by adopting a child.\"{}
+\begin{DoxyCompactList}\small\item\em String for description for adoptive motherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_ac6d2616e9d657f1eb6269d9b7f33c1a8}{relation\+::\+ADOPTIVE\+\_\+\+MOTHER}} = \"{}Adoptive mother\"{}
+\begin{DoxyCompactList}\small\item\em String for adoptive father. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_aed1ffcb5c797bf643a5dfb405a12affd}{relation\+::\+BROTHERHHOD}} = \"{}Brotherhood\"{}
+\begin{DoxyCompactList}\small\item\em String for brotherhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_acea3ca123e2324193d81a6148e9a65df}{relation\+::\+DESC\+\_\+\+BROTHERHOOD}} = \"{}Relation between two brothers.\"{}
+\begin{DoxyCompactList}\small\item\em String for brotherhood description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a426cb7328f913aa0302b7882220223a5}{relation\+::\+BROTHER}} = \"{}Brother\"{}
+\begin{DoxyCompactList}\small\item\em String for brother. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a65e5758791cb5977f3ca86bcad47c4fa}{relation\+::\+SISTERHOOD}} = \"{}Sisterhood\"{}
+\begin{DoxyCompactList}\small\item\em String for sisterhood. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_af4d2d8c7ad14403c22c159804230f051}{relation\+::\+DESC\+\_\+\+SISTERHOOD}} = \"{}Relation between two sisters.\"{}
+\begin{DoxyCompactList}\small\item\em String for sisterhood description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a5154b460b58e1e743502dc864c3c13d8}{relation\+::\+SISTER}} = \"{}Sister\"{}
+\begin{DoxyCompactList}\small\item\em String for sister. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a2bc24bb59a472f5888a99ba7fa333d8d}{relation\+::\+SIBLINGS}} = \"{}Siblings\"{}
+\begin{DoxyCompactList}\small\item\em String for siblings. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacerelation_a058c59d5f993a5ef445dfac2f5414c09}{relation\+::\+DESC\+\_\+\+SIBLINGS}} = \"{}Relation between brother and sister.\"{}
+\begin{DoxyCompactList}\small\item\em String for siblings description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_ae9df5293c34b27a7568a307810e3e109}{events\+::\+WEDDING}} = \"{}Wedding\"{}
+\begin{DoxyCompactList}\small\item\em String for wedding. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a54124c0914fd6daddc508dfd68671b31}{events\+::\+DESC\+\_\+\+WEDDING}} = \"{}A social event mainly between soon to be wife and husband.\"{}
+\begin{DoxyCompactList}\small\item\em String for description of wedding. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_aebf444430cff1a0dff9da71634845712}{events\+::\+GROOM}} = \"{}Groom\"{}
+\begin{DoxyCompactList}\small\item\em String for groom. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a5b5413982e166874ec06bfc3f21443b2}{events\+::\+BRIDE}} = \"{}Bride\"{}
+\begin{DoxyCompactList}\small\item\em String for bride. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a4782949adfc0018976d927cfc87b69c5}{events\+::\+BEST\+\_\+\+MAN}} = \"{}Best man\"{}
+\begin{DoxyCompactList}\small\item\em String for best man. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a9da407d09159c77d631eae592c57adf4}{events\+::\+MAID\+\_\+\+OF\+\_\+\+HONOR}} = \"{}Maid of Honor\"{}
+\begin{DoxyCompactList}\small\item\em String for maid of honor. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a9b55f47ab68b93986d94bc092f054551}{events\+::\+DIVORCE}} = \"{}Divorce\"{}
+\begin{DoxyCompactList}\small\item\em String for divorce. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_acfa0e4be5f7b4dea1a8a3768502a068c}{events\+::\+DESC\+\_\+\+DIVORCE}} = \"{}Divorce is the process of terminating a marriage or marital union.\"{}
+\begin{DoxyCompactList}\small\item\em String for divorce description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a9d0ed181e323dcb49047bad30fbc4545}{events\+::\+FORMER\+\_\+\+HUSBAND}} = \"{}Former husband\"{}
+\begin{DoxyCompactList}\small\item\em String for former husband. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_abbc140aac8bfcae5b30d108498a4f0b7}{events\+::\+FORMER\+\_\+\+WIFE}} = \"{}Former wife\"{}
+\begin{DoxyCompactList}\small\item\em String for former wife. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a414975df6ebbc5c5b813a55ee6d8c66a}{events\+::\+FUNERAL}} = \"{}Funeral\"{}
+\begin{DoxyCompactList}\small\item\em String for funeral. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_ae0e10dbb194fa66abdea031f15f02d4e}{events\+::\+DESC\+\_\+\+FUNERAL}} = \"{}A funeral is a ceremony connected with the final disposition of a corpse, such as a burial or cremation, with the attendant observances.\"{}
+\begin{DoxyCompactList}\small\item\em String for funeral description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a58a74b82479fefb7033d2103f21ea6de}{events\+::\+DEAD\+\_\+\+PERSON}} = \"{}Dead person\"{}
+\begin{DoxyCompactList}\small\item\em String for dead person. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a92cbf048cd09b15114b316f1f91a6a5e}{events\+::\+GRADUATION}} = \"{}Graduation\"{}
+\begin{DoxyCompactList}\small\item\em String for graduation. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a9e8b611f4e58bd662b791d0c21b307f8}{events\+::\+DESC\+\_\+\+GRADUATION}} = \"{}Graduation is the awarding of a diploma to a student by an educational institution.\"{}
+\begin{DoxyCompactList}\small\item\em String for graduation description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a78db4b129aa0dfcce53590e5a491a4c9}{events\+::\+GRADUATE}} = \"{}Graduate\"{}
+\begin{DoxyCompactList}\small\item\em String for graduate. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceevents_a5f4da347a69ca7e764cf1982bd419109}{events\+::\+NO\+\_\+\+ROLE}} = \"{}no role\"{}
+\begin{DoxyCompactList}\small\item\em String for no role in event. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_af5a34d564cbef308beafc86637db15f3}{html\+::\+RESOURCES}} = \"{}resources\"{}
+\begin{DoxyCompactList}\small\item\em Where will resources be saved. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_acf0053cda1390bfd2ce39eb04abe01bb}{html\+::\+PREFIX\+\_\+\+CLOSE}} = \"{}/close-\/\"{}
+\begin{DoxyCompactList}\small\item\em Prefix for close family diagram. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_af2fbeec06af95daef7127e817d1bdcb2}{html\+::\+PREFIX\+\_\+\+FAMILY\+\_\+\+TREE}} = \"{}/tree-\/\"{}
+\begin{DoxyCompactList}\small\item\em Prefix for family tree diagram. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a65b28b18f5a26ee42c1ba9956c35a339}{html\+::\+CUSTOM\+\_\+\+CSS}} = \"{}styles.\+css\"{}
+\begin{DoxyCompactList}\small\item\em Custom CSS file name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_aca730c5f28edffecc97a37b3206c0a94}{html\+::\+GENERAL\+\_\+\+INFO}} = \"{}General information\"{}
+\begin{DoxyCompactList}\small\item\em General information. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a2f804e9782cffd35cd5e2504b65bee64}{html\+::\+BIRTH\+\_\+\+DATE}} = \"{}Birth date\+: \"{}
+\begin{DoxyCompactList}\small\item\em Birth date. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_aa4e603d3d618ddef716c4f735876d640}{html\+::\+BIRTH\+\_\+\+PLACE}} = \"{}Birth place\+: \"{}
+\begin{DoxyCompactList}\small\item\em Birth place. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_acf961889796216172525c444aa96c3bf}{html\+::\+DEATH\+\_\+\+DATE}} = \"{}Date of death\+: \"{}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDate}{Date} of death. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a59e1df31d07b419a9859e3027609fd74}{html\+::\+DEATH\+\_\+\+PLACE}} = \"{}Place of death\+: \"{}
+\begin{DoxyCompactList}\small\item\em Place of death. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_ad7bc5f98b17851e97f58ae01c6b6fa69}{html\+::\+GENDER}} = \"{}Gender\+: \"{}
+\begin{DoxyCompactList}\small\item\em Gender. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_aad1929b60509d94657ed4328cd2e55b8}{html\+::\+CUSTOM\+\_\+\+TAGS}} = \"{}Custom tags\+:\"{}
+\begin{DoxyCompactList}\small\item\em Custom tags. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_acd7ee7aa1be1cdaa330085ba3fb13f7d}{html\+::\+DESCRIPTION}} = \"{}Description\+:\"{}
+\begin{DoxyCompactList}\small\item\em Description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a2c065394554381f343347eb8a68117d9}{html\+::\+NOTE}} = \"{}Note\+:\"{}
+\begin{DoxyCompactList}\small\item\em Note. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_af3516461fc772f196bbba188bd99094c}{html\+::\+DATE}} = \"{}Date\+: \"{}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDate}{Date}. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a7cfcba0c7249ed0d0cbf49f8cccb0366}{html\+::\+PLACE}} = \"{}Place\+: \"{}
+\begin{DoxyCompactList}\small\item\em Place. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a987b88ff55f1b3018169da718d561225}{html\+::\+PERSONS}} = \"{}Persons\+:\"{}
+\begin{DoxyCompactList}\small\item\em Persons. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a87c472521653aca3ac15c234979fa1cf}{html\+::\+ALL\+\_\+\+PERSONS}} = \"{}All persons\"{}
+\begin{DoxyCompactList}\small\item\em All persons. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_ac16829145c43bf5aa398a184630f1b95}{html\+::\+EVENTS}} = \"{}Events\"{}
+\begin{DoxyCompactList}\small\item\em Events. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_afca5696d0ca7498922a7bd8ccd3b9cde}{html\+::\+FAMILY\+\_\+\+TREE}} = \"{}Family tree\"{}
+\begin{DoxyCompactList}\small\item\em Family tree. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a0583a572ca049146136a103f0a5d1c2a}{html\+::\+FAMILY\+\_\+\+TREE\+\_\+\+DIAGRAM}} = \"{}Family tree diagram\"{}
+\begin{DoxyCompactList}\small\item\em Family tree diagram. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a374562be55137d4988b20941ed4a268a}{html\+::\+RELATIONS}} = \"{}Relations\"{}
+\begin{DoxyCompactList}\small\item\em Relations. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_a24f82d8b60c4fe1d1a3c3c8c5c1b0866}{html\+::\+CLOSE\+\_\+\+FAMILY}} = \"{}Close family\"{}
+\begin{DoxyCompactList}\small\item\em Close family. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacehtml_af2d35dcbf60c175e727bf309c03723d6}{html\+::\+CLOSE\+\_\+\+FAMILY\+\_\+\+DIAGRAM}} = \"{}Close family diagram\"{}
+\begin{DoxyCompactList}\small\item\em Close family diagram. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae6fa4c0c03ba1cd048f51cae06145312}{jsonlabel\+::\+TITLE}} = \"{}title\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for title. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a5a6aa47a55506035135a467b48a64672}{jsonlabel\+::\+ID}} = \"{}id\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for id. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a613e18f997baee0dc7c4bfe822ba6bc5}{jsonlabel\+::\+DESCRIPTION}} = \"{}description\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for description. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ac4085e7bbc04bba41fd8a64412f16e62}{jsonlabel\+::\+CONTAINS\+\_\+\+DATE}} = \"{}contains date\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for if the event contains a date or not. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a89df135cb186c8a643eca3039bf07782}{jsonlabel\+::\+MORE\+\_\+\+PEOPLE}} = \"{}more people\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for if the event contains more people. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0c0c297f0a823f132d768286d97aef00}{jsonlabel\+::\+SPECIAL\+\_\+\+ROLES}} = \"{}special roles\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for if the event has special roles. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_af19ee18220ee72f3bbeb8767ed0581e8}{jsonlabel\+::\+NAME}} = \"{}name\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a05c82cb0df55fac261b0467ea2779f07}{jsonlabel\+::\+FIRST\+\_\+\+NAME}} = \"{}first name\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for first name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_abf122ffb2e0010a30bcb1e6a89d5d2d8}{jsonlabel\+::\+SECOND\+\_\+\+NAME}} = \"{}second name\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for second name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a7d3df959bb6d6e6c30a48e06257e7aaf}{jsonlabel\+::\+TRAIT}} = \"{}trait\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for trait. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0342469a818a3b71c774de8dddd0a325}{jsonlabel\+::\+GEN\+\_\+\+DIFF}} = \"{}generation difference\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for generation difference. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae9bc0afa2ba89670a34aeb1a272fe96c}{jsonlabel\+::\+REL\+\_\+\+TEMPL}} = \"{}relation templates\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for relations templates. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a06475d85417ef82f4310debec7105fca}{jsonlabel\+::\+EVE\+\_\+\+TEMPL}} = \"{}event templates\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for event templates. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a9411ac7704a8fcc4cd7b8b98bc963068}{jsonlabel\+::\+TYPE}} = \"{}type\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for type. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a391cc426ed5f2cc0d1174304ec0d5ac8}{jsonlabel\+::\+DATE}} = \"{}date\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for date. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae604e6aa1f81d9a03c2618bbfd5491e7}{jsonlabel\+::\+LAST\+\_\+\+DATE}} = \"{}last date\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for last date. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a22a683d047a116674e9568dfef7eed18}{jsonlabel\+::\+TEXT}} = \"{}text\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for text. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae7ca4f720dba7b82767bf84db2626aac}{jsonlabel\+::\+TAGS}} = \"{}tags\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for tags. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a26f0bbe7f45e2c16747c37dea6e5bd0f}{jsonlabel\+::\+TAG}} = \"{}tag\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for single tag. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ad76834c31cd937a3e91934ff15287324}{jsonlabel\+::\+RELATIONS}} = \"{}relations\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for relations. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aa93a9c646821e91b4b526a61aaf35da0}{jsonlabel\+::\+EVENTS}} = \"{}events\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for events. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0e275c2e0364c6a598dd331acece9aa6}{jsonlabel\+::\+SURNAME}} = \"{}surname\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for surname. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aab4c69e3f378121fa3241cf239abc03c}{jsonlabel\+::\+MAIDEN\+\_\+\+NAME}} = \"{}maiden name\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for maiden name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a688b738d75e5a44cca359535364d6945}{jsonlabel\+::\+VALUE}} = \"{}value\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for value. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_af84a883c08f28baace45d24e3184ca77}{jsonlabel\+::\+BIRTH}} = \"{}birth\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for birth. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a66e0e479d075864419ad715d2726a628}{jsonlabel\+::\+DEATH}} = \"{}death\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for death. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae9baea46021ce7f032be534b72817555}{jsonlabel\+::\+VIRTUAL\+\_\+\+DRIVE}} = \"{}virtual drive\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for virtual drive. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a88a3ad871b23922bbf7992b126cafbb9}{jsonlabel\+::\+MEDIA}} = \"{}media\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for media. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aa9dedba89cfb8b150aa38d2fed85ce39}{jsonlabel\+::\+NOTES}} = \"{}notes\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for notes. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ad7ac1939f6c81eed59c272795ccc6b45}{jsonlabel\+::\+FILES}} = \"{}files\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for files. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_adf59023a1e3644fb5402d0de0e921a32}{jsonlabel\+::\+PERSONS}} = \"{}persons\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for persons. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a8dfb4e9ddd107448034c7a3578c915d9}{jsonlabel\+::\+TEMPLATE}} = \"{}template\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for for template. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a896fa747430a5f2ede28796abd7598f0}{jsonlabel\+::\+TEMPLATES}} = \"{}templates\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for for templates. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae6e87f1b81121f2d8e913e621d36ab53}{jsonlabel\+::\+FIRST\+\_\+\+PERSON}} = \"{}first person\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for first person. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_abc8adcfefe378cbb990f16f2ec556a6b}{jsonlabel\+::\+SECOND\+\_\+\+PERSON}} = \"{}second person\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for second person. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a534e81277fa2aebd9679a3c4bbce3a4e}{jsonlabel\+::\+PLACE}} = \"{}place\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for place. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ac04d7595edd2a2cf3fbe9794f8ade497}{jsonlabel\+::\+ROLE}} = \"{}role\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for role. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ad5eaa7b0c3563af53a84aab510a7ff94}{jsonlabel\+::\+PERSON}} = \"{}person\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for person. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a827bd570f2904d309d611afa9f5792ed}{jsonlabel\+::\+GENDER}} = \"{}gender\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for gender. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a8613b4f30a8f0db1f62edc3cd53ea2ff}{jsonlabel\+::\+LIVES}} = \"{}lives\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for if the person lives or not. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a43ce1cd51cfddf71c4edb489d9e178e8}{jsonlabel\+::\+FRONT\+\_\+\+TITLE}} = \"{}title in front\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for title in front of a name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a3bf450dc81ba171fa5e756e7752534aa}{jsonlabel\+::\+AFTER\+\_\+\+TITLE}} = \"{}title after\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for title after the name. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a15a9bd71c6abca327efd8e713f3848ad}{jsonlabel\+::\+FATHER}} = \"{}father\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for father. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aa96e940fda0eb4373869270ff7acdae4}{jsonlabel\+::\+MOTHER}} = \"{}mother\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for mother. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a903d1c94ecdf10d497ad310d3f3580f0}{jsonlabel\+::\+PARTNER}} = \"{}partner\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for partner. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_adb0fe1342b6c9244f263c6f670b1836b}{jsonlabel\+::\+MOVEABLE\+\_\+\+TABS}} = \"{}moveable tabs\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for setting moveable tabs. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aec532fa430e4f97336db3065442f0023}{jsonlabel\+::\+TAB\+\_\+\+POSITION}} = \"{}tab position\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for tab position. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae4f20c80cf2eb74a29d7f2bb066ce393}{jsonlabel\+::\+GLOBAL\+\_\+\+MAIN\+\_\+\+PERSON}} = \"{}global \mbox{\hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} person\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for global main person. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ab925e4aaf10f40f197b35d93cb95e9a7}{jsonlabel\+::\+CONTAINS\+\_\+\+PLACE}} = \"{}contains place\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label if an event template contains a place. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0ce1ed309a57b9ba881036810412b8a8}{jsonlabel\+::\+SHOW\+\_\+\+GENERAL\+\_\+\+TAB}} = \"{}show general tab\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings if general tab should be visible. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a90c9b90dd46954d8e589f3bfb5096112}{jsonlabel\+::\+SHOW\+\_\+\+EVENT\+\_\+\+TAB}} = \"{}show event tab\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings if event tab should be visible. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a06aa8a661760172233ad7bff0070cb92}{jsonlabel\+::\+SHOW\+\_\+\+FILE\+\_\+\+TAB}} = \"{}show file tab\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings if file tab should be visible. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0a4e1cb34366493f88dccb3784374d0d}{jsonlabel\+::\+SHOW\+\_\+\+MEDIA\+\_\+\+TAB}} = \"{}show media tab\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings if media tab should be visible. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a56f15ca608d06cfc3142afaa5fa0c467}{jsonlabel\+::\+SHOW\+\_\+\+NOTE\+\_\+\+TAB}} = \"{}show note tab\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings if note tab should be visible. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ab44133cde61aae239abfd30093f41f61}{jsonlabel\+::\+SHOW\+\_\+\+RELATION\+\_\+\+TAB}} = \"{}show relation tab\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings if relation tab should be visible. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a624ed7683c164bf260b882c56d25aed3}{jsonlabel\+::\+APP\+\_\+\+SETTINGS}} = \"{}app settings\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for app settings. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a94ec130080e485c44f370523ad7844f4}{jsonlabel\+::\+DRIVES}} = \"{}drives\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for drives. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_acb13120452c1b61ed60dce86c44badde}{jsonlabel\+::\+EXPORT}} = \"{}export\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for export. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a2ee04aaf6c2f18d67afe10d5ca22ca3e}{jsonlabel\+::\+RED}} = \"{}red\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for red. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ad9738e9ee5a050bf400f3d708496d68e}{jsonlabel\+::\+BLUE}} = \"{}blue\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for blue. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ac6a8c7b197e7caf1e843f3f3cafe07aa}{jsonlabel\+::\+GREEN}} = \"{}green\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for green. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0d1b6c6b6ef0a70f7773613525c0698b}{jsonlabel\+::\+FONT\+\_\+\+FAMILY}} = \"{}font family\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for font family. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ac055a754cac534843f013528c7760ba2}{jsonlabel\+::\+FONT\+\_\+\+SIZE}} = \"{}font size\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for font size. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aad6edbb262d36a4a7ac0389a26e5e7d8}{jsonlabel\+::\+HIGHLIGHTED\+\_\+\+COLOR}} = \"{}highlighted color\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label highlighted color. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aeec391e5975f8d3090c850fa835a3928}{jsonlabel\+::\+PROBANT\+\_\+\+COLOR}} = \"{}proband color\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for proband color. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a5aa6860b4cd3f3a7b8649ff80a6e5e3a}{jsonlabel\+::\+PROMOTED\+\_\+\+COLOR}} = \"{}promoted color\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label promoted color. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a0b6ad0e70f6bfb95f83f85eeb1a43646}{jsonlabel\+::\+STANDARD\+\_\+\+COLOR}} = \"{}standard color\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label standard color. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a24533d07785e53167681fc86c7587165}{jsonlabel\+::\+X\+\_\+\+SIZE}} = \"{}x size\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for size in the x axis. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a20b737ed4bb9c886708eea67b27def2b}{jsonlabel\+::\+Y\+\_\+\+SIZE}} = \"{}y size\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for size in the y axis. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ae2792da38992ac47f774b0f7b50971fd}{jsonlabel\+::\+GEN\+\_\+\+SIZE\+\_\+\+UP}} = \"{}number of generations up\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for how many generations are being shown upwards. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a3e4fdf0eb3c92f0a059516053aa8d950}{jsonlabel\+::\+GEN\+\_\+\+SIZE\+\_\+\+DOWN}} = \"{}number of generations down\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for how many generations are being shown downwards. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a4cb9beba87b4c42411b90882e0a79b28}{jsonlabel\+::\+DIR}} = \"{}dir\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for directory. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_aead0efe143c7e80222ebc4e3554d1ac2}{jsonlabel\+::\+ROOT}} = \"{}root\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for root. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a8e811d1415a85e7d2682401b46837792}{jsonlabel\+::\+HELP}} = \"{}help\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for help. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ab782ca745851778c389f9e062a96cbd7}{jsonlabel\+::\+SPLITTER\+\_\+\+POSITION\+\_\+\+ONE}} = \"{}splitter position one\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for splitter position one. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_ab3812eb7ae143b987839202d38f76c30}{jsonlabel\+::\+SPLITTER\+\_\+\+POSITION\+\_\+\+TWO}} = \"{}splitter position two\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for splitter position two. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a1797e6d5d01c8fe6ebf551a57fe19bbf}{jsonlabel\+::\+TEXT\+\_\+\+COLOR}} = \"{}text color\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for the color of text. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a003e0b6f98237c067681ec5534190adb}{jsonlabel\+::\+LINE\+\_\+\+COLOR}} = \"{}line color\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for the line color. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a01ec98ad05a8c123812f436b2ff34887}{jsonlabel\+::\+LINE\+\_\+\+WIDTH}} = \"{}line width\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label for line width. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespacejsonlabel_a2db1911d08277c33906a15d43151c955}{jsonlabel\+::\+BORDER\+\_\+\+RADIUS}} = \"{}radius\"{}
+\begin{DoxyCompactList}\small\item\em JSON Label border radius. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Is file containing all English strings. 
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{strings_8h_aefd49a74af3b4afc27512f639bcc336f}\label{strings_8h_aefd49a74af3b4afc27512f639bcc336f} 
+\index{strings.h@{strings.h}!EMPTY\_STRING@{EMPTY\_STRING}}
+\index{EMPTY\_STRING@{EMPTY\_STRING}!strings.h@{strings.h}}
+\doxysubsubsection{\texorpdfstring{EMPTY\_STRING}{EMPTY\_STRING}}
+{\footnotesize\ttfamily const std\+::string EMPTY\+\_\+\+STRING = \"{}\"{}}
+
+
+
+Empty string. 
+

@@ -1,0 +1,65 @@
+\chapter{Relations}
+\hypertarget{md_help_01texts_2relations}{}\label{md_help_01texts_2relations}\index{Relations@{Relations}}
+\label{md_help_01texts_2relations_autotoc_md20}%
+\Hypertarget{md_help_01texts_2relations_autotoc_md20}%
+ {\bfseries{\doxylink{classRelation}{Relation}}} entity allows to bind two particular persons together to represent their real-\/world relationship. Each relation has these two pieces of information\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{First person}} (e.\+g., {\itshape John Swanson})
+\item {\bfseries{Second person}} (e.\+g., {\itshape Roy Swanson})
+\end{DoxyItemize}
+
+In order not to be restrained by a hard-\/wired list of permitted relations, the concept of a {\bfseries{relation template}} was introduced.\hypertarget{md_help_01texts_2relations_autotoc_md21}{}\doxysection{\texorpdfstring{Relation Templates}{Relation Templates}}\label{md_help_01texts_2relations_autotoc_md21}
+Each template has the following characteristics\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Title}} (e.\+g., {\itshape Fatherhood})
+\item {\bfseries{Description}} (e.\+g., {\itshape \doxylink{classRelation}{Relation} between a father and a child})
+\item Name of the {\bfseries{first person}} (e.\+g., {\itshape father})
+\item Name of the {\bfseries{second person}} (e.\+g., {\itshape child})
+\item {\bfseries{Generation difference}} (e.\+g., {\itshape -\/1})
+\item {\bfseries{Trait}} (e.\+g., {\itshape Fatherhood})
+\end{DoxyItemize}\hypertarget{md_help_01texts_2relations_autotoc_md22}{}\doxysubsection{\texorpdfstring{Generation Difference}{Generation Difference}}\label{md_help_01texts_2relations_autotoc_md22}
+{\bfseries{Generation difference}} describes which person is older and which one is younger. Any number can be possibly provided, but only {\bfseries{-\/1}}, {\bfseries{0}}, and {\bfseries{1}} usually make sense.
+
+
+\begin{DoxyItemize}
+\item {\bfseries{-\/1}} means that the first person is older,
+\item {\bfseries{0}} means that both persons are in the same generation
+\item {\bfseries{1}} means that the first person is younger.
+\end{DoxyItemize}\hypertarget{md_help_01texts_2relations_autotoc_md23}{}\doxysubsection{\texorpdfstring{Trait}{Trait}}\label{md_help_01texts_2relations_autotoc_md23}
+{\bfseries{Trait}} determines how a particular {\bfseries{relation}} is intended to be interpretted. The given list of possibilities shadows the real world.
+
+
+\begin{DoxyItemize}
+\item {\bfseries{No special trait}} (e.\+g., {\itshape Uncle-\/\+Nephew})
+\item {\bfseries{Motherhood}} (e.\+g., {\itshape Mother-\/\+Daughter})
+\item {\bfseries{Fatherhood}} (e.\+g., {\itshape Father-\/\+Son})
+\item {\bfseries{Partnership}} (e.\+g., {\itshape Marriage})
+\item {\bfseries{Sibling}} (e.\+g., {\itshape Brother-\/\+Sister})
+\end{DoxyItemize}\hypertarget{md_help_01texts_2relations_autotoc_md24}{}\doxysubsection{\texorpdfstring{Predefined Templates}{Predefined Templates}}\label{md_help_01texts_2relations_autotoc_md24}
+\doxylink{classRelation}{Relation} templates must be created first before they can be used. While it is possible to introduce specific user-\/defined templates, several widely used templates were already predefined and are available for import\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Fatherhood}}
+\item {\bfseries{Motherhood}}
+\item {\bfseries{Adoptive motherhood}}
+\item {\bfseries{Adoptive fatherhood}}
+\item {\bfseries{Partnership}}
+\item {\bfseries{Marriage}}
+\item {\bfseries{Brotherhood}}
+\item {\bfseries{Sisterhood}}
+\item {\bfseries{Siblings}}
+\end{DoxyItemize}\hypertarget{md_help_01texts_2relations_autotoc_md25}{}\doxysection{\texorpdfstring{Promotion}{Promotion}}\label{md_help_01texts_2relations_autotoc_md25}
+When a {\bfseries{person}} has several {\bfseries{relations}} of the same and supported {\bfseries{trait}} (e.\+g., {\itshape Father}, {\itshape Mother}, {\itshape Partner}, ...), one of them can be declared as {\bfseries{promoted}}, i.\+e., considered as the main one.\hypertarget{md_help_01texts_2relations_autotoc_md26}{}\doxysection{\texorpdfstring{Suggestions}{Suggestions}}\label{md_help_01texts_2relations_autotoc_md26}
+After a new {\bfseries{relation}} is created, several {\bfseries{suggestions}} for additional plausible relations that can be inferred are automatically offered in order to smooth the entire process.
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Partnership relation}} -\/\texorpdfstring{$>$}{>} share children between both of them
+\item {\bfseries{Sibling relation}} -\/\texorpdfstring{$>$}{>} share parents
+\item {\bfseries{Parent relation}} -\/\texorpdfstring{$>$}{>} children are bound as siblings, partners as parents, and vice versa 
+\end{DoxyItemize}

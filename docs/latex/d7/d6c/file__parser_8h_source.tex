@@ -1,0 +1,71 @@
+\doxysection{file\+\_\+parser.\+h}
+\hypertarget{file__parser_8h_source}{}\label{file__parser_8h_source}\index{core/file\_parser.h@{core/file\_parser.h}}
+\mbox{\hyperlink{file__parser_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ file\_parser\_h\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ file\_parser\_h\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <filesystem>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <chrono>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <iomanip>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <ctime>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <set>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{strings_8h}{strings.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceparser}{parser}}\{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a62b0c5196ca9751e5de2e4b592250cd3}{FILES\_DIR}}\ =\ \textcolor{stringliteral}{"{}Files"{}};}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a345a4b75f9ca78628e94d322839774d0}{JSON\_CONFIG}}\ =\ \textcolor{stringliteral}{"{}Config.json"{}};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a3c610b85061aba190909634c31307b66}{JSON\_EVENTS}}\ =\ \textcolor{stringliteral}{"{}Events.json"{}};}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a386a28b3c8089527e6da84cc5bc6806b}{JSON\_FILES}}\ =\ \textcolor{stringliteral}{"{}Files.json"{}};}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a516659bfa63920134beb1f13e9f5efa8}{JSON\_MEDIA}}\ =\ \textcolor{stringliteral}{"{}Media.json"{}};}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_acb6dab81c4b91260056511fab44cf406}{JSON\_NOTES}}\ =\ \textcolor{stringliteral}{"{}Notes.json"{}};}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a83ebf7bb189a2712a034baa170cdf409}{JSON\_PERSONS}}\ =\ \textcolor{stringliteral}{"{}Persons.json"{}};}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_aa4325942ddc520c0938c233d2615d7fd}{JSON\_RELATIONS}}\ =\ \textcolor{stringliteral}{"{}Relations.json"{}};}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a49c5c39eab4f24feb3bc444c34f19a17}{MEDIA\_DIR}}\ =\ \textcolor{stringliteral}{"{}Media"{}};}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_abd063c795b6cbda24770c096298b110f}{NOTES\_DIR}}\ =\ \textcolor{stringliteral}{"{}Notes"{}};}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceparser_a74fdbd20986cdf5af1baf6dccdb77cf5}{ERROR\_LOG}}\ =\ \textcolor{stringliteral}{"{}.error.log"{}};}
+\DoxyCodeLine{00041\ \}}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00044\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classParser}{Parser}}\{}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classParser_a12234f6cd36b61af4b50c94a179422c1}{Parser}}();}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a9bddb7f0b4ff5926d07f33247a20e6ba}{checkFileConsistency}}(std::set<std::string>\&\ database,\ std::vector<std::string>\&\ found,\ \textcolor{keyword}{const}\ std::string\&\ dir);}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_abb54cb3c787646ed220d8faee2af5e15}{clear}}();}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classParser_afd5e040e210f6ef81a04df75f56005da}{containsBackupFile}}(std::string\&\ backupFile);}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classParser_ada8e324a4ff1c4c0bc798e78ea33d9d6}{copyFile}}(\textcolor{keyword}{const}\ std::string\&\ filePath,\ \textcolor{keyword}{const}\ std::string\&\ dir,\ std::string\&\ fileName,\ \textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a8e717f75d0895b50505ea607da90e6e5}{createEmptyFile}}(\textcolor{keyword}{const}\ std::string\&\ dir,\ \textcolor{keyword}{const}\ std::string\&\ fileName);}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classParser_ad93d0c6f801417020e6e9eb6523dcaff}{createResourcesDir}}(\textcolor{keyword}{const}\ std::string\&\ target);}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classParser_a4c14eb4535f9fc2741593d2f54c17c96}{getAbsoluteFilePath}}(\textcolor{keyword}{const}\ std::string\&\ dir,\ \textcolor{keyword}{const}\ std::string\&\ fileName)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a63de6187341ad8df850051023684f38e}{getFileUrl}}(\textcolor{keyword}{const}\ std::string\&\ dir,\ \textcolor{keyword}{const}\ std::string\&\ fileName,\ std::string\&\ fileUrl)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classParser_a7df73873a95f180c8e537936992e333a}{isRootDirectorySet}}();}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a579bb63efba310b4371d45729f971627}{log}}(\textcolor{keyword}{const}\ std::string\&\ \ \mbox{\hyperlink{namespaceerror}{error}});}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a92fdcafb4e6fd19df81a16f431d52f2e}{makeNewDatabase}}(\textcolor{keyword}{const}\ std::string\&\ dirPath);}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ std::pair<bool,\ std::vector<std::string>>\ \mbox{\hyperlink{classParser_a4d592adaacb8bea73522b1ab2b60a58e}{readConfig}}();}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classParser_a6d84c3f847b7b36f04679c6c98d50c9b}{readJSONFile}}(\textcolor{keyword}{const}\ std::string\&\ fileName,\ Json::Value\&\ root,\ \textcolor{keywordtype}{bool}\ inDatabase\ =\ \textcolor{keyword}{true});}
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_af2f277a8aad3d0e3e250393c39707dab}{removeBackup}}();}
+\DoxyCodeLine{00108\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a61ab3bd2635a099621ecfc3ce16f349f}{removeFile}}(\textcolor{keyword}{const}\ std::string\&\ filename,\ \textcolor{keyword}{const}\ std::string\&\ dir);}
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_ac1983732fb7c7b011c60ea433eb11864}{renameFile}}(\textcolor{keyword}{const}\ std::string\&\ originalName,\ \textcolor{keyword}{const}\ std::string\&\ changedName,\ \textcolor{keyword}{const}\ std::string\&\ dir);}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a2076e9c0abd1c4e4d9994bf9e3c7bfcb}{restoreBackup}}(\textcolor{keyword}{const}\ std::string\&\ backupFile);}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classParser_ad9f6a2e37892338e31c7eed8ad1c360e}{setDatabase}}(\textcolor{keyword}{const}\ std::string\&\ dirPath);}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a4c7fb212bf6cad8c2a8450f59bc72a85}{writeConfig}}(\textcolor{keywordtype}{bool}\ help);}
+\DoxyCodeLine{00127\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a4c7fb212bf6cad8c2a8450f59bc72a85}{writeConfig}}(\textcolor{keyword}{const}\ std::vector<std::string>\&\ rootPaths,\ \textcolor{keywordtype}{bool}\ help);}
+\DoxyCodeLine{00131\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a1cf5c8b5b66de7f2cb428171222cb5a0}{writeHtml}}(\textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{namespacehtml}{html}},\ \textcolor{keyword}{const}\ std::string\&\ output);}
+\DoxyCodeLine{00136\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a1cf5c8b5b66de7f2cb428171222cb5a0}{writeHtml}}(\textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{namespacehtml}{html}},\ \textcolor{keyword}{const}\ std::string\&\ dirPath,\ \textcolor{keyword}{const}\ std::string\&\ filename);}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_ac7a7d18b43b4f2d4c06cf9db488be8c7}{writeJSON}}(\textcolor{keyword}{const}\ std::string\&\ data,\ \textcolor{keyword}{const}\ std::string\&\ file,\ \textcolor{keywordtype}{bool}\ inDatabase\ =\ \textcolor{keyword}{true});}
+\DoxyCodeLine{00142\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classParser_a20b8a45a2713eaf91be5dc1cecdfb740}{containsBackup}}(std::string\&\ backupFile,\ \textcolor{keyword}{const}\ std::string\&\ filename);}
+\DoxyCodeLine{00149\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_aaac0eca79d00ba2bea47c8bb632322c3}{createAllDirs}}();}
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classParser_a24f30bc8fa94892398e43d4055bc43e4}{createJsonFile}}(\textcolor{keyword}{const}\ std::string\&\ fileName);}
+\DoxyCodeLine{00154\ \ \ \ \ \ \ \ \ std::filesystem::path\ \mbox{\hyperlink{classParser_ab320855f9d84b64f3e6c162c81049c8e}{root\_}};}
+\DoxyCodeLine{00156\ \ \ \ \ \ \ \ \ std::filesystem::path\ \mbox{\hyperlink{classParser_a2ccdbdaa181c63af0c01e0a7bd0a373e}{configPath\_}};}
+\DoxyCodeLine{00157\ \};}
+\DoxyCodeLine{00158\ }
+\DoxyCodeLine{00159\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

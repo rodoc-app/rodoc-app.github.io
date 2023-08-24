@@ -1,0 +1,356 @@
+\doxysection{Relation Class Reference}
+\hypertarget{classRelation}{}\label{classRelation}\index{Relation@{Relation}}
+
+
+Class holding data for a relationship.  
+
+
+
+
+{\ttfamily \#include $<$family\+\_\+tree\+\_\+items.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRelation_a7eb3ee125e196b0f1c5ced35ad7c73d9}{Relation}} (\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*}settings)
+\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_ae703812f57f1be863af1bf60c91ad252}{get\+First\+Person}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_abf2e3f8c502cf18b4d2893be24b2edad}{get\+Id}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_a524f1c2952939e5eda2006982cbf9f6d}{get\+Second\+Person}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_a03621dc55fb0147d36f6722db0c71cc1}{get\+Template}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classRelation_a12c517b7ca5befa00e4d6afcef12f0f7}{get\+Title}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_a8489b21ef7f1f6b4f4a1da106087ceeb}{get\+The\+Other\+Person}} (size\+\_\+t current)
+\item 
+const std\+::string \& \mbox{\hyperlink{classRelation_a82d58df64d8393e10e7af6b71261061b}{get\+The\+Other\+Person\+Name}} (size\+\_\+t current)
+\item 
+\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}} \mbox{\hyperlink{classRelation_a4300cf462b05b90cfb8ac739c9605a0f}{get\+Trait}} ()
+\item 
+bool \mbox{\hyperlink{classRelation_a083175efd083cb0eae52282ef5d21b26}{is\+Older\+Generation}} (size\+\_\+t id)
+\item 
+bool \mbox{\hyperlink{classRelation_ab9c97a8f3f8db45d703a9e312b9277f5}{is\+Parent}} (size\+\_\+t person\+Id)
+\item 
+bool \mbox{\hyperlink{classRelation_aafeda7e283c0103c5d320c11b758c362}{is\+Same\+Genration}} ()
+\item 
+bool \mbox{\hyperlink{classRelation_a93313750679566f65886a35df399decf}{is\+Younger\+Generation}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classRelation_a4d2af07409d89f4b28aeb1b950b1bd0a}{print\+Html}} (std\+::ostream \&os, const std\+::string \&first\+Person, const std\+::string \&second\+Person, const std\+::string \&promoted)
+\item 
+void \mbox{\hyperlink{classRelation_a1b605bd9ce124ca4149dd9b188770221}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classRelation_a1a3fbfcf857cc0b0314e9fc4e9f36e71}{set\+Id}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classRelation_a2df4eadc73038c47c19657bac388b303}{set\+Persons}} (size\+\_\+t person1, size\+\_\+t person2)
+\item 
+void \mbox{\hyperlink{classRelation_ad54cbf2349249560a6acefdb847934b5}{set\+Template}} (size\+\_\+t templ)
+\item 
+std\+::string \mbox{\hyperlink{classRelation_ae5dc1d666e856fd77c69b7280509b0bc}{str}} (const std\+::string \&first\+Person, const std\+::string \&second\+Person) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_a3b7ce7fff55a4e7909c140ff99f29044}{id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Id of this relation. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_a871948983b41946ba19176b3ff83241a}{person1\+\_\+}}
+\begin{DoxyCompactList}\small\item\em First person of the relation. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_a9fcb4394eb54f26f2c146643da3dd27f}{person2\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Second person of the relation. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelation_a45f59681f9cd811de775f8db3f525627}{settings\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Used settings holding the templates. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classRelation_ab41dd2330c8e9eb4fc97d17ffbe37e10}{template\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classRelation}{Relation} template it is using. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class holding data for a relationship. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classRelation_a7eb3ee125e196b0f1c5ced35ad7c73d9}\label{classRelation_a7eb3ee125e196b0f1c5ced35ad7c73d9} 
+\index{Relation@{Relation}!Relation@{Relation}}
+\index{Relation@{Relation}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{Relation()}{Relation()}}
+{\footnotesize\ttfamily Relation\+::\+Relation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*}}]{settings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em settings} & Pointer to the settings of the app. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classRelation_ae703812f57f1be863af1bf60c91ad252}\label{classRelation_ae703812f57f1be863af1bf60c91ad252} 
+\index{Relation@{Relation}!getFirstPerson@{getFirstPerson}}
+\index{getFirstPerson@{getFirstPerson}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getFirstPerson()}{getFirstPerson()}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::get\+First\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the first person of the relation. \begin{DoxyReturn}{Returns}
+Id of the first person. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_abf2e3f8c502cf18b4d2893be24b2edad}\label{classRelation_abf2e3f8c502cf18b4d2893be24b2edad} 
+\index{Relation@{Relation}!getId@{getId}}
+\index{getId@{getId}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the id of the relation. \begin{DoxyReturn}{Returns}
+Id of the relation. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a524f1c2952939e5eda2006982cbf9f6d}\label{classRelation_a524f1c2952939e5eda2006982cbf9f6d} 
+\index{Relation@{Relation}!getSecondPerson@{getSecondPerson}}
+\index{getSecondPerson@{getSecondPerson}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getSecondPerson()}{getSecondPerson()}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::get\+Second\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the second person of the relation. \begin{DoxyReturn}{Returns}
+Id of the second person. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a03621dc55fb0147d36f6722db0c71cc1}\label{classRelation_a03621dc55fb0147d36f6722db0c71cc1} 
+\index{Relation@{Relation}!getTemplate@{getTemplate}}
+\index{getTemplate@{getTemplate}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getTemplate()}{getTemplate()}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::get\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the template of the relation. \begin{DoxyReturn}{Returns}
+Id of the template. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a8489b21ef7f1f6b4f4a1da106087ceeb}\label{classRelation_a8489b21ef7f1f6b4f4a1da106087ceeb} 
+\index{Relation@{Relation}!getTheOtherPerson@{getTheOtherPerson}}
+\index{getTheOtherPerson@{getTheOtherPerson}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getTheOtherPerson()}{getTheOtherPerson()}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::get\+The\+Other\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{current }\end{DoxyParamCaption})}
+
+Get the other person from relation. 
+\begin{DoxyParams}{Parameters}
+{\em current} & Current person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Other person in the relation from current. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a82d58df64d8393e10e7af6b71261061b}\label{classRelation_a82d58df64d8393e10e7af6b71261061b} 
+\index{Relation@{Relation}!getTheOtherPersonName@{getTheOtherPersonName}}
+\index{getTheOtherPersonName@{getTheOtherPersonName}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getTheOtherPersonName()}{getTheOtherPersonName()}}
+{\footnotesize\ttfamily const std\+::string \& Relation\+::get\+The\+Other\+Person\+Name (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{current }\end{DoxyParamCaption})}
+
+Get the name of the other person with respect to the given person as a string. 
+\begin{DoxyParams}{Parameters}
+{\em current} & Given person id. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The name of the other person. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a12c517b7ca5befa00e4d6afcef12f0f7}\label{classRelation_a12c517b7ca5befa00e4d6afcef12f0f7} 
+\index{Relation@{Relation}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily const std\+::string \& Relation\+::get\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the title of the relation. \begin{DoxyReturn}{Returns}
+Constant reference to the title. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a4300cf462b05b90cfb8ac739c9605a0f}\label{classRelation_a4300cf462b05b90cfb8ac739c9605a0f} 
+\index{Relation@{Relation}!getTrait@{getTrait}}
+\index{getTrait@{getTrait}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{getTrait()}{getTrait()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}} Relation\+::get\+Trait (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the trait of the relation. \begin{DoxyReturn}{Returns}
+Trait of this relation. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a083175efd083cb0eae52282ef5d21b26}\label{classRelation_a083175efd083cb0eae52282ef5d21b26} 
+\index{Relation@{Relation}!isOlderGeneration@{isOlderGeneration}}
+\index{isOlderGeneration@{isOlderGeneration}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{isOlderGeneration()}{isOlderGeneration()}}
+{\footnotesize\ttfamily bool Relation\+::is\+Older\+Generation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+If the given person from the relation is from older generation. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the given person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the generation difference from given person -\/ other person is \texorpdfstring{$<$}{<} 0. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_ab9c97a8f3f8db45d703a9e312b9277f5}\label{classRelation_ab9c97a8f3f8db45d703a9e312b9277f5} 
+\index{Relation@{Relation}!isParent@{isParent}}
+\index{isParent@{isParent}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{isParent()}{isParent()}}
+{\footnotesize\ttfamily bool Relation\+::is\+Parent (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{person\+Id }\end{DoxyParamCaption})}
+
+If the relation is of motherhood or fatherhood trait and the other person is younger. 
+\begin{DoxyParams}{Parameters}
+{\em person\+Id} & Id of the person whether it is father or mother. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if all given properties hold, otherwise false. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_aafeda7e283c0103c5d320c11b758c362}\label{classRelation_aafeda7e283c0103c5d320c11b758c362} 
+\index{Relation@{Relation}!isSameGenration@{isSameGenration}}
+\index{isSameGenration@{isSameGenration}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{isSameGenration()}{isSameGenration()}}
+{\footnotesize\ttfamily bool Relation\+::is\+Same\+Genration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+If the generation difference is 0. \begin{DoxyReturn}{Returns}
+True if the generation difference is 0. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a93313750679566f65886a35df399decf}\label{classRelation_a93313750679566f65886a35df399decf} 
+\index{Relation@{Relation}!isYoungerGeneration@{isYoungerGeneration}}
+\index{isYoungerGeneration@{isYoungerGeneration}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{isYoungerGeneration()}{isYoungerGeneration()}}
+{\footnotesize\ttfamily bool Relation\+::is\+Younger\+Generation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+If the given person from the relation is from younger generation. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the given person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the generation difference from given person -\/ other person is \texorpdfstring{$>$}{>} 0. 
+\end{DoxyReturn}
+\Hypertarget{classRelation_a4d2af07409d89f4b28aeb1b950b1bd0a}\label{classRelation_a4d2af07409d89f4b28aeb1b950b1bd0a} 
+\index{Relation@{Relation}!printHtml@{printHtml}}
+\index{printHtml@{printHtml}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{printHtml()}{printHtml()}}
+{\footnotesize\ttfamily void Relation\+::print\+Html (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::string \&}]{first\+Person,  }\item[{const std\+::string \&}]{second\+Person,  }\item[{const std\+::string \&}]{promoted }\end{DoxyParamCaption})}
+
+Print relation to an output stream in HTML format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream, \\
+\hline
+{\em first\+Person} & Name of the first person. \\
+\hline
+{\em second\+Person} & Name of the second person. \\
+\hline
+{\em promoted} & What is the name of the promoted version. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelation_a1b605bd9ce124ca4149dd9b188770221}\label{classRelation_a1b605bd9ce124ca4149dd9b188770221} 
+\index{Relation@{Relation}!readJson@{readJson}}
+\index{readJson@{readJson}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Relation\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read the relation from JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & The JSON value from file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelation_a1a3fbfcf857cc0b0314e9fc4e9f36e71}\label{classRelation_a1a3fbfcf857cc0b0314e9fc4e9f36e71} 
+\index{Relation@{Relation}!setId@{setId}}
+\index{setId@{setId}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Relation\+::set\+Id (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the id of this relation. 
+\begin{DoxyParams}{Parameters}
+{\em id} & New id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelation_a2df4eadc73038c47c19657bac388b303}\label{classRelation_a2df4eadc73038c47c19657bac388b303} 
+\index{Relation@{Relation}!setPersons@{setPersons}}
+\index{setPersons@{setPersons}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{setPersons()}{setPersons()}}
+{\footnotesize\ttfamily void Relation\+::set\+Persons (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{person1,  }\item[{size\+\_\+t}]{person2 }\end{DoxyParamCaption})}
+
+Set persons for this relation. 
+\begin{DoxyParams}{Parameters}
+{\em person1} & Id of the first person. \\
+\hline
+{\em person2} & Id of the second person. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelation_ad54cbf2349249560a6acefdb847934b5}\label{classRelation_ad54cbf2349249560a6acefdb847934b5} 
+\index{Relation@{Relation}!setTemplate@{setTemplate}}
+\index{setTemplate@{setTemplate}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{setTemplate()}{setTemplate()}}
+{\footnotesize\ttfamily void Relation\+::set\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{templ }\end{DoxyParamCaption})}
+
+Set the relation template. 
+\begin{DoxyParams}{Parameters}
+{\em templ} & Id of the template. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelation_ae5dc1d666e856fd77c69b7280509b0bc}\label{classRelation_ae5dc1d666e856fd77c69b7280509b0bc} 
+\index{Relation@{Relation}!str@{str}}
+\index{str@{str}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{str()}{str()}}
+{\footnotesize\ttfamily std\+::string Relation\+::str (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{first\+Person,  }\item[{const std\+::string \&}]{second\+Person }\end{DoxyParamCaption}) const}
+
+Get the string representation of relation. 
+\begin{DoxyParams}{Parameters}
+{\em first\+Person} & String representing the first person. \\
+\hline
+{\em second\+Person} & String representing the second person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the relation. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classRelation_a3b7ce7fff55a4e7909c140ff99f29044}\label{classRelation_a3b7ce7fff55a4e7909c140ff99f29044} 
+\index{Relation@{Relation}!id\_@{id\_}}
+\index{id\_@{id\_}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{id\_}{id\_}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Id of this relation. 
+
+\Hypertarget{classRelation_a871948983b41946ba19176b3ff83241a}\label{classRelation_a871948983b41946ba19176b3ff83241a} 
+\index{Relation@{Relation}!person1\_@{person1\_}}
+\index{person1\_@{person1\_}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{person1\_}{person1\_}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::person1\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+First person of the relation. 
+
+\Hypertarget{classRelation_a9fcb4394eb54f26f2c146643da3dd27f}\label{classRelation_a9fcb4394eb54f26f2c146643da3dd27f} 
+\index{Relation@{Relation}!person2\_@{person2\_}}
+\index{person2\_@{person2\_}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{person2\_}{person2\_}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::person2\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Second person of the relation. 
+
+\Hypertarget{classRelation_a45f59681f9cd811de775f8db3f525627}\label{classRelation_a45f59681f9cd811de775f8db3f525627} 
+\index{Relation@{Relation}!settings\_@{settings\_}}
+\index{settings\_@{settings\_}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{settings\_}{settings\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSettings}{Settings}}\texorpdfstring{$\ast$}{*} Relation\+::settings\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used settings holding the templates. 
+
+\Hypertarget{classRelation_ab41dd2330c8e9eb4fc97d17ffbe37e10}\label{classRelation_ab41dd2330c8e9eb4fc97d17ffbe37e10} 
+\index{Relation@{Relation}!template\_@{template\_}}
+\index{template\_@{template\_}!Relation@{Relation}}
+\doxysubsubsection{\texorpdfstring{template\_}{template\_}}
+{\footnotesize\ttfamily size\+\_\+t Relation\+::template\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classRelation}{Relation} template it is using. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{family__tree__items_8h}{family\+\_\+tree\+\_\+items.\+h}}\item 
+core/\mbox{\hyperlink{family__tree__items_8cpp}{family\+\_\+tree\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

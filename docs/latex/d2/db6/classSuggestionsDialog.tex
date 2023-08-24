@@ -1,0 +1,206 @@
+\doxysection{Suggestions\+Dialog Class Reference}
+\hypertarget{classSuggestionsDialog}{}\label{classSuggestionsDialog}\index{SuggestionsDialog@{SuggestionsDialog}}
+
+
+Dialog for relation suggestions.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Suggestions\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/db6/classSuggestionsDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classSuggestionsDialog_aa032d9e0387de1d1dee3ed9d8ea80095}{remove\+Suggestion}} ()
+\begin{DoxyCompactList}\small\item\em Remove current suggestion. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSuggestionsDialog_a8b97e37338a363e7af341b90692eafd2}{save}} ()
+\begin{DoxyCompactList}\small\item\em Save all suggestions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSuggestionsDialog_a078d71ff181ad8155d5a5e153bed7061}{selected\+Suggestion}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classSuggestionsDialog_a025b87a3ea3a65410c5145b437162a54}{swap\+Persons}} ()
+\begin{DoxyCompactList}\small\item\em Swap persons roles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSuggestionsDialog_a82a438b0144a15debb1dd5321349fe5a}{switched\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Switch the template description. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSuggestionsDialog_ab09b29e208f31aa6abd093832ea82236}{Suggestions\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ suggestions, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classSuggestionsDialog_a948f960e6d0452e5ef51ab6ff14aeeac}{\texorpdfstring{$\sim$}{\string~}\+Suggestions\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classSuggestionsDialog_a47ed9840b6d0eae545c0a92365eb62c9}{fatherhoods}}
+\begin{DoxyCompactList}\small\item\em Vector of all templates for fatherhood relations. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classSuggestionsDialog_a587a7fab915ae0b28a0d48dab7c65950}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classSuggestionsDialog_aae6d86ff601da7c10234df5e15a2ccae}{motherhoods}}
+\begin{DoxyCompactList}\small\item\em Vector of all templates for motherhood relations. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classSuggestionsDialog_a04712286dc4d44ccb333ba336d9fcd56}{partnerships}}
+\begin{DoxyCompactList}\small\item\em Vector of all templates for partnership relations. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classSuggestionsDialog_a40b01a864d1b67719725fb16c41df93a}{siblings}}
+\begin{DoxyCompactList}\small\item\em Vector of all templates for siblings relations. \end{DoxyCompactList}\item 
+Ui\+::\+Suggestions\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classSuggestionsDialog_ae1559cdbcf69a8edc54111c0d8dcaad3}{ui}}
+\begin{DoxyCompactList}\small\item\em Used Qt user interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for relation suggestions. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classSuggestionsDialog_ab09b29e208f31aa6abd093832ea82236}\label{classSuggestionsDialog_ab09b29e208f31aa6abd093832ea82236} 
+\index{SuggestionsDialog@{SuggestionsDialog}!SuggestionsDialog@{SuggestionsDialog}}
+\index{SuggestionsDialog@{SuggestionsDialog}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{SuggestionsDialog()}{SuggestionsDialog()}}
+{\footnotesize\ttfamily Suggestions\+Dialog\+::\+Suggestions\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$}]{suggestions,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em suggestions} & All the suggestions for relations. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSuggestionsDialog_a948f960e6d0452e5ef51ab6ff14aeeac}\label{classSuggestionsDialog_a948f960e6d0452e5ef51ab6ff14aeeac} 
+\index{SuggestionsDialog@{SuggestionsDialog}!````~SuggestionsDialog@{\texorpdfstring{$\sim$}{\string~}SuggestionsDialog}}
+\index{````~SuggestionsDialog@{\texorpdfstring{$\sim$}{\string~}SuggestionsDialog}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}SuggestionsDialog()}{\string~SuggestionsDialog()}}
+{\footnotesize\ttfamily Suggestions\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Suggestions\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classSuggestionsDialog_aa032d9e0387de1d1dee3ed9d8ea80095}\label{classSuggestionsDialog_aa032d9e0387de1d1dee3ed9d8ea80095} 
+\index{SuggestionsDialog@{SuggestionsDialog}!removeSuggestion@{removeSuggestion}}
+\index{removeSuggestion@{removeSuggestion}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{removeSuggestion}{removeSuggestion}}
+{\footnotesize\ttfamily void Suggestions\+Dialog\+::remove\+Suggestion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove current suggestion. 
+
+\Hypertarget{classSuggestionsDialog_a8b97e37338a363e7af341b90692eafd2}\label{classSuggestionsDialog_a8b97e37338a363e7af341b90692eafd2} 
+\index{SuggestionsDialog@{SuggestionsDialog}!save@{save}}
+\index{save@{save}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{save}{save}}
+{\footnotesize\ttfamily void Suggestions\+Dialog\+::save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save all suggestions. 
+
+\Hypertarget{classSuggestionsDialog_a078d71ff181ad8155d5a5e153bed7061}\label{classSuggestionsDialog_a078d71ff181ad8155d5a5e153bed7061} 
+\index{SuggestionsDialog@{SuggestionsDialog}!selectedSuggestion@{selectedSuggestion}}
+\index{selectedSuggestion@{selectedSuggestion}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{selectedSuggestion}{selectedSuggestion}}
+{\footnotesize\ttfamily void Suggestions\+Dialog\+::selected\+Suggestion (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+When a suggestion is clicked. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which suggestion was clicked. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSuggestionsDialog_a025b87a3ea3a65410c5145b437162a54}\label{classSuggestionsDialog_a025b87a3ea3a65410c5145b437162a54} 
+\index{SuggestionsDialog@{SuggestionsDialog}!swapPersons@{swapPersons}}
+\index{swapPersons@{swapPersons}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{swapPersons}{swapPersons}}
+{\footnotesize\ttfamily void Suggestions\+Dialog\+::swap\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Swap persons roles. 
+
+\Hypertarget{classSuggestionsDialog_a82a438b0144a15debb1dd5321349fe5a}\label{classSuggestionsDialog_a82a438b0144a15debb1dd5321349fe5a} 
+\index{SuggestionsDialog@{SuggestionsDialog}!switchedTemplate@{switchedTemplate}}
+\index{switchedTemplate@{switchedTemplate}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{switchedTemplate}{switchedTemplate}}
+{\footnotesize\ttfamily void Suggestions\+Dialog\+::switched\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Switch the template description. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classSuggestionsDialog_a47ed9840b6d0eae545c0a92365eb62c9}\label{classSuggestionsDialog_a47ed9840b6d0eae545c0a92365eb62c9} 
+\index{SuggestionsDialog@{SuggestionsDialog}!fatherhoods@{fatherhoods}}
+\index{fatherhoods@{fatherhoods}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{fatherhoods}{fatherhoods}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}}\texorpdfstring{$\ast$}{*}$>$ Suggestions\+Dialog\+::fatherhoods\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vector of all templates for fatherhood relations. 
+
+\Hypertarget{classSuggestionsDialog_a587a7fab915ae0b28a0d48dab7c65950}\label{classSuggestionsDialog_a587a7fab915ae0b28a0d48dab7c65950} 
+\index{SuggestionsDialog@{SuggestionsDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Suggestions\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classSuggestionsDialog_aae6d86ff601da7c10234df5e15a2ccae}\label{classSuggestionsDialog_aae6d86ff601da7c10234df5e15a2ccae} 
+\index{SuggestionsDialog@{SuggestionsDialog}!motherhoods@{motherhoods}}
+\index{motherhoods@{motherhoods}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{motherhoods}{motherhoods}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}}\texorpdfstring{$\ast$}{*}$>$ Suggestions\+Dialog\+::motherhoods\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vector of all templates for motherhood relations. 
+
+\Hypertarget{classSuggestionsDialog_a04712286dc4d44ccb333ba336d9fcd56}\label{classSuggestionsDialog_a04712286dc4d44ccb333ba336d9fcd56} 
+\index{SuggestionsDialog@{SuggestionsDialog}!partnerships@{partnerships}}
+\index{partnerships@{partnerships}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{partnerships}{partnerships}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}}\texorpdfstring{$\ast$}{*}$>$ Suggestions\+Dialog\+::partnerships\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vector of all templates for partnership relations. 
+
+\Hypertarget{classSuggestionsDialog_a40b01a864d1b67719725fb16c41df93a}\label{classSuggestionsDialog_a40b01a864d1b67719725fb16c41df93a} 
+\index{SuggestionsDialog@{SuggestionsDialog}!siblings@{siblings}}
+\index{siblings@{siblings}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{siblings}{siblings}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}}\texorpdfstring{$\ast$}{*}$>$ Suggestions\+Dialog\+::siblings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vector of all templates for siblings relations. 
+
+\Hypertarget{classSuggestionsDialog_ae1559cdbcf69a8edc54111c0d8dcaad3}\label{classSuggestionsDialog_ae1559cdbcf69a8edc54111c0d8dcaad3} 
+\index{SuggestionsDialog@{SuggestionsDialog}!ui@{ui}}
+\index{ui@{ui}!SuggestionsDialog@{SuggestionsDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Suggestions\+Dialog\texorpdfstring{$\ast$}{*} Suggestions\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used Qt user interface. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

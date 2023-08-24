@@ -1,0 +1,243 @@
+\doxysection{File\+Tree\+Item Class Reference}
+\hypertarget{classFileTreeItem}{}\label{classFileTreeItem}\index{FileTreeItem@{FileTreeItem}}
+
+
+Tree\+Widget Item for general file.  
+
+
+
+
+{\ttfamily \#include $<$graphics\+\_\+items.\+h$>$}
+
+Inheritance diagram for File\+Tree\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{df/d25/classFileTreeItem}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFileTreeItem_af145ea2d7b4471f4e4b2e3d8204df67b}{File\+Tree\+Item}} (\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*}drive, \mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, const QIcon \&icon, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+\mbox{\hyperlink{classFileTreeItem_a82c44828ce61307c18a14a0bdb31b1c2}{File\+Tree\+Item}} (size\+\_\+t id, \mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, const QIcon \&icon, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classFileTreeItem_a2de3bc0c5d050b68c5c1a06f010b5376}{add\+File}} (size\+\_\+t id, const QIcon \&icon)
+\item 
+void \mbox{\hyperlink{classFileTreeItem_a043c464f69dfd7016746503808370906}{add\+Sub\+Drive}} (const QString \&folder)
+\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFileTreeItem_af103489f943672b9d584c2f11ee0e8e3}{get\+Drive}} ()
+\item 
+size\+\_\+t \mbox{\hyperlink{classFileTreeItem_a6b5a2b3add72488574b1a62c2bc355c6}{get\+Id}} ()
+\item 
+bool \mbox{\hyperlink{classFileTreeItem_a3635759ed4ed12344342fd53ef230b8a}{is\+Directory}} ()
+\item 
+bool \mbox{\hyperlink{classFileTreeItem_ab995c116878c511cb415c88c015f3bfb}{remove\+Folder}} ()
+\item 
+bool \mbox{\hyperlink{classFileTreeItem_a065e6d96d9a96a92edee9872c9bbe519}{rename}} (const QString \&name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classFileTreeItem_a167226fbc57960e2bb864c431fc71478}{remove\+File}} (size\+\_\+t id)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFileTreeItem_afa354812fbbdc59ad4121130f06420e5}{drive\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Drive presented in this folder. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFileTreeItem_a5d42ab8c8a9c03dfcb725ad0b63ab24e}{file\+Id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Id of the shown file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFileTreeItem_a698e2854f3f5dacbd3988bc92b4f63a0}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFileTreeItem_a023df1516f6b11f4e01509eb22f65944}{is\+Dir\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If the file is directory or not. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} \mbox{\hyperlink{classFileTreeItem_ab05bfa56bf67b35783e4d3d678fde133}{type\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Type of the file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Tree\+Widget Item for general file. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classFileTreeItem_af145ea2d7b4471f4e4b2e3d8204df67b}\label{classFileTreeItem_af145ea2d7b4471f4e4b2e3d8204df67b} 
+\index{FileTreeItem@{FileTreeItem}!FileTreeItem@{FileTreeItem}}
+\index{FileTreeItem@{FileTreeItem}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{FileTreeItem()}{FileTreeItem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily File\+Tree\+Item\+::\+File\+Tree\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*}}]{drive,  }\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{const QIcon \&}]{icon,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})}
+
+Construct this drive and all sub-\/drives. 
+\begin{DoxyParams}{Parameters}
+{\em drive} & Which drive is presented in this item. \\
+\hline
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em icon} & Which icon to show beside the text. \\
+\hline
+{\em type} & Type of the file to show. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFileTreeItem_a82c44828ce61307c18a14a0bdb31b1c2}\label{classFileTreeItem_a82c44828ce61307c18a14a0bdb31b1c2} 
+\index{FileTreeItem@{FileTreeItem}!FileTreeItem@{FileTreeItem}}
+\index{FileTreeItem@{FileTreeItem}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{FileTreeItem()}{FileTreeItem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily File\+Tree\+Item\+::\+File\+Tree\+Item (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id,  }\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{const QIcon \&}]{icon,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})}
+
+Constructor for a new file. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the file. \\
+\hline
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em icon} & Which icon is shown besides files. \\
+\hline
+{\em type} & What type of files are shown. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classFileTreeItem_a2de3bc0c5d050b68c5c1a06f010b5376}\label{classFileTreeItem_a2de3bc0c5d050b68c5c1a06f010b5376} 
+\index{FileTreeItem@{FileTreeItem}!addFile@{addFile}}
+\index{addFile@{addFile}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{addFile()}{addFile()}}
+{\footnotesize\ttfamily void File\+Tree\+Item\+::add\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id,  }\item[{const QIcon \&}]{icon }\end{DoxyParamCaption})}
+
+Add file to this folder. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the file. \\
+\hline
+{\em icon} & Which icon to show besides the text. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFileTreeItem_a043c464f69dfd7016746503808370906}\label{classFileTreeItem_a043c464f69dfd7016746503808370906} 
+\index{FileTreeItem@{FileTreeItem}!addSubDrive@{addSubDrive}}
+\index{addSubDrive@{addSubDrive}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{addSubDrive()}{addSubDrive()}}
+{\footnotesize\ttfamily void File\+Tree\+Item\+::add\+Sub\+Drive (\begin{DoxyParamCaption}\item[{const QString \&}]{folder }\end{DoxyParamCaption})}
+
+Add sub drive to this drive. 
+\begin{DoxyParams}{Parameters}
+{\em folder} & The name of the sub-\/folder. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFileTreeItem_af103489f943672b9d584c2f11ee0e8e3}\label{classFileTreeItem_af103489f943672b9d584c2f11ee0e8e3} 
+\index{FileTreeItem@{FileTreeItem}!getDrive@{getDrive}}
+\index{getDrive@{getDrive}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{getDrive()}{getDrive()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} File\+Tree\+Item\+::get\+Drive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the pointer to the drive. \begin{DoxyReturn}{Returns}
+Pointer to the drive. 
+\end{DoxyReturn}
+\Hypertarget{classFileTreeItem_a6b5a2b3add72488574b1a62c2bc355c6}\label{classFileTreeItem_a6b5a2b3add72488574b1a62c2bc355c6} 
+\index{FileTreeItem@{FileTreeItem}!getId@{getId}}
+\index{getId@{getId}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t File\+Tree\+Item\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the id of the file. \begin{DoxyReturn}{Returns}
+\doxylink{classFile}{File} id. 
+\end{DoxyReturn}
+\Hypertarget{classFileTreeItem_a3635759ed4ed12344342fd53ef230b8a}\label{classFileTreeItem_a3635759ed4ed12344342fd53ef230b8a} 
+\index{FileTreeItem@{FileTreeItem}!isDirectory@{isDirectory}}
+\index{isDirectory@{isDirectory}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{isDirectory()}{isDirectory()}}
+{\footnotesize\ttfamily bool File\+Tree\+Item\+::is\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+If te file is directory or not. \begin{DoxyReturn}{Returns}
+True if it is directory, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classFileTreeItem_a167226fbc57960e2bb864c431fc71478}\label{classFileTreeItem_a167226fbc57960e2bb864c431fc71478} 
+\index{FileTreeItem@{FileTreeItem}!removeFile@{removeFile}}
+\index{removeFile@{removeFile}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{removeFile()}{removeFile()}}
+{\footnotesize\ttfamily void File\+Tree\+Item\+::remove\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Remove file in this drive. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFileTreeItem_ab995c116878c511cb415c88c015f3bfb}\label{classFileTreeItem_ab995c116878c511cb415c88c015f3bfb} 
+\index{FileTreeItem@{FileTreeItem}!removeFolder@{removeFolder}}
+\index{removeFolder@{removeFolder}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{removeFolder()}{removeFolder()}}
+{\footnotesize\ttfamily bool File\+Tree\+Item\+::remove\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Remove recursively all directories and files. \begin{DoxyReturn}{Returns}
+True if it is the root directory, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classFileTreeItem_a065e6d96d9a96a92edee9872c9bbe519}\label{classFileTreeItem_a065e6d96d9a96a92edee9872c9bbe519} 
+\index{FileTreeItem@{FileTreeItem}!rename@{rename}}
+\index{rename@{rename}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{rename()}{rename()}}
+{\footnotesize\ttfamily bool File\+Tree\+Item\+::rename (\begin{DoxyParamCaption}\item[{const QString \&}]{name }\end{DoxyParamCaption})}
+
+When this item is selected for renaming. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Name for this folder. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if this item was file, false otherwise. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classFileTreeItem_afa354812fbbdc59ad4121130f06420e5}\label{classFileTreeItem_afa354812fbbdc59ad4121130f06420e5} 
+\index{FileTreeItem@{FileTreeItem}!drive\_@{drive\_}}
+\index{drive\_@{drive\_}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{drive\_}{drive\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}}\texorpdfstring{$\ast$}{*} File\+Tree\+Item\+::drive\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Drive presented in this folder. 
+
+\Hypertarget{classFileTreeItem_a5d42ab8c8a9c03dfcb725ad0b63ab24e}\label{classFileTreeItem_a5d42ab8c8a9c03dfcb725ad0b63ab24e} 
+\index{FileTreeItem@{FileTreeItem}!fileId\_@{fileId\_}}
+\index{fileId\_@{fileId\_}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{fileId\_}{fileId\_}}
+{\footnotesize\ttfamily size\+\_\+t File\+Tree\+Item\+::file\+Id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Id of the shown file. 
+
+\Hypertarget{classFileTreeItem_a698e2854f3f5dacbd3988bc92b4f63a0}\label{classFileTreeItem_a698e2854f3f5dacbd3988bc92b4f63a0} 
+\index{FileTreeItem@{FileTreeItem}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} File\+Tree\+Item\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classFileTreeItem_a023df1516f6b11f4e01509eb22f65944}\label{classFileTreeItem_a023df1516f6b11f4e01509eb22f65944} 
+\index{FileTreeItem@{FileTreeItem}!isDir\_@{isDir\_}}
+\index{isDir\_@{isDir\_}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{isDir\_}{isDir\_}}
+{\footnotesize\ttfamily bool File\+Tree\+Item\+::is\+Dir\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If the file is directory or not. 
+
+\Hypertarget{classFileTreeItem_ab05bfa56bf67b35783e4d3d678fde133}\label{classFileTreeItem_ab05bfa56bf67b35783e4d3d678fde133} 
+\index{FileTreeItem@{FileTreeItem}!type\_@{type\_}}
+\index{type\_@{type\_}!FileTreeItem@{FileTreeItem}}
+\doxysubsubsection{\texorpdfstring{type\_}{type\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} File\+Tree\+Item\+::type\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Type of the file. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{graphics__items_8h}{graphics\+\_\+items.\+h}}\item 
+graphics/\mbox{\hyperlink{graphics__items_8cpp}{graphics\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

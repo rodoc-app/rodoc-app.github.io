@@ -1,0 +1,483 @@
+\doxysection{Settings Class Reference}
+\hypertarget{classSettings}{}\label{classSettings}\index{Settings@{Settings}}
+
+
+Class holding all data about the settings of the app and all templates.  
+
+
+
+
+{\ttfamily \#include $<$config.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSettings_ab7169a6eefce79566dd07db3b1e5e967}{Settings}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSettings_ab9d42389d90d66ac447a09d14d3837e8}{add\+Default\+Events}} ()
+\begin{DoxyCompactList}\small\item\em Add default event templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSettings_a4be3fe3c96bbc3dd6c12e00d44713ac4}{add\+Default\+Relations}} ()
+\begin{DoxyCompactList}\small\item\em Add default relation templates. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a89d3c723b2900fa3a94cd6c780c6f3bd}{add\+Event\+Template}} (\mbox{\hyperlink{classEventTemplate}{Event\+Template}} \&et)
+\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a490a3ea4cbb236eda2cfd45fb6da53e0}{add\+Relation\+Template}} (\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \&rt)
+\item 
+void \mbox{\hyperlink{classSettings_a096277313ba8a435b972aa7b54d5cda3}{add\+Tag}} (const std\+::string \&tag)
+\item 
+void \mbox{\hyperlink{classSettings_add67480066decc8d2f7c27a091a7e4ea}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear all data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSettings_afa3a01b5e3bb21a1fdecd742fe2f8b39}{export\+Templates}} (std\+::ostream \&os, const std\+::vector$<$ size\+\_\+t $>$ \&rel\+Ids, const std\+::vector$<$ size\+\_\+t $>$ \&event\+Ids)
+\item 
+const \mbox{\hyperlink{structAppSettings}{App\+Settings}} \& \mbox{\hyperlink{classSettings_a3c51f019e139ab80f9a83227075ac022}{get\+App\+Settings}} () const
+\item 
+std\+::optional$<$ \mbox{\hyperlink{classEventTemplate}{Event\+Template}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classSettings_a17ba1ad657b219934a1dd23407296412}{get\+Event\+Template}} (size\+\_\+t id) const
+\item 
+const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classEventTemplate}{Event\+Template}} $>$ $>$ \& \mbox{\hyperlink{classSettings_a9b4735b10d5977f4daf6cb4d65d011cc}{get\+Event\+Templates}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a3c56b682ecc7b2c3498d88077ffcae1c}{get\+Global\+Main\+Person}} () const
+\item 
+std\+::optional$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classSettings_aebb5c6b75f0e7c80eaf14f34b2208c76}{get\+Relation\+Template}} (size\+\_\+t id) const
+\item 
+const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} $>$ $>$ \& \mbox{\hyperlink{classSettings_a926cf1f54266863590a26ca61e090c1b}{get\+Relation\+Templates}} () const
+\item 
+const std\+::vector$<$ std\+::string $>$ \& \mbox{\hyperlink{classSettings_a0875e0d29848bec9a0c916c7b3815dc3}{get\+Tags}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a387f224a744e7bc35ebb1ad2cf7026f5}{import\+Templates}} (const Json\+::\+Value \&value)
+\item 
+std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ \mbox{\hyperlink{classSettings_ace6f331ce5014c9dc086a812df72e458}{indexes}} ()
+\item 
+void \mbox{\hyperlink{classSettings_a0863dd7f4b333ca7232bb54fc09331c1}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classSettings_a01bd04ca826716e72ddf9b6c23aa7a34}{re\+Index}} (size\+\_\+t plus\+Event, size\+\_\+t plus\+Rel)
+\item 
+void \mbox{\hyperlink{classSettings_a46dbe3473f846362b1151f87eab0a92d}{remove\+Event\+Template}} (size\+\_\+t index)
+\item 
+void \mbox{\hyperlink{classSettings_a38b27ba9bd9744789126f139ea75f0c6}{remove\+Relation\+Template}} (size\+\_\+t index)
+\item 
+void \mbox{\hyperlink{classSettings_afa77293cd9803172df29561c6f4c1e32}{remove\+Tag}} (const std\+::string \&tag)
+\item 
+\mbox{\hyperlink{structAppSettings}{App\+Settings}} \& \mbox{\hyperlink{classSettings_ac0faebf075ce93de2a72e8b007ae9614}{set\+App\+Settings}} ()
+\item 
+void \mbox{\hyperlink{classSettings_ae16fe3aa2671f5b8852cf549b716d111}{set\+Global\+Main\+Person}} (size\+\_\+t id)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classSettings_aa01a455864a1438d5e2cc01692f68e74}{add\+Default\+Event}} (const std\+::string \&title, const std\+::string \&description, bool date, bool place, bool more\+People, std\+::vector$<$ std\+::string $>$ roles)
+\item 
+void \mbox{\hyperlink{classSettings_a0cc9adb2d8e53792cfd71c75dc92f1c3}{add\+Default\+Relation}} (const std\+::string \&title, const std\+::string \&description, const std\+::string \&first\+Name, const std\+::string \&second\+Name, int gen\+Diff, \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}} trait)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structAppSettings}{App\+Settings}} \mbox{\hyperlink{classSettings_ace37a79c635ebb701818644278190a19}{app\+Settings\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Application settings. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a6b29d2385bf074f25977a139d1d7296d}{event\+Template\+Index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em First empty index for event template. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classEventTemplate}{Event\+Template}} $>$ $>$ \mbox{\hyperlink{classSettings_a119733c0ec9a55c2d1d5735acb8aa06a}{event\+Templates\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All events templates. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a77abdc5ba3cbbff9d2a5bafd9389a199}{global\+Main\+Person\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Main person that is global, so that on app start it will be chosen as the main person. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classSettings_a18adc7d17dad5bddab8fefb60cbc0d15}{relation\+Template\+Index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em First empty index for relation template. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} $>$ $>$ \mbox{\hyperlink{classSettings_ab13a93511e41fc6a21fe1997b5d30d59}{relations\+Templates\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All relations\+Templates. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classSettings_a0ccf99bf2efae7460fdbf94461c82a08}{tags\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All tags. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class holding all data about the settings of the app and all templates. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classSettings_ab7169a6eefce79566dd07db3b1e5e967}\label{classSettings_ab7169a6eefce79566dd07db3b1e5e967} 
+\index{Settings@{Settings}!Settings@{Settings}}
+\index{Settings@{Settings}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{Settings()}{Settings()}}
+{\footnotesize\ttfamily Settings\+::\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classSettings_aa01a455864a1438d5e2cc01692f68e74}\label{classSettings_aa01a455864a1438d5e2cc01692f68e74} 
+\index{Settings@{Settings}!addDefaultEvent@{addDefaultEvent}}
+\index{addDefaultEvent@{addDefaultEvent}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addDefaultEvent()}{addDefaultEvent()}}
+{\footnotesize\ttfamily void Settings\+::add\+Default\+Event (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title,  }\item[{const std\+::string \&}]{description,  }\item[{bool}]{date,  }\item[{bool}]{place,  }\item[{bool}]{more\+People,  }\item[{std\+::vector$<$ std\+::string $>$}]{roles }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Add single default event. 
+\begin{DoxyParams}{Parameters}
+{\em title} & Title of the new event template. \\
+\hline
+{\em description} & Description of the new event template. \\
+\hline
+{\em date} & If the event template contains date. \\
+\hline
+{\em place} & If the event template contains date. \\
+\hline
+{\em more\+People} & If more people are present. \\
+\hline
+{\em roles} & Which roles, if any, the event template has. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_ab9d42389d90d66ac447a09d14d3837e8}\label{classSettings_ab9d42389d90d66ac447a09d14d3837e8} 
+\index{Settings@{Settings}!addDefaultEvents@{addDefaultEvents}}
+\index{addDefaultEvents@{addDefaultEvents}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addDefaultEvents()}{addDefaultEvents()}}
+{\footnotesize\ttfamily void Settings\+::add\+Default\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Add default event templates. 
+
+\Hypertarget{classSettings_a0cc9adb2d8e53792cfd71c75dc92f1c3}\label{classSettings_a0cc9adb2d8e53792cfd71c75dc92f1c3} 
+\index{Settings@{Settings}!addDefaultRelation@{addDefaultRelation}}
+\index{addDefaultRelation@{addDefaultRelation}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addDefaultRelation()}{addDefaultRelation()}}
+{\footnotesize\ttfamily void Settings\+::add\+Default\+Relation (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title,  }\item[{const std\+::string \&}]{description,  }\item[{const std\+::string \&}]{first\+Name,  }\item[{const std\+::string \&}]{second\+Name,  }\item[{int}]{gen\+Diff,  }\item[{\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}}]{trait }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Add single default relation. 
+\begin{DoxyParams}{Parameters}
+{\em title} & Title of the new relation template. \\
+\hline
+{\em description} & Description of the new relation template. \\
+\hline
+{\em first\+Name} & First name of the person. \\
+\hline
+{\em second\+Name} & Second name of the person. \\
+\hline
+{\em gen\+Diff} & Generation difference. \\
+\hline
+{\em trait} & Which trait it has. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_a4be3fe3c96bbc3dd6c12e00d44713ac4}\label{classSettings_a4be3fe3c96bbc3dd6c12e00d44713ac4} 
+\index{Settings@{Settings}!addDefaultRelations@{addDefaultRelations}}
+\index{addDefaultRelations@{addDefaultRelations}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addDefaultRelations()}{addDefaultRelations()}}
+{\footnotesize\ttfamily void Settings\+::add\+Default\+Relations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Add default relation templates. 
+
+\Hypertarget{classSettings_a89d3c723b2900fa3a94cd6c780c6f3bd}\label{classSettings_a89d3c723b2900fa3a94cd6c780c6f3bd} 
+\index{Settings@{Settings}!addEventTemplate@{addEventTemplate}}
+\index{addEventTemplate@{addEventTemplate}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addEventTemplate()}{addEventTemplate()}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::add\+Event\+Template (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEventTemplate}{Event\+Template}} \&}]{et }\end{DoxyParamCaption})}
+
+Add event template to the vector. Also re-\/index if necessary (id = 0). 
+\begin{DoxyParams}{Parameters}
+{\em et} & Given event template. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Id of the template. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a490a3ea4cbb236eda2cfd45fb6da53e0}\label{classSettings_a490a3ea4cbb236eda2cfd45fb6da53e0} 
+\index{Settings@{Settings}!addRelationTemplate@{addRelationTemplate}}
+\index{addRelationTemplate@{addRelationTemplate}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addRelationTemplate()}{addRelationTemplate()}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::add\+Relation\+Template (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \&}]{rt }\end{DoxyParamCaption})}
+
+Add relation event to the vector. Also re-\/index if necessary (id = 0). 
+\begin{DoxyParams}{Parameters}
+{\em rt} & Given relation template. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Id of the template. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a096277313ba8a435b972aa7b54d5cda3}\label{classSettings_a096277313ba8a435b972aa7b54d5cda3} 
+\index{Settings@{Settings}!addTag@{addTag}}
+\index{addTag@{addTag}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addTag()}{addTag()}}
+{\footnotesize\ttfamily void Settings\+::add\+Tag (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tag }\end{DoxyParamCaption})}
+
+Add tag to the vector. If it is not present. 
+\begin{DoxyParams}{Parameters}
+{\em tag} & New tag. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_add67480066decc8d2f7c27a091a7e4ea}\label{classSettings_add67480066decc8d2f7c27a091a7e4ea} 
+\index{Settings@{Settings}!clear@{clear}}
+\index{clear@{clear}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Settings\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear all data. 
+
+\Hypertarget{classSettings_afa3a01b5e3bb21a1fdecd742fe2f8b39}\label{classSettings_afa3a01b5e3bb21a1fdecd742fe2f8b39} 
+\index{Settings@{Settings}!exportTemplates@{exportTemplates}}
+\index{exportTemplates@{exportTemplates}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{exportTemplates()}{exportTemplates()}}
+{\footnotesize\ttfamily void Settings\+::export\+Templates (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{rel\+Ids,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{event\+Ids }\end{DoxyParamCaption})}
+
+Export only certain templates in JSON. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Which output stream to use for writing the data. \\
+\hline
+{\em rel\+Ids} & Vector of relation templates ids. \\
+\hline
+{\em event\+Ids} & Vector of event templates ids. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_a3c51f019e139ab80f9a83227075ac022}\label{classSettings_a3c51f019e139ab80f9a83227075ac022} 
+\index{Settings@{Settings}!getAppSettings@{getAppSettings}}
+\index{getAppSettings@{getAppSettings}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getAppSettings()}{getAppSettings()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structAppSettings}{App\+Settings}} \& Settings\+::get\+App\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the app settings. \begin{DoxyReturn}{Returns}
+Constant reference to the app settings. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a17ba1ad657b219934a1dd23407296412}\label{classSettings_a17ba1ad657b219934a1dd23407296412} 
+\index{Settings@{Settings}!getEventTemplate@{getEventTemplate}}
+\index{getEventTemplate@{getEventTemplate}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getEventTemplate()}{getEventTemplate()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{classEventTemplate}{Event\+Template}} \texorpdfstring{$\ast$}{*} $>$ Settings\+::get\+Event\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption}) const}
+
+Get exactly one event template. 
+\begin{DoxyParams}{Parameters}
+{\em id} & The id of the event. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Optionally pointer to the template or nothing. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a9b4735b10d5977f4daf6cb4d65d011cc}\label{classSettings_a9b4735b10d5977f4daf6cb4d65d011cc} 
+\index{Settings@{Settings}!getEventTemplates@{getEventTemplates}}
+\index{getEventTemplates@{getEventTemplates}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getEventTemplates()}{getEventTemplates()}}
+{\footnotesize\ttfamily const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classEventTemplate}{Event\+Template}} $>$ $>$ \& Settings\+::get\+Event\+Templates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get all the event templates. \begin{DoxyReturn}{Returns}
+Constant reference to the vector of all templates. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a3c56b682ecc7b2c3498d88077ffcae1c}\label{classSettings_a3c56b682ecc7b2c3498d88077ffcae1c} 
+\index{Settings@{Settings}!getGlobalMainPerson@{getGlobalMainPerson}}
+\index{getGlobalMainPerson@{getGlobalMainPerson}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getGlobalMainPerson()}{getGlobalMainPerson()}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::get\+Global\+Main\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the global main person. \begin{DoxyReturn}{Returns}
+Id of the main person. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_aebb5c6b75f0e7c80eaf14f34b2208c76}\label{classSettings_aebb5c6b75f0e7c80eaf14f34b2208c76} 
+\index{Settings@{Settings}!getRelationTemplate@{getRelationTemplate}}
+\index{getRelationTemplate@{getRelationTemplate}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getRelationTemplate()}{getRelationTemplate()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*} $>$ Settings\+::get\+Relation\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption}) const}
+
+Get exactly one relation template. 
+\begin{DoxyParams}{Parameters}
+{\em id} & The id of the relation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Optionally pointer to the template or nothing. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a926cf1f54266863590a26ca61e090c1b}\label{classSettings_a926cf1f54266863590a26ca61e090c1b} 
+\index{Settings@{Settings}!getRelationTemplates@{getRelationTemplates}}
+\index{getRelationTemplates@{getRelationTemplates}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getRelationTemplates()}{getRelationTemplates()}}
+{\footnotesize\ttfamily const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} $>$ $>$ \& Settings\+::get\+Relation\+Templates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get all the relation templates. \begin{DoxyReturn}{Returns}
+Constant reference to the vector of all templates. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a0875e0d29848bec9a0c916c7b3815dc3}\label{classSettings_a0875e0d29848bec9a0c916c7b3815dc3} 
+\index{Settings@{Settings}!getTags@{getTags}}
+\index{getTags@{getTags}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getTags()}{getTags()}}
+{\footnotesize\ttfamily const std\+::vector$<$ std\+::string $>$ \& Settings\+::get\+Tags (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Return the reference to all tags. \begin{DoxyReturn}{Returns}
+Constant reference to the container. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a387f224a744e7bc35ebb1ad2cf7026f5}\label{classSettings_a387f224a744e7bc35ebb1ad2cf7026f5} 
+\index{Settings@{Settings}!importTemplates@{importTemplates}}
+\index{importTemplates@{importTemplates}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{importTemplates()}{importTemplates()}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::import\+Templates (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Import templates from JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Given JSON Value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of imported templates. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_ace6f331ce5014c9dc086a812df72e458}\label{classSettings_ace6f331ce5014c9dc086a812df72e458} 
+\index{Settings@{Settings}!indexes@{indexes}}
+\index{indexes@{indexes}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{indexes()}{indexes()}}
+{\footnotesize\ttfamily std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ Settings\+::indexes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the free index for templates. \begin{DoxyReturn}{Returns}
+Pair of event templates index and then relation templates. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_a0863dd7f4b333ca7232bb54fc09331c1}\label{classSettings_a0863dd7f4b333ca7232bb54fc09331c1} 
+\index{Settings@{Settings}!readJson@{readJson}}
+\index{readJson@{readJson}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Settings\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read the configuration from its JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Given JSON value. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_a01bd04ca826716e72ddf9b6c23aa7a34}\label{classSettings_a01bd04ca826716e72ddf9b6c23aa7a34} 
+\index{Settings@{Settings}!reIndex@{reIndex}}
+\index{reIndex@{reIndex}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{reIndex()}{reIndex()}}
+{\footnotesize\ttfamily void Settings\+::re\+Index (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{plus\+Event,  }\item[{size\+\_\+t}]{plus\+Rel }\end{DoxyParamCaption})}
+
+Re-\/index all templates to plus given number. 
+\begin{DoxyParams}{Parameters}
+{\em plus\+Event} & What is the number to add to event templates. \\
+\hline
+{\em plus\+Rel} & What is the number to add to relation templates. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_a46dbe3473f846362b1151f87eab0a92d}\label{classSettings_a46dbe3473f846362b1151f87eab0a92d} 
+\index{Settings@{Settings}!removeEventTemplate@{removeEventTemplate}}
+\index{removeEventTemplate@{removeEventTemplate}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{removeEventTemplate()}{removeEventTemplate()}}
+{\footnotesize\ttfamily void Settings\+::remove\+Event\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+Remove event template from all events. 
+\begin{DoxyParams}{Parameters}
+{\em index} & On which position the event in vector is. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_a38b27ba9bd9744789126f139ea75f0c6}\label{classSettings_a38b27ba9bd9744789126f139ea75f0c6} 
+\index{Settings@{Settings}!removeRelationTemplate@{removeRelationTemplate}}
+\index{removeRelationTemplate@{removeRelationTemplate}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{removeRelationTemplate()}{removeRelationTemplate()}}
+{\footnotesize\ttfamily void Settings\+::remove\+Relation\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+Remove relation template from all relations. 
+\begin{DoxyParams}{Parameters}
+{\em index} & On which position the relation in vector is. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_afa77293cd9803172df29561c6f4c1e32}\label{classSettings_afa77293cd9803172df29561c6f4c1e32} 
+\index{Settings@{Settings}!removeTag@{removeTag}}
+\index{removeTag@{removeTag}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{removeTag()}{removeTag()}}
+{\footnotesize\ttfamily void Settings\+::remove\+Tag (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tag }\end{DoxyParamCaption})}
+
+Remove tag from the container. 
+\begin{DoxyParams}{Parameters}
+{\em tag} & Delete same tag if it exists. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classSettings_ac0faebf075ce93de2a72e8b007ae9614}\label{classSettings_ac0faebf075ce93de2a72e8b007ae9614} 
+\index{Settings@{Settings}!setAppSettings@{setAppSettings}}
+\index{setAppSettings@{setAppSettings}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{setAppSettings()}{setAppSettings()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structAppSettings}{App\+Settings}} \& Settings\+::set\+App\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the reference to the app settings to edit it. \begin{DoxyReturn}{Returns}
+Reference to the app settings. 
+\end{DoxyReturn}
+\Hypertarget{classSettings_ae16fe3aa2671f5b8852cf549b716d111}\label{classSettings_ae16fe3aa2671f5b8852cf549b716d111} 
+\index{Settings@{Settings}!setGlobalMainPerson@{setGlobalMainPerson}}
+\index{setGlobalMainPerson@{setGlobalMainPerson}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{setGlobalMainPerson()}{setGlobalMainPerson()}}
+{\footnotesize\ttfamily void Settings\+::set\+Global\+Main\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the global main person. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the new main person. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classSettings_ace37a79c635ebb701818644278190a19}\label{classSettings_ace37a79c635ebb701818644278190a19} 
+\index{Settings@{Settings}!appSettings\_@{appSettings\_}}
+\index{appSettings\_@{appSettings\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{appSettings\_}{appSettings\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structAppSettings}{App\+Settings}} Settings\+::app\+Settings\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Application settings. 
+
+\Hypertarget{classSettings_a6b29d2385bf074f25977a139d1d7296d}\label{classSettings_a6b29d2385bf074f25977a139d1d7296d} 
+\index{Settings@{Settings}!eventTemplateIndex\_@{eventTemplateIndex\_}}
+\index{eventTemplateIndex\_@{eventTemplateIndex\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{eventTemplateIndex\_}{eventTemplateIndex\_}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::event\+Template\+Index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+First empty index for event template. 
+
+\Hypertarget{classSettings_a119733c0ec9a55c2d1d5735acb8aa06a}\label{classSettings_a119733c0ec9a55c2d1d5735acb8aa06a} 
+\index{Settings@{Settings}!eventTemplates\_@{eventTemplates\_}}
+\index{eventTemplates\_@{eventTemplates\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{eventTemplates\_}{eventTemplates\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classEventTemplate}{Event\+Template}}$>$ $>$ Settings\+::event\+Templates\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All events templates. 
+
+\Hypertarget{classSettings_a77abdc5ba3cbbff9d2a5bafd9389a199}\label{classSettings_a77abdc5ba3cbbff9d2a5bafd9389a199} 
+\index{Settings@{Settings}!globalMainPerson\_@{globalMainPerson\_}}
+\index{globalMainPerson\_@{globalMainPerson\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{globalMainPerson\_}{globalMainPerson\_}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::global\+Main\+Person\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Main person that is global, so that on app start it will be chosen as the main person. 
+
+\Hypertarget{classSettings_ab13a93511e41fc6a21fe1997b5d30d59}\label{classSettings_ab13a93511e41fc6a21fe1997b5d30d59} 
+\index{Settings@{Settings}!relationsTemplates\_@{relationsTemplates\_}}
+\index{relationsTemplates\_@{relationsTemplates\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{relationsTemplates\_}{relationsTemplates\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}}$>$ $>$ Settings\+::relations\+Templates\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All relations\+Templates. 
+
+\Hypertarget{classSettings_a18adc7d17dad5bddab8fefb60cbc0d15}\label{classSettings_a18adc7d17dad5bddab8fefb60cbc0d15} 
+\index{Settings@{Settings}!relationTemplateIndex\_@{relationTemplateIndex\_}}
+\index{relationTemplateIndex\_@{relationTemplateIndex\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{relationTemplateIndex\_}{relationTemplateIndex\_}}
+{\footnotesize\ttfamily size\+\_\+t Settings\+::relation\+Template\+Index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+First empty index for relation template. 
+
+\Hypertarget{classSettings_a0ccf99bf2efae7460fdbf94461c82a08}\label{classSettings_a0ccf99bf2efae7460fdbf94461c82a08} 
+\index{Settings@{Settings}!tags\_@{tags\_}}
+\index{tags\_@{tags\_}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{tags\_}{tags\_}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Settings\+::tags\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All tags. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{config_8h}{config.\+h}}\item 
+core/\mbox{\hyperlink{config_8cpp}{config.\+cpp}}\end{DoxyCompactItemize}

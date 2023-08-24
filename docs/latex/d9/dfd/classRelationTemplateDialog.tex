@@ -1,0 +1,221 @@
+\doxysection{Relation\+Template\+Dialog Class Reference}
+\hypertarget{classRelationTemplateDialog}{}\label{classRelationTemplateDialog}\index{RelationTemplateDialog@{RelationTemplateDialog}}
+
+
+Dialog showing all templates and possibly editing them or creating new ones.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Relation\+Template\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d9/dfd/classRelationTemplateDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_ad27f9126f8e13d2a4e66de191ddf1b1a}{add\+Defaults}} ()
+\begin{DoxyCompactList}\small\item\em Add default templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_a4a5776b21a3767fe453686c86bfc2ed5}{add\+New\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Clear boxes and set them for new template. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_aebe7ba7d18177d6bfcfae7595c95f025}{remove\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Remove current template from the templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_a01556c6d744faf88bbd819e3660ab15a}{save\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Either save edits to the template or add new item. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_ae936c6862943dac95fc338317c72f315}{show\+Template}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRelationTemplateDialog_a65b8223e171ad1bb77df098c1ee1efea}{Relation\+Template\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classRelationTemplateDialog_a10249b1c5ba744f197a034acf408eb07}{\texorpdfstring{$\sim$}{\string~}\+Relation\+Template\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_a1f9b4a24d547e10a83a53fb7fe0538ed}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear all text boxes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_aa70ed4b4a97302870fb043d6933ca328}{refresh\+List\+Widget}} ()
+\begin{DoxyCompactList}\small\item\em Refresh list of all relation templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_a11a6cbfabb76fa12b611689cadbf6c03}{set\+Enabled\+Widgets}} (bool enabled)
+\item 
+void \mbox{\hyperlink{classRelationTemplateDialog_a5e7d8a5ea6638372c4722cc29c1692b2}{save\+Template}} (\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*}rel)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classRelationTemplateDialog_a1cd0d7cb5e62d589b0f4c322d4ece2c0}{adding\+New\+\_\+}}
+\begin{DoxyCompactList}\small\item\em When we are adding new template. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationTemplateDialog_ab8c3fe0971145bb64152e8aca5768614}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+Ui\+::\+Relation\+Template\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationTemplateDialog_a4159415c07a46a87c01a9a2a10698882}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog showing all templates and possibly editing them or creating new ones. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classRelationTemplateDialog_a65b8223e171ad1bb77df098c1ee1efea}\label{classRelationTemplateDialog_a65b8223e171ad1bb77df098c1ee1efea} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!RelationTemplateDialog@{RelationTemplateDialog}}
+\index{RelationTemplateDialog@{RelationTemplateDialog}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{RelationTemplateDialog()}{RelationTemplateDialog()}}
+{\footnotesize\ttfamily Relation\+Template\+Dialog\+::\+Relation\+Template\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelationTemplateDialog_a10249b1c5ba744f197a034acf408eb07}\label{classRelationTemplateDialog_a10249b1c5ba744f197a034acf408eb07} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!````~RelationTemplateDialog@{\texorpdfstring{$\sim$}{\string~}RelationTemplateDialog}}
+\index{````~RelationTemplateDialog@{\texorpdfstring{$\sim$}{\string~}RelationTemplateDialog}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}RelationTemplateDialog()}{\string~RelationTemplateDialog()}}
+{\footnotesize\ttfamily Relation\+Template\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Relation\+Template\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classRelationTemplateDialog_ad27f9126f8e13d2a4e66de191ddf1b1a}\label{classRelationTemplateDialog_ad27f9126f8e13d2a4e66de191ddf1b1a} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!addDefaults@{addDefaults}}
+\index{addDefaults@{addDefaults}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{addDefaults}{addDefaults}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::add\+Defaults (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add default templates. 
+
+\Hypertarget{classRelationTemplateDialog_a4a5776b21a3767fe453686c86bfc2ed5}\label{classRelationTemplateDialog_a4a5776b21a3767fe453686c86bfc2ed5} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!addNewTemplate@{addNewTemplate}}
+\index{addNewTemplate@{addNewTemplate}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{addNewTemplate}{addNewTemplate}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::add\+New\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Clear boxes and set them for new template. 
+
+\Hypertarget{classRelationTemplateDialog_a1f9b4a24d547e10a83a53fb7fe0538ed}\label{classRelationTemplateDialog_a1f9b4a24d547e10a83a53fb7fe0538ed} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!clear@{clear}}
+\index{clear@{clear}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Clear all text boxes. 
+
+\Hypertarget{classRelationTemplateDialog_aa70ed4b4a97302870fb043d6933ca328}\label{classRelationTemplateDialog_aa70ed4b4a97302870fb043d6933ca328} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!refreshListWidget@{refreshListWidget}}
+\index{refreshListWidget@{refreshListWidget}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{refreshListWidget()}{refreshListWidget()}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::refresh\+List\+Widget (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Refresh list of all relation templates. 
+
+\Hypertarget{classRelationTemplateDialog_aebe7ba7d18177d6bfcfae7595c95f025}\label{classRelationTemplateDialog_aebe7ba7d18177d6bfcfae7595c95f025} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!removeTemplate@{removeTemplate}}
+\index{removeTemplate@{removeTemplate}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{removeTemplate}{removeTemplate}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::remove\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove current template from the templates. 
+
+\Hypertarget{classRelationTemplateDialog_a01556c6d744faf88bbd819e3660ab15a}\label{classRelationTemplateDialog_a01556c6d744faf88bbd819e3660ab15a} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!saveTemplate@{saveTemplate}}
+\index{saveTemplate@{saveTemplate}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{saveTemplate}{saveTemplate}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::save\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Either save edits to the template or add new item. 
+
+\Hypertarget{classRelationTemplateDialog_a5e7d8a5ea6638372c4722cc29c1692b2}\label{classRelationTemplateDialog_a5e7d8a5ea6638372c4722cc29c1692b2} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!saveTemplate@{saveTemplate}}
+\index{saveTemplate@{saveTemplate}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{saveTemplate()}{saveTemplate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::save\+Template (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*}}]{rel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Store the given template from ui boxes. 
+\begin{DoxyParams}{Parameters}
+{\em rel} & Pointer to which relation to overwrite. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelationTemplateDialog_a11a6cbfabb76fa12b611689cadbf6c03}\label{classRelationTemplateDialog_a11a6cbfabb76fa12b611689cadbf6c03} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!setEnabledWidgets@{setEnabledWidgets}}
+\index{setEnabledWidgets@{setEnabledWidgets}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{setEnabledWidgets()}{setEnabledWidgets()}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::set\+Enabled\+Widgets (\begin{DoxyParamCaption}\item[{bool}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Set enabled for all widgets. 
+\begin{DoxyParams}{Parameters}
+{\em enabled} & If the widgets should be enabled or not. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelationTemplateDialog_ae936c6862943dac95fc338317c72f315}\label{classRelationTemplateDialog_ae936c6862943dac95fc338317c72f315} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!showTemplate@{showTemplate}}
+\index{showTemplate@{showTemplate}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{showTemplate}{showTemplate}}
+{\footnotesize\ttfamily void Relation\+Template\+Dialog\+::show\+Template (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Show template details to its text boxes. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classRelationTemplateDialog_a1cd0d7cb5e62d589b0f4c322d4ece2c0}\label{classRelationTemplateDialog_a1cd0d7cb5e62d589b0f4c322d4ece2c0} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!addingNew\_@{addingNew\_}}
+\index{addingNew\_@{addingNew\_}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{addingNew\_}{addingNew\_}}
+{\footnotesize\ttfamily bool Relation\+Template\+Dialog\+::adding\+New\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+When we are adding new template. 
+
+\Hypertarget{classRelationTemplateDialog_ab8c3fe0971145bb64152e8aca5768614}\label{classRelationTemplateDialog_ab8c3fe0971145bb64152e8aca5768614} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Relation\+Template\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classRelationTemplateDialog_a4159415c07a46a87c01a9a2a10698882}\label{classRelationTemplateDialog_a4159415c07a46a87c01a9a2a10698882} 
+\index{RelationTemplateDialog@{RelationTemplateDialog}!ui@{ui}}
+\index{ui@{ui}!RelationTemplateDialog@{RelationTemplateDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Relation\+Template\+Dialog\texorpdfstring{$\ast$}{*} Relation\+Template\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

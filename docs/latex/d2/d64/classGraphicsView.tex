@@ -1,0 +1,66 @@
+\doxysection{Graphics\+View Class Reference}
+\hypertarget{classGraphicsView}{}\label{classGraphicsView}\index{GraphicsView@{GraphicsView}}
+
+
+Class for creating QGraphics\+View with using wheel for zoom in and out. And grabing by mouse moves the view.  
+
+
+
+
+{\ttfamily \#include $<$graphics\+\_\+items.\+h$>$}
+
+Inheritance diagram for Graphics\+View\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d64/classGraphicsView}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGraphicsView_a79cf486c6413aa0995bcd582d3fc6086}{Graphics\+View}} (QGraphics\+Scene \texorpdfstring{$\ast$}{*}scene, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classGraphicsView_ac94ccda22285b9fafea8b39ecd59d2d6}{wheel\+Event}} (QWheel\+Event \texorpdfstring{$\ast$}{*}event) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for creating QGraphics\+View with using wheel for zoom in and out. And grabing by mouse moves the view. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classGraphicsView_a79cf486c6413aa0995bcd582d3fc6086}\label{classGraphicsView_a79cf486c6413aa0995bcd582d3fc6086} 
+\index{GraphicsView@{GraphicsView}!GraphicsView@{GraphicsView}}
+\index{GraphicsView@{GraphicsView}!GraphicsView@{GraphicsView}}
+\doxysubsubsection{\texorpdfstring{GraphicsView()}{GraphicsView()}}
+{\footnotesize\ttfamily Graphics\+View\+::\+Graphics\+View (\begin{DoxyParamCaption}\item[{QGraphics\+Scene \texorpdfstring{$\ast$}{*}}]{scene,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em scene} & Which scene it is using. \\
+\hline
+{\em parent} & Which widget will be showing the view. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classGraphicsView_ac94ccda22285b9fafea8b39ecd59d2d6}\label{classGraphicsView_ac94ccda22285b9fafea8b39ecd59d2d6} 
+\index{GraphicsView@{GraphicsView}!wheelEvent@{wheelEvent}}
+\index{wheelEvent@{wheelEvent}!GraphicsView@{GraphicsView}}
+\doxysubsubsection{\texorpdfstring{wheelEvent()}{wheelEvent()}}
+{\footnotesize\ttfamily void Graphics\+View\+::wheel\+Event (\begin{DoxyParamCaption}\item[{QWheel\+Event \texorpdfstring{$\ast$}{*}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+Override the wheel event for scrolling. 
+\begin{DoxyParams}{Parameters}
+{\em event} & When scrolling occurrred. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{graphics__items_8h}{graphics\+\_\+items.\+h}}\item 
+graphics/\mbox{\hyperlink{graphics__items_8cpp}{graphics\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,245 @@
+\doxysection{Event\+Tamplates\+Dialog Class Reference}
+\hypertarget{classEventTamplatesDialog}{}\label{classEventTamplatesDialog}\index{EventTamplatesDialog@{EventTamplatesDialog}}
+
+
+Dialog showing all event templates and possibly editing them or creating new ones.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Event\+Tamplates\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d1/d94/classEventTamplatesDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_ad3c3be9ec03b469c3d0a0ff804c3d73a}{add\+Defaults}} ()
+\begin{DoxyCompactList}\small\item\em Add default templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_ae00b782cc0c0d2b6d36a95e5d86342d1}{add\+New\+Role}} ()
+\begin{DoxyCompactList}\small\item\em Add new role to the list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_a3b2e1e568a048b327307fb26e107c2c2}{add\+New\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Show empty boxes to add new template. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_a163be9f3eb521cd74f80580471daf75e}{remove\+Role}} ()
+\begin{DoxyCompactList}\small\item\em Remove role from the list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_a62039e0a23c69706234d6007c15c55df}{remove\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Remove template from the list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_a26f524c7c6dae0eee98a845144b69c83}{save\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Save template or create a new one. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_acc9e9328fb3d3480efa0d9334fa22e1d}{show\+Template}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEventTamplatesDialog_abbe9e34b768f65ceeed506ee1a6fbca4}{Event\+Tamplates\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classEventTamplatesDialog_a0337dc717878702cef4b9f2b790585be}{\texorpdfstring{$\sim$}{\string~}\+Event\+Tamplates\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_abcfee0c265dfcb9681e70dfd2b41dc35}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear all boxes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_ad4a09411435d814ffcf96a594d8f2499}{refresh\+List\+Widget}} ()
+\begin{DoxyCompactList}\small\item\em Refresh list of all relation templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_a4757a57579f23edfd9998e77aad73242}{save\+Template}} (\mbox{\hyperlink{classEventTemplate}{Event\+Template}} \texorpdfstring{$\ast$}{*}event)
+\item 
+void \mbox{\hyperlink{classEventTamplatesDialog_a5f6bce8f0c7a5a588f0dba157be0e7f3}{set\+Enabled\+Widgets}} (bool enabled)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classEventTamplatesDialog_a94fd76784986c333a80b2eaf8043682e}{adding\+New\+\_\+}}
+\begin{DoxyCompactList}\small\item\em When we are adding new template. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEventTamplatesDialog_a42f3656da96b6b5014ca788cc0488754}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+Ui\+::\+Event\+Tamplates\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEventTamplatesDialog_a6fe1618236a8d6ab3063657ce6327074}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog showing all event templates and possibly editing them or creating new ones. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classEventTamplatesDialog_abbe9e34b768f65ceeed506ee1a6fbca4}\label{classEventTamplatesDialog_abbe9e34b768f65ceeed506ee1a6fbca4} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!EventTamplatesDialog@{EventTamplatesDialog}}
+\index{EventTamplatesDialog@{EventTamplatesDialog}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{EventTamplatesDialog()}{EventTamplatesDialog()}}
+{\footnotesize\ttfamily Event\+Tamplates\+Dialog\+::\+Event\+Tamplates\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTamplatesDialog_a0337dc717878702cef4b9f2b790585be}\label{classEventTamplatesDialog_a0337dc717878702cef4b9f2b790585be} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!````~EventTamplatesDialog@{\texorpdfstring{$\sim$}{\string~}EventTamplatesDialog}}
+\index{````~EventTamplatesDialog@{\texorpdfstring{$\sim$}{\string~}EventTamplatesDialog}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}EventTamplatesDialog()}{\string~EventTamplatesDialog()}}
+{\footnotesize\ttfamily Event\+Tamplates\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Event\+Tamplates\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classEventTamplatesDialog_ad3c3be9ec03b469c3d0a0ff804c3d73a}\label{classEventTamplatesDialog_ad3c3be9ec03b469c3d0a0ff804c3d73a} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!addDefaults@{addDefaults}}
+\index{addDefaults@{addDefaults}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{addDefaults}{addDefaults}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::add\+Defaults (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add default templates. 
+
+\Hypertarget{classEventTamplatesDialog_ae00b782cc0c0d2b6d36a95e5d86342d1}\label{classEventTamplatesDialog_ae00b782cc0c0d2b6d36a95e5d86342d1} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!addNewRole@{addNewRole}}
+\index{addNewRole@{addNewRole}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{addNewRole}{addNewRole}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::add\+New\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add new role to the list. 
+
+\Hypertarget{classEventTamplatesDialog_a3b2e1e568a048b327307fb26e107c2c2}\label{classEventTamplatesDialog_a3b2e1e568a048b327307fb26e107c2c2} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!addNewTemplate@{addNewTemplate}}
+\index{addNewTemplate@{addNewTemplate}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{addNewTemplate}{addNewTemplate}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::add\+New\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show empty boxes to add new template. 
+
+\Hypertarget{classEventTamplatesDialog_abcfee0c265dfcb9681e70dfd2b41dc35}\label{classEventTamplatesDialog_abcfee0c265dfcb9681e70dfd2b41dc35} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!clear@{clear}}
+\index{clear@{clear}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Clear all boxes. 
+
+\Hypertarget{classEventTamplatesDialog_ad4a09411435d814ffcf96a594d8f2499}\label{classEventTamplatesDialog_ad4a09411435d814ffcf96a594d8f2499} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!refreshListWidget@{refreshListWidget}}
+\index{refreshListWidget@{refreshListWidget}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{refreshListWidget()}{refreshListWidget()}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::refresh\+List\+Widget (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Refresh list of all relation templates. 
+
+\Hypertarget{classEventTamplatesDialog_a163be9f3eb521cd74f80580471daf75e}\label{classEventTamplatesDialog_a163be9f3eb521cd74f80580471daf75e} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!removeRole@{removeRole}}
+\index{removeRole@{removeRole}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{removeRole}{removeRole}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::remove\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove role from the list. 
+
+\Hypertarget{classEventTamplatesDialog_a62039e0a23c69706234d6007c15c55df}\label{classEventTamplatesDialog_a62039e0a23c69706234d6007c15c55df} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!removeTemplate@{removeTemplate}}
+\index{removeTemplate@{removeTemplate}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{removeTemplate}{removeTemplate}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::remove\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove template from the list. 
+
+\Hypertarget{classEventTamplatesDialog_a26f524c7c6dae0eee98a845144b69c83}\label{classEventTamplatesDialog_a26f524c7c6dae0eee98a845144b69c83} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!saveTemplate@{saveTemplate}}
+\index{saveTemplate@{saveTemplate}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{saveTemplate}{saveTemplate}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::save\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save template or create a new one. 
+
+\Hypertarget{classEventTamplatesDialog_a4757a57579f23edfd9998e77aad73242}\label{classEventTamplatesDialog_a4757a57579f23edfd9998e77aad73242} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!saveTemplate@{saveTemplate}}
+\index{saveTemplate@{saveTemplate}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{saveTemplate()}{saveTemplate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::save\+Template (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEventTemplate}{Event\+Template}} \texorpdfstring{$\ast$}{*}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Overwrite data of the event template by the input from ui. 
+\begin{DoxyParams}{Parameters}
+{\em event} & Pointer to which template to overwrite. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTamplatesDialog_a5f6bce8f0c7a5a588f0dba157be0e7f3}\label{classEventTamplatesDialog_a5f6bce8f0c7a5a588f0dba157be0e7f3} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!setEnabledWidgets@{setEnabledWidgets}}
+\index{setEnabledWidgets@{setEnabledWidgets}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{setEnabledWidgets()}{setEnabledWidgets()}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::set\+Enabled\+Widgets (\begin{DoxyParamCaption}\item[{bool}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Set enabled for all widgets. 
+\begin{DoxyParams}{Parameters}
+{\em enabled} & If the widgets should be enabled or not. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventTamplatesDialog_acc9e9328fb3d3480efa0d9334fa22e1d}\label{classEventTamplatesDialog_acc9e9328fb3d3480efa0d9334fa22e1d} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!showTemplate@{showTemplate}}
+\index{showTemplate@{showTemplate}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{showTemplate}{showTemplate}}
+{\footnotesize\ttfamily void Event\+Tamplates\+Dialog\+::show\+Template (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Show template details. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item is clicked. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classEventTamplatesDialog_a94fd76784986c333a80b2eaf8043682e}\label{classEventTamplatesDialog_a94fd76784986c333a80b2eaf8043682e} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!addingNew\_@{addingNew\_}}
+\index{addingNew\_@{addingNew\_}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{addingNew\_}{addingNew\_}}
+{\footnotesize\ttfamily bool Event\+Tamplates\+Dialog\+::adding\+New\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+When we are adding new template. 
+
+\Hypertarget{classEventTamplatesDialog_a42f3656da96b6b5014ca788cc0488754}\label{classEventTamplatesDialog_a42f3656da96b6b5014ca788cc0488754} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Event\+Tamplates\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classEventTamplatesDialog_a6fe1618236a8d6ab3063657ce6327074}\label{classEventTamplatesDialog_a6fe1618236a8d6ab3063657ce6327074} 
+\index{EventTamplatesDialog@{EventTamplatesDialog}!ui@{ui}}
+\index{ui@{ui}!EventTamplatesDialog@{EventTamplatesDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Event\+Tamplates\+Dialog\texorpdfstring{$\ast$}{*} Event\+Tamplates\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

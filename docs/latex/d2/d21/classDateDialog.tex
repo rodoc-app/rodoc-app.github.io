@@ -1,0 +1,134 @@
+\doxysection{Date\+Dialog Class Reference}
+\hypertarget{classDateDialog}{}\label{classDateDialog}\index{DateDialog@{DateDialog}}
+
+
+Dialog for editing custom dates.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Date\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d21/classDateDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classDateDialog_a5f8d28e818d978dff61ac43626e969a4}{save\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Slot for saving the date if OK button was pressed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDateDialog_a984b2031dfcc8cae0326ef9d1f1e8454}{unknown\+Date}} (bool is\+Unknown)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDateDialog_acc74000510ca04e21ac813be813406c8}{Date\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*}date=nullptr, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classDateDialog_a6bbfd15f0d78cca37735ab557835b865}{\texorpdfstring{$\sim$}{\string~}\+Date\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classDateDialog_af396e1e8944cb62436724670cc74585e}{date\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the used date. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classDateDialog_aa1e73b85544a8bea4348bbe5a9504578}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+Ui\+::\+Date\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classDateDialog_ac7619a24132416658fd09341a4fbffb0}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for editing custom dates. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classDateDialog_acc74000510ca04e21ac813be813406c8}\label{classDateDialog_acc74000510ca04e21ac813be813406c8} 
+\index{DateDialog@{DateDialog}!DateDialog@{DateDialog}}
+\index{DateDialog@{DateDialog}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{DateDialog()}{DateDialog()}}
+{\footnotesize\ttfamily Date\+Dialog\+::\+Date\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*}}]{date = {\ttfamily nullptr},  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em date} & Pointer to the used date. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDateDialog_a6bbfd15f0d78cca37735ab557835b865}\label{classDateDialog_a6bbfd15f0d78cca37735ab557835b865} 
+\index{DateDialog@{DateDialog}!````~DateDialog@{\texorpdfstring{$\sim$}{\string~}DateDialog}}
+\index{````~DateDialog@{\texorpdfstring{$\sim$}{\string~}DateDialog}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}DateDialog()}{\string~DateDialog()}}
+{\footnotesize\ttfamily Date\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Date\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classDateDialog_a5f8d28e818d978dff61ac43626e969a4}\label{classDateDialog_a5f8d28e818d978dff61ac43626e969a4} 
+\index{DateDialog@{DateDialog}!saveDate@{saveDate}}
+\index{saveDate@{saveDate}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{saveDate}{saveDate}}
+{\footnotesize\ttfamily void Date\+Dialog\+::save\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for saving the date if OK button was pressed. 
+
+\Hypertarget{classDateDialog_a984b2031dfcc8cae0326ef9d1f1e8454}\label{classDateDialog_a984b2031dfcc8cae0326ef9d1f1e8454} 
+\index{DateDialog@{DateDialog}!unknownDate@{unknownDate}}
+\index{unknownDate@{unknownDate}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{unknownDate}{unknownDate}}
+{\footnotesize\ttfamily void Date\+Dialog\+::unknown\+Date (\begin{DoxyParamCaption}\item[{bool}]{is\+Unknown }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+If the unknown check box was changed. 
+\begin{DoxyParams}{Parameters}
+{\em is\+Unknown} & If the check box was checked. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classDateDialog_af396e1e8944cb62436724670cc74585e}\label{classDateDialog_af396e1e8944cb62436724670cc74585e} 
+\index{DateDialog@{DateDialog}!date\_@{date\_}}
+\index{date\_@{date\_}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{date\_}{date\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}}\texorpdfstring{$\ast$}{*} Date\+Dialog\+::date\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the used date. 
+
+\Hypertarget{classDateDialog_aa1e73b85544a8bea4348bbe5a9504578}\label{classDateDialog_aa1e73b85544a8bea4348bbe5a9504578} 
+\index{DateDialog@{DateDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Date\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classDateDialog_ac7619a24132416658fd09341a4fbffb0}\label{classDateDialog_ac7619a24132416658fd09341a4fbffb0} 
+\index{DateDialog@{DateDialog}!ui@{ui}}
+\index{ui@{ui}!DateDialog@{DateDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Date\+Dialog\texorpdfstring{$\ast$}{*} Date\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,55 @@
+\doxysection{core/date.cpp File Reference}
+\hypertarget{date_8cpp}{}\label{date_8cpp}\index{core/date.cpp@{core/date.cpp}}
+
+
+Source file for date formats.  
+
+
+{\ttfamily \#include \"{}date.\+h\"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{date_8cpp_af7ada80c7c34b250f290a8008f0fc047}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classDate}{Date}} \&d)
+\item 
+std\+::ostream \& \mbox{\hyperlink{date_8cpp_a4fa5fa46fe5dcf0ca892f32732dedf79}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \&wd)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source file for date formats. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{date_8cpp_af7ada80c7c34b250f290a8008f0fc047}\label{date_8cpp_af7ada80c7c34b250f290a8008f0fc047} 
+\index{date.cpp@{date.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!date.cpp@{date.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classDate}{Date}} \&}]{d }\end{DoxyParamCaption})}
+
+Writing date to the stream in format yyyy-\/mm-\/dd. Instead of writing for example 05, there will be just 5. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em d} & Given date. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}
+\Hypertarget{date_8cpp_a4fa5fa46fe5dcf0ca892f32732dedf79}\label{date_8cpp_a4fa5fa46fe5dcf0ca892f32732dedf79} 
+\index{date.cpp@{date.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!date.cpp@{date.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \&}]{wd }\end{DoxyParamCaption})}
+
+Writing wrapped date to given stream in JSON formatting. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em wd} & Given \doxylink{classWrappedDate}{Wrapped\+Date}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}

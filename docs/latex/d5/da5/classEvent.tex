@@ -1,0 +1,376 @@
+\doxysection{Event Class Reference}
+\hypertarget{classEvent}{}\label{classEvent}\index{Event@{Event}}
+
+
+Class holding data for a single event.  
+
+
+
+
+{\ttfamily \#include $<$family\+\_\+tree\+\_\+items.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEvent_a850b13dc7115bebd3f1965379d94dec4}{Event}} (\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*}settings)
+\item 
+void \mbox{\hyperlink{classEvent_a3b679ce388ad426af846592c3d99ba93}{add\+Person}} (size\+\_\+t person, const std\+::string \&role=\mbox{\hyperlink{namespaceevents_a5f4da347a69ca7e764cf1982bd419109}{events\+::\+NO\+\_\+\+ROLE}})
+\item 
+void \mbox{\hyperlink{classEvent_ab541ced5d035c4bdde074ae05a2354b9}{clear\+Persons}} ()
+\begin{DoxyCompactList}\small\item\em Clear all persons. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEvent_a68262d45afb4e42c1c9f14bb341ab053}{date}} ()
+\item 
+const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& \mbox{\hyperlink{classEvent_a51b5bd7176e15ff7d4a352f808073fb5}{get\+Date}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classEvent_a63fcc9a848d8e6968ebfe1f9ee710582}{get\+Id}} () const
+\item 
+const std\+::vector$<$ std\+::pair$<$ std\+::string, size\+\_\+t $>$ $>$ \& \mbox{\hyperlink{classEvent_a44a7c19a1f9d966c1799b2c5ae0871e0}{get\+Persons}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classEvent_a92c6fd566ec87a931b8ecfb498dba191}{get\+Place}} () const
+\item 
+const \mbox{\hyperlink{classSettings}{Settings}} \& \mbox{\hyperlink{classEvent_a2382279a38f1298c86d4baca85139f8f}{get\+Settings}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classEvent_a6a9531cd944c867d35792ee8b1c03320}{get\+Template}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classEvent_a426ea3b3babe3d3f6461d9061cc0ac38}{get\+Text}} () const
+\item 
+void \mbox{\hyperlink{classEvent_a012001747203f2b3d2e86a435f6fec48}{print\+Html}} (std\+::ostream \&os, const std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \&persons)
+\item 
+void \mbox{\hyperlink{classEvent_a97ce3f6b629fc2593b5d4dfe4efecf04}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+bool \mbox{\hyperlink{classEvent_a8be2df11d61df156ae909eed0e21c4c8}{remove\+Person}} (size\+\_\+t id)
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& \mbox{\hyperlink{classEvent_abda4308919bb0a5350d46b398f4dfc2f}{set\+Date}} ()
+\item 
+void \mbox{\hyperlink{classEvent_a2bf4106ddb365130674bfd48bc30d97e}{set\+Id}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classEvent_a4ed0a00edad55b54f334a10bce0ca1d5}{set\+Place}} (const std\+::string \&place)
+\item 
+void \mbox{\hyperlink{classEvent_ac88d5559b22218e99ede9a72d478d582}{set\+Template}} (size\+\_\+t templ)
+\item 
+void \mbox{\hyperlink{classEvent_a55afed75943b6af71a8af00e56eeda71}{set\+Text}} (const std\+::string \&text)
+\item 
+std\+::string \mbox{\hyperlink{classEvent_a01ddf768402ff66667eb5d44a9260a16}{str}} () const
+\item 
+std\+::vector$<$ size\+\_\+t $>$ \mbox{\hyperlink{classEvent_a14a2d173f683e30e2065718e0b856eb4}{update\+To\+Template}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \mbox{\hyperlink{classEvent_a4f9b03857153af92ebe1683ffc6ee5aa}{date\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDate}{Date} of this event. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classEvent_a3e92c9d4c31b4988ede0492a83827aeb}{id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Id of this event. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ std\+::string, size\+\_\+t $>$ $>$ \mbox{\hyperlink{classEvent_aeffb9d8c96995ca5aeaf18b2220a7ed1}{persons\+\_\+}}
+\begin{DoxyCompactList}\small\item\em People with their roles. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classEvent_aa9f0258fc2a683221a5923b56a30121c}{place\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Place of this event. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEvent_a687fc9cf577dcfcd9e49193a1c36a6c4}{settings\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classSettings}{Settings} used in app. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classEvent_aea4f63e42f3b4ed0f904edbaff35c318}{template\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Template for this event. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classEvent_a4b3ef44daee83a884f4378c1d3508050}{text\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Text (note or value) for this event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class holding data for a single event. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classEvent_a850b13dc7115bebd3f1965379d94dec4}\label{classEvent_a850b13dc7115bebd3f1965379d94dec4} 
+\index{Event@{Event}!Event@{Event}}
+\index{Event@{Event}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{Event()}{Event()}}
+{\footnotesize\ttfamily Event\+::\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*}}]{settings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em settings} & The settings used in app (to access the template). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classEvent_a3b679ce388ad426af846592c3d99ba93}\label{classEvent_a3b679ce388ad426af846592c3d99ba93} 
+\index{Event@{Event}!addPerson@{addPerson}}
+\index{addPerson@{addPerson}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{addPerson()}{addPerson()}}
+{\footnotesize\ttfamily void Event\+::add\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{person,  }\item[{const std\+::string \&}]{role = {\ttfamily \mbox{\hyperlink{namespaceevents_a5f4da347a69ca7e764cf1982bd419109}{events\+::\+NO\+\_\+\+ROLE}}} }\end{DoxyParamCaption})}
+
+Add person to the vector. 
+\begin{DoxyParams}{Parameters}
+{\em person} & Id of the person. \\
+\hline
+{\em role} & Special role for this person, or empty if he does not have special role. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_ab541ced5d035c4bdde074ae05a2354b9}\label{classEvent_ab541ced5d035c4bdde074ae05a2354b9} 
+\index{Event@{Event}!clearPersons@{clearPersons}}
+\index{clearPersons@{clearPersons}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{clearPersons()}{clearPersons()}}
+{\footnotesize\ttfamily void Event\+::clear\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear all persons. 
+
+\Hypertarget{classEvent_a68262d45afb4e42c1c9f14bb341ab053}\label{classEvent_a68262d45afb4e42c1c9f14bb341ab053} 
+\index{Event@{Event}!date@{date}}
+\index{date@{date}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{date()}{date()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} Event\+::date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the pointer to the date. \begin{DoxyReturn}{Returns}
+Pointer to the wrapped date. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a51b5bd7176e15ff7d4a352f808073fb5}\label{classEvent_a51b5bd7176e15ff7d4a352f808073fb5} 
+\index{Event@{Event}!getDate@{getDate}}
+\index{getDate@{getDate}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getDate()}{getDate()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& Event\+::get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the date of this event. \begin{DoxyReturn}{Returns}
+Constant reference to the date. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a63fcc9a848d8e6968ebfe1f9ee710582}\label{classEvent_a63fcc9a848d8e6968ebfe1f9ee710582} 
+\index{Event@{Event}!getId@{getId}}
+\index{getId@{getId}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t Event\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the id of this event. \begin{DoxyReturn}{Returns}
+Id of the event. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a44a7c19a1f9d966c1799b2c5ae0871e0}\label{classEvent_a44a7c19a1f9d966c1799b2c5ae0871e0} 
+\index{Event@{Event}!getPersons@{getPersons}}
+\index{getPersons@{getPersons}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getPersons()}{getPersons()}}
+{\footnotesize\ttfamily const std\+::vector$<$ std\+::pair$<$ std\+::string, size\+\_\+t $>$ $>$ \& Event\+::get\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the vector of persons. \begin{DoxyReturn}{Returns}
+Constant reference to the vector of persons. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a92c6fd566ec87a931b8ecfb498dba191}\label{classEvent_a92c6fd566ec87a931b8ecfb498dba191} 
+\index{Event@{Event}!getPlace@{getPlace}}
+\index{getPlace@{getPlace}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getPlace()}{getPlace()}}
+{\footnotesize\ttfamily const std\+::string \& Event\+::get\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the place of this event. \begin{DoxyReturn}{Returns}
+Constant reference to the place. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a2382279a38f1298c86d4baca85139f8f}\label{classEvent_a2382279a38f1298c86d4baca85139f8f} 
+\index{Event@{Event}!getSettings@{getSettings}}
+\index{getSettings@{getSettings}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getSettings()}{getSettings()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classSettings}{Settings}} \& Event\+::get\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the settings. \begin{DoxyReturn}{Returns}
+Constant reference to the settings. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a6a9531cd944c867d35792ee8b1c03320}\label{classEvent_a6a9531cd944c867d35792ee8b1c03320} 
+\index{Event@{Event}!getTemplate@{getTemplate}}
+\index{getTemplate@{getTemplate}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getTemplate()}{getTemplate()}}
+{\footnotesize\ttfamily size\+\_\+t Event\+::get\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the template for this event. \begin{DoxyReturn}{Returns}
+Id of the template. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a426ea3b3babe3d3f6461d9061cc0ac38}\label{classEvent_a426ea3b3babe3d3f6461d9061cc0ac38} 
+\index{Event@{Event}!getText@{getText}}
+\index{getText@{getText}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily const std\+::string \& Event\+::get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the text note of the event. \begin{DoxyReturn}{Returns}
+Constant reference to the text. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a012001747203f2b3d2e86a435f6fec48}\label{classEvent_a012001747203f2b3d2e86a435f6fec48} 
+\index{Event@{Event}!printHtml@{printHtml}}
+\index{printHtml@{printHtml}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{printHtml()}{printHtml()}}
+{\footnotesize\ttfamily void Event\+::print\+Html (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \&}]{persons }\end{DoxyParamCaption})}
+
+Print event to an output stream in HTML format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream, \\
+\hline
+{\em persons} & List of pairs for role\&person names. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_a97ce3f6b629fc2593b5d4dfe4efecf04}\label{classEvent_a97ce3f6b629fc2593b5d4dfe4efecf04} 
+\index{Event@{Event}!readJson@{readJson}}
+\index{readJson@{readJson}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Event\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read the relation from JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & The JSON value from file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_a8be2df11d61df156ae909eed0e21c4c8}\label{classEvent_a8be2df11d61df156ae909eed0e21c4c8} 
+\index{Event@{Event}!removePerson@{removePerson}}
+\index{removePerson@{removePerson}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{removePerson()}{removePerson()}}
+{\footnotesize\ttfamily bool Event\+::remove\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove person from the list of all persons. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if there is no other person left (thus left out event), otherwise false. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_abda4308919bb0a5350d46b398f4dfc2f}\label{classEvent_abda4308919bb0a5350d46b398f4dfc2f} 
+\index{Event@{Event}!setDate@{setDate}}
+\index{setDate@{setDate}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{setDate()}{setDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& Event\+::set\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the date for this event. \begin{DoxyReturn}{Returns}
+Reference to the date. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a2bf4106ddb365130674bfd48bc30d97e}\label{classEvent_a2bf4106ddb365130674bfd48bc30d97e} 
+\index{Event@{Event}!setId@{setId}}
+\index{setId@{setId}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Event\+::set\+Id (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the id for this event. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Given id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_a4ed0a00edad55b54f334a10bce0ca1d5}\label{classEvent_a4ed0a00edad55b54f334a10bce0ca1d5} 
+\index{Event@{Event}!setPlace@{setPlace}}
+\index{setPlace@{setPlace}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{setPlace()}{setPlace()}}
+{\footnotesize\ttfamily void Event\+::set\+Place (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{place }\end{DoxyParamCaption})}
+
+Set the place for this event. 
+\begin{DoxyParams}{Parameters}
+{\em place} & New place. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_ac88d5559b22218e99ede9a72d478d582}\label{classEvent_ac88d5559b22218e99ede9a72d478d582} 
+\index{Event@{Event}!setTemplate@{setTemplate}}
+\index{setTemplate@{setTemplate}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{setTemplate()}{setTemplate()}}
+{\footnotesize\ttfamily void Event\+::set\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{templ }\end{DoxyParamCaption})}
+
+Set the template of this event. 
+\begin{DoxyParams}{Parameters}
+{\em templ} & Id of the new template. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_a55afed75943b6af71a8af00e56eeda71}\label{classEvent_a55afed75943b6af71a8af00e56eeda71} 
+\index{Event@{Event}!setText@{setText}}
+\index{setText@{setText}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily void Event\+::set\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+Set the text for this event. 
+\begin{DoxyParams}{Parameters}
+{\em text} & Given new text. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEvent_a01ddf768402ff66667eb5d44a9260a16}\label{classEvent_a01ddf768402ff66667eb5d44a9260a16} 
+\index{Event@{Event}!str@{str}}
+\index{str@{str}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{str()}{str()}}
+{\footnotesize\ttfamily std\+::string Event\+::str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the event representation as a string. \begin{DoxyReturn}{Returns}
+Newly constructed string representing the event. 
+\end{DoxyReturn}
+\Hypertarget{classEvent_a14a2d173f683e30e2065718e0b856eb4}\label{classEvent_a14a2d173f683e30e2065718e0b856eb4} 
+\index{Event@{Event}!updateToTemplate@{updateToTemplate}}
+\index{updateToTemplate@{updateToTemplate}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{updateToTemplate()}{updateToTemplate()}}
+{\footnotesize\ttfamily std\+::vector$<$ size\+\_\+t $>$ Event\+::update\+To\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Update this event to the changed template. \begin{DoxyReturn}{Returns}
+Vector of all persons which were removed. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classEvent_a4f9b03857153af92ebe1683ffc6ee5aa}\label{classEvent_a4f9b03857153af92ebe1683ffc6ee5aa} 
+\index{Event@{Event}!date\_@{date\_}}
+\index{date\_@{date\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{date\_}{date\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} Event\+::date\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classDate}{Date} of this event. 
+
+\Hypertarget{classEvent_a3e92c9d4c31b4988ede0492a83827aeb}\label{classEvent_a3e92c9d4c31b4988ede0492a83827aeb} 
+\index{Event@{Event}!id\_@{id\_}}
+\index{id\_@{id\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{id\_}{id\_}}
+{\footnotesize\ttfamily size\+\_\+t Event\+::id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Id of this event. 
+
+\Hypertarget{classEvent_aeffb9d8c96995ca5aeaf18b2220a7ed1}\label{classEvent_aeffb9d8c96995ca5aeaf18b2220a7ed1} 
+\index{Event@{Event}!persons\_@{persons\_}}
+\index{persons\_@{persons\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{persons\_}{persons\_}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::pair$<$std\+::string, size\+\_\+t$>$ $>$ Event\+::persons\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+People with their roles. 
+
+\Hypertarget{classEvent_aa9f0258fc2a683221a5923b56a30121c}\label{classEvent_aa9f0258fc2a683221a5923b56a30121c} 
+\index{Event@{Event}!place\_@{place\_}}
+\index{place\_@{place\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{place\_}{place\_}}
+{\footnotesize\ttfamily std\+::string Event\+::place\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Place of this event. 
+
+\Hypertarget{classEvent_a687fc9cf577dcfcd9e49193a1c36a6c4}\label{classEvent_a687fc9cf577dcfcd9e49193a1c36a6c4} 
+\index{Event@{Event}!settings\_@{settings\_}}
+\index{settings\_@{settings\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{settings\_}{settings\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSettings}{Settings}}\texorpdfstring{$\ast$}{*} Event\+::settings\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classSettings}{Settings} used in app. 
+
+\Hypertarget{classEvent_aea4f63e42f3b4ed0f904edbaff35c318}\label{classEvent_aea4f63e42f3b4ed0f904edbaff35c318} 
+\index{Event@{Event}!template\_@{template\_}}
+\index{template\_@{template\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{template\_}{template\_}}
+{\footnotesize\ttfamily size\+\_\+t Event\+::template\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Template for this event. 
+
+\Hypertarget{classEvent_a4b3ef44daee83a884f4378c1d3508050}\label{classEvent_a4b3ef44daee83a884f4378c1d3508050} 
+\index{Event@{Event}!text\_@{text\_}}
+\index{text\_@{text\_}!Event@{Event}}
+\doxysubsubsection{\texorpdfstring{text\_}{text\_}}
+{\footnotesize\ttfamily std\+::string Event\+::text\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Text (note or value) for this event. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{family__tree__items_8h}{family\+\_\+tree\+\_\+items.\+h}}\item 
+core/\mbox{\hyperlink{family__tree__items_8cpp}{family\+\_\+tree\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

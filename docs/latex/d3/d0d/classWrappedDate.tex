@@ -1,0 +1,231 @@
+\doxysection{Wrapped\+Date Class Reference}
+\hypertarget{classWrappedDate}{}\label{classWrappedDate}\index{WrappedDate@{WrappedDate}}
+
+
+Class holding two dates and date description. Always first date is the main one.  
+
+
+
+
+{\ttfamily \#include $<$date.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWrappedDate_a1aa0578b0e002c95d7fdd5b8e4cf6dd4}{Wrapped\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classWrappedDate_ab5d42cf4b770ed518f2b5fde781e082c}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear all values. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classDate}{Date}} \& \mbox{\hyperlink{classWrappedDate_abba60fe2cd1922f126f19c74fcbcf967}{get\+First\+Date}} () const
+\item 
+const \mbox{\hyperlink{classDate}{Date}} \& \mbox{\hyperlink{classWrappedDate_add1ffb49ad5f18a2d40b088be244b0ff}{get\+Second\+Date}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classWrappedDate_ab35a0872a4f8e10c18713415ec0dc9d8}{get\+Text}} () const
+\item 
+bool \mbox{\hyperlink{classWrappedDate_acce5b7e55c288cb3bd7989c180f6913a}{is\+Exact}} () const
+\item 
+bool \mbox{\hyperlink{classWrappedDate_a4125ee873c588af6aac5470c82e99e8e}{is\+Unknown}} () const
+\item 
+void \mbox{\hyperlink{classWrappedDate_a6e53cae7a9772ee786da9eb0e0471f93}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classWrappedDate_affb2f2e9352f22a33f41a23ee5eeb277}{set\+First\+Date}} (int y, int m, int d)
+\item 
+void \mbox{\hyperlink{classWrappedDate_a0037e36a1cbeb82091b1f8d7c62ae75a}{set\+Second\+Date}} (int y, int m, int d)
+\item 
+std\+::string \& \mbox{\hyperlink{classWrappedDate_a578abb1e026bb21d74e0b9707ba00ebf}{set\+Text}} ()
+\item 
+std\+::string \mbox{\hyperlink{classWrappedDate_ae16a28b00fb62e81fda3c8e0c42ac924}{str}} () const
+\item 
+void \mbox{\hyperlink{classWrappedDate_ae193ab0a7605e909d4f87481df4874e3}{update\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Switch the dates if the first one is empty. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDate}{Date}} \mbox{\hyperlink{classWrappedDate_ab551914cc915219716b9ad146fee2e65}{date1\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Main date, if interval is set it is the first day. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDate}{Date}} \mbox{\hyperlink{classWrappedDate_a68dac41a7d96183fc8048a6bd69c65dc}{date2\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Second date for interval only, otherwise empty. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classWrappedDate_ad9ac722370ae6bd679123484f2165514}{text\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If text was given. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class holding two dates and date description. Always first date is the main one. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classWrappedDate_a1aa0578b0e002c95d7fdd5b8e4cf6dd4}\label{classWrappedDate_a1aa0578b0e002c95d7fdd5b8e4cf6dd4} 
+\index{WrappedDate@{WrappedDate}!WrappedDate@{WrappedDate}}
+\index{WrappedDate@{WrappedDate}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{WrappedDate()}{WrappedDate()}}
+{\footnotesize\ttfamily Wrapped\+Date\+::\+Wrapped\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classWrappedDate_ab5d42cf4b770ed518f2b5fde781e082c}\label{classWrappedDate_ab5d42cf4b770ed518f2b5fde781e082c} 
+\index{WrappedDate@{WrappedDate}!clear@{clear}}
+\index{clear@{clear}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Wrapped\+Date\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear all values. 
+
+\Hypertarget{classWrappedDate_abba60fe2cd1922f126f19c74fcbcf967}\label{classWrappedDate_abba60fe2cd1922f126f19c74fcbcf967} 
+\index{WrappedDate@{WrappedDate}!getFirstDate@{getFirstDate}}
+\index{getFirstDate@{getFirstDate}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{getFirstDate()}{getFirstDate()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classDate}{Date}} \& Wrapped\+Date\+::get\+First\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the first date. \begin{DoxyReturn}{Returns}
+Constant reference to the first date. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_add1ffb49ad5f18a2d40b088be244b0ff}\label{classWrappedDate_add1ffb49ad5f18a2d40b088be244b0ff} 
+\index{WrappedDate@{WrappedDate}!getSecondDate@{getSecondDate}}
+\index{getSecondDate@{getSecondDate}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{getSecondDate()}{getSecondDate()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classDate}{Date}} \& Wrapped\+Date\+::get\+Second\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the second date. \begin{DoxyReturn}{Returns}
+Constant reference to the second date. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_ab35a0872a4f8e10c18713415ec0dc9d8}\label{classWrappedDate_ab35a0872a4f8e10c18713415ec0dc9d8} 
+\index{WrappedDate@{WrappedDate}!getText@{getText}}
+\index{getText@{getText}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily const std\+::string \& Wrapped\+Date\+::get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the text. \begin{DoxyReturn}{Returns}
+Constant reference to the text. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_acce5b7e55c288cb3bd7989c180f6913a}\label{classWrappedDate_acce5b7e55c288cb3bd7989c180f6913a} 
+\index{WrappedDate@{WrappedDate}!isExact@{isExact}}
+\index{isExact@{isExact}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{isExact()}{isExact()}}
+{\footnotesize\ttfamily bool Wrapped\+Date\+::is\+Exact (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if the date is exact or not. To be exact only the first date has to be exact, the second got to be empty. \begin{DoxyReturn}{Returns}
+True if the first date is exact \& second empty. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_a4125ee873c588af6aac5470c82e99e8e}\label{classWrappedDate_a4125ee873c588af6aac5470c82e99e8e} 
+\index{WrappedDate@{WrappedDate}!isUnknown@{isUnknown}}
+\index{isUnknown@{isUnknown}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{isUnknown()}{isUnknown()}}
+{\footnotesize\ttfamily bool Wrapped\+Date\+::is\+Unknown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if the date is unknown. To be unknown all values are 0 and text is empty. \begin{DoxyReturn}{Returns}
+If the date is unknown. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_a6e53cae7a9772ee786da9eb0e0471f93}\label{classWrappedDate_a6e53cae7a9772ee786da9eb0e0471f93} 
+\index{WrappedDate@{WrappedDate}!readJson@{readJson}}
+\index{readJson@{readJson}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Wrapped\+Date\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read the data from JSON formatting. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Given JSON value. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classWrappedDate_affb2f2e9352f22a33f41a23ee5eeb277}\label{classWrappedDate_affb2f2e9352f22a33f41a23ee5eeb277} 
+\index{WrappedDate@{WrappedDate}!setFirstDate@{setFirstDate}}
+\index{setFirstDate@{setFirstDate}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{setFirstDate()}{setFirstDate()}}
+{\footnotesize\ttfamily void Wrapped\+Date\+::set\+First\+Date (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{m,  }\item[{int}]{d }\end{DoxyParamCaption})}
+
+Set the first date. 
+\begin{DoxyParams}{Parameters}
+{\em y} & Year number. \\
+\hline
+{\em m} & Month number. \\
+\hline
+{\em d} & Day number. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classWrappedDate_a0037e36a1cbeb82091b1f8d7c62ae75a}\label{classWrappedDate_a0037e36a1cbeb82091b1f8d7c62ae75a} 
+\index{WrappedDate@{WrappedDate}!setSecondDate@{setSecondDate}}
+\index{setSecondDate@{setSecondDate}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{setSecondDate()}{setSecondDate()}}
+{\footnotesize\ttfamily void Wrapped\+Date\+::set\+Second\+Date (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{m,  }\item[{int}]{d }\end{DoxyParamCaption})}
+
+Set the second date. 
+\begin{DoxyParams}{Parameters}
+{\em y} & Year number. \\
+\hline
+{\em m} & Month number. \\
+\hline
+{\em d} & Day number. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classWrappedDate_a578abb1e026bb21d74e0b9707ba00ebf}\label{classWrappedDate_a578abb1e026bb21d74e0b9707ba00ebf} 
+\index{WrappedDate@{WrappedDate}!setText@{setText}}
+\index{setText@{setText}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily std\+::string \& Wrapped\+Date\+::set\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the text for the date by giving the reference to the text. \begin{DoxyReturn}{Returns}
+Text used in the date. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_ae16a28b00fb62e81fda3c8e0c42ac924}\label{classWrappedDate_ae16a28b00fb62e81fda3c8e0c42ac924} 
+\index{WrappedDate@{WrappedDate}!str@{str}}
+\index{str@{str}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{str()}{str()}}
+{\footnotesize\ttfamily std\+::string Wrapped\+Date\+::str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Represent the date by a string. \begin{DoxyReturn}{Returns}
+Newly constructed string. 
+\end{DoxyReturn}
+\Hypertarget{classWrappedDate_ae193ab0a7605e909d4f87481df4874e3}\label{classWrappedDate_ae193ab0a7605e909d4f87481df4874e3} 
+\index{WrappedDate@{WrappedDate}!updateDate@{updateDate}}
+\index{updateDate@{updateDate}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{updateDate()}{updateDate()}}
+{\footnotesize\ttfamily void Wrapped\+Date\+::update\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Switch the dates if the first one is empty. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classWrappedDate_ab551914cc915219716b9ad146fee2e65}\label{classWrappedDate_ab551914cc915219716b9ad146fee2e65} 
+\index{WrappedDate@{WrappedDate}!date1\_@{date1\_}}
+\index{date1\_@{date1\_}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{date1\_}{date1\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDate}{Date}} Wrapped\+Date\+::date1\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Main date, if interval is set it is the first day. 
+
+\Hypertarget{classWrappedDate_a68dac41a7d96183fc8048a6bd69c65dc}\label{classWrappedDate_a68dac41a7d96183fc8048a6bd69c65dc} 
+\index{WrappedDate@{WrappedDate}!date2\_@{date2\_}}
+\index{date2\_@{date2\_}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{date2\_}{date2\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDate}{Date}} Wrapped\+Date\+::date2\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Second date for interval only, otherwise empty. 
+
+\Hypertarget{classWrappedDate_ad9ac722370ae6bd679123484f2165514}\label{classWrappedDate_ad9ac722370ae6bd679123484f2165514} 
+\index{WrappedDate@{WrappedDate}!text\_@{text\_}}
+\index{text\_@{text\_}!WrappedDate@{WrappedDate}}
+\doxysubsubsection{\texorpdfstring{text\_}{text\_}}
+{\footnotesize\ttfamily std\+::string Wrapped\+Date\+::text\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If text was given. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{date_8h}{date.\+h}}\item 
+core/\mbox{\hyperlink{date_8cpp}{date.\+cpp}}\end{DoxyCompactItemize}

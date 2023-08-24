@@ -1,0 +1,468 @@
+\doxysection{Parser Class Reference}
+\hypertarget{classParser}{}\label{classParser}\index{Parser@{Parser}}
+
+
+Main class for working with the database.  
+
+
+
+
+{\ttfamily \#include $<$file\+\_\+parser.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classParser_a12234f6cd36b61af4b50c94a179422c1}{Parser}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParser_a9bddb7f0b4ff5926d07f33247a20e6ba}{check\+File\+Consistency}} (std\+::set$<$ std\+::string $>$ \&database, std\+::vector$<$ std\+::string $>$ \&found, const std\+::string \&dir)
+\item 
+void \mbox{\hyperlink{classParser_abb54cb3c787646ed220d8faee2af5e15}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear stored data. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classParser_afd5e040e210f6ef81a04df75f56005da}{contains\+Backup\+File}} (std\+::string \&backup\+File)
+\item 
+bool \mbox{\hyperlink{classParser_ada8e324a4ff1c4c0bc798e78ea33d9d6}{copy\+File}} (const std\+::string \&file\+Path, const std\+::string \&dir, std\+::string \&file\+Name, size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classParser_a8e717f75d0895b50505ea607da90e6e5}{create\+Empty\+File}} (const std\+::string \&dir, const std\+::string \&file\+Name)
+\item 
+std\+::string \mbox{\hyperlink{classParser_ad93d0c6f801417020e6e9eb6523dcaff}{create\+Resources\+Dir}} (const std\+::string \&target)
+\item 
+std\+::string \mbox{\hyperlink{classParser_a4c14eb4535f9fc2741593d2f54c17c96}{get\+Absolute\+File\+Path}} (const std\+::string \&dir, const std\+::string \&file\+Name) const
+\item 
+void \mbox{\hyperlink{classParser_a63de6187341ad8df850051023684f38e}{get\+File\+Url}} (const std\+::string \&dir, const std\+::string \&file\+Name, std\+::string \&file\+Url) const
+\item 
+bool \mbox{\hyperlink{classParser_a7df73873a95f180c8e537936992e333a}{is\+Root\+Directory\+Set}} ()
+\item 
+void \mbox{\hyperlink{classParser_a579bb63efba310b4371d45729f971627}{log}} (const std\+::string \&error)
+\item 
+void \mbox{\hyperlink{classParser_a92fdcafb4e6fd19df81a16f431d52f2e}{make\+New\+Database}} (const std\+::string \&dir\+Path)
+\item 
+std\+::pair$<$ bool, std\+::vector$<$ std\+::string $>$ $>$ \mbox{\hyperlink{classParser_a4d592adaacb8bea73522b1ab2b60a58e}{read\+Config}} ()
+\item 
+bool \mbox{\hyperlink{classParser_a6d84c3f847b7b36f04679c6c98d50c9b}{read\+JSONFile}} (const std\+::string \&file\+Name, Json\+::\+Value \&root, bool in\+Database=true)
+\item 
+void \mbox{\hyperlink{classParser_af2f277a8aad3d0e3e250393c39707dab}{remove\+Backup}} ()
+\begin{DoxyCompactList}\small\item\em Remove backup files if there is any. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParser_a61ab3bd2635a099621ecfc3ce16f349f}{remove\+File}} (const std\+::string \&filename, const std\+::string \&dir)
+\item 
+void \mbox{\hyperlink{classParser_ac1983732fb7c7b011c60ea433eb11864}{rename\+File}} (const std\+::string \&original\+Name, const std\+::string \&changed\+Name, const std\+::string \&dir)
+\item 
+void \mbox{\hyperlink{classParser_a2076e9c0abd1c4e4d9994bf9e3c7bfcb}{restore\+Backup}} (const std\+::string \&backup\+File)
+\item 
+bool \mbox{\hyperlink{classParser_ad9f6a2e37892338e31c7eed8ad1c360e}{set\+Database}} (const std\+::string \&dir\+Path)
+\item 
+void \mbox{\hyperlink{classParser_a4c7fb212bf6cad8c2a8450f59bc72a85}{write\+Config}} (bool help)
+\item 
+void \mbox{\hyperlink{classParser_acce03cb6c6be4e9c713561d388f1b5fe}{write\+Config}} (const std\+::vector$<$ std\+::string $>$ \&root\+Paths, bool help)
+\item 
+void \mbox{\hyperlink{classParser_a1cf5c8b5b66de7f2cb428171222cb5a0}{write\+Html}} (const std\+::string \&html, const std\+::string \&output)
+\item 
+void \mbox{\hyperlink{classParser_ad3ecbad309583b413dea9229a40a764d}{write\+Html}} (const std\+::string \&html, const std\+::string \&dir\+Path, const std\+::string \&filename)
+\item 
+void \mbox{\hyperlink{classParser_ac7a7d18b43b4f2d4c06cf9db488be8c7}{write\+JSON}} (const std\+::string \&data, const std\+::string \&file, bool in\+Database=true)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classParser_a20b8a45a2713eaf91be5dc1cecdfb740}{contains\+Backup}} (std\+::string \&backup\+File, const std\+::string \&filename)
+\item 
+void \mbox{\hyperlink{classParser_aaac0eca79d00ba2bea47c8bb632322c3}{create\+All\+Dirs}} ()
+\begin{DoxyCompactList}\small\item\em Create all (empty) directories in the root directory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParser_a24f30bc8fa94892398e43d4055bc43e4}{create\+Json\+File}} (const std\+::string \&file\+Name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::filesystem\+::path \mbox{\hyperlink{classParser_ab320855f9d84b64f3e6c162c81049c8e}{root\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Path to the root directory. \end{DoxyCompactList}\item 
+std\+::filesystem\+::path \mbox{\hyperlink{classParser_a2ccdbdaa181c63af0c01e0a7bd0a373e}{config\+Path\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Path to the configuration file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main class for working with the database. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classParser_a12234f6cd36b61af4b50c94a179422c1}\label{classParser_a12234f6cd36b61af4b50c94a179422c1} 
+\index{Parser@{Parser}!Parser@{Parser}}
+\index{Parser@{Parser}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{Parser()}{Parser()}}
+{\footnotesize\ttfamily Parser\+::\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classParser_a9bddb7f0b4ff5926d07f33247a20e6ba}\label{classParser_a9bddb7f0b4ff5926d07f33247a20e6ba} 
+\index{Parser@{Parser}!checkFileConsistency@{checkFileConsistency}}
+\index{checkFileConsistency@{checkFileConsistency}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{checkFileConsistency()}{checkFileConsistency()}}
+{\footnotesize\ttfamily void Parser\+::check\+File\+Consistency (\begin{DoxyParamCaption}\item[{std\+::set$<$ std\+::string $>$ \&}]{database,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{found,  }\item[{const std\+::string \&}]{dir }\end{DoxyParamCaption})}
+
+Check the consistency of files. 
+\begin{DoxyParams}{Parameters}
+{\em database} & Which files are stored in database, these will be removed from the list if found. \\
+\hline
+{\em found} & Files found and not present in database. \\
+\hline
+{\em dir} & Which directory to look into. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_abb54cb3c787646ed220d8faee2af5e15}\label{classParser_abb54cb3c787646ed220d8faee2af5e15} 
+\index{Parser@{Parser}!clear@{clear}}
+\index{clear@{clear}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Parser\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear stored data. 
+
+\Hypertarget{classParser_a20b8a45a2713eaf91be5dc1cecdfb740}\label{classParser_a20b8a45a2713eaf91be5dc1cecdfb740} 
+\index{Parser@{Parser}!containsBackup@{containsBackup}}
+\index{containsBackup@{containsBackup}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{containsBackup()}{containsBackup()}}
+{\footnotesize\ttfamily bool Parser\+::contains\+Backup (\begin{DoxyParamCaption}\item[{std\+::string \&}]{backup\+File,  }\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+If there is backup for this file-\/name. 
+\begin{DoxyParams}{Parameters}
+{\em backup\+File} & If this backup file exists put there the name of it. \\
+\hline
+{\em filename} & Name of the file checked for having backup. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the backup exists. 
+\end{DoxyReturn}
+\Hypertarget{classParser_afd5e040e210f6ef81a04df75f56005da}\label{classParser_afd5e040e210f6ef81a04df75f56005da} 
+\index{Parser@{Parser}!containsBackupFile@{containsBackupFile}}
+\index{containsBackupFile@{containsBackupFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{containsBackupFile()}{containsBackupFile()}}
+{\footnotesize\ttfamily bool Parser\+::contains\+Backup\+File (\begin{DoxyParamCaption}\item[{std\+::string \&}]{backup\+File }\end{DoxyParamCaption})}
+
+If the database store some backup files, which may be used. Note there can be only one backup file (when the app is working properly). 
+\begin{DoxyParams}{Parameters}
+{\em backup\+File} & If there is backup there will be stored the name of the file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if there is a backup file. 
+\end{DoxyReturn}
+\Hypertarget{classParser_ada8e324a4ff1c4c0bc798e78ea33d9d6}\label{classParser_ada8e324a4ff1c4c0bc798e78ea33d9d6} 
+\index{Parser@{Parser}!copyFile@{copyFile}}
+\index{copyFile@{copyFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{copyFile()}{copyFile()}}
+{\footnotesize\ttfamily bool Parser\+::copy\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Path,  }\item[{const std\+::string \&}]{dir,  }\item[{std\+::string \&}]{file\+Name,  }\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Create a new file by copying existing file on the disk. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the original file on the disk. \\
+\hline
+{\em dir} & Which directory to use in database of the root directory. \\
+\hline
+{\em file\+Name} & Is the name of the file in directory. Use for return value. \\
+\hline
+{\em id} & Id of the new file, to create the real name. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the process was successful, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classParser_aaac0eca79d00ba2bea47c8bb632322c3}\label{classParser_aaac0eca79d00ba2bea47c8bb632322c3} 
+\index{Parser@{Parser}!createAllDirs@{createAllDirs}}
+\index{createAllDirs@{createAllDirs}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{createAllDirs()}{createAllDirs()}}
+{\footnotesize\ttfamily void Parser\+::create\+All\+Dirs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Create all (empty) directories in the root directory. 
+
+\Hypertarget{classParser_a8e717f75d0895b50505ea607da90e6e5}\label{classParser_a8e717f75d0895b50505ea607da90e6e5} 
+\index{Parser@{Parser}!createEmptyFile@{createEmptyFile}}
+\index{createEmptyFile@{createEmptyFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{createEmptyFile()}{createEmptyFile()}}
+{\footnotesize\ttfamily void Parser\+::create\+Empty\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir,  }\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+Create an empty file. 
+\begin{DoxyParams}{Parameters}
+{\em dir} & Which directory in database to use. \\
+\hline
+{\em file\+Name} & What is the real file name in its directory. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_a24f30bc8fa94892398e43d4055bc43e4}\label{classParser_a24f30bc8fa94892398e43d4055bc43e4} 
+\index{Parser@{Parser}!createJsonFile@{createJsonFile}}
+\index{createJsonFile@{createJsonFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{createJsonFile()}{createJsonFile()}}
+{\footnotesize\ttfamily void Parser\+::create\+Json\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Create an empty JSON file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Name of the file in the root directory. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_ad93d0c6f801417020e6e9eb6523dcaff}\label{classParser_ad93d0c6f801417020e6e9eb6523dcaff} 
+\index{Parser@{Parser}!createResourcesDir@{createResourcesDir}}
+\index{createResourcesDir@{createResourcesDir}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{createResourcesDir()}{createResourcesDir()}}
+{\footnotesize\ttfamily std\+::string Parser\+::create\+Resources\+Dir (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{target }\end{DoxyParamCaption})}
+
+Create resource file for diagrams for HTML export. 
+\begin{DoxyParams}{Parameters}
+{\em target} & Where the resource directory should be (either a path to the directory or an html file). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the path to the resources directory. 
+\end{DoxyReturn}
+\Hypertarget{classParser_a4c14eb4535f9fc2741593d2f54c17c96}\label{classParser_a4c14eb4535f9fc2741593d2f54c17c96} 
+\index{Parser@{Parser}!getAbsoluteFilePath@{getAbsoluteFilePath}}
+\index{getAbsoluteFilePath@{getAbsoluteFilePath}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getAbsoluteFilePath()}{getAbsoluteFilePath()}}
+{\footnotesize\ttfamily std\+::string Parser\+::get\+Absolute\+File\+Path (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir,  }\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption}) const}
+
+Get the absolute path to the file in database. 
+\begin{DoxyParams}{Parameters}
+{\em dir} & Which directory should have the file. \\
+\hline
+{\em file\+Name} & What is the file-\/name in its directory. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the absolute path. 
+\end{DoxyReturn}
+\Hypertarget{classParser_a63de6187341ad8df850051023684f38e}\label{classParser_a63de6187341ad8df850051023684f38e} 
+\index{Parser@{Parser}!getFileUrl@{getFileUrl}}
+\index{getFileUrl@{getFileUrl}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getFileUrl()}{getFileUrl()}}
+{\footnotesize\ttfamily void Parser\+::get\+File\+Url (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir,  }\item[{const std\+::string \&}]{file\+Name,  }\item[{std\+::string \&}]{file\+Url }\end{DoxyParamCaption}) const}
+
+Get the url to the file for opening the file. Format\+: \textquotesingle{}\href{file://}{\texttt{ file\+://}}\mbox{[}file path\mbox{]}\textquotesingle{}. 
+\begin{DoxyParams}{Parameters}
+{\em dir} & Which directory should have the file. \\
+\hline
+{\em file\+Name} & What is the file-\/name in its directory. \\
+\hline
+{\em file\+Url} & String representing the URL in specified format. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_a7df73873a95f180c8e537936992e333a}\label{classParser_a7df73873a95f180c8e537936992e333a} 
+\index{Parser@{Parser}!isRootDirectorySet@{isRootDirectorySet}}
+\index{isRootDirectorySet@{isRootDirectorySet}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{isRootDirectorySet()}{isRootDirectorySet()}}
+{\footnotesize\ttfamily bool Parser\+::is\+Root\+Directory\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Whether the directory has been already set. \begin{DoxyReturn}{Returns}
+True if the directory was already chosen. 
+\end{DoxyReturn}
+\Hypertarget{classParser_a579bb63efba310b4371d45729f971627}\label{classParser_a579bb63efba310b4371d45729f971627} 
+\index{Parser@{Parser}!log@{log}}
+\index{log@{log}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily void Parser\+::log (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{error }\end{DoxyParamCaption})}
+
+Log error to the error file. 
+\begin{DoxyParams}{Parameters}
+{\em error} & What error occurred. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_a92fdcafb4e6fd19df81a16f431d52f2e}\label{classParser_a92fdcafb4e6fd19df81a16f431d52f2e} 
+\index{Parser@{Parser}!makeNewDatabase@{makeNewDatabase}}
+\index{makeNewDatabase@{makeNewDatabase}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{makeNewDatabase()}{makeNewDatabase()}}
+{\footnotesize\ttfamily void Parser\+::make\+New\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})}
+
+Make new empty database. Create all directories and files. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the chosen root directory. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_a4d592adaacb8bea73522b1ab2b60a58e}\label{classParser_a4d592adaacb8bea73522b1ab2b60a58e} 
+\index{Parser@{Parser}!readConfig@{readConfig}}
+\index{readConfig@{readConfig}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{readConfig()}{readConfig()}}
+{\footnotesize\ttfamily std\+::pair$<$ bool, std\+::vector$<$ std\+::string $>$ $>$ Parser\+::read\+Config (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Read config file if it exists and return vector of all saved paths. \begin{DoxyReturn}{Returns}
+If help should be shown and vector of strings representing paths to the directories. 
+\end{DoxyReturn}
+\Hypertarget{classParser_a6d84c3f847b7b36f04679c6c98d50c9b}\label{classParser_a6d84c3f847b7b36f04679c6c98d50c9b} 
+\index{Parser@{Parser}!readJSONFile@{readJSONFile}}
+\index{readJSONFile@{readJSONFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{readJSONFile()}{readJSONFile()}}
+{\footnotesize\ttfamily bool Parser\+::read\+JSONFile (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name,  }\item[{Json\+::\+Value \&}]{root,  }\item[{bool}]{in\+Database = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Load the content of JSON file to Json\+::\+Value format. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \doxylink{classFile}{File} in the root directory to be used. \\
+\hline
+{\em root} & Where to store parsed data from the file. \\
+\hline
+{\em in\+Database} & If the file is in database or not, if it is not, then it is for import. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the parsing was successful. False otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classParser_af2f277a8aad3d0e3e250393c39707dab}\label{classParser_af2f277a8aad3d0e3e250393c39707dab} 
+\index{Parser@{Parser}!removeBackup@{removeBackup}}
+\index{removeBackup@{removeBackup}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{removeBackup()}{removeBackup()}}
+{\footnotesize\ttfamily void Parser\+::remove\+Backup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Remove backup files if there is any. 
+
+\Hypertarget{classParser_a61ab3bd2635a099621ecfc3ce16f349f}\label{classParser_a61ab3bd2635a099621ecfc3ce16f349f} 
+\index{Parser@{Parser}!removeFile@{removeFile}}
+\index{removeFile@{removeFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{removeFile()}{removeFile()}}
+{\footnotesize\ttfamily void Parser\+::remove\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename,  }\item[{const std\+::string \&}]{dir }\end{DoxyParamCaption})}
+
+Remove file with given name in given directory. 
+\begin{DoxyParams}{Parameters}
+{\em filename} & Name of the file. \\
+\hline
+{\em dir} & Given directory with the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_ac1983732fb7c7b011c60ea433eb11864}\label{classParser_ac1983732fb7c7b011c60ea433eb11864} 
+\index{Parser@{Parser}!renameFile@{renameFile}}
+\index{renameFile@{renameFile}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{renameFile()}{renameFile()}}
+{\footnotesize\ttfamily void Parser\+::rename\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{original\+Name,  }\item[{const std\+::string \&}]{changed\+Name,  }\item[{const std\+::string \&}]{dir }\end{DoxyParamCaption})}
+
+Rename a file in its directory. 
+\begin{DoxyParams}{Parameters}
+{\em original\+Name} & Original name of the file. \\
+\hline
+{\em changed\+Name} & New changed name of the file. \\
+\hline
+{\em dir} & Directory where the file is. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_a2076e9c0abd1c4e4d9994bf9e3c7bfcb}\label{classParser_a2076e9c0abd1c4e4d9994bf9e3c7bfcb} 
+\index{Parser@{Parser}!restoreBackup@{restoreBackup}}
+\index{restoreBackup@{restoreBackup}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{restoreBackup()}{restoreBackup()}}
+{\footnotesize\ttfamily void Parser\+::restore\+Backup (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{backup\+File }\end{DoxyParamCaption})}
+
+Restore backup file. 
+\begin{DoxyParams}{Parameters}
+{\em backup\+File} & Which backup file is going to be restored. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_ad9f6a2e37892338e31c7eed8ad1c360e}\label{classParser_ad9f6a2e37892338e31c7eed8ad1c360e} 
+\index{Parser@{Parser}!setDatabase@{setDatabase}}
+\index{setDatabase@{setDatabase}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{setDatabase()}{setDatabase()}}
+{\footnotesize\ttfamily bool Parser\+::set\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})}
+
+Set the root directory and check its content. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the root directory. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if all files and directories exist. 
+\end{DoxyReturn}
+\Hypertarget{classParser_a4c7fb212bf6cad8c2a8450f59bc72a85}\label{classParser_a4c7fb212bf6cad8c2a8450f59bc72a85} 
+\index{Parser@{Parser}!writeConfig@{writeConfig}}
+\index{writeConfig@{writeConfig}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{writeConfig()}{writeConfig()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Parser\+::write\+Config (\begin{DoxyParamCaption}\item[{bool}]{help }\end{DoxyParamCaption})}
+
+Write only current project path to the configuration. 
+\begin{DoxyParams}{Parameters}
+{\em help} & If help window should be shown at the start-\/up. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_acce03cb6c6be4e9c713561d388f1b5fe}\label{classParser_acce03cb6c6be4e9c713561d388f1b5fe} 
+\index{Parser@{Parser}!writeConfig@{writeConfig}}
+\index{writeConfig@{writeConfig}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{writeConfig()}{writeConfig()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Parser\+::write\+Config (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::string $>$ \&}]{root\+Paths,  }\item[{bool}]{help }\end{DoxyParamCaption})}
+
+Write given paths to the root directories to the configuration file. 
+\begin{DoxyParams}{Parameters}
+{\em root\+Paths} & Vector of all paths to the directories. \\
+\hline
+{\em help} & If help window should be shown at the start-\/up. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_ad3ecbad309583b413dea9229a40a764d}\label{classParser_ad3ecbad309583b413dea9229a40a764d} 
+\index{Parser@{Parser}!writeHtml@{writeHtml}}
+\index{writeHtml@{writeHtml}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{writeHtml()}{writeHtml()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Parser\+::write\+Html (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{html,  }\item[{const std\+::string \&}]{dir\+Path,  }\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+Write HTML text to an output file (or for CSS). 
+\begin{DoxyParams}{Parameters}
+{\em html} & HTML text to put in an output file. \\
+\hline
+{\em dir\+Path} & Path to the root directory. \\
+\hline
+{\em filename} & Name of the file in root directory. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_a1cf5c8b5b66de7f2cb428171222cb5a0}\label{classParser_a1cf5c8b5b66de7f2cb428171222cb5a0} 
+\index{Parser@{Parser}!writeHtml@{writeHtml}}
+\index{writeHtml@{writeHtml}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{writeHtml()}{writeHtml()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Parser\+::write\+Html (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{html,  }\item[{const std\+::string \&}]{output }\end{DoxyParamCaption})}
+
+Write HTML text to an output file (or for CSS). 
+\begin{DoxyParams}{Parameters}
+{\em html} & HTML text to put in an output file. \\
+\hline
+{\em output} & Output file path. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classParser_ac7a7d18b43b4f2d4c06cf9db488be8c7}\label{classParser_ac7a7d18b43b4f2d4c06cf9db488be8c7} 
+\index{Parser@{Parser}!writeJSON@{writeJSON}}
+\index{writeJSON@{writeJSON}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{writeJSON()}{writeJSON()}}
+{\footnotesize\ttfamily void Parser\+::write\+JSON (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data,  }\item[{const std\+::string \&}]{file,  }\item[{bool}]{in\+Database = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Write data in JSON formatting to its file. Before create a backup and after saving delete the backup. 
+\begin{DoxyParams}{Parameters}
+{\em data} & Preprocessed JSON format string of data. \\
+\hline
+{\em file} & The name of the JSON file in the root directory. \\
+\hline
+{\em in\+Database} & If the file is in database or not, if it is not it is for export. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classParser_a2ccdbdaa181c63af0c01e0a7bd0a373e}\label{classParser_a2ccdbdaa181c63af0c01e0a7bd0a373e} 
+\index{Parser@{Parser}!configPath\_@{configPath\_}}
+\index{configPath\_@{configPath\_}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{configPath\_}{configPath\_}}
+{\footnotesize\ttfamily std\+::filesystem\+::path Parser\+::config\+Path\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Path to the configuration file. 
+
+\Hypertarget{classParser_ab320855f9d84b64f3e6c162c81049c8e}\label{classParser_ab320855f9d84b64f3e6c162c81049c8e} 
+\index{Parser@{Parser}!root\_@{root\_}}
+\index{root\_@{root\_}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{root\_}{root\_}}
+{\footnotesize\ttfamily std\+::filesystem\+::path Parser\+::root\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Path to the root directory. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{file__parser_8h}{file\+\_\+parser.\+h}}\item 
+core/\mbox{\hyperlink{file__parser_8cpp}{file\+\_\+parser.\+cpp}}\end{DoxyCompactItemize}

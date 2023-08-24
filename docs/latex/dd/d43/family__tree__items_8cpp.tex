@@ -1,0 +1,73 @@
+\doxysection{core/family\+\_\+tree\+\_\+items.cpp File Reference}
+\hypertarget{family__tree__items_8cpp}{}\label{family__tree__items_8cpp}\index{core/family\_tree\_items.cpp@{core/family\_tree\_items.cpp}}
+
+
+Source file for classes closely related to family tree.  
+
+
+{\ttfamily \#include \"{}family\+\_\+tree\+\_\+items.\+h\"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{family__tree__items_8cpp_af12dab80471bda424ca4296f5ae139c0}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classEvent}{Event}} \&e)
+\item 
+std\+::ostream \& \mbox{\hyperlink{family__tree__items_8cpp_a4c23422648108810cd02ea1f6111fb58}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classRelation}{Relation}} \&r)
+\item 
+std\+::ostream \& \mbox{\hyperlink{family__tree__items_8cpp_a231786b406a86d048dd661bd7e7a8f0d}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classFile}{File}} \&f)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source file for classes closely related to family tree. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{family__tree__items_8cpp_af12dab80471bda424ca4296f5ae139c0}\label{family__tree__items_8cpp_af12dab80471bda424ca4296f5ae139c0} 
+\index{family\_tree\_items.cpp@{family\_tree\_items.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!family\_tree\_items.cpp@{family\_tree\_items.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classEvent}{Event}} \&}]{e }\end{DoxyParamCaption})}
+
+Using \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator on event to print event in JSON formatting. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em e} & Given event. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed output stream. 
+\end{DoxyReturn}
+\Hypertarget{family__tree__items_8cpp_a231786b406a86d048dd661bd7e7a8f0d}\label{family__tree__items_8cpp_a231786b406a86d048dd661bd7e7a8f0d} 
+\index{family\_tree\_items.cpp@{family\_tree\_items.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!family\_tree\_items.cpp@{family\_tree\_items.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classFile}{File}} \&}]{f }\end{DoxyParamCaption})}
+
+Output file to JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em f} & Given file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed stream. 
+\end{DoxyReturn}
+\Hypertarget{family__tree__items_8cpp_a4c23422648108810cd02ea1f6111fb58}\label{family__tree__items_8cpp_a4c23422648108810cd02ea1f6111fb58} 
+\index{family\_tree\_items.cpp@{family\_tree\_items.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!family\_tree\_items.cpp@{family\_tree\_items.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classRelation}{Relation}} \&}]{r }\end{DoxyParamCaption})}
+
+Output the relation in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em r} & Given relation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed output stream. 
+\end{DoxyReturn}

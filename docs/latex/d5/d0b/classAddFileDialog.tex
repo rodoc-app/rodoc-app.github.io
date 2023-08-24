@@ -1,0 +1,181 @@
+\doxysection{Add\+File\+Dialog Class Reference}
+\hypertarget{classAddFileDialog}{}\label{classAddFileDialog}\index{AddFileDialog@{AddFileDialog}}
+
+
+Dialog for adding file.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Add\+File\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d5/d0b/classAddFileDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classAddFileDialog_ac95ee981cb787b10f79cced55add07da}{copy\+File}} ()
+\begin{DoxyCompactList}\small\item\em Open file chooser for copying file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAddFileDialog_aaa234176d77f5f2807b26c62b4aee112}{create\+Or\+Choose\+File}} ()
+\begin{DoxyCompactList}\small\item\em Create or choose file based on selected tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAddFileDialog_ab422f08bc2bf7732f4be73968a2465c6}{open\+File}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAddFileDialog_a2671d4a30f49052279d8d97835f10f89}{Add\+File\+Dialog}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type, const std\+::vector$<$ std\+::string $>$ \&extensions, \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*}parent\+Drive, \mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, QWidget \texorpdfstring{$\ast$}{*}parent)
+\item 
+\mbox{\hyperlink{classAddFileDialog_a421a36df7df6c229db92dd7121f81ec1}{\texorpdfstring{$\sim$}{\string~}\+Add\+File\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+size\+\_\+t \mbox{\hyperlink{classAddFileDialog_a08700fccc3934500cbf7dcb534748aeb}{get\+Id}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classAddFileDialog_a6a4775d5211fb2e68f9611550d848f59}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Used family tree. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classAddFileDialog_a887e223fac82281f0a973e196fe3e387}{drive\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Parent drive. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} \mbox{\hyperlink{classAddFileDialog_a7689eaeb4ff73f7c9fea459dd8513f3b}{type\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Type of the file. \end{DoxyCompactList}\item 
+Ui\+::\+Add\+File\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classAddFileDialog_a71982fae63fa2613b775d0d7514aaee8}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for adding file. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classAddFileDialog_a2671d4a30f49052279d8d97835f10f89}\label{classAddFileDialog_a2671d4a30f49052279d8d97835f10f89} 
+\index{AddFileDialog@{AddFileDialog}!AddFileDialog@{AddFileDialog}}
+\index{AddFileDialog@{AddFileDialog}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{AddFileDialog()}{AddFileDialog()}}
+{\footnotesize\ttfamily Add\+File\+Dialog\+::\+Add\+File\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{extensions,  }\item[{\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*}}]{parent\+Drive,  }\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em type} & If the file is general file, media or note. \\
+\hline
+{\em extensions} & Vector of all extensions to show. \\
+\hline
+{\em parent\+Drive} & Parent drive where the file will be stored. \\
+\hline
+{\em FT} & Given family tree the current app is using. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classAddFileDialog_a421a36df7df6c229db92dd7121f81ec1}\label{classAddFileDialog_a421a36df7df6c229db92dd7121f81ec1} 
+\index{AddFileDialog@{AddFileDialog}!````~AddFileDialog@{\texorpdfstring{$\sim$}{\string~}AddFileDialog}}
+\index{````~AddFileDialog@{\texorpdfstring{$\sim$}{\string~}AddFileDialog}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}AddFileDialog()}{\string~AddFileDialog()}}
+{\footnotesize\ttfamily Add\+File\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Add\+File\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classAddFileDialog_ac95ee981cb787b10f79cced55add07da}\label{classAddFileDialog_ac95ee981cb787b10f79cced55add07da} 
+\index{AddFileDialog@{AddFileDialog}!copyFile@{copyFile}}
+\index{copyFile@{copyFile}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{copyFile}{copyFile}}
+{\footnotesize\ttfamily void Add\+File\+Dialog\+::copy\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open file chooser for copying file. 
+
+\Hypertarget{classAddFileDialog_aaa234176d77f5f2807b26c62b4aee112}\label{classAddFileDialog_aaa234176d77f5f2807b26c62b4aee112} 
+\index{AddFileDialog@{AddFileDialog}!createOrChooseFile@{createOrChooseFile}}
+\index{createOrChooseFile@{createOrChooseFile}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{createOrChooseFile}{createOrChooseFile}}
+{\footnotesize\ttfamily void Add\+File\+Dialog\+::create\+Or\+Choose\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Create or choose file based on selected tab. 
+
+\Hypertarget{classAddFileDialog_a08700fccc3934500cbf7dcb534748aeb}\label{classAddFileDialog_a08700fccc3934500cbf7dcb534748aeb} 
+\index{AddFileDialog@{AddFileDialog}!getId@{getId}}
+\index{getId@{getId}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t Add\+File\+Dialog\+::get\+Id (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Get the id from the text of the given id. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item has the id. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Id from its text. 
+\end{DoxyReturn}
+\Hypertarget{classAddFileDialog_ab422f08bc2bf7732f4be73968a2465c6}\label{classAddFileDialog_ab422f08bc2bf7732f4be73968a2465c6} 
+\index{AddFileDialog@{AddFileDialog}!openFile@{openFile}}
+\index{openFile@{openFile}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{openFile}{openFile}}
+{\footnotesize\ttfamily void Add\+File\+Dialog\+::open\+File (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Show file upon clicking it. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classAddFileDialog_a887e223fac82281f0a973e196fe3e387}\label{classAddFileDialog_a887e223fac82281f0a973e196fe3e387} 
+\index{AddFileDialog@{AddFileDialog}!drive\_@{drive\_}}
+\index{drive\_@{drive\_}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{drive\_}{drive\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}}\texorpdfstring{$\ast$}{*} Add\+File\+Dialog\+::drive\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Parent drive. 
+
+\Hypertarget{classAddFileDialog_a6a4775d5211fb2e68f9611550d848f59}\label{classAddFileDialog_a6a4775d5211fb2e68f9611550d848f59} 
+\index{AddFileDialog@{AddFileDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Add\+File\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used family tree. 
+
+\Hypertarget{classAddFileDialog_a7689eaeb4ff73f7c9fea459dd8513f3b}\label{classAddFileDialog_a7689eaeb4ff73f7c9fea459dd8513f3b} 
+\index{AddFileDialog@{AddFileDialog}!type\_@{type\_}}
+\index{type\_@{type\_}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{type\_}{type\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} Add\+File\+Dialog\+::type\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Type of the file. 
+
+\Hypertarget{classAddFileDialog_a71982fae63fa2613b775d0d7514aaee8}\label{classAddFileDialog_a71982fae63fa2613b775d0d7514aaee8} 
+\index{AddFileDialog@{AddFileDialog}!ui@{ui}}
+\index{ui@{ui}!AddFileDialog@{AddFileDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Add\+File\+Dialog\texorpdfstring{$\ast$}{*} Add\+File\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

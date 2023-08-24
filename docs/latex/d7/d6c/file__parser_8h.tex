@@ -1,0 +1,58 @@
+\doxysection{core/file\+\_\+parser.h File Reference}
+\hypertarget{file__parser_8h}{}\label{file__parser_8h}\index{core/file\_parser.h@{core/file\_parser.h}}
+
+
+The header file for working with the database and other files.  
+
+
+{\ttfamily \#include $<$filesystem$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$json/json.\+h$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$set$>$}\newline
+{\ttfamily \#include \"{}strings.\+h\"{}}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classParser}{Parser}}
+\begin{DoxyCompactList}\small\item\em Main class for working with the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceparser}{parser}}
+\begin{DoxyCompactList}\small\item\em Namespace for all strings representing files and directories in the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a62b0c5196ca9751e5de2e4b592250cd3}{parser\+::\+FILES\+\_\+\+DIR}} = \"{}Files\"{}
+\begin{DoxyCompactList}\small\item\em Directory for all documents and files in general. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a345a4b75f9ca78628e94d322839774d0}{parser\+::\+JSON\+\_\+\+CONFIG}} = \"{}Config.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for configuration and templates. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a3c610b85061aba190909634c31307b66}{parser\+::\+JSON\+\_\+\+EVENTS}} = \"{}Events.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for events. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a386a28b3c8089527e6da84cc5bc6806b}{parser\+::\+JSON\+\_\+\+FILES}} = \"{}Files.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for files meta-\/data. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a516659bfa63920134beb1f13e9f5efa8}{parser\+::\+JSON\+\_\+\+MEDIA}} = \"{}Media.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for media meta-\/data. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_acb6dab81c4b91260056511fab44cf406}{parser\+::\+JSON\+\_\+\+NOTES}} = \"{}Notes.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for notes meta-\/data. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a83ebf7bb189a2712a034baa170cdf409}{parser\+::\+JSON\+\_\+\+PERSONS}} = \"{}Persons.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for persons. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_aa4325942ddc520c0938c233d2615d7fd}{parser\+::\+JSON\+\_\+\+RELATIONS}} = \"{}Relations.\+json\"{}
+\begin{DoxyCompactList}\small\item\em JSON file-\/name for relations. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a49c5c39eab4f24feb3bc444c34f19a17}{parser\+::\+MEDIA\+\_\+\+DIR}} = \"{}Media\"{}
+\begin{DoxyCompactList}\small\item\em Directory for all pictures and other media. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_abd063c795b6cbda24770c096298b110f}{parser\+::\+NOTES\+\_\+\+DIR}} = \"{}Notes\"{}
+\begin{DoxyCompactList}\small\item\em Directory for all notes. \end{DoxyCompactList}\item 
+const std\+::string \mbox{\hyperlink{namespaceparser_a74fdbd20986cdf5af1baf6dccdb77cf5}{parser\+::\+ERROR\+\_\+\+LOG}} = \"{}.error.\+log\"{}
+\begin{DoxyCompactList}\small\item\em \doxylink{classFile}{File} for writing error log. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The header file for working with the database and other files. 
+

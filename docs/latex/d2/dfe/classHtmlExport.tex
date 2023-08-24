@@ -1,0 +1,151 @@
+\doxysection{Html\+Export Class Reference}
+\hypertarget{classHtmlExport}{}\label{classHtmlExport}\index{HtmlExport@{HtmlExport}}
+
+
+Dialog for exporting HTML for one person and all persons.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Html\+Export\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/dfe/classHtmlExport}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classHtmlExport_a8f4eb13388897a86fae9e7aa3be81e60}{all\+Above\+Generations}} (bool all)
+\item 
+void \mbox{\hyperlink{classHtmlExport_aa5b1e2d677d343c6312101ff221ea506}{all\+Below\+Generations}} (bool all)
+\item 
+void \mbox{\hyperlink{classHtmlExport_a60fe1e328e085b0011f1cf7edc23aea3}{export\+All\+Html}} ()
+\begin{DoxyCompactList}\small\item\em Export all persons into html. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHtmlExport_acccdf161acfd8b8f65384ad7e70d0965}{export\+Main\+Html}} ()
+\begin{DoxyCompactList}\small\item\em Export only main person to the html. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHtmlExport_a0dae7f6de2483f8dc93493611ae745d2}{Html\+Export}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, bool all, int up, int down, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classHtmlExport_a47879d9cafe53df09cb35f119f755c4a}{\texorpdfstring{$\sim$}{\string~}\+Html\+Export}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHtmlExport_a2f2287c1df30e4ee0110a5d96ee405e9}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+Ui\+::\+Html\+Export \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHtmlExport_aa9f5f784ddec194b575dc02abd0940ce}{ui}}
+\begin{DoxyCompactList}\small\item\em Used Qt user interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for exporting HTML for one person and all persons. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classHtmlExport_a0dae7f6de2483f8dc93493611ae745d2}\label{classHtmlExport_a0dae7f6de2483f8dc93493611ae745d2} 
+\index{HtmlExport@{HtmlExport}!HtmlExport@{HtmlExport}}
+\index{HtmlExport@{HtmlExport}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{HtmlExport()}{HtmlExport()}}
+{\footnotesize\ttfamily Html\+Export\+::\+Html\+Export (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{bool}]{all,  }\item[{int}]{up,  }\item[{int}]{down,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the used Family tree. \\
+\hline
+{\em all} & If the HTML export should include all persons or just the main person. \\
+\hline
+{\em up} & How many generations upwards are being exported as of now. \\
+\hline
+{\em down} & How many generations downwards are being exported as of now. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classHtmlExport_a47879d9cafe53df09cb35f119f755c4a}\label{classHtmlExport_a47879d9cafe53df09cb35f119f755c4a} 
+\index{HtmlExport@{HtmlExport}!````~HtmlExport@{\texorpdfstring{$\sim$}{\string~}HtmlExport}}
+\index{````~HtmlExport@{\texorpdfstring{$\sim$}{\string~}HtmlExport}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}HtmlExport()}{\string~HtmlExport()}}
+{\footnotesize\ttfamily Html\+Export\+::\texorpdfstring{$\sim$}{\string~}\+Html\+Export (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classHtmlExport_a8f4eb13388897a86fae9e7aa3be81e60}\label{classHtmlExport_a8f4eb13388897a86fae9e7aa3be81e60} 
+\index{HtmlExport@{HtmlExport}!allAboveGenerations@{allAboveGenerations}}
+\index{allAboveGenerations@{allAboveGenerations}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{allAboveGenerations}{allAboveGenerations}}
+{\footnotesize\ttfamily void Html\+Export\+::all\+Above\+Generations (\begin{DoxyParamCaption}\item[{bool}]{all }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+If all generations upward option was chosen or not. 
+\begin{DoxyParams}{Parameters}
+{\em all} & True if it was checked. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classHtmlExport_aa5b1e2d677d343c6312101ff221ea506}\label{classHtmlExport_aa5b1e2d677d343c6312101ff221ea506} 
+\index{HtmlExport@{HtmlExport}!allBelowGenerations@{allBelowGenerations}}
+\index{allBelowGenerations@{allBelowGenerations}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{allBelowGenerations}{allBelowGenerations}}
+{\footnotesize\ttfamily void Html\+Export\+::all\+Below\+Generations (\begin{DoxyParamCaption}\item[{bool}]{all }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+If all generations downward option was chosen or not. 
+\begin{DoxyParams}{Parameters}
+{\em all} & True if it was checked. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classHtmlExport_a60fe1e328e085b0011f1cf7edc23aea3}\label{classHtmlExport_a60fe1e328e085b0011f1cf7edc23aea3} 
+\index{HtmlExport@{HtmlExport}!exportAllHtml@{exportAllHtml}}
+\index{exportAllHtml@{exportAllHtml}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{exportAllHtml}{exportAllHtml}}
+{\footnotesize\ttfamily void Html\+Export\+::export\+All\+Html (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Export all persons into html. 
+
+\Hypertarget{classHtmlExport_acccdf161acfd8b8f65384ad7e70d0965}\label{classHtmlExport_acccdf161acfd8b8f65384ad7e70d0965} 
+\index{HtmlExport@{HtmlExport}!exportMainHtml@{exportMainHtml}}
+\index{exportMainHtml@{exportMainHtml}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{exportMainHtml}{exportMainHtml}}
+{\footnotesize\ttfamily void Html\+Export\+::export\+Main\+Html (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Export only main person to the html. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classHtmlExport_a2f2287c1df30e4ee0110a5d96ee405e9}\label{classHtmlExport_a2f2287c1df30e4ee0110a5d96ee405e9} 
+\index{HtmlExport@{HtmlExport}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Html\+Export\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classHtmlExport_aa9f5f784ddec194b575dc02abd0940ce}\label{classHtmlExport_aa9f5f784ddec194b575dc02abd0940ce} 
+\index{HtmlExport@{HtmlExport}!ui@{ui}}
+\index{ui@{ui}!HtmlExport@{HtmlExport}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Html\+Export\texorpdfstring{$\ast$}{*} Html\+Export\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used Qt user interface. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,249 @@
+\doxysection{Virtual\+Drive Class Reference}
+\hypertarget{classVirtualDrive}{}\label{classVirtualDrive}\index{VirtualDrive@{VirtualDrive}}
+
+
+Class for virtualization of folder structure for each person.  
+
+
+
+
+{\ttfamily \#include $<$person.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVirtualDrive_a5a4f6ded8e8b78cdcc1f9522f115e88f}{Virtual\+Drive}} ()=default
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVirtualDrive_af6f02acf0169a9e2bbffe733a8ed6b70}{Virtual\+Drive}} (const std\+::string \&name)
+\item 
+void \mbox{\hyperlink{classVirtualDrive_ac18cf7d6369cd764843342d0161cdaaf}{add\+File}} (size\+\_\+t file\+Id)
+\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classVirtualDrive_a3532620dd93f0593a283741950c768e2}{add\+Subdrive}} ()
+\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classVirtualDrive_a0b1d9a02ba2fd97fb545b7a9f44f927b}{add\+Subdrive}} (const std\+::string \&name)
+\item 
+void \mbox{\hyperlink{classVirtualDrive_a83ba7611dcddf68a3d96911e0883c3d5}{copy\+Drive}} (const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&other, size\+\_\+t plus\+Index=0)
+\item 
+const std\+::vector$<$ size\+\_\+t $>$ \& \mbox{\hyperlink{classVirtualDrive_afcab5f57be919dfb2b4399e99f8f87d2}{get\+Files}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classVirtualDrive_ae35a362003f4c5b829b61b86bcf3f644}{get\+Name}} () const
+\item 
+const std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} $>$ $>$ \& \mbox{\hyperlink{classVirtualDrive_ae1aa1a13831dee0bf3224877962d0624}{get\+Subdrives}} () const
+\item 
+void \mbox{\hyperlink{classVirtualDrive_acdb6f87a4a3bbf5ba7d88457077bfc2f}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classVirtualDrive_a5da92e284dd710beaf087e43ed14dd0b}{remove}} (const std\+::string \&subfolder\+Name)
+\item 
+void \mbox{\hyperlink{classVirtualDrive_a9deb03064046cc836b4a66eccc492302}{remove\+File}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classVirtualDrive_a0d312120e3d9052dfae4349a0f1d3875}{rename}} (const std\+::string \&name)
+\item 
+void \mbox{\hyperlink{classVirtualDrive_a927ca85c2f22a23145ea899091040ab6}{used\+Files}} (std\+::vector$<$ size\+\_\+t $>$ \&used) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ size\+\_\+t $>$ \mbox{\hyperlink{classVirtualDrive_a30e79b99ef4bf9f5446b7e9843aafb3b}{files\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Container of all files. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classVirtualDrive_a3ed658e3bcbf024c65341fc5f05d0db3}{name\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Name of the folder. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} $>$ $>$ \mbox{\hyperlink{classVirtualDrive_a187a379916f50b8a1d95bda3bf426e0a}{subdrives\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Container of pointers to the sub-\/folders. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for virtualization of folder structure for each person. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classVirtualDrive_a5a4f6ded8e8b78cdcc1f9522f115e88f}\label{classVirtualDrive_a5a4f6ded8e8b78cdcc1f9522f115e88f} 
+\index{VirtualDrive@{VirtualDrive}!VirtualDrive@{VirtualDrive}}
+\index{VirtualDrive@{VirtualDrive}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{VirtualDrive()}{VirtualDrive()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Virtual\+Drive\+::\+Virtual\+Drive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Default constructor. 
+
+\Hypertarget{classVirtualDrive_af6f02acf0169a9e2bbffe733a8ed6b70}\label{classVirtualDrive_af6f02acf0169a9e2bbffe733a8ed6b70} 
+\index{VirtualDrive@{VirtualDrive}!VirtualDrive@{VirtualDrive}}
+\index{VirtualDrive@{VirtualDrive}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{VirtualDrive()}{VirtualDrive()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Virtual\+Drive\+::\+Virtual\+Drive (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Constructor for known name. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of this folder. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classVirtualDrive_ac18cf7d6369cd764843342d0161cdaaf}\label{classVirtualDrive_ac18cf7d6369cd764843342d0161cdaaf} 
+\index{VirtualDrive@{VirtualDrive}!addFile@{addFile}}
+\index{addFile@{addFile}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{addFile()}{addFile()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::add\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{file\+Id }\end{DoxyParamCaption})}
+
+Add file to the folder by its id. Only if it is not already there. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Id} & Id of the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVirtualDrive_a3532620dd93f0593a283741950c768e2}\label{classVirtualDrive_a3532620dd93f0593a283741950c768e2} 
+\index{VirtualDrive@{VirtualDrive}!addSubdrive@{addSubdrive}}
+\index{addSubdrive@{addSubdrive}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{addSubdrive()}{addSubdrive()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} Virtual\+Drive\+::add\+Subdrive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Add sub-\/folder to this folder. \begin{DoxyReturn}{Returns}
+Pointer to the new sub-\/folder. 
+\end{DoxyReturn}
+\Hypertarget{classVirtualDrive_a0b1d9a02ba2fd97fb545b7a9f44f927b}\label{classVirtualDrive_a0b1d9a02ba2fd97fb545b7a9f44f927b} 
+\index{VirtualDrive@{VirtualDrive}!addSubdrive@{addSubdrive}}
+\index{addSubdrive@{addSubdrive}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{addSubdrive()}{addSubdrive()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} Virtual\+Drive\+::add\+Subdrive (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+Add sub-\/folder to this folder. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the sub-\/folder. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the new sub-\/folder. 
+\end{DoxyReturn}
+\Hypertarget{classVirtualDrive_a83ba7611dcddf68a3d96911e0883c3d5}\label{classVirtualDrive_a83ba7611dcddf68a3d96911e0883c3d5} 
+\index{VirtualDrive@{VirtualDrive}!copyDrive@{copyDrive}}
+\index{copyDrive@{copyDrive}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{copyDrive()}{copyDrive()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::copy\+Drive (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&}]{other,  }\item[{size\+\_\+t}]{plus\+Index = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Recursively copy the other drive. Used for import mainly. 
+\begin{DoxyParams}{Parameters}
+{\em other} & Other drive. \\
+\hline
+{\em plus\+Index} & What should be added to each file index. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVirtualDrive_afcab5f57be919dfb2b4399e99f8f87d2}\label{classVirtualDrive_afcab5f57be919dfb2b4399e99f8f87d2} 
+\index{VirtualDrive@{VirtualDrive}!getFiles@{getFiles}}
+\index{getFiles@{getFiles}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{getFiles()}{getFiles()}}
+{\footnotesize\ttfamily const std\+::vector$<$ size\+\_\+t $>$ \& Virtual\+Drive\+::get\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get constant reference to the container of files. \begin{DoxyReturn}{Returns}
+Constant reference to the container of files. 
+\end{DoxyReturn}
+\Hypertarget{classVirtualDrive_ae35a362003f4c5b829b61b86bcf3f644}\label{classVirtualDrive_ae35a362003f4c5b829b61b86bcf3f644} 
+\index{VirtualDrive@{VirtualDrive}!getName@{getName}}
+\index{getName@{getName}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const std\+::string \& Virtual\+Drive\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the name of the folder. \begin{DoxyReturn}{Returns}
+Name of the folder. 
+\end{DoxyReturn}
+\Hypertarget{classVirtualDrive_ae1aa1a13831dee0bf3224877962d0624}\label{classVirtualDrive_ae1aa1a13831dee0bf3224877962d0624} 
+\index{VirtualDrive@{VirtualDrive}!getSubdrives@{getSubdrives}}
+\index{getSubdrives@{getSubdrives}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{getSubdrives()}{getSubdrives()}}
+{\footnotesize\ttfamily const std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} $>$ $>$ \& Virtual\+Drive\+::get\+Subdrives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get constant reference to the container of files. \begin{DoxyReturn}{Returns}
+Constant reference to the container of pointers to virtual drives. 
+\end{DoxyReturn}
+\Hypertarget{classVirtualDrive_acdb6f87a4a3bbf5ba7d88457077bfc2f}\label{classVirtualDrive_acdb6f87a4a3bbf5ba7d88457077bfc2f} 
+\index{VirtualDrive@{VirtualDrive}!readJson@{readJson}}
+\index{readJson@{readJson}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Load data from JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Given JSON value. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVirtualDrive_a5da92e284dd710beaf087e43ed14dd0b}\label{classVirtualDrive_a5da92e284dd710beaf087e43ed14dd0b} 
+\index{VirtualDrive@{VirtualDrive}!remove@{remove}}
+\index{remove@{remove}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::remove (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{subfolder\+Name }\end{DoxyParamCaption})}
+
+Remove sub-\/folder and all its sub-\/folders and files. 
+\begin{DoxyParams}{Parameters}
+{\em subfolder\+Name} & Name of the sub-\/folder. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVirtualDrive_a9deb03064046cc836b4a66eccc492302}\label{classVirtualDrive_a9deb03064046cc836b4a66eccc492302} 
+\index{VirtualDrive@{VirtualDrive}!removeFile@{removeFile}}
+\index{removeFile@{removeFile}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{removeFile()}{removeFile()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::remove\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove one file in this folder. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVirtualDrive_a0d312120e3d9052dfae4349a0f1d3875}\label{classVirtualDrive_a0d312120e3d9052dfae4349a0f1d3875} 
+\index{VirtualDrive@{VirtualDrive}!rename@{rename}}
+\index{rename@{rename}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{rename()}{rename()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::rename (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+Rename this folder. 
+\begin{DoxyParams}{Parameters}
+{\em name} & New name of this folder. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVirtualDrive_a927ca85c2f22a23145ea899091040ab6}\label{classVirtualDrive_a927ca85c2f22a23145ea899091040ab6} 
+\index{VirtualDrive@{VirtualDrive}!usedFiles@{usedFiles}}
+\index{usedFiles@{usedFiles}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{usedFiles()}{usedFiles()}}
+{\footnotesize\ttfamily void Virtual\+Drive\+::used\+Files (\begin{DoxyParamCaption}\item[{std\+::vector$<$ size\+\_\+t $>$ \&}]{used }\end{DoxyParamCaption}) const}
+
+Vector of all used files. 
+\begin{DoxyParams}{Parameters}
+{\em used} & Vector of all files contained in this folder and sub-\/folders. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classVirtualDrive_a30e79b99ef4bf9f5446b7e9843aafb3b}\label{classVirtualDrive_a30e79b99ef4bf9f5446b7e9843aafb3b} 
+\index{VirtualDrive@{VirtualDrive}!files\_@{files\_}}
+\index{files\_@{files\_}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{files\_}{files\_}}
+{\footnotesize\ttfamily std\+::vector$<$size\+\_\+t$>$ Virtual\+Drive\+::files\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Container of all files. 
+
+\Hypertarget{classVirtualDrive_a3ed658e3bcbf024c65341fc5f05d0db3}\label{classVirtualDrive_a3ed658e3bcbf024c65341fc5f05d0db3} 
+\index{VirtualDrive@{VirtualDrive}!name\_@{name\_}}
+\index{name\_@{name\_}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{name\_}{name\_}}
+{\footnotesize\ttfamily std\+::string Virtual\+Drive\+::name\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Name of the folder. 
+
+\Hypertarget{classVirtualDrive_a187a379916f50b8a1d95bda3bf426e0a}\label{classVirtualDrive_a187a379916f50b8a1d95bda3bf426e0a} 
+\index{VirtualDrive@{VirtualDrive}!subdrives\_@{subdrives\_}}
+\index{subdrives\_@{subdrives\_}!VirtualDrive@{VirtualDrive}}
+\doxysubsubsection{\texorpdfstring{subdrives\_}{subdrives\_}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}}$>$ $>$ Virtual\+Drive\+::subdrives\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Container of pointers to the sub-\/folders. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{person_8h}{person.\+h}}\item 
+core/\mbox{\hyperlink{person_8cpp}{person.\+cpp}}\end{DoxyCompactItemize}

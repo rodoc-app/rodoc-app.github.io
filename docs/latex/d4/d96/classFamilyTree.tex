@@ -1,0 +1,1486 @@
+\doxysection{Family\+Tree Class Reference}
+\hypertarget{classFamilyTree}{}\label{classFamilyTree}\index{FamilyTree@{FamilyTree}}
+
+
+Main class for holding all data of a family tree. Also it acts as a bridge to the core of the application.  
+
+
+
+
+{\ttfamily \#include $<$family\+\_\+tree.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree_a43038e5aa39f3977d67629562ade375f}{Family\+Tree}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a9c738bf2830f1c8833b9079090bb7102}{add\+Event}} ()
+\item 
+\mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a5b5ca899001267fb15d8430861372eac}{add\+Event}} (size\+\_\+t index)
+\item 
+\mbox{\hyperlink{classFile}{File}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_abcd0a7b4c46e27a55520a819ed77d0ea}{add\+File}} (const std\+::string \&name, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+\mbox{\hyperlink{classFile}{File}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_aac663019a02cc84aff0bd158e056c915}{add\+File}} (const std\+::string \&name, size\+\_\+t index, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a6f1a1054728d2e799c40de60d9e835b2}{add\+Person}} ()
+\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_ada1fab1a0aa04df0463b79938b8ad6ec}{add\+Person}} (size\+\_\+t index)
+\item 
+\mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_ad36221a1a94aa4faa06e333808ad6b09}{add\+Relation}} ()
+\item 
+\mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a158b0073fcad075fc4929f4a5c3cc7e6}{add\+Relation}} (size\+\_\+t index)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a2329bfd5a900182f577db414bbdab22b}{append}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \&other)
+\item 
+std\+::pair$<$ bool, std\+::string $>$ \mbox{\hyperlink{classFamilyTree_a5a7e4d1a1c3b04d2dedc1d75718dbe56}{check\+File\+Consistence}} ()
+\item 
+void \mbox{\hyperlink{classFamilyTree_a616620db60c672ce837ecb9b3820480a}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear all data and set it for a new project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFamilyTree_a328edc7083c9d82cdff0c324ccf65a54}{clear\+Project\+Paths}} ()
+\begin{DoxyCompactList}\small\item\em Clear all project paths except for this one. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a7ef2e1efeba8cf2f16d9add58c80f203}{copy\+File}} (const std\+::string \&file\+Path, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+void \mbox{\hyperlink{classFamilyTree_a9bea7160daa4a7005e98243e12298ef1}{create\+Database}} (const std\+::string \&dir\+Path)
+\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a21a1f448a9f6a7df7393c9ee91de5c4f}{create\+Empty\+File}} (const std\+::string \&name, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+void \mbox{\hyperlink{classFamilyTree_a9ab2d111760f8665c379d7a176310a44}{enable\+Help\+On\+Startup}} (bool help)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a58cc904cf76505f0f62447e1adb2ffca}{export\+Project}} (const std\+::string \&file\+Path, bool including\+Events, bool including\+Relations)
+\item 
+std\+::string \mbox{\hyperlink{classFamilyTree_a26fd025c79deb69a72204bc301d41c9d}{create\+Resources\+Dir}} (const std\+::string \&target)
+\item 
+void \mbox{\hyperlink{classFamilyTree_ad74382ca5934350d88fe9c629b573666}{export\+Templates}} (const std\+::vector$<$ size\+\_\+t $>$ \&event\+Templates, const std\+::vector$<$ size\+\_\+t $>$ \&rel\+Templates, const std\+::string \&filename)
+\item 
+std\+::optional$<$ \mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classFamilyTree_ad8ed67fa5d09633eb4850da4bd080078}{get\+Event}} (size\+\_\+t id)
+\item 
+const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classEvent}{Event}} $>$ $>$ \& \mbox{\hyperlink{classFamilyTree_a7bef7e40f060b713d652a050de070be3}{get\+Events}} () const
+\item 
+std\+::optional$<$ \mbox{\hyperlink{classFile}{File}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classFamilyTree_a534b92bb0e52db5d3fff07d1e154d74f}{get\+File}} (size\+\_\+t id, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+void \mbox{\hyperlink{classFamilyTree_af45bbcf8b18a8e7164f386fc4d0335ee}{get\+File\+Absolute\+Path}} (std\+::string \&absolute\+Path, size\+\_\+t id, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \& \mbox{\hyperlink{classFamilyTree_adef3b2068790b9a2511deaf635f66dd9}{get\+Files}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classFamilyTree_abbcae1bf5b22454ccc5fb032334d856d}{get\+Orphan\+Files}} ()
+\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a6f8da1a24df00bc4478ec6a75d3a7987}{get\+Main\+Person}} ()
+\item 
+const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classPerson}{Person}} $>$ $>$ \& \mbox{\hyperlink{classFamilyTree_af5d8f0b2a93a4f77ea2bcea6518e55ea}{get\+Persons}} ()
+\item 
+std\+::optional$<$ \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classFamilyTree_a5ebb929d97b28ea96bcb11018d90bd83}{get\+Person}} (size\+\_\+t id)
+\item 
+const std\+::vector$<$ std\+::string $>$ \& \mbox{\hyperlink{classFamilyTree_a0d7afdc686ab12b7340c5278a10a0462}{get\+Project\+Paths}} () const
+\item 
+std\+::optional$<$ \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classFamilyTree_a5bce5570efd374df3132a6e028a46b03}{get\+Relation}} (size\+\_\+t id)
+\item 
+const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classRelation}{Relation}} $>$ $>$ \& \mbox{\hyperlink{classFamilyTree_ad1e9f3b5f4ce3c80653e112b9764c782}{get\+Relations}} ()
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \mbox{\hyperlink{classFamilyTree_ad9b3095d8dd7c8e9dc63a406b233bdb6}{get\+Relation\+Suggestions}} (size\+\_\+t rel\+Id)
+\item 
+\mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a6f866ca674e9866d6eabc64a638600b1}{get\+Settings}} ()
+\item 
+void \mbox{\hyperlink{classFamilyTree_a6689c61f214ab592306dc4fc1594581d}{get\+Url\+File}} (size\+\_\+t id, std\+::string \&file\+Url, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}})
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a30cc376d05755d281638663057f92020}{import\+Project}} (const std\+::string \&file\+Path)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_abb43c1f4e0787a4403ecaebc088e4763}{import\+Root\+Dir}} (const std\+::string \&dir\+Path)
+\item 
+std\+::pair$<$ bool, size\+\_\+t $>$ \mbox{\hyperlink{classFamilyTree_aa579645cfd08743687b72670c1faeb16}{import\+Templates}} (const std\+::string \&file\+Path)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a447046fadb23db987d404c7e6f164605}{is\+Directory\+Set}} ()
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a44a0dca783ce15fe4e58dd309309e855}{is\+Saved}} () const
+\item 
+void \mbox{\hyperlink{classFamilyTree_a53a98762b6c8545a3acce526e1703430}{log}} (const std\+::string \&error)
+\item 
+std\+::pair$<$ bool, bool $>$ \mbox{\hyperlink{classFamilyTree_a322c2624a1c4156cc41d5d68448ad4fb}{open\+Database}} (const std\+::string \&dir\+Path, std\+::string \&error\+Message, std\+::string \&backup\+File)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a7130a0aa7f9b10a67aa840557668a04e}{open\+Database}} (std\+::string \&error\+Message)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_aa009d8686ffa6f250964684150f829b4}{open\+Single\+File\+Database}} (const std\+::string \&file\+Path)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a8d3bc52cb8ac0cfe1fc0c7685a30e5bf}{print\+Html}} (const std\+::string \&dir\+Path)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a5144e2bcd414b6ecb9b9f14b4a14ac33}{print\+Main\+Person\+Html}} (const std\+::string \&output\+File)
+\item 
+void \mbox{\hyperlink{classFamilyTree_ac75b2d9a13f57cd562cb0adf2937edc9}{promote\+Relation}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a050296748a5c6e005c0fc4a20d06c754}{remove\+Backup}} ()
+\begin{DoxyCompactList}\small\item\em Remove backup file if there is any. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFamilyTree_a11c5ce429d98ebbbf297a4d4c3eafcec}{remove\+Event}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a1f73e72a2a4dbc3ebce7f49cc8a07b33}{remove\+Event\+Template}} (size\+\_\+t id)
+\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a35dcc7ef1b6b2df0bf2b460319499fea}{remove\+Orphan\+Files}} ()
+\item 
+void \mbox{\hyperlink{classFamilyTree_ab2becb8702d71e8cc16bdb78b037d95f}{remove\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Remove main person from the tree. Also delete all of his appearances. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFamilyTree_ab9e0e56e89ae2cdcc83341c3616c2204}{remove\+Relation}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_abd4bc8be38e936c7b6572b2744dc0981}{remove\+Relation\+Template}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a130c2238a0cdf63e9db23e454129d6b6}{rename\+File}} (size\+\_\+t id, const std\+::string \&new\+Filename, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a55d16d04f5c5fa91e51c213ce11c4209}{restore\+Backup}} (const std\+::string \&backup\+File, std\+::string \&error\+Message)
+\item 
+void \mbox{\hyperlink{classFamilyTree_abc56757af532c546ac520ef623929f24}{set\+Main\+Person}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a455339d067b1fa0e920f01d0cc2d9dd9}{set\+Main\+Person}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_af12fe754c08d897fef890ff77c3e580b}{set\+Relation}} (size\+\_\+t rel\+Id, size\+\_\+t pers1\+Id, size\+\_\+t pers2\+Id, size\+\_\+t templ\+Id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a508ba7917affc204b44dfdd1069249aa}{set\+Unsaved}} ()
+\begin{DoxyCompactList}\small\item\em Set unsaved state. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFamilyTree_a147fd6d04f44b8f5a60aef31ffb354e5}{show\+Help\+On\+Startup}} ()
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a6686cdfd07601e12b7056ee9828111e7}{store\+Database}} ()
+\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_ac76a1810bff0869af4c25361a1554dce}{templates\+Based\+On\+Event\+Template}} (size\+\_\+t template\+Id)
+\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a20a591611e1703daa95f32f4703d79d5}{templates\+Based\+On\+Relation\+Template}} (size\+\_\+t template\+Id)
+\item 
+void \mbox{\hyperlink{classFamilyTree_aa0fc9a7a042af6d265ceaabaf2a5d5e6}{update\+Events\+With\+Template}} (size\+\_\+t templ)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a67781b136dd28b91243cd2db129eb058}{write\+Config}} (const std\+::string \&new\+Path)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classFamilyTree_aa9ab8f19c8ec220b553a743b5099ffd0}{check\+File\+Type\+Consistence}} (std\+::ostream \&os, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a799e6d60408cd713e6357d04b61f3005}{get\+General\+Orpha\+Files}} (std\+::vector$<$ std\+::string $>$ \&files, const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&container, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a3932c645118ef69fc7c11d83a8faa128}{get\+Parent\+Suggestions}} (std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \&suggestions, const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}parent, const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}child, size\+\_\+t id, \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}} trait, const std\+::set$<$ size\+\_\+t $>$ \&forbidden\+Person\+Parent, const std\+::set$<$ size\+\_\+t $>$ \&forbidden\+Person\+Child)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a2dc503bd95c679435e8291a59f529c9f}{get\+Partners\+Suggestions}} (std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \&suggestions, const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person, const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}second, size\+\_\+t id, const std\+::set$<$ size\+\_\+t $>$ \&forbidden\+Persons)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a4404ffb46996a8d898b11c160c4d4eac}{get\+Siblings\+Suggestions}} (std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \&suggestions, const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person, const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}second, size\+\_\+t id, const std\+::set$<$ size\+\_\+t $>$ \&forbidden\+Persons)
+\item 
+bool \mbox{\hyperlink{classFamilyTree_a67c19b54f2239fcf92eb85f79e0ca360}{load\+Database\+File}} (const std\+::string \&file, std\+::function$<$ void(const Json\+::\+Value \&)$>$ reader, std\+::string \&error\+Message)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a953f124c855968b429a0431942b1eaab}{print\+Css}} (const std\+::string \&dir\+Path)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a97bf0e2647efb2cc69dc27bcaaedd595}{print\+Files}} (std\+::ostream \&os, const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&container, const std\+::string \&label)
+\item 
+void \mbox{\hyperlink{classFamilyTree_af5565bcb3385bccf7cbb65b49d0bea6a}{print\+Events}} (std\+::ostream \&os)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a5da6d907ff39dee88a1124e364b59beb}{print\+Html\+Person}} (std\+::ostream \&os, bool links, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p)
+\item 
+void \mbox{\hyperlink{classFamilyTree_acf15730446b140323fb73b4462ff056a}{print\+People}} (std\+::ostream \&os)
+\item 
+void \mbox{\hyperlink{classFamilyTree_af3c2e81b4542f29ba1cacab9a5aa6630}{print\+Relations}} (std\+::ostream \&os)
+\item 
+void \mbox{\hyperlink{classFamilyTree_aa4a8015c5db25f9a88f70180ad01dc3b}{read\+Json\+Events}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a8b36fdd0e95d9ced9891823de74c9cab}{read\+Json\+Files}} (const Json\+::\+Value \&value, std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&container, const std\+::string \&label, size\+\_\+t \&index)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a00fa9371fcc81fe8c39aa84c5182f7bc}{read\+Json\+People}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a2708f1b9224dea6d366b69a8e1c792c7}{read\+Json\+Relations}} (const Json\+::\+Value \&value)
+\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_acdb0d9051f41719890f17eab5605a3d2}{remove\+General\+Orphan\+File}} (std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&container, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type, const std\+::string \&dir)
+\item 
+void \mbox{\hyperlink{classFamilyTree_a7f8943172c2f05e53fb2410262edb1bc}{store\+File\+Database}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classEvent}{Event}} $>$ $>$ \mbox{\hyperlink{classFamilyTree_af54a67942b293557cea3972a9f474790}{all\+Events\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All the events in the tree. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \mbox{\hyperlink{classFamilyTree_a2ff9b02c0719c96050ea75196b1271fb}{all\+Files\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All files in app. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \mbox{\hyperlink{classFamilyTree_adb64e5b7deda4a4ab031e52cb41212c3}{all\+Media\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All media in app. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \mbox{\hyperlink{classFamilyTree_a2ddde54535ea944f59c699ea049abbda}{all\+Notes\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All notes in app. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classPerson}{Person}} $>$ $>$ \mbox{\hyperlink{classFamilyTree_afc736d3082b83409e5dc7a42274ac6ed}{all\+Persons\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Map of all persons in family tree. \end{DoxyCompactList}\item 
+std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classRelation}{Relation}} $>$ $>$ \mbox{\hyperlink{classFamilyTree_a79908840918f68afed0b920d2aceb5dc}{all\+Relations\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All relations in the tree. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a9e4806e377b1501cf476d1ce1385bca5}{event\+\_\+index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Last free index for event. Always start from 1. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a1b5e7ad2f51932cbbeeacc9eb91e33d3}{file\+\_\+index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Last free id for file. Always start from 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFamilyTree_a6cc33e934001db229e4424982278211d}{main\+Person\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Main person showing as the centre of the tree. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_ae0fd1c0cc7b33dab45bb6ac410333d3a}{media\+\_\+index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Last free id for media. Always start from 1. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_aae75755de328defb9f66363b8fd80b4f}{note\+\_\+index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Last free id for note. Always start from 1. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFamilyTree_ae6b8e0f71865dad59737380358d7472c}{open\+Help}}
+\begin{DoxyCompactList}\small\item\em If help window should be shown. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classParser}{Parser}} \mbox{\hyperlink{classFamilyTree_af37ab96d10ba7ed42db5afe2bbb6099e}{parser\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classParser}{Parser} for working with locally stored database. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_aebfedf7b6ef207a81c9e827f8161986e}{person\+\_\+index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Last free id for person. Always start from 1. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classFamilyTree_a95795f20f8b3b20b3ac0a1338e569130}{project\+Paths}}
+\begin{DoxyCompactList}\small\item\em Paths to existing projects. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classFamilyTree_a2083e97bf1519682b0c234432cc9a499}{relation\+\_\+index\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Last free index for relation. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFamilyTree_a3046b9fbaae5c70acde9757db9544675}{saved\+Changes\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If all changes were saved or not. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSettings}{Settings}} \mbox{\hyperlink{classFamilyTree_afc0da6485bbf91242cf9b0a7ea2ced55}{settings\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classSettings}{Settings} of the app. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main class for holding all data of a family tree. Also it acts as a bridge to the core of the application. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classFamilyTree_a43038e5aa39f3977d67629562ade375f}\label{classFamilyTree_a43038e5aa39f3977d67629562ade375f} 
+\index{FamilyTree@{FamilyTree}!FamilyTree@{FamilyTree}}
+\index{FamilyTree@{FamilyTree}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{FamilyTree()}{FamilyTree()}}
+{\footnotesize\ttfamily Family\+Tree\+::\+Family\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classFamilyTree_a9c738bf2830f1c8833b9079090bb7102}\label{classFamilyTree_a9c738bf2830f1c8833b9079090bb7102} 
+\index{FamilyTree@{FamilyTree}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addEvent()}{addEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Add new event to the family tree. \begin{DoxyReturn}{Returns}
+Pointer to the new event. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a5b5ca899001267fb15d8430861372eac}\label{classFamilyTree_a5b5ca899001267fb15d8430861372eac} 
+\index{FamilyTree@{FamilyTree}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addEvent()}{addEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+Event (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+Add new event to the family tree with known index. 
+\begin{DoxyParams}{Parameters}
+{\em index} & Known index. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the new event. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_abcd0a7b4c46e27a55520a819ed77d0ea}\label{classFamilyTree_abcd0a7b4c46e27a55520a819ed77d0ea} 
+\index{FamilyTree@{FamilyTree}!addFile@{addFile}}
+\index{addFile@{addFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addFile()}{addFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFile}{File}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Add file to the database. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Given name of the file. \\
+\hline
+{\em type} & If the file is general file, media or note. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the new file. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_aac663019a02cc84aff0bd158e056c915}\label{classFamilyTree_aac663019a02cc84aff0bd158e056c915} 
+\index{FamilyTree@{FamilyTree}!addFile@{addFile}}
+\index{addFile@{addFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addFile()}{addFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFile}{File}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{size\+\_\+t}]{index,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Add file to the database with known index. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Given name of the file. \\
+\hline
+{\em index} & Known index. \\
+\hline
+{\em type} & If the file is general file, media or note. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the new file. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a6f1a1054728d2e799c40de60d9e835b2}\label{classFamilyTree_a6f1a1054728d2e799c40de60d9e835b2} 
+\index{FamilyTree@{FamilyTree}!addPerson@{addPerson}}
+\index{addPerson@{addPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addPerson()}{addPerson()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Add person to the database. \begin{DoxyReturn}{Returns}
+Pointer to that new person. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_ada1fab1a0aa04df0463b79938b8ad6ec}\label{classFamilyTree_ada1fab1a0aa04df0463b79938b8ad6ec} 
+\index{FamilyTree@{FamilyTree}!addPerson@{addPerson}}
+\index{addPerson@{addPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addPerson()}{addPerson()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+Add person to the database with known index. 
+\begin{DoxyParams}{Parameters}
+{\em index} & Known index. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to that new person. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_ad36221a1a94aa4faa06e333808ad6b09}\label{classFamilyTree_ad36221a1a94aa4faa06e333808ad6b09} 
+\index{FamilyTree@{FamilyTree}!addRelation@{addRelation}}
+\index{addRelation@{addRelation}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addRelation()}{addRelation()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+Relation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Add relation to the family tree. \begin{DoxyReturn}{Returns}
+Pointer to the new relation. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a158b0073fcad075fc4929f4a5c3cc7e6}\label{classFamilyTree_a158b0073fcad075fc4929f4a5c3cc7e6} 
+\index{FamilyTree@{FamilyTree}!addRelation@{addRelation}}
+\index{addRelation@{addRelation}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{addRelation()}{addRelation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::add\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+Add relation to the family tree with known index. 
+\begin{DoxyParams}{Parameters}
+{\em index} & Known index. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the new relation. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a2329bfd5a900182f577db414bbdab22b}\label{classFamilyTree_a2329bfd5a900182f577db414bbdab22b} 
+\index{FamilyTree@{FamilyTree}!append@{append}}
+\index{append@{append}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{append()}{append()}}
+{\footnotesize\ttfamily void Family\+Tree\+::append (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \&}]{other }\end{DoxyParamCaption})}
+
+Append the whole project by another one. Note that the second family tree will be corrupted. Because all the indexes must be changed. Though the second tree won\textquotesingle{}t be saved. 
+\begin{DoxyParams}{Parameters}
+{\em other} & Second Family tree. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a5a7e4d1a1c3b04d2dedc1d75718dbe56}\label{classFamilyTree_a5a7e4d1a1c3b04d2dedc1d75718dbe56} 
+\index{FamilyTree@{FamilyTree}!checkFileConsistence@{checkFileConsistence}}
+\index{checkFileConsistence@{checkFileConsistence}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{checkFileConsistence()}{checkFileConsistence()}}
+{\footnotesize\ttfamily std\+::pair$<$ bool, std\+::string $>$ Family\+Tree\+::check\+File\+Consistence (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Check the consistence of stored file. \begin{DoxyReturn}{Returns}
+Bool if it is consistent and written details of all wrong files. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_aa9ab8f19c8ec220b553a743b5099ffd0}\label{classFamilyTree_aa9ab8f19c8ec220b553a743b5099ffd0} 
+\index{FamilyTree@{FamilyTree}!checkFileTypeConsistence@{checkFileTypeConsistence}}
+\index{checkFileTypeConsistence@{checkFileTypeConsistence}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{checkFileTypeConsistence()}{checkFileTypeConsistence()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::check\+File\+Type\+Consistence (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Check file consistence of a single type. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Where to write error. \\
+\hline
+{\em type} & Which type to look for. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a616620db60c672ce837ecb9b3820480a}\label{classFamilyTree_a616620db60c672ce837ecb9b3820480a} 
+\index{FamilyTree@{FamilyTree}!clear@{clear}}
+\index{clear@{clear}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Family\+Tree\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear all data and set it for a new project. 
+
+\Hypertarget{classFamilyTree_a328edc7083c9d82cdff0c324ccf65a54}\label{classFamilyTree_a328edc7083c9d82cdff0c324ccf65a54} 
+\index{FamilyTree@{FamilyTree}!clearProjectPaths@{clearProjectPaths}}
+\index{clearProjectPaths@{clearProjectPaths}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{clearProjectPaths()}{clearProjectPaths()}}
+{\footnotesize\ttfamily void Family\+Tree\+::clear\+Project\+Paths (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear all project paths except for this one. 
+
+\Hypertarget{classFamilyTree_a7ef2e1efeba8cf2f16d9add58c80f203}\label{classFamilyTree_a7ef2e1efeba8cf2f16d9add58c80f203} 
+\index{FamilyTree@{FamilyTree}!copyFile@{copyFile}}
+\index{copyFile@{copyFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{copyFile()}{copyFile()}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::copy\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Path,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Copy an existing file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the original file on the disk. \\
+\hline
+{\em type} & What type of file it is. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Id of the new file. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a9bea7160daa4a7005e98243e12298ef1}\label{classFamilyTree_a9bea7160daa4a7005e98243e12298ef1} 
+\index{FamilyTree@{FamilyTree}!createDatabase@{createDatabase}}
+\index{createDatabase@{createDatabase}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{createDatabase()}{createDatabase()}}
+{\footnotesize\ttfamily void Family\+Tree\+::create\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})}
+
+Create a new empty database. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the root directory. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a21a1f448a9f6a7df7393c9ee91de5c4f}\label{classFamilyTree_a21a1f448a9f6a7df7393c9ee91de5c4f} 
+\index{FamilyTree@{FamilyTree}!createEmptyFile@{createEmptyFile}}
+\index{createEmptyFile@{createEmptyFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{createEmptyFile()}{createEmptyFile()}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::create\+Empty\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Create an empty file. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the file. Not the real name on disk. \\
+\hline
+{\em type} & What type of file it is. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Id of the new file. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a26fd025c79deb69a72204bc301d41c9d}\label{classFamilyTree_a26fd025c79deb69a72204bc301d41c9d} 
+\index{FamilyTree@{FamilyTree}!createResourcesDir@{createResourcesDir}}
+\index{createResourcesDir@{createResourcesDir}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{createResourcesDir()}{createResourcesDir()}}
+{\footnotesize\ttfamily std\+::string Family\+Tree\+::create\+Resources\+Dir (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{target }\end{DoxyParamCaption})}
+
+Create resource file for diagrams for HTML export. 
+\begin{DoxyParams}{Parameters}
+{\em target} & Where the resource dir should be (either a path to the directory or a file). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the path to the resources directory. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a9ab2d111760f8665c379d7a176310a44}\label{classFamilyTree_a9ab2d111760f8665c379d7a176310a44} 
+\index{FamilyTree@{FamilyTree}!enableHelpOnStartup@{enableHelpOnStartup}}
+\index{enableHelpOnStartup@{enableHelpOnStartup}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{enableHelpOnStartup()}{enableHelpOnStartup()}}
+{\footnotesize\ttfamily void Family\+Tree\+::enable\+Help\+On\+Startup (\begin{DoxyParamCaption}\item[{bool}]{help }\end{DoxyParamCaption})}
+
+Switch if the help window should be opened at start up, also write it to configuration. 
+\begin{DoxyParams}{Parameters}
+{\em help} & If it should be opened or not. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a58cc904cf76505f0f62447e1adb2ffca}\label{classFamilyTree_a58cc904cf76505f0f62447e1adb2ffca} 
+\index{FamilyTree@{FamilyTree}!exportProject@{exportProject}}
+\index{exportProject@{exportProject}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{exportProject()}{exportProject()}}
+{\footnotesize\ttfamily void Family\+Tree\+::export\+Project (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Path,  }\item[{bool}]{including\+Events,  }\item[{bool}]{including\+Relations }\end{DoxyParamCaption})}
+
+Export this project in one single JSON file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the export file. \\
+\hline
+{\em including\+Events} & If the export should include events. \\
+\hline
+{\em including\+Relations} & If the export should include relations. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_ad74382ca5934350d88fe9c629b573666}\label{classFamilyTree_ad74382ca5934350d88fe9c629b573666} 
+\index{FamilyTree@{FamilyTree}!exportTemplates@{exportTemplates}}
+\index{exportTemplates@{exportTemplates}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{exportTemplates()}{exportTemplates()}}
+{\footnotesize\ttfamily void Family\+Tree\+::export\+Templates (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{event\+Templates,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{rel\+Templates,  }\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+Export given templates to an output file in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em event\+Templates} & Vector of event templates. \\
+\hline
+{\em rel\+Templates} & Vector of relation templates. \\
+\hline
+{\em filename} & Path to the output file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_ad8ed67fa5d09633eb4850da4bd080078}\label{classFamilyTree_ad8ed67fa5d09633eb4850da4bd080078} 
+\index{FamilyTree@{FamilyTree}!getEvent@{getEvent}}
+\index{getEvent@{getEvent}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getEvent()}{getEvent()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} $>$ Family\+Tree\+::get\+Event (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Get pointer to the event. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the event. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Get optionally pointer to the event or empty. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a7bef7e40f060b713d652a050de070be3}\label{classFamilyTree_a7bef7e40f060b713d652a050de070be3} 
+\index{FamilyTree@{FamilyTree}!getEvents@{getEvents}}
+\index{getEvents@{getEvents}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getEvents()}{getEvents()}}
+{\footnotesize\ttfamily const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classEvent}{Event}} $>$ $>$ \& Family\+Tree\+::get\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get constant reference to the container of all events. \begin{DoxyReturn}{Returns}
+Constant reference to the map of all events. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a534b92bb0e52db5d3fff07d1e154d74f}\label{classFamilyTree_a534b92bb0e52db5d3fff07d1e154d74f} 
+\index{FamilyTree@{FamilyTree}!getFile@{getFile}}
+\index{getFile@{getFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getFile()}{getFile()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{classFile}{File}} \texorpdfstring{$\ast$}{*} $>$ Family\+Tree\+::get\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Get pointer to given file. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the file. \\
+\hline
+{\em type} & What type of file to get. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Optionally pointer to the file or empty. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_af45bbcf8b18a8e7164f386fc4d0335ee}\label{classFamilyTree_af45bbcf8b18a8e7164f386fc4d0335ee} 
+\index{FamilyTree@{FamilyTree}!getFileAbsolutePath@{getFileAbsolutePath}}
+\index{getFileAbsolutePath@{getFileAbsolutePath}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getFileAbsolutePath()}{getFileAbsolutePath()}}
+{\footnotesize\ttfamily void Family\+Tree\+::get\+File\+Absolute\+Path (\begin{DoxyParamCaption}\item[{std\+::string \&}]{absolute\+Path,  }\item[{size\+\_\+t}]{id,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Get the absolute path to the given file. 
+\begin{DoxyParams}{Parameters}
+{\em absolute\+Path} & Where will be the absolute paths stored. \\
+\hline
+{\em id} & Id of the file. \\
+\hline
+{\em type} & Which type is used. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_adef3b2068790b9a2511deaf635f66dd9}\label{classFamilyTree_adef3b2068790b9a2511deaf635f66dd9} 
+\index{FamilyTree@{FamilyTree}!getFiles@{getFiles}}
+\index{getFiles@{getFiles}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getFiles()}{getFiles()}}
+{\footnotesize\ttfamily const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \& Family\+Tree\+::get\+Files (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Get constant reference to the vector of all files. 
+\begin{DoxyParams}{Parameters}
+{\em type} & What type of files the vector has. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Constant reference to the map of files with given type. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a799e6d60408cd713e6357d04b61f3005}\label{classFamilyTree_a799e6d60408cd713e6357d04b61f3005} 
+\index{FamilyTree@{FamilyTree}!getGeneralOrphaFiles@{getGeneralOrphaFiles}}
+\index{getGeneralOrphaFiles@{getGeneralOrphaFiles}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getGeneralOrphaFiles()}{getGeneralOrphaFiles()}}
+{\footnotesize\ttfamily void Family\+Tree\+::get\+General\+Orpha\+Files (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{files,  }\item[{const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&}]{container,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Get all files that would be removed. 
+\begin{DoxyParams}{Parameters}
+{\em files} & Where to store these files. \\
+\hline
+{\em container} & Which map to use. \\
+\hline
+{\em type} & Which type we are using. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a6f8da1a24df00bc4478ec6a75d3a7987}\label{classFamilyTree_a6f8da1a24df00bc4478ec6a75d3a7987} 
+\index{FamilyTree@{FamilyTree}!getMainPerson@{getMainPerson}}
+\index{getMainPerson@{getMainPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getMainPerson()}{getMainPerson()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::get\+Main\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the main person. \begin{DoxyReturn}{Returns}
+Pointer to the main person. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_abbcae1bf5b22454ccc5fb032334d856d}\label{classFamilyTree_abbcae1bf5b22454ccc5fb032334d856d} 
+\index{FamilyTree@{FamilyTree}!getOrphanFiles@{getOrphanFiles}}
+\index{getOrphanFiles@{getOrphanFiles}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getOrphanFiles()}{getOrphanFiles()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Family\+Tree\+::get\+Orphan\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get all the orphan files. \begin{DoxyReturn}{Returns}
+Vector of all files, that will be permanently deleted. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a3932c645118ef69fc7c11d83a8faa128}\label{classFamilyTree_a3932c645118ef69fc7c11d83a8faa128} 
+\index{FamilyTree@{FamilyTree}!getParentSuggestions@{getParentSuggestions}}
+\index{getParentSuggestions@{getParentSuggestions}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getParentSuggestions()}{getParentSuggestions()}}
+{\footnotesize\ttfamily void Family\+Tree\+::get\+Parent\+Suggestions (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \&}]{suggestions,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{parent,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{child,  }\item[{size\+\_\+t}]{id,  }\item[{\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}}]{trait,  }\item[{const std\+::set$<$ size\+\_\+t $>$ \&}]{forbidden\+Person\+Parent,  }\item[{const std\+::set$<$ size\+\_\+t $>$ \&}]{forbidden\+Person\+Child }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Append relation suggestions by a parent relations. 
+\begin{DoxyParams}{Parameters}
+{\em suggestions} & Container of all suggestions. \\
+\hline
+{\em parent} & Which person is parent. \\
+\hline
+{\em child} & Which person is child. \\
+\hline
+{\em id} & Id of this relation. \\
+\hline
+{\em trait} & Trait of this relation. \\
+\hline
+{\em forbidden\+Person\+Parent} & Which persons are forbidden to bind to with a parent. \\
+\hline
+{\em forbidden\+Person\+Child} & Which persons are forbidden to bind to with a child. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a2dc503bd95c679435e8291a59f529c9f}\label{classFamilyTree_a2dc503bd95c679435e8291a59f529c9f} 
+\index{FamilyTree@{FamilyTree}!getPartnersSuggestions@{getPartnersSuggestions}}
+\index{getPartnersSuggestions@{getPartnersSuggestions}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getPartnersSuggestions()}{getPartnersSuggestions()}}
+{\footnotesize\ttfamily void Family\+Tree\+::get\+Partners\+Suggestions (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \&}]{suggestions,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{second,  }\item[{size\+\_\+t}]{id,  }\item[{const std\+::set$<$ size\+\_\+t $>$ \&}]{forbidden\+Persons }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Append relation suggestions by partners relations. 
+\begin{DoxyParams}{Parameters}
+{\em suggestions} & Container of all suggestions. \\
+\hline
+{\em person} & Which person is the main one. \\
+\hline
+{\em second} & Which person is the second one. \\
+\hline
+{\em id} & Id of this relation. \\
+\hline
+{\em forbidden\+Persons} & Which persons are forbidden to bind to a given person. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a5ebb929d97b28ea96bcb11018d90bd83}\label{classFamilyTree_a5ebb929d97b28ea96bcb11018d90bd83} 
+\index{FamilyTree@{FamilyTree}!getPerson@{getPerson}}
+\index{getPerson@{getPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getPerson()}{getPerson()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} $>$ Family\+Tree\+::get\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Get pointer to the person by its id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Optionally pointer to the person with its id or empty. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_af5d8f0b2a93a4f77ea2bcea6518e55ea}\label{classFamilyTree_af5d8f0b2a93a4f77ea2bcea6518e55ea} 
+\index{FamilyTree@{FamilyTree}!getPersons@{getPersons}}
+\index{getPersons@{getPersons}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getPersons()}{getPersons()}}
+{\footnotesize\ttfamily const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classPerson}{Person}} $>$ $>$ \& Family\+Tree\+::get\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the container of persons. \begin{DoxyReturn}{Returns}
+Constant reference to the container. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a0d7afdc686ab12b7340c5278a10a0462}\label{classFamilyTree_a0d7afdc686ab12b7340c5278a10a0462} 
+\index{FamilyTree@{FamilyTree}!getProjectPaths@{getProjectPaths}}
+\index{getProjectPaths@{getProjectPaths}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getProjectPaths()}{getProjectPaths()}}
+{\footnotesize\ttfamily const std\+::vector$<$ std\+::string $>$ \& Family\+Tree\+::get\+Project\+Paths (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the constant reference to the paths to the roots of projects. \begin{DoxyReturn}{Returns}
+Constant reference to the vector of all strings representing root directories. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a5bce5570efd374df3132a6e028a46b03}\label{classFamilyTree_a5bce5570efd374df3132a6e028a46b03} 
+\index{FamilyTree@{FamilyTree}!getRelation@{getRelation}}
+\index{getRelation@{getRelation}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getRelation()}{getRelation()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} $>$ Family\+Tree\+::get\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Get pointer to the relation. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the relation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Optionally pointer to the relation or empty. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_ad1e9f3b5f4ce3c80653e112b9764c782}\label{classFamilyTree_ad1e9f3b5f4ce3c80653e112b9764c782} 
+\index{FamilyTree@{FamilyTree}!getRelations@{getRelations}}
+\index{getRelations@{getRelations}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getRelations()}{getRelations()}}
+{\footnotesize\ttfamily const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classRelation}{Relation}} $>$ $>$ \& Family\+Tree\+::get\+Relations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the constant reference to the map of all relations. \begin{DoxyReturn}{Returns}
+Constant reference to the map of all relations. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_ad9b3095d8dd7c8e9dc63a406b233bdb6}\label{classFamilyTree_ad9b3095d8dd7c8e9dc63a406b233bdb6} 
+\index{FamilyTree@{FamilyTree}!getRelationSuggestions@{getRelationSuggestions}}
+\index{getRelationSuggestions@{getRelationSuggestions}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getRelationSuggestions()}{getRelationSuggestions()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ Family\+Tree\+::get\+Relation\+Suggestions (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{rel\+Id }\end{DoxyParamCaption})}
+
+Get relation suggestions to the given relation. 
+\begin{DoxyParams}{Parameters}
+{\em rel\+Id} & Id of the given relation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of all suggestions. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a6f866ca674e9866d6eabc64a638600b1}\label{classFamilyTree_a6f866ca674e9866d6eabc64a638600b1} 
+\index{FamilyTree@{FamilyTree}!getSettings@{getSettings}}
+\index{getSettings@{getSettings}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getSettings()}{getSettings()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSettings}{Settings}} \texorpdfstring{$\ast$}{*} Family\+Tree\+::get\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get pointer to the settings. \begin{DoxyReturn}{Returns}
+Pointer to the settings. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a4404ffb46996a8d898b11c160c4d4eac}\label{classFamilyTree_a4404ffb46996a8d898b11c160c4d4eac} 
+\index{FamilyTree@{FamilyTree}!getSiblingsSuggestions@{getSiblingsSuggestions}}
+\index{getSiblingsSuggestions@{getSiblingsSuggestions}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getSiblingsSuggestions()}{getSiblingsSuggestions()}}
+{\footnotesize\ttfamily void Family\+Tree\+::get\+Siblings\+Suggestions (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} $>$ \&}]{suggestions,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{second,  }\item[{size\+\_\+t}]{id,  }\item[{const std\+::set$<$ size\+\_\+t $>$ \&}]{forbidden\+Persons }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Append relation suggestions by siblings relations. 
+\begin{DoxyParams}{Parameters}
+{\em suggestions} & Container of all suggestions. \\
+\hline
+{\em person} & Which person is the main one. \\
+\hline
+{\em second} & Which person is the second one. \\
+\hline
+{\em id} & Id of this relation. -- This will be changed \\
+\hline
+{\em forbidden\+Persons} & Which persons are forbidden to bind to a given person. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a6689c61f214ab592306dc4fc1594581d}\label{classFamilyTree_a6689c61f214ab592306dc4fc1594581d} 
+\index{FamilyTree@{FamilyTree}!getUrlFile@{getUrlFile}}
+\index{getUrlFile@{getUrlFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{getUrlFile()}{getUrlFile()}}
+{\footnotesize\ttfamily void Family\+Tree\+::get\+Url\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id,  }\item[{std\+::string \&}]{file\+Url,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption})}
+
+Get string representing URL to local file. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Index of the given file. \\
+\hline
+{\em file\+Url} & URL of the file. \\
+\hline
+{\em type} & If the file is general file, media or note. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a30cc376d05755d281638663057f92020}\label{classFamilyTree_a30cc376d05755d281638663057f92020} 
+\index{FamilyTree@{FamilyTree}!importProject@{importProject}}
+\index{importProject@{importProject}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{importProject()}{importProject()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::import\+Project (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Path }\end{DoxyParamCaption})}
+
+Import project. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the import was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_abb43c1f4e0787a4403ecaebc088e4763}\label{classFamilyTree_abb43c1f4e0787a4403ecaebc088e4763} 
+\index{FamilyTree@{FamilyTree}!importRootDir@{importRootDir}}
+\index{importRootDir@{importRootDir}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{importRootDir()}{importRootDir()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::import\+Root\+Dir (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})}
+
+Import project from root directory. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the root directory. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the import was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_aa579645cfd08743687b72670c1faeb16}\label{classFamilyTree_aa579645cfd08743687b72670c1faeb16} 
+\index{FamilyTree@{FamilyTree}!importTemplates@{importTemplates}}
+\index{importTemplates@{importTemplates}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{importTemplates()}{importTemplates()}}
+{\footnotesize\ttfamily std\+::pair$<$ bool, size\+\_\+t $>$ Family\+Tree\+::import\+Templates (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Path }\end{DoxyParamCaption})}
+
+Import templates. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the import was successful or not and number of imported templates. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a447046fadb23db987d404c7e6f164605}\label{classFamilyTree_a447046fadb23db987d404c7e6f164605} 
+\index{FamilyTree@{FamilyTree}!isDirectorySet@{isDirectorySet}}
+\index{isDirectorySet@{isDirectorySet}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{isDirectorySet()}{isDirectorySet()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::is\+Directory\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+If the root directory for the database was already set. \begin{DoxyReturn}{Returns}
+True if the directory was set. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a44a0dca783ce15fe4e58dd309309e855}\label{classFamilyTree_a44a0dca783ce15fe4e58dd309309e855} 
+\index{FamilyTree@{FamilyTree}!isSaved@{isSaved}}
+\index{isSaved@{isSaved}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{isSaved()}{isSaved()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::is\+Saved (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If all changes are saved. \begin{DoxyReturn}{Returns}
+True if all changes are saved, otherwise false. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a67c19b54f2239fcf92eb85f79e0ca360}\label{classFamilyTree_a67c19b54f2239fcf92eb85f79e0ca360} 
+\index{FamilyTree@{FamilyTree}!loadDatabaseFile@{loadDatabaseFile}}
+\index{loadDatabaseFile@{loadDatabaseFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{loadDatabaseFile()}{loadDatabaseFile()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::load\+Database\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file,  }\item[{std\+::function$<$ void(const Json\+::\+Value \&)$>$}]{reader,  }\item[{std\+::string \&}]{error\+Message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Load one single file from the database. 
+\begin{DoxyParams}{Parameters}
+{\em file} & Which file in database is being loaded. \\
+\hline
+{\em reader} & Which function read the data and load them. \\
+\hline
+{\em error\+Message} & Where will the error message stored. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the parsing was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a53a98762b6c8545a3acce526e1703430}\label{classFamilyTree_a53a98762b6c8545a3acce526e1703430} 
+\index{FamilyTree@{FamilyTree}!log@{log}}
+\index{log@{log}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily void Family\+Tree\+::log (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{error }\end{DoxyParamCaption})}
+
+Log error code to the parser. 
+\begin{DoxyParams}{Parameters}
+{\em error} & What is the text of the error. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a322c2624a1c4156cc41d5d68448ad4fb}\label{classFamilyTree_a322c2624a1c4156cc41d5d68448ad4fb} 
+\index{FamilyTree@{FamilyTree}!openDatabase@{openDatabase}}
+\index{openDatabase@{openDatabase}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{openDatabase()}{openDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::pair$<$ bool, bool $>$ Family\+Tree\+::open\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path,  }\item[{std\+::string \&}]{error\+Message,  }\item[{std\+::string \&}]{backup\+File }\end{DoxyParamCaption})}
+
+Open a database from its root directory. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the root directory. \\
+\hline
+{\em error\+Message} & To show what was the potential error. \\
+\hline
+{\em backup\+File} & Which file has a backup. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+First if the parsing was successful. Second if there exists backup. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a7130a0aa7f9b10a67aa840557668a04e}\label{classFamilyTree_a7130a0aa7f9b10a67aa840557668a04e} 
+\index{FamilyTree@{FamilyTree}!openDatabase@{openDatabase}}
+\index{openDatabase@{openDatabase}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{openDatabase()}{openDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Family\+Tree\+::open\+Database (\begin{DoxyParamCaption}\item[{std\+::string \&}]{error\+Message }\end{DoxyParamCaption})}
+
+Read the database without setting dir path. 
+\begin{DoxyParams}{Parameters}
+{\em error\+Message} & If error occurred show it there. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the parsing of the database was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_aa009d8686ffa6f250964684150f829b4}\label{classFamilyTree_aa009d8686ffa6f250964684150f829b4} 
+\index{FamilyTree@{FamilyTree}!openSingleFileDatabase@{openSingleFileDatabase}}
+\index{openSingleFileDatabase@{openSingleFileDatabase}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{openSingleFileDatabase()}{openSingleFileDatabase()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::open\+Single\+File\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Path }\end{DoxyParamCaption})}
+
+Open database from a single file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the parsing was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a953f124c855968b429a0431942b1eaab}\label{classFamilyTree_a953f124c855968b429a0431942b1eaab} 
+\index{FamilyTree@{FamilyTree}!printCss@{printCss}}
+\index{printCss@{printCss}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printCss()}{printCss()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Css (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Print custom CSS. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the directory for the CSS. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_af5565bcb3385bccf7cbb65b49d0bea6a}\label{classFamilyTree_af5565bcb3385bccf7cbb65b49d0bea6a} 
+\index{FamilyTree@{FamilyTree}!printEvents@{printEvents}}
+\index{printEvents@{printEvents}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printEvents()}{printEvents()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Events (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Print all events. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a97bf0e2647efb2cc69dc27bcaaedd595}\label{classFamilyTree_a97bf0e2647efb2cc69dc27bcaaedd595} 
+\index{FamilyTree@{FamilyTree}!printFiles@{printFiles}}
+\index{printFiles@{printFiles}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printFiles()}{printFiles()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Files (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&}]{container,  }\item[{const std\+::string \&}]{label }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Print all files from vector container. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em container} & Given container of files. \\
+\hline
+{\em label} & What is the label in JSON file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a8d3bc52cb8ac0cfe1fc0c7685a30e5bf}\label{classFamilyTree_a8d3bc52cb8ac0cfe1fc0c7685a30e5bf} 
+\index{FamilyTree@{FamilyTree}!printHtml@{printHtml}}
+\index{printHtml@{printHtml}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printHtml()}{printHtml()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Html (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})}
+
+Print the whole project to an output directory. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to the directory. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a5da6d907ff39dee88a1124e364b59beb}\label{classFamilyTree_a5da6d907ff39dee88a1124e364b59beb} 
+\index{FamilyTree@{FamilyTree}!printHtmlPerson@{printHtmlPerson}}
+\index{printHtmlPerson@{printHtmlPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printHtmlPerson()}{printHtmlPerson()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Html\+Person (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{bool}]{links,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Print single person to an output in html format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Which output stream to use. \\
+\hline
+{\em links} & True if they should be links to other persons. \\
+\hline
+{\em p} & Which person is to be printed. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a5144e2bcd414b6ecb9b9f14b4a14ac33}\label{classFamilyTree_a5144e2bcd414b6ecb9b9f14b4a14ac33} 
+\index{FamilyTree@{FamilyTree}!printMainPersonHtml@{printMainPersonHtml}}
+\index{printMainPersonHtml@{printMainPersonHtml}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printMainPersonHtml()}{printMainPersonHtml()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Main\+Person\+Html (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{output\+File }\end{DoxyParamCaption})}
+
+Print main person in HTML format. 
+\begin{DoxyParams}{Parameters}
+{\em output\+File} & Output file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_acf15730446b140323fb73b4462ff056a}\label{classFamilyTree_acf15730446b140323fb73b4462ff056a} 
+\index{FamilyTree@{FamilyTree}!printPeople@{printPeople}}
+\index{printPeople@{printPeople}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printPeople()}{printPeople()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+People (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Print all the people into a stream in a semi-\/structured JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_af3c2e81b4542f29ba1cacab9a5aa6630}\label{classFamilyTree_af3c2e81b4542f29ba1cacab9a5aa6630} 
+\index{FamilyTree@{FamilyTree}!printRelations@{printRelations}}
+\index{printRelations@{printRelations}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{printRelations()}{printRelations()}}
+{\footnotesize\ttfamily void Family\+Tree\+::print\+Relations (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Print all relations. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_ac75b2d9a13f57cd562cb0adf2937edc9}\label{classFamilyTree_ac75b2d9a13f57cd562cb0adf2937edc9} 
+\index{FamilyTree@{FamilyTree}!promoteRelation@{promoteRelation}}
+\index{promoteRelation@{promoteRelation}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{promoteRelation()}{promoteRelation()}}
+{\footnotesize\ttfamily void Family\+Tree\+::promote\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Promote a relationship to be the persons main. If possible it will be applied to both persons. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the relation that is to be promoted. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_aa4a8015c5db25f9a88f70180ad01dc3b}\label{classFamilyTree_aa4a8015c5db25f9a88f70180ad01dc3b} 
+\index{FamilyTree@{FamilyTree}!readJsonEvents@{readJsonEvents}}
+\index{readJsonEvents@{readJsonEvents}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{readJsonEvents()}{readJsonEvents()}}
+{\footnotesize\ttfamily void Family\+Tree\+::read\+Json\+Events (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Read and load all events from its JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Loaded value from the source file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a8b36fdd0e95d9ced9891823de74c9cab}\label{classFamilyTree_a8b36fdd0e95d9ced9891823de74c9cab} 
+\index{FamilyTree@{FamilyTree}!readJsonFiles@{readJsonFiles}}
+\index{readJsonFiles@{readJsonFiles}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{readJsonFiles()}{readJsonFiles()}}
+{\footnotesize\ttfamily void Family\+Tree\+::read\+Json\+Files (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value,  }\item[{std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&}]{container,  }\item[{const std\+::string \&}]{label,  }\item[{size\+\_\+t \&}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Read and load meta-\/data about files from JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Loaded value from the source file. \\
+\hline
+{\em container} & Which vector to use for storing files. \\
+\hline
+{\em label} & Which label was used in the JSON file. \\
+\hline
+{\em index} & Indexing of given container. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a00fa9371fcc81fe8c39aa84c5182f7bc}\label{classFamilyTree_a00fa9371fcc81fe8c39aa84c5182f7bc} 
+\index{FamilyTree@{FamilyTree}!readJsonPeople@{readJsonPeople}}
+\index{readJsonPeople@{readJsonPeople}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{readJsonPeople()}{readJsonPeople()}}
+{\footnotesize\ttfamily void Family\+Tree\+::read\+Json\+People (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Read and load people from given JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Loaded value from the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a2708f1b9224dea6d366b69a8e1c792c7}\label{classFamilyTree_a2708f1b9224dea6d366b69a8e1c792c7} 
+\index{FamilyTree@{FamilyTree}!readJsonRelations@{readJsonRelations}}
+\index{readJsonRelations@{readJsonRelations}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{readJsonRelations()}{readJsonRelations()}}
+{\footnotesize\ttfamily void Family\+Tree\+::read\+Json\+Relations (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Read and load all relations from its JSON value. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Loaded value from the source file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a050296748a5c6e005c0fc4a20d06c754}\label{classFamilyTree_a050296748a5c6e005c0fc4a20d06c754} 
+\index{FamilyTree@{FamilyTree}!removeBackup@{removeBackup}}
+\index{removeBackup@{removeBackup}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeBackup()}{removeBackup()}}
+{\footnotesize\ttfamily void Family\+Tree\+::remove\+Backup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Remove backup file if there is any. 
+
+\Hypertarget{classFamilyTree_a11c5ce429d98ebbbf297a4d4c3eafcec}\label{classFamilyTree_a11c5ce429d98ebbbf297a4d4c3eafcec} 
+\index{FamilyTree@{FamilyTree}!removeEvent@{removeEvent}}
+\index{removeEvent@{removeEvent}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeEvent()}{removeEvent()}}
+{\footnotesize\ttfamily void Family\+Tree\+::remove\+Event (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove event from family tree. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the event. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a1f73e72a2a4dbc3ebce7f49cc8a07b33}\label{classFamilyTree_a1f73e72a2a4dbc3ebce7f49cc8a07b33} 
+\index{FamilyTree@{FamilyTree}!removeEventTemplate@{removeEventTemplate}}
+\index{removeEventTemplate@{removeEventTemplate}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeEventTemplate()}{removeEventTemplate()}}
+{\footnotesize\ttfamily void Family\+Tree\+::remove\+Event\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove event template and all events based on this template. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the template. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_acdb0d9051f41719890f17eab5605a3d2}\label{classFamilyTree_acdb0d9051f41719890f17eab5605a3d2} 
+\index{FamilyTree@{FamilyTree}!removeGeneralOrphanFile@{removeGeneralOrphanFile}}
+\index{removeGeneralOrphanFile@{removeGeneralOrphanFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeGeneralOrphanFile()}{removeGeneralOrphanFile()}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::remove\+General\+Orphan\+File (\begin{DoxyParamCaption}\item[{std\+::map$<$ size\+\_\+t, std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classFile}{File}} $>$ $>$ \&}]{container,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type,  }\item[{const std\+::string \&}]{dir }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Remove general orphan file. 
+\begin{DoxyParams}{Parameters}
+{\em container} & Which container holding files is to be used. \\
+\hline
+{\em type} & Which type will be used. \\
+\hline
+{\em dir} & Which directory in database to use. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of remove files. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a35dcc7ef1b6b2df0bf2b460319499fea}\label{classFamilyTree_a35dcc7ef1b6b2df0bf2b460319499fea} 
+\index{FamilyTree@{FamilyTree}!removeOrphanFiles@{removeOrphanFiles}}
+\index{removeOrphanFiles@{removeOrphanFiles}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeOrphanFiles()}{removeOrphanFiles()}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::remove\+Orphan\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Remove files that no one uses. \begin{DoxyReturn}{Returns}
+Number of deleted files. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_ab2becb8702d71e8cc16bdb78b037d95f}\label{classFamilyTree_ab2becb8702d71e8cc16bdb78b037d95f} 
+\index{FamilyTree@{FamilyTree}!removePerson@{removePerson}}
+\index{removePerson@{removePerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removePerson()}{removePerson()}}
+{\footnotesize\ttfamily void Family\+Tree\+::remove\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Remove main person from the tree. Also delete all of his appearances. 
+
+\Hypertarget{classFamilyTree_ab9e0e56e89ae2cdcc83341c3616c2204}\label{classFamilyTree_ab9e0e56e89ae2cdcc83341c3616c2204} 
+\index{FamilyTree@{FamilyTree}!removeRelation@{removeRelation}}
+\index{removeRelation@{removeRelation}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeRelation()}{removeRelation()}}
+{\footnotesize\ttfamily void Family\+Tree\+::remove\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove relation from the family tree. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the relation which will be removed. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_abd4bc8be38e936c7b6572b2744dc0981}\label{classFamilyTree_abd4bc8be38e936c7b6572b2744dc0981} 
+\index{FamilyTree@{FamilyTree}!removeRelationTemplate@{removeRelationTemplate}}
+\index{removeRelationTemplate@{removeRelationTemplate}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{removeRelationTemplate()}{removeRelationTemplate()}}
+{\footnotesize\ttfamily void Family\+Tree\+::remove\+Relation\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove relation template and all relations based on this template. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the template. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a130c2238a0cdf63e9db23e454129d6b6}\label{classFamilyTree_a130c2238a0cdf63e9db23e454129d6b6} 
+\index{FamilyTree@{FamilyTree}!renameFile@{renameFile}}
+\index{renameFile@{renameFile}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{renameFile()}{renameFile()}}
+{\footnotesize\ttfamily void Family\+Tree\+::rename\+File (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id,  }\item[{const std\+::string \&}]{new\+Filename,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})}
+
+Rename given file. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the file. \\
+\hline
+{\em new\+Filename} & New file name for the file. \\
+\hline
+{\em type} & What type is the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a55d16d04f5c5fa91e51c213ce11c4209}\label{classFamilyTree_a55d16d04f5c5fa91e51c213ce11c4209} 
+\index{FamilyTree@{FamilyTree}!restoreBackup@{restoreBackup}}
+\index{restoreBackup@{restoreBackup}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{restoreBackup()}{restoreBackup()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::restore\+Backup (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{backup\+File,  }\item[{std\+::string \&}]{error\+Message }\end{DoxyParamCaption})}
+
+Restore backup file from the database. Also load the project again. 
+\begin{DoxyParams}{Parameters}
+{\em backup\+File} & Which is the backup file. \\
+\hline
+{\em error\+Message} & If error occurred show it there. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the parsing of restored database was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_abc56757af532c546ac520ef623929f24}\label{classFamilyTree_abc56757af532c546ac520ef623929f24} 
+\index{FamilyTree@{FamilyTree}!setMainPerson@{setMainPerson}}
+\index{setMainPerson@{setMainPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{setMainPerson()}{setMainPerson()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Family\+Tree\+::set\+Main\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p }\end{DoxyParamCaption})}
+
+Set the main person. 
+\begin{DoxyParams}{Parameters}
+{\em p} & New main person. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a455339d067b1fa0e920f01d0cc2d9dd9}\label{classFamilyTree_a455339d067b1fa0e920f01d0cc2d9dd9} 
+\index{FamilyTree@{FamilyTree}!setMainPerson@{setMainPerson}}
+\index{setMainPerson@{setMainPerson}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{setMainPerson()}{setMainPerson()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Family\+Tree\+::set\+Main\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the main person. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the person. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_af12fe754c08d897fef890ff77c3e580b}\label{classFamilyTree_af12fe754c08d897fef890ff77c3e580b} 
+\index{FamilyTree@{FamilyTree}!setRelation@{setRelation}}
+\index{setRelation@{setRelation}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{setRelation()}{setRelation()}}
+{\footnotesize\ttfamily void Family\+Tree\+::set\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{rel\+Id,  }\item[{size\+\_\+t}]{pers1\+Id,  }\item[{size\+\_\+t}]{pers2\+Id,  }\item[{size\+\_\+t}]{templ\+Id }\end{DoxyParamCaption})}
+
+Set the data about one relation. 
+\begin{DoxyParams}{Parameters}
+{\em rel\+Id} & Id of the relation to be edited. \\
+\hline
+{\em pers1\+Id} & Id of the first person. \\
+\hline
+{\em pers2\+Id} & Id of the second person. \\
+\hline
+{\em templ\+Id} & Id of the used template. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a508ba7917affc204b44dfdd1069249aa}\label{classFamilyTree_a508ba7917affc204b44dfdd1069249aa} 
+\index{FamilyTree@{FamilyTree}!setUnsaved@{setUnsaved}}
+\index{setUnsaved@{setUnsaved}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{setUnsaved()}{setUnsaved()}}
+{\footnotesize\ttfamily void Family\+Tree\+::set\+Unsaved (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Set unsaved state. 
+
+\Hypertarget{classFamilyTree_a147fd6d04f44b8f5a60aef31ffb354e5}\label{classFamilyTree_a147fd6d04f44b8f5a60aef31ffb354e5} 
+\index{FamilyTree@{FamilyTree}!showHelpOnStartup@{showHelpOnStartup}}
+\index{showHelpOnStartup@{showHelpOnStartup}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{showHelpOnStartup()}{showHelpOnStartup()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::show\+Help\+On\+Startup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+If help dialog should be shown. \begin{DoxyReturn}{Returns}
+True if it should be shown. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a6686cdfd07601e12b7056ee9828111e7}\label{classFamilyTree_a6686cdfd07601e12b7056ee9828111e7} 
+\index{FamilyTree@{FamilyTree}!storeDatabase@{storeDatabase}}
+\index{storeDatabase@{storeDatabase}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{storeDatabase()}{storeDatabase()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::store\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Store the whole database to its files. \begin{DoxyReturn}{Returns}
+If the storing was successful. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a7f8943172c2f05e53fb2410262edb1bc}\label{classFamilyTree_a7f8943172c2f05e53fb2410262edb1bc} 
+\index{FamilyTree@{FamilyTree}!storeFileDatabase@{storeFileDatabase}}
+\index{storeFileDatabase@{storeFileDatabase}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{storeFileDatabase()}{storeFileDatabase()}}
+{\footnotesize\ttfamily void Family\+Tree\+::store\+File\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Store file database when putting file to database. Also remove all orphan files. 
+\begin{DoxyParams}{Parameters}
+{\em type} & What type of files are saved. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_ac76a1810bff0869af4c25361a1554dce}\label{classFamilyTree_ac76a1810bff0869af4c25361a1554dce} 
+\index{FamilyTree@{FamilyTree}!templatesBasedOnEventTemplate@{templatesBasedOnEventTemplate}}
+\index{templatesBasedOnEventTemplate@{templatesBasedOnEventTemplate}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{templatesBasedOnEventTemplate()}{templatesBasedOnEventTemplate()}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::templates\+Based\+On\+Event\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{template\+Id }\end{DoxyParamCaption})}
+
+Get the number of events based on this event template. 
+\begin{DoxyParams}{Parameters}
+{\em template\+Id} & Id of the event template. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of events using this event template. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_a20a591611e1703daa95f32f4703d79d5}\label{classFamilyTree_a20a591611e1703daa95f32f4703d79d5} 
+\index{FamilyTree@{FamilyTree}!templatesBasedOnRelationTemplate@{templatesBasedOnRelationTemplate}}
+\index{templatesBasedOnRelationTemplate@{templatesBasedOnRelationTemplate}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{templatesBasedOnRelationTemplate()}{templatesBasedOnRelationTemplate()}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::templates\+Based\+On\+Relation\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{template\+Id }\end{DoxyParamCaption})}
+
+Get the number of relations based on this relation template. 
+\begin{DoxyParams}{Parameters}
+{\em template\+Id} & Id of the relation template. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of relations using this relation template. 
+\end{DoxyReturn}
+\Hypertarget{classFamilyTree_aa0fc9a7a042af6d265ceaabaf2a5d5e6}\label{classFamilyTree_aa0fc9a7a042af6d265ceaabaf2a5d5e6} 
+\index{FamilyTree@{FamilyTree}!updateEventsWithTemplate@{updateEventsWithTemplate}}
+\index{updateEventsWithTemplate@{updateEventsWithTemplate}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{updateEventsWithTemplate()}{updateEventsWithTemplate()}}
+{\footnotesize\ttfamily void Family\+Tree\+::update\+Events\+With\+Template (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{templ }\end{DoxyParamCaption})}
+
+Update events based on the changed template. 
+\begin{DoxyParams}{Parameters}
+{\em templ} & Id of the changed template. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFamilyTree_a67781b136dd28b91243cd2db129eb058}\label{classFamilyTree_a67781b136dd28b91243cd2db129eb058} 
+\index{FamilyTree@{FamilyTree}!writeConfig@{writeConfig}}
+\index{writeConfig@{writeConfig}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{writeConfig()}{writeConfig()}}
+{\footnotesize\ttfamily bool Family\+Tree\+::write\+Config (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{new\+Path }\end{DoxyParamCaption})}
+
+Write to the configuration file and before add new one if it is not present. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Path} & Path to the new project. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if it was added. False if it was already present. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classFamilyTree_af54a67942b293557cea3972a9f474790}\label{classFamilyTree_af54a67942b293557cea3972a9f474790} 
+\index{FamilyTree@{FamilyTree}!allEvents\_@{allEvents\_}}
+\index{allEvents\_@{allEvents\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{allEvents\_}{allEvents\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classEvent}{Event}}$>$ $>$ Family\+Tree\+::all\+Events\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All the events in the tree. 
+
+\Hypertarget{classFamilyTree_a2ff9b02c0719c96050ea75196b1271fb}\label{classFamilyTree_a2ff9b02c0719c96050ea75196b1271fb} 
+\index{FamilyTree@{FamilyTree}!allFiles\_@{allFiles\_}}
+\index{allFiles\_@{allFiles\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{allFiles\_}{allFiles\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classFile}{File}}$>$ $>$ Family\+Tree\+::all\+Files\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All files in app. 
+
+\Hypertarget{classFamilyTree_adb64e5b7deda4a4ab031e52cb41212c3}\label{classFamilyTree_adb64e5b7deda4a4ab031e52cb41212c3} 
+\index{FamilyTree@{FamilyTree}!allMedia\_@{allMedia\_}}
+\index{allMedia\_@{allMedia\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{allMedia\_}{allMedia\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classFile}{File}}$>$ $>$ Family\+Tree\+::all\+Media\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All media in app. 
+
+\Hypertarget{classFamilyTree_a2ddde54535ea944f59c699ea049abbda}\label{classFamilyTree_a2ddde54535ea944f59c699ea049abbda} 
+\index{FamilyTree@{FamilyTree}!allNotes\_@{allNotes\_}}
+\index{allNotes\_@{allNotes\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{allNotes\_}{allNotes\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classFile}{File}}$>$ $>$ Family\+Tree\+::all\+Notes\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All notes in app. 
+
+\Hypertarget{classFamilyTree_afc736d3082b83409e5dc7a42274ac6ed}\label{classFamilyTree_afc736d3082b83409e5dc7a42274ac6ed} 
+\index{FamilyTree@{FamilyTree}!allPersons\_@{allPersons\_}}
+\index{allPersons\_@{allPersons\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{allPersons\_}{allPersons\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classPerson}{Person}}$>$ $>$ Family\+Tree\+::all\+Persons\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Map of all persons in family tree. 
+
+\Hypertarget{classFamilyTree_a79908840918f68afed0b920d2aceb5dc}\label{classFamilyTree_a79908840918f68afed0b920d2aceb5dc} 
+\index{FamilyTree@{FamilyTree}!allRelations\_@{allRelations\_}}
+\index{allRelations\_@{allRelations\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{allRelations\_}{allRelations\_}}
+{\footnotesize\ttfamily std\+::map$<$size\+\_\+t, std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classRelation}{Relation}}$>$ $>$ Family\+Tree\+::all\+Relations\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All relations in the tree. 
+
+\Hypertarget{classFamilyTree_a9e4806e377b1501cf476d1ce1385bca5}\label{classFamilyTree_a9e4806e377b1501cf476d1ce1385bca5} 
+\index{FamilyTree@{FamilyTree}!event\_index\_@{event\_index\_}}
+\index{event\_index\_@{event\_index\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{event\_index\_}{event\_index\_}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::event\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Last free index for event. Always start from 1. 
+
+\Hypertarget{classFamilyTree_a1b5e7ad2f51932cbbeeacc9eb91e33d3}\label{classFamilyTree_a1b5e7ad2f51932cbbeeacc9eb91e33d3} 
+\index{FamilyTree@{FamilyTree}!file\_index\_@{file\_index\_}}
+\index{file\_index\_@{file\_index\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{file\_index\_}{file\_index\_}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::file\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Last free id for file. Always start from 1. 
+
+\Hypertarget{classFamilyTree_a6cc33e934001db229e4424982278211d}\label{classFamilyTree_a6cc33e934001db229e4424982278211d} 
+\index{FamilyTree@{FamilyTree}!mainPerson\_@{mainPerson\_}}
+\index{mainPerson\_@{mainPerson\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{mainPerson\_}{mainPerson\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}}\texorpdfstring{$\ast$}{*} Family\+Tree\+::main\+Person\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Main person showing as the centre of the tree. 
+
+\Hypertarget{classFamilyTree_ae0fd1c0cc7b33dab45bb6ac410333d3a}\label{classFamilyTree_ae0fd1c0cc7b33dab45bb6ac410333d3a} 
+\index{FamilyTree@{FamilyTree}!media\_index\_@{media\_index\_}}
+\index{media\_index\_@{media\_index\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{media\_index\_}{media\_index\_}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::media\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Last free id for media. Always start from 1. 
+
+\Hypertarget{classFamilyTree_aae75755de328defb9f66363b8fd80b4f}\label{classFamilyTree_aae75755de328defb9f66363b8fd80b4f} 
+\index{FamilyTree@{FamilyTree}!note\_index\_@{note\_index\_}}
+\index{note\_index\_@{note\_index\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{note\_index\_}{note\_index\_}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::note\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Last free id for note. Always start from 1. 
+
+\Hypertarget{classFamilyTree_ae6b8e0f71865dad59737380358d7472c}\label{classFamilyTree_ae6b8e0f71865dad59737380358d7472c} 
+\index{FamilyTree@{FamilyTree}!openHelp@{openHelp}}
+\index{openHelp@{openHelp}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{openHelp}{openHelp}}
+{\footnotesize\ttfamily bool Family\+Tree\+::open\+Help\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If help window should be shown. 
+
+\Hypertarget{classFamilyTree_af37ab96d10ba7ed42db5afe2bbb6099e}\label{classFamilyTree_af37ab96d10ba7ed42db5afe2bbb6099e} 
+\index{FamilyTree@{FamilyTree}!parser\_@{parser\_}}
+\index{parser\_@{parser\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{parser\_}{parser\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classParser}{Parser}} Family\+Tree\+::parser\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classParser}{Parser} for working with locally stored database. 
+
+\Hypertarget{classFamilyTree_aebfedf7b6ef207a81c9e827f8161986e}\label{classFamilyTree_aebfedf7b6ef207a81c9e827f8161986e} 
+\index{FamilyTree@{FamilyTree}!person\_index\_@{person\_index\_}}
+\index{person\_index\_@{person\_index\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{person\_index\_}{person\_index\_}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::person\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Last free id for person. Always start from 1. 
+
+\Hypertarget{classFamilyTree_a95795f20f8b3b20b3ac0a1338e569130}\label{classFamilyTree_a95795f20f8b3b20b3ac0a1338e569130} 
+\index{FamilyTree@{FamilyTree}!projectPaths@{projectPaths}}
+\index{projectPaths@{projectPaths}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{projectPaths}{projectPaths}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Family\+Tree\+::project\+Paths\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Paths to existing projects. 
+
+\Hypertarget{classFamilyTree_a2083e97bf1519682b0c234432cc9a499}\label{classFamilyTree_a2083e97bf1519682b0c234432cc9a499} 
+\index{FamilyTree@{FamilyTree}!relation\_index\_@{relation\_index\_}}
+\index{relation\_index\_@{relation\_index\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{relation\_index\_}{relation\_index\_}}
+{\footnotesize\ttfamily size\+\_\+t Family\+Tree\+::relation\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Last free index for relation. 
+
+\Hypertarget{classFamilyTree_a3046b9fbaae5c70acde9757db9544675}\label{classFamilyTree_a3046b9fbaae5c70acde9757db9544675} 
+\index{FamilyTree@{FamilyTree}!savedChanges\_@{savedChanges\_}}
+\index{savedChanges\_@{savedChanges\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{savedChanges\_}{savedChanges\_}}
+{\footnotesize\ttfamily bool Family\+Tree\+::saved\+Changes\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If all changes were saved or not. 
+
+\Hypertarget{classFamilyTree_afc0da6485bbf91242cf9b0a7ea2ced55}\label{classFamilyTree_afc0da6485bbf91242cf9b0a7ea2ced55} 
+\index{FamilyTree@{FamilyTree}!settings\_@{settings\_}}
+\index{settings\_@{settings\_}!FamilyTree@{FamilyTree}}
+\doxysubsubsection{\texorpdfstring{settings\_}{settings\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSettings}{Settings}} Family\+Tree\+::settings\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classSettings}{Settings} of the app. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{family__tree_8h}{family\+\_\+tree.\+h}}\item 
+core/\mbox{\hyperlink{family__tree_8cpp}{family\+\_\+tree.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,329 @@
+\doxysection{dialogs.\+h}
+\hypertarget{dialogs_8h_source}{}\label{dialogs_8h_source}\index{graphics/dialogs.h@{graphics/dialogs.h}}
+\mbox{\hyperlink{dialogs_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ dialogs\_h\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ dialogs\_h\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{comment}{//\ Header\ files\ created\ from\ .ui\ files.}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}ui\_date\_dialog.h"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}ui\_tag\_chooser.h"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}ui\_add\_file.h"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}ui\_relation\_templates.h"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}ui\_event\_templates.h"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}ui\_event\_dialog.h"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}ui\_relation\_dialog.h"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}ui\_help\_dialog.h"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}ui\_choose\_person.h"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}ui\_visual\_settings.h"{}}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}ui\_export\_templates.h"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}ui\_export\_project.h"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}ui\_html\_export.h"{}}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ "{}ui\_picture\_export.h"{}}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#include\ "{}ui\_suggestions.h"{}}}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{graphics__items_8h}{graphics\_items.h}}"{}}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#include\ <QtCore>}}
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#include\ <QtWidgets>}}
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#include\ <typeinfo>}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#include\ "{}../core/family\_tree.h"{}}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#include\ "{}../core/strings.h"{}}}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{mainwindow_8h}{mainwindow.h}}"{}}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00034\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceUi}{Ui}}\ \{}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classDateDialog}{DateDialog}};}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classTagChooserDialog}{TagChooserDialog}};}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAddFileDialog}{AddFileDialog}};}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelationTemplateDialog}{RelationTemplateDialog}};}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEventTamplatesDialog}{EventTamplatesDialog}};}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEventDialog}{EventDialog}};}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelationDialog}{RelationDialog}};}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classHelpDialog}{HelpDialog}};}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classChoosePersonDialog}{ChoosePersonDialog}};}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classVisualSettings}{VisualSettings}};}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classExportTemplatesDialog}{ExportTemplatesDialog}};}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classExportProjectDialog}{ExportProjectDialog}};}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classPictureExport}{PictureExport}};}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classHtmlExport}{HtmlExport}};}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSuggestionsDialog}{SuggestionsDialog}};}
+\DoxyCodeLine{00065\ \}}
+\DoxyCodeLine{00066\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00069\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classDateDialog}{DateDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\ \{}
+\DoxyCodeLine{00070\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classDateDialog}{DateDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}*\ date\ =\ \textcolor{keyword}{nullptr},\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classDateDialog_a6bbfd15f0d78cca37735ab557835b865}{\string~DateDialog}}();}
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDateDialog_a5f8d28e818d978dff61ac43626e969a4}{saveDate}}();}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDateDialog_a984b2031dfcc8cae0326ef9d1f1e8454}{unknownDate}}(\textcolor{keywordtype}{bool}\ isUnknown);}
+\DoxyCodeLine{00085\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}*\ \mbox{\hyperlink{classDateDialog_af396e1e8944cb62436724670cc74585e}{date\_}};}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classDateDialog_aa1e73b85544a8bea4348bbe5a9504578}{FT\_}};}
+\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ Ui::DateDialog\ *\mbox{\hyperlink{classDateDialog_ac7619a24132416658fd09341a4fbffb0}{ui}};}
+\DoxyCodeLine{00092\ \};}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00095\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classTagChooserDialog}{TagChooserDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00096\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00097\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classTagChooserDialog}{TagChooserDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \textcolor{keyword}{const}\ QString\&\ tag,\ \textcolor{keyword}{const}\ QString\&\ value,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classTagChooserDialog_a3e7fc73111f6c43a1c98f09c2e5d03a2}{\string~TagChooserDialog}}();}
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classTagChooserDialog_a0392fcb44e6acd7b276cf14133c5b5e9}{changeVisibleWidgets}}(\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classTagChooserDialog_a961405d60a6678f794238805e29d5a5e}{saveTag}}();}
+\DoxyCodeLine{00112\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classTagChooserDialog_a70e88a6528f3c2a7f2d40fe08ca4fbfd}{FT\_}};}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classTagChooserDialog_a03168dd5f656027d3a546f7eddab3bc1}{newOne\_}};}
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ Ui::TagChooserDialog\ *\mbox{\hyperlink{classTagChooserDialog_a36eee04ff3a1597d9559b611d20681b8}{ui}};}
+\DoxyCodeLine{00119\ \};}
+\DoxyCodeLine{00120\ }
+\DoxyCodeLine{00122\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAddFileDialog}{AddFileDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00123\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00124\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00131\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classAddFileDialog}{AddFileDialog}}(\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ type,\ \textcolor{keyword}{const}\ std::vector<std::string>\&\ extensions,\ \mbox{\hyperlink{classVirtualDrive}{VirtualDrive}}*\ parentDrive,\ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent);}
+\DoxyCodeLine{00133\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classAddFileDialog_a421a36df7df6c229db92dd7121f81ec1}{\string~AddFileDialog}}();}
+\DoxyCodeLine{00134\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00136\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classAddFileDialog_ac95ee981cb787b10f79cced55add07da}{copyFile}}();}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classAddFileDialog_aaa234176d77f5f2807b26c62b4aee112}{createOrChooseFile}}();}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classAddFileDialog_ab422f08bc2bf7732f4be73968a2465c6}{openFile}}(QTreeWidgetItem*\ item);}
+\DoxyCodeLine{00142\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00144\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classAddFileDialog_a6a4775d5211fb2e68f9611550d848f59}{FT\_}};}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classAddFileDialog_a08700fccc3934500cbf7dcb534748aeb}{getId}}(QTreeWidgetItem*\ item);}
+\DoxyCodeLine{00150\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classVirtualDrive}{VirtualDrive}}*\ \mbox{\hyperlink{classAddFileDialog_a887e223fac82281f0a973e196fe3e387}{drive\_}};}
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{FileType}}\ \mbox{\hyperlink{classAddFileDialog_a7689eaeb4ff73f7c9fea459dd8513f3b}{type\_}};}
+\DoxyCodeLine{00154\ \ \ \ \ \ \ \ \ Ui::AddFileDialog*\ \mbox{\hyperlink{classAddFileDialog_a71982fae63fa2613b775d0d7514aaee8}{ui}};}
+\DoxyCodeLine{00155\ \};}
+\DoxyCodeLine{00156\ }
+\DoxyCodeLine{00158\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelationTemplateDialog}{RelationTemplateDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00159\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00160\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00164\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classRelationTemplateDialog}{RelationTemplateDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelationTemplateDialog_a10249b1c5ba744f197a034acf408eb07}{\string~RelationTemplateDialog}}();}
+\DoxyCodeLine{00167\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00169\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_ad27f9126f8e13d2a4e66de191ddf1b1a}{addDefaults}}();}
+\DoxyCodeLine{00171\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_a4a5776b21a3767fe453686c86bfc2ed5}{addNewTemplate}}();}
+\DoxyCodeLine{00173\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_aebe7ba7d18177d6bfcfae7595c95f025}{removeTemplate}}();}
+\DoxyCodeLine{00175\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_a01556c6d744faf88bbd819e3660ab15a}{saveTemplate}}();}
+\DoxyCodeLine{00178\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_ae936c6862943dac95fc338317c72f315}{showTemplate}}(QTreeWidgetItem*\ item);}
+\DoxyCodeLine{00179\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00181\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRelationTemplateDialog_a1cd0d7cb5e62d589b0f4c322d4ece2c0}{addingNew\_}};}
+\DoxyCodeLine{00183\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_a1f9b4a24d547e10a83a53fb7fe0538ed}{clear}}();}
+\DoxyCodeLine{00185\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classRelationTemplateDialog_ab8c3fe0971145bb64152e8aca5768614}{FT\_}};}
+\DoxyCodeLine{00187\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_aa70ed4b4a97302870fb043d6933ca328}{refreshListWidget}}();}
+\DoxyCodeLine{00190\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_a11a6cbfabb76fa12b611689cadbf6c03}{setEnabledWidgets}}(\textcolor{keywordtype}{bool}\ enabled);}
+\DoxyCodeLine{00193\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplateDialog_a01556c6d744faf88bbd819e3660ab15a}{saveTemplate}}(\mbox{\hyperlink{classRelationTemplate}{RelationTemplate}}*\ rel);}
+\DoxyCodeLine{00195\ \ \ \ \ \ \ \ \ Ui::RelationTemplateDialog*\ \mbox{\hyperlink{classRelationTemplateDialog_a4159415c07a46a87c01a9a2a10698882}{ui}};}
+\DoxyCodeLine{00196\ \};}
+\DoxyCodeLine{00197\ }
+\DoxyCodeLine{00199\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEventTamplatesDialog}{EventTamplatesDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00200\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00201\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00205\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classEventTamplatesDialog}{EventTamplatesDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00207\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classEventTamplatesDialog_a0337dc717878702cef4b9f2b790585be}{\string~EventTamplatesDialog}}();}
+\DoxyCodeLine{00208\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00210\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_ad3c3be9ec03b469c3d0a0ff804c3d73a}{addDefaults}}();}
+\DoxyCodeLine{00212\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_ae00b782cc0c0d2b6d36a95e5d86342d1}{addNewRole}}();}
+\DoxyCodeLine{00214\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_a3b2e1e568a048b327307fb26e107c2c2}{addNewTemplate}}();}
+\DoxyCodeLine{00216\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_a163be9f3eb521cd74f80580471daf75e}{removeRole}}();}
+\DoxyCodeLine{00218\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_a62039e0a23c69706234d6007c15c55df}{removeTemplate}}();}
+\DoxyCodeLine{00220\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_a26f524c7c6dae0eee98a845144b69c83}{saveTemplate}}();}
+\DoxyCodeLine{00223\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_acc9e9328fb3d3480efa0d9334fa22e1d}{showTemplate}}(QTreeWidgetItem*\ item);}
+\DoxyCodeLine{00224\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00226\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTamplatesDialog_a94fd76784986c333a80b2eaf8043682e}{addingNew\_}};}
+\DoxyCodeLine{00228\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_abcfee0c265dfcb9681e70dfd2b41dc35}{clear}}();}
+\DoxyCodeLine{00230\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classEventTamplatesDialog_a42f3656da96b6b5014ca788cc0488754}{FT\_}};}
+\DoxyCodeLine{00232\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_ad4a09411435d814ffcf96a594d8f2499}{refreshListWidget}}();}
+\DoxyCodeLine{00235\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_a26f524c7c6dae0eee98a845144b69c83}{saveTemplate}}(\mbox{\hyperlink{classEventTemplate}{EventTemplate}}*\ event);}
+\DoxyCodeLine{00238\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTamplatesDialog_a5f6bce8f0c7a5a588f0dba157be0e7f3}{setEnabledWidgets}}(\textcolor{keywordtype}{bool}\ enabled);}
+\DoxyCodeLine{00240\ \ \ \ \ \ \ \ \ Ui::EventTamplatesDialog*\ \mbox{\hyperlink{classEventTamplatesDialog_a6fe1618236a8d6ab3063657ce6327074}{ui}};}
+\DoxyCodeLine{00241\ \};}
+\DoxyCodeLine{00242\ }
+\DoxyCodeLine{00244\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classChoosePersonDialog}{ChoosePersonDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00245\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00246\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00251\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classChoosePersonDialog}{ChoosePersonDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{namespaceperson}{person}},\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00253\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classChoosePersonDialog_a624928ca66a22a06f990b516bd96902f}{\string~ChoosePersonDialog}}();}
+\DoxyCodeLine{00254\ \ \ \ \ signals:}
+\DoxyCodeLine{00256\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classChoosePersonDialog_a8ced413c3fc4d2d7ffa73bac4d9ad0ec}{savePerson}}(\mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{namespaceperson}{person}});}
+\DoxyCodeLine{00257\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00259\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classChoosePersonDialog_a7406c4800154643cea64de89d4dec353}{clearFilter}}();}
+\DoxyCodeLine{00261\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classChoosePersonDialog_aa6a213c4756e929d29163b6b38e376bf}{filterPersons}}();}
+\DoxyCodeLine{00263\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classChoosePersonDialog_a180125a12bc41cf6ad377fac088f6ef7}{saveSelectedPerson}}();}
+\DoxyCodeLine{00264\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00266\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classChoosePersonDialog_af762661a056334db6b6192f79c1295c8}{FT\_}};}
+\DoxyCodeLine{00268\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classChoosePersonDialog_ad5f1842dafb2c3b7042102c9a4741421}{person\_}};}
+\DoxyCodeLine{00270\ \ \ \ \ \ \ \ \ Ui::ChoosePersonDialog*\ \mbox{\hyperlink{classChoosePersonDialog_ae1418b82bbc8dda81526f63f8017cd51}{ui}};}
+\DoxyCodeLine{00271\ \};}
+\DoxyCodeLine{00272\ }
+\DoxyCodeLine{00274\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelationDialog}{RelationDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00275\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00276\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00281\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classRelationDialog}{RelationDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr},\ \mbox{\hyperlink{classRelation}{Relation}}*\ rel\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00283\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelationDialog_aa398768cefc63111ce28d5a9869b6fdb}{\string~RelationDialog}}();}
+\DoxyCodeLine{00284\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00286\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationDialog_a3c155991312d7e799351aec1791a360e}{chooseFirstPerson}}();}
+\DoxyCodeLine{00288\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationDialog_a9b6f5aa0c8cc2ad9fade7fc16c3d4a72}{chooseSecondPerson}}();}
+\DoxyCodeLine{00290\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationDialog_aa1fadfe87877bf278aaa5231ace39eac}{savePerson}}(\mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{namespaceperson}{person}});}
+\DoxyCodeLine{00292\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationDialog_ad3ed2ab1ef8093e7f695e56dc0b176f7}{saveRelation}}();}
+\DoxyCodeLine{00294\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationDialog_a2ddd7d0bdfea7ce052f47381b3ce4efe}{showTemplateDetails}}();}
+\DoxyCodeLine{00296\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationDialog_a01ec91dc55c78d457be8de0db1390325}{switchPersons}}();}
+\DoxyCodeLine{00297\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00299\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classRelationDialog_a94ac2f3621dd875694033e1154564b25}{FT\_}};}
+\DoxyCodeLine{00301\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classRelationDialog_a68eaae9e8ca8080e71cce7f3d6f08eb3}{person1\_}};}
+\DoxyCodeLine{00303\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classRelationDialog_a0064804aeb548f4334dfc7d812ffd939}{person2\_}};}
+\DoxyCodeLine{00305\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelation}{Relation}}*\ \mbox{\hyperlink{classRelationDialog_ae93bca0fab122aafa77e8fb49f61f261}{rel\_}};}
+\DoxyCodeLine{00307\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRelationDialog_a29b28baaede9cbfde972c87bf071c9e8}{saveFirstPerson\_}};}
+\DoxyCodeLine{00309\ \ \ \ \ \ \ \ \ Ui::RelationDialog*\ \mbox{\hyperlink{classRelationDialog_ae1aafab2358a7739ef98e723aaef7b51}{ui}};}
+\DoxyCodeLine{00310\ \};}
+\DoxyCodeLine{00311\ }
+\DoxyCodeLine{00313\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEventDialog}{EventDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00314\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00315\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00320\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classEventDialog}{EventDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr},\ \mbox{\hyperlink{classEvent}{Event}}*\ event\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00322\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classEventDialog_aa61019bdaa374db5b554ed51009dc930}{\string~EventDialog}}();}
+\DoxyCodeLine{00323\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00325\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_ad53f62489555003c57ca8b4686876f81}{addEmptyRole}}();}
+\DoxyCodeLine{00327\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_aa58b17ec2cbfe9e68da4b2348777d505}{choosePerson}}();}
+\DoxyCodeLine{00329\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_a41d546d39ae0ba175d947e3ec768acab}{openCustomDate}}();}
+\DoxyCodeLine{00331\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_ac9b85c42d0b8f79e836683f376d1e23a}{refreshDates}}();}
+\DoxyCodeLine{00334\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_a3e574cc7d7843b6229e4501005409ff1}{refreshPersons}}(QTreeWidgetItem*\ item);}
+\DoxyCodeLine{00336\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_acf7ea2ea3a23b21b0d7ad7d2d1a266fc}{removeEmptyRole}}();}
+\DoxyCodeLine{00338\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_a739a48a67f98d5a6476e63677f4abc23}{removePerson}}();}
+\DoxyCodeLine{00340\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_a755ee82d8133760cb928b48ad1a7f165}{saveEvent}}();}
+\DoxyCodeLine{00343\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_a86c113e621104c46123d411ca5e5f1e7}{savePerson}}(\mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{namespaceperson}{person}});}
+\DoxyCodeLine{00345\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_a8ba45adf3a5198ce71baf8ea8f1f87ce}{showTemplate}}();}
+\DoxyCodeLine{00346\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00348\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}\ \mbox{\hyperlink{classEventDialog_a82aebab3c04252d110bfea748ba6cd64}{date\_}};}
+\DoxyCodeLine{00350\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classEvent}{Event}}*\ \mbox{\hyperlink{classEventDialog_ad800987f370385d52dd1e2953c3d1f4d}{event\_}};}
+\DoxyCodeLine{00352\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classEventDialog_ae4377e9150a239f8d46db1428ba9f987}{FT\_}};}
+\DoxyCodeLine{00354\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPerson}{Person}}*\ \mbox{\hyperlink{classEventDialog_a2ccd7f774a86504e91525d5a3d4d8680}{main\_}};}
+\DoxyCodeLine{00356\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventDialog_ab3892a9ba29ea63e9dc89c3f42aad90d}{showEventDetails}}();}
+\DoxyCodeLine{00358\ \ \ \ \ \ \ \ \ Ui::EventDialog*\ \ \mbox{\hyperlink{classEventDialog_a484a0c234581e48c5a70fc8356e9308a}{ui}};}
+\DoxyCodeLine{00359\ }
+\DoxyCodeLine{00360\ \};}
+\DoxyCodeLine{00361\ }
+\DoxyCodeLine{00363\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classHelpDialog}{HelpDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00364\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00365\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00369\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classHelpDialog}{HelpDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00371\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classHelpDialog_ac5a870136e6629b27f4dc99878359ab5}{\string~HelpDialog}}();}
+\DoxyCodeLine{00372\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00375\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHelpDialog_a8145c331b5c62329c5fdc20ca74cb668}{openHelp}}(\textcolor{keywordtype}{bool}\ help);}
+\DoxyCodeLine{00376\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00378\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classHelpDialog_a647da1ff446a568a51532880f2949320}{FT\_}};}
+\DoxyCodeLine{00380\ \ \ \ \ \ \ \ \ Ui::HelpDialog*\ \mbox{\hyperlink{classHelpDialog_a8e2e899987d80fa3aa9ad7f0076cacb8}{ui}};}
+\DoxyCodeLine{00381\ \};}
+\DoxyCodeLine{00382\ }
+\DoxyCodeLine{00384\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classVisualSettings}{VisualSettings}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00385\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00386\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00399\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classVisualSettings}{VisualSettings}}(QColor\ \mbox{\hyperlink{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}{probandColor}},\ QColor\ \mbox{\hyperlink{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}{promotedColor}},\ QColor\ \mbox{\hyperlink{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}{standardColor}},\ QColor\ highlighted,\ \textcolor{keywordtype}{int}\ sizeX,\ \textcolor{keywordtype}{int}\ sizeY,\ QFont\ font,}
+\DoxyCodeLine{00400\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QPen*\ pen,\ QPen*\ textPen,\ \textcolor{keywordtype}{int}\ borderRadius,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00402\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classVisualSettings_a47afe02b213c1b932be9e8c9b62013c8}{\string~VisualSettings}}();}
+\DoxyCodeLine{00403\ \ \ \ \ signals:}
+\DoxyCodeLine{00416\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_a0ecd4a4c27652adfb2cfb43d71502caa}{saveSettings}}(QColor\ \mbox{\hyperlink{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}{probandColor}},\ QColor\ \mbox{\hyperlink{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}{promotedColor}},\ QColor\ \mbox{\hyperlink{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}{standardColor}},\ QColor\ \mbox{\hyperlink{classVisualSettings_ab30c813c8f5c9c1524b820dfb975a978}{highlightedColor}},\ \textcolor{keywordtype}{int}\ sizeX,\ \textcolor{keywordtype}{int}\ sizeY,\ QFont\ font,}
+\DoxyCodeLine{00417\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classVisualSettings_ae429cfcd7e23315d26186923612cdd98}{lineColor}},\ QColor\ \mbox{\hyperlink{classVisualSettings_aa4275894383ed1824d78ed5f6927c9c9}{textColor}},\ \textcolor{keywordtype}{int}\ lineWidth,\ \textcolor{keywordtype}{int}\ rounding);}
+\DoxyCodeLine{00418\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00420\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_ab30c813c8f5c9c1524b820dfb975a978}{highlightedColor}}();}
+\DoxyCodeLine{00422\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_ae429cfcd7e23315d26186923612cdd98}{lineColor}}();}
+\DoxyCodeLine{00424\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_a4100a96e3219afb478d411941580f6d0}{refresh}}();}
+\DoxyCodeLine{00426\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_a1fecff52435830d322da7e98be1ee2e2}{probandColor}}();}
+\DoxyCodeLine{00428\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_ac8dcc8a7f027e41e63d5bccf1a188197}{promotedColor}}();}
+\DoxyCodeLine{00430\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_a82b98fc063a438a3069a90aef1925649}{saveAndExit}}();}
+\DoxyCodeLine{00432\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_a444d447ffaded4c3b50e79d805de4611}{standardColor}}();}
+\DoxyCodeLine{00434\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classVisualSettings_aa4275894383ed1824d78ed5f6927c9c9}{textColor}}();}
+\DoxyCodeLine{00435\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00437\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classVisualSettings_a9fbea9182174c61d70bc4dd0848e58db}{borderRadius\_}};}
+\DoxyCodeLine{00439\ \ \ \ \ \ \ \ \ QFont\ \mbox{\hyperlink{classVisualSettings_ad940cd67454a8a60101540449c31af53}{font\_}};}
+\DoxyCodeLine{00441\ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classVisualSettings_ae4b27bffffc795b26fbd63fa4fa38893}{highlightedColor\_}};}
+\DoxyCodeLine{00443\ \ \ \ \ \ \ \ \ QPen\ \mbox{\hyperlink{classVisualSettings_aeba07f4ec7cb237b3eca4a526d008411}{pen\_}};}
+\DoxyCodeLine{00445\ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classVisualSettings_af2bcb7f818c643b8be2df818cf4e3903}{probandColor\_}};}
+\DoxyCodeLine{00447\ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classVisualSettings_adc3548bab6287205a4fa37cba27acd50}{promotedColor\_}};}
+\DoxyCodeLine{00449\ \ \ \ \ \ \ \ \ QGraphicsScene*\ \mbox{\hyperlink{classVisualSettings_afa17b593ff48412d8cf944288ea3f08f}{scene}};}
+\DoxyCodeLine{00451\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classVisualSettings_a35d36965c9546abc985da5f5c880ba83}{sizeX\_}};}
+\DoxyCodeLine{00453\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classVisualSettings_a7eb0c60e67938733673f28d3e469c566}{sizeY\_}};}
+\DoxyCodeLine{00455\ \ \ \ \ \ \ \ \ QColor\ \mbox{\hyperlink{classVisualSettings_a14e2a15ca337fb61b28ce4ccac6bbd43}{standardColor\_}};}
+\DoxyCodeLine{00457\ \ \ \ \ \ \ \ \ QPen\ \mbox{\hyperlink{classVisualSettings_a7f663d6cf22148040ee6caec49889552}{textPen\_}};}
+\DoxyCodeLine{00459\ \ \ \ \ \ \ \ \ Ui::VisualSettings*\ \mbox{\hyperlink{classVisualSettings_ada208254b381492e0328a256408a8bf0}{ui}};}
+\DoxyCodeLine{00460\ \};}
+\DoxyCodeLine{00461\ }
+\DoxyCodeLine{00463\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classExportTemplatesDialog}{ExportTemplatesDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00464\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00465\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00469\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classExportTemplatesDialog}{ExportTemplatesDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00471\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classExportTemplatesDialog_a8b2605fbf2eeca6d48cba2d4a5b51087}{\string~ExportTemplatesDialog}}();}
+\DoxyCodeLine{00472\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00474\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classExportTemplatesDialog_a578d51945b8a2ed6959aa263243f537e}{exportTemplates}}();}
+\DoxyCodeLine{00475\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00477\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classExportTemplatesDialog_a1a704c0cd6150da87b4e84614eaeacbf}{FT\_}};}
+\DoxyCodeLine{00479\ \ \ \ \ \ \ \ \ Ui::ExportTemplatesDialog*\ \mbox{\hyperlink{classExportTemplatesDialog_a4a5189a8bb97f8bf661f949fcd917d29}{ui}};}
+\DoxyCodeLine{00480\ \};}
+\DoxyCodeLine{00481\ }
+\DoxyCodeLine{00483\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classExportProjectDialog}{ExportProjectDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00484\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00485\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00489\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classExportProjectDialog}{ExportProjectDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00491\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classExportProjectDialog_ae3d2c46163df775dceb1503dfbd9b7d1}{\string~ExportProjectDialog}}();}
+\DoxyCodeLine{00492\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00494\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classExportProjectDialog_a15b4ddc7cbd001ad0af0b4650cab3fd0}{checkPerson}}();}
+\DoxyCodeLine{00496\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classExportProjectDialog_a7f256499ddc47b6bee9c1da1fe7f480a}{exportProject}}();}
+\DoxyCodeLine{00497\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00499\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classExportProjectDialog_a0dfb6b1e7f0c6c8246c31422c6e445cf}{FT\_}};}
+\DoxyCodeLine{00501\ \ \ \ \ \ \ \ \ Ui::ExportProjectDialog*\ \mbox{\hyperlink{classExportProjectDialog_a8d722a66a2f399acc7e8329daad53873}{ui}};}
+\DoxyCodeLine{00502\ \};}
+\DoxyCodeLine{00503\ }
+\DoxyCodeLine{00505\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classPictureExport}{PictureExport}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00506\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00507\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00511\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classPictureExport}{PictureExport}}(\textcolor{keywordtype}{bool}\ closeDiagram,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00513\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classPictureExport_ab06abf4951e0858c96ac3266c75c0d71}{\string~PictureExport}}();}
+\DoxyCodeLine{00514\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00516\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classPictureExport_afe5baaed60cfc7c32d085952ae59667c}{exportDiagram}}();}
+\DoxyCodeLine{00517\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00519\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classPictureExport_a72c56a7db2dd3a88035c8f2ab59d3b3e}{closeDiagram\_}};}
+\DoxyCodeLine{00521\ \ \ \ \ \ \ \ \ Ui::PictureExport*\ \mbox{\hyperlink{classPictureExport_a6879b30a5ef08cd0bbc7d906a54cee17}{ui}};}
+\DoxyCodeLine{00522\ }
+\DoxyCodeLine{00523\ \};}
+\DoxyCodeLine{00524\ }
+\DoxyCodeLine{00526\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classHtmlExport}{HtmlExport}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00527\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00528\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00535\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classHtmlExport}{HtmlExport}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ \textcolor{keywordtype}{bool}\ all,\ \textcolor{keywordtype}{int}\ up,\ \textcolor{keywordtype}{int}\ down,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00537\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classHtmlExport_a47879d9cafe53df09cb35f119f755c4a}{\string~HtmlExport}}();}
+\DoxyCodeLine{00538\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00541\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHtmlExport_a8f4eb13388897a86fae9e7aa3be81e60}{allAboveGenerations}}(\textcolor{keywordtype}{bool}\ all);}
+\DoxyCodeLine{00544\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHtmlExport_aa5b1e2d677d343c6312101ff221ea506}{allBelowGenerations}}(\textcolor{keywordtype}{bool}\ all);}
+\DoxyCodeLine{00546\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHtmlExport_a60fe1e328e085b0011f1cf7edc23aea3}{exportAllHtml}}();}
+\DoxyCodeLine{00548\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHtmlExport_acccdf161acfd8b8f65384ad7e70d0965}{exportMainHtml}}();}
+\DoxyCodeLine{00549\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00551\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classHtmlExport_a2f2287c1df30e4ee0110a5d96ee405e9}{FT\_}};}
+\DoxyCodeLine{00553\ \ \ \ \ \ \ \ \ Ui::HtmlExport*\ \mbox{\hyperlink{classHtmlExport_aa9f5f784ddec194b575dc02abd0940ce}{ui}};}
+\DoxyCodeLine{00554\ \};}
+\DoxyCodeLine{00555\ }
+\DoxyCodeLine{00557\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSuggestionsDialog}{SuggestionsDialog}}\ :\ \textcolor{keyword}{public}\ QDialog\{}
+\DoxyCodeLine{00558\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00559\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00564\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSuggestionsDialog}{SuggestionsDialog}}(\mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ FT,\ std::vector<RelationSuggestion>\ suggestions,\ QWidget*\ parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00566\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSuggestionsDialog_a948f960e6d0452e5ef51ab6ff14aeeac}{\string~SuggestionsDialog}}();}
+\DoxyCodeLine{00567\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00569\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSuggestionsDialog_aa032d9e0387de1d1dee3ed9d8ea80095}{removeSuggestion}}();}
+\DoxyCodeLine{00571\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSuggestionsDialog_a8b97e37338a363e7af341b90692eafd2}{save}}();}
+\DoxyCodeLine{00574\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSuggestionsDialog_a078d71ff181ad8155d5a5e153bed7061}{selectedSuggestion}}(QTreeWidgetItem*\ item);}
+\DoxyCodeLine{00576\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSuggestionsDialog_a025b87a3ea3a65410c5145b437162a54}{swapPersons}}();}
+\DoxyCodeLine{00578\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSuggestionsDialog_a82a438b0144a15debb1dd5321349fe5a}{switchedTemplate}}();}
+\DoxyCodeLine{00579\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00581\ \ \ \ \ \ \ \ \ std::vector<RelationTemplate*>\ \mbox{\hyperlink{classSuggestionsDialog_a47ed9840b6d0eae545c0a92365eb62c9}{fatherhoods}};}
+\DoxyCodeLine{00583\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFamilyTree}{FamilyTree}}*\ \mbox{\hyperlink{classSuggestionsDialog_a587a7fab915ae0b28a0d48dab7c65950}{FT\_}};}
+\DoxyCodeLine{00585\ \ \ \ \ \ \ \ \ std::vector<RelationTemplate*>\ \mbox{\hyperlink{classSuggestionsDialog_aae6d86ff601da7c10234df5e15a2ccae}{motherhoods}};}
+\DoxyCodeLine{00587\ \ \ \ \ \ \ \ \ std::vector<RelationTemplate*>\ \mbox{\hyperlink{classSuggestionsDialog_a04712286dc4d44ccb333ba336d9fcd56}{partnerships}};}
+\DoxyCodeLine{00589\ \ \ \ \ \ \ \ \ std::vector<RelationTemplate*>\ \mbox{\hyperlink{classSuggestionsDialog_a40b01a864d1b67719725fb16c41df93a}{siblings}};}
+\DoxyCodeLine{00591\ \ \ \ \ \ \ \ \ Ui::SuggestionsDialog*\ \mbox{\hyperlink{classSuggestionsDialog_ae1559cdbcf69a8edc54111c0d8dcaad3}{ui}};}
+\DoxyCodeLine{00592\ \};}
+\DoxyCodeLine{00593\ }
+\DoxyCodeLine{00594\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

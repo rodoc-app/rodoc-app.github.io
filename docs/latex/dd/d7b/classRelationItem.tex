@@ -1,0 +1,105 @@
+\doxysection{Relation\+Item Class Reference}
+\hypertarget{classRelationItem}{}\label{classRelationItem}\index{RelationItem@{RelationItem}}
+
+
+Class for showing relation suggestion and holding the data.  
+
+
+
+
+{\ttfamily \#include $<$graphics\+\_\+items.\+h$>$}
+
+Inheritance diagram for Relation\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dd/d7b/classRelationItem}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRelationItem_a6db72c3ca527f3a96d14e8c80116fae5}{Relation\+Item}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, const \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} \&suggestion, \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*}templ)
+\item 
+\mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationItem_ac360fb550e5bb7af2662d0e13f74759e}{get\+Relation}} ()
+\item 
+void \mbox{\hyperlink{classRelationItem_a4c6bce1dd8baa1bc3d562835e1f7990d}{refresh\+Texts}} ()
+\begin{DoxyCompactList}\small\item\em Update the texts. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationItem_a6209aaec747762e861848b324b435e44}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRelation}{Relation}} \mbox{\hyperlink{classRelationItem_ac09d1037da9f75e3cf73f8c9d111c45f}{relation\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Which relation it represents. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for showing relation suggestion and holding the data. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classRelationItem_a6db72c3ca527f3a96d14e8c80116fae5}\label{classRelationItem_a6db72c3ca527f3a96d14e8c80116fae5} 
+\index{RelationItem@{RelationItem}!RelationItem@{RelationItem}}
+\index{RelationItem@{RelationItem}!RelationItem@{RelationItem}}
+\doxysubsubsection{\texorpdfstring{RelationItem()}{RelationItem()}}
+{\footnotesize\ttfamily Relation\+Item\+::\+Relation\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{const \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}} \&}]{suggestion,  }\item[{\mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \texorpdfstring{$\ast$}{*}}]{templ }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em suggestion} & Which suggestion this item represents. \\
+\hline
+{\em templ} & Pointer to the used template. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classRelationItem_ac360fb550e5bb7af2662d0e13f74759e}\label{classRelationItem_ac360fb550e5bb7af2662d0e13f74759e} 
+\index{RelationItem@{RelationItem}!getRelation@{getRelation}}
+\index{getRelation@{getRelation}!RelationItem@{RelationItem}}
+\doxysubsubsection{\texorpdfstring{getRelation()}{getRelation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} Relation\+Item\+::get\+Relation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the pointer to the relation it represents. \begin{DoxyReturn}{Returns}
+Pointer to the relation. 
+\end{DoxyReturn}
+\Hypertarget{classRelationItem_a4c6bce1dd8baa1bc3d562835e1f7990d}\label{classRelationItem_a4c6bce1dd8baa1bc3d562835e1f7990d} 
+\index{RelationItem@{RelationItem}!refreshTexts@{refreshTexts}}
+\index{refreshTexts@{refreshTexts}!RelationItem@{RelationItem}}
+\doxysubsubsection{\texorpdfstring{refreshTexts()}{refreshTexts()}}
+{\footnotesize\ttfamily void Relation\+Item\+::refresh\+Texts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update the texts. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classRelationItem_a6209aaec747762e861848b324b435e44}\label{classRelationItem_a6209aaec747762e861848b324b435e44} 
+\index{RelationItem@{RelationItem}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!RelationItem@{RelationItem}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Relation\+Item\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classRelationItem_ac09d1037da9f75e3cf73f8c9d111c45f}\label{classRelationItem_ac09d1037da9f75e3cf73f8c9d111c45f} 
+\index{RelationItem@{RelationItem}!relation\_@{relation\_}}
+\index{relation\_@{relation\_}!RelationItem@{RelationItem}}
+\doxysubsubsection{\texorpdfstring{relation\_}{relation\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRelation}{Relation}} Relation\+Item\+::relation\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Which relation it represents. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{graphics__items_8h}{graphics\+\_\+items.\+h}}\item 
+graphics/\mbox{\hyperlink{graphics__items_8cpp}{graphics\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

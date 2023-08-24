@@ -1,0 +1,2179 @@
+\doxysection{Main\+Window Class Reference}
+\hypertarget{classMainWindow}{}\label{classMainWindow}\index{MainWindow@{MainWindow}}
+
+
+Class representing main window using Qt library.  
+
+
+
+
+{\ttfamily \#include $<$mainwindow.\+h$>$}
+
+Inheritance diagram for Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d6/d1a/classMainWindow}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMainWindow_aee6d5d43fa83a4b27b4d6822509664e5}{add\+New\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for adding event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aa7b981ec8c5db573e56ba8a8f331d968}{add\+New\+File}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for adding file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a76e395979cd07e922bb7d874e1684e82}{add\+New\+File\+Folder}} ()
+\begin{DoxyCompactList}\small\item\em Add new folder to the file tree. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_affc31d01dfb63d66094b89a649dda55a}{add\+New\+Media}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for adding media. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a2c0af66cae2efaea0fb5d0dba64c1f51}{add\+New\+Media\+Folder}} ()
+\begin{DoxyCompactList}\small\item\em Add new folder to the media tree. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a8c7fb7e30ec5282cafff47417ec06fb5}{add\+New\+Note}} ()
+\begin{DoxyCompactList}\small\item\em Show dialog for adding note. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a4edb4ebb0bb2cf3ec6c4a843db2bf9d4}{add\+New\+Note\+Folder}} ()
+\begin{DoxyCompactList}\small\item\em Add new folder to the note tree. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_adeb349e0e374ef4576e5331ef81052c5}{add\+New\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Add new person to the family tree. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a6367b612e33a468f0d36b92014b492eb}{add\+New\+Relation}} ()
+\begin{DoxyCompactList}\small\item\em Add new relation to the person by opening dialog window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a3d494ff19542db3267d4f97a3521e162}{all\+Above\+Generations}} (bool selected)
+\item 
+void \mbox{\hyperlink{classMainWindow_a2a82d7e10f11b3b860f976698e9358d7}{all\+Below\+Generations}} (bool selected)
+\item 
+void \mbox{\hyperlink{classMainWindow_a6b5b908e5a496e99a04d065d6cca6125}{change\+Generations\+Down}} (int value)
+\item 
+void \mbox{\hyperlink{classMainWindow_a7b88a37756c2a48285a5dc993b30ca46}{change\+Generations\+Up}} (int value)
+\item 
+void \mbox{\hyperlink{classMainWindow_a0bce25bb59ed4ec1875a655373545883}{check\+Store\+Refresh\+Persons\+Info}} ()
+\begin{DoxyCompactList}\small\item\em If any value in persons info tab was changed, check its value, store it and refresh ui elements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_afbcb963eadbf1a6e00e549c1fa992c34}{clear\+Project\+Filter}} ()
+\begin{DoxyCompactList}\small\item\em Clear the project filter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a4236486047a109b730f174ed5c90d614}{clear\+Project\+Paths}} ()
+\begin{DoxyCompactList}\small\item\em Clear project paths. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a624faee3f913f220f909731b704304ff}{disable\+File\+Folder\+Prompt}} ()
+\begin{DoxyCompactList}\small\item\em Hide new folder edit for files and cancel button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_afb0000e7373129fae58fd3fe09ee6960}{disable\+Media\+Folder\+Prompt}} ()
+\begin{DoxyCompactList}\small\item\em Hide new folder edit for media and cancel button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a9a7b3bdf7012bea9d91a828e236b4c64}{disable\+Note\+Folder\+Prompt}} ()
+\begin{DoxyCompactList}\small\item\em Hide new folder edit for notes and cancel button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ac2f57536dce5bdfd128ccdfc556f8f50}{edit\+Event}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_a7ebb2acf6f22ab97270d89eaad242292}{edit\+Relation}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_a71dc8b4cd83377ff7e4bf30b1d52ae51}{edit\+Tag}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item=nullptr)
+\item 
+void \mbox{\hyperlink{classMainWindow_af1f848fafafe4ea111c900250bc25171}{enable\+File\+Folder\+Prompt}} ()
+\begin{DoxyCompactList}\small\item\em Show new folder edit for files and cancel button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aac6bcd79486c0565ac53110dc4a413c9}{enable\+Media\+Folder\+Prompt}} ()
+\begin{DoxyCompactList}\small\item\em Show new folder edit for media and cancel button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a0b0d9917fac556414c80fc10ea24b485}{enable\+Note\+Folder\+Prompt}} ()
+\begin{DoxyCompactList}\small\item\em Show new folder edit for notes and cancel button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_af13bfaae339f83a24758848cc0f08332}{export\+Close\+Family\+Diagram\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for exporting close family diagram. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a430e44d56cbcabe89911d00cd4ba5219}{export\+Html}} ()
+\begin{DoxyCompactList}\small\item\em Export whole HTML project to an output directory by opening a dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a8122545f07f47e0a4db5c7dc4689f675}{export\+Main\+Html}} ()
+\begin{DoxyCompactList}\small\item\em Export only main person html by opening a dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aa00775c975d0f63797232189175e77bb}{export\+Project}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for exporting project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ac0ea3b28e0a5f7ddc4b649ca477e1893}{export\+Templates}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for exporting templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a53600d25cf6281d874332275bb9b339a}{export\+Tree\+Diagram\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for exporting family tree diagram. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a06a8d45274779a8ece1ef7ec45126b07}{filter\+Project\+Items}} ()
+\begin{DoxyCompactList}\small\item\em Filter only matching items in project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ae92cd503236f73f08948b9255ed28019}{find\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Focus find in project view. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ab6d099e009422059074666bb70cfeb3f}{fit\+Tree\+In\+View}} ()
+\begin{DoxyCompactList}\small\item\em Fit the tree view inside. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a29e6b7c71d7fc0d53f67dcda6a910676}{import\+Project}} ()
+\begin{DoxyCompactList}\small\item\em Choose file to import from other project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a5553ef5d4ffc48fafa4efab34485b807}{import\+Root\+Dir}} ()
+\begin{DoxyCompactList}\small\item\em Choose root directory of other project to import from. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a42e01b95728c67a138364dd8d5f9ede6}{import\+Templates}} ()
+\begin{DoxyCompactList}\small\item\em Choose file to import templates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a40ff6754c8381d6d599a59397b388b82}{interract\+With\+Project\+Item}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_a38cd26435a6049a6b7a9f9f04c35fd9d}{open\+Birth\+Date\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for custom Birth \doxylink{classDate}{Date}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a33c9b35d1c80b3f41f82f1ee4eada906}{open\+Death\+Date\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for custom Death \doxylink{classDate}{Date}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ae04e08f45a96e149b08fb773b6a726c2}{open\+Event\+Templates\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Open event templates dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a642ea164720d5f1fb7be49043063b5fc}{open\+Existing\+Project}} ()
+\begin{DoxyCompactList}\small\item\em Open existing root directory of a project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a9127bab6750d6eb5711c6d5124b69b1f}{open\+Graphic\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for graphic settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ab932359eb5492b245093a864fdfe4950}{open\+New\+Family\+Tree\+Project}} ()
+\begin{DoxyCompactList}\small\item\em Open new empty project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aaa1d5c7ef0c3382a3f8431d34ee7337b}{open\+Relation\+Templates\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Open relation templates dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a73b30bc98ce85a3a2581203300ee0077}{open\+Selected\+File}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_a5e33f59e05f34e8f4dd41741bdcb00c3}{open\+Selected\+Media}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_acee631e1a8a952c63525d1d049a17767}{open\+Selected\+Note}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_adffdb6ddccf8828b4ca0e6267a18328b}{promote\+Relation}} ()
+\begin{DoxyCompactList}\small\item\em Promote current relation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ab445fb931ccb39b8e571188c2c01ca62}{refresh\+Dates}} ()
+\begin{DoxyCompactList}\small\item\em Refresh all dates in persons info tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aa83bcd1768ec42dc24d24640824ecb06}{refresh\+Event\+Tab}} ()
+\begin{DoxyCompactList}\small\item\em Refresh list with events. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a3ff5541d9f84eae0dc78e55ef01ba850}{refresh\+Graphics}} ()
+\begin{DoxyCompactList}\small\item\em Refresh all graphics. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ab7ed6b1d9c108563808b7fdb51d57839}{refresh\+Project\+View}} ()
+\begin{DoxyCompactList}\small\item\em Refresh the whole project that is shown. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ac649c76a9a13f29e128c11813e95a037}{refresh\+Relation\+Tab}} ()
+\begin{DoxyCompactList}\small\item\em Refresh relations lists. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a92ed3932fe748d3dc0b2ecd2ca901db4}{refresh\+Tabs\+With\+Files}} ()
+\begin{DoxyCompactList}\small\item\em Refresh all files tabs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a199843758a46db5ab64607e9803ff1d2}{refresh\+Tags\+List}} ()
+\begin{DoxyCompactList}\small\item\em Refresh shown tags. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aa50b6e18553aee63bb56af2b08170b61}{remove\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Remove event from family tree. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a30466ed2bb09fa8a6ca5e5b428038662}{remove\+File\+Folder}} ()
+\begin{DoxyCompactList}\small\item\em Remove file folder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a04892923ca754bfd86d073e61aafaa5c}{remove\+Media\+Folder}} ()
+\begin{DoxyCompactList}\small\item\em Remove media folder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a698c2ca30ee9ca6f8798e8713b7a9a12}{remove\+Note\+Folder}} ()
+\begin{DoxyCompactList}\small\item\em Remove note folder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aae88608b6f21b304047ae1f6bdea436c}{remove\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Remove main person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aacd45cac12838d0373aff0976fadaba8}{remove\+Relation}} ()
+\begin{DoxyCompactList}\small\item\em Remove current relation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a8c3d9e122f4b9b2cfbfd23e9e0c525e2}{remove\+Tag}} ()
+\begin{DoxyCompactList}\small\item\em Delete current tag selected on the person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a23b2cfdb9ea30a770dba0fbb3d24b40e}{rename\+File}} ()
+\begin{DoxyCompactList}\small\item\em Rename file or folder with files. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_af9cf7073252b8d94eaf5778a7d94228e}{rename\+Media}} ()
+\begin{DoxyCompactList}\small\item\em Rename media or folder with media. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aeb8cc35add8479d11175a532bab68984}{rename\+Note}} ()
+\begin{DoxyCompactList}\small\item\em Rename note or folder with notes. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMainWindow_a5b47d1af893d5b72e379e292553e8f30}{save\+Database}} ()
+\item 
+void \mbox{\hyperlink{classMainWindow_a06b100bdf8df7c09b0e0c5431fef8cf8}{save\+Graphics\+Setting}} (QColor proband\+Color, QColor promoted\+Color, QColor standard\+Color, QColor highlighted\+Color, int sizeX, int sizeY, QFont font, QColor line\+Color, QColor text\+Color, int line\+Width, int rounding)
+\item 
+void \mbox{\hyperlink{classMainWindow_ab74e6dca2ced7ac796a4591fda418f4e}{select\+Older\+Generation\+Only}} ()
+\begin{DoxyCompactList}\small\item\em De-\/select all other relation boxes other than older. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a040c746093eafe2f17844c69c21ed041}{select\+Same\+Generation\+Only}} ()
+\begin{DoxyCompactList}\small\item\em De-\/select all other relation boxes other than same. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a575d8582a891fecae3a7b5f8e65f9e05}{select\+Younger\+Generation\+Only}} ()
+\begin{DoxyCompactList}\small\item\em De-\/select all other relation boxes other than younger. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a395bd4823b7e1bc571d37847b19886ba}{set\+Enabled\+Death\+Atributes}} (bool disabled)
+\item 
+void \mbox{\hyperlink{classMainWindow_a8fd02ad6a4d6aff3be44ec6a244de75d}{set\+Event\+Tab\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Hide or show the event tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a3dabfbabf3ceedc886badc3962d8202f}{set\+File\+Tab\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Hide or show the file tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a399668b12c75e8058601b6d2ba66f98c}{set\+General\+Tab\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Hide or show the general tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aced6be9afe2cba5e460add81b02e7a02}{set\+Main\+Person}} (size\+\_\+t person\+Id)
+\item 
+void \mbox{\hyperlink{classMainWindow_a67699b8984c371b3b1609def7f1c9dba}{set\+Media\+Tab\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Hide or show the media tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a79d56bcfd9b90a44ae7f351d21a7ad4f}{set\+Note\+Tab\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Hide or show the note tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a4bf9b5190d3e8a751478852cafdbf164}{set\+Relation\+Tab\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Hide or show the relation tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ad51e0765ee864a8dcc3fef529df32c43}{set\+Tab\+East}} ()
+\begin{DoxyCompactList}\small\item\em Set the setting of the tab to east. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a08ff880bd6b293230be181715670bf75}{set\+Tab\+North}} ()
+\begin{DoxyCompactList}\small\item\em Set the setting of the tab to north. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ad8530f842c1fc27d08340055a38b33c8}{set\+Tab\+South}} ()
+\begin{DoxyCompactList}\small\item\em Set the setting of the tab to south. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a816c06eef81b9fbb9e545c395a52b081}{set\+Tab\+West}} ()
+\begin{DoxyCompactList}\small\item\em Set the setting of the tab to west. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a3111788b36503e5ae8eabef2b32a6f62}{show\+Help}} ()
+\begin{DoxyCompactList}\small\item\em Show generic help. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a1b55b75da3f2c198028fa12bc689d5fd}{show\+Rename\+File}} ()
+\begin{DoxyCompactList}\small\item\em Show prompt for renaming file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a71bad6ec09a07f54621af1b607d69171}{show\+Rename\+Media}} ()
+\begin{DoxyCompactList}\small\item\em Show prompt for renaming media. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a1938bff82434e4f3a3f6fcd085203bd8}{show\+Rename\+Note}} ()
+\begin{DoxyCompactList}\small\item\em Show prompt for renaming note. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a2fcd4e8d1fab860bd54e716e7890511e}{splitter\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em When the splitter changed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a87fb43cdcc9a93dac7398f12f1858024}{switch\+New\+Tree\+Project}} ()
+\begin{DoxyCompactList}\small\item\em Save tree and create new empty tree to show. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aa13e39ece777521d3f176155899309a6}{zoom\+In}} ()
+\begin{DoxyCompactList}\small\item\em Zoom in on the family tree view. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a21d4700dd4bc51216443a4c788b85892}{zoom\+Out}} ()
+\begin{DoxyCompactList}\small\item\em Zoom out of the family tree view. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMainWindow_a996c5a2b6f77944776856f08ec30858d}{Main\+Window}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\mbox{\hyperlink{classMainWindow_ae98d00a93bc118200eeef9f9bba1dba7}{\texorpdfstring{$\sim$}{\string~}\+Main\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor, which deletes all dynamic attributes. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMainWindow_ae55122f361d6d473ce55af6b983be2f1}{export\+Close\+Family\+Diagram}} (double scale, const std\+::string \&filename=\mbox{\hyperlink{strings_8h_aefd49a74af3b4afc27512f639bcc336f}{EMPTY\+\_\+\+STRING}})
+\item 
+bool \mbox{\hyperlink{classMainWindow_ad842bb821f563599bb3999d14fcb4a1f}{export\+Tree\+Diagram}} (double scale, const std\+::string \&filename=\mbox{\hyperlink{strings_8h_aefd49a74af3b4afc27512f639bcc336f}{EMPTY\+\_\+\+STRING}})
+\item 
+std\+::pair$<$ int, int $>$ \mbox{\hyperlink{classMainWindow_a88195dd879b8860ced89d21411ba3c06}{set\+Number\+Of\+Generations}} (int up, int down)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classMainWindow_aebaa3b4a9950970ccdc283293f791c28}{open\+External\+File}} (const std\+::string \&file\+URL)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMainWindow_a4e20a4a065fbb0e4d3532a45a0a91425}{close\+Event}} (QClose\+Event \texorpdfstring{$\ast$}{*}event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMainWindow_a906694dab0156e65bf60213a65d01d05}{add\+General\+File}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type, const std\+::vector$<$ std\+::string $>$ \&extensions, \mbox{\hyperlink{classFileTreeItem}{File\+Tree\+Item}} \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classMainWindow_a09e00e2ea3de71b4ac822bf98d37b0ee}{add\+General\+Folder}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classMainWindow_ae1869c8f13d9b63d6dd4f0c06128ac58}{clear\+Ui}} ()
+\begin{DoxyCompactList}\small\item\em Clear all UI elements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ac3295b4ce317803716b256fd204d06b9}{connect\+All\+Slots}} ()
+\begin{DoxyCompactList}\small\item\em Connect all slots to their signals. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a285e92e4d023a9a6358ccc81ab54b9a8}{edit\+Event}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classMainWindow_a3cb211537392f57f01ecacef4cd470bc}{edit\+Relation}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classMainWindow_a3def06c1fc7604250d35b112fcf3ca21}{enable\+General\+Folder\+Prompt}} (bool visible, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classMainWindow_a30f8ad0273e2cd47990c4d461ac27f99}{enable\+General\+Folder\+Rename\+Prompt}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+bool \mbox{\hyperlink{classMainWindow_af57db0fd5dcee15a7f3b5b5265bd60a8}{export\+General\+Diagram}} (const QString \&filename, QGraphics\+Scene \texorpdfstring{$\ast$}{*}gscene, double scale=1)
+\item 
+void \mbox{\hyperlink{classMainWindow_a9f0846b74125712b30137ca1c77f93e6}{draw\+Close\+Container}} (const std\+::vector$<$ \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} $>$ \&container, qreal sizeX, qreal sizeY, qreal top\+LeftX, qreal top\+LeftY, qreal line\+X1, qreal line\+Y1, qreal line\+X2, qreal line\+Y2, size\+\_\+t partner, size\+\_\+t mother, size\+\_\+t father, int gap, bool movex, bool movey)
+\item 
+void \mbox{\hyperlink{classMainWindow_a61c15208ed69133c25daf163e0aaba6a}{draw\+Close\+Family}} ()
+\item 
+void \mbox{\hyperlink{classMainWindow_a51f3c4059c233e771ae83bc5afd7e5cc}{draw\+Family\+Tree}} ()
+\item 
+void \mbox{\hyperlink{classMainWindow_a20e87602dda8c18d26854bd94faf8a52}{draw\+General\+Generations}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, qreal width, qreal midx, qreal midy, int horizontal\+Gap, int vertical\+Gap, size\+\_\+t barrier, const std\+::vector$<$ size\+\_\+t $>$ \&container, bool up, std\+::function$<$ std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$(\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}, size\+\_\+t, size\+\_\+t)$>$ number\+Func, std\+::function$<$ void(\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}, qreal, qreal, qreal, int, int, size\+\_\+t)$>$ draw\+Func)
+\item 
+void \mbox{\hyperlink{classMainWindow_a7328276651d735ad766d3f63116e95b0}{draw\+Older\+Generations}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, qreal width, qreal midx, qreal midy, int horizontal\+Gap, int vertical\+Gap, size\+\_\+t barrier)
+\item 
+void \mbox{\hyperlink{classMainWindow_ab2966e515bfc78a7819e1f84567190ce}{draw\+Partner}} (qreal canvas\+MidX, qreal canvas\+MidY, int horizontal\+Gap)
+\item 
+void \mbox{\hyperlink{classMainWindow_aa154670e838c8fbe670c700d5a7deefa}{draw\+Younger\+Generations}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, qreal width, qreal midx, qreal midy, int horizontal\+Gap, int vertical\+Gap, size\+\_\+t barrier)
+\item 
+std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ \mbox{\hyperlink{classMainWindow_a3b23a6eed629f00a9d8411f0610712df}{general\+Generation\+Number}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, size\+\_\+t so\+Far, size\+\_\+t barrier, const std\+::vector$<$ size\+\_\+t $>$ \&container, bool up, std\+::function$<$ std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$(\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}, size\+\_\+t, size\+\_\+t)$>$ func)
+\item 
+void \mbox{\hyperlink{classMainWindow_a9bb1f3b7f6b5360abfd2dc01fc1c8930}{load\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Load the setting from configuration. \end{DoxyCompactList}\item 
+std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ \mbox{\hyperlink{classMainWindow_a98d10e87aed112e533f235f1bf6119fb}{older\+Generation\+Number}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, int so\+Far, size\+\_\+t barrier)
+\item 
+void \mbox{\hyperlink{classMainWindow_aa10e18b0d38bcd41185bc451e025e160}{open\+Custom\+Date\+Dialog}} (\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*}date)
+\item 
+void \mbox{\hyperlink{classMainWindow_aee947d6dc5064939b94b103a093a2827}{initialize\+Project\+Sub\+View}} (\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}parent, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_aee962184363e35a07dc3fcfe73aaad0c}{initialize\+Project\+View}} ()
+\begin{DoxyCompactList}\small\item\em Initialize project view when loading new family tree. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aee32be00e99b9b0bb2a94b1ed8094565}{open\+General\+File}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classMainWindow_aa339c149c8499c7df8720b58b2062df5}{open\+General\+Project}} (const std\+::string \&dir\+Path)
+\item 
+void \mbox{\hyperlink{classMainWindow_a7eaae071f5c4a96ba46c6e66bc5f5310}{refresh\+Persons\+Info\+Tab}} ()
+\begin{DoxyCompactList}\small\item\em Refresh basic information about main person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_aea4e8b54e5edd6890f5c1adbf1121a14}{refresh\+Project\+Events\+View}} (\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_a18fa2c4be34851221c0f82da1eb55bdf}{refresh\+Project\+General\+Files\+View}} (const QIcon \&container\+Icon, const QString \&container\+Name, const QIcon \&file\+Icon, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type, \mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_a1d6b7def43e4dbefa20f1f21f460e913}{refresh\+Project\+Files\+View}} (\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_ae97d24c013049f538dffd89862281535}{refresh\+Project\+Media\+View}} (\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_addf1aaf1ade264df6c199396cec6f73f}{refresh\+Project\+Note\+View}} (\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_ac7f5907d3d093efabc833ea1f89e4d15}{refresh\+Project\+Relations\+View}} (\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}item, \mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classMainWindow_a5d5f9b7aa93b32a2805275b45d8a3b75}{refresh\+Ui}} ()
+\begin{DoxyCompactList}\small\item\em Refresh the whole UI (tabs, project and graphics). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a8a85302fe7e3302a9c9289e8022aab02}{remove\+General\+Folder}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classMainWindow_aeae445469e4c7acfabe15bcb61dcf301}{rename\+General\+File\+Item}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+void \mbox{\hyperlink{classMainWindow_a22402630b7349c29cdb06884ab28f91e}{save\+Persons\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Save all basic information about main person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_ac54e4dd892488a7f791d8295ef6af84e}{set\+Ui\+Elements}} ()
+\begin{DoxyCompactList}\small\item\em Set all additional static widgets of the user interface. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWindow_a1e826674188813d91e7dac099e1f87ae}{show\+General\+Files}} (QTree\+Widget \texorpdfstring{$\ast$}{*}widget, \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*}root, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ \mbox{\hyperlink{classMainWindow_a9b228c0521eaed291ee4f5d6d3e5aebf}{younger\+Generation\+Number}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}p, size\+\_\+t so\+Far, size\+\_\+t barrier)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classMainWindow_aed7a60706beeb9f285e5c2f182c22af6}{border\+Radius\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Radius of the boxes. \end{DoxyCompactList}\item 
+QFont \mbox{\hyperlink{classMainWindow_a33bbe0d96e74dbbecf39cc5db51b2164}{font\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Used font for view. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \mbox{\hyperlink{classMainWindow_af3cf3eb9d7bb7b9f1f2de0e4f4ed10d8}{FT}}
+\begin{DoxyCompactList}\small\item\em Family tree. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMainWindow_a0faff22cef9af0b223acfcb586cf51f2}{gen\+Size\+Down\+\_\+}}
+\begin{DoxyCompactList}\small\item\em How many generations to show in tree view down. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMainWindow_acdc6cae1d5d758ed22852f7b5af91877}{gen\+Size\+Up\+\_\+}}
+\begin{DoxyCompactList}\small\item\em How many generations to show in tree view up. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classMainWindow_a2b1ceac9ea3c3e6bb3216905a32012e1}{highlighted\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for highlighted boxes. \end{DoxyCompactList}\item 
+QPen \mbox{\hyperlink{classMainWindow_ab76a87a325d6edc5f45d93839c8a6af8}{line\+Pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pen used for drawing lines. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classMainWindow_a4af8c12b14d43dd745b91fde56e211d4}{proband\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} of proband. \end{DoxyCompactList}\item 
+QGraphics\+Scene \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classMainWindow_a51ac2b126495216832501cea3929c6f6}{scene}}
+\begin{DoxyCompactList}\small\item\em Scene shown on the graphical view. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMainWindow_a8fb725377fd009403a69509cbf04375e}{size\+X\+\_\+}}
+\begin{DoxyCompactList}\small\item\em X size of the person box. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMainWindow_a2a4c9bf1ff77b1cd7d90e28c0672775f}{size\+Y\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Y size of the person box. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classMainWindow_ac773a3b34a5615e147c5645feb641652}{promoted\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for promoted father, mother and partner. \end{DoxyCompactList}\item 
+QColor \mbox{\hyperlink{classMainWindow_a5ade42c24237227386a175251df73409}{standard\+Color\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structColor}{Color} for other relations. \end{DoxyCompactList}\item 
+QPen \mbox{\hyperlink{classMainWindow_aa90b0c557de03d72edac3e0282fc5439}{text\+Pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pen used for texts. \end{DoxyCompactList}\item 
+QGraphics\+Scene \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classMainWindow_add1e424afda88e89a1d07466b137abec}{tree\+Scene}}
+\begin{DoxyCompactList}\small\item\em Tree view scene;. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGraphicsView}{Graphics\+View}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classMainWindow_a6e436eb0d1df98dcd4c09785f07926b4}{tree\+View}}
+\begin{DoxyCompactList}\small\item\em Tree view graphics view. \end{DoxyCompactList}\item 
+Ui\+::\+Main\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classMainWindow_a35466a70ed47252a0191168126a352a5}{ui}}
+\begin{DoxyCompactList}\small\item\em Qt UI framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing main window using Qt library. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classMainWindow_a996c5a2b6f77944776856f08ec30858d}\label{classMainWindow_a996c5a2b6f77944776856f08ec30858d} 
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{MainWindow()}{MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::\+Main\+Window (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em parent} & Qt parent. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ae98d00a93bc118200eeef9f9bba1dba7}\label{classMainWindow_ae98d00a93bc118200eeef9f9bba1dba7} 
+\index{MainWindow@{MainWindow}!````~MainWindow@{\texorpdfstring{$\sim$}{\string~}MainWindow}}
+\index{````~MainWindow@{\texorpdfstring{$\sim$}{\string~}MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}MainWindow()}{\string~MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::\texorpdfstring{$\sim$}{\string~}\+Main\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor, which deletes all dynamic attributes. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classMainWindow_a906694dab0156e65bf60213a65d01d05}\label{classMainWindow_a906694dab0156e65bf60213a65d01d05} 
+\index{MainWindow@{MainWindow}!addGeneralFile@{addGeneralFile}}
+\index{addGeneralFile@{addGeneralFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addGeneralFile()}{addGeneralFile()}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+General\+File (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{extensions,  }\item[{\mbox{\hyperlink{classFileTreeItem}{File\+Tree\+Item}} \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Open add file dialog for a person. This is as general as it gets. 
+\begin{DoxyParams}{Parameters}
+{\em type} & Type of the file, that will be added. \\
+\hline
+{\em extensions} & Which extensions will be shown for creating empty file. \\
+\hline
+{\em item} & Which item is selected to put file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a09e00e2ea3de71b4ac822bf98d37b0ee}\label{classMainWindow_a09e00e2ea3de71b4ac822bf98d37b0ee} 
+\index{MainWindow@{MainWindow}!addGeneralFolder@{addGeneralFolder}}
+\index{addGeneralFolder@{addGeneralFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addGeneralFolder()}{addGeneralFolder()}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+General\+Folder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Add folder to its type tree widget. 
+\begin{DoxyParams}{Parameters}
+{\em type} & What widget it should use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_aee6d5d43fa83a4b27b4d6822509664e5}\label{classMainWindow_aee6d5d43fa83a4b27b4d6822509664e5} 
+\index{MainWindow@{MainWindow}!addNewEvent@{addNewEvent}}
+\index{addNewEvent@{addNewEvent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewEvent}{addNewEvent}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for adding event. 
+
+\Hypertarget{classMainWindow_aa7b981ec8c5db573e56ba8a8f331d968}\label{classMainWindow_aa7b981ec8c5db573e56ba8a8f331d968} 
+\index{MainWindow@{MainWindow}!addNewFile@{addNewFile}}
+\index{addNewFile@{addNewFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewFile}{addNewFile}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for adding file. 
+
+\Hypertarget{classMainWindow_a76e395979cd07e922bb7d874e1684e82}\label{classMainWindow_a76e395979cd07e922bb7d874e1684e82} 
+\index{MainWindow@{MainWindow}!addNewFileFolder@{addNewFileFolder}}
+\index{addNewFileFolder@{addNewFileFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewFileFolder}{addNewFileFolder}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+File\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add new folder to the file tree. 
+
+\Hypertarget{classMainWindow_affc31d01dfb63d66094b89a649dda55a}\label{classMainWindow_affc31d01dfb63d66094b89a649dda55a} 
+\index{MainWindow@{MainWindow}!addNewMedia@{addNewMedia}}
+\index{addNewMedia@{addNewMedia}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewMedia}{addNewMedia}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Media (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for adding media. 
+
+\Hypertarget{classMainWindow_a2c0af66cae2efaea0fb5d0dba64c1f51}\label{classMainWindow_a2c0af66cae2efaea0fb5d0dba64c1f51} 
+\index{MainWindow@{MainWindow}!addNewMediaFolder@{addNewMediaFolder}}
+\index{addNewMediaFolder@{addNewMediaFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewMediaFolder}{addNewMediaFolder}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Media\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add new folder to the media tree. 
+
+\Hypertarget{classMainWindow_a8c7fb7e30ec5282cafff47417ec06fb5}\label{classMainWindow_a8c7fb7e30ec5282cafff47417ec06fb5} 
+\index{MainWindow@{MainWindow}!addNewNote@{addNewNote}}
+\index{addNewNote@{addNewNote}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewNote}{addNewNote}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Note (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show dialog for adding note. 
+
+\Hypertarget{classMainWindow_a4edb4ebb0bb2cf3ec6c4a843db2bf9d4}\label{classMainWindow_a4edb4ebb0bb2cf3ec6c4a843db2bf9d4} 
+\index{MainWindow@{MainWindow}!addNewNoteFolder@{addNewNoteFolder}}
+\index{addNewNoteFolder@{addNewNoteFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewNoteFolder}{addNewNoteFolder}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Note\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add new folder to the note tree. 
+
+\Hypertarget{classMainWindow_adeb349e0e374ef4576e5331ef81052c5}\label{classMainWindow_adeb349e0e374ef4576e5331ef81052c5} 
+\index{MainWindow@{MainWindow}!addNewPerson@{addNewPerson}}
+\index{addNewPerson@{addNewPerson}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewPerson}{addNewPerson}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add new person to the family tree. 
+
+\Hypertarget{classMainWindow_a6367b612e33a468f0d36b92014b492eb}\label{classMainWindow_a6367b612e33a468f0d36b92014b492eb} 
+\index{MainWindow@{MainWindow}!addNewRelation@{addNewRelation}}
+\index{addNewRelation@{addNewRelation}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{addNewRelation}{addNewRelation}}
+{\footnotesize\ttfamily void Main\+Window\+::add\+New\+Relation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add new relation to the person by opening dialog window. 
+
+\Hypertarget{classMainWindow_a3d494ff19542db3267d4f97a3521e162}\label{classMainWindow_a3d494ff19542db3267d4f97a3521e162} 
+\index{MainWindow@{MainWindow}!allAboveGenerations@{allAboveGenerations}}
+\index{allAboveGenerations@{allAboveGenerations}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{allAboveGenerations}{allAboveGenerations}}
+{\footnotesize\ttfamily void Main\+Window\+::all\+Above\+Generations (\begin{DoxyParamCaption}\item[{bool}]{selected }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Set to show all generations above. 
+\begin{DoxyParams}{Parameters}
+{\em selected} & If all generations should be shown. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a2a82d7e10f11b3b860f976698e9358d7}\label{classMainWindow_a2a82d7e10f11b3b860f976698e9358d7} 
+\index{MainWindow@{MainWindow}!allBelowGenerations@{allBelowGenerations}}
+\index{allBelowGenerations@{allBelowGenerations}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{allBelowGenerations}{allBelowGenerations}}
+{\footnotesize\ttfamily void Main\+Window\+::all\+Below\+Generations (\begin{DoxyParamCaption}\item[{bool}]{selected }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Set to show all generations below. 
+\begin{DoxyParams}{Parameters}
+{\em selected} & If all generations should be shown. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a6b5b908e5a496e99a04d065d6cca6125}\label{classMainWindow_a6b5b908e5a496e99a04d065d6cca6125} 
+\index{MainWindow@{MainWindow}!changeGenerationsDown@{changeGenerationsDown}}
+\index{changeGenerationsDown@{changeGenerationsDown}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{changeGenerationsDown}{changeGenerationsDown}}
+{\footnotesize\ttfamily void Main\+Window\+::change\+Generations\+Down (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Change the number of shown relations below. 
+\begin{DoxyParams}{Parameters}
+{\em value} & How many generations to show. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a7b88a37756c2a48285a5dc993b30ca46}\label{classMainWindow_a7b88a37756c2a48285a5dc993b30ca46} 
+\index{MainWindow@{MainWindow}!changeGenerationsUp@{changeGenerationsUp}}
+\index{changeGenerationsUp@{changeGenerationsUp}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{changeGenerationsUp}{changeGenerationsUp}}
+{\footnotesize\ttfamily void Main\+Window\+::change\+Generations\+Up (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Change the number of shown relations above. 
+\begin{DoxyParams}{Parameters}
+{\em value} & How many generations to show. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a0bce25bb59ed4ec1875a655373545883}\label{classMainWindow_a0bce25bb59ed4ec1875a655373545883} 
+\index{MainWindow@{MainWindow}!checkStoreRefreshPersonsInfo@{checkStoreRefreshPersonsInfo}}
+\index{checkStoreRefreshPersonsInfo@{checkStoreRefreshPersonsInfo}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{checkStoreRefreshPersonsInfo}{checkStoreRefreshPersonsInfo}}
+{\footnotesize\ttfamily void Main\+Window\+::check\+Store\+Refresh\+Persons\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+If any value in persons info tab was changed, check its value, store it and refresh ui elements. 
+
+\Hypertarget{classMainWindow_afbcb963eadbf1a6e00e549c1fa992c34}\label{classMainWindow_afbcb963eadbf1a6e00e549c1fa992c34} 
+\index{MainWindow@{MainWindow}!clearProjectFilter@{clearProjectFilter}}
+\index{clearProjectFilter@{clearProjectFilter}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{clearProjectFilter}{clearProjectFilter}}
+{\footnotesize\ttfamily void Main\+Window\+::clear\+Project\+Filter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Clear the project filter. 
+
+\Hypertarget{classMainWindow_a4236486047a109b730f174ed5c90d614}\label{classMainWindow_a4236486047a109b730f174ed5c90d614} 
+\index{MainWindow@{MainWindow}!clearProjectPaths@{clearProjectPaths}}
+\index{clearProjectPaths@{clearProjectPaths}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{clearProjectPaths}{clearProjectPaths}}
+{\footnotesize\ttfamily void Main\+Window\+::clear\+Project\+Paths (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Clear project paths. 
+
+\Hypertarget{classMainWindow_ae1869c8f13d9b63d6dd4f0c06128ac58}\label{classMainWindow_ae1869c8f13d9b63d6dd4f0c06128ac58} 
+\index{MainWindow@{MainWindow}!clearUi@{clearUi}}
+\index{clearUi@{clearUi}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{clearUi()}{clearUi()}}
+{\footnotesize\ttfamily void Main\+Window\+::clear\+Ui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Clear all UI elements. 
+
+\Hypertarget{classMainWindow_a4e20a4a065fbb0e4d3532a45a0a91425}\label{classMainWindow_a4e20a4a065fbb0e4d3532a45a0a91425} 
+\index{MainWindow@{MainWindow}!closeEvent@{closeEvent}}
+\index{closeEvent@{closeEvent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{closeEvent()}{closeEvent()}}
+{\footnotesize\ttfamily void Main\+Window\+::close\+Event (\begin{DoxyParamCaption}\item[{QClose\+Event \texorpdfstring{$\ast$}{*}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+When closing the window check if the project is saved or not. 
+\begin{DoxyParams}{Parameters}
+{\em event} & Called event. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ac3295b4ce317803716b256fd204d06b9}\label{classMainWindow_ac3295b4ce317803716b256fd204d06b9} 
+\index{MainWindow@{MainWindow}!connectAllSlots@{connectAllSlots}}
+\index{connectAllSlots@{connectAllSlots}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{connectAllSlots()}{connectAllSlots()}}
+{\footnotesize\ttfamily void Main\+Window\+::connect\+All\+Slots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Connect all slots to their signals. 
+
+\Hypertarget{classMainWindow_a624faee3f913f220f909731b704304ff}\label{classMainWindow_a624faee3f913f220f909731b704304ff} 
+\index{MainWindow@{MainWindow}!disableFileFolderPrompt@{disableFileFolderPrompt}}
+\index{disableFileFolderPrompt@{disableFileFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{disableFileFolderPrompt}{disableFileFolderPrompt}}
+{\footnotesize\ttfamily void Main\+Window\+::disable\+File\+Folder\+Prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide new folder edit for files and cancel button. 
+
+\Hypertarget{classMainWindow_afb0000e7373129fae58fd3fe09ee6960}\label{classMainWindow_afb0000e7373129fae58fd3fe09ee6960} 
+\index{MainWindow@{MainWindow}!disableMediaFolderPrompt@{disableMediaFolderPrompt}}
+\index{disableMediaFolderPrompt@{disableMediaFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{disableMediaFolderPrompt}{disableMediaFolderPrompt}}
+{\footnotesize\ttfamily void Main\+Window\+::disable\+Media\+Folder\+Prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide new folder edit for media and cancel button. 
+
+\Hypertarget{classMainWindow_a9a7b3bdf7012bea9d91a828e236b4c64}\label{classMainWindow_a9a7b3bdf7012bea9d91a828e236b4c64} 
+\index{MainWindow@{MainWindow}!disableNoteFolderPrompt@{disableNoteFolderPrompt}}
+\index{disableNoteFolderPrompt@{disableNoteFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{disableNoteFolderPrompt}{disableNoteFolderPrompt}}
+{\footnotesize\ttfamily void Main\+Window\+::disable\+Note\+Folder\+Prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide new folder edit for notes and cancel button. 
+
+\Hypertarget{classMainWindow_a9f0846b74125712b30137ca1c77f93e6}\label{classMainWindow_a9f0846b74125712b30137ca1c77f93e6} 
+\index{MainWindow@{MainWindow}!drawCloseContainer@{drawCloseContainer}}
+\index{drawCloseContainer@{drawCloseContainer}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawCloseContainer()}{drawCloseContainer()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+Close\+Container (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} $>$ \&}]{container,  }\item[{qreal}]{sizeX,  }\item[{qreal}]{sizeY,  }\item[{qreal}]{top\+LeftX,  }\item[{qreal}]{top\+LeftY,  }\item[{qreal}]{line\+X1,  }\item[{qreal}]{line\+Y1,  }\item[{qreal}]{line\+X2,  }\item[{qreal}]{line\+Y2,  }\item[{size\+\_\+t}]{partner,  }\item[{size\+\_\+t}]{mother,  }\item[{size\+\_\+t}]{father,  }\item[{int}]{gap,  }\item[{bool}]{movex,  }\item[{bool}]{movey }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw generalized cell, line and all inside person items in close family view. Like this\+:~\newline
+ 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<-\/-\/-\/-\/-\/sizeX-\/-\/-\/-\/-\/-\/-\/-\/-\/>}
+\DoxyCodeLine{}
+\DoxyCodeLine{topLeftX\ \&\ topLeftY}
+\DoxyCodeLine{v}
+\DoxyCodeLine{+-\/-\/-\/-\/-\/-\/-\/cell-\/-\/-\/-\/-\/-\/-\/-\/+\ \ \ \string^}
+\DoxyCodeLine{|gap|box|gap|box|gap|\ sizeY}
+\DoxyCodeLine{+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+\ \ \ v}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ |\ line\ to\ middle\ box}
+
+\end{DoxyCode}
+ 
+\begin{DoxyParams}{Parameters}
+{\em container} & Container of persons which will be drawn. \\
+\hline
+{\em sizeX} & Size of the cell in the x axis. \\
+\hline
+{\em sizeY} & Size of the cell in the y axis. \\
+\hline
+{\em top\+LeftX} & Top left point of the cell in the x axis. \\
+\hline
+{\em top\+LeftY} & Top left point of the cell in the y axis. \\
+\hline
+{\em line\+X1} & Starting point of the line in x axis. \\
+\hline
+{\em line\+Y1} & Starting point of the line in y axis. \\
+\hline
+{\em line\+X2} & Ending point of the line in x axis. \\
+\hline
+{\em line\+Y2} & Ending point of the line in y axis. \\
+\hline
+{\em partner} & Index of partner to use special color. \\
+\hline
+{\em mother} & Index of mother to use special color. \\
+\hline
+{\em father} & Index of father to use special color. \\
+\hline
+{\em gap} & Gap which is between boxes in cell. \\
+\hline
+{\em movex} & Whether to move boxes on the x line. \\
+\hline
+{\em movey} & Whether to move boxes on the y line. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a61c15208ed69133c25daf163e0aaba6a}\label{classMainWindow_a61c15208ed69133c25daf163e0aaba6a} 
+\index{MainWindow@{MainWindow}!drawCloseFamily@{drawCloseFamily}}
+\index{drawCloseFamily@{drawCloseFamily}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawCloseFamily()}{drawCloseFamily()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+Close\+Family (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw close family to the graphics.~\newline
+ 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \ +-\/-\/-\/-\/-\/-\/cell-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{\ \ \ |gap|box|gap|box|gap|}
+\DoxyCodeLine{\ \ \ +-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{+-\/-\/-\/+<-\/cell\ \ |}
+\DoxyCodeLine{|gap|\ \ \ \ +-\/-\/-\/-\/-\/-\/-\/+\ <-\/-\/\ box}
+\DoxyCodeLine{|box|-\/-\/-\/-\/|proband|}
+\DoxyCodeLine{|gap|\ \ \ \ +-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{+-\/-\/-\/+\ \ \ \ \ \ \ \ |}
+\DoxyCodeLine{\ \ \ +-\/-\/-\/-\/-\/-\/cell-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{\ \ \ |gap|box|gap|box|gap|}
+\DoxyCodeLine{\ \ \ +-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+
+\end{DoxyCode}
+ \Hypertarget{classMainWindow_a51f3c4059c233e771ae83bc5afd7e5cc}\label{classMainWindow_a51f3c4059c233e771ae83bc5afd7e5cc} 
+\index{MainWindow@{MainWindow}!drawFamilyTree@{drawFamilyTree}}
+\index{drawFamilyTree@{drawFamilyTree}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawFamilyTree()}{drawFamilyTree()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+Family\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw family tree to the corresponding person.~\newline
+ 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ ....\ \ \ \ \ \ \ \ \ \ \ ....}
+\DoxyCodeLine{\ \ \ \(\backslash\)/\ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)/}
+\DoxyCodeLine{+-\/-\/box-\/-\/+\ \ \ \ \ +-\/-\/box-\/-\/+}
+\DoxyCodeLine{|father\ |\ \ \ \ \ |mother\ |}
+\DoxyCodeLine{+-\/-\/-\/-\/-\/-\/-\/+\ \ \ \ \ +-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \(\backslash\)\ \ \ \ \ /}
+\DoxyCodeLine{\ \ \ \ \ \ \ +-\/-\/box-\/-\/+}
+\DoxyCodeLine{\ \ \ \ \ \ \ |proband|}
+\DoxyCodeLine{\ \ \ \ \ \ \ +-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ |\ \ \ \ \ |}
+\DoxyCodeLine{+-\/-\/box-\/-\/+\ \ \ \ \ +-\/-\/box-\/-\/+}
+\DoxyCodeLine{|child\ \ |\ \ \ \ \ |child\ \ |}
+\DoxyCodeLine{+-\/-\/-\/-\/-\/-\/-\/+\ \ \ \ \ +-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{\ \ \ /|\(\backslash\)\ \ \ \ \ \ \ \ \ \ \ \ |}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ ...}
+
+\end{DoxyCode}
+ \Hypertarget{classMainWindow_a20e87602dda8c18d26854bd94faf8a52}\label{classMainWindow_a20e87602dda8c18d26854bd94faf8a52} 
+\index{MainWindow@{MainWindow}!drawGeneralGenerations@{drawGeneralGenerations}}
+\index{drawGeneralGenerations@{drawGeneralGenerations}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawGeneralGenerations()}{drawGeneralGenerations()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+General\+Generations (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{qreal}]{width,  }\item[{qreal}]{midx,  }\item[{qreal}]{midy,  }\item[{int}]{horizontal\+Gap,  }\item[{int}]{vertical\+Gap,  }\item[{size\+\_\+t}]{barrier,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{container,  }\item[{bool}]{up,  }\item[{std\+::function$<$ std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$(\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}, size\+\_\+t, size\+\_\+t)$>$}]{number\+Func,  }\item[{std\+::function$<$ void(\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}, qreal, qreal, qreal, int, int, size\+\_\+t)$>$}]{draw\+Func }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw either top or bottom generation in tree. 
+\begin{DoxyParams}{Parameters}
+{\em p} & Current person. \\
+\hline
+{\em width} & Width of the place where will be the relations. \\
+\hline
+{\em midx} & What is the middle in the x axis of the place. \\
+\hline
+{\em midy} & What is the middle in the y axis of the place. \\
+\hline
+{\em horizontal\+Gap} & Min gap between boxes in the x axis. \\
+\hline
+{\em vertical\+Gap} & Gap between generations. \\
+\hline
+{\em barrier} & How more generations to show. \\
+\hline
+{\em container} & Vector of relations to draw. \\
+\hline
+{\em up} & If we are drawing upwards or downwards. \\
+\hline
+{\em number\+Func} & Function for computing the widths and depths of the trees. \\
+\hline
+{\em draw\+Func} & Function to recursively call for drawing. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a7328276651d735ad766d3f63116e95b0}\label{classMainWindow_a7328276651d735ad766d3f63116e95b0} 
+\index{MainWindow@{MainWindow}!drawOlderGenerations@{drawOlderGenerations}}
+\index{drawOlderGenerations@{drawOlderGenerations}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawOlderGenerations()}{drawOlderGenerations()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+Older\+Generations (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{qreal}]{width,  }\item[{qreal}]{midx,  }\item[{qreal}]{midy,  }\item[{int}]{horizontal\+Gap,  }\item[{int}]{vertical\+Gap,  }\item[{size\+\_\+t}]{barrier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw one family tree box and recursively make other.~\newline
+ 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{|<-\/xfrom\ \ ....\ \ \ \ \ \ \ \ \ |\ Box\ will\ be\ in\ the\ middle.}
+\DoxyCodeLine{|<-\/yfrom\ \ ....\ \ \ \ \ \ \ \ \ |\ Then\ it\ will\ call\ recursively\ on\ the\ top\ half\ the\ space.}
+\DoxyCodeLine{+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+}
+\DoxyCodeLine{<-\/-\/-\/-\/-\/-\/-\/-\/space-\/-\/-\/-\/-\/-\/-\/-\/-\/>}
+
+\end{DoxyCode}
+ 
+\begin{DoxyParams}{Parameters}
+{\em p} & Which person we are drawing. \\
+\hline
+{\em width} & What is the x size where should the box take place. \\
+\hline
+{\em midx} & What is the middle in the x axis of the place. \\
+\hline
+{\em midy} & What is the middle in the y axis of the place. \\
+\hline
+{\em horizontal\+Gap} & Min gap between boxes in the x axis. \\
+\hline
+{\em vertical\+Gap} & Gap between generations. \\
+\hline
+{\em barrier} & How more generations to show. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ab2966e515bfc78a7819e1f84567190ce}\label{classMainWindow_ab2966e515bfc78a7819e1f84567190ce} 
+\index{MainWindow@{MainWindow}!drawPartner@{drawPartner}}
+\index{drawPartner@{drawPartner}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawPartner()}{drawPartner()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+Partner (\begin{DoxyParamCaption}\item[{qreal}]{canvas\+MidX,  }\item[{qreal}]{canvas\+MidY,  }\item[{int}]{horizontal\+Gap }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw partner (to the left of the main person) to the family tree if there is one. 
+\begin{DoxyParams}{Parameters}
+{\em canvas\+MidX} & Centre-\/point of the canvas. \\
+\hline
+{\em canvas\+MidY} & Centre-\/point of the canvas. \\
+\hline
+{\em horizontal\+Gap} & Gap in between persons boxes. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_aa154670e838c8fbe670c700d5a7deefa}\label{classMainWindow_aa154670e838c8fbe670c700d5a7deefa} 
+\index{MainWindow@{MainWindow}!drawYoungerGenerations@{drawYoungerGenerations}}
+\index{drawYoungerGenerations@{drawYoungerGenerations}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{drawYoungerGenerations()}{drawYoungerGenerations()}}
+{\footnotesize\ttfamily void Main\+Window\+::draw\+Younger\+Generations (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{qreal}]{width,  }\item[{qreal}]{midx,  }\item[{qreal}]{midy,  }\item[{int}]{horizontal\+Gap,  }\item[{int}]{vertical\+Gap,  }\item[{size\+\_\+t}]{barrier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw all younger relations to the tree diagram.~\newline
+ 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{+-\/-\/-\/+\ \ \ \ \ +-\/-\/-\/+\ \ \ \ \ +-\/-\/-\/+}
+\DoxyCodeLine{|box|\ \ \ \ \ |box|\ \ \ \ \ |box|}
+\DoxyCodeLine{+-\/-\/-\/+\ \ \ \ \ +-\/-\/-\/+\ \ \ \ \ +-\/-\/-\/+}
+\DoxyCodeLine{\ \ .\ \ \ \ \ \ \ /\ \ \ \(\backslash\)\ \ \ \ \ \ \ .}
+\DoxyCodeLine{.....\ \ +-\/-\/-\/+\ \ +-\/-\/-\/+\ .....}
+\DoxyCodeLine{.\ \ \ .\ \ |box|\ \ |box|\ .\ \ \ .}
+\DoxyCodeLine{.....\ \ +-\/-\/-\/+\ \ +-\/-\/-\/+\ .....}
+
+\end{DoxyCode}
+ 
+\begin{DoxyParams}{Parameters}
+{\em p} & Current person which is above. \\
+\hline
+{\em width} & Width of the place where will be the children drawn. \\
+\hline
+{\em midx} & What is the middle in the x axis of the place for children. \\
+\hline
+{\em midy} & What is the middle in the y axis of the place for children. \\
+\hline
+{\em horizontal\+Gap} & Min gap between boxes in the x axis. \\
+\hline
+{\em vertical\+Gap} & Gap between generations. \\
+\hline
+{\em barrier} & How more generations to show. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ac2f57536dce5bdfd128ccdfc556f8f50}\label{classMainWindow_ac2f57536dce5bdfd128ccdfc556f8f50} 
+\index{MainWindow@{MainWindow}!editEvent@{editEvent}}
+\index{editEvent@{editEvent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{editEvent}{editEvent}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Main\+Window\+::edit\+Event (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Edit event when clicking on it by opening a dialog window. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a285e92e4d023a9a6358ccc81ab54b9a8}\label{classMainWindow_a285e92e4d023a9a6358ccc81ab54b9a8} 
+\index{MainWindow@{MainWindow}!editEvent@{editEvent}}
+\index{editEvent@{editEvent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{editEvent()}{editEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Main\+Window\+::edit\+Event (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Edit event by its id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the event. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a7ebb2acf6f22ab97270d89eaad242292}\label{classMainWindow_a7ebb2acf6f22ab97270d89eaad242292} 
+\index{MainWindow@{MainWindow}!editRelation@{editRelation}}
+\index{editRelation@{editRelation}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{editRelation}{editRelation}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Main\+Window\+::edit\+Relation (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Edit relation when clicking on it by opening a dialog window. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a3cb211537392f57f01ecacef4cd470bc}\label{classMainWindow_a3cb211537392f57f01ecacef4cd470bc} 
+\index{MainWindow@{MainWindow}!editRelation@{editRelation}}
+\index{editRelation@{editRelation}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{editRelation()}{editRelation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Main\+Window\+::edit\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Edit relation by its id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the relation. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a71dc8b4cd83377ff7e4bf30b1d52ae51}\label{classMainWindow_a71dc8b4cd83377ff7e4bf30b1d52ae51} 
+\index{MainWindow@{MainWindow}!editTag@{editTag}}
+\index{editTag@{editTag}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{editTag}{editTag}}
+{\footnotesize\ttfamily void Main\+Window\+::edit\+Tag (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Edit tag when clicking on it or creating new one. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was selected, if any. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_af1f848fafafe4ea111c900250bc25171}\label{classMainWindow_af1f848fafafe4ea111c900250bc25171} 
+\index{MainWindow@{MainWindow}!enableFileFolderPrompt@{enableFileFolderPrompt}}
+\index{enableFileFolderPrompt@{enableFileFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{enableFileFolderPrompt}{enableFileFolderPrompt}}
+{\footnotesize\ttfamily void Main\+Window\+::enable\+File\+Folder\+Prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show new folder edit for files and cancel button. 
+
+\Hypertarget{classMainWindow_a3def06c1fc7604250d35b112fcf3ca21}\label{classMainWindow_a3def06c1fc7604250d35b112fcf3ca21} 
+\index{MainWindow@{MainWindow}!enableGeneralFolderPrompt@{enableGeneralFolderPrompt}}
+\index{enableGeneralFolderPrompt@{enableGeneralFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{enableGeneralFolderPrompt()}{enableGeneralFolderPrompt()}}
+{\footnotesize\ttfamily void Main\+Window\+::enable\+General\+Folder\+Prompt (\begin{DoxyParamCaption}\item[{bool}]{visible,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Show or hide new folder prompt. 
+\begin{DoxyParams}{Parameters}
+{\em visible} & If the prompt should be visible or not. \\
+\hline
+{\em type} & For which type we are showing/hiding the prompt. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a30f8ad0273e2cd47990c4d461ac27f99}\label{classMainWindow_a30f8ad0273e2cd47990c4d461ac27f99} 
+\index{MainWindow@{MainWindow}!enableGeneralFolderRenamePrompt@{enableGeneralFolderRenamePrompt}}
+\index{enableGeneralFolderRenamePrompt@{enableGeneralFolderRenamePrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{enableGeneralFolderRenamePrompt()}{enableGeneralFolderRenamePrompt()}}
+{\footnotesize\ttfamily void Main\+Window\+::enable\+General\+Folder\+Rename\+Prompt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Show rename file prompt. 
+\begin{DoxyParams}{Parameters}
+{\em type} & Which type is to be shown. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_aac6bcd79486c0565ac53110dc4a413c9}\label{classMainWindow_aac6bcd79486c0565ac53110dc4a413c9} 
+\index{MainWindow@{MainWindow}!enableMediaFolderPrompt@{enableMediaFolderPrompt}}
+\index{enableMediaFolderPrompt@{enableMediaFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{enableMediaFolderPrompt}{enableMediaFolderPrompt}}
+{\footnotesize\ttfamily void Main\+Window\+::enable\+Media\+Folder\+Prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show new folder edit for media and cancel button. 
+
+\Hypertarget{classMainWindow_a0b0d9917fac556414c80fc10ea24b485}\label{classMainWindow_a0b0d9917fac556414c80fc10ea24b485} 
+\index{MainWindow@{MainWindow}!enableNoteFolderPrompt@{enableNoteFolderPrompt}}
+\index{enableNoteFolderPrompt@{enableNoteFolderPrompt}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{enableNoteFolderPrompt}{enableNoteFolderPrompt}}
+{\footnotesize\ttfamily void Main\+Window\+::enable\+Note\+Folder\+Prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show new folder edit for notes and cancel button. 
+
+\Hypertarget{classMainWindow_ae55122f361d6d473ce55af6b983be2f1}\label{classMainWindow_ae55122f361d6d473ce55af6b983be2f1} 
+\index{MainWindow@{MainWindow}!exportCloseFamilyDiagram@{exportCloseFamilyDiagram}}
+\index{exportCloseFamilyDiagram@{exportCloseFamilyDiagram}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportCloseFamilyDiagram()}{exportCloseFamilyDiagram()}}
+{\footnotesize\ttfamily bool Main\+Window\+::export\+Close\+Family\+Diagram (\begin{DoxyParamCaption}\item[{double}]{scale,  }\item[{const std\+::string \&}]{filename = {\ttfamily \mbox{\hyperlink{strings_8h_aefd49a74af3b4afc27512f639bcc336f}{EMPTY\+\_\+\+STRING}}} }\end{DoxyParamCaption})}
+
+Export close family diagram. 
+\begin{DoxyParams}{Parameters}
+{\em scale} & What is the scale for this picture. \\
+\hline
+{\em filename} & Where the picture should be saved, if it is empty prompt a dialog to choose file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the export was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_af13bfaae339f83a24758848cc0f08332}\label{classMainWindow_af13bfaae339f83a24758848cc0f08332} 
+\index{MainWindow@{MainWindow}!exportCloseFamilyDiagramDialog@{exportCloseFamilyDiagramDialog}}
+\index{exportCloseFamilyDiagramDialog@{exportCloseFamilyDiagramDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportCloseFamilyDiagramDialog}{exportCloseFamilyDiagramDialog}}
+{\footnotesize\ttfamily void Main\+Window\+::export\+Close\+Family\+Diagram\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for exporting close family diagram. 
+
+\Hypertarget{classMainWindow_af57db0fd5dcee15a7f3b5b5265bd60a8}\label{classMainWindow_af57db0fd5dcee15a7f3b5b5265bd60a8} 
+\index{MainWindow@{MainWindow}!exportGeneralDiagram@{exportGeneralDiagram}}
+\index{exportGeneralDiagram@{exportGeneralDiagram}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportGeneralDiagram()}{exportGeneralDiagram()}}
+{\footnotesize\ttfamily bool Main\+Window\+::export\+General\+Diagram (\begin{DoxyParamCaption}\item[{const QString \&}]{filename,  }\item[{QGraphics\+Scene \texorpdfstring{$\ast$}{*}}]{gscene,  }\item[{double}]{scale = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Export general picture of a diagram. 
+\begin{DoxyParams}{Parameters}
+{\em filename} & What is the output file path. \\
+\hline
+{\em gscene} & Which scene to use. \\
+\hline
+{\em scale} & That is set for this picture. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the export was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_a430e44d56cbcabe89911d00cd4ba5219}\label{classMainWindow_a430e44d56cbcabe89911d00cd4ba5219} 
+\index{MainWindow@{MainWindow}!exportHtml@{exportHtml}}
+\index{exportHtml@{exportHtml}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportHtml}{exportHtml}}
+{\footnotesize\ttfamily void Main\+Window\+::export\+Html (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Export whole HTML project to an output directory by opening a dialog. 
+
+\Hypertarget{classMainWindow_a8122545f07f47e0a4db5c7dc4689f675}\label{classMainWindow_a8122545f07f47e0a4db5c7dc4689f675} 
+\index{MainWindow@{MainWindow}!exportMainHtml@{exportMainHtml}}
+\index{exportMainHtml@{exportMainHtml}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportMainHtml}{exportMainHtml}}
+{\footnotesize\ttfamily void Main\+Window\+::export\+Main\+Html (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Export only main person html by opening a dialog. 
+
+\Hypertarget{classMainWindow_aa00775c975d0f63797232189175e77bb}\label{classMainWindow_aa00775c975d0f63797232189175e77bb} 
+\index{MainWindow@{MainWindow}!exportProject@{exportProject}}
+\index{exportProject@{exportProject}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportProject}{exportProject}}
+{\footnotesize\ttfamily void Main\+Window\+::export\+Project (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for exporting project. 
+
+\Hypertarget{classMainWindow_ac0ea3b28e0a5f7ddc4b649ca477e1893}\label{classMainWindow_ac0ea3b28e0a5f7ddc4b649ca477e1893} 
+\index{MainWindow@{MainWindow}!exportTemplates@{exportTemplates}}
+\index{exportTemplates@{exportTemplates}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportTemplates}{exportTemplates}}
+{\footnotesize\ttfamily void Main\+Window\+::export\+Templates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for exporting templates. 
+
+\Hypertarget{classMainWindow_ad842bb821f563599bb3999d14fcb4a1f}\label{classMainWindow_ad842bb821f563599bb3999d14fcb4a1f} 
+\index{MainWindow@{MainWindow}!exportTreeDiagram@{exportTreeDiagram}}
+\index{exportTreeDiagram@{exportTreeDiagram}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportTreeDiagram()}{exportTreeDiagram()}}
+{\footnotesize\ttfamily bool Main\+Window\+::export\+Tree\+Diagram (\begin{DoxyParamCaption}\item[{double}]{scale,  }\item[{const std\+::string \&}]{filename = {\ttfamily \mbox{\hyperlink{strings_8h_aefd49a74af3b4afc27512f639bcc336f}{EMPTY\+\_\+\+STRING}}} }\end{DoxyParamCaption})}
+
+Export tree diagram. 
+\begin{DoxyParams}{Parameters}
+{\em scale} & What is the scale for this picture. \\
+\hline
+{\em filename} & Where the picture should be saved, if it is empty prompt a dialog to choose file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the export was successful or not. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_a53600d25cf6281d874332275bb9b339a}\label{classMainWindow_a53600d25cf6281d874332275bb9b339a} 
+\index{MainWindow@{MainWindow}!exportTreeDiagramDialog@{exportTreeDiagramDialog}}
+\index{exportTreeDiagramDialog@{exportTreeDiagramDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{exportTreeDiagramDialog}{exportTreeDiagramDialog}}
+{\footnotesize\ttfamily void Main\+Window\+::export\+Tree\+Diagram\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for exporting family tree diagram. 
+
+\Hypertarget{classMainWindow_a06a8d45274779a8ece1ef7ec45126b07}\label{classMainWindow_a06a8d45274779a8ece1ef7ec45126b07} 
+\index{MainWindow@{MainWindow}!filterProjectItems@{filterProjectItems}}
+\index{filterProjectItems@{filterProjectItems}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{filterProjectItems}{filterProjectItems}}
+{\footnotesize\ttfamily void Main\+Window\+::filter\+Project\+Items (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Filter only matching items in project. 
+
+\Hypertarget{classMainWindow_ae92cd503236f73f08948b9255ed28019}\label{classMainWindow_ae92cd503236f73f08948b9255ed28019} 
+\index{MainWindow@{MainWindow}!findPerson@{findPerson}}
+\index{findPerson@{findPerson}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{findPerson}{findPerson}}
+{\footnotesize\ttfamily void Main\+Window\+::find\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Focus find in project view. 
+
+\Hypertarget{classMainWindow_ab6d099e009422059074666bb70cfeb3f}\label{classMainWindow_ab6d099e009422059074666bb70cfeb3f} 
+\index{MainWindow@{MainWindow}!fitTreeInView@{fitTreeInView}}
+\index{fitTreeInView@{fitTreeInView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{fitTreeInView}{fitTreeInView}}
+{\footnotesize\ttfamily void Main\+Window\+::fit\+Tree\+In\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Fit the tree view inside. 
+
+\Hypertarget{classMainWindow_a3b23a6eed629f00a9d8411f0610712df}\label{classMainWindow_a3b23a6eed629f00a9d8411f0610712df} 
+\index{MainWindow@{MainWindow}!generalGenerationNumber@{generalGenerationNumber}}
+\index{generalGenerationNumber@{generalGenerationNumber}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{generalGenerationNumber()}{generalGenerationNumber()}}
+{\footnotesize\ttfamily std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ Main\+Window\+::general\+Generation\+Number (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{size\+\_\+t}]{so\+Far,  }\item[{size\+\_\+t}]{barrier,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{container,  }\item[{bool}]{up,  }\item[{std\+::function$<$ std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$(\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}, size\+\_\+t, size\+\_\+t)$>$}]{func }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Compute recursively the maximum number of younger or older generations for the given person. 
+\begin{DoxyParams}{Parameters}
+{\em p} & Given person. \\
+\hline
+{\em so\+Far} & What is the depth so far. \\
+\hline
+{\em barrier} & How many more generations to show. \\
+\hline
+{\em container} & Vector of relations in given direction. \\
+\hline
+{\em up} & If the direction is up or not. \\
+\hline
+{\em func} & Which function to recursively call. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+First is what is the width and second is the depth of the tree. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_a29e6b7c71d7fc0d53f67dcda6a910676}\label{classMainWindow_a29e6b7c71d7fc0d53f67dcda6a910676} 
+\index{MainWindow@{MainWindow}!importProject@{importProject}}
+\index{importProject@{importProject}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{importProject}{importProject}}
+{\footnotesize\ttfamily void Main\+Window\+::import\+Project (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Choose file to import from other project. 
+
+\Hypertarget{classMainWindow_a5553ef5d4ffc48fafa4efab34485b807}\label{classMainWindow_a5553ef5d4ffc48fafa4efab34485b807} 
+\index{MainWindow@{MainWindow}!importRootDir@{importRootDir}}
+\index{importRootDir@{importRootDir}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{importRootDir}{importRootDir}}
+{\footnotesize\ttfamily void Main\+Window\+::import\+Root\+Dir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Choose root directory of other project to import from. 
+
+\Hypertarget{classMainWindow_a42e01b95728c67a138364dd8d5f9ede6}\label{classMainWindow_a42e01b95728c67a138364dd8d5f9ede6} 
+\index{MainWindow@{MainWindow}!importTemplates@{importTemplates}}
+\index{importTemplates@{importTemplates}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{importTemplates}{importTemplates}}
+{\footnotesize\ttfamily void Main\+Window\+::import\+Templates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Choose file to import templates. 
+
+\Hypertarget{classMainWindow_aee947d6dc5064939b94b103a093a2827}\label{classMainWindow_aee947d6dc5064939b94b103a093a2827} 
+\index{MainWindow@{MainWindow}!initializeProjectSubView@{initializeProjectSubView}}
+\index{initializeProjectSubView@{initializeProjectSubView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{initializeProjectSubView()}{initializeProjectSubView()}}
+{\footnotesize\ttfamily void Main\+Window\+::initialize\+Project\+Sub\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{parent,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialize all sub-\/folder for item in project. 
+\begin{DoxyParams}{Parameters}
+{\em parent} & Parent item holding these sub items. \\
+\hline
+{\em person} & To which person it is bounded to. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_aee962184363e35a07dc3fcfe73aaad0c}\label{classMainWindow_aee962184363e35a07dc3fcfe73aaad0c} 
+\index{MainWindow@{MainWindow}!initializeProjectView@{initializeProjectView}}
+\index{initializeProjectView@{initializeProjectView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{initializeProjectView()}{initializeProjectView()}}
+{\footnotesize\ttfamily void Main\+Window\+::initialize\+Project\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Initialize project view when loading new family tree. 
+
+\Hypertarget{classMainWindow_a40ff6754c8381d6d599a59397b388b82}\label{classMainWindow_a40ff6754c8381d6d599a59397b388b82} 
+\index{MainWindow@{MainWindow}!interractWithProjectItem@{interractWithProjectItem}}
+\index{interractWithProjectItem@{interractWithProjectItem}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{interractWithProjectItem}{interractWithProjectItem}}
+{\footnotesize\ttfamily void Main\+Window\+::interract\+With\+Project\+Item (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Show the project item upon clicking it. It depends on the type of the item. For files open the file (same for notes and media) for person select it as a main. For events and relations open dialog with editing them. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked on. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a9bb1f3b7f6b5360abfd2dc01fc1c8930}\label{classMainWindow_a9bb1f3b7f6b5360abfd2dc01fc1c8930} 
+\index{MainWindow@{MainWindow}!loadSettings@{loadSettings}}
+\index{loadSettings@{loadSettings}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{loadSettings()}{loadSettings()}}
+{\footnotesize\ttfamily void Main\+Window\+::load\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Load the setting from configuration. 
+
+\Hypertarget{classMainWindow_a98d10e87aed112e533f235f1bf6119fb}\label{classMainWindow_a98d10e87aed112e533f235f1bf6119fb} 
+\index{MainWindow@{MainWindow}!olderGenerationNumber@{olderGenerationNumber}}
+\index{olderGenerationNumber@{olderGenerationNumber}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{olderGenerationNumber()}{olderGenerationNumber()}}
+{\footnotesize\ttfamily std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ Main\+Window\+::older\+Generation\+Number (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{int}]{so\+Far,  }\item[{size\+\_\+t}]{barrier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Get the number of upper generations for a person. 
+\begin{DoxyParams}{Parameters}
+{\em p} & Which person we are looking at. \\
+\hline
+{\em so\+Far} & What is the number so far to the person p. \\
+\hline
+{\em barrier} & How more generations to show. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+First is what is the maximum to the width and second is how high the tree is. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_a38cd26435a6049a6b7a9f9f04c35fd9d}\label{classMainWindow_a38cd26435a6049a6b7a9f9f04c35fd9d} 
+\index{MainWindow@{MainWindow}!openBirthDateDialog@{openBirthDateDialog}}
+\index{openBirthDateDialog@{openBirthDateDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openBirthDateDialog}{openBirthDateDialog}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Birth\+Date\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for custom Birth \doxylink{classDate}{Date}. 
+
+\Hypertarget{classMainWindow_aa10e18b0d38bcd41185bc451e025e160}\label{classMainWindow_aa10e18b0d38bcd41185bc451e025e160} 
+\index{MainWindow@{MainWindow}!openCustomDateDialog@{openCustomDateDialog}}
+\index{openCustomDateDialog@{openCustomDateDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openCustomDateDialog()}{openCustomDateDialog()}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Custom\+Date\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*}}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Open custom date dialog for a date. 
+\begin{DoxyParams}{Parameters}
+{\em date} & Pointer to the date, that is being edited. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a33c9b35d1c80b3f41f82f1ee4eada906}\label{classMainWindow_a33c9b35d1c80b3f41f82f1ee4eada906} 
+\index{MainWindow@{MainWindow}!openDeathDateDialog@{openDeathDateDialog}}
+\index{openDeathDateDialog@{openDeathDateDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openDeathDateDialog}{openDeathDateDialog}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Death\+Date\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for custom Death \doxylink{classDate}{Date}. 
+
+\Hypertarget{classMainWindow_ae04e08f45a96e149b08fb773b6a726c2}\label{classMainWindow_ae04e08f45a96e149b08fb773b6a726c2} 
+\index{MainWindow@{MainWindow}!openEventTemplatesDialog@{openEventTemplatesDialog}}
+\index{openEventTemplatesDialog@{openEventTemplatesDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openEventTemplatesDialog}{openEventTemplatesDialog}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Event\+Templates\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open event templates dialog. 
+
+\Hypertarget{classMainWindow_a642ea164720d5f1fb7be49043063b5fc}\label{classMainWindow_a642ea164720d5f1fb7be49043063b5fc} 
+\index{MainWindow@{MainWindow}!openExistingProject@{openExistingProject}}
+\index{openExistingProject@{openExistingProject}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openExistingProject}{openExistingProject}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Existing\+Project (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open existing root directory of a project. 
+
+\Hypertarget{classMainWindow_aebaa3b4a9950970ccdc283293f791c28}\label{classMainWindow_aebaa3b4a9950970ccdc283293f791c28} 
+\index{MainWindow@{MainWindow}!openExternalFile@{openExternalFile}}
+\index{openExternalFile@{openExternalFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openExternalFile()}{openExternalFile()}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+External\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+URL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Open general file in an external app using QDesktop\+Service if possible otherwise opening with a command. 
+\begin{DoxyParams}{Parameters}
+{\em file\+URL} & URL to the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_aee32be00e99b9b0bb2a94b1ed8094565}\label{classMainWindow_aee32be00e99b9b0bb2a94b1ed8094565} 
+\index{MainWindow@{MainWindow}!openGeneralFile@{openGeneralFile}}
+\index{openGeneralFile@{openGeneralFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openGeneralFile()}{openGeneralFile()}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+General\+File (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Open file after double clicking it. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked. \\
+\hline
+{\em type} & What is the type of the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_aa339c149c8499c7df8720b58b2062df5}\label{classMainWindow_aa339c149c8499c7df8720b58b2062df5} 
+\index{MainWindow@{MainWindow}!openGeneralProject@{openGeneralProject}}
+\index{openGeneralProject@{openGeneralProject}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openGeneralProject()}{openGeneralProject()}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+General\+Project (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dir\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Open general project by opening existing one from the list or new one. 
+\begin{DoxyParams}{Parameters}
+{\em dir\+Path} & Path to root directory of the project. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a9127bab6750d6eb5711c6d5124b69b1f}\label{classMainWindow_a9127bab6750d6eb5711c6d5124b69b1f} 
+\index{MainWindow@{MainWindow}!openGraphicSettings@{openGraphicSettings}}
+\index{openGraphicSettings@{openGraphicSettings}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openGraphicSettings}{openGraphicSettings}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Graphic\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for graphic settings. 
+
+\Hypertarget{classMainWindow_ab932359eb5492b245093a864fdfe4950}\label{classMainWindow_ab932359eb5492b245093a864fdfe4950} 
+\index{MainWindow@{MainWindow}!openNewFamilyTreeProject@{openNewFamilyTreeProject}}
+\index{openNewFamilyTreeProject@{openNewFamilyTreeProject}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openNewFamilyTreeProject}{openNewFamilyTreeProject}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+New\+Family\+Tree\+Project (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open new empty project. 
+
+\Hypertarget{classMainWindow_aaa1d5c7ef0c3382a3f8431d34ee7337b}\label{classMainWindow_aaa1d5c7ef0c3382a3f8431d34ee7337b} 
+\index{MainWindow@{MainWindow}!openRelationTemplatesDialog@{openRelationTemplatesDialog}}
+\index{openRelationTemplatesDialog@{openRelationTemplatesDialog}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openRelationTemplatesDialog}{openRelationTemplatesDialog}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Relation\+Templates\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open relation templates dialog. 
+
+\Hypertarget{classMainWindow_a73b30bc98ce85a3a2581203300ee0077}\label{classMainWindow_a73b30bc98ce85a3a2581203300ee0077} 
+\index{MainWindow@{MainWindow}!openSelectedFile@{openSelectedFile}}
+\index{openSelectedFile@{openSelectedFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openSelectedFile}{openSelectedFile}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Selected\+File (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Open file after double clicking it. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked on. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a5e33f59e05f34e8f4dd41741bdcb00c3}\label{classMainWindow_a5e33f59e05f34e8f4dd41741bdcb00c3} 
+\index{MainWindow@{MainWindow}!openSelectedMedia@{openSelectedMedia}}
+\index{openSelectedMedia@{openSelectedMedia}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openSelectedMedia}{openSelectedMedia}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Selected\+Media (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Open media after double clicking it. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked on. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_acee631e1a8a952c63525d1d049a17767}\label{classMainWindow_acee631e1a8a952c63525d1d049a17767} 
+\index{MainWindow@{MainWindow}!openSelectedNote@{openSelectedNote}}
+\index{openSelectedNote@{openSelectedNote}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{openSelectedNote}{openSelectedNote}}
+{\footnotesize\ttfamily void Main\+Window\+::open\+Selected\+Note (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Open note after double clicking it. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked on. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_adffdb6ddccf8828b4ca0e6267a18328b}\label{classMainWindow_adffdb6ddccf8828b4ca0e6267a18328b} 
+\index{MainWindow@{MainWindow}!promoteRelation@{promoteRelation}}
+\index{promoteRelation@{promoteRelation}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{promoteRelation}{promoteRelation}}
+{\footnotesize\ttfamily void Main\+Window\+::promote\+Relation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Promote current relation. 
+
+\Hypertarget{classMainWindow_ab445fb931ccb39b8e571188c2c01ca62}\label{classMainWindow_ab445fb931ccb39b8e571188c2c01ca62} 
+\index{MainWindow@{MainWindow}!refreshDates@{refreshDates}}
+\index{refreshDates@{refreshDates}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshDates}{refreshDates}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Dates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh all dates in persons info tab. 
+
+\Hypertarget{classMainWindow_aa83bcd1768ec42dc24d24640824ecb06}\label{classMainWindow_aa83bcd1768ec42dc24d24640824ecb06} 
+\index{MainWindow@{MainWindow}!refreshEventTab@{refreshEventTab}}
+\index{refreshEventTab@{refreshEventTab}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshEventTab}{refreshEventTab}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Event\+Tab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh list with events. 
+
+\Hypertarget{classMainWindow_a3ff5541d9f84eae0dc78e55ef01ba850}\label{classMainWindow_a3ff5541d9f84eae0dc78e55ef01ba850} 
+\index{MainWindow@{MainWindow}!refreshGraphics@{refreshGraphics}}
+\index{refreshGraphics@{refreshGraphics}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshGraphics}{refreshGraphics}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Graphics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh all graphics. 
+
+\Hypertarget{classMainWindow_a7eaae071f5c4a96ba46c6e66bc5f5310}\label{classMainWindow_a7eaae071f5c4a96ba46c6e66bc5f5310} 
+\index{MainWindow@{MainWindow}!refreshPersonsInfoTab@{refreshPersonsInfoTab}}
+\index{refreshPersonsInfoTab@{refreshPersonsInfoTab}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshPersonsInfoTab()}{refreshPersonsInfoTab()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Persons\+Info\+Tab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Refresh basic information about main person. 
+
+\Hypertarget{classMainWindow_aea4e8b54e5edd6890f5c1adbf1121a14}\label{classMainWindow_aea4e8b54e5edd6890f5c1adbf1121a14} 
+\index{MainWindow@{MainWindow}!refreshProjectEventsView@{refreshProjectEventsView}}
+\index{refreshProjectEventsView@{refreshProjectEventsView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectEventsView()}{refreshProjectEventsView()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+Events\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Refresh project view for events. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Group item for all events. \\
+\hline
+{\em person} & For which person we are showing events. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a1d6b7def43e4dbefa20f1f21f460e913}\label{classMainWindow_a1d6b7def43e4dbefa20f1f21f460e913} 
+\index{MainWindow@{MainWindow}!refreshProjectFilesView@{refreshProjectFilesView}}
+\index{refreshProjectFilesView@{refreshProjectFilesView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectFilesView()}{refreshProjectFilesView()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+Files\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Refresh project view for files. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Group item for all files. \\
+\hline
+{\em person} & For which person we are showing files. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a18fa2c4be34851221c0f82da1eb55bdf}\label{classMainWindow_a18fa2c4be34851221c0f82da1eb55bdf} 
+\index{MainWindow@{MainWindow}!refreshProjectGeneralFilesView@{refreshProjectGeneralFilesView}}
+\index{refreshProjectGeneralFilesView@{refreshProjectGeneralFilesView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectGeneralFilesView()}{refreshProjectGeneralFilesView()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+General\+Files\+View (\begin{DoxyParamCaption}\item[{const QIcon \&}]{container\+Icon,  }\item[{const QString \&}]{container\+Name,  }\item[{const QIcon \&}]{file\+Icon,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type,  }\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Refresh project view with general files. 
+\begin{DoxyParams}{Parameters}
+{\em container\+Icon} & Icon of the container having all files. \\
+\hline
+{\em container\+Name} & Name of the container having all files. \\
+\hline
+{\em file\+Icon} & Icon for the file itself. \\
+\hline
+{\em type} & Type of the file. \\
+\hline
+{\em item} & Which item is the container. \\
+\hline
+{\em person} & To which person these containers are bounded. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ae97d24c013049f538dffd89862281535}\label{classMainWindow_ae97d24c013049f538dffd89862281535} 
+\index{MainWindow@{MainWindow}!refreshProjectMediaView@{refreshProjectMediaView}}
+\index{refreshProjectMediaView@{refreshProjectMediaView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectMediaView()}{refreshProjectMediaView()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+Media\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Refresh project view for media. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Group item for all media. \\
+\hline
+{\em person} & For which person we are showing media. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_addf1aaf1ade264df6c199396cec6f73f}\label{classMainWindow_addf1aaf1ade264df6c199396cec6f73f} 
+\index{MainWindow@{MainWindow}!refreshProjectNoteView@{refreshProjectNoteView}}
+\index{refreshProjectNoteView@{refreshProjectNoteView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectNoteView()}{refreshProjectNoteView()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+Note\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Refresh project view for notes. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Group item for all notes. \\
+\hline
+{\em person} & For which person we are showing notes. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ac7f5907d3d093efabc833ea1f89e4d15}\label{classMainWindow_ac7f5907d3d093efabc833ea1f89e4d15} 
+\index{MainWindow@{MainWindow}!refreshProjectRelationsView@{refreshProjectRelationsView}}
+\index{refreshProjectRelationsView@{refreshProjectRelationsView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectRelationsView()}{refreshProjectRelationsView()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+Relations\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProjectItem}{Project\+Item}} \texorpdfstring{$\ast$}{*}}]{item,  }\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Refresh project view for relations. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Group item for all relations. \\
+\hline
+{\em person} & For which person we are showing relations. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ab7ed6b1d9c108563808b7fdb51d57839}\label{classMainWindow_ab7ed6b1d9c108563808b7fdb51d57839} 
+\index{MainWindow@{MainWindow}!refreshProjectView@{refreshProjectView}}
+\index{refreshProjectView@{refreshProjectView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshProjectView}{refreshProjectView}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Project\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh the whole project that is shown. 
+
+\Hypertarget{classMainWindow_ac649c76a9a13f29e128c11813e95a037}\label{classMainWindow_ac649c76a9a13f29e128c11813e95a037} 
+\index{MainWindow@{MainWindow}!refreshRelationTab@{refreshRelationTab}}
+\index{refreshRelationTab@{refreshRelationTab}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshRelationTab}{refreshRelationTab}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Relation\+Tab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh relations lists. 
+
+\Hypertarget{classMainWindow_a92ed3932fe748d3dc0b2ecd2ca901db4}\label{classMainWindow_a92ed3932fe748d3dc0b2ecd2ca901db4} 
+\index{MainWindow@{MainWindow}!refreshTabsWithFiles@{refreshTabsWithFiles}}
+\index{refreshTabsWithFiles@{refreshTabsWithFiles}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshTabsWithFiles}{refreshTabsWithFiles}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Tabs\+With\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh all files tabs. 
+
+\Hypertarget{classMainWindow_a199843758a46db5ab64607e9803ff1d2}\label{classMainWindow_a199843758a46db5ab64607e9803ff1d2} 
+\index{MainWindow@{MainWindow}!refreshTagsList@{refreshTagsList}}
+\index{refreshTagsList@{refreshTagsList}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshTagsList}{refreshTagsList}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Tags\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh shown tags. 
+
+\Hypertarget{classMainWindow_a5d5f9b7aa93b32a2805275b45d8a3b75}\label{classMainWindow_a5d5f9b7aa93b32a2805275b45d8a3b75} 
+\index{MainWindow@{MainWindow}!refreshUi@{refreshUi}}
+\index{refreshUi@{refreshUi}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{refreshUi()}{refreshUi()}}
+{\footnotesize\ttfamily void Main\+Window\+::refresh\+Ui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Refresh the whole UI (tabs, project and graphics). 
+
+\Hypertarget{classMainWindow_aa50b6e18553aee63bb56af2b08170b61}\label{classMainWindow_aa50b6e18553aee63bb56af2b08170b61} 
+\index{MainWindow@{MainWindow}!removeEvent@{removeEvent}}
+\index{removeEvent@{removeEvent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeEvent}{removeEvent}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove event from family tree. 
+
+\Hypertarget{classMainWindow_a30466ed2bb09fa8a6ca5e5b428038662}\label{classMainWindow_a30466ed2bb09fa8a6ca5e5b428038662} 
+\index{MainWindow@{MainWindow}!removeFileFolder@{removeFileFolder}}
+\index{removeFileFolder@{removeFileFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeFileFolder}{removeFileFolder}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+File\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove file folder. 
+
+\Hypertarget{classMainWindow_a8a85302fe7e3302a9c9289e8022aab02}\label{classMainWindow_a8a85302fe7e3302a9c9289e8022aab02} 
+\index{MainWindow@{MainWindow}!removeGeneralFolder@{removeGeneralFolder}}
+\index{removeGeneralFolder@{removeGeneralFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeGeneralFolder()}{removeGeneralFolder()}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+General\+Folder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Remove folder from the tree widget. 
+\begin{DoxyParams}{Parameters}
+{\em type} & Which type is used. To determine which tree widget is used. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a04892923ca754bfd86d073e61aafaa5c}\label{classMainWindow_a04892923ca754bfd86d073e61aafaa5c} 
+\index{MainWindow@{MainWindow}!removeMediaFolder@{removeMediaFolder}}
+\index{removeMediaFolder@{removeMediaFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeMediaFolder}{removeMediaFolder}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+Media\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove media folder. 
+
+\Hypertarget{classMainWindow_a698c2ca30ee9ca6f8798e8713b7a9a12}\label{classMainWindow_a698c2ca30ee9ca6f8798e8713b7a9a12} 
+\index{MainWindow@{MainWindow}!removeNoteFolder@{removeNoteFolder}}
+\index{removeNoteFolder@{removeNoteFolder}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeNoteFolder}{removeNoteFolder}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+Note\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove note folder. 
+
+\Hypertarget{classMainWindow_aae88608b6f21b304047ae1f6bdea436c}\label{classMainWindow_aae88608b6f21b304047ae1f6bdea436c} 
+\index{MainWindow@{MainWindow}!removePerson@{removePerson}}
+\index{removePerson@{removePerson}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removePerson}{removePerson}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove main person. 
+
+\Hypertarget{classMainWindow_aacd45cac12838d0373aff0976fadaba8}\label{classMainWindow_aacd45cac12838d0373aff0976fadaba8} 
+\index{MainWindow@{MainWindow}!removeRelation@{removeRelation}}
+\index{removeRelation@{removeRelation}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeRelation}{removeRelation}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+Relation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove current relation. 
+
+\Hypertarget{classMainWindow_a8c3d9e122f4b9b2cfbfd23e9e0c525e2}\label{classMainWindow_a8c3d9e122f4b9b2cfbfd23e9e0c525e2} 
+\index{MainWindow@{MainWindow}!removeTag@{removeTag}}
+\index{removeTag@{removeTag}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{removeTag}{removeTag}}
+{\footnotesize\ttfamily void Main\+Window\+::remove\+Tag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Delete current tag selected on the person. 
+
+\Hypertarget{classMainWindow_a23b2cfdb9ea30a770dba0fbb3d24b40e}\label{classMainWindow_a23b2cfdb9ea30a770dba0fbb3d24b40e} 
+\index{MainWindow@{MainWindow}!renameFile@{renameFile}}
+\index{renameFile@{renameFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{renameFile}{renameFile}}
+{\footnotesize\ttfamily void Main\+Window\+::rename\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Rename file or folder with files. 
+
+\Hypertarget{classMainWindow_aeae445469e4c7acfabe15bcb61dcf301}\label{classMainWindow_aeae445469e4c7acfabe15bcb61dcf301} 
+\index{MainWindow@{MainWindow}!renameGeneralFileItem@{renameGeneralFileItem}}
+\index{renameGeneralFileItem@{renameGeneralFileItem}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{renameGeneralFileItem()}{renameGeneralFileItem()}}
+{\footnotesize\ttfamily void Main\+Window\+::rename\+General\+File\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Rename general file tree item. 
+\begin{DoxyParams}{Parameters}
+{\em type} & Which type is used. To determine which tree widget is used. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_af9cf7073252b8d94eaf5778a7d94228e}\label{classMainWindow_af9cf7073252b8d94eaf5778a7d94228e} 
+\index{MainWindow@{MainWindow}!renameMedia@{renameMedia}}
+\index{renameMedia@{renameMedia}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{renameMedia}{renameMedia}}
+{\footnotesize\ttfamily void Main\+Window\+::rename\+Media (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Rename media or folder with media. 
+
+\Hypertarget{classMainWindow_aeb8cc35add8479d11175a532bab68984}\label{classMainWindow_aeb8cc35add8479d11175a532bab68984} 
+\index{MainWindow@{MainWindow}!renameNote@{renameNote}}
+\index{renameNote@{renameNote}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{renameNote}{renameNote}}
+{\footnotesize\ttfamily void Main\+Window\+::rename\+Note (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Rename note or folder with notes. 
+
+\Hypertarget{classMainWindow_a5b47d1af893d5b72e379e292553e8f30}\label{classMainWindow_a5b47d1af893d5b72e379e292553e8f30} 
+\index{MainWindow@{MainWindow}!saveDatabase@{saveDatabase}}
+\index{saveDatabase@{saveDatabase}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{saveDatabase}{saveDatabase}}
+{\footnotesize\ttfamily bool Main\+Window\+::save\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Save the database. \begin{DoxyReturn}{Returns}
+If the database was stored. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_a06b100bdf8df7c09b0e0c5431fef8cf8}\label{classMainWindow_a06b100bdf8df7c09b0e0c5431fef8cf8} 
+\index{MainWindow@{MainWindow}!saveGraphicsSetting@{saveGraphicsSetting}}
+\index{saveGraphicsSetting@{saveGraphicsSetting}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{saveGraphicsSetting}{saveGraphicsSetting}}
+{\footnotesize\ttfamily void Main\+Window\+::save\+Graphics\+Setting (\begin{DoxyParamCaption}\item[{QColor}]{proband\+Color,  }\item[{QColor}]{promoted\+Color,  }\item[{QColor}]{standard\+Color,  }\item[{QColor}]{highlighted\+Color,  }\item[{int}]{sizeX,  }\item[{int}]{sizeY,  }\item[{QFont}]{font,  }\item[{QColor}]{line\+Color,  }\item[{QColor}]{text\+Color,  }\item[{int}]{line\+Width,  }\item[{int}]{rounding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Save graphics settings from its dialog. 
+\begin{DoxyParams}{Parameters}
+{\em proband\+Color} & \doxylink{structColor}{Color} used for proband. \\
+\hline
+{\em promoted\+Color} & \doxylink{structColor}{Color} for promoted Relations. \\
+\hline
+{\em standard\+Color} & Standard color. \\
+\hline
+{\em highlighted\+Color} & Highlighted color. \\
+\hline
+{\em sizeX} & Size of the box in x axis. \\
+\hline
+{\em sizeY} & Size of the box in y axis. \\
+\hline
+{\em font} & Used font for the text in the box. \\
+\hline
+{\em line\+Color} & \doxylink{structColor}{Color} for lines. \\
+\hline
+{\em text\+Color} & \doxylink{structColor}{Color} for texts. \\
+\hline
+{\em line\+Width} & Width of the lines. \\
+\hline
+{\em rounding} & Rounding of the boxes. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a22402630b7349c29cdb06884ab28f91e}\label{classMainWindow_a22402630b7349c29cdb06884ab28f91e} 
+\index{MainWindow@{MainWindow}!savePersonsInfo@{savePersonsInfo}}
+\index{savePersonsInfo@{savePersonsInfo}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{savePersonsInfo()}{savePersonsInfo()}}
+{\footnotesize\ttfamily void Main\+Window\+::save\+Persons\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Save all basic information about main person. 
+
+\Hypertarget{classMainWindow_ab74e6dca2ced7ac796a4591fda418f4e}\label{classMainWindow_ab74e6dca2ced7ac796a4591fda418f4e} 
+\index{MainWindow@{MainWindow}!selectOlderGenerationOnly@{selectOlderGenerationOnly}}
+\index{selectOlderGenerationOnly@{selectOlderGenerationOnly}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{selectOlderGenerationOnly}{selectOlderGenerationOnly}}
+{\footnotesize\ttfamily void Main\+Window\+::select\+Older\+Generation\+Only (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+De-\/select all other relation boxes other than older. 
+
+\Hypertarget{classMainWindow_a040c746093eafe2f17844c69c21ed041}\label{classMainWindow_a040c746093eafe2f17844c69c21ed041} 
+\index{MainWindow@{MainWindow}!selectSameGenerationOnly@{selectSameGenerationOnly}}
+\index{selectSameGenerationOnly@{selectSameGenerationOnly}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{selectSameGenerationOnly}{selectSameGenerationOnly}}
+{\footnotesize\ttfamily void Main\+Window\+::select\+Same\+Generation\+Only (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+De-\/select all other relation boxes other than same. 
+
+\Hypertarget{classMainWindow_a575d8582a891fecae3a7b5f8e65f9e05}\label{classMainWindow_a575d8582a891fecae3a7b5f8e65f9e05} 
+\index{MainWindow@{MainWindow}!selectYoungerGenerationOnly@{selectYoungerGenerationOnly}}
+\index{selectYoungerGenerationOnly@{selectYoungerGenerationOnly}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{selectYoungerGenerationOnly}{selectYoungerGenerationOnly}}
+{\footnotesize\ttfamily void Main\+Window\+::select\+Younger\+Generation\+Only (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+De-\/select all other relation boxes other than younger. 
+
+\Hypertarget{classMainWindow_a395bd4823b7e1bc571d37847b19886ba}\label{classMainWindow_a395bd4823b7e1bc571d37847b19886ba} 
+\index{MainWindow@{MainWindow}!setEnabledDeathAtributes@{setEnabledDeathAtributes}}
+\index{setEnabledDeathAtributes@{setEnabledDeathAtributes}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setEnabledDeathAtributes}{setEnabledDeathAtributes}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Enabled\+Death\+Atributes (\begin{DoxyParamCaption}\item[{bool}]{disabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Change the visibility of all widgets related to death attributes. 
+\begin{DoxyParams}{Parameters}
+{\em disabled} & If the widgets should be disabled or not. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a8fd02ad6a4d6aff3be44ec6a244de75d}\label{classMainWindow_a8fd02ad6a4d6aff3be44ec6a244de75d} 
+\index{MainWindow@{MainWindow}!setEventTabVisible@{setEventTabVisible}}
+\index{setEventTabVisible@{setEventTabVisible}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setEventTabVisible}{setEventTabVisible}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Event\+Tab\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide or show the event tab. 
+
+\Hypertarget{classMainWindow_a3dabfbabf3ceedc886badc3962d8202f}\label{classMainWindow_a3dabfbabf3ceedc886badc3962d8202f} 
+\index{MainWindow@{MainWindow}!setFileTabVisible@{setFileTabVisible}}
+\index{setFileTabVisible@{setFileTabVisible}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setFileTabVisible}{setFileTabVisible}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+File\+Tab\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide or show the file tab. 
+
+\Hypertarget{classMainWindow_a399668b12c75e8058601b6d2ba66f98c}\label{classMainWindow_a399668b12c75e8058601b6d2ba66f98c} 
+\index{MainWindow@{MainWindow}!setGeneralTabVisible@{setGeneralTabVisible}}
+\index{setGeneralTabVisible@{setGeneralTabVisible}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setGeneralTabVisible}{setGeneralTabVisible}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+General\+Tab\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide or show the general tab. 
+
+\Hypertarget{classMainWindow_aced6be9afe2cba5e460add81b02e7a02}\label{classMainWindow_aced6be9afe2cba5e460add81b02e7a02} 
+\index{MainWindow@{MainWindow}!setMainPerson@{setMainPerson}}
+\index{setMainPerson@{setMainPerson}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setMainPerson}{setMainPerson}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Main\+Person (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{person\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Set the main person by clicking on graphics item. 
+\begin{DoxyParams}{Parameters}
+{\em person\+Id} & \doxylink{classPerson}{Person} id in the clicked box. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a67699b8984c371b3b1609def7f1c9dba}\label{classMainWindow_a67699b8984c371b3b1609def7f1c9dba} 
+\index{MainWindow@{MainWindow}!setMediaTabVisible@{setMediaTabVisible}}
+\index{setMediaTabVisible@{setMediaTabVisible}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setMediaTabVisible}{setMediaTabVisible}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Media\+Tab\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide or show the media tab. 
+
+\Hypertarget{classMainWindow_a79d56bcfd9b90a44ae7f351d21a7ad4f}\label{classMainWindow_a79d56bcfd9b90a44ae7f351d21a7ad4f} 
+\index{MainWindow@{MainWindow}!setNoteTabVisible@{setNoteTabVisible}}
+\index{setNoteTabVisible@{setNoteTabVisible}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setNoteTabVisible}{setNoteTabVisible}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Note\+Tab\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide or show the note tab. 
+
+\Hypertarget{classMainWindow_a88195dd879b8860ced89d21411ba3c06}\label{classMainWindow_a88195dd879b8860ced89d21411ba3c06} 
+\index{MainWindow@{MainWindow}!setNumberOfGenerations@{setNumberOfGenerations}}
+\index{setNumberOfGenerations@{setNumberOfGenerations}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setNumberOfGenerations()}{setNumberOfGenerations()}}
+{\footnotesize\ttfamily std\+::pair$<$ int, int $>$ Main\+Window\+::set\+Number\+Of\+Generations (\begin{DoxyParamCaption}\item[{int}]{up,  }\item[{int}]{down }\end{DoxyParamCaption})}
+
+Set the number of generations to show. 
+\begin{DoxyParams}{Parameters}
+{\em up} & Number of generations above (older). \\
+\hline
+{\em down} & Number of generations below (younger). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Values that were set before (in the same order, first up then down). 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_a4bf9b5190d3e8a751478852cafdbf164}\label{classMainWindow_a4bf9b5190d3e8a751478852cafdbf164} 
+\index{MainWindow@{MainWindow}!setRelationTabVisible@{setRelationTabVisible}}
+\index{setRelationTabVisible@{setRelationTabVisible}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setRelationTabVisible}{setRelationTabVisible}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Relation\+Tab\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Hide or show the relation tab. 
+
+\Hypertarget{classMainWindow_ad51e0765ee864a8dcc3fef529df32c43}\label{classMainWindow_ad51e0765ee864a8dcc3fef529df32c43} 
+\index{MainWindow@{MainWindow}!setTabEast@{setTabEast}}
+\index{setTabEast@{setTabEast}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setTabEast}{setTabEast}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Tab\+East (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Set the setting of the tab to east. 
+
+\Hypertarget{classMainWindow_a08ff880bd6b293230be181715670bf75}\label{classMainWindow_a08ff880bd6b293230be181715670bf75} 
+\index{MainWindow@{MainWindow}!setTabNorth@{setTabNorth}}
+\index{setTabNorth@{setTabNorth}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setTabNorth}{setTabNorth}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Tab\+North (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Set the setting of the tab to north. 
+
+\Hypertarget{classMainWindow_ad8530f842c1fc27d08340055a38b33c8}\label{classMainWindow_ad8530f842c1fc27d08340055a38b33c8} 
+\index{MainWindow@{MainWindow}!setTabSouth@{setTabSouth}}
+\index{setTabSouth@{setTabSouth}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setTabSouth}{setTabSouth}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Tab\+South (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Set the setting of the tab to south. 
+
+\Hypertarget{classMainWindow_a816c06eef81b9fbb9e545c395a52b081}\label{classMainWindow_a816c06eef81b9fbb9e545c395a52b081} 
+\index{MainWindow@{MainWindow}!setTabWest@{setTabWest}}
+\index{setTabWest@{setTabWest}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setTabWest}{setTabWest}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Tab\+West (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Set the setting of the tab to west. 
+
+\Hypertarget{classMainWindow_ac54e4dd892488a7f791d8295ef6af84e}\label{classMainWindow_ac54e4dd892488a7f791d8295ef6af84e} 
+\index{MainWindow@{MainWindow}!setUiElements@{setUiElements}}
+\index{setUiElements@{setUiElements}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{setUiElements()}{setUiElements()}}
+{\footnotesize\ttfamily void Main\+Window\+::set\+Ui\+Elements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Set all additional static widgets of the user interface. 
+
+\Hypertarget{classMainWindow_a1e826674188813d91e7dac099e1f87ae}\label{classMainWindow_a1e826674188813d91e7dac099e1f87ae} 
+\index{MainWindow@{MainWindow}!showGeneralFiles@{showGeneralFiles}}
+\index{showGeneralFiles@{showGeneralFiles}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{showGeneralFiles()}{showGeneralFiles()}}
+{\footnotesize\ttfamily void Main\+Window\+::show\+General\+Files (\begin{DoxyParamCaption}\item[{QTree\+Widget \texorpdfstring{$\ast$}{*}}]{widget,  }\item[{\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*}}]{root,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Show files from container to its widget. 
+\begin{DoxyParams}{Parameters}
+{\em widget} & QTree\+Widget to show all the files. \\
+\hline
+{\em root} & Root folder of all files. \\
+\hline
+{\em type} & Which type of files are going to be displayed. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_a3111788b36503e5ae8eabef2b32a6f62}\label{classMainWindow_a3111788b36503e5ae8eabef2b32a6f62} 
+\index{MainWindow@{MainWindow}!showHelp@{showHelp}}
+\index{showHelp@{showHelp}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{showHelp}{showHelp}}
+{\footnotesize\ttfamily void Main\+Window\+::show\+Help (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show generic help. 
+
+\Hypertarget{classMainWindow_a1b55b75da3f2c198028fa12bc689d5fd}\label{classMainWindow_a1b55b75da3f2c198028fa12bc689d5fd} 
+\index{MainWindow@{MainWindow}!showRenameFile@{showRenameFile}}
+\index{showRenameFile@{showRenameFile}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{showRenameFile}{showRenameFile}}
+{\footnotesize\ttfamily void Main\+Window\+::show\+Rename\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show prompt for renaming file. 
+
+\Hypertarget{classMainWindow_a71bad6ec09a07f54621af1b607d69171}\label{classMainWindow_a71bad6ec09a07f54621af1b607d69171} 
+\index{MainWindow@{MainWindow}!showRenameMedia@{showRenameMedia}}
+\index{showRenameMedia@{showRenameMedia}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{showRenameMedia}{showRenameMedia}}
+{\footnotesize\ttfamily void Main\+Window\+::show\+Rename\+Media (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show prompt for renaming media. 
+
+\Hypertarget{classMainWindow_a1938bff82434e4f3a3f6fcd085203bd8}\label{classMainWindow_a1938bff82434e4f3a3f6fcd085203bd8} 
+\index{MainWindow@{MainWindow}!showRenameNote@{showRenameNote}}
+\index{showRenameNote@{showRenameNote}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{showRenameNote}{showRenameNote}}
+{\footnotesize\ttfamily void Main\+Window\+::show\+Rename\+Note (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show prompt for renaming note. 
+
+\Hypertarget{classMainWindow_a2fcd4e8d1fab860bd54e716e7890511e}\label{classMainWindow_a2fcd4e8d1fab860bd54e716e7890511e} 
+\index{MainWindow@{MainWindow}!splitterChanged@{splitterChanged}}
+\index{splitterChanged@{splitterChanged}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{splitterChanged}{splitterChanged}}
+{\footnotesize\ttfamily void Main\+Window\+::splitter\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+When the splitter changed. 
+
+\Hypertarget{classMainWindow_a87fb43cdcc9a93dac7398f12f1858024}\label{classMainWindow_a87fb43cdcc9a93dac7398f12f1858024} 
+\index{MainWindow@{MainWindow}!switchNewTreeProject@{switchNewTreeProject}}
+\index{switchNewTreeProject@{switchNewTreeProject}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{switchNewTreeProject}{switchNewTreeProject}}
+{\footnotesize\ttfamily void Main\+Window\+::switch\+New\+Tree\+Project (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save tree and create new empty tree to show. 
+
+\Hypertarget{classMainWindow_a9b228c0521eaed291ee4f5d6d3e5aebf}\label{classMainWindow_a9b228c0521eaed291ee4f5d6d3e5aebf} 
+\index{MainWindow@{MainWindow}!youngerGenerationNumber@{youngerGenerationNumber}}
+\index{youngerGenerationNumber@{youngerGenerationNumber}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{youngerGenerationNumber()}{youngerGenerationNumber()}}
+{\footnotesize\ttfamily std\+::pair$<$ size\+\_\+t, size\+\_\+t $>$ Main\+Window\+::younger\+Generation\+Number (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{p,  }\item[{size\+\_\+t}]{so\+Far,  }\item[{size\+\_\+t}]{barrier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Compute the maximum number of younger generations of the person. 
+\begin{DoxyParams}{Parameters}
+{\em p} & Given person. \\
+\hline
+{\em so\+Far} & What is the depth so far. \\
+\hline
+{\em barrier} & How more generations to show. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+First is what is the maximum to the width and second is how deep the tree is. 
+\end{DoxyReturn}
+\Hypertarget{classMainWindow_aa13e39ece777521d3f176155899309a6}\label{classMainWindow_aa13e39ece777521d3f176155899309a6} 
+\index{MainWindow@{MainWindow}!zoomIn@{zoomIn}}
+\index{zoomIn@{zoomIn}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{zoomIn}{zoomIn}}
+{\footnotesize\ttfamily void Main\+Window\+::zoom\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Zoom in on the family tree view. 
+
+\Hypertarget{classMainWindow_a21d4700dd4bc51216443a4c788b85892}\label{classMainWindow_a21d4700dd4bc51216443a4c788b85892} 
+\index{MainWindow@{MainWindow}!zoomOut@{zoomOut}}
+\index{zoomOut@{zoomOut}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{zoomOut}{zoomOut}}
+{\footnotesize\ttfamily void Main\+Window\+::zoom\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Zoom out of the family tree view. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classMainWindow_aed7a60706beeb9f285e5c2f182c22af6}\label{classMainWindow_aed7a60706beeb9f285e5c2f182c22af6} 
+\index{MainWindow@{MainWindow}!borderRadius\_@{borderRadius\_}}
+\index{borderRadius\_@{borderRadius\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{borderRadius\_}{borderRadius\_}}
+{\footnotesize\ttfamily int Main\+Window\+::border\+Radius\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Radius of the boxes. 
+
+\Hypertarget{classMainWindow_a33bbe0d96e74dbbecf39cc5db51b2164}\label{classMainWindow_a33bbe0d96e74dbbecf39cc5db51b2164} 
+\index{MainWindow@{MainWindow}!font\_@{font\_}}
+\index{font\_@{font\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{font\_}{font\_}}
+{\footnotesize\ttfamily QFont Main\+Window\+::font\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used font for view. 
+
+\Hypertarget{classMainWindow_af3cf3eb9d7bb7b9f1f2de0e4f4ed10d8}\label{classMainWindow_af3cf3eb9d7bb7b9f1f2de0e4f4ed10d8} 
+\index{MainWindow@{MainWindow}!FT@{FT}}
+\index{FT@{FT}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{FT}{FT}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}} Main\+Window\+::\+FT\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Family tree. 
+
+\Hypertarget{classMainWindow_a0faff22cef9af0b223acfcb586cf51f2}\label{classMainWindow_a0faff22cef9af0b223acfcb586cf51f2} 
+\index{MainWindow@{MainWindow}!genSizeDown\_@{genSizeDown\_}}
+\index{genSizeDown\_@{genSizeDown\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{genSizeDown\_}{genSizeDown\_}}
+{\footnotesize\ttfamily int Main\+Window\+::gen\+Size\+Down\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+How many generations to show in tree view down. 
+
+\Hypertarget{classMainWindow_acdc6cae1d5d758ed22852f7b5af91877}\label{classMainWindow_acdc6cae1d5d758ed22852f7b5af91877} 
+\index{MainWindow@{MainWindow}!genSizeUp\_@{genSizeUp\_}}
+\index{genSizeUp\_@{genSizeUp\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{genSizeUp\_}{genSizeUp\_}}
+{\footnotesize\ttfamily int Main\+Window\+::gen\+Size\+Up\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+How many generations to show in tree view up. 
+
+\Hypertarget{classMainWindow_a2b1ceac9ea3c3e6bb3216905a32012e1}\label{classMainWindow_a2b1ceac9ea3c3e6bb3216905a32012e1} 
+\index{MainWindow@{MainWindow}!highlightedColor\_@{highlightedColor\_}}
+\index{highlightedColor\_@{highlightedColor\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{highlightedColor\_}{highlightedColor\_}}
+{\footnotesize\ttfamily QColor Main\+Window\+::highlighted\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for highlighted boxes. 
+
+\Hypertarget{classMainWindow_ab76a87a325d6edc5f45d93839c8a6af8}\label{classMainWindow_ab76a87a325d6edc5f45d93839c8a6af8} 
+\index{MainWindow@{MainWindow}!linePen\_@{linePen\_}}
+\index{linePen\_@{linePen\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{linePen\_}{linePen\_}}
+{\footnotesize\ttfamily QPen Main\+Window\+::line\+Pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pen used for drawing lines. 
+
+\Hypertarget{classMainWindow_a4af8c12b14d43dd745b91fde56e211d4}\label{classMainWindow_a4af8c12b14d43dd745b91fde56e211d4} 
+\index{MainWindow@{MainWindow}!probandColor\_@{probandColor\_}}
+\index{probandColor\_@{probandColor\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{probandColor\_}{probandColor\_}}
+{\footnotesize\ttfamily QColor Main\+Window\+::proband\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} of proband. 
+
+\Hypertarget{classMainWindow_ac773a3b34a5615e147c5645feb641652}\label{classMainWindow_ac773a3b34a5615e147c5645feb641652} 
+\index{MainWindow@{MainWindow}!promotedColor\_@{promotedColor\_}}
+\index{promotedColor\_@{promotedColor\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{promotedColor\_}{promotedColor\_}}
+{\footnotesize\ttfamily QColor Main\+Window\+::promoted\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for promoted father, mother and partner. 
+
+\Hypertarget{classMainWindow_a51ac2b126495216832501cea3929c6f6}\label{classMainWindow_a51ac2b126495216832501cea3929c6f6} 
+\index{MainWindow@{MainWindow}!scene@{scene}}
+\index{scene@{scene}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{scene}{scene}}
+{\footnotesize\ttfamily QGraphics\+Scene\texorpdfstring{$\ast$}{*} Main\+Window\+::scene\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Scene shown on the graphical view. 
+
+\Hypertarget{classMainWindow_a8fb725377fd009403a69509cbf04375e}\label{classMainWindow_a8fb725377fd009403a69509cbf04375e} 
+\index{MainWindow@{MainWindow}!sizeX\_@{sizeX\_}}
+\index{sizeX\_@{sizeX\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{sizeX\_}{sizeX\_}}
+{\footnotesize\ttfamily int Main\+Window\+::size\+X\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+X size of the person box. 
+
+\Hypertarget{classMainWindow_a2a4c9bf1ff77b1cd7d90e28c0672775f}\label{classMainWindow_a2a4c9bf1ff77b1cd7d90e28c0672775f} 
+\index{MainWindow@{MainWindow}!sizeY\_@{sizeY\_}}
+\index{sizeY\_@{sizeY\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{sizeY\_}{sizeY\_}}
+{\footnotesize\ttfamily int Main\+Window\+::size\+Y\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Y size of the person box. 
+
+\Hypertarget{classMainWindow_a5ade42c24237227386a175251df73409}\label{classMainWindow_a5ade42c24237227386a175251df73409} 
+\index{MainWindow@{MainWindow}!standardColor\_@{standardColor\_}}
+\index{standardColor\_@{standardColor\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{standardColor\_}{standardColor\_}}
+{\footnotesize\ttfamily QColor Main\+Window\+::standard\+Color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{structColor}{Color} for other relations. 
+
+\Hypertarget{classMainWindow_aa90b0c557de03d72edac3e0282fc5439}\label{classMainWindow_aa90b0c557de03d72edac3e0282fc5439} 
+\index{MainWindow@{MainWindow}!textPen\_@{textPen\_}}
+\index{textPen\_@{textPen\_}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{textPen\_}{textPen\_}}
+{\footnotesize\ttfamily QPen Main\+Window\+::text\+Pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pen used for texts. 
+
+\Hypertarget{classMainWindow_add1e424afda88e89a1d07466b137abec}\label{classMainWindow_add1e424afda88e89a1d07466b137abec} 
+\index{MainWindow@{MainWindow}!treeScene@{treeScene}}
+\index{treeScene@{treeScene}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{treeScene}{treeScene}}
+{\footnotesize\ttfamily QGraphics\+Scene\texorpdfstring{$\ast$}{*} Main\+Window\+::tree\+Scene\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tree view scene;. 
+
+\Hypertarget{classMainWindow_a6e436eb0d1df98dcd4c09785f07926b4}\label{classMainWindow_a6e436eb0d1df98dcd4c09785f07926b4} 
+\index{MainWindow@{MainWindow}!treeView@{treeView}}
+\index{treeView@{treeView}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{treeView}{treeView}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraphicsView}{Graphics\+View}}\texorpdfstring{$\ast$}{*} Main\+Window\+::tree\+View\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tree view graphics view. 
+
+\Hypertarget{classMainWindow_a35466a70ed47252a0191168126a352a5}\label{classMainWindow_a35466a70ed47252a0191168126a352a5} 
+\index{MainWindow@{MainWindow}!ui@{ui}}
+\index{ui@{ui}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Main\+Window\texorpdfstring{$\ast$}{*} Main\+Window\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Qt UI framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{mainwindow_8h}{mainwindow.\+h}}\item 
+graphics/\mbox{\hyperlink{mainwindow_8cpp}{mainwindow.\+cpp}}\item 
+graphics/\mbox{\hyperlink{mainwindow__slots_8cpp}{mainwindow\+\_\+slots.\+cpp}}\end{DoxyCompactItemize}

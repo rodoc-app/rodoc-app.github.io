@@ -1,0 +1,175 @@
+\doxysection{Cell\+Graphics\+Item Class Reference}
+\hypertarget{classCellGraphicsItem}{}\label{classCellGraphicsItem}\index{CellGraphicsItem@{CellGraphicsItem}}
+
+
+Cell around all relations.  
+
+
+
+
+{\ttfamily \#include $<$graphics\+\_\+items.\+h$>$}
+
+Inheritance diagram for Cell\+Graphics\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{da/d4b/classCellGraphicsItem}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCellGraphicsItem_ae891daa9b9d98861d18b617d81b00750}{Cell\+Graphics\+Item}} (int sizex, int sizey, qreal x, qreal y, QPen \texorpdfstring{$\ast$}{*}pen, int border\+Radius)
+\item 
+QRectF \mbox{\hyperlink{classCellGraphicsItem_a496dbfa2bbbdbfc8740d34f6f16cc220}{bounding\+Rect}} () const override
+\item 
+void \mbox{\hyperlink{classCellGraphicsItem_aac4c876cf93c441714bbfc1c9b5b36f3}{paint}} (QPainter \texorpdfstring{$\ast$}{*}painter, const QStyle\+Option\+Graphics\+Item \texorpdfstring{$\ast$}{*}option, QWidget \texorpdfstring{$\ast$}{*}widget) override
+\item 
+QPainter\+Path \mbox{\hyperlink{classCellGraphicsItem_a123699a4b88be87c2cc5dbca170fdf6c}{shape}} () const override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classCellGraphicsItem_a1a9152e5cf156208adb5d6ccdd5ed0c7}{border\+Radius\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Border radius. \end{DoxyCompactList}\item 
+QPen \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCellGraphicsItem_a8d05979e43edf7e7c87e0249be098cb2}{pen\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the used pen. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCellGraphicsItem_a6ffbf2ec6e8be3ae587356c4fd2eef64}{sizex\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Size of the cell in the x axis. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCellGraphicsItem_ab87392a358c1b2cbdc0464c8090df7b4}{sizey\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Size of the cell in the y axis. \end{DoxyCompactList}\item 
+qreal \mbox{\hyperlink{classCellGraphicsItem_a57a481d14312bf8426c02a23b6e5fe52}{x\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Top left point x position. \end{DoxyCompactList}\item 
+qreal \mbox{\hyperlink{classCellGraphicsItem_a130c36e3d1c33fa65146da1728995e08}{y\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Top left point y position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Cell around all relations. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCellGraphicsItem_ae891daa9b9d98861d18b617d81b00750}\label{classCellGraphicsItem_ae891daa9b9d98861d18b617d81b00750} 
+\index{CellGraphicsItem@{CellGraphicsItem}!CellGraphicsItem@{CellGraphicsItem}}
+\index{CellGraphicsItem@{CellGraphicsItem}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{CellGraphicsItem()}{CellGraphicsItem()}}
+{\footnotesize\ttfamily Cell\+Graphics\+Item\+::\+Cell\+Graphics\+Item (\begin{DoxyParamCaption}\item[{int}]{sizex,  }\item[{int}]{sizey,  }\item[{qreal}]{x,  }\item[{qreal}]{y,  }\item[{QPen \texorpdfstring{$\ast$}{*}}]{pen,  }\item[{int}]{border\+Radius }\end{DoxyParamCaption})}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em sizex} & Size of the cell in the x axis. \\
+\hline
+{\em sizey} & Size of the cell in the y axis. \\
+\hline
+{\em x} & Top left point x position. \\
+\hline
+{\em y} & Top left point y position. \\
+\hline
+{\em pen} & Which pen is used for lines. \\
+\hline
+{\em border\+Radius} & What is the radius of the border. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCellGraphicsItem_a496dbfa2bbbdbfc8740d34f6f16cc220}\label{classCellGraphicsItem_a496dbfa2bbbdbfc8740d34f6f16cc220} 
+\index{CellGraphicsItem@{CellGraphicsItem}!boundingRect@{boundingRect}}
+\index{boundingRect@{boundingRect}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{boundingRect()}{boundingRect()}}
+{\footnotesize\ttfamily QRectF Cell\+Graphics\+Item\+::bounding\+Rect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}}
+
+Get the bounding rectangle of the object. \begin{DoxyReturn}{Returns}
+Rectangle that is bounding the item. 
+\end{DoxyReturn}
+\Hypertarget{classCellGraphicsItem_aac4c876cf93c441714bbfc1c9b5b36f3}\label{classCellGraphicsItem_aac4c876cf93c441714bbfc1c9b5b36f3} 
+\index{CellGraphicsItem@{CellGraphicsItem}!paint@{paint}}
+\index{paint@{paint}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{paint()}{paint()}}
+{\footnotesize\ttfamily void Cell\+Graphics\+Item\+::paint (\begin{DoxyParamCaption}\item[{QPainter \texorpdfstring{$\ast$}{*}}]{painter,  }\item[{const QStyle\+Option\+Graphics\+Item \texorpdfstring{$\ast$}{*}}]{option,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{widget }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Paint the object to its painter. 
+\begin{DoxyParams}{Parameters}
+{\em painter} & Which painter to use to paint the object. \\
+\hline
+{\em option} & Option for the Qt framework (not used). \\
+\hline
+{\em widget} & Widget for the Qt framework (not used). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCellGraphicsItem_a123699a4b88be87c2cc5dbca170fdf6c}\label{classCellGraphicsItem_a123699a4b88be87c2cc5dbca170fdf6c} 
+\index{CellGraphicsItem@{CellGraphicsItem}!shape@{shape}}
+\index{shape@{shape}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{shape()}{shape()}}
+{\footnotesize\ttfamily QPainter\+Path Cell\+Graphics\+Item\+::shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}}
+
+Get the shape of the item. \begin{DoxyReturn}{Returns}
+Get the shape to paint. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classCellGraphicsItem_a1a9152e5cf156208adb5d6ccdd5ed0c7}\label{classCellGraphicsItem_a1a9152e5cf156208adb5d6ccdd5ed0c7} 
+\index{CellGraphicsItem@{CellGraphicsItem}!borderRadius\_@{borderRadius\_}}
+\index{borderRadius\_@{borderRadius\_}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{borderRadius\_}{borderRadius\_}}
+{\footnotesize\ttfamily int Cell\+Graphics\+Item\+::border\+Radius\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Border radius. 
+
+\Hypertarget{classCellGraphicsItem_a8d05979e43edf7e7c87e0249be098cb2}\label{classCellGraphicsItem_a8d05979e43edf7e7c87e0249be098cb2} 
+\index{CellGraphicsItem@{CellGraphicsItem}!pen\_@{pen\_}}
+\index{pen\_@{pen\_}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{pen\_}{pen\_}}
+{\footnotesize\ttfamily QPen\texorpdfstring{$\ast$}{*} Cell\+Graphics\+Item\+::pen\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the used pen. 
+
+\Hypertarget{classCellGraphicsItem_a6ffbf2ec6e8be3ae587356c4fd2eef64}\label{classCellGraphicsItem_a6ffbf2ec6e8be3ae587356c4fd2eef64} 
+\index{CellGraphicsItem@{CellGraphicsItem}!sizex\_@{sizex\_}}
+\index{sizex\_@{sizex\_}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{sizex\_}{sizex\_}}
+{\footnotesize\ttfamily int Cell\+Graphics\+Item\+::sizex\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Size of the cell in the x axis. 
+
+\Hypertarget{classCellGraphicsItem_ab87392a358c1b2cbdc0464c8090df7b4}\label{classCellGraphicsItem_ab87392a358c1b2cbdc0464c8090df7b4} 
+\index{CellGraphicsItem@{CellGraphicsItem}!sizey\_@{sizey\_}}
+\index{sizey\_@{sizey\_}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{sizey\_}{sizey\_}}
+{\footnotesize\ttfamily int Cell\+Graphics\+Item\+::sizey\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Size of the cell in the y axis. 
+
+\Hypertarget{classCellGraphicsItem_a57a481d14312bf8426c02a23b6e5fe52}\label{classCellGraphicsItem_a57a481d14312bf8426c02a23b6e5fe52} 
+\index{CellGraphicsItem@{CellGraphicsItem}!x\_@{x\_}}
+\index{x\_@{x\_}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{x\_}{x\_}}
+{\footnotesize\ttfamily qreal Cell\+Graphics\+Item\+::x\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Top left point x position. 
+
+\Hypertarget{classCellGraphicsItem_a130c36e3d1c33fa65146da1728995e08}\label{classCellGraphicsItem_a130c36e3d1c33fa65146da1728995e08} 
+\index{CellGraphicsItem@{CellGraphicsItem}!y\_@{y\_}}
+\index{y\_@{y\_}!CellGraphicsItem@{CellGraphicsItem}}
+\doxysubsubsection{\texorpdfstring{y\_}{y\_}}
+{\footnotesize\ttfamily qreal Cell\+Graphics\+Item\+::y\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Top left point y position. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{graphics__items_8h}{graphics\+\_\+items.\+h}}\item 
+graphics/\mbox{\hyperlink{graphics__items_8cpp}{graphics\+\_\+items.\+cpp}}\end{DoxyCompactItemize}

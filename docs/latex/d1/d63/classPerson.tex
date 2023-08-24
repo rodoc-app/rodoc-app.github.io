@@ -1,0 +1,965 @@
+\doxysection{Person Class Reference}
+\hypertarget{classPerson}{}\label{classPerson}\index{Person@{Person}}
+
+
+One person in the family tree.  
+
+
+
+
+{\ttfamily \#include $<$person.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPerson_a0397c6f89fafc12e738923f612bc41a3}{Person}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPerson_a34b44e29990a49fa013e33df15339e7b}{add\+Event}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classPerson_a3123dc755394f4ef9b9c5a40c05a25f6}{add\+Relation}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classPerson_af0277b09647f80d0849a90a887587142}{add\+Tag}} (const std\+::string \&tag, const std\+::string \&value)
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classPerson_a8c40bf3b5ce45450b9af5d2ef727397c}{birth\+Date}} ()
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classPerson_afc32d5afc7f26c69035ad862b31ba247}{death\+Date}} ()
+\item 
+std\+::pair$<$ bool, const std\+::string \& $>$ \mbox{\hyperlink{classPerson_aeb90457d18d4447389b75027d6b1f031}{exists\+Tag}} (const std\+::string \&tag) const
+\item 
+void \mbox{\hyperlink{classPerson_aa2d39cabd774f5b4f9cda555b1f40646}{export\+Json}} (std\+::ostream \&os, bool including\+Events, bool including\+Relations)
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_ad15d4a7811ed0cfe7e809a571f76e7c8}{get\+After\+Title}} () const
+\item 
+const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& \mbox{\hyperlink{classPerson_af51da5891e3801db737e4d968cbaa555}{get\+Birth\+Date}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_a2eac56de27e5a86f9c6172e1860f917c}{get\+Birth\+Place}} () const
+\item 
+const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& \mbox{\hyperlink{classPerson_a7fab8f5b88c54dc151b90ba8b69d7967}{get\+Death\+Date}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_a139f2d2403f13b9ce4a14805df5bc565}{get\+Death\+Place}} () const
+\item 
+const std\+::vector$<$ size\+\_\+t $>$ \& \mbox{\hyperlink{classPerson_a44a2d191070ba4a499c16be440c7dd2e}{get\+Events}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_ada6268dc9094975548f789ce0c737715}{get\+Father}} () const
+\item 
+std\+::string \mbox{\hyperlink{classPerson_acb81f225ab5baad86b829d191520c3c3}{get\+Full\+Name}} () const
+\item 
+const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \& \mbox{\hyperlink{classPerson_a0228c71bdd0485c4633c068a88f96658}{get\+Files\+Root}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}) const
+\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classPerson_a7890209d6840095fa30bdbf1353a9802}{get\+Files\+Root\+Pointer}} (\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type)
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_a78dcaa46ea8942e055c0fd50f778d1f2}{get\+Front\+Title}} () const
+\item 
+\mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} \mbox{\hyperlink{classPerson_adb5a4fabaaa6bf851de701aeb9df4fdf}{get\+Gender}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_ac95564ed7117c329c126f6f05b02ef5f}{get\+Id}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_a8c3b3273aac7b4a5e5aae8cdd76c563d}{get\+Maiden\+Name}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_a00315d86f363d9c053c47ecd94c86264}{get\+Mother}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_a2dd76cc47de60678ef505c55a99f2acf}{get\+Name}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_a08e1f44ada026839665e88d79ac94eb5}{get\+Partner}} () const
+\item 
+const std\+::vector$<$ size\+\_\+t $>$ \& \mbox{\hyperlink{classPerson_a28cd981eea15a218c511b8ec471019a5}{get\+Relations}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classPerson_ab0e0c8a71471b08ab685800628a5a47a}{get\+Surname}} () const
+\item 
+const std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \& \mbox{\hyperlink{classPerson_a8646fcd8f92c5252c387a5aac529be6f}{get\+Tags}} () const
+\item 
+void \mbox{\hyperlink{classPerson_ad8471203aef10b5e628ba0be786157bc}{import\+Json}} (const Json\+::\+Value \&value)
+\item 
+bool \mbox{\hyperlink{classPerson_ae50ad7607e3e34bfaa5d91e6e4f3888e}{is\+Alive}} () const
+\item 
+void \mbox{\hyperlink{classPerson_a38c4d8d6013204dfa74de1020f672231}{print\+Html}} (std\+::ostream \&os)
+\item 
+void \mbox{\hyperlink{classPerson_abf47636e8403ef1943ec8be1bdbce078}{promote\+Relation}} (size\+\_\+t id, \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}} type)
+\item 
+void \mbox{\hyperlink{classPerson_a5d6d84fd8fb8cf7a1cbb6e763e47601d}{read\+Json}} (const Json\+::\+Value \&value)
+\item 
+void \mbox{\hyperlink{classPerson_a50a0cc8072f247ecc41983ec3e4d36dc}{remove\+Event}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classPerson_a8af01672110f73672926d77f9721bcde}{remove\+Relation}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classPerson_a49d07ff53c43b6de2cfaf813c47a050a}{remove\+Tag}} (const std\+::string \&tag)
+\item 
+void \mbox{\hyperlink{classPerson_a40b93a7cfbddc0b05e9a5de06079354e}{set\+After\+Title}} (const std\+::string \&title)
+\item 
+void \mbox{\hyperlink{classPerson_a0ff4450b57e5620265eed131a6d73e9d}{set\+Birth\+Date}} (int y, int m, int d)
+\item 
+std\+::string \& \mbox{\hyperlink{classPerson_afa843b43660363486fa19ff48363e452}{set\+Birth\+Place}} ()
+\item 
+void \mbox{\hyperlink{classPerson_a821b9bdd51b57de97ebb48233ad68110}{set\+Death\+Date}} (int y, int m, int d)
+\item 
+std\+::string \& \mbox{\hyperlink{classPerson_a5cc905e6a70fc2f9c27b4c310350d9ae}{set\+Death\+Place}} ()
+\item 
+void \mbox{\hyperlink{classPerson_aaaf1a047e96207d8015b5b83ed998291}{set\+Father}} (size\+\_\+t father)
+\item 
+void \mbox{\hyperlink{classPerson_a53f2c27a5a425c4fc9b308be96ab6dd2}{set\+Files\+Root}} (const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&drive, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} type=\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}, size\+\_\+t plus\+Index=0)
+\item 
+void \mbox{\hyperlink{classPerson_a89bc39f36dd9feef44785a84ded19b9b}{set\+Front\+Title}} (const std\+::string \&title)
+\item 
+void \mbox{\hyperlink{classPerson_ade6f356b684ac74066a92ac9b2f8942c}{set\+Gender}} (\mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} g)
+\item 
+void \mbox{\hyperlink{classPerson_aba53e4794df4b90bf34493b8ad7365c2}{set\+Id}} (size\+\_\+t id)
+\item 
+void \mbox{\hyperlink{classPerson_a0185bbbfc2b951631b6483ed012b620f}{set\+Lives}} (bool lives)
+\item 
+std\+::string \& \mbox{\hyperlink{classPerson_a6a130ecfb69dc2c364d1500ef9a1987e}{set\+Maiden\+Name}} ()
+\item 
+void \mbox{\hyperlink{classPerson_a557a7311b2102f6d5bf4ad9086f1baa0}{set\+Mother}} (size\+\_\+t mother)
+\item 
+std\+::string \& \mbox{\hyperlink{classPerson_a1d12e70a5e739bf7aa868416dbb3cb7e}{set\+Name}} ()
+\item 
+void \mbox{\hyperlink{classPerson_aea1981903a87131557d0454c3751a983}{set\+Partner}} (size\+\_\+t id)
+\item 
+std\+::string \& \mbox{\hyperlink{classPerson_a17d5efdc3c86faa5b8f977b946429815}{set\+Surname}} ()
+\item 
+std\+::string \mbox{\hyperlink{classPerson_ad1fceb9cfb8a134eebd42282dae966b0}{str}} () const
+\item 
+void \mbox{\hyperlink{classPerson_a363c26a2cf51e433c0862aba4f4ab152}{update\+Special\+Relation}} (size\+\_\+t rel\+Id, \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}} trait)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \mbox{\hyperlink{classPerson_afab30c8cb6e8af58062701ac64bd178c}{date\+Of\+Birth\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDate}{Date} of birth. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \mbox{\hyperlink{classPerson_a384d797ffbfbdd9610b31b19cee1dc9a}{date\+Of\+Death\+\_\+}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDate}{Date} of death. \end{DoxyCompactList}\item 
+std\+::vector$<$ size\+\_\+t $>$ \mbox{\hyperlink{classPerson_a3a9b1c4ba783d8e5928ea01187d92cc3}{events\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All events ids (from Family Tree) of the person. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_a7719ad5b8cd770fe5ca45cf002a55f2e}{father\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Index of relation with fatherhood trait. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} \mbox{\hyperlink{classPerson_a5061dbf04fcb4a4785d40be643fb3da3}{gender\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Gender of the person. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_ae19a5e563d80fc76ae6b9b4c057d3c70}{id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Id of the person. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classPerson_a15b71b633947ad411cc89ba9f180ef04}{lives\+\_\+}}
+\begin{DoxyCompactList}\small\item\em If the person is alive. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_a5ed70092faa9bb3db17fb1dcd3c888d4}{maiden\+Name\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Maiden name of the person. Usually for a married woman. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_af8858e3de72272b4befa3267b4e1f91c}{mother\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Index of relation with motherhood trait. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_a4b84c9da9f39099f54ee1c1c6fc56c0c}{name\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Name of the person. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classPerson_a7e166edfceb8be020579b34fa8e5a952}{partner\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Id of the partnership relation. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_acf66e2f14386677bced8f68179ec047b}{place\+Of\+Birth\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Place of birth. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_ac6916c3ff7bed85821f859b93991b8cd}{place\+Of\+Death\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Place of death. \end{DoxyCompactList}\item 
+std\+::vector$<$ size\+\_\+t $>$ \mbox{\hyperlink{classPerson_aa18e40d659bf425bfd818ae8ac0eb496}{relations\+\_\+}}
+\begin{DoxyCompactList}\small\item\em All relations ids (from Family Tree). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \mbox{\hyperlink{classPerson_a4a95b7af5d234b8fc5ece64ec327d712}{root\+File\+Drive\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Root drive for files. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \mbox{\hyperlink{classPerson_a61f3fa377c36be0a0c850cfc2cadb402}{root\+Media\+Drive\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Root drive for media. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \mbox{\hyperlink{classPerson_aa7a5135451262643fa5a883cb9320f4c}{root\+Note\+Drive\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Root drive for notes. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_abf9e2c1ffbeec1a16f8f99821458e74d}{surname\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Surname of the person. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \mbox{\hyperlink{classPerson_aa12c30ffbfa1a11aa5917b7a971a225c}{tags\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Persons tags. First is the tag itself and second is the value. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_a3a20f32917e4d31f955e96be0cd8f608}{title\+After\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Title that is after the name. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_a6d929ad84a548b7f854cabf1d8b314e3}{title\+In\+Front\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Title that is in front of a name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+One person in the family tree. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classPerson_a0397c6f89fafc12e738923f612bc41a3}\label{classPerson_a0397c6f89fafc12e738923f612bc41a3} 
+\index{Person@{Person}!Person@{Person}}
+\index{Person@{Person}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{Person()}{Person()}}
+{\footnotesize\ttfamily Person\+::\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classPerson_a34b44e29990a49fa013e33df15339e7b}\label{classPerson_a34b44e29990a49fa013e33df15339e7b} 
+\index{Person@{Person}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{addEvent()}{addEvent()}}
+{\footnotesize\ttfamily void Person\+::add\+Event (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Add new event as its id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Its id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a3123dc755394f4ef9b9c5a40c05a25f6}\label{classPerson_a3123dc755394f4ef9b9c5a40c05a25f6} 
+\index{Person@{Person}!addRelation@{addRelation}}
+\index{addRelation@{addRelation}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{addRelation()}{addRelation()}}
+{\footnotesize\ttfamily void Person\+::add\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Add new general relation as its id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Its id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_af0277b09647f80d0849a90a887587142}\label{classPerson_af0277b09647f80d0849a90a887587142} 
+\index{Person@{Person}!addTag@{addTag}}
+\index{addTag@{addTag}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{addTag()}{addTag()}}
+{\footnotesize\ttfamily void Person\+::add\+Tag (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tag,  }\item[{const std\+::string \&}]{value }\end{DoxyParamCaption})}
+
+Add tag to the person. 
+\begin{DoxyParams}{Parameters}
+{\em tag} & Used tag. \\
+\hline
+{\em value} & Value of the tag. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a8c40bf3b5ce45450b9af5d2ef727397c}\label{classPerson_a8c40bf3b5ce45450b9af5d2ef727397c} 
+\index{Person@{Person}!birthDate@{birthDate}}
+\index{birthDate@{birthDate}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{birthDate()}{birthDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} Person\+::birth\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the pointer to the birth date. \begin{DoxyReturn}{Returns}
+Pointer to the birth date. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_afc32d5afc7f26c69035ad862b31ba247}\label{classPerson_afc32d5afc7f26c69035ad862b31ba247} 
+\index{Person@{Person}!deathDate@{deathDate}}
+\index{deathDate@{deathDate}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{deathDate()}{deathDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \texorpdfstring{$\ast$}{*} Person\+::death\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the pointer to the death date. \begin{DoxyReturn}{Returns}
+Pointer to the death date. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_aeb90457d18d4447389b75027d6b1f031}\label{classPerson_aeb90457d18d4447389b75027d6b1f031} 
+\index{Person@{Person}!existsTag@{existsTag}}
+\index{existsTag@{existsTag}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{existsTag()}{existsTag()}}
+{\footnotesize\ttfamily std\+::pair$<$ bool, const std\+::string \& $>$ Person\+::exists\+Tag (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tag }\end{DoxyParamCaption}) const}
+
+If there exists value with this tag. 
+\begin{DoxyParams}{Parameters}
+{\em tag} & Given tag. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if it exists and then the value. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_aa2d39cabd774f5b4f9cda555b1f40646}\label{classPerson_aa2d39cabd774f5b4f9cda555b1f40646} 
+\index{Person@{Person}!exportJson@{exportJson}}
+\index{exportJson@{exportJson}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{exportJson()}{exportJson()}}
+{\footnotesize\ttfamily void Person\+::export\+Json (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{bool}]{including\+Events,  }\item[{bool}]{including\+Relations }\end{DoxyParamCaption})}
+
+Export this person. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em including\+Events} & If events should be included. \\
+\hline
+{\em including\+Relations} & If relations should be included. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_ad15d4a7811ed0cfe7e809a571f76e7c8}\label{classPerson_ad15d4a7811ed0cfe7e809a571f76e7c8} 
+\index{Person@{Person}!getAfterTitle@{getAfterTitle}}
+\index{getAfterTitle@{getAfterTitle}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getAfterTitle()}{getAfterTitle()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+After\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the title after the name. \begin{DoxyReturn}{Returns}
+Constant reference to the title. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_af51da5891e3801db737e4d968cbaa555}\label{classPerson_af51da5891e3801db737e4d968cbaa555} 
+\index{Person@{Person}!getBirthDate@{getBirthDate}}
+\index{getBirthDate@{getBirthDate}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getBirthDate()}{getBirthDate()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& Person\+::get\+Birth\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the date of birth. \begin{DoxyReturn}{Returns}
+\doxylink{classDate}{Date} of birth. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a2eac56de27e5a86f9c6172e1860f917c}\label{classPerson_a2eac56de27e5a86f9c6172e1860f917c} 
+\index{Person@{Person}!getBirthPlace@{getBirthPlace}}
+\index{getBirthPlace@{getBirthPlace}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getBirthPlace()}{getBirthPlace()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+Birth\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the string of place of birth. \begin{DoxyReturn}{Returns}
+Constant reference to the string of the place of birth. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a7fab8f5b88c54dc151b90ba8b69d7967}\label{classPerson_a7fab8f5b88c54dc151b90ba8b69d7967} 
+\index{Person@{Person}!getDeathDate@{getDeathDate}}
+\index{getDeathDate@{getDeathDate}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getDeathDate()}{getDeathDate()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \& Person\+::get\+Death\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the date of death. \begin{DoxyReturn}{Returns}
+\doxylink{classDate}{Date} of death. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a139f2d2403f13b9ce4a14805df5bc565}\label{classPerson_a139f2d2403f13b9ce4a14805df5bc565} 
+\index{Person@{Person}!getDeathPlace@{getDeathPlace}}
+\index{getDeathPlace@{getDeathPlace}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getDeathPlace()}{getDeathPlace()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+Death\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the string representing the place of death. \begin{DoxyReturn}{Returns}
+String representing the place of death. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a44a2d191070ba4a499c16be440c7dd2e}\label{classPerson_a44a2d191070ba4a499c16be440c7dd2e} 
+\index{Person@{Person}!getEvents@{getEvents}}
+\index{getEvents@{getEvents}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getEvents()}{getEvents()}}
+{\footnotesize\ttfamily const std\+::vector$<$ size\+\_\+t $>$ \& Person\+::get\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get constant reference to the list of all events. \begin{DoxyReturn}{Returns}
+List of events ids. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_ada6268dc9094975548f789ce0c737715}\label{classPerson_ada6268dc9094975548f789ce0c737715} 
+\index{Person@{Person}!getFather@{getFather}}
+\index{getFather@{getFather}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getFather()}{getFather()}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::get\+Father (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the index of fatherhood relation representing father. \begin{DoxyReturn}{Returns}
+Index of the fatherhood relation. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a0228c71bdd0485c4633c068a88f96658}\label{classPerson_a0228c71bdd0485c4633c068a88f96658} 
+\index{Person@{Person}!getFilesRoot@{getFilesRoot}}
+\index{getFilesRoot@{getFilesRoot}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getFilesRoot()}{getFilesRoot()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \& Person\+::get\+Files\+Root (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}} }\end{DoxyParamCaption}) const}
+
+Get constant reference to the root drive of files. 
+\begin{DoxyParams}{Parameters}
+{\em type} & What type of files. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Root drive for given file type. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a7890209d6840095fa30bdbf1353a9802}\label{classPerson_a7890209d6840095fa30bdbf1353a9802} 
+\index{Person@{Person}!getFilesRootPointer@{getFilesRootPointer}}
+\index{getFilesRootPointer@{getFilesRootPointer}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getFilesRootPointer()}{getFilesRootPointer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \texorpdfstring{$\ast$}{*} Person\+::get\+Files\+Root\+Pointer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type }\end{DoxyParamCaption})}
+
+Get the pointer to the files root drive. 
+\begin{DoxyParams}{Parameters}
+{\em type} & Type of the files. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the root drive. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a78dcaa46ea8942e055c0fd50f778d1f2}\label{classPerson_a78dcaa46ea8942e055c0fd50f778d1f2} 
+\index{Person@{Person}!getFrontTitle@{getFrontTitle}}
+\index{getFrontTitle@{getFrontTitle}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getFrontTitle()}{getFrontTitle()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+Front\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the title in front. \begin{DoxyReturn}{Returns}
+Constant reference to the title. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_acb81f225ab5baad86b829d191520c3c3}\label{classPerson_acb81f225ab5baad86b829d191520c3c3} 
+\index{Person@{Person}!getFullName@{getFullName}}
+\index{getFullName@{getFullName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getFullName()}{getFullName()}}
+{\footnotesize\ttfamily std\+::string Person\+::get\+Full\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the full name of a person in order\+: \"{}\+Surname + Maiden\+Name + Name\"{}. \begin{DoxyReturn}{Returns}
+Full name of a person. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_adb5a4fabaaa6bf851de701aeb9df4fdf}\label{classPerson_adb5a4fabaaa6bf851de701aeb9df4fdf} 
+\index{Person@{Person}!getGender@{getGender}}
+\index{getGender@{getGender}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getGender()}{getGender()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} Person\+::get\+Gender (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the gender of the person. \begin{DoxyReturn}{Returns}
+\doxylink{classPerson}{Person}\textquotesingle{}s gender. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_ac95564ed7117c329c126f6f05b02ef5f}\label{classPerson_ac95564ed7117c329c126f6f05b02ef5f} 
+\index{Person@{Person}!getId@{getId}}
+\index{getId@{getId}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the id of the person. \begin{DoxyReturn}{Returns}
+The id of the person. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a8c3b3273aac7b4a5e5aae8cdd76c563d}\label{classPerson_a8c3b3273aac7b4a5e5aae8cdd76c563d} 
+\index{Person@{Person}!getMaidenName@{getMaidenName}}
+\index{getMaidenName@{getMaidenName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getMaidenName()}{getMaidenName()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+Maiden\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the maiden name. \begin{DoxyReturn}{Returns}
+Constant reference to the maiden name. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a00315d86f363d9c053c47ecd94c86264}\label{classPerson_a00315d86f363d9c053c47ecd94c86264} 
+\index{Person@{Person}!getMother@{getMother}}
+\index{getMother@{getMother}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getMother()}{getMother()}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::get\+Mother (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the index of motherhood relation representing mother. \begin{DoxyReturn}{Returns}
+Index of the motherhood relation. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a2dd76cc47de60678ef505c55a99f2acf}\label{classPerson_a2dd76cc47de60678ef505c55a99f2acf} 
+\index{Person@{Person}!getName@{getName}}
+\index{getName@{getName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the name of the person. \begin{DoxyReturn}{Returns}
+Constant reference to the name. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a08e1f44ada026839665e88d79ac94eb5}\label{classPerson_a08e1f44ada026839665e88d79ac94eb5} 
+\index{Person@{Person}!getPartner@{getPartner}}
+\index{getPartner@{getPartner}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getPartner()}{getPartner()}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::get\+Partner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the id of the partner. \begin{DoxyReturn}{Returns}
+Id of the partnership relation. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a28cd981eea15a218c511b8ec471019a5}\label{classPerson_a28cd981eea15a218c511b8ec471019a5} 
+\index{Person@{Person}!getRelations@{getRelations}}
+\index{getRelations@{getRelations}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getRelations()}{getRelations()}}
+{\footnotesize\ttfamily const std\+::vector$<$ size\+\_\+t $>$ \& Person\+::get\+Relations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get constant reference to the list of all relations. \begin{DoxyReturn}{Returns}
+List of relations ids. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_ab0e0c8a71471b08ab685800628a5a47a}\label{classPerson_ab0e0c8a71471b08ab685800628a5a47a} 
+\index{Person@{Person}!getSurname@{getSurname}}
+\index{getSurname@{getSurname}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getSurname()}{getSurname()}}
+{\footnotesize\ttfamily const std\+::string \& Person\+::get\+Surname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the surname of the person. \begin{DoxyReturn}{Returns}
+Constant reference to the surname. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a8646fcd8f92c5252c387a5aac529be6f}\label{classPerson_a8646fcd8f92c5252c387a5aac529be6f} 
+\index{Person@{Person}!getTags@{getTags}}
+\index{getTags@{getTags}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getTags()}{getTags()}}
+{\footnotesize\ttfamily const std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \& Person\+::get\+Tags (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get all tags. \begin{DoxyReturn}{Returns}
+Constant reference to the tags container. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_ad8471203aef10b5e628ba0be786157bc}\label{classPerson_ad8471203aef10b5e628ba0be786157bc} 
+\index{Person@{Person}!importJson@{importJson}}
+\index{importJson@{importJson}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{importJson()}{importJson()}}
+{\footnotesize\ttfamily void Person\+::import\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Import person from single file JSON. Some values may not be present from the import. 
+\begin{DoxyParams}{Parameters}
+{\em value} & JSON value. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_ae50ad7607e3e34bfaa5d91e6e4f3888e}\label{classPerson_ae50ad7607e3e34bfaa5d91e6e4f3888e} 
+\index{Person@{Person}!isAlive@{isAlive}}
+\index{isAlive@{isAlive}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{isAlive()}{isAlive()}}
+{\footnotesize\ttfamily bool Person\+::is\+Alive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If the person is alive or not. \begin{DoxyReturn}{Returns}
+True if the person lives. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a38c4d8d6013204dfa74de1020f672231}\label{classPerson_a38c4d8d6013204dfa74de1020f672231} 
+\index{Person@{Person}!printHtml@{printHtml}}
+\index{printHtml@{printHtml}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{printHtml()}{printHtml()}}
+{\footnotesize\ttfamily void Person\+::print\+Html (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption})}
+
+Print person details to an output in HTML syntax. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Output stream. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_abf47636e8403ef1943ec8be1bdbce078}\label{classPerson_abf47636e8403ef1943ec8be1bdbce078} 
+\index{Person@{Person}!promoteRelation@{promoteRelation}}
+\index{promoteRelation@{promoteRelation}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{promoteRelation()}{promoteRelation()}}
+{\footnotesize\ttfamily void Person\+::promote\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id,  }\item[{\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}}]{type }\end{DoxyParamCaption})}
+
+Promote relation to the main one. If it is already promoted de-\/promote it. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Of the relation. \\
+\hline
+{\em type} & Type of the relation. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a5d6d84fd8fb8cf7a1cbb6e763e47601d}\label{classPerson_a5d6d84fd8fb8cf7a1cbb6e763e47601d} 
+\index{Person@{Person}!readJson@{readJson}}
+\index{readJson@{readJson}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{readJson()}{readJson()}}
+{\footnotesize\ttfamily void Person\+::read\+Json (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})}
+
+Read data from JSON to this person. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Loaded JSON data from the file. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a50a0cc8072f247ecc41983ec3e4d36dc}\label{classPerson_a50a0cc8072f247ecc41983ec3e4d36dc} 
+\index{Person@{Person}!removeEvent@{removeEvent}}
+\index{removeEvent@{removeEvent}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{removeEvent()}{removeEvent()}}
+{\footnotesize\ttfamily void Person\+::remove\+Event (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove event if the person has it (by its id). 
+\begin{DoxyParams}{Parameters}
+{\em id} & Its id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a8af01672110f73672926d77f9721bcde}\label{classPerson_a8af01672110f73672926d77f9721bcde} 
+\index{Person@{Person}!removeRelation@{removeRelation}}
+\index{removeRelation@{removeRelation}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{removeRelation()}{removeRelation()}}
+{\footnotesize\ttfamily void Person\+::remove\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Remove relation if the person has it (by its id) that includes children and other special relations. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Its id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a49d07ff53c43b6de2cfaf813c47a050a}\label{classPerson_a49d07ff53c43b6de2cfaf813c47a050a} 
+\index{Person@{Person}!removeTag@{removeTag}}
+\index{removeTag@{removeTag}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{removeTag()}{removeTag()}}
+{\footnotesize\ttfamily void Person\+::remove\+Tag (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tag }\end{DoxyParamCaption})}
+
+Remove tag from the person if it exists. 
+\begin{DoxyParams}{Parameters}
+{\em tag} & Which tag will be removed. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a40b93a7cfbddc0b05e9a5de06079354e}\label{classPerson_a40b93a7cfbddc0b05e9a5de06079354e} 
+\index{Person@{Person}!setAfterTitle@{setAfterTitle}}
+\index{setAfterTitle@{setAfterTitle}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setAfterTitle()}{setAfterTitle()}}
+{\footnotesize\ttfamily void Person\+::set\+After\+Title (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title }\end{DoxyParamCaption})}
+
+Set the title after the name. 
+\begin{DoxyParams}{Parameters}
+{\em title} & The new title. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a0ff4450b57e5620265eed131a6d73e9d}\label{classPerson_a0ff4450b57e5620265eed131a6d73e9d} 
+\index{Person@{Person}!setBirthDate@{setBirthDate}}
+\index{setBirthDate@{setBirthDate}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setBirthDate()}{setBirthDate()}}
+{\footnotesize\ttfamily void Person\+::set\+Birth\+Date (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{m,  }\item[{int}]{d }\end{DoxyParamCaption})}
+
+Set the exact birth date. 
+\begin{DoxyParams}{Parameters}
+{\em d} & Number of day. \\
+\hline
+{\em m} & Number of month. \\
+\hline
+{\em y} & Number of year. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_afa843b43660363486fa19ff48363e452}\label{classPerson_afa843b43660363486fa19ff48363e452} 
+\index{Person@{Person}!setBirthPlace@{setBirthPlace}}
+\index{setBirthPlace@{setBirthPlace}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setBirthPlace()}{setBirthPlace()}}
+{\footnotesize\ttfamily std\+::string \& Person\+::set\+Birth\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the birth place by giving reference to the string. \begin{DoxyReturn}{Returns}
+Reference to the birth place. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a821b9bdd51b57de97ebb48233ad68110}\label{classPerson_a821b9bdd51b57de97ebb48233ad68110} 
+\index{Person@{Person}!setDeathDate@{setDeathDate}}
+\index{setDeathDate@{setDeathDate}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setDeathDate()}{setDeathDate()}}
+{\footnotesize\ttfamily void Person\+::set\+Death\+Date (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{m,  }\item[{int}]{d }\end{DoxyParamCaption})}
+
+Set the exact death date. 
+\begin{DoxyParams}{Parameters}
+{\em d} & Number of day. \\
+\hline
+{\em m} & Number of month. \\
+\hline
+{\em y} & Number of year. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a5cc905e6a70fc2f9c27b4c310350d9ae}\label{classPerson_a5cc905e6a70fc2f9c27b4c310350d9ae} 
+\index{Person@{Person}!setDeathPlace@{setDeathPlace}}
+\index{setDeathPlace@{setDeathPlace}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setDeathPlace()}{setDeathPlace()}}
+{\footnotesize\ttfamily std\+::string \& Person\+::set\+Death\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the death place by giving reference to the string. \begin{DoxyReturn}{Returns}
+Reference to the death place. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_aaaf1a047e96207d8015b5b83ed998291}\label{classPerson_aaaf1a047e96207d8015b5b83ed998291} 
+\index{Person@{Person}!setFather@{setFather}}
+\index{setFather@{setFather}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setFather()}{setFather()}}
+{\footnotesize\ttfamily void Person\+::set\+Father (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{father }\end{DoxyParamCaption})}
+
+Set father for the person. If father is present put him into relations. 
+\begin{DoxyParams}{Parameters}
+{\em father} & Index to fatherhood relation. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a53f2c27a5a425c4fc9b308be96ab6dd2}\label{classPerson_a53f2c27a5a425c4fc9b308be96ab6dd2} 
+\index{Person@{Person}!setFilesRoot@{setFilesRoot}}
+\index{setFilesRoot@{setFilesRoot}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setFilesRoot()}{setFilesRoot()}}
+{\footnotesize\ttfamily void Person\+::set\+Files\+Root (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&}]{drive,  }\item[{\mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}]{type = {\ttfamily \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}},  }\item[{size\+\_\+t}]{plus\+Index = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Set the drive by copying the data from the other. 
+\begin{DoxyParams}{Parameters}
+{\em drive} & Other drive. \\
+\hline
+{\em type} & What type of file is the drive. \\
+\hline
+{\em plus\+Index} & What should be added to each file index. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a89bc39f36dd9feef44785a84ded19b9b}\label{classPerson_a89bc39f36dd9feef44785a84ded19b9b} 
+\index{Person@{Person}!setFrontTitle@{setFrontTitle}}
+\index{setFrontTitle@{setFrontTitle}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setFrontTitle()}{setFrontTitle()}}
+{\footnotesize\ttfamily void Person\+::set\+Front\+Title (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title }\end{DoxyParamCaption})}
+
+Set the title in front of a name. 
+\begin{DoxyParams}{Parameters}
+{\em title} & The new title. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_ade6f356b684ac74066a92ac9b2f8942c}\label{classPerson_ade6f356b684ac74066a92ac9b2f8942c} 
+\index{Person@{Person}!setGender@{setGender}}
+\index{setGender@{setGender}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setGender()}{setGender()}}
+{\footnotesize\ttfamily void Person\+::set\+Gender (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}}}]{g }\end{DoxyParamCaption})}
+
+Set the gender. 
+\begin{DoxyParams}{Parameters}
+{\em g} & Given gender. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_aba53e4794df4b90bf34493b8ad7365c2}\label{classPerson_aba53e4794df4b90bf34493b8ad7365c2} 
+\index{Person@{Person}!setId@{setId}}
+\index{setId@{setId}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Person\+::set\+Id (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the id of the person. 
+\begin{DoxyParams}{Parameters}
+{\em id} & The new id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a0185bbbfc2b951631b6483ed012b620f}\label{classPerson_a0185bbbfc2b951631b6483ed012b620f} 
+\index{Person@{Person}!setLives@{setLives}}
+\index{setLives@{setLives}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setLives()}{setLives()}}
+{\footnotesize\ttfamily void Person\+::set\+Lives (\begin{DoxyParamCaption}\item[{bool}]{lives }\end{DoxyParamCaption})}
+
+Set if the person lives or not. 
+\begin{DoxyParams}{Parameters}
+{\em lives} & True if the person is still alive. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a6a130ecfb69dc2c364d1500ef9a1987e}\label{classPerson_a6a130ecfb69dc2c364d1500ef9a1987e} 
+\index{Person@{Person}!setMaidenName@{setMaidenName}}
+\index{setMaidenName@{setMaidenName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setMaidenName()}{setMaidenName()}}
+{\footnotesize\ttfamily std\+::string \& Person\+::set\+Maiden\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Set the maiden name by getting the reference to it. \begin{DoxyReturn}{Returns}
+The reference to the maiden name. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a557a7311b2102f6d5bf4ad9086f1baa0}\label{classPerson_a557a7311b2102f6d5bf4ad9086f1baa0} 
+\index{Person@{Person}!setMother@{setMother}}
+\index{setMother@{setMother}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setMother()}{setMother()}}
+{\footnotesize\ttfamily void Person\+::set\+Mother (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{mother }\end{DoxyParamCaption})}
+
+Set mother for the person. If mother is present put her into relations. 
+\begin{DoxyParams}{Parameters}
+{\em mother} & Index to motherhood relation. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a1d12e70a5e739bf7aa868416dbb3cb7e}\label{classPerson_a1d12e70a5e739bf7aa868416dbb3cb7e} 
+\index{Person@{Person}!setName@{setName}}
+\index{setName@{setName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily std\+::string \& Person\+::set\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the reference to the name for changing the name. \begin{DoxyReturn}{Returns}
+The reference to the name string. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_aea1981903a87131557d0454c3751a983}\label{classPerson_aea1981903a87131557d0454c3751a983} 
+\index{Person@{Person}!setPartner@{setPartner}}
+\index{setPartner@{setPartner}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setPartner()}{setPartner()}}
+{\footnotesize\ttfamily void Person\+::set\+Partner (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+Set the partnership relation id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the partnership relation. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classPerson_a17d5efdc3c86faa5b8f977b946429815}\label{classPerson_a17d5efdc3c86faa5b8f977b946429815} 
+\index{Person@{Person}!setSurname@{setSurname}}
+\index{setSurname@{setSurname}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{setSurname()}{setSurname()}}
+{\footnotesize\ttfamily std\+::string \& Person\+::set\+Surname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the reference to the surname for changing it. \begin{DoxyReturn}{Returns}
+The reference to the surname string. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_ad1fceb9cfb8a134eebd42282dae966b0}\label{classPerson_ad1fceb9cfb8a134eebd42282dae966b0} 
+\index{Person@{Person}!str@{str}}
+\index{str@{str}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{str()}{str()}}
+{\footnotesize\ttfamily std\+::string Person\+::str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the string representation of person. \begin{DoxyReturn}{Returns}
+String representing a person. 
+\end{DoxyReturn}
+\Hypertarget{classPerson_a363c26a2cf51e433c0862aba4f4ab152}\label{classPerson_a363c26a2cf51e433c0862aba4f4ab152} 
+\index{Person@{Person}!updateSpecialRelation@{updateSpecialRelation}}
+\index{updateSpecialRelation@{updateSpecialRelation}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{updateSpecialRelation()}{updateSpecialRelation()}}
+{\footnotesize\ttfamily void Person\+::update\+Special\+Relation (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{rel\+Id,  }\item[{\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}}]{trait }\end{DoxyParamCaption})}
+
+Update relation if it is special. 
+\begin{DoxyParams}{Parameters}
+{\em rel\+Id} & Which id it has. \\
+\hline
+{\em trait} & Which trait it now has. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classPerson_afab30c8cb6e8af58062701ac64bd178c}\label{classPerson_afab30c8cb6e8af58062701ac64bd178c} 
+\index{Person@{Person}!dateOfBirth\_@{dateOfBirth\_}}
+\index{dateOfBirth\_@{dateOfBirth\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{dateOfBirth\_}{dateOfBirth\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} Person\+::date\+Of\+Birth\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classDate}{Date} of birth. 
+
+\Hypertarget{classPerson_a384d797ffbfbdd9610b31b19cee1dc9a}\label{classPerson_a384d797ffbfbdd9610b31b19cee1dc9a} 
+\index{Person@{Person}!dateOfDeath\_@{dateOfDeath\_}}
+\index{dateOfDeath\_@{dateOfDeath\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{dateOfDeath\_}{dateOfDeath\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} Person\+::date\+Of\+Death\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classDate}{Date} of death. 
+
+\Hypertarget{classPerson_a3a9b1c4ba783d8e5928ea01187d92cc3}\label{classPerson_a3a9b1c4ba783d8e5928ea01187d92cc3} 
+\index{Person@{Person}!events\_@{events\_}}
+\index{events\_@{events\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{events\_}{events\_}}
+{\footnotesize\ttfamily std\+::vector$<$size\+\_\+t$>$ Person\+::events\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All events ids (from Family Tree) of the person. 
+
+\Hypertarget{classPerson_a7719ad5b8cd770fe5ca45cf002a55f2e}\label{classPerson_a7719ad5b8cd770fe5ca45cf002a55f2e} 
+\index{Person@{Person}!father\_@{father\_}}
+\index{father\_@{father\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{father\_}{father\_}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::father\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Index of relation with fatherhood trait. 
+
+\Hypertarget{classPerson_a5061dbf04fcb4a4785d40be643fb3da3}\label{classPerson_a5061dbf04fcb4a4785d40be643fb3da3} 
+\index{Person@{Person}!gender\_@{gender\_}}
+\index{gender\_@{gender\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{gender\_}{gender\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} Person\+::gender\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gender of the person. 
+
+\Hypertarget{classPerson_ae19a5e563d80fc76ae6b9b4c057d3c70}\label{classPerson_ae19a5e563d80fc76ae6b9b4c057d3c70} 
+\index{Person@{Person}!id\_@{id\_}}
+\index{id\_@{id\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{id\_}{id\_}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Id of the person. 
+
+\Hypertarget{classPerson_a15b71b633947ad411cc89ba9f180ef04}\label{classPerson_a15b71b633947ad411cc89ba9f180ef04} 
+\index{Person@{Person}!lives\_@{lives\_}}
+\index{lives\_@{lives\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{lives\_}{lives\_}}
+{\footnotesize\ttfamily bool Person\+::lives\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If the person is alive. 
+
+\Hypertarget{classPerson_a5ed70092faa9bb3db17fb1dcd3c888d4}\label{classPerson_a5ed70092faa9bb3db17fb1dcd3c888d4} 
+\index{Person@{Person}!maidenName\_@{maidenName\_}}
+\index{maidenName\_@{maidenName\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{maidenName\_}{maidenName\_}}
+{\footnotesize\ttfamily std\+::string Person\+::maiden\+Name\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Maiden name of the person. Usually for a married woman. 
+
+\Hypertarget{classPerson_af8858e3de72272b4befa3267b4e1f91c}\label{classPerson_af8858e3de72272b4befa3267b4e1f91c} 
+\index{Person@{Person}!mother\_@{mother\_}}
+\index{mother\_@{mother\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{mother\_}{mother\_}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::mother\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Index of relation with motherhood trait. 
+
+\Hypertarget{classPerson_a4b84c9da9f39099f54ee1c1c6fc56c0c}\label{classPerson_a4b84c9da9f39099f54ee1c1c6fc56c0c} 
+\index{Person@{Person}!name\_@{name\_}}
+\index{name\_@{name\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{name\_}{name\_}}
+{\footnotesize\ttfamily std\+::string Person\+::name\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Name of the person. 
+
+\Hypertarget{classPerson_a7e166edfceb8be020579b34fa8e5a952}\label{classPerson_a7e166edfceb8be020579b34fa8e5a952} 
+\index{Person@{Person}!partner\_@{partner\_}}
+\index{partner\_@{partner\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{partner\_}{partner\_}}
+{\footnotesize\ttfamily size\+\_\+t Person\+::partner\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Id of the partnership relation. 
+
+\Hypertarget{classPerson_acf66e2f14386677bced8f68179ec047b}\label{classPerson_acf66e2f14386677bced8f68179ec047b} 
+\index{Person@{Person}!placeOfBirth\_@{placeOfBirth\_}}
+\index{placeOfBirth\_@{placeOfBirth\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{placeOfBirth\_}{placeOfBirth\_}}
+{\footnotesize\ttfamily std\+::string Person\+::place\+Of\+Birth\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Place of birth. 
+
+\Hypertarget{classPerson_ac6916c3ff7bed85821f859b93991b8cd}\label{classPerson_ac6916c3ff7bed85821f859b93991b8cd} 
+\index{Person@{Person}!placeOfDeath\_@{placeOfDeath\_}}
+\index{placeOfDeath\_@{placeOfDeath\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{placeOfDeath\_}{placeOfDeath\_}}
+{\footnotesize\ttfamily std\+::string Person\+::place\+Of\+Death\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Place of death. 
+
+\Hypertarget{classPerson_aa18e40d659bf425bfd818ae8ac0eb496}\label{classPerson_aa18e40d659bf425bfd818ae8ac0eb496} 
+\index{Person@{Person}!relations\_@{relations\_}}
+\index{relations\_@{relations\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{relations\_}{relations\_}}
+{\footnotesize\ttfamily std\+::vector$<$size\+\_\+t$>$ Person\+::relations\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+All relations ids (from Family Tree). 
+
+\Hypertarget{classPerson_a4a95b7af5d234b8fc5ece64ec327d712}\label{classPerson_a4a95b7af5d234b8fc5ece64ec327d712} 
+\index{Person@{Person}!rootFileDrive\_@{rootFileDrive\_}}
+\index{rootFileDrive\_@{rootFileDrive\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{rootFileDrive\_}{rootFileDrive\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} Person\+::root\+File\+Drive\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Root drive for files. 
+
+\Hypertarget{classPerson_a61f3fa377c36be0a0c850cfc2cadb402}\label{classPerson_a61f3fa377c36be0a0c850cfc2cadb402} 
+\index{Person@{Person}!rootMediaDrive\_@{rootMediaDrive\_}}
+\index{rootMediaDrive\_@{rootMediaDrive\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{rootMediaDrive\_}{rootMediaDrive\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} Person\+::root\+Media\+Drive\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Root drive for media. 
+
+\Hypertarget{classPerson_aa7a5135451262643fa5a883cb9320f4c}\label{classPerson_aa7a5135451262643fa5a883cb9320f4c} 
+\index{Person@{Person}!rootNoteDrive\_@{rootNoteDrive\_}}
+\index{rootNoteDrive\_@{rootNoteDrive\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{rootNoteDrive\_}{rootNoteDrive\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} Person\+::root\+Note\+Drive\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Root drive for notes. 
+
+\Hypertarget{classPerson_abf9e2c1ffbeec1a16f8f99821458e74d}\label{classPerson_abf9e2c1ffbeec1a16f8f99821458e74d} 
+\index{Person@{Person}!surname\_@{surname\_}}
+\index{surname\_@{surname\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{surname\_}{surname\_}}
+{\footnotesize\ttfamily std\+::string Person\+::surname\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Surname of the person. 
+
+\Hypertarget{classPerson_aa12c30ffbfa1a11aa5917b7a971a225c}\label{classPerson_aa12c30ffbfa1a11aa5917b7a971a225c} 
+\index{Person@{Person}!tags\_@{tags\_}}
+\index{tags\_@{tags\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{tags\_}{tags\_}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::pair$<$std\+::string, std\+::string$>$ $>$ Person\+::tags\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Persons tags. First is the tag itself and second is the value. 
+
+\Hypertarget{classPerson_a3a20f32917e4d31f955e96be0cd8f608}\label{classPerson_a3a20f32917e4d31f955e96be0cd8f608} 
+\index{Person@{Person}!titleAfter\_@{titleAfter\_}}
+\index{titleAfter\_@{titleAfter\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{titleAfter\_}{titleAfter\_}}
+{\footnotesize\ttfamily std\+::string Person\+::title\+After\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Title that is after the name. 
+
+\Hypertarget{classPerson_a6d929ad84a548b7f854cabf1d8b314e3}\label{classPerson_a6d929ad84a548b7f854cabf1d8b314e3} 
+\index{Person@{Person}!titleInFront\_@{titleInFront\_}}
+\index{titleInFront\_@{titleInFront\_}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{titleInFront\_}{titleInFront\_}}
+{\footnotesize\ttfamily std\+::string Person\+::title\+In\+Front\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Title that is in front of a name. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+core/\mbox{\hyperlink{person_8h}{person.\+h}}\item 
+core/\mbox{\hyperlink{person_8cpp}{person.\+cpp}}\end{DoxyCompactItemize}

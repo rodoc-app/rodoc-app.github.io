@@ -1,0 +1,91 @@
+\doxysection{core/family\+\_\+tree\+\_\+items.h File Reference}
+\hypertarget{family__tree__items_8h}{}\label{family__tree__items_8h}\index{core/family\_tree\_items.h@{core/family\_tree\_items.h}}
+
+
+Header file for classes closely related to family tree such as \doxylink{classEvent}{Event}, \doxylink{classRelation}{Relation} and \doxylink{classFile}{File}.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+{\ttfamily \#include $<$json/json.\+h$>$}\newline
+{\ttfamily \#include \"{}config.\+h\"{}}\newline
+{\ttfamily \#include \"{}date.\+h\"{}}\newline
+{\ttfamily \#include \"{}strings.\+h\"{}}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classEvent}{Event}}
+\begin{DoxyCompactList}\small\item\em Class holding data for a single event. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classRelation}{Relation}}
+\begin{DoxyCompactList}\small\item\em Class holding data for a relationship. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structRelationSuggestion}{Relation\+Suggestion}}
+\begin{DoxyCompactList}\small\item\em Struct for relation suggestions. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classFile}{File}}
+\begin{DoxyCompactList}\small\item\em Meta-\/data about one file (media or note). Its real path is \mbox{[}id\mbox{]}-\/\mbox{[}filename\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{family__tree__items_8h_af12dab80471bda424ca4296f5ae139c0}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classEvent}{Event}} \&e)
+\item 
+std\+::ostream \& \mbox{\hyperlink{family__tree__items_8h_a4c23422648108810cd02ea1f6111fb58}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classRelation}{Relation}} \&r)
+\item 
+std\+::ostream \& \mbox{\hyperlink{family__tree__items_8h_a231786b406a86d048dd661bd7e7a8f0d}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classFile}{File}} \&f)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file for classes closely related to family tree such as \doxylink{classEvent}{Event}, \doxylink{classRelation}{Relation} and \doxylink{classFile}{File}. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{family__tree__items_8h_af12dab80471bda424ca4296f5ae139c0}\label{family__tree__items_8h_af12dab80471bda424ca4296f5ae139c0} 
+\index{family\_tree\_items.h@{family\_tree\_items.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!family\_tree\_items.h@{family\_tree\_items.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classEvent}{Event}} \&}]{e }\end{DoxyParamCaption})}
+
+Using \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator on event to print event in JSON formatting. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em e} & Given event. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed output stream. 
+\end{DoxyReturn}
+\Hypertarget{family__tree__items_8h_a231786b406a86d048dd661bd7e7a8f0d}\label{family__tree__items_8h_a231786b406a86d048dd661bd7e7a8f0d} 
+\index{family\_tree\_items.h@{family\_tree\_items.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!family\_tree\_items.h@{family\_tree\_items.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classFile}{File}} \&}]{f }\end{DoxyParamCaption})}
+
+Output file to JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em f} & Given file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed stream. 
+\end{DoxyReturn}
+\Hypertarget{family__tree__items_8h_a4c23422648108810cd02ea1f6111fb58}\label{family__tree__items_8h_a4c23422648108810cd02ea1f6111fb58} 
+\index{family\_tree\_items.h@{family\_tree\_items.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!family\_tree\_items.h@{family\_tree\_items.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classRelation}{Relation}} \&}]{r }\end{DoxyParamCaption})}
+
+Output the relation in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em r} & Given relation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed output stream. 
+\end{DoxyReturn}

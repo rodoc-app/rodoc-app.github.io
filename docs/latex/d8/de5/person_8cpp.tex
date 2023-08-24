@@ -1,0 +1,72 @@
+\doxysection{core/person.cpp File Reference}
+\hypertarget{person_8cpp}{}\label{person_8cpp}\index{core/person.cpp@{core/person.cpp}}
+
+
+Source file for all classes closely related to person.  
+
+
+{\ttfamily \#include \"{}person.\+h\"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{person_8cpp_a91c495875403421509bcad8f85c46512}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&vd)
+\item 
+void \mbox{\hyperlink{person_8cpp_af2809424f94bd6a3817ba62a9c083071}{print\+Size\+TContainer}} (std\+::ostream \&os, const std\+::vector$<$ size\+\_\+t $>$ \&container, const std\+::string \&label)
+\item 
+std\+::ostream \& \mbox{\hyperlink{person_8cpp_afc3521862e743045e5958c80d147cf8f}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classPerson}{Person}} \&p)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source file for all classes closely related to person. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{person_8cpp_afc3521862e743045e5958c80d147cf8f}\label{person_8cpp_afc3521862e743045e5958c80d147cf8f} 
+\index{person.cpp@{person.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!person.cpp@{person.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \&}]{p }\end{DoxyParamCaption})}
+
+Write the data about the person in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Is the given stream. \\
+\hline
+{\em p} & Is the given person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the used output stream. 
+\end{DoxyReturn}
+\Hypertarget{person_8cpp_a91c495875403421509bcad8f85c46512}\label{person_8cpp_a91c495875403421509bcad8f85c46512} 
+\index{person.cpp@{person.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!person.cpp@{person.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&}]{vd }\end{DoxyParamCaption})}
+
+Print virtual drive to JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em vd} & Given \doxylink{classVirtualDrive}{Virtual\+Drive}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed output stream. 
+\end{DoxyReturn}
+\Hypertarget{person_8cpp_af2809424f94bd6a3817ba62a9c083071}\label{person_8cpp_af2809424f94bd6a3817ba62a9c083071} 
+\index{person.cpp@{person.cpp}!printSizeTContainer@{printSizeTContainer}}
+\index{printSizeTContainer@{printSizeTContainer}!person.cpp@{person.cpp}}
+\doxysubsubsection{\texorpdfstring{printSizeTContainer()}{printSizeTContainer()}}
+{\footnotesize\ttfamily void print\+Size\+TContainer (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{container,  }\item[{const std\+::string \&}]{label }\end{DoxyParamCaption})}
+
+Print to JSON formatting container of unsigned integers with given label. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream where to print. \\
+\hline
+{\em container} & Given container of ids. \\
+\hline
+{\em label} & The label of JSON array. \\
+\hline
+\end{DoxyParams}

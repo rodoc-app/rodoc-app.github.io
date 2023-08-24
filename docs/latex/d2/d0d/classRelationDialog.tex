@@ -1,0 +1,217 @@
+\doxysection{Relation\+Dialog Class Reference}
+\hypertarget{classRelationDialog}{}\label{classRelationDialog}\index{RelationDialog@{RelationDialog}}
+
+
+Dialog showing single relation for editing it.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Relation\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d0d/classRelationDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classRelationDialog_a3c155991312d7e799351aec1791a360e}{choose\+First\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Slot for opening dialog to save first person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationDialog_a9b6f5aa0c8cc2ad9fade7fc16c3d4a72}{choose\+Second\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Slot for opening dialog to save second person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationDialog_aa1fadfe87877bf278aaa5231ace39eac}{save\+Person}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\begin{DoxyCompactList}\small\item\em Save person upon choosing it from another dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationDialog_ad3ed2ab1ef8093e7f695e56dc0b176f7}{save\+Relation}} ()
+\begin{DoxyCompactList}\small\item\em Save relation to the family tree or add new one and save it. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationDialog_a2ddd7d0bdfea7ce052f47381b3ce4efe}{show\+Template\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Show details about current template. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRelationDialog_a01ec91dc55c78d457be8de0db1390325}{switch\+Persons}} ()
+\begin{DoxyCompactList}\small\item\em Switch the persons. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRelationDialog_af7d09d96223898d8aafeda4c124b94b2}{Relation\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, \mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*}rel=nullptr)
+\item 
+\mbox{\hyperlink{classRelationDialog_aa398768cefc63111ce28d5a9869b6fdb}{\texorpdfstring{$\sim$}{\string~}\+Relation\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationDialog_a94ac2f3621dd875694033e1154564b25}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationDialog_a68eaae9e8ca8080e71cce7f3d6f08eb3}{person1\+\_\+}}
+\begin{DoxyCompactList}\small\item\em First person of the relation. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationDialog_a0064804aeb548f4334dfc7d812ffd939}{person2\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Second person of the relation. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationDialog_ae93bca0fab122aafa77e8fb49f61f261}{rel\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the edited relation, if adding new one it is a null pointer. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRelationDialog_a29b28baaede9cbfde972c87bf071c9e8}{save\+First\+Person\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Whether the first person is to be saved or the second. \end{DoxyCompactList}\item 
+Ui\+::\+Relation\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classRelationDialog_ae1aafab2358a7739ef98e723aaef7b51}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog showing single relation for editing it. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classRelationDialog_af7d09d96223898d8aafeda4c124b94b2}\label{classRelationDialog_af7d09d96223898d8aafeda4c124b94b2} 
+\index{RelationDialog@{RelationDialog}!RelationDialog@{RelationDialog}}
+\index{RelationDialog@{RelationDialog}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{RelationDialog()}{RelationDialog()}}
+{\footnotesize\ttfamily Relation\+Dialog\+::\+Relation\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr},  }\item[{\mbox{\hyperlink{classRelation}{Relation}} \texorpdfstring{$\ast$}{*}}]{rel = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+{\em rel} & Which relation is to be added or edited. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classRelationDialog_aa398768cefc63111ce28d5a9869b6fdb}\label{classRelationDialog_aa398768cefc63111ce28d5a9869b6fdb} 
+\index{RelationDialog@{RelationDialog}!````~RelationDialog@{\texorpdfstring{$\sim$}{\string~}RelationDialog}}
+\index{````~RelationDialog@{\texorpdfstring{$\sim$}{\string~}RelationDialog}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}RelationDialog()}{\string~RelationDialog()}}
+{\footnotesize\ttfamily Relation\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Relation\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classRelationDialog_a3c155991312d7e799351aec1791a360e}\label{classRelationDialog_a3c155991312d7e799351aec1791a360e} 
+\index{RelationDialog@{RelationDialog}!chooseFirstPerson@{chooseFirstPerson}}
+\index{chooseFirstPerson@{chooseFirstPerson}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{chooseFirstPerson}{chooseFirstPerson}}
+{\footnotesize\ttfamily void Relation\+Dialog\+::choose\+First\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for opening dialog to save first person. 
+
+\Hypertarget{classRelationDialog_a9b6f5aa0c8cc2ad9fade7fc16c3d4a72}\label{classRelationDialog_a9b6f5aa0c8cc2ad9fade7fc16c3d4a72} 
+\index{RelationDialog@{RelationDialog}!chooseSecondPerson@{chooseSecondPerson}}
+\index{chooseSecondPerson@{chooseSecondPerson}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{chooseSecondPerson}{chooseSecondPerson}}
+{\footnotesize\ttfamily void Relation\+Dialog\+::choose\+Second\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for opening dialog to save second person. 
+
+\Hypertarget{classRelationDialog_aa1fadfe87877bf278aaa5231ace39eac}\label{classRelationDialog_aa1fadfe87877bf278aaa5231ace39eac} 
+\index{RelationDialog@{RelationDialog}!savePerson@{savePerson}}
+\index{savePerson@{savePerson}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{savePerson}{savePerson}}
+{\footnotesize\ttfamily void Relation\+Dialog\+::save\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save person upon choosing it from another dialog. 
+
+\Hypertarget{classRelationDialog_ad3ed2ab1ef8093e7f695e56dc0b176f7}\label{classRelationDialog_ad3ed2ab1ef8093e7f695e56dc0b176f7} 
+\index{RelationDialog@{RelationDialog}!saveRelation@{saveRelation}}
+\index{saveRelation@{saveRelation}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{saveRelation}{saveRelation}}
+{\footnotesize\ttfamily void Relation\+Dialog\+::save\+Relation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save relation to the family tree or add new one and save it. 
+
+\Hypertarget{classRelationDialog_a2ddd7d0bdfea7ce052f47381b3ce4efe}\label{classRelationDialog_a2ddd7d0bdfea7ce052f47381b3ce4efe} 
+\index{RelationDialog@{RelationDialog}!showTemplateDetails@{showTemplateDetails}}
+\index{showTemplateDetails@{showTemplateDetails}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{showTemplateDetails}{showTemplateDetails}}
+{\footnotesize\ttfamily void Relation\+Dialog\+::show\+Template\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show details about current template. 
+
+\Hypertarget{classRelationDialog_a01ec91dc55c78d457be8de0db1390325}\label{classRelationDialog_a01ec91dc55c78d457be8de0db1390325} 
+\index{RelationDialog@{RelationDialog}!switchPersons@{switchPersons}}
+\index{switchPersons@{switchPersons}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{switchPersons}{switchPersons}}
+{\footnotesize\ttfamily void Relation\+Dialog\+::switch\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Switch the persons. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classRelationDialog_a94ac2f3621dd875694033e1154564b25}\label{classRelationDialog_a94ac2f3621dd875694033e1154564b25} 
+\index{RelationDialog@{RelationDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Relation\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classRelationDialog_a68eaae9e8ca8080e71cce7f3d6f08eb3}\label{classRelationDialog_a68eaae9e8ca8080e71cce7f3d6f08eb3} 
+\index{RelationDialog@{RelationDialog}!person1\_@{person1\_}}
+\index{person1\_@{person1\_}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{person1\_}{person1\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}}\texorpdfstring{$\ast$}{*} Relation\+Dialog\+::person1\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+First person of the relation. 
+
+\Hypertarget{classRelationDialog_a0064804aeb548f4334dfc7d812ffd939}\label{classRelationDialog_a0064804aeb548f4334dfc7d812ffd939} 
+\index{RelationDialog@{RelationDialog}!person2\_@{person2\_}}
+\index{person2\_@{person2\_}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{person2\_}{person2\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}}\texorpdfstring{$\ast$}{*} Relation\+Dialog\+::person2\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Second person of the relation. 
+
+\Hypertarget{classRelationDialog_ae93bca0fab122aafa77e8fb49f61f261}\label{classRelationDialog_ae93bca0fab122aafa77e8fb49f61f261} 
+\index{RelationDialog@{RelationDialog}!rel\_@{rel\_}}
+\index{rel\_@{rel\_}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{rel\_}{rel\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRelation}{Relation}}\texorpdfstring{$\ast$}{*} Relation\+Dialog\+::rel\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the edited relation, if adding new one it is a null pointer. 
+
+\Hypertarget{classRelationDialog_a29b28baaede9cbfde972c87bf071c9e8}\label{classRelationDialog_a29b28baaede9cbfde972c87bf071c9e8} 
+\index{RelationDialog@{RelationDialog}!saveFirstPerson\_@{saveFirstPerson\_}}
+\index{saveFirstPerson\_@{saveFirstPerson\_}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{saveFirstPerson\_}{saveFirstPerson\_}}
+{\footnotesize\ttfamily bool Relation\+Dialog\+::save\+First\+Person\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Whether the first person is to be saved or the second. 
+
+\Hypertarget{classRelationDialog_ae1aafab2358a7739ef98e723aaef7b51}\label{classRelationDialog_ae1aafab2358a7739ef98e723aaef7b51} 
+\index{RelationDialog@{RelationDialog}!ui@{ui}}
+\index{ui@{ui}!RelationDialog@{RelationDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Relation\+Dialog\texorpdfstring{$\ast$}{*} Relation\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}

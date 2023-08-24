@@ -1,0 +1,2947 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}AddFileDialog}
+    \subitem {AddFileDialog}, \hyperpage{62}
+  \item {\texorpdfstring{$\sim$}{\string~}ChoosePersonDialog}
+    \subitem {ChoosePersonDialog}, \hyperpage{73}
+  \item {\texorpdfstring{$\sim$}{\string~}DateDialog}
+    \subitem {DateDialog}, \hyperpage{81}
+  \item {\texorpdfstring{$\sim$}{\string~}EventDialog}
+    \subitem {EventDialog}, \hyperpage{91}
+  \item {\texorpdfstring{$\sim$}{\string~}EventTamplatesDialog}
+    \subitem {EventTamplatesDialog}, \hyperpage{96}
+  \item {\texorpdfstring{$\sim$}{\string~}ExportProjectDialog}
+    \subitem {ExportProjectDialog}, \hyperpage{106}
+  \item {\texorpdfstring{$\sim$}{\string~}ExportTemplatesDialog}
+    \subitem {ExportTemplatesDialog}, \hyperpage{108}
+  \item {\texorpdfstring{$\sim$}{\string~}HelpDialog}
+    \subitem {HelpDialog}, \hyperpage{149}
+  \item {\texorpdfstring{$\sim$}{\string~}HtmlExport}
+    \subitem {HtmlExport}, \hyperpage{151}
+  \item {\texorpdfstring{$\sim$}{\string~}MainWindow}
+    \subitem {MainWindow}, \hyperpage{158}
+  \item {\texorpdfstring{$\sim$}{\string~}PersonsGraphicsItem}
+    \subitem {PersonsGraphicsItem}, \hyperpage{218}
+  \item {\texorpdfstring{$\sim$}{\string~}PictureExport}
+    \subitem {PictureExport}, \hyperpage{223}
+  \item {\texorpdfstring{$\sim$}{\string~}RelationDialog}
+    \subitem {RelationDialog}, \hyperpage{233}
+  \item {\texorpdfstring{$\sim$}{\string~}RelationTemplateDialog}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+  \item {\texorpdfstring{$\sim$}{\string~}SuggestionsDialog}
+    \subitem {SuggestionsDialog}, \hyperpage{260}
+  \item {\texorpdfstring{$\sim$}{\string~}TagChooserDialog}
+    \subitem {TagChooserDialog}, \hyperpage{263}
+  \item {\texorpdfstring{$\sim$}{\string~}VisualSettings}
+    \subitem {VisualSettings}, \hyperpage{272}
+
+  \indexspace
+
+  \item {ADD\_NEW}
+    \subitem {button}, \hyperpage{26}
+  \item {addDefaultEvent}
+    \subitem {Settings}, \hyperpage{250}
+  \item {addDefaultEvents}
+    \subitem {Settings}, \hyperpage{251}
+  \item {addDefaultRelation}
+    \subitem {Settings}, \hyperpage{251}
+  \item {addDefaultRelations}
+    \subitem {Settings}, \hyperpage{251}
+  \item {addDefaults}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+  \item {addEmptyRole}
+    \subitem {EventDialog}, \hyperpage{91}
+  \item {addEvent}
+    \subitem {FamilyTree}, \hyperpage{112}
+    \subitem {Person}, \hyperpage{199}
+  \item {addEventTemplate}
+    \subitem {Settings}, \hyperpage{251}
+  \item {addFile}
+    \subitem {FamilyTree}, \hyperpage{112}
+    \subitem {FileTreeItem}, \hyperpage{144}
+    \subitem {VirtualDrive}, \hyperpage{265}
+  \item {addfile}, \hyperpage{25}
+    \subitem {NONE}, \hyperpage{25}
+  \item {AddFileDialog}, \hyperpage{61}
+    \subitem {\texorpdfstring{$\sim$}{\string~}AddFileDialog}, 
+		\hyperpage{62}
+    \subitem {AddFileDialog}, \hyperpage{62}
+    \subitem {copyFile}, \hyperpage{62}
+    \subitem {createOrChooseFile}, \hyperpage{62}
+    \subitem {drive\_}, \hyperpage{63}
+    \subitem {FT\_}, \hyperpage{63}
+    \subitem {getId}, \hyperpage{63}
+    \subitem {openFile}, \hyperpage{63}
+    \subitem {type\_}, \hyperpage{63}
+    \subitem {ui}, \hyperpage{64}
+  \item {addGeneralFile}
+    \subitem {MainWindow}, \hyperpage{159}
+  \item {addGeneralFolder}
+    \subitem {MainWindow}, \hyperpage{159}
+  \item {addingNew\_}
+    \subitem {EventTamplatesDialog}, \hyperpage{98}
+    \subitem {RelationTemplateDialog}, \hyperpage{248}
+  \item {addNewEvent}
+    \subitem {MainWindow}, \hyperpage{159}
+  \item {addNewFile}
+    \subitem {MainWindow}, \hyperpage{159}
+  \item {addNewFileFolder}
+    \subitem {MainWindow}, \hyperpage{159}
+  \item {addNewMedia}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {addNewMediaFolder}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {addNewNote}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {addNewNoteFolder}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {addNewPerson}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {addNewRelation}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {addNewRole}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+  \item {addNewTemplate}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+  \item {addPerson}
+    \subitem {Event}, \hyperpage{84}
+    \subitem {FamilyTree}, \hyperpage{113}
+  \item {addRelation}
+    \subitem {FamilyTree}, \hyperpage{113}
+    \subitem {Person}, \hyperpage{199}
+  \item {addRelationTemplate}
+    \subitem {Settings}, \hyperpage{251}
+  \item {addSubDrive}
+    \subitem {FileTreeItem}, \hyperpage{144}
+  \item {addSubdrive}
+    \subitem {VirtualDrive}, \hyperpage{265, 266}
+  \item {addTag}
+    \subitem {Person}, \hyperpage{200}
+    \subitem {Settings}, \hyperpage{252}
+  \item {ADOPTED\_CHILD}
+    \subitem {relation}, \hyperpage{55}
+  \item {ADOPTIVE\_FATHER}
+    \subitem {relation}, \hyperpage{55}
+  \item {ADOPTIVE\_FATHERHOOD}
+    \subitem {relation}, \hyperpage{55}
+  \item {ADOPTIVE\_MOTHER}
+    \subitem {relation}, \hyperpage{55}
+  \item {ADOPTIVE\_MOTHERHOOD}
+    \subitem {relation}, \hyperpage{55}
+  \item {AFTER\_TITLE}
+    \subitem {jsonlabel}, \hyperpage{40}
+  \item {ALL\_PERSONS}
+    \subitem {html}, \hyperpage{34}
+  \item {allAboveGenerations}
+    \subitem {HtmlExport}, \hyperpage{151}
+    \subitem {MainWindow}, \hyperpage{160}
+  \item {allBelowGenerations}
+    \subitem {HtmlExport}, \hyperpage{151}
+    \subitem {MainWindow}, \hyperpage{161}
+  \item {allEvents\_}
+    \subitem {FamilyTree}, \hyperpage{135}
+  \item {allFiles\_}
+    \subitem {FamilyTree}, \hyperpage{135}
+  \item {AllGenders}
+    \subitem {gender}, \hyperpage{32}
+  \item {allMedia\_}
+    \subitem {FamilyTree}, \hyperpage{135}
+  \item {allNotes\_}
+    \subitem {FamilyTree}, \hyperpage{135}
+  \item {allPersons\_}
+    \subitem {FamilyTree}, \hyperpage{135}
+  \item {allRelations\_}
+    \subitem {FamilyTree}, \hyperpage{135}
+  \item {AllTraits}
+    \subitem {trait}, \hyperpage{60}
+  \item {APP\_SETTINGS}
+    \subitem {jsonlabel}, \hyperpage{40}
+  \item {append}
+    \subitem {FamilyTree}, \hyperpage{114}
+  \item {AppSettings}, \hyperpage{64}
+    \subitem {fontFamily}, \hyperpage{66}
+    \subitem {fontSize}, \hyperpage{66}
+    \subitem {genSizeDown}, \hyperpage{66}
+    \subitem {genSizeUp}, \hyperpage{66}
+    \subitem {highlightedColor}, \hyperpage{66}
+    \subitem {lineColor}, \hyperpage{66}
+    \subitem {lineWidth}, \hyperpage{66}
+    \subitem {probandColor}, \hyperpage{67}
+    \subitem {promoted}, \hyperpage{67}
+    \subitem {radius}, \hyperpage{67}
+    \subitem {readJson}, \hyperpage{65}
+    \subitem {setDefault}, \hyperpage{65}
+    \subitem {showEventTab}, \hyperpage{67}
+    \subitem {showFileTab}, \hyperpage{67}
+    \subitem {showGeneralTab}, \hyperpage{67}
+    \subitem {showMediaTab}, \hyperpage{67}
+    \subitem {showNoteTab}, \hyperpage{67}
+    \subitem {showRelationTab}, \hyperpage{68}
+    \subitem {sizeX}, \hyperpage{68}
+    \subitem {sizeY}, \hyperpage{68}
+    \subitem {splitterPositionOne}, \hyperpage{68}
+    \subitem {splitterPositionTwo}, \hyperpage{68}
+    \subitem {standard}, \hyperpage{68}
+    \subitem {tabPosition}, \hyperpage{68}
+    \subitem {textColor}, \hyperpage{68}
+  \item {appSettings\_}
+    \subitem {Settings}, \hyperpage{257}
+
+  \indexspace
+
+  \item {BEST\_MAN}
+    \subitem {events}, \hyperpage{29}
+  \item {BIRTH}
+    \subitem {jsonlabel}, \hyperpage{40}
+  \item {BIRTH\_DATE}
+    \subitem {html}, \hyperpage{34}
+  \item {BIRTH\_PLACE}
+    \subitem {html}, \hyperpage{34}
+  \item {birthDate}
+    \subitem {Person}, \hyperpage{200}
+  \item {BLUE}
+    \subitem {jsonlabel}, \hyperpage{40}
+  \item {blue}
+    \subitem {Color}, \hyperpage{76}
+  \item {bold\_text\_}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+  \item {BORDER\_RADIUS}
+    \subitem {jsonlabel}, \hyperpage{40}
+  \item {borderRadius\_}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {MainWindow}, \hyperpage{185}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {boundingRect}
+    \subitem {CellGraphicsItem}, \hyperpage{70}
+    \subitem {PersonsGraphicsItem}, \hyperpage{218}
+  \item {BRIDE}
+    \subitem {events}, \hyperpage{29}
+  \item {BROTHER}
+    \subitem {relation}, \hyperpage{55}
+  \item {BROTHERHHOD}
+    \subitem {relation}, \hyperpage{56}
+  \item {button}, \hyperpage{25}
+    \subitem {ADD\_NEW}, \hyperpage{26}
+    \subitem {CANCEL}, \hyperpage{26}
+    \subitem {REMOVE}, \hyperpage{26}
+
+  \indexspace
+
+  \item {CANCEL}
+    \subitem {button}, \hyperpage{26}
+  \item {CellGraphicsItem}, \hyperpage{69}
+    \subitem {borderRadius\_}, \hyperpage{71}
+    \subitem {boundingRect}, \hyperpage{70}
+    \subitem {CellGraphicsItem}, \hyperpage{70}
+    \subitem {paint}, \hyperpage{70}
+    \subitem {pen\_}, \hyperpage{71}
+    \subitem {shape}, \hyperpage{71}
+    \subitem {sizex\_}, \hyperpage{71}
+    \subitem {sizey\_}, \hyperpage{71}
+    \subitem {x\_}, \hyperpage{71}
+    \subitem {y\_}, \hyperpage{71}
+  \item {changeGenerationsDown}
+    \subitem {MainWindow}, \hyperpage{161}
+  \item {changeGenerationsUp}
+    \subitem {MainWindow}, \hyperpage{161}
+  \item {changeVisibleWidgets}
+    \subitem {TagChooserDialog}, \hyperpage{263}
+  \item {checkFileConsistence}
+    \subitem {FamilyTree}, \hyperpage{114}
+  \item {checkFileConsistency}
+    \subitem {Parser}, \hyperpage{189}
+  \item {checkFileTypeConsistence}
+    \subitem {FamilyTree}, \hyperpage{114}
+  \item {checkPerson}
+    \subitem {ExportProjectDialog}, \hyperpage{106}
+  \item {checkStoreRefreshPersonsInfo}
+    \subitem {MainWindow}, \hyperpage{161}
+  \item {CHILD}
+    \subitem {relation}, \hyperpage{56}
+  \item {chooseFirstPerson}
+    \subitem {RelationDialog}, \hyperpage{233}
+  \item {choosePerson}
+    \subitem {EventDialog}, \hyperpage{91}
+  \item {ChoosePersonDialog}, \hyperpage{72}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ChoosePersonDialog}, 
+		\hyperpage{73}
+    \subitem {ChoosePersonDialog}, \hyperpage{73}
+    \subitem {clearFilter}, \hyperpage{73}
+    \subitem {filterPersons}, \hyperpage{73}
+    \subitem {FT\_}, \hyperpage{74}
+    \subitem {person\_}, \hyperpage{74}
+    \subitem {savePerson}, \hyperpage{74}
+    \subitem {saveSelectedPerson}, \hyperpage{74}
+    \subitem {ui}, \hyperpage{74}
+  \item {chooseSecondPerson}
+    \subitem {RelationDialog}, \hyperpage{233}
+  \item {clear}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+    \subitem {FamilyTree}, \hyperpage{115}
+    \subitem {Parser}, \hyperpage{189}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+    \subitem {Settings}, \hyperpage{252}
+    \subitem {WrappedDate}, \hyperpage{276}
+  \item {clearFilter}
+    \subitem {ChoosePersonDialog}, \hyperpage{73}
+  \item {clearPersons}
+    \subitem {Event}, \hyperpage{84}
+  \item {clearProjectFilter}
+    \subitem {MainWindow}, \hyperpage{161}
+  \item {clearProjectPaths}
+    \subitem {FamilyTree}, \hyperpage{115}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {clearUi}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {CLOSE\_FAMILY}
+    \subitem {html}, \hyperpage{34}
+  \item {CLOSE\_FAMILY\_DIAGRAM}
+    \subitem {html}, \hyperpage{34}
+  \item {closeDiagram\_}
+    \subitem {PictureExport}, \hyperpage{223}
+  \item {closeEvent}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {Color}, \hyperpage{75}
+    \subitem {blue}, \hyperpage{76}
+    \subitem {Color}, \hyperpage{75}
+    \subitem {green}, \hyperpage{76}
+    \subitem {readJson}, \hyperpage{76}
+    \subitem {red}, \hyperpage{76}
+  \item {color\_}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+  \item {config.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{281--283}
+  \item {config.h}
+    \subitem {East}, \hyperpage{285}
+    \subitem {Fatherhood}, \hyperpage{285}
+    \subitem {Motherhood}, \hyperpage{285}
+    \subitem {None}, \hyperpage{285}
+    \subitem {North}, \hyperpage{285}
+    \subitem {operator$<$$<$}, \hyperpage{285, 286}
+    \subitem {Partnership}, \hyperpage{285}
+    \subitem {Sibling}, \hyperpage{285}
+    \subitem {South}, \hyperpage{285}
+    \subitem {TabPosition}, \hyperpage{284}
+    \subitem {Trait}, \hyperpage{285}
+    \subitem {West}, \hyperpage{285}
+  \item {configPath\_}
+    \subitem {Parser}, \hyperpage{196}
+  \item {connectAllSlots}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {CONTAINS\_DATE}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {CONTAINS\_PLACE}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {containsBackup}
+    \subitem {Parser}, \hyperpage{190}
+  \item {containsBackupFile}
+    \subitem {Parser}, \hyperpage{190}
+  \item {containsDate}
+    \subitem {EventTemplate}, \hyperpage{100}
+  \item {containsDate\_}
+    \subitem {EventTemplate}, \hyperpage{103}
+  \item {containsForb}
+    \subitem {graphics\_items.cpp}, \hyperpage{324}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {containsPlace}
+    \subitem {EventTemplate}, \hyperpage{100}
+  \item {containsPlace\_}
+    \subitem {EventTemplate}, \hyperpage{103}
+  \item {copyDrive}
+    \subitem {VirtualDrive}, \hyperpage{266}
+  \item {copyFile}
+    \subitem {AddFileDialog}, \hyperpage{62}
+    \subitem {FamilyTree}, \hyperpage{115}
+    \subitem {Parser}, \hyperpage{190}
+  \item {core/config.cpp}, \hyperpage{281}
+  \item {core/config.h}, \hyperpage{283}, \hyperpage{287}
+  \item {core/date.cpp}, \hyperpage{289}
+  \item {core/date.h}, \hyperpage{290, 291}
+  \item {core/family\_tree.cpp}, \hyperpage{292}
+  \item {core/family\_tree.h}, \hyperpage{292, 293}
+  \item {core/family\_tree\_items.cpp}, \hyperpage{295}
+  \item {core/family\_tree\_items.h}, \hyperpage{296}, \hyperpage{298}
+  \item {core/file\_parser.cpp}, \hyperpage{299}
+  \item {core/file\_parser.h}, \hyperpage{300, 301}
+  \item {core/person.cpp}, \hyperpage{302}
+  \item {core/person.h}, \hyperpage{303}, \hyperpage{306}
+  \item {core/strings.h}, \hyperpage{307}, \hyperpage{315}
+  \item {CORRUPTED\_DATABASE}
+    \subitem {error}, \hyperpage{27}
+  \item {createAllDirs}
+    \subitem {Parser}, \hyperpage{191}
+  \item {createDatabase}
+    \subitem {FamilyTree}, \hyperpage{115}
+  \item {createEmptyFile}
+    \subitem {FamilyTree}, \hyperpage{115}
+    \subitem {Parser}, \hyperpage{191}
+  \item {createJsonFile}
+    \subitem {Parser}, \hyperpage{191}
+  \item {createOrChooseFile}
+    \subitem {AddFileDialog}, \hyperpage{62}
+  \item {createResourcesDir}
+    \subitem {FamilyTree}, \hyperpage{116}
+    \subitem {Parser}, \hyperpage{191}
+  \item {CUSTOM\_CSS}
+    \subitem {html}, \hyperpage{34}
+  \item {CUSTOM\_TAG}
+    \subitem {tagchooser}, \hyperpage{59}
+  \item {CUSTOM\_TAGS}
+    \subitem {html}, \hyperpage{34}
+
+  \indexspace
+
+  \item {DATE}
+    \subitem {html}, \hyperpage{34}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {Date}, \hyperpage{76}
+    \subitem {Date}, \hyperpage{77}
+    \subitem {day}, \hyperpage{80}
+    \subitem {getDay}, \hyperpage{78}
+    \subitem {getMonth}, \hyperpage{78}
+    \subitem {getYear}, \hyperpage{78}
+    \subitem {isEmpty}, \hyperpage{78}
+    \subitem {isExact}, \hyperpage{78}
+    \subitem {month}, \hyperpage{80}
+    \subitem {read}, \hyperpage{78}
+    \subitem {setDay}, \hyperpage{79}
+    \subitem {setMonth}, \hyperpage{79}
+    \subitem {setYear}, \hyperpage{79}
+    \subitem {str}, \hyperpage{79}
+    \subitem {year}, \hyperpage{80}
+  \item {date}
+    \subitem {Event}, \hyperpage{84}
+  \item {date.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{289, 290}
+  \item {date.h}
+    \subitem {operator$<$$<$}, \hyperpage{291}
+  \item {date1\_}
+    \subitem {WrappedDate}, \hyperpage{279}
+  \item {date2\_}
+    \subitem {WrappedDate}, \hyperpage{279}
+  \item {date\_}
+    \subitem {DateDialog}, \hyperpage{82}
+    \subitem {Event}, \hyperpage{88}
+    \subitem {EventDialog}, \hyperpage{93}
+  \item {DATE\_FROM}
+    \subitem {person}, \hyperpage{53}
+  \item {DATE\_TO}
+    \subitem {person}, \hyperpage{53}
+  \item {DateDialog}, \hyperpage{80}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DateDialog}, 
+		\hyperpage{81}
+    \subitem {date\_}, \hyperpage{82}
+    \subitem {DateDialog}, \hyperpage{81}
+    \subitem {FT\_}, \hyperpage{82}
+    \subitem {saveDate}, \hyperpage{81}
+    \subitem {ui}, \hyperpage{82}
+    \subitem {unknownDate}, \hyperpage{81}
+  \item {dateOfBirth\_}
+    \subitem {Person}, \hyperpage{213}
+  \item {dateOfDeath\_}
+    \subitem {Person}, \hyperpage{213}
+  \item {day}
+    \subitem {Date}, \hyperpage{80}
+  \item {DEAD\_PERSON}
+    \subitem {events}, \hyperpage{29}
+  \item {DEATH}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {DEATH\_DATE}
+    \subitem {html}, \hyperpage{35}
+  \item {DEATH\_PLACE}
+    \subitem {html}, \hyperpage{35}
+  \item {deathDate}
+    \subitem {Person}, \hyperpage{200}
+  \item {DESC\_ADOPTIVE\_FATHERHOOD}
+    \subitem {relation}, \hyperpage{56}
+  \item {DESC\_ADOPTIVE\_MOTHERHOOD}
+    \subitem {relation}, \hyperpage{56}
+  \item {DESC\_BROTHERHOOD}
+    \subitem {relation}, \hyperpage{56}
+  \item {DESC\_DIVORCE}
+    \subitem {events}, \hyperpage{29}
+  \item {DESC\_FUNERAL}
+    \subitem {events}, \hyperpage{29}
+  \item {DESC\_GRADUATION}
+    \subitem {events}, \hyperpage{30}
+  \item {DESC\_SIBLINGS}
+    \subitem {relation}, \hyperpage{56}
+  \item {DESC\_SISTERHOOD}
+    \subitem {relation}, \hyperpage{56}
+  \item {DESC\_WEDDING}
+    \subitem {events}, \hyperpage{30}
+  \item {DESCRIPTION}
+    \subitem {html}, \hyperpage{35}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {description\_}
+    \subitem {EventTemplate}, \hyperpage{104}
+    \subitem {RelationTemplate}, \hyperpage{244}
+  \item {DIR}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {disableFileFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {disableMediaFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {disableNoteFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{162}
+  \item {DIVORCE}
+    \subitem {events}, \hyperpage{30}
+  \item {drawCloseContainer}
+    \subitem {MainWindow}, \hyperpage{163}
+  \item {drawCloseFamily}
+    \subitem {MainWindow}, \hyperpage{163}
+  \item {drawFamilyTree}
+    \subitem {MainWindow}, \hyperpage{164}
+  \item {drawGeneralGenerations}
+    \subitem {MainWindow}, \hyperpage{164}
+  \item {drawOlderGenerations}
+    \subitem {MainWindow}, \hyperpage{165}
+  \item {drawPartner}
+    \subitem {MainWindow}, \hyperpage{165}
+  \item {drawYoungerGenerations}
+    \subitem {MainWindow}, \hyperpage{166}
+  \item {drive\_}
+    \subitem {AddFileDialog}, \hyperpage{63}
+    \subitem {FileTreeItem}, \hyperpage{146}
+  \item {DRIVES}
+    \subitem {jsonlabel}, \hyperpage{41}
+
+  \indexspace
+
+  \item {East}
+    \subitem {config.h}, \hyperpage{285}
+  \item {editEvent}
+    \subitem {MainWindow}, \hyperpage{166}
+  \item {editRelation}
+    \subitem {MainWindow}, \hyperpage{167}
+  \item {editTag}
+    \subitem {MainWindow}, \hyperpage{167}
+  \item {EMPTY\_BOXES}
+    \subitem {error}, \hyperpage{27}
+  \item {EMPTY\_STRING}
+    \subitem {strings.h}, \hyperpage{315}
+  \item {enableFileFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{167}
+  \item {enableGeneralFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{167}
+  \item {enableGeneralFolderRenamePrompt}
+    \subitem {MainWindow}, \hyperpage{168}
+  \item {enableHelpOnStartup}
+    \subitem {FamilyTree}, \hyperpage{116}
+  \item {enableMediaFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{168}
+  \item {enableNoteFolderPrompt}
+    \subitem {MainWindow}, \hyperpage{168}
+  \item {error}, \hyperpage{26}
+    \subitem {CORRUPTED\_DATABASE}, \hyperpage{27}
+    \subitem {EMPTY\_BOXES}, \hyperpage{27}
+    \subitem {EXCEPTION\_STR}, \hyperpage{27}
+    \subitem {FORBIDDEN\_CHARS}, \hyperpage{27}
+    \subitem {NO\_CHOSEN\_FILE}, \hyperpage{27}
+    \subitem {NO\_ROLE}, \hyperpage{28}
+    \subitem {UNKNOWN\_EXCEP\_STR}, \hyperpage{28}
+  \item {ERROR\_LOG}
+    \subitem {parser}, \hyperpage{51}
+  \item {EVE\_TEMPL}
+    \subitem {jsonlabel}, \hyperpage{41}
+  \item {Event}, \hyperpage{82}
+    \subitem {addPerson}, \hyperpage{84}
+    \subitem {clearPersons}, \hyperpage{84}
+    \subitem {date}, \hyperpage{84}
+    \subitem {date\_}, \hyperpage{88}
+    \subitem {Event}, \hyperpage{83}
+    \subitem {getDate}, \hyperpage{84}
+    \subitem {getId}, \hyperpage{84}
+    \subitem {getPersons}, \hyperpage{85}
+    \subitem {getPlace}, \hyperpage{85}
+    \subitem {getSettings}, \hyperpage{85}
+    \subitem {getTemplate}, \hyperpage{85}
+    \subitem {getText}, \hyperpage{85}
+    \subitem {id\_}, \hyperpage{88}
+    \subitem {persons\_}, \hyperpage{88}
+    \subitem {place\_}, \hyperpage{89}
+    \subitem {printHtml}, \hyperpage{86}
+    \subitem {readJson}, \hyperpage{86}
+    \subitem {removePerson}, \hyperpage{86}
+    \subitem {setDate}, \hyperpage{87}
+    \subitem {setId}, \hyperpage{87}
+    \subitem {setPlace}, \hyperpage{87}
+    \subitem {setTemplate}, \hyperpage{87}
+    \subitem {setText}, \hyperpage{88}
+    \subitem {settings\_}, \hyperpage{89}
+    \subitem {str}, \hyperpage{88}
+    \subitem {template\_}, \hyperpage{89}
+    \subitem {text\_}, \hyperpage{89}
+    \subitem {updateToTemplate}, \hyperpage{88}
+  \item {event\_}
+    \subitem {EventDialog}, \hyperpage{93}
+  \item {event\_index\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {EventDialog}, \hyperpage{89}
+    \subitem {\texorpdfstring{$\sim$}{\string~}EventDialog}, 
+		\hyperpage{91}
+    \subitem {addEmptyRole}, \hyperpage{91}
+    \subitem {choosePerson}, \hyperpage{91}
+    \subitem {date\_}, \hyperpage{93}
+    \subitem {event\_}, \hyperpage{93}
+    \subitem {EventDialog}, \hyperpage{91}
+    \subitem {FT\_}, \hyperpage{93}
+    \subitem {main\_}, \hyperpage{93}
+    \subitem {openCustomDate}, \hyperpage{91}
+    \subitem {refreshDates}, \hyperpage{91}
+    \subitem {refreshPersons}, \hyperpage{91}
+    \subitem {removeEmptyRole}, \hyperpage{92}
+    \subitem {removePerson}, \hyperpage{92}
+    \subitem {saveEvent}, \hyperpage{92}
+    \subitem {savePerson}, \hyperpage{92}
+    \subitem {showEventDetails}, \hyperpage{92}
+    \subitem {showTemplate}, \hyperpage{92}
+    \subitem {ui}, \hyperpage{93}
+  \item {EventRoleItem}, \hyperpage{93}
+    \subitem {EventRoleItem}, \hyperpage{94}
+    \subitem {getId}, \hyperpage{94}
+    \subitem {id\_}, \hyperpage{95}
+    \subitem {setPerson}, \hyperpage{94}
+  \item {EVENTS}
+    \subitem {html}, \hyperpage{35}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {Events}, \hyperpage{5}
+  \item {events}, \hyperpage{28}
+    \subitem {BEST\_MAN}, \hyperpage{29}
+    \subitem {BRIDE}, \hyperpage{29}
+    \subitem {DEAD\_PERSON}, \hyperpage{29}
+    \subitem {DESC\_DIVORCE}, \hyperpage{29}
+    \subitem {DESC\_FUNERAL}, \hyperpage{29}
+    \subitem {DESC\_GRADUATION}, \hyperpage{30}
+    \subitem {DESC\_WEDDING}, \hyperpage{30}
+    \subitem {DIVORCE}, \hyperpage{30}
+    \subitem {FORMER\_HUSBAND}, \hyperpage{30}
+    \subitem {FORMER\_WIFE}, \hyperpage{30}
+    \subitem {FUNERAL}, \hyperpage{30}
+    \subitem {GRADUATE}, \hyperpage{30}
+    \subitem {GRADUATION}, \hyperpage{31}
+    \subitem {GROOM}, \hyperpage{31}
+    \subitem {MAID\_OF\_HONOR}, \hyperpage{31}
+    \subitem {NO\_ROLE}, \hyperpage{31}
+    \subitem {WEDDING}, \hyperpage{31}
+  \item {events\_}
+    \subitem {Person}, \hyperpage{213}
+  \item {EventTamplatesDialog}, \hyperpage{95}
+    \subitem {\texorpdfstring{$\sim$}{\string~}EventTamplatesDialog}, 
+		\hyperpage{96}
+    \subitem {addDefaults}, \hyperpage{97}
+    \subitem {addingNew\_}, \hyperpage{98}
+    \subitem {addNewRole}, \hyperpage{97}
+    \subitem {addNewTemplate}, \hyperpage{97}
+    \subitem {clear}, \hyperpage{97}
+    \subitem {EventTamplatesDialog}, \hyperpage{96}
+    \subitem {FT\_}, \hyperpage{98}
+    \subitem {refreshListWidget}, \hyperpage{97}
+    \subitem {removeRole}, \hyperpage{97}
+    \subitem {removeTemplate}, \hyperpage{97}
+    \subitem {saveTemplate}, \hyperpage{97}
+    \subitem {setEnabledWidgets}, \hyperpage{98}
+    \subitem {showTemplate}, \hyperpage{98}
+    \subitem {ui}, \hyperpage{98}
+  \item {EventTemplate}, \hyperpage{99}
+    \subitem {containsDate}, \hyperpage{100}
+    \subitem {containsDate\_}, \hyperpage{103}
+    \subitem {containsPlace}, \hyperpage{100}
+    \subitem {containsPlace\_}, \hyperpage{103}
+    \subitem {description\_}, \hyperpage{104}
+    \subitem {EventTemplate}, \hyperpage{100}
+    \subitem {getDescription}, \hyperpage{100}
+    \subitem {getId}, \hyperpage{100}
+    \subitem {getRoles}, \hyperpage{100}
+    \subitem {getTitle}, \hyperpage{101}
+    \subitem {hasMorePeopleInvolved}, \hyperpage{101}
+    \subitem {hasRoles}, \hyperpage{101}
+    \subitem {id\_}, \hyperpage{104}
+    \subitem {morePeopleInvolved\_}, \hyperpage{104}
+    \subitem {readJson}, \hyperpage{101}
+    \subitem {roles\_}, \hyperpage{104}
+    \subitem {setContainsDate}, \hyperpage{102}
+    \subitem {setContainsPlace}, \hyperpage{102}
+    \subitem {setDescription}, \hyperpage{102}
+    \subitem {setId}, \hyperpage{102}
+    \subitem {setMorePeopleInvolved}, \hyperpage{103}
+    \subitem {setRoles}, \hyperpage{103}
+    \subitem {setTitle}, \hyperpage{103}
+    \subitem {str}, \hyperpage{103}
+    \subitem {title\_}, \hyperpage{104}
+  \item {eventTemplateIndex\_}
+    \subitem {Settings}, \hyperpage{257}
+  \item {eventTemplates\_}
+    \subitem {Settings}, \hyperpage{258}
+  \item {EXCEPTION\_STR}
+    \subitem {error}, \hyperpage{27}
+  \item {existsTag}
+    \subitem {Person}, \hyperpage{200}
+  \item {EXPORT}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {exportAllHtml}
+    \subitem {HtmlExport}, \hyperpage{151}
+  \item {exportCloseFamilyDiagram}
+    \subitem {MainWindow}, \hyperpage{168}
+  \item {exportCloseFamilyDiagramDialog}
+    \subitem {MainWindow}, \hyperpage{169}
+  \item {exportDiagram}
+    \subitem {PictureExport}, \hyperpage{223}
+  \item {exportGeneralDiagram}
+    \subitem {MainWindow}, \hyperpage{169}
+  \item {exportHtml}
+    \subitem {MainWindow}, \hyperpage{169}
+  \item {exportJson}
+    \subitem {Person}, \hyperpage{201}
+  \item {exportMainHtml}
+    \subitem {HtmlExport}, \hyperpage{151}
+    \subitem {MainWindow}, \hyperpage{169}
+  \item {exportProject}
+    \subitem {ExportProjectDialog}, \hyperpage{106}
+    \subitem {FamilyTree}, \hyperpage{116}
+    \subitem {MainWindow}, \hyperpage{169}
+  \item {ExportProjectDialog}, \hyperpage{105}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ExportProjectDialog}, 
+		\hyperpage{106}
+    \subitem {checkPerson}, \hyperpage{106}
+    \subitem {exportProject}, \hyperpage{106}
+    \subitem {ExportProjectDialog}, \hyperpage{105}
+    \subitem {FT\_}, \hyperpage{106}
+    \subitem {ui}, \hyperpage{106}
+  \item {exportTemplates}
+    \subitem {ExportTemplatesDialog}, \hyperpage{108}
+    \subitem {FamilyTree}, \hyperpage{117}
+    \subitem {MainWindow}, \hyperpage{169}
+    \subitem {Settings}, \hyperpage{252}
+  \item {ExportTemplatesDialog}, \hyperpage{107}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ExportTemplatesDialog}, 
+		\hyperpage{108}
+    \subitem {exportTemplates}, \hyperpage{108}
+    \subitem {ExportTemplatesDialog}, \hyperpage{107}
+    \subitem {FT\_}, \hyperpage{108}
+    \subitem {ui}, \hyperpage{108}
+  \item {exportTreeDiagram}
+    \subitem {MainWindow}, \hyperpage{170}
+  \item {exportTreeDiagramDialog}
+    \subitem {MainWindow}, \hyperpage{170}
+
+  \indexspace
+
+  \item {FAMILY\_TREE}
+    \subitem {html}, \hyperpage{35}
+  \item {FAMILY\_TREE\_DIAGRAM}
+    \subitem {html}, \hyperpage{35}
+  \item {family\_tree\_items.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{295, 296}
+  \item {family\_tree\_items.h}
+    \subitem {operator$<$$<$}, \hyperpage{297}
+  \item {FamilyTree}, \hyperpage{108}
+    \subitem {addEvent}, \hyperpage{112}
+    \subitem {addFile}, \hyperpage{112}
+    \subitem {addPerson}, \hyperpage{113}
+    \subitem {addRelation}, \hyperpage{113}
+    \subitem {allEvents\_}, \hyperpage{135}
+    \subitem {allFiles\_}, \hyperpage{135}
+    \subitem {allMedia\_}, \hyperpage{135}
+    \subitem {allNotes\_}, \hyperpage{135}
+    \subitem {allPersons\_}, \hyperpage{135}
+    \subitem {allRelations\_}, \hyperpage{135}
+    \subitem {append}, \hyperpage{114}
+    \subitem {checkFileConsistence}, \hyperpage{114}
+    \subitem {checkFileTypeConsistence}, \hyperpage{114}
+    \subitem {clear}, \hyperpage{115}
+    \subitem {clearProjectPaths}, \hyperpage{115}
+    \subitem {copyFile}, \hyperpage{115}
+    \subitem {createDatabase}, \hyperpage{115}
+    \subitem {createEmptyFile}, \hyperpage{115}
+    \subitem {createResourcesDir}, \hyperpage{116}
+    \subitem {enableHelpOnStartup}, \hyperpage{116}
+    \subitem {event\_index\_}, \hyperpage{136}
+    \subitem {exportProject}, \hyperpage{116}
+    \subitem {exportTemplates}, \hyperpage{117}
+    \subitem {FamilyTree}, \hyperpage{111}
+    \subitem {file\_index\_}, \hyperpage{136}
+    \subitem {getEvent}, \hyperpage{117}
+    \subitem {getEvents}, \hyperpage{117}
+    \subitem {getFile}, \hyperpage{117}
+    \subitem {getFileAbsolutePath}, \hyperpage{118}
+    \subitem {getFiles}, \hyperpage{118}
+    \subitem {getGeneralOrphaFiles}, \hyperpage{118}
+    \subitem {getMainPerson}, \hyperpage{119}
+    \subitem {getOrphanFiles}, \hyperpage{119}
+    \subitem {getParentSuggestions}, \hyperpage{119}
+    \subitem {getPartnersSuggestions}, \hyperpage{120}
+    \subitem {getPerson}, \hyperpage{120}
+    \subitem {getPersons}, \hyperpage{120}
+    \subitem {getProjectPaths}, \hyperpage{120}
+    \subitem {getRelation}, \hyperpage{120}
+    \subitem {getRelations}, \hyperpage{121}
+    \subitem {getRelationSuggestions}, \hyperpage{121}
+    \subitem {getSettings}, \hyperpage{121}
+    \subitem {getSiblingsSuggestions}, \hyperpage{121}
+    \subitem {getUrlFile}, \hyperpage{122}
+    \subitem {importProject}, \hyperpage{122}
+    \subitem {importRootDir}, \hyperpage{122}
+    \subitem {importTemplates}, \hyperpage{123}
+    \subitem {isDirectorySet}, \hyperpage{123}
+    \subitem {isSaved}, \hyperpage{123}
+    \subitem {loadDatabaseFile}, \hyperpage{123}
+    \subitem {log}, \hyperpage{124}
+    \subitem {mainPerson\_}, \hyperpage{136}
+    \subitem {media\_index\_}, \hyperpage{136}
+    \subitem {note\_index\_}, \hyperpage{136}
+    \subitem {openDatabase}, \hyperpage{124}
+    \subitem {openHelp}, \hyperpage{136}
+    \subitem {openSingleFileDatabase}, \hyperpage{125}
+    \subitem {parser\_}, \hyperpage{136}
+    \subitem {person\_index\_}, \hyperpage{136}
+    \subitem {printCss}, \hyperpage{125}
+    \subitem {printEvents}, \hyperpage{125}
+    \subitem {printFiles}, \hyperpage{126}
+    \subitem {printHtml}, \hyperpage{126}
+    \subitem {printHtmlPerson}, \hyperpage{126}
+    \subitem {printMainPersonHtml}, \hyperpage{126}
+    \subitem {printPeople}, \hyperpage{127}
+    \subitem {printRelations}, \hyperpage{127}
+    \subitem {projectPaths}, \hyperpage{137}
+    \subitem {promoteRelation}, \hyperpage{127}
+    \subitem {readJsonEvents}, \hyperpage{127}
+    \subitem {readJsonFiles}, \hyperpage{128}
+    \subitem {readJsonPeople}, \hyperpage{128}
+    \subitem {readJsonRelations}, \hyperpage{128}
+    \subitem {relation\_index\_}, \hyperpage{137}
+    \subitem {removeBackup}, \hyperpage{129}
+    \subitem {removeEvent}, \hyperpage{129}
+    \subitem {removeEventTemplate}, \hyperpage{129}
+    \subitem {removeGeneralOrphanFile}, \hyperpage{129}
+    \subitem {removeOrphanFiles}, \hyperpage{130}
+    \subitem {removePerson}, \hyperpage{130}
+    \subitem {removeRelation}, \hyperpage{130}
+    \subitem {removeRelationTemplate}, \hyperpage{130}
+    \subitem {renameFile}, \hyperpage{130}
+    \subitem {restoreBackup}, \hyperpage{131}
+    \subitem {savedChanges\_}, \hyperpage{137}
+    \subitem {setMainPerson}, \hyperpage{131}
+    \subitem {setRelation}, \hyperpage{132}
+    \subitem {settings\_}, \hyperpage{137}
+    \subitem {setUnsaved}, \hyperpage{132}
+    \subitem {showHelpOnStartup}, \hyperpage{132}
+    \subitem {storeDatabase}, \hyperpage{132}
+    \subitem {storeFileDatabase}, \hyperpage{132}
+    \subitem {templatesBasedOnEventTemplate}, \hyperpage{134}
+    \subitem {templatesBasedOnRelationTemplate}, \hyperpage{134}
+    \subitem {updateEventsWithTemplate}, \hyperpage{134}
+    \subitem {writeConfig}, \hyperpage{135}
+  \item {FATHER}
+    \subitem {jsonlabel}, \hyperpage{42}
+    \subitem {relation}, \hyperpage{57}
+  \item {father\_}
+    \subitem {Person}, \hyperpage{213}
+  \item {FATHERHOOD}
+    \subitem {relation}, \hyperpage{57}
+  \item {Fatherhood}
+    \subitem {config.h}, \hyperpage{285}
+  \item {FATHERHOOD\_DESC}
+    \subitem {relation}, \hyperpage{57}
+  \item {fatherhoods}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+  \item {Female}
+    \subitem {person.h}, \hyperpage{304}
+  \item {File}, \hyperpage{137}
+    \subitem {File}, \hyperpage{138}
+    \subitem {filename\_}, \hyperpage{141}
+    \subitem {getFilename}, \hyperpage{138}
+    \subitem {getId}, \hyperpage{138}
+    \subitem {getRealName}, \hyperpage{139}
+    \subitem {id\_}, \hyperpage{141}
+    \subitem {readJson}, \hyperpage{139}
+    \subitem {setFilename}, \hyperpage{139}
+    \subitem {setId}, \hyperpage{139}
+  \item {file\_index\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {fileId\_}
+    \subitem {FileTreeItem}, \hyperpage{146}
+  \item {filename\_}
+    \subitem {File}, \hyperpage{141}
+  \item {FILES}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {Files, Notes \& Media}, \hyperpage{7}
+  \item {files\_}
+    \subitem {VirtualDrive}, \hyperpage{269}
+  \item {FILES\_DIR}
+    \subitem {parser}, \hyperpage{51}
+  \item {FileTreeItem}, \hyperpage{141}
+    \subitem {addFile}, \hyperpage{144}
+    \subitem {addSubDrive}, \hyperpage{144}
+    \subitem {drive\_}, \hyperpage{146}
+    \subitem {fileId\_}, \hyperpage{146}
+    \subitem {FileTreeItem}, \hyperpage{142}
+    \subitem {FT\_}, \hyperpage{146}
+    \subitem {getDrive}, \hyperpage{144}
+    \subitem {getId}, \hyperpage{144}
+    \subitem {isDir\_}, \hyperpage{146}
+    \subitem {isDirectory}, \hyperpage{145}
+    \subitem {removeFile}, \hyperpage{145}
+    \subitem {removeFolder}, \hyperpage{145}
+    \subitem {rename}, \hyperpage{145}
+    \subitem {type\_}, \hyperpage{146}
+  \item {FileType}
+    \subitem {person.h}, \hyperpage{304}
+  \item {filterPersons}
+    \subitem {ChoosePersonDialog}, \hyperpage{73}
+  \item {filterProjectItems}
+    \subitem {MainWindow}, \hyperpage{170}
+  \item {findPerson}
+    \subitem {MainWindow}, \hyperpage{170}
+  \item {FIRST\_NAME}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {FIRST\_PERSON}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {firstName\_}
+    \subitem {RelationTemplate}, \hyperpage{244}
+  \item {fitTreeInView}
+    \subitem {MainWindow}, \hyperpage{170}
+  \item {font\_}
+    \subitem {MainWindow}, \hyperpage{185}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {FONT\_FAMILY}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {FONT\_SIZE}
+    \subitem {jsonlabel}, \hyperpage{42}
+  \item {fontFamily}
+    \subitem {AppSettings}, \hyperpage{66}
+  \item {fontSize}
+    \subitem {AppSettings}, \hyperpage{66}
+  \item {FORBIDDEN\_CHARS}
+    \subitem {error}, \hyperpage{27}
+  \item {FORMER\_HUSBAND}
+    \subitem {events}, \hyperpage{30}
+  \item {FORMER\_WIFE}
+    \subitem {events}, \hyperpage{30}
+  \item {FRONT\_TITLE}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {FT}
+    \subitem {MainWindow}, \hyperpage{186}
+  \item {FT\_}
+    \subitem {AddFileDialog}, \hyperpage{63}
+    \subitem {ChoosePersonDialog}, \hyperpage{74}
+    \subitem {DateDialog}, \hyperpage{82}
+    \subitem {EventDialog}, \hyperpage{93}
+    \subitem {EventTamplatesDialog}, \hyperpage{98}
+    \subitem {ExportProjectDialog}, \hyperpage{106}
+    \subitem {ExportTemplatesDialog}, \hyperpage{108}
+    \subitem {FileTreeItem}, \hyperpage{146}
+    \subitem {HelpDialog}, \hyperpage{149}
+    \subitem {HtmlExport}, \hyperpage{152}
+    \subitem {RelationDialog}, \hyperpage{234}
+    \subitem {RelationItem}, \hyperpage{237}
+    \subitem {RelationTemplateDialog}, \hyperpage{248}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+    \subitem {TagChooserDialog}, \hyperpage{264}
+  \item {FUNERAL}
+    \subitem {events}, \hyperpage{30}
+
+  \indexspace
+
+  \item {GEN\_DIFF}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {GEN\_SIZE\_DOWN}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {GEN\_SIZE\_UP}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {GENDER}
+    \subitem {html}, \hyperpage{35}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {Gender}
+    \subitem {person.h}, \hyperpage{304}
+  \item {gender}, \hyperpage{31}
+    \subitem {AllGenders}, \hyperpage{32}
+    \subitem {str}, \hyperpage{32}
+  \item {gender\_}
+    \subitem {Person}, \hyperpage{213}
+  \item {GENERAL\_FILE}
+    \subitem {person.h}, \hyperpage{304}
+  \item {GENERAL\_INFO}
+    \subitem {html}, \hyperpage{35}
+  \item {generalGenerationNumber}
+    \subitem {MainWindow}, \hyperpage{170}
+  \item {generationDiff\_}
+    \subitem {RelationTemplate}, \hyperpage{244}
+  \item {genSizeDown}
+    \subitem {AppSettings}, \hyperpage{66}
+  \item {genSizeDown\_}
+    \subitem {MainWindow}, \hyperpage{186}
+  \item {genSizeUp}
+    \subitem {AppSettings}, \hyperpage{66}
+  \item {genSizeUp\_}
+    \subitem {MainWindow}, \hyperpage{186}
+  \item {getAbsoluteFilePath}
+    \subitem {Parser}, \hyperpage{192}
+  \item {getAfterTitle}
+    \subitem {Person}, \hyperpage{201}
+  \item {getAppSettings}
+    \subitem {Settings}, \hyperpage{252}
+  \item {getBirthDate}
+    \subitem {Person}, \hyperpage{201}
+  \item {getBirthPlace}
+    \subitem {Person}, \hyperpage{201}
+  \item {getDate}
+    \subitem {Event}, \hyperpage{84}
+  \item {getDay}
+    \subitem {Date}, \hyperpage{78}
+  \item {getDeathDate}
+    \subitem {Person}, \hyperpage{202}
+  \item {getDeathPlace}
+    \subitem {Person}, \hyperpage{202}
+  \item {getDescription}
+    \subitem {EventTemplate}, \hyperpage{100}
+    \subitem {RelationTemplate}, \hyperpage{241}
+  \item {getDrive}
+    \subitem {FileTreeItem}, \hyperpage{144}
+  \item {getEvent}
+    \subitem {FamilyTree}, \hyperpage{117}
+  \item {getEvents}
+    \subitem {FamilyTree}, \hyperpage{117}
+    \subitem {Person}, \hyperpage{202}
+  \item {getEventTemplate}
+    \subitem {Settings}, \hyperpage{253}
+  \item {getEventTemplates}
+    \subitem {Settings}, \hyperpage{253}
+  \item {getFather}
+    \subitem {Person}, \hyperpage{202}
+  \item {getFile}
+    \subitem {FamilyTree}, \hyperpage{117}
+  \item {getFileAbsolutePath}
+    \subitem {FamilyTree}, \hyperpage{118}
+  \item {getFilename}
+    \subitem {File}, \hyperpage{138}
+  \item {getFiles}
+    \subitem {FamilyTree}, \hyperpage{118}
+    \subitem {VirtualDrive}, \hyperpage{266}
+  \item {getFilesRoot}
+    \subitem {Person}, \hyperpage{202}
+  \item {getFilesRootPointer}
+    \subitem {Person}, \hyperpage{203}
+  \item {getFileUrl}
+    \subitem {Parser}, \hyperpage{192}
+  \item {getFirstDate}
+    \subitem {WrappedDate}, \hyperpage{276}
+  \item {getFirstName}
+    \subitem {RelationTemplate}, \hyperpage{241}
+  \item {getFirstPerson}
+    \subitem {Relation}, \hyperpage{226}
+  \item {getFrontTitle}
+    \subitem {Person}, \hyperpage{203}
+  \item {getFullName}
+    \subitem {Person}, \hyperpage{203}
+  \item {getGender}
+    \subitem {Person}, \hyperpage{203}
+  \item {getGeneralOrphaFiles}
+    \subitem {FamilyTree}, \hyperpage{118}
+  \item {getGenerationDifference}
+    \subitem {RelationTemplate}, \hyperpage{241}
+  \item {getGlobalMainPerson}
+    \subitem {Settings}, \hyperpage{253}
+  \item {getId}
+    \subitem {AddFileDialog}, \hyperpage{63}
+    \subitem {Event}, \hyperpage{84}
+    \subitem {EventRoleItem}, \hyperpage{94}
+    \subitem {EventTemplate}, \hyperpage{100}
+    \subitem {File}, \hyperpage{138}
+    \subitem {FileTreeItem}, \hyperpage{144}
+    \subitem {Person}, \hyperpage{204}
+    \subitem {ProjectItem}, \hyperpage{224}
+    \subitem {Relation}, \hyperpage{226}
+    \subitem {RelationTemplate}, \hyperpage{241}
+  \item {getMaidenName}
+    \subitem {Person}, \hyperpage{204}
+  \item {getMainPerson}
+    \subitem {FamilyTree}, \hyperpage{119}
+  \item {getMonth}
+    \subitem {Date}, \hyperpage{78}
+  \item {getMother}
+    \subitem {Person}, \hyperpage{204}
+  \item {getName}
+    \subitem {Person}, \hyperpage{204}
+    \subitem {VirtualDrive}, \hyperpage{266}
+  \item {getOrphanFiles}
+    \subitem {FamilyTree}, \hyperpage{119}
+  \item {getParentSuggestions}
+    \subitem {FamilyTree}, \hyperpage{119}
+  \item {getPartner}
+    \subitem {Person}, \hyperpage{204}
+  \item {getPartnersSuggestions}
+    \subitem {FamilyTree}, \hyperpage{120}
+  \item {getPerson}
+    \subitem {FamilyTree}, \hyperpage{120}
+  \item {getPersons}
+    \subitem {Event}, \hyperpage{85}
+    \subitem {FamilyTree}, \hyperpage{120}
+  \item {getPlace}
+    \subitem {Event}, \hyperpage{85}
+  \item {getProjectPaths}
+    \subitem {FamilyTree}, \hyperpage{120}
+  \item {getRealName}
+    \subitem {File}, \hyperpage{139}
+  \item {getRelation}
+    \subitem {FamilyTree}, \hyperpage{120}
+    \subitem {RelationItem}, \hyperpage{236}
+  \item {getRelations}
+    \subitem {FamilyTree}, \hyperpage{121}
+    \subitem {Person}, \hyperpage{205}
+  \item {getRelationSuggestions}
+    \subitem {FamilyTree}, \hyperpage{121}
+  \item {getRelationTemplate}
+    \subitem {Settings}, \hyperpage{253}
+  \item {getRelationTemplates}
+    \subitem {Settings}, \hyperpage{254}
+  \item {getRoles}
+    \subitem {EventTemplate}, \hyperpage{100}
+  \item {getSecondDate}
+    \subitem {WrappedDate}, \hyperpage{277}
+  \item {getSecondName}
+    \subitem {RelationTemplate}, \hyperpage{241}
+  \item {getSecondPerson}
+    \subitem {Relation}, \hyperpage{226}
+  \item {getSettings}
+    \subitem {Event}, \hyperpage{85}
+    \subitem {FamilyTree}, \hyperpage{121}
+  \item {getSiblingsSuggestions}
+    \subitem {FamilyTree}, \hyperpage{121}
+  \item {getSubdrives}
+    \subitem {VirtualDrive}, \hyperpage{267}
+  \item {getSurname}
+    \subitem {Person}, \hyperpage{205}
+  \item {getTags}
+    \subitem {Person}, \hyperpage{205}
+    \subitem {Settings}, \hyperpage{254}
+  \item {getTemplate}
+    \subitem {Event}, \hyperpage{85}
+    \subitem {Relation}, \hyperpage{227}
+  \item {getText}
+    \subitem {Event}, \hyperpage{85}
+    \subitem {WrappedDate}, \hyperpage{277}
+  \item {getTheOtherPerson}
+    \subitem {Relation}, \hyperpage{227}
+  \item {getTheOtherPersonName}
+    \subitem {Relation}, \hyperpage{227}
+  \item {getTitle}
+    \subitem {EventTemplate}, \hyperpage{101}
+    \subitem {Relation}, \hyperpage{228}
+    \subitem {RelationTemplate}, \hyperpage{242}
+  \item {getTrait}
+    \subitem {Relation}, \hyperpage{228}
+    \subitem {RelationTemplate}, \hyperpage{242}
+  \item {getUrlFile}
+    \subitem {FamilyTree}, \hyperpage{122}
+  \item {getYear}
+    \subitem {Date}, \hyperpage{78}
+  \item {GLOBAL\_MAIN\_PERSON}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {globalMainPerson\_}
+    \subitem {Settings}, \hyperpage{258}
+  \item {GRADUATE}
+    \subitem {events}, \hyperpage{30}
+  \item {GRADUATION}
+    \subitem {events}, \hyperpage{31}
+  \item {graphics/dialogs.cpp}, \hyperpage{318}
+  \item {graphics/dialogs.h}, \hyperpage{318}, \hyperpage{320}
+  \item {graphics/graphics\_items.cpp}, \hyperpage{323}
+  \item {graphics/graphics\_items.h}, \hyperpage{324}, \hyperpage{326}
+  \item {graphics/mainwindow.cpp}, \hyperpage{327}
+  \item {graphics/mainwindow.h}, \hyperpage{328}
+  \item {graphics/mainwindow\_slots.cpp}, \hyperpage{331}
+  \item {graphics/resources/icons.md}, \hyperpage{331}
+  \item {graphics\_items.cpp}
+    \subitem {containsForb}, \hyperpage{324}
+  \item {graphics\_items.h}
+    \subitem {containsForb}, \hyperpage{325}
+    \subitem {PROJECT\_EVENTS}, \hyperpage{325}
+    \subitem {PROJECT\_FILE}, \hyperpage{325}
+    \subitem {PROJECT\_GROUP}, \hyperpage{325}
+    \subitem {PROJECT\_MEDIA}, \hyperpage{325}
+    \subitem {PROJECT\_NOTE}, \hyperpage{325}
+    \subitem {PROJECT\_PERSON}, \hyperpage{325}
+    \subitem {PROJECT\_RELATIONS}, \hyperpage{325}
+    \subitem {ProjectItemType}, \hyperpage{325}
+  \item {GraphicsView}, \hyperpage{147}
+    \subitem {GraphicsView}, \hyperpage{147}
+    \subitem {wheelEvent}, \hyperpage{147}
+  \item {GREEN}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {green}
+    \subitem {Color}, \hyperpage{76}
+  \item {GROOM}
+    \subitem {events}, \hyperpage{31}
+
+  \indexspace
+
+  \item {hasMorePeopleInvolved}
+    \subitem {EventTemplate}, \hyperpage{101}
+  \item {hasRoles}
+    \subitem {EventTemplate}, \hyperpage{101}
+  \item {HELP}
+    \subitem {jsonlabel}, \hyperpage{43}
+  \item {help texts/events.md}, \hyperpage{331}
+  \item {help texts/files.md}, \hyperpage{331}
+  \item {help texts/generic.md}, \hyperpage{331}
+  \item {help texts/layout.md}, \hyperpage{331}
+  \item {help texts/persons.md}, \hyperpage{331}
+  \item {help texts/relations.md}, \hyperpage{331}
+  \item {HelpDialog}, \hyperpage{148}
+    \subitem {\texorpdfstring{$\sim$}{\string~}HelpDialog}, 
+		\hyperpage{149}
+    \subitem {FT\_}, \hyperpage{149}
+    \subitem {HelpDialog}, \hyperpage{148}
+    \subitem {openHelp}, \hyperpage{149}
+    \subitem {ui}, \hyperpage{149}
+  \item {highlighted\_}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+  \item {HIGHLIGHTED\_COLOR}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {highlightedColor}
+    \subitem {AppSettings}, \hyperpage{66}
+    \subitem {VisualSettings}, \hyperpage{272}
+  \item {highlightedColor\_}
+    \subitem {MainWindow}, \hyperpage{186}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {hovered\_}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+  \item {hoverEnterEvent}
+    \subitem {PersonsGraphicsItem}, \hyperpage{218}
+  \item {hoverLeaveEvent}
+    \subitem {PersonsGraphicsItem}, \hyperpage{218}
+  \item {html}, \hyperpage{32}
+    \subitem {ALL\_PERSONS}, \hyperpage{34}
+    \subitem {BIRTH\_DATE}, \hyperpage{34}
+    \subitem {BIRTH\_PLACE}, \hyperpage{34}
+    \subitem {CLOSE\_FAMILY}, \hyperpage{34}
+    \subitem {CLOSE\_FAMILY\_DIAGRAM}, \hyperpage{34}
+    \subitem {CUSTOM\_CSS}, \hyperpage{34}
+    \subitem {CUSTOM\_TAGS}, \hyperpage{34}
+    \subitem {DATE}, \hyperpage{34}
+    \subitem {DEATH\_DATE}, \hyperpage{35}
+    \subitem {DEATH\_PLACE}, \hyperpage{35}
+    \subitem {DESCRIPTION}, \hyperpage{35}
+    \subitem {EVENTS}, \hyperpage{35}
+    \subitem {FAMILY\_TREE}, \hyperpage{35}
+    \subitem {FAMILY\_TREE\_DIAGRAM}, \hyperpage{35}
+    \subitem {GENDER}, \hyperpage{35}
+    \subitem {GENERAL\_INFO}, \hyperpage{35}
+    \subitem {NOTE}, \hyperpage{36}
+    \subitem {PERSONS}, \hyperpage{36}
+    \subitem {PLACE}, \hyperpage{36}
+    \subitem {PREFIX\_CLOSE}, \hyperpage{36}
+    \subitem {PREFIX\_FAMILY\_TREE}, \hyperpage{36}
+    \subitem {RELATIONS}, \hyperpage{36}
+    \subitem {RESOURCES}, \hyperpage{36}
+  \item {HtmlExport}, \hyperpage{150}
+    \subitem {\texorpdfstring{$\sim$}{\string~}HtmlExport}, 
+		\hyperpage{151}
+    \subitem {allAboveGenerations}, \hyperpage{151}
+    \subitem {allBelowGenerations}, \hyperpage{151}
+    \subitem {exportAllHtml}, \hyperpage{151}
+    \subitem {exportMainHtml}, \hyperpage{151}
+    \subitem {FT\_}, \hyperpage{152}
+    \subitem {HtmlExport}, \hyperpage{150}
+    \subitem {ui}, \hyperpage{152}
+  \item {HUSBAND}
+    \subitem {relation}, \hyperpage{57}
+
+  \indexspace
+
+  \item {icons}, \hyperpage{3}
+  \item {ID}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {id\_}
+    \subitem {Event}, \hyperpage{88}
+    \subitem {EventRoleItem}, \hyperpage{95}
+    \subitem {EventTemplate}, \hyperpage{104}
+    \subitem {File}, \hyperpage{141}
+    \subitem {Person}, \hyperpage{213}
+    \subitem {ProjectItem}, \hyperpage{225}
+    \subitem {Relation}, \hyperpage{231}
+    \subitem {RelationTemplate}, \hyperpage{245}
+  \item {importJson}
+    \subitem {Person}, \hyperpage{205}
+  \item {importProject}
+    \subitem {FamilyTree}, \hyperpage{122}
+    \subitem {MainWindow}, \hyperpage{171}
+  \item {importRootDir}
+    \subitem {FamilyTree}, \hyperpage{122}
+    \subitem {MainWindow}, \hyperpage{171}
+  \item {importTemplates}
+    \subitem {FamilyTree}, \hyperpage{123}
+    \subitem {MainWindow}, \hyperpage{171}
+    \subitem {Settings}, \hyperpage{254}
+  \item {index.md}, \hyperpage{331}
+  \item {indexes}
+    \subitem {Settings}, \hyperpage{254}
+  \item {initializeProjectSubView}
+    \subitem {MainWindow}, \hyperpage{171}
+  \item {initializeProjectView}
+    \subitem {MainWindow}, \hyperpage{172}
+  \item {interractWithProjectItem}
+    \subitem {MainWindow}, \hyperpage{172}
+  \item {isAlive}
+    \subitem {Person}, \hyperpage{206}
+  \item {isDir\_}
+    \subitem {FileTreeItem}, \hyperpage{146}
+  \item {isDirectory}
+    \subitem {FileTreeItem}, \hyperpage{145}
+  \item {isDirectorySet}
+    \subitem {FamilyTree}, \hyperpage{123}
+  \item {isEmpty}
+    \subitem {Date}, \hyperpage{78}
+  \item {isExact}
+    \subitem {Date}, \hyperpage{78}
+    \subitem {WrappedDate}, \hyperpage{277}
+  \item {isOlderGeneration}
+    \subitem {Relation}, \hyperpage{228}
+  \item {isParent}
+    \subitem {Relation}, \hyperpage{228}
+  \item {isRootDirectorySet}
+    \subitem {Parser}, \hyperpage{192}
+  \item {isSameGenration}
+    \subitem {Relation}, \hyperpage{229}
+  \item {isSaved}
+    \subitem {FamilyTree}, \hyperpage{123}
+  \item {isUnknown}
+    \subitem {WrappedDate}, \hyperpage{277}
+  \item {isYoungerGeneration}
+    \subitem {Relation}, \hyperpage{229}
+  \item {itemClicked}
+    \subitem {PersonsGraphicsItem}, \hyperpage{219}
+
+  \indexspace
+
+  \item {JSON\_CONFIG}
+    \subitem {parser}, \hyperpage{51}
+  \item {JSON\_EVENTS}
+    \subitem {parser}, \hyperpage{51}
+  \item {JSON\_FILES}
+    \subitem {parser}, \hyperpage{51}
+  \item {JSON\_MEDIA}
+    \subitem {parser}, \hyperpage{51}
+  \item {JSON\_NOTES}
+    \subitem {parser}, \hyperpage{51}
+  \item {JSON\_PERSONS}
+    \subitem {parser}, \hyperpage{52}
+  \item {JSON\_RELATIONS}
+    \subitem {parser}, \hyperpage{52}
+  \item {jsonlabel}, \hyperpage{37}
+    \subitem {AFTER\_TITLE}, \hyperpage{40}
+    \subitem {APP\_SETTINGS}, \hyperpage{40}
+    \subitem {BIRTH}, \hyperpage{40}
+    \subitem {BLUE}, \hyperpage{40}
+    \subitem {BORDER\_RADIUS}, \hyperpage{40}
+    \subitem {CONTAINS\_DATE}, \hyperpage{41}
+    \subitem {CONTAINS\_PLACE}, \hyperpage{41}
+    \subitem {DATE}, \hyperpage{41}
+    \subitem {DEATH}, \hyperpage{41}
+    \subitem {DESCRIPTION}, \hyperpage{41}
+    \subitem {DIR}, \hyperpage{41}
+    \subitem {DRIVES}, \hyperpage{41}
+    \subitem {EVE\_TEMPL}, \hyperpage{41}
+    \subitem {EVENTS}, \hyperpage{42}
+    \subitem {EXPORT}, \hyperpage{42}
+    \subitem {FATHER}, \hyperpage{42}
+    \subitem {FILES}, \hyperpage{42}
+    \subitem {FIRST\_NAME}, \hyperpage{42}
+    \subitem {FIRST\_PERSON}, \hyperpage{42}
+    \subitem {FONT\_FAMILY}, \hyperpage{42}
+    \subitem {FONT\_SIZE}, \hyperpage{42}
+    \subitem {FRONT\_TITLE}, \hyperpage{43}
+    \subitem {GEN\_DIFF}, \hyperpage{43}
+    \subitem {GEN\_SIZE\_DOWN}, \hyperpage{43}
+    \subitem {GEN\_SIZE\_UP}, \hyperpage{43}
+    \subitem {GENDER}, \hyperpage{43}
+    \subitem {GLOBAL\_MAIN\_PERSON}, \hyperpage{43}
+    \subitem {GREEN}, \hyperpage{43}
+    \subitem {HELP}, \hyperpage{43}
+    \subitem {HIGHLIGHTED\_COLOR}, \hyperpage{44}
+    \subitem {ID}, \hyperpage{44}
+    \subitem {LAST\_DATE}, \hyperpage{44}
+    \subitem {LINE\_COLOR}, \hyperpage{44}
+    \subitem {LINE\_WIDTH}, \hyperpage{44}
+    \subitem {LIVES}, \hyperpage{44}
+    \subitem {MAIDEN\_NAME}, \hyperpage{44}
+    \subitem {MEDIA}, \hyperpage{44}
+    \subitem {MORE\_PEOPLE}, \hyperpage{45}
+    \subitem {MOTHER}, \hyperpage{45}
+    \subitem {MOVEABLE\_TABS}, \hyperpage{45}
+    \subitem {NAME}, \hyperpage{45}
+    \subitem {NOTES}, \hyperpage{45}
+    \subitem {PARTNER}, \hyperpage{45}
+    \subitem {PERSON}, \hyperpage{45}
+    \subitem {PERSONS}, \hyperpage{45}
+    \subitem {PLACE}, \hyperpage{46}
+    \subitem {PROBANT\_COLOR}, \hyperpage{46}
+    \subitem {PROMOTED\_COLOR}, \hyperpage{46}
+    \subitem {RED}, \hyperpage{46}
+    \subitem {REL\_TEMPL}, \hyperpage{46}
+    \subitem {RELATIONS}, \hyperpage{46}
+    \subitem {ROLE}, \hyperpage{46}
+    \subitem {ROOT}, \hyperpage{46}
+    \subitem {SECOND\_NAME}, \hyperpage{47}
+    \subitem {SECOND\_PERSON}, \hyperpage{47}
+    \subitem {SHOW\_EVENT\_TAB}, \hyperpage{47}
+    \subitem {SHOW\_FILE\_TAB}, \hyperpage{47}
+    \subitem {SHOW\_GENERAL\_TAB}, \hyperpage{47}
+    \subitem {SHOW\_MEDIA\_TAB}, \hyperpage{47}
+    \subitem {SHOW\_NOTE\_TAB}, \hyperpage{47}
+    \subitem {SHOW\_RELATION\_TAB}, \hyperpage{47}
+    \subitem {SPECIAL\_ROLES}, \hyperpage{48}
+    \subitem {SPLITTER\_POSITION\_ONE}, \hyperpage{48}
+    \subitem {SPLITTER\_POSITION\_TWO}, \hyperpage{48}
+    \subitem {STANDARD\_COLOR}, \hyperpage{48}
+    \subitem {SURNAME}, \hyperpage{48}
+    \subitem {TAB\_POSITION}, \hyperpage{48}
+    \subitem {TAG}, \hyperpage{48}
+    \subitem {TAGS}, \hyperpage{48}
+    \subitem {TEMPLATE}, \hyperpage{49}
+    \subitem {TEMPLATES}, \hyperpage{49}
+    \subitem {TEXT}, \hyperpage{49}
+    \subitem {TEXT\_COLOR}, \hyperpage{49}
+    \subitem {TITLE}, \hyperpage{49}
+    \subitem {TRAIT}, \hyperpage{49}
+    \subitem {TYPE}, \hyperpage{49}
+    \subitem {VALUE}, \hyperpage{49}
+    \subitem {VIRTUAL\_DRIVE}, \hyperpage{50}
+    \subitem {X\_SIZE}, \hyperpage{50}
+    \subitem {Y\_SIZE}, \hyperpage{50}
+
+  \indexspace
+
+  \item {LAST\_DATE}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {Layout}, \hyperpage{11}
+  \item {LINE\_COLOR}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {LINE\_WIDTH}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {lineColor}
+    \subitem {AppSettings}, \hyperpage{66}
+    \subitem {VisualSettings}, \hyperpage{272}
+  \item {linePen\_}
+    \subitem {MainWindow}, \hyperpage{186}
+  \item {lineWidth}
+    \subitem {AppSettings}, \hyperpage{66}
+  \item {LIVES}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {lives\_}
+    \subitem {Person}, \hyperpage{213}
+  \item {loadDatabaseFile}
+    \subitem {FamilyTree}, \hyperpage{123}
+  \item {loadSettings}
+    \subitem {MainWindow}, \hyperpage{172}
+  \item {lockedPerson}
+    \subitem {RelationSuggestion}, \hyperpage{239}
+  \item {log}
+    \subitem {FamilyTree}, \hyperpage{124}
+    \subitem {Parser}, \hyperpage{192}
+
+  \indexspace
+
+  \item {MAID\_OF\_HONOR}
+    \subitem {events}, \hyperpage{31}
+  \item {MAIDEN\_NAME}
+    \subitem {jsonlabel}, \hyperpage{44}
+  \item {maidenName\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{332}
+  \item {main.cpp}, \hyperpage{331}
+    \subitem {main}, \hyperpage{332}
+  \item {main\_}
+    \subitem {EventDialog}, \hyperpage{93}
+  \item {mainPerson\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {MainWindow}, \hyperpage{152}
+    \subitem {\texorpdfstring{$\sim$}{\string~}MainWindow}, 
+		\hyperpage{158}
+    \subitem {addGeneralFile}, \hyperpage{159}
+    \subitem {addGeneralFolder}, \hyperpage{159}
+    \subitem {addNewEvent}, \hyperpage{159}
+    \subitem {addNewFile}, \hyperpage{159}
+    \subitem {addNewFileFolder}, \hyperpage{159}
+    \subitem {addNewMedia}, \hyperpage{160}
+    \subitem {addNewMediaFolder}, \hyperpage{160}
+    \subitem {addNewNote}, \hyperpage{160}
+    \subitem {addNewNoteFolder}, \hyperpage{160}
+    \subitem {addNewPerson}, \hyperpage{160}
+    \subitem {addNewRelation}, \hyperpage{160}
+    \subitem {allAboveGenerations}, \hyperpage{160}
+    \subitem {allBelowGenerations}, \hyperpage{161}
+    \subitem {borderRadius\_}, \hyperpage{185}
+    \subitem {changeGenerationsDown}, \hyperpage{161}
+    \subitem {changeGenerationsUp}, \hyperpage{161}
+    \subitem {checkStoreRefreshPersonsInfo}, \hyperpage{161}
+    \subitem {clearProjectFilter}, \hyperpage{161}
+    \subitem {clearProjectPaths}, \hyperpage{162}
+    \subitem {clearUi}, \hyperpage{162}
+    \subitem {closeEvent}, \hyperpage{162}
+    \subitem {connectAllSlots}, \hyperpage{162}
+    \subitem {disableFileFolderPrompt}, \hyperpage{162}
+    \subitem {disableMediaFolderPrompt}, \hyperpage{162}
+    \subitem {disableNoteFolderPrompt}, \hyperpage{162}
+    \subitem {drawCloseContainer}, \hyperpage{163}
+    \subitem {drawCloseFamily}, \hyperpage{163}
+    \subitem {drawFamilyTree}, \hyperpage{164}
+    \subitem {drawGeneralGenerations}, \hyperpage{164}
+    \subitem {drawOlderGenerations}, \hyperpage{165}
+    \subitem {drawPartner}, \hyperpage{165}
+    \subitem {drawYoungerGenerations}, \hyperpage{166}
+    \subitem {editEvent}, \hyperpage{166}
+    \subitem {editRelation}, \hyperpage{167}
+    \subitem {editTag}, \hyperpage{167}
+    \subitem {enableFileFolderPrompt}, \hyperpage{167}
+    \subitem {enableGeneralFolderPrompt}, \hyperpage{167}
+    \subitem {enableGeneralFolderRenamePrompt}, \hyperpage{168}
+    \subitem {enableMediaFolderPrompt}, \hyperpage{168}
+    \subitem {enableNoteFolderPrompt}, \hyperpage{168}
+    \subitem {exportCloseFamilyDiagram}, \hyperpage{168}
+    \subitem {exportCloseFamilyDiagramDialog}, \hyperpage{169}
+    \subitem {exportGeneralDiagram}, \hyperpage{169}
+    \subitem {exportHtml}, \hyperpage{169}
+    \subitem {exportMainHtml}, \hyperpage{169}
+    \subitem {exportProject}, \hyperpage{169}
+    \subitem {exportTemplates}, \hyperpage{169}
+    \subitem {exportTreeDiagram}, \hyperpage{170}
+    \subitem {exportTreeDiagramDialog}, \hyperpage{170}
+    \subitem {filterProjectItems}, \hyperpage{170}
+    \subitem {findPerson}, \hyperpage{170}
+    \subitem {fitTreeInView}, \hyperpage{170}
+    \subitem {font\_}, \hyperpage{185}
+    \subitem {FT}, \hyperpage{186}
+    \subitem {generalGenerationNumber}, \hyperpage{170}
+    \subitem {genSizeDown\_}, \hyperpage{186}
+    \subitem {genSizeUp\_}, \hyperpage{186}
+    \subitem {highlightedColor\_}, \hyperpage{186}
+    \subitem {importProject}, \hyperpage{171}
+    \subitem {importRootDir}, \hyperpage{171}
+    \subitem {importTemplates}, \hyperpage{171}
+    \subitem {initializeProjectSubView}, \hyperpage{171}
+    \subitem {initializeProjectView}, \hyperpage{172}
+    \subitem {interractWithProjectItem}, \hyperpage{172}
+    \subitem {linePen\_}, \hyperpage{186}
+    \subitem {loadSettings}, \hyperpage{172}
+    \subitem {MainWindow}, \hyperpage{158}
+    \subitem {olderGenerationNumber}, \hyperpage{172}
+    \subitem {openBirthDateDialog}, \hyperpage{173}
+    \subitem {openCustomDateDialog}, \hyperpage{173}
+    \subitem {openDeathDateDialog}, \hyperpage{173}
+    \subitem {openEventTemplatesDialog}, \hyperpage{173}
+    \subitem {openExistingProject}, \hyperpage{173}
+    \subitem {openExternalFile}, \hyperpage{173}
+    \subitem {openGeneralFile}, \hyperpage{174}
+    \subitem {openGeneralProject}, \hyperpage{174}
+    \subitem {openGraphicSettings}, \hyperpage{174}
+    \subitem {openNewFamilyTreeProject}, \hyperpage{174}
+    \subitem {openRelationTemplatesDialog}, \hyperpage{174}
+    \subitem {openSelectedFile}, \hyperpage{174}
+    \subitem {openSelectedMedia}, \hyperpage{175}
+    \subitem {openSelectedNote}, \hyperpage{175}
+    \subitem {probandColor\_}, \hyperpage{186}
+    \subitem {promotedColor\_}, \hyperpage{186}
+    \subitem {promoteRelation}, \hyperpage{175}
+    \subitem {refreshDates}, \hyperpage{175}
+    \subitem {refreshEventTab}, \hyperpage{175}
+    \subitem {refreshGraphics}, \hyperpage{176}
+    \subitem {refreshPersonsInfoTab}, \hyperpage{176}
+    \subitem {refreshProjectEventsView}, \hyperpage{176}
+    \subitem {refreshProjectFilesView}, \hyperpage{176}
+    \subitem {refreshProjectGeneralFilesView}, \hyperpage{176}
+    \subitem {refreshProjectMediaView}, \hyperpage{177}
+    \subitem {refreshProjectNoteView}, \hyperpage{177}
+    \subitem {refreshProjectRelationsView}, \hyperpage{177}
+    \subitem {refreshProjectView}, \hyperpage{178}
+    \subitem {refreshRelationTab}, \hyperpage{178}
+    \subitem {refreshTabsWithFiles}, \hyperpage{178}
+    \subitem {refreshTagsList}, \hyperpage{178}
+    \subitem {refreshUi}, \hyperpage{178}
+    \subitem {removeEvent}, \hyperpage{178}
+    \subitem {removeFileFolder}, \hyperpage{178}
+    \subitem {removeGeneralFolder}, \hyperpage{179}
+    \subitem {removeMediaFolder}, \hyperpage{179}
+    \subitem {removeNoteFolder}, \hyperpage{179}
+    \subitem {removePerson}, \hyperpage{179}
+    \subitem {removeRelation}, \hyperpage{179}
+    \subitem {removeTag}, \hyperpage{179}
+    \subitem {renameFile}, \hyperpage{179}
+    \subitem {renameGeneralFileItem}, \hyperpage{180}
+    \subitem {renameMedia}, \hyperpage{180}
+    \subitem {renameNote}, \hyperpage{180}
+    \subitem {saveDatabase}, \hyperpage{180}
+    \subitem {saveGraphicsSetting}, \hyperpage{180}
+    \subitem {savePersonsInfo}, \hyperpage{181}
+    \subitem {scene}, \hyperpage{186}
+    \subitem {selectOlderGenerationOnly}, \hyperpage{181}
+    \subitem {selectSameGenerationOnly}, \hyperpage{181}
+    \subitem {selectYoungerGenerationOnly}, \hyperpage{181}
+    \subitem {setEnabledDeathAtributes}, \hyperpage{181}
+    \subitem {setEventTabVisible}, \hyperpage{182}
+    \subitem {setFileTabVisible}, \hyperpage{182}
+    \subitem {setGeneralTabVisible}, \hyperpage{182}
+    \subitem {setMainPerson}, \hyperpage{182}
+    \subitem {setMediaTabVisible}, \hyperpage{182}
+    \subitem {setNoteTabVisible}, \hyperpage{182}
+    \subitem {setNumberOfGenerations}, \hyperpage{182}
+    \subitem {setRelationTabVisible}, \hyperpage{183}
+    \subitem {setTabEast}, \hyperpage{183}
+    \subitem {setTabNorth}, \hyperpage{183}
+    \subitem {setTabSouth}, \hyperpage{183}
+    \subitem {setTabWest}, \hyperpage{183}
+    \subitem {setUiElements}, \hyperpage{183}
+    \subitem {showGeneralFiles}, \hyperpage{184}
+    \subitem {showHelp}, \hyperpage{184}
+    \subitem {showRenameFile}, \hyperpage{184}
+    \subitem {showRenameMedia}, \hyperpage{184}
+    \subitem {showRenameNote}, \hyperpage{184}
+    \subitem {sizeX\_}, \hyperpage{187}
+    \subitem {sizeY\_}, \hyperpage{187}
+    \subitem {splitterChanged}, \hyperpage{184}
+    \subitem {standardColor\_}, \hyperpage{187}
+    \subitem {switchNewTreeProject}, \hyperpage{185}
+    \subitem {textPen\_}, \hyperpage{187}
+    \subitem {treeScene}, \hyperpage{187}
+    \subitem {treeView}, \hyperpage{187}
+    \subitem {ui}, \hyperpage{187}
+    \subitem {youngerGenerationNumber}, \hyperpage{185}
+    \subitem {zoomIn}, \hyperpage{185}
+    \subitem {zoomOut}, \hyperpage{185}
+  \item {makeNewDatabase}
+    \subitem {Parser}, \hyperpage{193}
+  \item {Male}
+    \subitem {person.h}, \hyperpage{304}
+  \item {MARRIAGE}
+    \subitem {relation}, \hyperpage{57}
+  \item {MARRIAGE\_DESC}
+    \subitem {relation}, \hyperpage{57}
+  \item {MEDIA}
+    \subitem {jsonlabel}, \hyperpage{44}
+    \subitem {person.h}, \hyperpage{304}
+  \item {MEDIA\_DIR}
+    \subitem {parser}, \hyperpage{52}
+  \item {media\_index\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {month}
+    \subitem {Date}, \hyperpage{80}
+  \item {MORE\_PEOPLE}
+    \subitem {jsonlabel}, \hyperpage{45}
+  \item {morePeopleInvolved\_}
+    \subitem {EventTemplate}, \hyperpage{104}
+  \item {MOTHER}
+    \subitem {jsonlabel}, \hyperpage{45}
+    \subitem {relation}, \hyperpage{57}
+  \item {mother\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {MOTHERHOOD}
+    \subitem {relation}, \hyperpage{58}
+  \item {Motherhood}
+    \subitem {config.h}, \hyperpage{285}
+  \item {MOTHERHOOD\_DESC}
+    \subitem {relation}, \hyperpage{58}
+  \item {motherhoods}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+  \item {mousePressEvent}
+    \subitem {PersonsGraphicsItem}, \hyperpage{219}
+  \item {MOVEABLE\_TABS}
+    \subitem {jsonlabel}, \hyperpage{45}
+
+  \indexspace
+
+  \item {NAME}
+    \subitem {jsonlabel}, \hyperpage{45}
+  \item {name\_}
+    \subitem {Person}, \hyperpage{214}
+    \subitem {VirtualDrive}, \hyperpage{269}
+  \item {NAME\_STR}
+    \subitem {person}, \hyperpage{53}
+  \item {newOne\_}
+    \subitem {TagChooserDialog}, \hyperpage{264}
+  \item {NO\_CHOSEN\_FILE}
+    \subitem {error}, \hyperpage{27}
+  \item {NO\_ROLE}
+    \subitem {error}, \hyperpage{28}
+    \subitem {events}, \hyperpage{31}
+  \item {NONE}
+    \subitem {addfile}, \hyperpage{25}
+  \item {None}
+    \subitem {config.h}, \hyperpage{285}
+  \item {North}
+    \subitem {config.h}, \hyperpage{285}
+  \item {NOTE}
+    \subitem {html}, \hyperpage{36}
+    \subitem {person.h}, \hyperpage{304}
+  \item {note\_index\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {NOTES}
+    \subitem {jsonlabel}, \hyperpage{45}
+  \item {NOTES\_DIR}
+    \subitem {parser}, \hyperpage{52}
+
+  \indexspace
+
+  \item {olderGenerationNumber}
+    \subitem {MainWindow}, \hyperpage{172}
+  \item {openBirthDateDialog}
+    \subitem {MainWindow}, \hyperpage{173}
+  \item {openCustomDate}
+    \subitem {EventDialog}, \hyperpage{91}
+  \item {openCustomDateDialog}
+    \subitem {MainWindow}, \hyperpage{173}
+  \item {openDatabase}
+    \subitem {FamilyTree}, \hyperpage{124}
+  \item {openDeathDateDialog}
+    \subitem {MainWindow}, \hyperpage{173}
+  \item {openEventTemplatesDialog}
+    \subitem {MainWindow}, \hyperpage{173}
+  \item {openExistingProject}
+    \subitem {MainWindow}, \hyperpage{173}
+  \item {openExternalFile}
+    \subitem {MainWindow}, \hyperpage{173}
+  \item {openFile}
+    \subitem {AddFileDialog}, \hyperpage{63}
+  \item {openGeneralFile}
+    \subitem {MainWindow}, \hyperpage{174}
+  \item {openGeneralProject}
+    \subitem {MainWindow}, \hyperpage{174}
+  \item {openGraphicSettings}
+    \subitem {MainWindow}, \hyperpage{174}
+  \item {openHelp}
+    \subitem {FamilyTree}, \hyperpage{136}
+    \subitem {HelpDialog}, \hyperpage{149}
+  \item {openNewFamilyTreeProject}
+    \subitem {MainWindow}, \hyperpage{174}
+  \item {openRelationTemplatesDialog}
+    \subitem {MainWindow}, \hyperpage{174}
+  \item {openSelectedFile}
+    \subitem {MainWindow}, \hyperpage{174}
+  \item {openSelectedMedia}
+    \subitem {MainWindow}, \hyperpage{175}
+  \item {openSelectedNote}
+    \subitem {MainWindow}, \hyperpage{175}
+  \item {openSingleFileDatabase}
+    \subitem {FamilyTree}, \hyperpage{125}
+  \item {operator$<$$<$}
+    \subitem {config.cpp}, \hyperpage{281--283}
+    \subitem {config.h}, \hyperpage{285, 286}
+    \subitem {date.cpp}, \hyperpage{289, 290}
+    \subitem {date.h}, \hyperpage{291}
+    \subitem {family\_tree\_items.cpp}, \hyperpage{295, 296}
+    \subitem {family\_tree\_items.h}, \hyperpage{297}
+    \subitem {person.cpp}, \hyperpage{302}
+    \subitem {person.h}, \hyperpage{305}
+  \item {Other}
+    \subitem {person.h}, \hyperpage{304}
+
+  \indexspace
+
+  \item {paint}
+    \subitem {CellGraphicsItem}, \hyperpage{70}
+    \subitem {PersonsGraphicsItem}, \hyperpage{219}
+  \item {parent}
+    \subitem {RelationSuggestion}, \hyperpage{239}
+  \item {Parser}, \hyperpage{188}
+    \subitem {checkFileConsistency}, \hyperpage{189}
+    \subitem {clear}, \hyperpage{189}
+    \subitem {configPath\_}, \hyperpage{196}
+    \subitem {containsBackup}, \hyperpage{190}
+    \subitem {containsBackupFile}, \hyperpage{190}
+    \subitem {copyFile}, \hyperpage{190}
+    \subitem {createAllDirs}, \hyperpage{191}
+    \subitem {createEmptyFile}, \hyperpage{191}
+    \subitem {createJsonFile}, \hyperpage{191}
+    \subitem {createResourcesDir}, \hyperpage{191}
+    \subitem {getAbsoluteFilePath}, \hyperpage{192}
+    \subitem {getFileUrl}, \hyperpage{192}
+    \subitem {isRootDirectorySet}, \hyperpage{192}
+    \subitem {log}, \hyperpage{192}
+    \subitem {makeNewDatabase}, \hyperpage{193}
+    \subitem {Parser}, \hyperpage{189}
+    \subitem {readConfig}, \hyperpage{193}
+    \subitem {readJSONFile}, \hyperpage{193}
+    \subitem {removeBackup}, \hyperpage{194}
+    \subitem {removeFile}, \hyperpage{194}
+    \subitem {renameFile}, \hyperpage{194}
+    \subitem {restoreBackup}, \hyperpage{194}
+    \subitem {root\_}, \hyperpage{197}
+    \subitem {setDatabase}, \hyperpage{195}
+    \subitem {writeConfig}, \hyperpage{195}
+    \subitem {writeHtml}, \hyperpage{195, 196}
+    \subitem {writeJSON}, \hyperpage{196}
+  \item {parser}, \hyperpage{50}
+    \subitem {ERROR\_LOG}, \hyperpage{51}
+    \subitem {FILES\_DIR}, \hyperpage{51}
+    \subitem {JSON\_CONFIG}, \hyperpage{51}
+    \subitem {JSON\_EVENTS}, \hyperpage{51}
+    \subitem {JSON\_FILES}, \hyperpage{51}
+    \subitem {JSON\_MEDIA}, \hyperpage{51}
+    \subitem {JSON\_NOTES}, \hyperpage{51}
+    \subitem {JSON\_PERSONS}, \hyperpage{52}
+    \subitem {JSON\_RELATIONS}, \hyperpage{52}
+    \subitem {MEDIA\_DIR}, \hyperpage{52}
+    \subitem {NOTES\_DIR}, \hyperpage{52}
+  \item {parser\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {PARTNER}
+    \subitem {jsonlabel}, \hyperpage{45}
+    \subitem {relation}, \hyperpage{58}
+  \item {partner\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {PARTNERSHIP}
+    \subitem {relation}, \hyperpage{58}
+  \item {Partnership}
+    \subitem {config.h}, \hyperpage{285}
+  \item {PARTNERSHIP\_DESC}
+    \subitem {relation}, \hyperpage{58}
+  \item {partnerships}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+  \item {pen\_}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {PERSON}
+    \subitem {jsonlabel}, \hyperpage{45}
+  \item {Person}, \hyperpage{13}, \hyperpage{197}
+    \subitem {addEvent}, \hyperpage{199}
+    \subitem {addRelation}, \hyperpage{199}
+    \subitem {addTag}, \hyperpage{200}
+    \subitem {birthDate}, \hyperpage{200}
+    \subitem {dateOfBirth\_}, \hyperpage{213}
+    \subitem {dateOfDeath\_}, \hyperpage{213}
+    \subitem {deathDate}, \hyperpage{200}
+    \subitem {events\_}, \hyperpage{213}
+    \subitem {existsTag}, \hyperpage{200}
+    \subitem {exportJson}, \hyperpage{201}
+    \subitem {father\_}, \hyperpage{213}
+    \subitem {gender\_}, \hyperpage{213}
+    \subitem {getAfterTitle}, \hyperpage{201}
+    \subitem {getBirthDate}, \hyperpage{201}
+    \subitem {getBirthPlace}, \hyperpage{201}
+    \subitem {getDeathDate}, \hyperpage{202}
+    \subitem {getDeathPlace}, \hyperpage{202}
+    \subitem {getEvents}, \hyperpage{202}
+    \subitem {getFather}, \hyperpage{202}
+    \subitem {getFilesRoot}, \hyperpage{202}
+    \subitem {getFilesRootPointer}, \hyperpage{203}
+    \subitem {getFrontTitle}, \hyperpage{203}
+    \subitem {getFullName}, \hyperpage{203}
+    \subitem {getGender}, \hyperpage{203}
+    \subitem {getId}, \hyperpage{204}
+    \subitem {getMaidenName}, \hyperpage{204}
+    \subitem {getMother}, \hyperpage{204}
+    \subitem {getName}, \hyperpage{204}
+    \subitem {getPartner}, \hyperpage{204}
+    \subitem {getRelations}, \hyperpage{205}
+    \subitem {getSurname}, \hyperpage{205}
+    \subitem {getTags}, \hyperpage{205}
+    \subitem {id\_}, \hyperpage{213}
+    \subitem {importJson}, \hyperpage{205}
+    \subitem {isAlive}, \hyperpage{206}
+    \subitem {lives\_}, \hyperpage{213}
+    \subitem {maidenName\_}, \hyperpage{214}
+    \subitem {mother\_}, \hyperpage{214}
+    \subitem {name\_}, \hyperpage{214}
+    \subitem {partner\_}, \hyperpage{214}
+    \subitem {Person}, \hyperpage{199}
+    \subitem {placeOfBirth\_}, \hyperpage{214}
+    \subitem {placeOfDeath\_}, \hyperpage{214}
+    \subitem {printHtml}, \hyperpage{206}
+    \subitem {promoteRelation}, \hyperpage{206}
+    \subitem {readJson}, \hyperpage{206}
+    \subitem {relations\_}, \hyperpage{214}
+    \subitem {removeEvent}, \hyperpage{207}
+    \subitem {removeRelation}, \hyperpage{207}
+    \subitem {removeTag}, \hyperpage{207}
+    \subitem {rootFileDrive\_}, \hyperpage{214}
+    \subitem {rootMediaDrive\_}, \hyperpage{215}
+    \subitem {rootNoteDrive\_}, \hyperpage{215}
+    \subitem {setAfterTitle}, \hyperpage{207}
+    \subitem {setBirthDate}, \hyperpage{208}
+    \subitem {setBirthPlace}, \hyperpage{208}
+    \subitem {setDeathDate}, \hyperpage{208}
+    \subitem {setDeathPlace}, \hyperpage{208}
+    \subitem {setFather}, \hyperpage{209}
+    \subitem {setFilesRoot}, \hyperpage{209}
+    \subitem {setFrontTitle}, \hyperpage{209}
+    \subitem {setGender}, \hyperpage{209}
+    \subitem {setId}, \hyperpage{210}
+    \subitem {setLives}, \hyperpage{210}
+    \subitem {setMaidenName}, \hyperpage{210}
+    \subitem {setMother}, \hyperpage{210}
+    \subitem {setName}, \hyperpage{211}
+    \subitem {setPartner}, \hyperpage{211}
+    \subitem {setSurname}, \hyperpage{211}
+    \subitem {str}, \hyperpage{211}
+    \subitem {surname\_}, \hyperpage{215}
+    \subitem {tags\_}, \hyperpage{215}
+    \subitem {titleAfter\_}, \hyperpage{215}
+    \subitem {titleInFront\_}, \hyperpage{215}
+    \subitem {updateSpecialRelation}, \hyperpage{211}
+  \item {person}, \hyperpage{52}
+    \subitem {DATE\_FROM}, \hyperpage{53}
+    \subitem {DATE\_TO}, \hyperpage{53}
+    \subitem {NAME\_STR}, \hyperpage{53}
+    \subitem {ROOT}, \hyperpage{53}
+    \subitem {SURNAME\_STR}, \hyperpage{53}
+    \subitem {UNKNOWN\_STR}, \hyperpage{53}
+  \item {person.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{302}
+    \subitem {printSizeTContainer}, \hyperpage{303}
+  \item {person.h}
+    \subitem {Female}, \hyperpage{304}
+    \subitem {FileType}, \hyperpage{304}
+    \subitem {Gender}, \hyperpage{304}
+    \subitem {GENERAL\_FILE}, \hyperpage{304}
+    \subitem {Male}, \hyperpage{304}
+    \subitem {MEDIA}, \hyperpage{304}
+    \subitem {NOTE}, \hyperpage{304}
+    \subitem {operator$<$$<$}, \hyperpage{305}
+    \subitem {Other}, \hyperpage{304}
+    \subitem {printSizeTContainer}, \hyperpage{305}
+  \item {person1\_}
+    \subitem {Relation}, \hyperpage{231}
+    \subitem {RelationDialog}, \hyperpage{234}
+  \item {person2\_}
+    \subitem {Relation}, \hyperpage{231}
+    \subitem {RelationDialog}, \hyperpage{234}
+  \item {person\_}
+    \subitem {ChoosePersonDialog}, \hyperpage{74}
+    \subitem {PersonsGraphicsItem}, \hyperpage{220}
+  \item {person\_index\_}
+    \subitem {FamilyTree}, \hyperpage{136}
+  \item {PERSONS}
+    \subitem {html}, \hyperpage{36}
+    \subitem {jsonlabel}, \hyperpage{45}
+  \item {persons\_}
+    \subitem {Event}, \hyperpage{88}
+  \item {PersonsGraphicsItem}, \hyperpage{216}
+    \subitem {\texorpdfstring{$\sim$}{\string~}PersonsGraphicsItem}, 
+		\hyperpage{218}
+    \subitem {bold\_text\_}, \hyperpage{220}
+    \subitem {borderRadius\_}, \hyperpage{220}
+    \subitem {boundingRect}, \hyperpage{218}
+    \subitem {color\_}, \hyperpage{220}
+    \subitem {font\_}, \hyperpage{220}
+    \subitem {highlighted\_}, \hyperpage{220}
+    \subitem {hovered\_}, \hyperpage{220}
+    \subitem {hoverEnterEvent}, \hyperpage{218}
+    \subitem {hoverLeaveEvent}, \hyperpage{218}
+    \subitem {itemClicked}, \hyperpage{219}
+    \subitem {mousePressEvent}, \hyperpage{219}
+    \subitem {paint}, \hyperpage{219}
+    \subitem {pen\_}, \hyperpage{220}
+    \subitem {person\_}, \hyperpage{220}
+    \subitem {PersonsGraphicsItem}, \hyperpage{217}
+    \subitem {shape}, \hyperpage{219}
+    \subitem {sizex\_}, \hyperpage{221}
+    \subitem {sizey\_}, \hyperpage{221}
+    \subitem {textLines\_}, \hyperpage{221}
+    \subitem {textPen\_}, \hyperpage{221}
+    \subitem {x\_}, \hyperpage{221}
+    \subitem {y\_}, \hyperpage{221}
+  \item {PictureExport}, \hyperpage{222}
+    \subitem {\texorpdfstring{$\sim$}{\string~}PictureExport}, 
+		\hyperpage{223}
+    \subitem {closeDiagram\_}, \hyperpage{223}
+    \subitem {exportDiagram}, \hyperpage{223}
+    \subitem {PictureExport}, \hyperpage{222}
+    \subitem {ui}, \hyperpage{223}
+  \item {PLACE}
+    \subitem {html}, \hyperpage{36}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {place\_}
+    \subitem {Event}, \hyperpage{89}
+  \item {placeOfBirth\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {placeOfDeath\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {PREFIX\_CLOSE}
+    \subitem {html}, \hyperpage{36}
+  \item {PREFIX\_FAMILY\_TREE}
+    \subitem {html}, \hyperpage{36}
+  \item {printCss}
+    \subitem {FamilyTree}, \hyperpage{125}
+  \item {printEvents}
+    \subitem {FamilyTree}, \hyperpage{125}
+  \item {printFiles}
+    \subitem {FamilyTree}, \hyperpage{126}
+  \item {printHtml}
+    \subitem {Event}, \hyperpage{86}
+    \subitem {FamilyTree}, \hyperpage{126}
+    \subitem {Person}, \hyperpage{206}
+    \subitem {Relation}, \hyperpage{229}
+  \item {printHtmlPerson}
+    \subitem {FamilyTree}, \hyperpage{126}
+  \item {printMainPersonHtml}
+    \subitem {FamilyTree}, \hyperpage{126}
+  \item {printPeople}
+    \subitem {FamilyTree}, \hyperpage{127}
+  \item {printRelations}
+    \subitem {FamilyTree}, \hyperpage{127}
+  \item {printSizeTContainer}
+    \subitem {person.cpp}, \hyperpage{303}
+    \subitem {person.h}, \hyperpage{305}
+  \item {probandColor}
+    \subitem {AppSettings}, \hyperpage{67}
+    \subitem {VisualSettings}, \hyperpage{272}
+  \item {probandColor\_}
+    \subitem {MainWindow}, \hyperpage{186}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {PROBANT\_COLOR}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {PROJECT\_EVENTS}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {PROJECT\_FILE}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {PROJECT\_GROUP}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {PROJECT\_MEDIA}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {PROJECT\_NOTE}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {PROJECT\_PERSON}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {PROJECT\_RELATIONS}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {ProjectItem}, \hyperpage{223}
+    \subitem {getId}, \hyperpage{224}
+    \subitem {id\_}, \hyperpage{225}
+    \subitem {ProjectItem}, \hyperpage{224}
+    \subitem {type}, \hyperpage{224}
+    \subitem {type\_}, \hyperpage{225}
+  \item {ProjectItemType}
+    \subitem {graphics\_items.h}, \hyperpage{325}
+  \item {projectPaths}
+    \subitem {FamilyTree}, \hyperpage{137}
+  \item {promoted}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {PROMOTED\_COLOR}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {promotedColor}
+    \subitem {VisualSettings}, \hyperpage{272}
+  \item {promotedColor\_}
+    \subitem {MainWindow}, \hyperpage{186}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {promoteRelation}
+    \subitem {FamilyTree}, \hyperpage{127}
+    \subitem {MainWindow}, \hyperpage{175}
+    \subitem {Person}, \hyperpage{206}
+
+  \indexspace
+
+  \item {radius}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {read}
+    \subitem {Date}, \hyperpage{78}
+  \item {readConfig}
+    \subitem {Parser}, \hyperpage{193}
+  \item {readJson}
+    \subitem {AppSettings}, \hyperpage{65}
+    \subitem {Color}, \hyperpage{76}
+    \subitem {Event}, \hyperpage{86}
+    \subitem {EventTemplate}, \hyperpage{101}
+    \subitem {File}, \hyperpage{139}
+    \subitem {Person}, \hyperpage{206}
+    \subitem {Relation}, \hyperpage{230}
+    \subitem {RelationTemplate}, \hyperpage{242}
+    \subitem {Settings}, \hyperpage{255}
+    \subitem {VirtualDrive}, \hyperpage{267}
+    \subitem {WrappedDate}, \hyperpage{277}
+  \item {readJsonEvents}
+    \subitem {FamilyTree}, \hyperpage{127}
+  \item {readJSONFile}
+    \subitem {Parser}, \hyperpage{193}
+  \item {readJsonFiles}
+    \subitem {FamilyTree}, \hyperpage{128}
+  \item {readJsonPeople}
+    \subitem {FamilyTree}, \hyperpage{128}
+  \item {readJsonRelations}
+    \subitem {FamilyTree}, \hyperpage{128}
+  \item {RED}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {red}
+    \subitem {Color}, \hyperpage{76}
+  \item {refresh}
+    \subitem {VisualSettings}, \hyperpage{272}
+  \item {refreshDates}
+    \subitem {EventDialog}, \hyperpage{91}
+    \subitem {MainWindow}, \hyperpage{175}
+  \item {refreshEventTab}
+    \subitem {MainWindow}, \hyperpage{175}
+  \item {refreshGraphics}
+    \subitem {MainWindow}, \hyperpage{176}
+  \item {refreshListWidget}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+  \item {refreshPersons}
+    \subitem {EventDialog}, \hyperpage{91}
+  \item {refreshPersonsInfoTab}
+    \subitem {MainWindow}, \hyperpage{176}
+  \item {refreshProjectEventsView}
+    \subitem {MainWindow}, \hyperpage{176}
+  \item {refreshProjectFilesView}
+    \subitem {MainWindow}, \hyperpage{176}
+  \item {refreshProjectGeneralFilesView}
+    \subitem {MainWindow}, \hyperpage{176}
+  \item {refreshProjectMediaView}
+    \subitem {MainWindow}, \hyperpage{177}
+  \item {refreshProjectNoteView}
+    \subitem {MainWindow}, \hyperpage{177}
+  \item {refreshProjectRelationsView}
+    \subitem {MainWindow}, \hyperpage{177}
+  \item {refreshProjectView}
+    \subitem {MainWindow}, \hyperpage{178}
+  \item {refreshRelationTab}
+    \subitem {MainWindow}, \hyperpage{178}
+  \item {refreshTabsWithFiles}
+    \subitem {MainWindow}, \hyperpage{178}
+  \item {refreshTagsList}
+    \subitem {MainWindow}, \hyperpage{178}
+  \item {refreshTexts}
+    \subitem {RelationItem}, \hyperpage{236}
+  \item {refreshUi}
+    \subitem {MainWindow}, \hyperpage{178}
+  \item {reIndex}
+    \subitem {Settings}, \hyperpage{255}
+  \item {rel\_}
+    \subitem {RelationDialog}, \hyperpage{235}
+  \item {REL\_TEMPL}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {Relation}, \hyperpage{225}
+    \subitem {getFirstPerson}, \hyperpage{226}
+    \subitem {getId}, \hyperpage{226}
+    \subitem {getSecondPerson}, \hyperpage{226}
+    \subitem {getTemplate}, \hyperpage{227}
+    \subitem {getTheOtherPerson}, \hyperpage{227}
+    \subitem {getTheOtherPersonName}, \hyperpage{227}
+    \subitem {getTitle}, \hyperpage{228}
+    \subitem {getTrait}, \hyperpage{228}
+    \subitem {id\_}, \hyperpage{231}
+    \subitem {isOlderGeneration}, \hyperpage{228}
+    \subitem {isParent}, \hyperpage{228}
+    \subitem {isSameGenration}, \hyperpage{229}
+    \subitem {isYoungerGeneration}, \hyperpage{229}
+    \subitem {person1\_}, \hyperpage{231}
+    \subitem {person2\_}, \hyperpage{231}
+    \subitem {printHtml}, \hyperpage{229}
+    \subitem {readJson}, \hyperpage{230}
+    \subitem {Relation}, \hyperpage{226}
+    \subitem {setId}, \hyperpage{230}
+    \subitem {setPersons}, \hyperpage{230}
+    \subitem {setTemplate}, \hyperpage{230}
+    \subitem {settings\_}, \hyperpage{231}
+    \subitem {str}, \hyperpage{230}
+    \subitem {template\_}, \hyperpage{231}
+  \item {relation}, \hyperpage{53}
+    \subitem {ADOPTED\_CHILD}, \hyperpage{55}
+    \subitem {ADOPTIVE\_FATHER}, \hyperpage{55}
+    \subitem {ADOPTIVE\_FATHERHOOD}, \hyperpage{55}
+    \subitem {ADOPTIVE\_MOTHER}, \hyperpage{55}
+    \subitem {ADOPTIVE\_MOTHERHOOD}, \hyperpage{55}
+    \subitem {BROTHER}, \hyperpage{55}
+    \subitem {BROTHERHHOD}, \hyperpage{56}
+    \subitem {CHILD}, \hyperpage{56}
+    \subitem {DESC\_ADOPTIVE\_FATHERHOOD}, \hyperpage{56}
+    \subitem {DESC\_ADOPTIVE\_MOTHERHOOD}, \hyperpage{56}
+    \subitem {DESC\_BROTHERHOOD}, \hyperpage{56}
+    \subitem {DESC\_SIBLINGS}, \hyperpage{56}
+    \subitem {DESC\_SISTERHOOD}, \hyperpage{56}
+    \subitem {FATHER}, \hyperpage{57}
+    \subitem {FATHERHOOD}, \hyperpage{57}
+    \subitem {FATHERHOOD\_DESC}, \hyperpage{57}
+    \subitem {HUSBAND}, \hyperpage{57}
+    \subitem {MARRIAGE}, \hyperpage{57}
+    \subitem {MARRIAGE\_DESC}, \hyperpage{57}
+    \subitem {MOTHER}, \hyperpage{57}
+    \subitem {MOTHERHOOD}, \hyperpage{58}
+    \subitem {MOTHERHOOD\_DESC}, \hyperpage{58}
+    \subitem {PARTNER}, \hyperpage{58}
+    \subitem {PARTNERSHIP}, \hyperpage{58}
+    \subitem {PARTNERSHIP\_DESC}, \hyperpage{58}
+    \subitem {SIBLINGS}, \hyperpage{58}
+    \subitem {SISTER}, \hyperpage{58}
+    \subitem {SISTERHOOD}, \hyperpage{58}
+    \subitem {WIFE}, \hyperpage{59}
+  \item {relation\_}
+    \subitem {RelationItem}, \hyperpage{237}
+  \item {relation\_index\_}
+    \subitem {FamilyTree}, \hyperpage{137}
+  \item {RelationDialog}, \hyperpage{232}
+    \subitem {\texorpdfstring{$\sim$}{\string~}RelationDialog}, 
+		\hyperpage{233}
+    \subitem {chooseFirstPerson}, \hyperpage{233}
+    \subitem {chooseSecondPerson}, \hyperpage{233}
+    \subitem {FT\_}, \hyperpage{234}
+    \subitem {person1\_}, \hyperpage{234}
+    \subitem {person2\_}, \hyperpage{234}
+    \subitem {rel\_}, \hyperpage{235}
+    \subitem {RelationDialog}, \hyperpage{233}
+    \subitem {saveFirstPerson\_}, \hyperpage{235}
+    \subitem {savePerson}, \hyperpage{234}
+    \subitem {saveRelation}, \hyperpage{234}
+    \subitem {showTemplateDetails}, \hyperpage{234}
+    \subitem {switchPersons}, \hyperpage{234}
+    \subitem {ui}, \hyperpage{235}
+  \item {RelationItem}, \hyperpage{235}
+    \subitem {FT\_}, \hyperpage{237}
+    \subitem {getRelation}, \hyperpage{236}
+    \subitem {refreshTexts}, \hyperpage{236}
+    \subitem {relation\_}, \hyperpage{237}
+    \subitem {RelationItem}, \hyperpage{236}
+  \item {RELATIONS}
+    \subitem {html}, \hyperpage{36}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {Relations}, \hyperpage{15}
+  \item {relations\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {relationsTemplates\_}
+    \subitem {Settings}, \hyperpage{258}
+  \item {RelationSuggestion}, \hyperpage{237}
+    \subitem {lockedPerson}, \hyperpage{239}
+    \subitem {parent}, \hyperpage{239}
+    \subitem {RelationSuggestion}, \hyperpage{238}
+    \subitem {suggestedPerson}, \hyperpage{239}
+    \subitem {symetrical}, \hyperpage{239}
+    \subitem {trait}, \hyperpage{239}
+  \item {RelationTemplate}, \hyperpage{240}
+    \subitem {description\_}, \hyperpage{244}
+    \subitem {firstName\_}, \hyperpage{244}
+    \subitem {generationDiff\_}, \hyperpage{244}
+    \subitem {getDescription}, \hyperpage{241}
+    \subitem {getFirstName}, \hyperpage{241}
+    \subitem {getGenerationDifference}, \hyperpage{241}
+    \subitem {getId}, \hyperpage{241}
+    \subitem {getSecondName}, \hyperpage{241}
+    \subitem {getTitle}, \hyperpage{242}
+    \subitem {getTrait}, \hyperpage{242}
+    \subitem {id\_}, \hyperpage{245}
+    \subitem {readJson}, \hyperpage{242}
+    \subitem {RelationTemplate}, \hyperpage{241}
+    \subitem {secondName\_}, \hyperpage{245}
+    \subitem {setDescription}, \hyperpage{242}
+    \subitem {setFirstName}, \hyperpage{243}
+    \subitem {setGenerationDifference}, \hyperpage{243}
+    \subitem {setId}, \hyperpage{243}
+    \subitem {setSecondName}, \hyperpage{243}
+    \subitem {setTitle}, \hyperpage{243}
+    \subitem {setTrait}, \hyperpage{244}
+    \subitem {str}, \hyperpage{244}
+    \subitem {title\_}, \hyperpage{245}
+    \subitem {trait\_}, \hyperpage{245}
+  \item {RelationTemplateDialog}, \hyperpage{245}
+    \subitem {\texorpdfstring{$\sim$}{\string~}RelationTemplateDialog}, 
+		\hyperpage{247}
+    \subitem {addDefaults}, \hyperpage{247}
+    \subitem {addingNew\_}, \hyperpage{248}
+    \subitem {addNewTemplate}, \hyperpage{247}
+    \subitem {clear}, \hyperpage{247}
+    \subitem {FT\_}, \hyperpage{248}
+    \subitem {refreshListWidget}, \hyperpage{247}
+    \subitem {RelationTemplateDialog}, \hyperpage{246}
+    \subitem {removeTemplate}, \hyperpage{247}
+    \subitem {saveTemplate}, \hyperpage{247}
+    \subitem {setEnabledWidgets}, \hyperpage{248}
+    \subitem {showTemplate}, \hyperpage{248}
+    \subitem {ui}, \hyperpage{248}
+  \item {relationTemplateIndex\_}
+    \subitem {Settings}, \hyperpage{258}
+  \item {REMOVE}
+    \subitem {button}, \hyperpage{26}
+  \item {remove}
+    \subitem {VirtualDrive}, \hyperpage{267}
+  \item {removeBackup}
+    \subitem {FamilyTree}, \hyperpage{129}
+    \subitem {Parser}, \hyperpage{194}
+  \item {removeEmptyRole}
+    \subitem {EventDialog}, \hyperpage{92}
+  \item {removeEvent}
+    \subitem {FamilyTree}, \hyperpage{129}
+    \subitem {MainWindow}, \hyperpage{178}
+    \subitem {Person}, \hyperpage{207}
+  \item {removeEventTemplate}
+    \subitem {FamilyTree}, \hyperpage{129}
+    \subitem {Settings}, \hyperpage{255}
+  \item {removeFile}
+    \subitem {FileTreeItem}, \hyperpage{145}
+    \subitem {Parser}, \hyperpage{194}
+    \subitem {VirtualDrive}, \hyperpage{267}
+  \item {removeFileFolder}
+    \subitem {MainWindow}, \hyperpage{178}
+  \item {removeFolder}
+    \subitem {FileTreeItem}, \hyperpage{145}
+  \item {removeGeneralFolder}
+    \subitem {MainWindow}, \hyperpage{179}
+  \item {removeGeneralOrphanFile}
+    \subitem {FamilyTree}, \hyperpage{129}
+  \item {removeMediaFolder}
+    \subitem {MainWindow}, \hyperpage{179}
+  \item {removeNoteFolder}
+    \subitem {MainWindow}, \hyperpage{179}
+  \item {removeOrphanFiles}
+    \subitem {FamilyTree}, \hyperpage{130}
+  \item {removePerson}
+    \subitem {Event}, \hyperpage{86}
+    \subitem {EventDialog}, \hyperpage{92}
+    \subitem {FamilyTree}, \hyperpage{130}
+    \subitem {MainWindow}, \hyperpage{179}
+  \item {removeRelation}
+    \subitem {FamilyTree}, \hyperpage{130}
+    \subitem {MainWindow}, \hyperpage{179}
+    \subitem {Person}, \hyperpage{207}
+  \item {removeRelationTemplate}
+    \subitem {FamilyTree}, \hyperpage{130}
+    \subitem {Settings}, \hyperpage{255}
+  \item {removeRole}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+  \item {removeSuggestion}
+    \subitem {SuggestionsDialog}, \hyperpage{260}
+  \item {removeTag}
+    \subitem {MainWindow}, \hyperpage{179}
+    \subitem {Person}, \hyperpage{207}
+    \subitem {Settings}, \hyperpage{257}
+  \item {removeTemplate}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+  \item {rename}
+    \subitem {FileTreeItem}, \hyperpage{145}
+    \subitem {VirtualDrive}, \hyperpage{269}
+  \item {renameFile}
+    \subitem {FamilyTree}, \hyperpage{130}
+    \subitem {MainWindow}, \hyperpage{179}
+    \subitem {Parser}, \hyperpage{194}
+  \item {renameGeneralFileItem}
+    \subitem {MainWindow}, \hyperpage{180}
+  \item {renameMedia}
+    \subitem {MainWindow}, \hyperpage{180}
+  \item {renameNote}
+    \subitem {MainWindow}, \hyperpage{180}
+  \item {RESOURCES}
+    \subitem {html}, \hyperpage{36}
+  \item {restoreBackup}
+    \subitem {FamilyTree}, \hyperpage{131}
+    \subitem {Parser}, \hyperpage{194}
+  \item {Rodoc}, \hyperpage{1}
+  \item {ROLE}
+    \subitem {jsonlabel}, \hyperpage{46}
+  \item {roles\_}
+    \subitem {EventTemplate}, \hyperpage{104}
+  \item {ROOT}
+    \subitem {jsonlabel}, \hyperpage{46}
+    \subitem {person}, \hyperpage{53}
+  \item {root\_}
+    \subitem {Parser}, \hyperpage{197}
+  \item {rootFileDrive\_}
+    \subitem {Person}, \hyperpage{214}
+  \item {rootMediaDrive\_}
+    \subitem {Person}, \hyperpage{215}
+  \item {rootNoteDrive\_}
+    \subitem {Person}, \hyperpage{215}
+
+  \indexspace
+
+  \item {save}
+    \subitem {SuggestionsDialog}, \hyperpage{260}
+  \item {saveAndExit}
+    \subitem {VisualSettings}, \hyperpage{273}
+  \item {saveDatabase}
+    \subitem {MainWindow}, \hyperpage{180}
+  \item {saveDate}
+    \subitem {DateDialog}, \hyperpage{81}
+  \item {savedChanges\_}
+    \subitem {FamilyTree}, \hyperpage{137}
+  \item {saveEvent}
+    \subitem {EventDialog}, \hyperpage{92}
+  \item {saveFirstPerson\_}
+    \subitem {RelationDialog}, \hyperpage{235}
+  \item {saveGraphicsSetting}
+    \subitem {MainWindow}, \hyperpage{180}
+  \item {savePerson}
+    \subitem {ChoosePersonDialog}, \hyperpage{74}
+    \subitem {EventDialog}, \hyperpage{92}
+    \subitem {RelationDialog}, \hyperpage{234}
+  \item {savePersonsInfo}
+    \subitem {MainWindow}, \hyperpage{181}
+  \item {saveRelation}
+    \subitem {RelationDialog}, \hyperpage{234}
+  \item {saveSelectedPerson}
+    \subitem {ChoosePersonDialog}, \hyperpage{74}
+  \item {saveSettings}
+    \subitem {VisualSettings}, \hyperpage{273}
+  \item {saveTag}
+    \subitem {TagChooserDialog}, \hyperpage{263}
+  \item {saveTemplate}
+    \subitem {EventTamplatesDialog}, \hyperpage{97}
+    \subitem {RelationTemplateDialog}, \hyperpage{247}
+  \item {scene}
+    \subitem {MainWindow}, \hyperpage{186}
+    \subitem {VisualSettings}, \hyperpage{274}
+  \item {SECOND\_NAME}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {SECOND\_PERSON}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {secondName\_}
+    \subitem {RelationTemplate}, \hyperpage{245}
+  \item {selectedSuggestion}
+    \subitem {SuggestionsDialog}, \hyperpage{260}
+  \item {selectOlderGenerationOnly}
+    \subitem {MainWindow}, \hyperpage{181}
+  \item {selectSameGenerationOnly}
+    \subitem {MainWindow}, \hyperpage{181}
+  \item {selectYoungerGenerationOnly}
+    \subitem {MainWindow}, \hyperpage{181}
+  \item {setAfterTitle}
+    \subitem {Person}, \hyperpage{207}
+  \item {setAppSettings}
+    \subitem {Settings}, \hyperpage{257}
+  \item {setBirthDate}
+    \subitem {Person}, \hyperpage{208}
+  \item {setBirthPlace}
+    \subitem {Person}, \hyperpage{208}
+  \item {setContainsDate}
+    \subitem {EventTemplate}, \hyperpage{102}
+  \item {setContainsPlace}
+    \subitem {EventTemplate}, \hyperpage{102}
+  \item {setDatabase}
+    \subitem {Parser}, \hyperpage{195}
+  \item {setDate}
+    \subitem {Event}, \hyperpage{87}
+  \item {setDay}
+    \subitem {Date}, \hyperpage{79}
+  \item {setDeathDate}
+    \subitem {Person}, \hyperpage{208}
+  \item {setDeathPlace}
+    \subitem {Person}, \hyperpage{208}
+  \item {setDefault}
+    \subitem {AppSettings}, \hyperpage{65}
+  \item {setDescription}
+    \subitem {EventTemplate}, \hyperpage{102}
+    \subitem {RelationTemplate}, \hyperpage{242}
+  \item {setEnabledDeathAtributes}
+    \subitem {MainWindow}, \hyperpage{181}
+  \item {setEnabledWidgets}
+    \subitem {EventTamplatesDialog}, \hyperpage{98}
+    \subitem {RelationTemplateDialog}, \hyperpage{248}
+  \item {setEventTabVisible}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setFather}
+    \subitem {Person}, \hyperpage{209}
+  \item {setFilename}
+    \subitem {File}, \hyperpage{139}
+  \item {setFilesRoot}
+    \subitem {Person}, \hyperpage{209}
+  \item {setFileTabVisible}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setFirstDate}
+    \subitem {WrappedDate}, \hyperpage{278}
+  \item {setFirstName}
+    \subitem {RelationTemplate}, \hyperpage{243}
+  \item {setFrontTitle}
+    \subitem {Person}, \hyperpage{209}
+  \item {setGender}
+    \subitem {Person}, \hyperpage{209}
+  \item {setGeneralTabVisible}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setGenerationDifference}
+    \subitem {RelationTemplate}, \hyperpage{243}
+  \item {setGlobalMainPerson}
+    \subitem {Settings}, \hyperpage{257}
+  \item {setId}
+    \subitem {Event}, \hyperpage{87}
+    \subitem {EventTemplate}, \hyperpage{102}
+    \subitem {File}, \hyperpage{139}
+    \subitem {Person}, \hyperpage{210}
+    \subitem {Relation}, \hyperpage{230}
+    \subitem {RelationTemplate}, \hyperpage{243}
+  \item {setLives}
+    \subitem {Person}, \hyperpage{210}
+  \item {setMaidenName}
+    \subitem {Person}, \hyperpage{210}
+  \item {setMainPerson}
+    \subitem {FamilyTree}, \hyperpage{131}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setMediaTabVisible}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setMonth}
+    \subitem {Date}, \hyperpage{79}
+  \item {setMorePeopleInvolved}
+    \subitem {EventTemplate}, \hyperpage{103}
+  \item {setMother}
+    \subitem {Person}, \hyperpage{210}
+  \item {setName}
+    \subitem {Person}, \hyperpage{211}
+  \item {setNoteTabVisible}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setNumberOfGenerations}
+    \subitem {MainWindow}, \hyperpage{182}
+  \item {setPartner}
+    \subitem {Person}, \hyperpage{211}
+  \item {setPerson}
+    \subitem {EventRoleItem}, \hyperpage{94}
+  \item {setPersons}
+    \subitem {Relation}, \hyperpage{230}
+  \item {setPlace}
+    \subitem {Event}, \hyperpage{87}
+  \item {setRelation}
+    \subitem {FamilyTree}, \hyperpage{132}
+  \item {setRelationTabVisible}
+    \subitem {MainWindow}, \hyperpage{183}
+  \item {setRoles}
+    \subitem {EventTemplate}, \hyperpage{103}
+  \item {setSecondDate}
+    \subitem {WrappedDate}, \hyperpage{278}
+  \item {setSecondName}
+    \subitem {RelationTemplate}, \hyperpage{243}
+  \item {setSurname}
+    \subitem {Person}, \hyperpage{211}
+  \item {setTabEast}
+    \subitem {MainWindow}, \hyperpage{183}
+  \item {setTabNorth}
+    \subitem {MainWindow}, \hyperpage{183}
+  \item {setTabSouth}
+    \subitem {MainWindow}, \hyperpage{183}
+  \item {setTabWest}
+    \subitem {MainWindow}, \hyperpage{183}
+  \item {setTemplate}
+    \subitem {Event}, \hyperpage{87}
+    \subitem {Relation}, \hyperpage{230}
+  \item {setText}
+    \subitem {Event}, \hyperpage{88}
+    \subitem {WrappedDate}, \hyperpage{278}
+  \item {Settings}, \hyperpage{249}
+    \subitem {addDefaultEvent}, \hyperpage{250}
+    \subitem {addDefaultEvents}, \hyperpage{251}
+    \subitem {addDefaultRelation}, \hyperpage{251}
+    \subitem {addDefaultRelations}, \hyperpage{251}
+    \subitem {addEventTemplate}, \hyperpage{251}
+    \subitem {addRelationTemplate}, \hyperpage{251}
+    \subitem {addTag}, \hyperpage{252}
+    \subitem {appSettings\_}, \hyperpage{257}
+    \subitem {clear}, \hyperpage{252}
+    \subitem {eventTemplateIndex\_}, \hyperpage{257}
+    \subitem {eventTemplates\_}, \hyperpage{258}
+    \subitem {exportTemplates}, \hyperpage{252}
+    \subitem {getAppSettings}, \hyperpage{252}
+    \subitem {getEventTemplate}, \hyperpage{253}
+    \subitem {getEventTemplates}, \hyperpage{253}
+    \subitem {getGlobalMainPerson}, \hyperpage{253}
+    \subitem {getRelationTemplate}, \hyperpage{253}
+    \subitem {getRelationTemplates}, \hyperpage{254}
+    \subitem {getTags}, \hyperpage{254}
+    \subitem {globalMainPerson\_}, \hyperpage{258}
+    \subitem {importTemplates}, \hyperpage{254}
+    \subitem {indexes}, \hyperpage{254}
+    \subitem {readJson}, \hyperpage{255}
+    \subitem {reIndex}, \hyperpage{255}
+    \subitem {relationsTemplates\_}, \hyperpage{258}
+    \subitem {relationTemplateIndex\_}, \hyperpage{258}
+    \subitem {removeEventTemplate}, \hyperpage{255}
+    \subitem {removeRelationTemplate}, \hyperpage{255}
+    \subitem {removeTag}, \hyperpage{257}
+    \subitem {setAppSettings}, \hyperpage{257}
+    \subitem {setGlobalMainPerson}, \hyperpage{257}
+    \subitem {Settings}, \hyperpage{250}
+    \subitem {tags\_}, \hyperpage{258}
+  \item {settings\_}
+    \subitem {Event}, \hyperpage{89}
+    \subitem {FamilyTree}, \hyperpage{137}
+    \subitem {Relation}, \hyperpage{231}
+  \item {setTitle}
+    \subitem {EventTemplate}, \hyperpage{103}
+    \subitem {RelationTemplate}, \hyperpage{243}
+  \item {setTrait}
+    \subitem {RelationTemplate}, \hyperpage{244}
+  \item {setUiElements}
+    \subitem {MainWindow}, \hyperpage{183}
+  \item {setUnsaved}
+    \subitem {FamilyTree}, \hyperpage{132}
+  \item {setYear}
+    \subitem {Date}, \hyperpage{79}
+  \item {shape}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {PersonsGraphicsItem}, \hyperpage{219}
+  \item {SHOW\_EVENT\_TAB}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {SHOW\_FILE\_TAB}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {SHOW\_GENERAL\_TAB}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {SHOW\_MEDIA\_TAB}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {SHOW\_NOTE\_TAB}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {SHOW\_RELATION\_TAB}
+    \subitem {jsonlabel}, \hyperpage{47}
+  \item {showEventDetails}
+    \subitem {EventDialog}, \hyperpage{92}
+  \item {showEventTab}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {showFileTab}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {showGeneralFiles}
+    \subitem {MainWindow}, \hyperpage{184}
+  \item {showGeneralTab}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {showHelp}
+    \subitem {MainWindow}, \hyperpage{184}
+  \item {showHelpOnStartup}
+    \subitem {FamilyTree}, \hyperpage{132}
+  \item {showMediaTab}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {showNoteTab}
+    \subitem {AppSettings}, \hyperpage{67}
+  \item {showRelationTab}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {showRenameFile}
+    \subitem {MainWindow}, \hyperpage{184}
+  \item {showRenameMedia}
+    \subitem {MainWindow}, \hyperpage{184}
+  \item {showRenameNote}
+    \subitem {MainWindow}, \hyperpage{184}
+  \item {showTemplate}
+    \subitem {EventDialog}, \hyperpage{92}
+    \subitem {EventTamplatesDialog}, \hyperpage{98}
+    \subitem {RelationTemplateDialog}, \hyperpage{248}
+  \item {showTemplateDetails}
+    \subitem {RelationDialog}, \hyperpage{234}
+  \item {Sibling}
+    \subitem {config.h}, \hyperpage{285}
+  \item {SIBLINGS}
+    \subitem {relation}, \hyperpage{58}
+  \item {siblings}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+  \item {SISTER}
+    \subitem {relation}, \hyperpage{58}
+  \item {SISTERHOOD}
+    \subitem {relation}, \hyperpage{58}
+  \item {sizeX}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {sizeX\_}
+    \subitem {MainWindow}, \hyperpage{187}
+    \subitem {VisualSettings}, \hyperpage{275}
+  \item {sizex\_}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {PersonsGraphicsItem}, \hyperpage{221}
+  \item {sizeY}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {sizeY\_}
+    \subitem {MainWindow}, \hyperpage{187}
+    \subitem {VisualSettings}, \hyperpage{275}
+  \item {sizey\_}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {PersonsGraphicsItem}, \hyperpage{221}
+  \item {South}
+    \subitem {config.h}, \hyperpage{285}
+  \item {SPECIAL\_ROLES}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {SPLITTER\_POSITION\_ONE}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {SPLITTER\_POSITION\_TWO}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {splitterChanged}
+    \subitem {MainWindow}, \hyperpage{184}
+  \item {splitterPositionOne}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {splitterPositionTwo}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {standard}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {STANDARD\_COLOR}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {standardColor}
+    \subitem {VisualSettings}, \hyperpage{273}
+  \item {standardColor\_}
+    \subitem {MainWindow}, \hyperpage{187}
+    \subitem {VisualSettings}, \hyperpage{275}
+  \item {storeDatabase}
+    \subitem {FamilyTree}, \hyperpage{132}
+  \item {storeFileDatabase}
+    \subitem {FamilyTree}, \hyperpage{132}
+  \item {str}
+    \subitem {Date}, \hyperpage{79}
+    \subitem {Event}, \hyperpage{88}
+    \subitem {EventTemplate}, \hyperpage{103}
+    \subitem {gender}, \hyperpage{32}
+    \subitem {Person}, \hyperpage{211}
+    \subitem {Relation}, \hyperpage{230}
+    \subitem {RelationTemplate}, \hyperpage{244}
+    \subitem {trait}, \hyperpage{60}
+    \subitem {WrappedDate}, \hyperpage{278}
+  \item {strings.h}
+    \subitem {EMPTY\_STRING}, \hyperpage{315}
+  \item {subdrives\_}
+    \subitem {VirtualDrive}, \hyperpage{269}
+  \item {suggestedPerson}
+    \subitem {RelationSuggestion}, \hyperpage{239}
+  \item {SuggestionsDialog}, \hyperpage{259}
+    \subitem {\texorpdfstring{$\sim$}{\string~}SuggestionsDialog}, 
+		\hyperpage{260}
+    \subitem {fatherhoods}, \hyperpage{261}
+    \subitem {FT\_}, \hyperpage{261}
+    \subitem {motherhoods}, \hyperpage{261}
+    \subitem {partnerships}, \hyperpage{261}
+    \subitem {removeSuggestion}, \hyperpage{260}
+    \subitem {save}, \hyperpage{260}
+    \subitem {selectedSuggestion}, \hyperpage{260}
+    \subitem {siblings}, \hyperpage{261}
+    \subitem {SuggestionsDialog}, \hyperpage{260}
+    \subitem {swapPersons}, \hyperpage{261}
+    \subitem {switchedTemplate}, \hyperpage{261}
+    \subitem {ui}, \hyperpage{262}
+  \item {SURNAME}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {surname\_}
+    \subitem {Person}, \hyperpage{215}
+  \item {SURNAME\_STR}
+    \subitem {person}, \hyperpage{53}
+  \item {swapPersons}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+  \item {switchedTemplate}
+    \subitem {SuggestionsDialog}, \hyperpage{261}
+  \item {switchNewTreeProject}
+    \subitem {MainWindow}, \hyperpage{185}
+  \item {switchPersons}
+    \subitem {RelationDialog}, \hyperpage{234}
+  \item {symetrical}
+    \subitem {RelationSuggestion}, \hyperpage{239}
+
+  \indexspace
+
+  \item {TAB\_POSITION}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {TabPosition}
+    \subitem {config.h}, \hyperpage{284}
+  \item {tabPosition}
+    \subitem {AppSettings}, \hyperpage{68}
+  \item {TAG}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {tagchooser}, \hyperpage{59}
+    \subitem {CUSTOM\_TAG}, \hyperpage{59}
+  \item {TagChooserDialog}, \hyperpage{262}
+    \subitem {\texorpdfstring{$\sim$}{\string~}TagChooserDialog}, 
+		\hyperpage{263}
+    \subitem {changeVisibleWidgets}, \hyperpage{263}
+    \subitem {FT\_}, \hyperpage{264}
+    \subitem {newOne\_}, \hyperpage{264}
+    \subitem {saveTag}, \hyperpage{263}
+    \subitem {TagChooserDialog}, \hyperpage{263}
+    \subitem {ui}, \hyperpage{264}
+  \item {TAGS}
+    \subitem {jsonlabel}, \hyperpage{48}
+  \item {tags\_}
+    \subitem {Person}, \hyperpage{215}
+    \subitem {Settings}, \hyperpage{258}
+  \item {TEMPLATE}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {template\_}
+    \subitem {Event}, \hyperpage{89}
+    \subitem {Relation}, \hyperpage{231}
+  \item {TEMPLATES}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {templatesBasedOnEventTemplate}
+    \subitem {FamilyTree}, \hyperpage{134}
+  \item {templatesBasedOnRelationTemplate}
+    \subitem {FamilyTree}, \hyperpage{134}
+  \item {TEXT}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {text\_}
+    \subitem {Event}, \hyperpage{89}
+    \subitem {WrappedDate}, \hyperpage{279}
+  \item {TEXT\_COLOR}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {textColor}
+    \subitem {AppSettings}, \hyperpage{68}
+    \subitem {VisualSettings}, \hyperpage{273}
+  \item {textLines\_}
+    \subitem {PersonsGraphicsItem}, \hyperpage{221}
+  \item {textPen\_}
+    \subitem {MainWindow}, \hyperpage{187}
+    \subitem {PersonsGraphicsItem}, \hyperpage{221}
+    \subitem {VisualSettings}, \hyperpage{275}
+  \item {TITLE}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {title\_}
+    \subitem {EventTemplate}, \hyperpage{104}
+    \subitem {RelationTemplate}, \hyperpage{245}
+  \item {titleAfter\_}
+    \subitem {Person}, \hyperpage{215}
+  \item {titleInFront\_}
+    \subitem {Person}, \hyperpage{215}
+  \item {TRAIT}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {Trait}
+    \subitem {config.h}, \hyperpage{285}
+  \item {trait}, \hyperpage{59}
+    \subitem {AllTraits}, \hyperpage{60}
+    \subitem {RelationSuggestion}, \hyperpage{239}
+    \subitem {str}, \hyperpage{60}
+  \item {trait\_}
+    \subitem {RelationTemplate}, \hyperpage{245}
+  \item {treeScene}
+    \subitem {MainWindow}, \hyperpage{187}
+  \item {treeView}
+    \subitem {MainWindow}, \hyperpage{187}
+  \item {TYPE}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {type}
+    \subitem {ProjectItem}, \hyperpage{224}
+  \item {type\_}
+    \subitem {AddFileDialog}, \hyperpage{63}
+    \subitem {FileTreeItem}, \hyperpage{146}
+    \subitem {ProjectItem}, \hyperpage{225}
+
+  \indexspace
+
+  \item {Ui}, \hyperpage{60}
+  \item {ui}
+    \subitem {AddFileDialog}, \hyperpage{64}
+    \subitem {ChoosePersonDialog}, \hyperpage{74}
+    \subitem {DateDialog}, \hyperpage{82}
+    \subitem {EventDialog}, \hyperpage{93}
+    \subitem {EventTamplatesDialog}, \hyperpage{98}
+    \subitem {ExportProjectDialog}, \hyperpage{106}
+    \subitem {ExportTemplatesDialog}, \hyperpage{108}
+    \subitem {HelpDialog}, \hyperpage{149}
+    \subitem {HtmlExport}, \hyperpage{152}
+    \subitem {MainWindow}, \hyperpage{187}
+    \subitem {PictureExport}, \hyperpage{223}
+    \subitem {RelationDialog}, \hyperpage{235}
+    \subitem {RelationTemplateDialog}, \hyperpage{248}
+    \subitem {SuggestionsDialog}, \hyperpage{262}
+    \subitem {TagChooserDialog}, \hyperpage{264}
+    \subitem {VisualSettings}, \hyperpage{275}
+  \item {UNKNOWN\_EXCEP\_STR}
+    \subitem {error}, \hyperpage{28}
+  \item {UNKNOWN\_STR}
+    \subitem {person}, \hyperpage{53}
+  \item {unknownDate}
+    \subitem {DateDialog}, \hyperpage{81}
+  \item {updateDate}
+    \subitem {WrappedDate}, \hyperpage{279}
+  \item {updateEventsWithTemplate}
+    \subitem {FamilyTree}, \hyperpage{134}
+  \item {updateSpecialRelation}
+    \subitem {Person}, \hyperpage{211}
+  \item {updateToTemplate}
+    \subitem {Event}, \hyperpage{88}
+  \item {usedFiles}
+    \subitem {VirtualDrive}, \hyperpage{269}
+
+  \indexspace
+
+  \item {VALUE}
+    \subitem {jsonlabel}, \hyperpage{49}
+  \item {VIRTUAL\_DRIVE}
+    \subitem {jsonlabel}, \hyperpage{50}
+  \item {VirtualDrive}, \hyperpage{264}
+    \subitem {addFile}, \hyperpage{265}
+    \subitem {addSubdrive}, \hyperpage{265, 266}
+    \subitem {copyDrive}, \hyperpage{266}
+    \subitem {files\_}, \hyperpage{269}
+    \subitem {getFiles}, \hyperpage{266}
+    \subitem {getName}, \hyperpage{266}
+    \subitem {getSubdrives}, \hyperpage{267}
+    \subitem {name\_}, \hyperpage{269}
+    \subitem {readJson}, \hyperpage{267}
+    \subitem {remove}, \hyperpage{267}
+    \subitem {removeFile}, \hyperpage{267}
+    \subitem {rename}, \hyperpage{269}
+    \subitem {subdrives\_}, \hyperpage{269}
+    \subitem {usedFiles}, \hyperpage{269}
+    \subitem {VirtualDrive}, \hyperpage{265}
+  \item {VisualSettings}, \hyperpage{270}
+    \subitem {\texorpdfstring{$\sim$}{\string~}VisualSettings}, 
+		\hyperpage{272}
+    \subitem {borderRadius\_}, \hyperpage{274}
+    \subitem {font\_}, \hyperpage{274}
+    \subitem {highlightedColor}, \hyperpage{272}
+    \subitem {highlightedColor\_}, \hyperpage{274}
+    \subitem {lineColor}, \hyperpage{272}
+    \subitem {pen\_}, \hyperpage{274}
+    \subitem {probandColor}, \hyperpage{272}
+    \subitem {probandColor\_}, \hyperpage{274}
+    \subitem {promotedColor}, \hyperpage{272}
+    \subitem {promotedColor\_}, \hyperpage{274}
+    \subitem {refresh}, \hyperpage{272}
+    \subitem {saveAndExit}, \hyperpage{273}
+    \subitem {saveSettings}, \hyperpage{273}
+    \subitem {scene}, \hyperpage{274}
+    \subitem {sizeX\_}, \hyperpage{275}
+    \subitem {sizeY\_}, \hyperpage{275}
+    \subitem {standardColor}, \hyperpage{273}
+    \subitem {standardColor\_}, \hyperpage{275}
+    \subitem {textColor}, \hyperpage{273}
+    \subitem {textPen\_}, \hyperpage{275}
+    \subitem {ui}, \hyperpage{275}
+    \subitem {VisualSettings}, \hyperpage{271}
+
+  \indexspace
+
+  \item {WEDDING}
+    \subitem {events}, \hyperpage{31}
+  \item {Welcome to rodoc}, \hyperpage{9}
+  \item {West}
+    \subitem {config.h}, \hyperpage{285}
+  \item {wheelEvent}
+    \subitem {GraphicsView}, \hyperpage{147}
+  \item {WIFE}
+    \subitem {relation}, \hyperpage{59}
+  \item {WrappedDate}, \hyperpage{275}
+    \subitem {clear}, \hyperpage{276}
+    \subitem {date1\_}, \hyperpage{279}
+    \subitem {date2\_}, \hyperpage{279}
+    \subitem {getFirstDate}, \hyperpage{276}
+    \subitem {getSecondDate}, \hyperpage{277}
+    \subitem {getText}, \hyperpage{277}
+    \subitem {isExact}, \hyperpage{277}
+    \subitem {isUnknown}, \hyperpage{277}
+    \subitem {readJson}, \hyperpage{277}
+    \subitem {setFirstDate}, \hyperpage{278}
+    \subitem {setSecondDate}, \hyperpage{278}
+    \subitem {setText}, \hyperpage{278}
+    \subitem {str}, \hyperpage{278}
+    \subitem {text\_}, \hyperpage{279}
+    \subitem {updateDate}, \hyperpage{279}
+    \subitem {WrappedDate}, \hyperpage{276}
+  \item {writeConfig}
+    \subitem {FamilyTree}, \hyperpage{135}
+    \subitem {Parser}, \hyperpage{195}
+  \item {writeHtml}
+    \subitem {Parser}, \hyperpage{195, 196}
+  \item {writeJSON}
+    \subitem {Parser}, \hyperpage{196}
+
+  \indexspace
+
+  \item {x\_}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {PersonsGraphicsItem}, \hyperpage{221}
+  \item {X\_SIZE}
+    \subitem {jsonlabel}, \hyperpage{50}
+
+  \indexspace
+
+  \item {y\_}
+    \subitem {CellGraphicsItem}, \hyperpage{71}
+    \subitem {PersonsGraphicsItem}, \hyperpage{221}
+  \item {Y\_SIZE}
+    \subitem {jsonlabel}, \hyperpage{50}
+  \item {year}
+    \subitem {Date}, \hyperpage{80}
+  \item {youngerGenerationNumber}
+    \subitem {MainWindow}, \hyperpage{185}
+
+  \indexspace
+
+  \item {zoomIn}
+    \subitem {MainWindow}, \hyperpage{185}
+  \item {zoomOut}
+    \subitem {MainWindow}, \hyperpage{185}
+
+\end{theindex}

@@ -1,0 +1,43 @@
+\chapter{Rodoc}
+\hypertarget{index}{}\label{index}\index{Rodoc@{Rodoc}}
+\label{index_md_index}%
+\Hypertarget{index_md_index}%
+ This is the main page for documentation of the program Rodoc.
+
+The code is separated mainly into two parts\+:
+
+
+\begin{DoxyEnumerate}
+\item Core
+\item Graphics
+\end{DoxyEnumerate}
+
+Core is for working with the family tree and also for parsing files.
+
+Graphics is just the graphical interface of the application.
+
+This application uses \href{https://open-source-parsers.github.io/jsoncpp-docs/doxygen/}{\texttt{ Jsoncpp library}}, \href{https://www.qt.io/}{\texttt{ Qt graphics library}} with version 6.
+
+Database is a group of {\ttfamily json} files and directories. It follows this predefined structure ({\ttfamily \#} is for a comment)\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{[rootDir]\ \ \ \ \ \ \ \ \ \ \#\ Chosen\ by\ the\ user.}
+\DoxyCodeLine{\ \ -\/\ Persons.json\ \ \ \#\ All\ persons.}
+\DoxyCodeLine{\ \ -\/\ Config.json\ \ \ \ \#\ Configuration\ and\ templates.}
+\DoxyCodeLine{\ \ -\/\ Events.json\ \ \ \ \#\ Events.}
+\DoxyCodeLine{\ \ -\/\ Relations.json\ \#\ Relations}
+\DoxyCodeLine{\ \ -\/\ Files.json\ \ \ \ \ \#\ Files\ metadata.}
+\DoxyCodeLine{\ \ -\/\ Media.json\ \ \ \ \ \#\ Media\ metadata.}
+\DoxyCodeLine{\ \ -\/\ Notes.json\ \ \ \ \ \#\ Notes\ metadata.}
+\DoxyCodeLine{\ \ -\/\ Media\ \ \ \ \ \ \ \ \ \ \#\ Directory\ for\ media.}
+\DoxyCodeLine{\ \ \ \ -\/\ [files]}
+\DoxyCodeLine{\ \ -\/\ Notes\ \ \ \ \ \ \ \ \ \ \#\ Directory\ for\ notes.}
+\DoxyCodeLine{\ \ \ \ -\/\ [file]}
+\DoxyCodeLine{\ \ -\/\ Files\ \ \ \ \ \ \ \ \ \ \#\ Directory\ for\ other\ files.}
+\DoxyCodeLine{\ \ \ \ -\/\ [files]}
+
+\end{DoxyCode}
+
+
+Also {\ttfamily Files}, {\ttfamily Notes} and {\ttfamily Media} are internally implemented the same way. The main difference is for the end user. 

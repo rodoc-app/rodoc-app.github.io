@@ -1,0 +1,162 @@
+\doxysection{core/person.h File Reference}
+\hypertarget{person_8h}{}\label{person_8h}\index{core/person.h@{core/person.h}}
+
+
+Header file for all classes closely related to person.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$json/json.\+h$>$}\newline
+{\ttfamily \#include \"{}date.\+h\"{}}\newline
+{\ttfamily \#include \"{}strings.\+h\"{}}\newline
+{\ttfamily \#include \"{}config.\+h\"{}}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}}
+\begin{DoxyCompactList}\small\item\em Class for virtualization of folder structure for each person. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classPerson}{Person}}
+\begin{DoxyCompactList}\small\item\em One person in the family tree. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacegender}{gender}}
+\begin{DoxyCompactList}\small\item\em Namespace for constants with gender enumeration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} \{ \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324fab41fe07a134a62397420ef854d35c7b1}{Other}}
+, \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324fadfdd236ca597df5a4d2f5fa0d0f6ec93}{Male}}
+, \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324fa4fcdc3f409e8e27fbfd35bbd6472877c}{Female}}
+ \}
+\begin{DoxyCompactList}\small\item\em Gender types\+: Male, Female and Other. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}} \{ \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}{GENERAL\+\_\+\+FILE}}
+, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a3eb0b3c78d811b28fdb69a414c0881b8}{MEDIA}}
+, \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a372f704241a5279aeedd1cc946cca76d}{NOTE}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeration on special types of files. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{person_8h_a91c495875403421509bcad8f85c46512}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&vd)
+\item 
+std\+::string \mbox{\hyperlink{namespacegender_a0e535f658690fc6ee9182b6606c6150e}{gender\+::str}} (\mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} g)
+\item 
+void \mbox{\hyperlink{person_8h_af2809424f94bd6a3817ba62a9c083071}{print\+Size\+TContainer}} (std\+::ostream \&os, const std\+::vector$<$ size\+\_\+t $>$ \&container, const std\+::string \&label)
+\item 
+std\+::ostream \& \mbox{\hyperlink{person_8h_afc3521862e743045e5958c80d147cf8f}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classPerson}{Person}} \&p)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}} \mbox{\hyperlink{namespacegender_a06c372051f0e1277aefd790403e6a165}{gender\+::\+All\+Genders}} \mbox{[}$\,$\mbox{]} = \{\mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324fab41fe07a134a62397420ef854d35c7b1}{Other}}, \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324fadfdd236ca597df5a4d2f5fa0d0f6ec93}{Male}}, \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324fa4fcdc3f409e8e27fbfd35bbd6472877c}{Female}}\}
+\begin{DoxyCompactList}\small\item\em All genders in a list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file for all classes closely related to person. 
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}\label{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3} 
+\index{person.h@{person.h}!FileType@{FileType}}
+\index{FileType@{FileType}!person.h@{person.h}}
+\doxysubsubsection{\texorpdfstring{FileType}{FileType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3}{File\+Type}}}
+
+
+
+Enumeration on special types of files. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GENERAL\_FILE@{GENERAL\_FILE}!person.h@{person.h}}\index{person.h@{person.h}!GENERAL\_FILE@{GENERAL\_FILE}}}\Hypertarget{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178}\label{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a6aa81572c053d11b027e63dd0d054178} 
+GENERAL\+\_\+\+FILE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MEDIA@{MEDIA}!person.h@{person.h}}\index{person.h@{person.h}!MEDIA@{MEDIA}}}\Hypertarget{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a3eb0b3c78d811b28fdb69a414c0881b8}\label{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a3eb0b3c78d811b28fdb69a414c0881b8} 
+MEDIA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NOTE@{NOTE}!person.h@{person.h}}\index{person.h@{person.h}!NOTE@{NOTE}}}\Hypertarget{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a372f704241a5279aeedd1cc946cca76d}\label{person_8h_a2c794c5c13ab4dd7e65bad031dbe41c3a372f704241a5279aeedd1cc946cca76d} 
+NOTE&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{person_8h_a3667e3c5ec056737c8789615a989324f}\label{person_8h_a3667e3c5ec056737c8789615a989324f} 
+\index{person.h@{person.h}!Gender@{Gender}}
+\index{Gender@{Gender}!person.h@{person.h}}
+\doxysubsubsection{\texorpdfstring{Gender}{Gender}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{person_8h_a3667e3c5ec056737c8789615a989324f}{Gender}}}
+
+
+
+Gender types\+: Male, Female and Other. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Other@{Other}!person.h@{person.h}}\index{person.h@{person.h}!Other@{Other}}}\Hypertarget{person_8h_a3667e3c5ec056737c8789615a989324fab41fe07a134a62397420ef854d35c7b1}\label{person_8h_a3667e3c5ec056737c8789615a989324fab41fe07a134a62397420ef854d35c7b1} 
+Other&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Male@{Male}!person.h@{person.h}}\index{person.h@{person.h}!Male@{Male}}}\Hypertarget{person_8h_a3667e3c5ec056737c8789615a989324fadfdd236ca597df5a4d2f5fa0d0f6ec93}\label{person_8h_a3667e3c5ec056737c8789615a989324fadfdd236ca597df5a4d2f5fa0d0f6ec93} 
+Male&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Female@{Female}!person.h@{person.h}}\index{person.h@{person.h}!Female@{Female}}}\Hypertarget{person_8h_a3667e3c5ec056737c8789615a989324fa4fcdc3f409e8e27fbfd35bbd6472877c}\label{person_8h_a3667e3c5ec056737c8789615a989324fa4fcdc3f409e8e27fbfd35bbd6472877c} 
+Female&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{person_8h_afc3521862e743045e5958c80d147cf8f}\label{person_8h_afc3521862e743045e5958c80d147cf8f} 
+\index{person.h@{person.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!person.h@{person.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classPerson}{Person}} \&}]{p }\end{DoxyParamCaption})}
+
+Write the data about the person in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Is the given stream. \\
+\hline
+{\em p} & Is the given person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the used output stream. 
+\end{DoxyReturn}
+\Hypertarget{person_8h_a91c495875403421509bcad8f85c46512}\label{person_8h_a91c495875403421509bcad8f85c46512} 
+\index{person.h@{person.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!person.h@{person.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classVirtualDrive}{Virtual\+Drive}} \&}]{vd }\end{DoxyParamCaption})}
+
+Print virtual drive to JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given output stream. \\
+\hline
+{\em vd} & Given \doxylink{classVirtualDrive}{Virtual\+Drive}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Changed output stream. 
+\end{DoxyReturn}
+\Hypertarget{person_8h_af2809424f94bd6a3817ba62a9c083071}\label{person_8h_af2809424f94bd6a3817ba62a9c083071} 
+\index{person.h@{person.h}!printSizeTContainer@{printSizeTContainer}}
+\index{printSizeTContainer@{printSizeTContainer}!person.h@{person.h}}
+\doxysubsubsection{\texorpdfstring{printSizeTContainer()}{printSizeTContainer()}}
+{\footnotesize\ttfamily void print\+Size\+TContainer (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::vector$<$ size\+\_\+t $>$ \&}]{container,  }\item[{const std\+::string \&}]{label }\end{DoxyParamCaption})}
+
+Print to JSON formatting container of unsigned integers with given label. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream where to print. \\
+\hline
+{\em container} & Given container of ids. \\
+\hline
+{\em label} & The label of JSON array. \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,1370 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Rodoc}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}icons}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Events}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Event Templates}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Predefined Templates}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Files, Notes \& Media}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Virtual Directories}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Adding Files}{7}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Welcome to rodoc}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Project}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Persons}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Relations}{9}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Events}{9}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Files}{9}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Layout}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Menu}{11}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Panels}{11}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Left Panel}{11}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Right Panel}{11}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {7}Person}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Dates}{13}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Tags}{13}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Relations}{15}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Relation Templates}{15}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Generation Difference}{15}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Trait}{16}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Predefined Templates}{16}{subsection.8.1.3}%
+\contentsline {section}{\numberline {8.2}Promotion}{16}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Suggestions}{16}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Namespace Index}{17}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Namespace List}{17}{section.9.1}%
+\contentsline {chapter}{\numberline {10}Hierarchical Index}{19}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Class Hierarchy}{19}{section.10.1}%
+\contentsline {chapter}{\numberline {11}Class Index}{21}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Class List}{21}{section.11.1}%
+\contentsline {chapter}{\numberline {12}File Index}{23}{chapter.12}%
+\contentsline {section}{\numberline {12.1}File List}{23}{section.12.1}%
+\contentsline {chapter}{\numberline {13}Namespace Documentation}{25}{chapter.13}%
+\contentsline {section}{\numberline {13.1}addfile Namespace Reference}{25}{section.13.1}%
+\contentsline {subsection}{\numberline {13.1.1}Detailed Description}{25}{subsection.13.1.1}%
+\contentsline {subsection}{\numberline {13.1.2}Variable Documentation}{25}{subsection.13.1.2}%
+\contentsline {subsubsection}{\numberline {13.1.2.1}NONE}{25}{subsubsection.13.1.2.1}%
+\contentsline {section}{\numberline {13.2}button Namespace Reference}{25}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Detailed Description}{26}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Variable Documentation}{26}{subsection.13.2.2}%
+\contentsline {subsubsection}{\numberline {13.2.2.1}ADD\_NEW}{26}{subsubsection.13.2.2.1}%
+\contentsline {subsubsection}{\numberline {13.2.2.2}CANCEL}{26}{subsubsection.13.2.2.2}%
+\contentsline {subsubsection}{\numberline {13.2.2.3}REMOVE}{26}{subsubsection.13.2.2.3}%
+\contentsline {section}{\numberline {13.3}error Namespace Reference}{26}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}Detailed Description}{27}{subsection.13.3.1}%
+\contentsline {subsection}{\numberline {13.3.2}Variable Documentation}{27}{subsection.13.3.2}%
+\contentsline {subsubsection}{\numberline {13.3.2.1}CORRUPTED\_DATABASE}{27}{subsubsection.13.3.2.1}%
+\contentsline {subsubsection}{\numberline {13.3.2.2}EMPTY\_BOXES}{27}{subsubsection.13.3.2.2}%
+\contentsline {subsubsection}{\numberline {13.3.2.3}EXCEPTION\_STR}{27}{subsubsection.13.3.2.3}%
+\contentsline {subsubsection}{\numberline {13.3.2.4}FORBIDDEN\_CHARS}{27}{subsubsection.13.3.2.4}%
+\contentsline {subsubsection}{\numberline {13.3.2.5}NO\_CHOSEN\_FILE}{28}{subsubsection.13.3.2.5}%
+\contentsline {subsubsection}{\numberline {13.3.2.6}NO\_ROLE}{28}{subsubsection.13.3.2.6}%
+\contentsline {subsubsection}{\numberline {13.3.2.7}UNKNOWN\_EXCEP\_STR}{28}{subsubsection.13.3.2.7}%
+\contentsline {section}{\numberline {13.4}events Namespace Reference}{28}{section.13.4}%
+\contentsline {subsection}{\numberline {13.4.1}Detailed Description}{29}{subsection.13.4.1}%
+\contentsline {subsection}{\numberline {13.4.2}Variable Documentation}{29}{subsection.13.4.2}%
+\contentsline {subsubsection}{\numberline {13.4.2.1}BEST\_MAN}{29}{subsubsection.13.4.2.1}%
+\contentsline {subsubsection}{\numberline {13.4.2.2}BRIDE}{29}{subsubsection.13.4.2.2}%
+\contentsline {subsubsection}{\numberline {13.4.2.3}DEAD\_PERSON}{29}{subsubsection.13.4.2.3}%
+\contentsline {subsubsection}{\numberline {13.4.2.4}DESC\_DIVORCE}{29}{subsubsection.13.4.2.4}%
+\contentsline {subsubsection}{\numberline {13.4.2.5}DESC\_FUNERAL}{30}{subsubsection.13.4.2.5}%
+\contentsline {subsubsection}{\numberline {13.4.2.6}DESC\_GRADUATION}{30}{subsubsection.13.4.2.6}%
+\contentsline {subsubsection}{\numberline {13.4.2.7}DESC\_WEDDING}{30}{subsubsection.13.4.2.7}%
+\contentsline {subsubsection}{\numberline {13.4.2.8}DIVORCE}{30}{subsubsection.13.4.2.8}%
+\contentsline {subsubsection}{\numberline {13.4.2.9}FORMER\_HUSBAND}{30}{subsubsection.13.4.2.9}%
+\contentsline {subsubsection}{\numberline {13.4.2.10}FORMER\_WIFE}{30}{subsubsection.13.4.2.10}%
+\contentsline {subsubsection}{\numberline {13.4.2.11}FUNERAL}{30}{subsubsection.13.4.2.11}%
+\contentsline {subsubsection}{\numberline {13.4.2.12}GRADUATE}{31}{subsubsection.13.4.2.12}%
+\contentsline {subsubsection}{\numberline {13.4.2.13}GRADUATION}{31}{subsubsection.13.4.2.13}%
+\contentsline {subsubsection}{\numberline {13.4.2.14}GROOM}{31}{subsubsection.13.4.2.14}%
+\contentsline {subsubsection}{\numberline {13.4.2.15}MAID\_OF\_HONOR}{31}{subsubsection.13.4.2.15}%
+\contentsline {subsubsection}{\numberline {13.4.2.16}NO\_ROLE}{31}{subsubsection.13.4.2.16}%
+\contentsline {subsubsection}{\numberline {13.4.2.17}WEDDING}{31}{subsubsection.13.4.2.17}%
+\contentsline {section}{\numberline {13.5}gender Namespace Reference}{31}{section.13.5}%
+\contentsline {subsection}{\numberline {13.5.1}Detailed Description}{32}{subsection.13.5.1}%
+\contentsline {subsection}{\numberline {13.5.2}Function Documentation}{32}{subsection.13.5.2}%
+\contentsline {subsubsection}{\numberline {13.5.2.1}str()}{32}{subsubsection.13.5.2.1}%
+\contentsline {subsection}{\numberline {13.5.3}Variable Documentation}{32}{subsection.13.5.3}%
+\contentsline {subsubsection}{\numberline {13.5.3.1}AllGenders}{32}{subsubsection.13.5.3.1}%
+\contentsline {section}{\numberline {13.6}html Namespace Reference}{32}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}Detailed Description}{33}{subsection.13.6.1}%
+\contentsline {subsection}{\numberline {13.6.2}Variable Documentation}{34}{subsection.13.6.2}%
+\contentsline {subsubsection}{\numberline {13.6.2.1}ALL\_PERSONS}{34}{subsubsection.13.6.2.1}%
+\contentsline {subsubsection}{\numberline {13.6.2.2}BIRTH\_DATE}{34}{subsubsection.13.6.2.2}%
+\contentsline {subsubsection}{\numberline {13.6.2.3}BIRTH\_PLACE}{34}{subsubsection.13.6.2.3}%
+\contentsline {subsubsection}{\numberline {13.6.2.4}CLOSE\_FAMILY}{34}{subsubsection.13.6.2.4}%
+\contentsline {subsubsection}{\numberline {13.6.2.5}CLOSE\_FAMILY\_DIAGRAM}{34}{subsubsection.13.6.2.5}%
+\contentsline {subsubsection}{\numberline {13.6.2.6}CUSTOM\_CSS}{34}{subsubsection.13.6.2.6}%
+\contentsline {subsubsection}{\numberline {13.6.2.7}CUSTOM\_TAGS}{34}{subsubsection.13.6.2.7}%
+\contentsline {subsubsection}{\numberline {13.6.2.8}DATE}{35}{subsubsection.13.6.2.8}%
+\contentsline {subsubsection}{\numberline {13.6.2.9}DEATH\_DATE}{35}{subsubsection.13.6.2.9}%
+\contentsline {subsubsection}{\numberline {13.6.2.10}DEATH\_PLACE}{35}{subsubsection.13.6.2.10}%
+\contentsline {subsubsection}{\numberline {13.6.2.11}DESCRIPTION}{35}{subsubsection.13.6.2.11}%
+\contentsline {subsubsection}{\numberline {13.6.2.12}EVENTS}{35}{subsubsection.13.6.2.12}%
+\contentsline {subsubsection}{\numberline {13.6.2.13}FAMILY\_TREE}{35}{subsubsection.13.6.2.13}%
+\contentsline {subsubsection}{\numberline {13.6.2.14}FAMILY\_TREE\_DIAGRAM}{35}{subsubsection.13.6.2.14}%
+\contentsline {subsubsection}{\numberline {13.6.2.15}GENDER}{35}{subsubsection.13.6.2.15}%
+\contentsline {subsubsection}{\numberline {13.6.2.16}GENERAL\_INFO}{36}{subsubsection.13.6.2.16}%
+\contentsline {subsubsection}{\numberline {13.6.2.17}NOTE}{36}{subsubsection.13.6.2.17}%
+\contentsline {subsubsection}{\numberline {13.6.2.18}PERSONS}{36}{subsubsection.13.6.2.18}%
+\contentsline {subsubsection}{\numberline {13.6.2.19}PLACE}{36}{subsubsection.13.6.2.19}%
+\contentsline {subsubsection}{\numberline {13.6.2.20}PREFIX\_CLOSE}{36}{subsubsection.13.6.2.20}%
+\contentsline {subsubsection}{\numberline {13.6.2.21}PREFIX\_FAMILY\_TREE}{36}{subsubsection.13.6.2.21}%
+\contentsline {subsubsection}{\numberline {13.6.2.22}RELATIONS}{36}{subsubsection.13.6.2.22}%
+\contentsline {subsubsection}{\numberline {13.6.2.23}RESOURCES}{36}{subsubsection.13.6.2.23}%
+\contentsline {section}{\numberline {13.7}jsonlabel Namespace Reference}{37}{section.13.7}%
+\contentsline {subsection}{\numberline {13.7.1}Detailed Description}{40}{subsection.13.7.1}%
+\contentsline {subsection}{\numberline {13.7.2}Variable Documentation}{40}{subsection.13.7.2}%
+\contentsline {subsubsection}{\numberline {13.7.2.1}AFTER\_TITLE}{40}{subsubsection.13.7.2.1}%
+\contentsline {subsubsection}{\numberline {13.7.2.2}APP\_SETTINGS}{40}{subsubsection.13.7.2.2}%
+\contentsline {subsubsection}{\numberline {13.7.2.3}BIRTH}{40}{subsubsection.13.7.2.3}%
+\contentsline {subsubsection}{\numberline {13.7.2.4}BLUE}{40}{subsubsection.13.7.2.4}%
+\contentsline {subsubsection}{\numberline {13.7.2.5}BORDER\_RADIUS}{41}{subsubsection.13.7.2.5}%
+\contentsline {subsubsection}{\numberline {13.7.2.6}CONTAINS\_DATE}{41}{subsubsection.13.7.2.6}%
+\contentsline {subsubsection}{\numberline {13.7.2.7}CONTAINS\_PLACE}{41}{subsubsection.13.7.2.7}%
+\contentsline {subsubsection}{\numberline {13.7.2.8}DATE}{41}{subsubsection.13.7.2.8}%
+\contentsline {subsubsection}{\numberline {13.7.2.9}DEATH}{41}{subsubsection.13.7.2.9}%
+\contentsline {subsubsection}{\numberline {13.7.2.10}DESCRIPTION}{41}{subsubsection.13.7.2.10}%
+\contentsline {subsubsection}{\numberline {13.7.2.11}DIR}{41}{subsubsection.13.7.2.11}%
+\contentsline {subsubsection}{\numberline {13.7.2.12}DRIVES}{41}{subsubsection.13.7.2.12}%
+\contentsline {subsubsection}{\numberline {13.7.2.13}EVE\_TEMPL}{42}{subsubsection.13.7.2.13}%
+\contentsline {subsubsection}{\numberline {13.7.2.14}EVENTS}{42}{subsubsection.13.7.2.14}%
+\contentsline {subsubsection}{\numberline {13.7.2.15}EXPORT}{42}{subsubsection.13.7.2.15}%
+\contentsline {subsubsection}{\numberline {13.7.2.16}FATHER}{42}{subsubsection.13.7.2.16}%
+\contentsline {subsubsection}{\numberline {13.7.2.17}FILES}{42}{subsubsection.13.7.2.17}%
+\contentsline {subsubsection}{\numberline {13.7.2.18}FIRST\_NAME}{42}{subsubsection.13.7.2.18}%
+\contentsline {subsubsection}{\numberline {13.7.2.19}FIRST\_PERSON}{42}{subsubsection.13.7.2.19}%
+\contentsline {subsubsection}{\numberline {13.7.2.20}FONT\_FAMILY}{42}{subsubsection.13.7.2.20}%
+\contentsline {subsubsection}{\numberline {13.7.2.21}FONT\_SIZE}{43}{subsubsection.13.7.2.21}%
+\contentsline {subsubsection}{\numberline {13.7.2.22}FRONT\_TITLE}{43}{subsubsection.13.7.2.22}%
+\contentsline {subsubsection}{\numberline {13.7.2.23}GEN\_DIFF}{43}{subsubsection.13.7.2.23}%
+\contentsline {subsubsection}{\numberline {13.7.2.24}GEN\_SIZE\_DOWN}{43}{subsubsection.13.7.2.24}%
+\contentsline {subsubsection}{\numberline {13.7.2.25}GEN\_SIZE\_UP}{43}{subsubsection.13.7.2.25}%
+\contentsline {subsubsection}{\numberline {13.7.2.26}GENDER}{43}{subsubsection.13.7.2.26}%
+\contentsline {subsubsection}{\numberline {13.7.2.27}GLOBAL\_MAIN\_PERSON}{43}{subsubsection.13.7.2.27}%
+\contentsline {subsubsection}{\numberline {13.7.2.28}GREEN}{43}{subsubsection.13.7.2.28}%
+\contentsline {subsubsection}{\numberline {13.7.2.29}HELP}{44}{subsubsection.13.7.2.29}%
+\contentsline {subsubsection}{\numberline {13.7.2.30}HIGHLIGHTED\_COLOR}{44}{subsubsection.13.7.2.30}%
+\contentsline {subsubsection}{\numberline {13.7.2.31}ID}{44}{subsubsection.13.7.2.31}%
+\contentsline {subsubsection}{\numberline {13.7.2.32}LAST\_DATE}{44}{subsubsection.13.7.2.32}%
+\contentsline {subsubsection}{\numberline {13.7.2.33}LINE\_COLOR}{44}{subsubsection.13.7.2.33}%
+\contentsline {subsubsection}{\numberline {13.7.2.34}LINE\_WIDTH}{44}{subsubsection.13.7.2.34}%
+\contentsline {subsubsection}{\numberline {13.7.2.35}LIVES}{44}{subsubsection.13.7.2.35}%
+\contentsline {subsubsection}{\numberline {13.7.2.36}MAIDEN\_NAME}{44}{subsubsection.13.7.2.36}%
+\contentsline {subsubsection}{\numberline {13.7.2.37}MEDIA}{45}{subsubsection.13.7.2.37}%
+\contentsline {subsubsection}{\numberline {13.7.2.38}MORE\_PEOPLE}{45}{subsubsection.13.7.2.38}%
+\contentsline {subsubsection}{\numberline {13.7.2.39}MOTHER}{45}{subsubsection.13.7.2.39}%
+\contentsline {subsubsection}{\numberline {13.7.2.40}MOVEABLE\_TABS}{45}{subsubsection.13.7.2.40}%
+\contentsline {subsubsection}{\numberline {13.7.2.41}NAME}{45}{subsubsection.13.7.2.41}%
+\contentsline {subsubsection}{\numberline {13.7.2.42}NOTES}{45}{subsubsection.13.7.2.42}%
+\contentsline {subsubsection}{\numberline {13.7.2.43}PARTNER}{45}{subsubsection.13.7.2.43}%
+\contentsline {subsubsection}{\numberline {13.7.2.44}PERSON}{45}{subsubsection.13.7.2.44}%
+\contentsline {subsubsection}{\numberline {13.7.2.45}PERSONS}{46}{subsubsection.13.7.2.45}%
+\contentsline {subsubsection}{\numberline {13.7.2.46}PLACE}{46}{subsubsection.13.7.2.46}%
+\contentsline {subsubsection}{\numberline {13.7.2.47}PROBANT\_COLOR}{46}{subsubsection.13.7.2.47}%
+\contentsline {subsubsection}{\numberline {13.7.2.48}PROMOTED\_COLOR}{46}{subsubsection.13.7.2.48}%
+\contentsline {subsubsection}{\numberline {13.7.2.49}RED}{46}{subsubsection.13.7.2.49}%
+\contentsline {subsubsection}{\numberline {13.7.2.50}REL\_TEMPL}{46}{subsubsection.13.7.2.50}%
+\contentsline {subsubsection}{\numberline {13.7.2.51}RELATIONS}{46}{subsubsection.13.7.2.51}%
+\contentsline {subsubsection}{\numberline {13.7.2.52}ROLE}{46}{subsubsection.13.7.2.52}%
+\contentsline {subsubsection}{\numberline {13.7.2.53}ROOT}{47}{subsubsection.13.7.2.53}%
+\contentsline {subsubsection}{\numberline {13.7.2.54}SECOND\_NAME}{47}{subsubsection.13.7.2.54}%
+\contentsline {subsubsection}{\numberline {13.7.2.55}SECOND\_PERSON}{47}{subsubsection.13.7.2.55}%
+\contentsline {subsubsection}{\numberline {13.7.2.56}SHOW\_EVENT\_TAB}{47}{subsubsection.13.7.2.56}%
+\contentsline {subsubsection}{\numberline {13.7.2.57}SHOW\_FILE\_TAB}{47}{subsubsection.13.7.2.57}%
+\contentsline {subsubsection}{\numberline {13.7.2.58}SHOW\_GENERAL\_TAB}{47}{subsubsection.13.7.2.58}%
+\contentsline {subsubsection}{\numberline {13.7.2.59}SHOW\_MEDIA\_TAB}{47}{subsubsection.13.7.2.59}%
+\contentsline {subsubsection}{\numberline {13.7.2.60}SHOW\_NOTE\_TAB}{47}{subsubsection.13.7.2.60}%
+\contentsline {subsubsection}{\numberline {13.7.2.61}SHOW\_RELATION\_TAB}{48}{subsubsection.13.7.2.61}%
+\contentsline {subsubsection}{\numberline {13.7.2.62}SPECIAL\_ROLES}{48}{subsubsection.13.7.2.62}%
+\contentsline {subsubsection}{\numberline {13.7.2.63}SPLITTER\_POSITION\_ONE}{48}{subsubsection.13.7.2.63}%
+\contentsline {subsubsection}{\numberline {13.7.2.64}SPLITTER\_POSITION\_TWO}{48}{subsubsection.13.7.2.64}%
+\contentsline {subsubsection}{\numberline {13.7.2.65}STANDARD\_COLOR}{48}{subsubsection.13.7.2.65}%
+\contentsline {subsubsection}{\numberline {13.7.2.66}SURNAME}{48}{subsubsection.13.7.2.66}%
+\contentsline {subsubsection}{\numberline {13.7.2.67}TAB\_POSITION}{48}{subsubsection.13.7.2.67}%
+\contentsline {subsubsection}{\numberline {13.7.2.68}TAG}{48}{subsubsection.13.7.2.68}%
+\contentsline {subsubsection}{\numberline {13.7.2.69}TAGS}{49}{subsubsection.13.7.2.69}%
+\contentsline {subsubsection}{\numberline {13.7.2.70}TEMPLATE}{49}{subsubsection.13.7.2.70}%
+\contentsline {subsubsection}{\numberline {13.7.2.71}TEMPLATES}{49}{subsubsection.13.7.2.71}%
+\contentsline {subsubsection}{\numberline {13.7.2.72}TEXT}{49}{subsubsection.13.7.2.72}%
+\contentsline {subsubsection}{\numberline {13.7.2.73}TEXT\_COLOR}{49}{subsubsection.13.7.2.73}%
+\contentsline {subsubsection}{\numberline {13.7.2.74}TITLE}{49}{subsubsection.13.7.2.74}%
+\contentsline {subsubsection}{\numberline {13.7.2.75}TRAIT}{49}{subsubsection.13.7.2.75}%
+\contentsline {subsubsection}{\numberline {13.7.2.76}TYPE}{49}{subsubsection.13.7.2.76}%
+\contentsline {subsubsection}{\numberline {13.7.2.77}VALUE}{50}{subsubsection.13.7.2.77}%
+\contentsline {subsubsection}{\numberline {13.7.2.78}VIRTUAL\_DRIVE}{50}{subsubsection.13.7.2.78}%
+\contentsline {subsubsection}{\numberline {13.7.2.79}X\_SIZE}{50}{subsubsection.13.7.2.79}%
+\contentsline {subsubsection}{\numberline {13.7.2.80}Y\_SIZE}{50}{subsubsection.13.7.2.80}%
+\contentsline {section}{\numberline {13.8}parser Namespace Reference}{50}{section.13.8}%
+\contentsline {subsection}{\numberline {13.8.1}Detailed Description}{51}{subsection.13.8.1}%
+\contentsline {subsection}{\numberline {13.8.2}Variable Documentation}{51}{subsection.13.8.2}%
+\contentsline {subsubsection}{\numberline {13.8.2.1}ERROR\_LOG}{51}{subsubsection.13.8.2.1}%
+\contentsline {subsubsection}{\numberline {13.8.2.2}FILES\_DIR}{51}{subsubsection.13.8.2.2}%
+\contentsline {subsubsection}{\numberline {13.8.2.3}JSON\_CONFIG}{51}{subsubsection.13.8.2.3}%
+\contentsline {subsubsection}{\numberline {13.8.2.4}JSON\_EVENTS}{51}{subsubsection.13.8.2.4}%
+\contentsline {subsubsection}{\numberline {13.8.2.5}JSON\_FILES}{51}{subsubsection.13.8.2.5}%
+\contentsline {subsubsection}{\numberline {13.8.2.6}JSON\_MEDIA}{51}{subsubsection.13.8.2.6}%
+\contentsline {subsubsection}{\numberline {13.8.2.7}JSON\_NOTES}{52}{subsubsection.13.8.2.7}%
+\contentsline {subsubsection}{\numberline {13.8.2.8}JSON\_PERSONS}{52}{subsubsection.13.8.2.8}%
+\contentsline {subsubsection}{\numberline {13.8.2.9}JSON\_RELATIONS}{52}{subsubsection.13.8.2.9}%
+\contentsline {subsubsection}{\numberline {13.8.2.10}MEDIA\_DIR}{52}{subsubsection.13.8.2.10}%
+\contentsline {subsubsection}{\numberline {13.8.2.11}NOTES\_DIR}{52}{subsubsection.13.8.2.11}%
+\contentsline {section}{\numberline {13.9}person Namespace Reference}{52}{section.13.9}%
+\contentsline {subsection}{\numberline {13.9.1}Detailed Description}{53}{subsection.13.9.1}%
+\contentsline {subsection}{\numberline {13.9.2}Variable Documentation}{53}{subsection.13.9.2}%
+\contentsline {subsubsection}{\numberline {13.9.2.1}DATE\_FROM}{53}{subsubsection.13.9.2.1}%
+\contentsline {subsubsection}{\numberline {13.9.2.2}DATE\_TO}{53}{subsubsection.13.9.2.2}%
+\contentsline {subsubsection}{\numberline {13.9.2.3}NAME\_STR}{53}{subsubsection.13.9.2.3}%
+\contentsline {subsubsection}{\numberline {13.9.2.4}ROOT}{53}{subsubsection.13.9.2.4}%
+\contentsline {subsubsection}{\numberline {13.9.2.5}SURNAME\_STR}{53}{subsubsection.13.9.2.5}%
+\contentsline {subsubsection}{\numberline {13.9.2.6}UNKNOWN\_STR}{53}{subsubsection.13.9.2.6}%
+\contentsline {section}{\numberline {13.10}relation Namespace Reference}{53}{section.13.10}%
+\contentsline {subsection}{\numberline {13.10.1}Detailed Description}{55}{subsection.13.10.1}%
+\contentsline {subsection}{\numberline {13.10.2}Variable Documentation}{55}{subsection.13.10.2}%
+\contentsline {subsubsection}{\numberline {13.10.2.1}ADOPTED\_CHILD}{55}{subsubsection.13.10.2.1}%
+\contentsline {subsubsection}{\numberline {13.10.2.2}ADOPTIVE\_FATHER}{55}{subsubsection.13.10.2.2}%
+\contentsline {subsubsection}{\numberline {13.10.2.3}ADOPTIVE\_FATHERHOOD}{55}{subsubsection.13.10.2.3}%
+\contentsline {subsubsection}{\numberline {13.10.2.4}ADOPTIVE\_MOTHER}{55}{subsubsection.13.10.2.4}%
+\contentsline {subsubsection}{\numberline {13.10.2.5}ADOPTIVE\_MOTHERHOOD}{55}{subsubsection.13.10.2.5}%
+\contentsline {subsubsection}{\numberline {13.10.2.6}BROTHER}{56}{subsubsection.13.10.2.6}%
+\contentsline {subsubsection}{\numberline {13.10.2.7}BROTHERHHOD}{56}{subsubsection.13.10.2.7}%
+\contentsline {subsubsection}{\numberline {13.10.2.8}CHILD}{56}{subsubsection.13.10.2.8}%
+\contentsline {subsubsection}{\numberline {13.10.2.9}DESC\_ADOPTIVE\_FATHERHOOD}{56}{subsubsection.13.10.2.9}%
+\contentsline {subsubsection}{\numberline {13.10.2.10}DESC\_ADOPTIVE\_MOTHERHOOD}{56}{subsubsection.13.10.2.10}%
+\contentsline {subsubsection}{\numberline {13.10.2.11}DESC\_BROTHERHOOD}{56}{subsubsection.13.10.2.11}%
+\contentsline {subsubsection}{\numberline {13.10.2.12}DESC\_SIBLINGS}{56}{subsubsection.13.10.2.12}%
+\contentsline {subsubsection}{\numberline {13.10.2.13}DESC\_SISTERHOOD}{57}{subsubsection.13.10.2.13}%
+\contentsline {subsubsection}{\numberline {13.10.2.14}FATHER}{57}{subsubsection.13.10.2.14}%
+\contentsline {subsubsection}{\numberline {13.10.2.15}FATHERHOOD}{57}{subsubsection.13.10.2.15}%
+\contentsline {subsubsection}{\numberline {13.10.2.16}FATHERHOOD\_DESC}{57}{subsubsection.13.10.2.16}%
+\contentsline {subsubsection}{\numberline {13.10.2.17}HUSBAND}{57}{subsubsection.13.10.2.17}%
+\contentsline {subsubsection}{\numberline {13.10.2.18}MARRIAGE}{57}{subsubsection.13.10.2.18}%
+\contentsline {subsubsection}{\numberline {13.10.2.19}MARRIAGE\_DESC}{57}{subsubsection.13.10.2.19}%
+\contentsline {subsubsection}{\numberline {13.10.2.20}MOTHER}{58}{subsubsection.13.10.2.20}%
+\contentsline {subsubsection}{\numberline {13.10.2.21}MOTHERHOOD}{58}{subsubsection.13.10.2.21}%
+\contentsline {subsubsection}{\numberline {13.10.2.22}MOTHERHOOD\_DESC}{58}{subsubsection.13.10.2.22}%
+\contentsline {subsubsection}{\numberline {13.10.2.23}PARTNER}{58}{subsubsection.13.10.2.23}%
+\contentsline {subsubsection}{\numberline {13.10.2.24}PARTNERSHIP}{58}{subsubsection.13.10.2.24}%
+\contentsline {subsubsection}{\numberline {13.10.2.25}PARTNERSHIP\_DESC}{58}{subsubsection.13.10.2.25}%
+\contentsline {subsubsection}{\numberline {13.10.2.26}SIBLINGS}{58}{subsubsection.13.10.2.26}%
+\contentsline {subsubsection}{\numberline {13.10.2.27}SISTER}{58}{subsubsection.13.10.2.27}%
+\contentsline {subsubsection}{\numberline {13.10.2.28}SISTERHOOD}{59}{subsubsection.13.10.2.28}%
+\contentsline {subsubsection}{\numberline {13.10.2.29}WIFE}{59}{subsubsection.13.10.2.29}%
+\contentsline {section}{\numberline {13.11}tagchooser Namespace Reference}{59}{section.13.11}%
+\contentsline {subsection}{\numberline {13.11.1}Detailed Description}{59}{subsection.13.11.1}%
+\contentsline {subsection}{\numberline {13.11.2}Variable Documentation}{59}{subsection.13.11.2}%
+\contentsline {subsubsection}{\numberline {13.11.2.1}CUSTOM\_TAG}{59}{subsubsection.13.11.2.1}%
+\contentsline {section}{\numberline {13.12}trait Namespace Reference}{59}{section.13.12}%
+\contentsline {subsection}{\numberline {13.12.1}Detailed Description}{60}{subsection.13.12.1}%
+\contentsline {subsection}{\numberline {13.12.2}Function Documentation}{60}{subsection.13.12.2}%
+\contentsline {subsubsection}{\numberline {13.12.2.1}str()}{60}{subsubsection.13.12.2.1}%
+\contentsline {subsection}{\numberline {13.12.3}Variable Documentation}{60}{subsection.13.12.3}%
+\contentsline {subsubsection}{\numberline {13.12.3.1}AllTraits}{60}{subsubsection.13.12.3.1}%
+\contentsline {section}{\numberline {13.13}Ui Namespace Reference}{60}{section.13.13}%
+\contentsline {subsection}{\numberline {13.13.1}Detailed Description}{60}{subsection.13.13.1}%
+\contentsline {chapter}{\numberline {14}Class Documentation}{61}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Add\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{61}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}Detailed Description}{62}{subsection.14.1.1}%
+\contentsline {subsection}{\numberline {14.1.2}Constructor \& Destructor Documentation}{62}{subsection.14.1.2}%
+\contentsline {subsubsection}{\numberline {14.1.2.1}AddFileDialog()}{62}{subsubsection.14.1.2.1}%
+\contentsline {subsubsection}{\numberline {14.1.2.2}$\sim $AddFileDialog()}{62}{subsubsection.14.1.2.2}%
+\contentsline {subsection}{\numberline {14.1.3}Member Function Documentation}{62}{subsection.14.1.3}%
+\contentsline {subsubsection}{\numberline {14.1.3.1}copyFile}{62}{subsubsection.14.1.3.1}%
+\contentsline {subsubsection}{\numberline {14.1.3.2}createOrChooseFile}{63}{subsubsection.14.1.3.2}%
+\contentsline {subsubsection}{\numberline {14.1.3.3}getId()}{63}{subsubsection.14.1.3.3}%
+\contentsline {subsubsection}{\numberline {14.1.3.4}openFile}{63}{subsubsection.14.1.3.4}%
+\contentsline {subsection}{\numberline {14.1.4}Member Data Documentation}{63}{subsection.14.1.4}%
+\contentsline {subsubsection}{\numberline {14.1.4.1}drive\_}{63}{subsubsection.14.1.4.1}%
+\contentsline {subsubsection}{\numberline {14.1.4.2}FT\_}{63}{subsubsection.14.1.4.2}%
+\contentsline {subsubsection}{\numberline {14.1.4.3}type\_}{64}{subsubsection.14.1.4.3}%
+\contentsline {subsubsection}{\numberline {14.1.4.4}ui}{64}{subsubsection.14.1.4.4}%
+\contentsline {section}{\numberline {14.2}App\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings Struct Reference}{64}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}Detailed Description}{65}{subsection.14.2.1}%
+\contentsline {subsection}{\numberline {14.2.2}Member Function Documentation}{65}{subsection.14.2.2}%
+\contentsline {subsubsection}{\numberline {14.2.2.1}readJson()}{65}{subsubsection.14.2.2.1}%
+\contentsline {subsubsection}{\numberline {14.2.2.2}setDefault()}{66}{subsubsection.14.2.2.2}%
+\contentsline {subsection}{\numberline {14.2.3}Member Data Documentation}{66}{subsection.14.2.3}%
+\contentsline {subsubsection}{\numberline {14.2.3.1}fontFamily}{66}{subsubsection.14.2.3.1}%
+\contentsline {subsubsection}{\numberline {14.2.3.2}fontSize}{66}{subsubsection.14.2.3.2}%
+\contentsline {subsubsection}{\numberline {14.2.3.3}genSizeDown}{66}{subsubsection.14.2.3.3}%
+\contentsline {subsubsection}{\numberline {14.2.3.4}genSizeUp}{66}{subsubsection.14.2.3.4}%
+\contentsline {subsubsection}{\numberline {14.2.3.5}highlightedColor}{66}{subsubsection.14.2.3.5}%
+\contentsline {subsubsection}{\numberline {14.2.3.6}lineColor}{66}{subsubsection.14.2.3.6}%
+\contentsline {subsubsection}{\numberline {14.2.3.7}lineWidth}{67}{subsubsection.14.2.3.7}%
+\contentsline {subsubsection}{\numberline {14.2.3.8}probandColor}{67}{subsubsection.14.2.3.8}%
+\contentsline {subsubsection}{\numberline {14.2.3.9}promoted}{67}{subsubsection.14.2.3.9}%
+\contentsline {subsubsection}{\numberline {14.2.3.10}radius}{67}{subsubsection.14.2.3.10}%
+\contentsline {subsubsection}{\numberline {14.2.3.11}showEventTab}{67}{subsubsection.14.2.3.11}%
+\contentsline {subsubsection}{\numberline {14.2.3.12}showFileTab}{67}{subsubsection.14.2.3.12}%
+\contentsline {subsubsection}{\numberline {14.2.3.13}showGeneralTab}{67}{subsubsection.14.2.3.13}%
+\contentsline {subsubsection}{\numberline {14.2.3.14}showMediaTab}{67}{subsubsection.14.2.3.14}%
+\contentsline {subsubsection}{\numberline {14.2.3.15}showNoteTab}{68}{subsubsection.14.2.3.15}%
+\contentsline {subsubsection}{\numberline {14.2.3.16}showRelationTab}{68}{subsubsection.14.2.3.16}%
+\contentsline {subsubsection}{\numberline {14.2.3.17}sizeX}{68}{subsubsection.14.2.3.17}%
+\contentsline {subsubsection}{\numberline {14.2.3.18}sizeY}{68}{subsubsection.14.2.3.18}%
+\contentsline {subsubsection}{\numberline {14.2.3.19}splitterPositionOne}{68}{subsubsection.14.2.3.19}%
+\contentsline {subsubsection}{\numberline {14.2.3.20}splitterPositionTwo}{68}{subsubsection.14.2.3.20}%
+\contentsline {subsubsection}{\numberline {14.2.3.21}standard}{68}{subsubsection.14.2.3.21}%
+\contentsline {subsubsection}{\numberline {14.2.3.22}tabPosition}{68}{subsubsection.14.2.3.22}%
+\contentsline {subsubsection}{\numberline {14.2.3.23}textColor}{69}{subsubsection.14.2.3.23}%
+\contentsline {section}{\numberline {14.3}Cell\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Graphics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{69}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Detailed Description}{70}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}Constructor \& Destructor Documentation}{70}{subsection.14.3.2}%
+\contentsline {subsubsection}{\numberline {14.3.2.1}CellGraphicsItem()}{70}{subsubsection.14.3.2.1}%
+\contentsline {subsection}{\numberline {14.3.3}Member Function Documentation}{70}{subsection.14.3.3}%
+\contentsline {subsubsection}{\numberline {14.3.3.1}boundingRect()}{70}{subsubsection.14.3.3.1}%
+\contentsline {subsubsection}{\numberline {14.3.3.2}paint()}{70}{subsubsection.14.3.3.2}%
+\contentsline {subsubsection}{\numberline {14.3.3.3}shape()}{71}{subsubsection.14.3.3.3}%
+\contentsline {subsection}{\numberline {14.3.4}Member Data Documentation}{71}{subsection.14.3.4}%
+\contentsline {subsubsection}{\numberline {14.3.4.1}borderRadius\_}{71}{subsubsection.14.3.4.1}%
+\contentsline {subsubsection}{\numberline {14.3.4.2}pen\_}{71}{subsubsection.14.3.4.2}%
+\contentsline {subsubsection}{\numberline {14.3.4.3}sizex\_}{71}{subsubsection.14.3.4.3}%
+\contentsline {subsubsection}{\numberline {14.3.4.4}sizey\_}{71}{subsubsection.14.3.4.4}%
+\contentsline {subsubsection}{\numberline {14.3.4.5}x\_}{71}{subsubsection.14.3.4.5}%
+\contentsline {subsubsection}{\numberline {14.3.4.6}y\_}{72}{subsubsection.14.3.4.6}%
+\contentsline {section}{\numberline {14.4}Choose\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Person\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{72}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}Detailed Description}{73}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}Constructor \& Destructor Documentation}{73}{subsection.14.4.2}%
+\contentsline {subsubsection}{\numberline {14.4.2.1}ChoosePersonDialog()}{73}{subsubsection.14.4.2.1}%
+\contentsline {subsubsection}{\numberline {14.4.2.2}$\sim $ChoosePersonDialog()}{73}{subsubsection.14.4.2.2}%
+\contentsline {subsection}{\numberline {14.4.3}Member Function Documentation}{73}{subsection.14.4.3}%
+\contentsline {subsubsection}{\numberline {14.4.3.1}clearFilter}{73}{subsubsection.14.4.3.1}%
+\contentsline {subsubsection}{\numberline {14.4.3.2}filterPersons}{74}{subsubsection.14.4.3.2}%
+\contentsline {subsubsection}{\numberline {14.4.3.3}savePerson}{74}{subsubsection.14.4.3.3}%
+\contentsline {subsubsection}{\numberline {14.4.3.4}saveSelectedPerson}{74}{subsubsection.14.4.3.4}%
+\contentsline {subsection}{\numberline {14.4.4}Member Data Documentation}{74}{subsection.14.4.4}%
+\contentsline {subsubsection}{\numberline {14.4.4.1}FT\_}{74}{subsubsection.14.4.4.1}%
+\contentsline {subsubsection}{\numberline {14.4.4.2}person\_}{74}{subsubsection.14.4.4.2}%
+\contentsline {subsubsection}{\numberline {14.4.4.3}ui}{74}{subsubsection.14.4.4.3}%
+\contentsline {section}{\numberline {14.5}Color Struct Reference}{75}{section.14.5}%
+\contentsline {subsection}{\numberline {14.5.1}Detailed Description}{75}{subsection.14.5.1}%
+\contentsline {subsection}{\numberline {14.5.2}Constructor \& Destructor Documentation}{75}{subsection.14.5.2}%
+\contentsline {subsubsection}{\numberline {14.5.2.1}Color()}{75}{subsubsection.14.5.2.1}%
+\contentsline {subsection}{\numberline {14.5.3}Member Function Documentation}{76}{subsection.14.5.3}%
+\contentsline {subsubsection}{\numberline {14.5.3.1}readJson()}{76}{subsubsection.14.5.3.1}%
+\contentsline {subsection}{\numberline {14.5.4}Member Data Documentation}{76}{subsection.14.5.4}%
+\contentsline {subsubsection}{\numberline {14.5.4.1}blue}{76}{subsubsection.14.5.4.1}%
+\contentsline {subsubsection}{\numberline {14.5.4.2}green}{76}{subsubsection.14.5.4.2}%
+\contentsline {subsubsection}{\numberline {14.5.4.3}red}{76}{subsubsection.14.5.4.3}%
+\contentsline {section}{\numberline {14.6}Date Class Reference}{76}{section.14.6}%
+\contentsline {subsection}{\numberline {14.6.1}Detailed Description}{77}{subsection.14.6.1}%
+\contentsline {subsection}{\numberline {14.6.2}Constructor \& Destructor Documentation}{77}{subsection.14.6.2}%
+\contentsline {subsubsection}{\numberline {14.6.2.1}Date()}{77}{subsubsection.14.6.2.1}%
+\contentsline {subsection}{\numberline {14.6.3}Member Function Documentation}{78}{subsection.14.6.3}%
+\contentsline {subsubsection}{\numberline {14.6.3.1}getDay()}{78}{subsubsection.14.6.3.1}%
+\contentsline {subsubsection}{\numberline {14.6.3.2}getMonth()}{78}{subsubsection.14.6.3.2}%
+\contentsline {subsubsection}{\numberline {14.6.3.3}getYear()}{78}{subsubsection.14.6.3.3}%
+\contentsline {subsubsection}{\numberline {14.6.3.4}isEmpty()}{78}{subsubsection.14.6.3.4}%
+\contentsline {subsubsection}{\numberline {14.6.3.5}isExact()}{78}{subsubsection.14.6.3.5}%
+\contentsline {subsubsection}{\numberline {14.6.3.6}read()}{78}{subsubsection.14.6.3.6}%
+\contentsline {subsubsection}{\numberline {14.6.3.7}setDay()}{79}{subsubsection.14.6.3.7}%
+\contentsline {subsubsection}{\numberline {14.6.3.8}setMonth()}{79}{subsubsection.14.6.3.8}%
+\contentsline {subsubsection}{\numberline {14.6.3.9}setYear()}{79}{subsubsection.14.6.3.9}%
+\contentsline {subsubsection}{\numberline {14.6.3.10}str()}{79}{subsubsection.14.6.3.10}%
+\contentsline {subsection}{\numberline {14.6.4}Member Data Documentation}{80}{subsection.14.6.4}%
+\contentsline {subsubsection}{\numberline {14.6.4.1}day}{80}{subsubsection.14.6.4.1}%
+\contentsline {subsubsection}{\numberline {14.6.4.2}month}{80}{subsubsection.14.6.4.2}%
+\contentsline {subsubsection}{\numberline {14.6.4.3}year}{80}{subsubsection.14.6.4.3}%
+\contentsline {section}{\numberline {14.7}Date\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{80}{section.14.7}%
+\contentsline {subsection}{\numberline {14.7.1}Detailed Description}{81}{subsection.14.7.1}%
+\contentsline {subsection}{\numberline {14.7.2}Constructor \& Destructor Documentation}{81}{subsection.14.7.2}%
+\contentsline {subsubsection}{\numberline {14.7.2.1}DateDialog()}{81}{subsubsection.14.7.2.1}%
+\contentsline {subsubsection}{\numberline {14.7.2.2}$\sim $DateDialog()}{81}{subsubsection.14.7.2.2}%
+\contentsline {subsection}{\numberline {14.7.3}Member Function Documentation}{81}{subsection.14.7.3}%
+\contentsline {subsubsection}{\numberline {14.7.3.1}saveDate}{81}{subsubsection.14.7.3.1}%
+\contentsline {subsubsection}{\numberline {14.7.3.2}unknownDate}{82}{subsubsection.14.7.3.2}%
+\contentsline {subsection}{\numberline {14.7.4}Member Data Documentation}{82}{subsection.14.7.4}%
+\contentsline {subsubsection}{\numberline {14.7.4.1}date\_}{82}{subsubsection.14.7.4.1}%
+\contentsline {subsubsection}{\numberline {14.7.4.2}FT\_}{82}{subsubsection.14.7.4.2}%
+\contentsline {subsubsection}{\numberline {14.7.4.3}ui}{82}{subsubsection.14.7.4.3}%
+\contentsline {section}{\numberline {14.8}Event Class Reference}{82}{section.14.8}%
+\contentsline {subsection}{\numberline {14.8.1}Detailed Description}{83}{subsection.14.8.1}%
+\contentsline {subsection}{\numberline {14.8.2}Constructor \& Destructor Documentation}{83}{subsection.14.8.2}%
+\contentsline {subsubsection}{\numberline {14.8.2.1}Event()}{83}{subsubsection.14.8.2.1}%
+\contentsline {subsection}{\numberline {14.8.3}Member Function Documentation}{84}{subsection.14.8.3}%
+\contentsline {subsubsection}{\numberline {14.8.3.1}addPerson()}{84}{subsubsection.14.8.3.1}%
+\contentsline {subsubsection}{\numberline {14.8.3.2}clearPersons()}{84}{subsubsection.14.8.3.2}%
+\contentsline {subsubsection}{\numberline {14.8.3.3}date()}{84}{subsubsection.14.8.3.3}%
+\contentsline {subsubsection}{\numberline {14.8.3.4}getDate()}{84}{subsubsection.14.8.3.4}%
+\contentsline {subsubsection}{\numberline {14.8.3.5}getId()}{85}{subsubsection.14.8.3.5}%
+\contentsline {subsubsection}{\numberline {14.8.3.6}getPersons()}{85}{subsubsection.14.8.3.6}%
+\contentsline {subsubsection}{\numberline {14.8.3.7}getPlace()}{85}{subsubsection.14.8.3.7}%
+\contentsline {subsubsection}{\numberline {14.8.3.8}getSettings()}{85}{subsubsection.14.8.3.8}%
+\contentsline {subsubsection}{\numberline {14.8.3.9}getTemplate()}{85}{subsubsection.14.8.3.9}%
+\contentsline {subsubsection}{\numberline {14.8.3.10}getText()}{86}{subsubsection.14.8.3.10}%
+\contentsline {subsubsection}{\numberline {14.8.3.11}printHtml()}{86}{subsubsection.14.8.3.11}%
+\contentsline {subsubsection}{\numberline {14.8.3.12}readJson()}{86}{subsubsection.14.8.3.12}%
+\contentsline {subsubsection}{\numberline {14.8.3.13}removePerson()}{86}{subsubsection.14.8.3.13}%
+\contentsline {subsubsection}{\numberline {14.8.3.14}setDate()}{87}{subsubsection.14.8.3.14}%
+\contentsline {subsubsection}{\numberline {14.8.3.15}setId()}{87}{subsubsection.14.8.3.15}%
+\contentsline {subsubsection}{\numberline {14.8.3.16}setPlace()}{87}{subsubsection.14.8.3.16}%
+\contentsline {subsubsection}{\numberline {14.8.3.17}setTemplate()}{87}{subsubsection.14.8.3.17}%
+\contentsline {subsubsection}{\numberline {14.8.3.18}setText()}{88}{subsubsection.14.8.3.18}%
+\contentsline {subsubsection}{\numberline {14.8.3.19}str()}{88}{subsubsection.14.8.3.19}%
+\contentsline {subsubsection}{\numberline {14.8.3.20}updateToTemplate()}{88}{subsubsection.14.8.3.20}%
+\contentsline {subsection}{\numberline {14.8.4}Member Data Documentation}{88}{subsection.14.8.4}%
+\contentsline {subsubsection}{\numberline {14.8.4.1}date\_}{88}{subsubsection.14.8.4.1}%
+\contentsline {subsubsection}{\numberline {14.8.4.2}id\_}{88}{subsubsection.14.8.4.2}%
+\contentsline {subsubsection}{\numberline {14.8.4.3}persons\_}{89}{subsubsection.14.8.4.3}%
+\contentsline {subsubsection}{\numberline {14.8.4.4}place\_}{89}{subsubsection.14.8.4.4}%
+\contentsline {subsubsection}{\numberline {14.8.4.5}settings\_}{89}{subsubsection.14.8.4.5}%
+\contentsline {subsubsection}{\numberline {14.8.4.6}template\_}{89}{subsubsection.14.8.4.6}%
+\contentsline {subsubsection}{\numberline {14.8.4.7}text\_}{89}{subsubsection.14.8.4.7}%
+\contentsline {section}{\numberline {14.9}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{89}{section.14.9}%
+\contentsline {subsection}{\numberline {14.9.1}Detailed Description}{90}{subsection.14.9.1}%
+\contentsline {subsection}{\numberline {14.9.2}Constructor \& Destructor Documentation}{91}{subsection.14.9.2}%
+\contentsline {subsubsection}{\numberline {14.9.2.1}EventDialog()}{91}{subsubsection.14.9.2.1}%
+\contentsline {subsubsection}{\numberline {14.9.2.2}$\sim $EventDialog()}{91}{subsubsection.14.9.2.2}%
+\contentsline {subsection}{\numberline {14.9.3}Member Function Documentation}{91}{subsection.14.9.3}%
+\contentsline {subsubsection}{\numberline {14.9.3.1}addEmptyRole}{91}{subsubsection.14.9.3.1}%
+\contentsline {subsubsection}{\numberline {14.9.3.2}choosePerson}{91}{subsubsection.14.9.3.2}%
+\contentsline {subsubsection}{\numberline {14.9.3.3}openCustomDate}{91}{subsubsection.14.9.3.3}%
+\contentsline {subsubsection}{\numberline {14.9.3.4}refreshDates}{91}{subsubsection.14.9.3.4}%
+\contentsline {subsubsection}{\numberline {14.9.3.5}refreshPersons}{91}{subsubsection.14.9.3.5}%
+\contentsline {subsubsection}{\numberline {14.9.3.6}removeEmptyRole}{92}{subsubsection.14.9.3.6}%
+\contentsline {subsubsection}{\numberline {14.9.3.7}removePerson}{92}{subsubsection.14.9.3.7}%
+\contentsline {subsubsection}{\numberline {14.9.3.8}saveEvent}{92}{subsubsection.14.9.3.8}%
+\contentsline {subsubsection}{\numberline {14.9.3.9}savePerson}{92}{subsubsection.14.9.3.9}%
+\contentsline {subsubsection}{\numberline {14.9.3.10}showEventDetails()}{92}{subsubsection.14.9.3.10}%
+\contentsline {subsubsection}{\numberline {14.9.3.11}showTemplate}{92}{subsubsection.14.9.3.11}%
+\contentsline {subsection}{\numberline {14.9.4}Member Data Documentation}{93}{subsection.14.9.4}%
+\contentsline {subsubsection}{\numberline {14.9.4.1}date\_}{93}{subsubsection.14.9.4.1}%
+\contentsline {subsubsection}{\numberline {14.9.4.2}event\_}{93}{subsubsection.14.9.4.2}%
+\contentsline {subsubsection}{\numberline {14.9.4.3}FT\_}{93}{subsubsection.14.9.4.3}%
+\contentsline {subsubsection}{\numberline {14.9.4.4}main\_}{93}{subsubsection.14.9.4.4}%
+\contentsline {subsubsection}{\numberline {14.9.4.5}ui}{93}{subsubsection.14.9.4.5}%
+\contentsline {section}{\numberline {14.10}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Role\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{93}{section.14.10}%
+\contentsline {subsection}{\numberline {14.10.1}Detailed Description}{94}{subsection.14.10.1}%
+\contentsline {subsection}{\numberline {14.10.2}Constructor \& Destructor Documentation}{94}{subsection.14.10.2}%
+\contentsline {subsubsection}{\numberline {14.10.2.1}EventRoleItem()}{94}{subsubsection.14.10.2.1}%
+\contentsline {subsection}{\numberline {14.10.3}Member Function Documentation}{94}{subsection.14.10.3}%
+\contentsline {subsubsection}{\numberline {14.10.3.1}getId()}{94}{subsubsection.14.10.3.1}%
+\contentsline {subsubsection}{\numberline {14.10.3.2}setPerson()}{94}{subsubsection.14.10.3.2}%
+\contentsline {subsection}{\numberline {14.10.4}Member Data Documentation}{95}{subsection.14.10.4}%
+\contentsline {subsubsection}{\numberline {14.10.4.1}id\_}{95}{subsubsection.14.10.4.1}%
+\contentsline {section}{\numberline {14.11}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tamplates\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{95}{section.14.11}%
+\contentsline {subsection}{\numberline {14.11.1}Detailed Description}{96}{subsection.14.11.1}%
+\contentsline {subsection}{\numberline {14.11.2}Constructor \& Destructor Documentation}{96}{subsection.14.11.2}%
+\contentsline {subsubsection}{\numberline {14.11.2.1}EventTamplatesDialog()}{96}{subsubsection.14.11.2.1}%
+\contentsline {subsubsection}{\numberline {14.11.2.2}$\sim $EventTamplatesDialog()}{96}{subsubsection.14.11.2.2}%
+\contentsline {subsection}{\numberline {14.11.3}Member Function Documentation}{97}{subsection.14.11.3}%
+\contentsline {subsubsection}{\numberline {14.11.3.1}addDefaults}{97}{subsubsection.14.11.3.1}%
+\contentsline {subsubsection}{\numberline {14.11.3.2}addNewRole}{97}{subsubsection.14.11.3.2}%
+\contentsline {subsubsection}{\numberline {14.11.3.3}addNewTemplate}{97}{subsubsection.14.11.3.3}%
+\contentsline {subsubsection}{\numberline {14.11.3.4}clear()}{97}{subsubsection.14.11.3.4}%
+\contentsline {subsubsection}{\numberline {14.11.3.5}refreshListWidget()}{97}{subsubsection.14.11.3.5}%
+\contentsline {subsubsection}{\numberline {14.11.3.6}removeRole}{97}{subsubsection.14.11.3.6}%
+\contentsline {subsubsection}{\numberline {14.11.3.7}removeTemplate}{97}{subsubsection.14.11.3.7}%
+\contentsline {subsubsection}{\numberline {14.11.3.8}saveTemplate\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{97}{subsubsection.14.11.3.8}%
+\contentsline {subsubsection}{\numberline {14.11.3.9}saveTemplate()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{97}{subsubsection.14.11.3.9}%
+\contentsline {subsubsection}{\numberline {14.11.3.10}setEnabledWidgets()}{98}{subsubsection.14.11.3.10}%
+\contentsline {subsubsection}{\numberline {14.11.3.11}showTemplate}{98}{subsubsection.14.11.3.11}%
+\contentsline {subsection}{\numberline {14.11.4}Member Data Documentation}{98}{subsection.14.11.4}%
+\contentsline {subsubsection}{\numberline {14.11.4.1}addingNew\_}{98}{subsubsection.14.11.4.1}%
+\contentsline {subsubsection}{\numberline {14.11.4.2}FT\_}{98}{subsubsection.14.11.4.2}%
+\contentsline {subsubsection}{\numberline {14.11.4.3}ui}{98}{subsubsection.14.11.4.3}%
+\contentsline {section}{\numberline {14.12}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template Class Reference}{99}{section.14.12}%
+\contentsline {subsection}{\numberline {14.12.1}Detailed Description}{99}{subsection.14.12.1}%
+\contentsline {subsection}{\numberline {14.12.2}Constructor \& Destructor Documentation}{100}{subsection.14.12.2}%
+\contentsline {subsubsection}{\numberline {14.12.2.1}EventTemplate()}{100}{subsubsection.14.12.2.1}%
+\contentsline {subsection}{\numberline {14.12.3}Member Function Documentation}{100}{subsection.14.12.3}%
+\contentsline {subsubsection}{\numberline {14.12.3.1}containsDate()}{100}{subsubsection.14.12.3.1}%
+\contentsline {subsubsection}{\numberline {14.12.3.2}containsPlace()}{100}{subsubsection.14.12.3.2}%
+\contentsline {subsubsection}{\numberline {14.12.3.3}getDescription()}{100}{subsubsection.14.12.3.3}%
+\contentsline {subsubsection}{\numberline {14.12.3.4}getId()}{100}{subsubsection.14.12.3.4}%
+\contentsline {subsubsection}{\numberline {14.12.3.5}getRoles()}{101}{subsubsection.14.12.3.5}%
+\contentsline {subsubsection}{\numberline {14.12.3.6}getTitle()}{101}{subsubsection.14.12.3.6}%
+\contentsline {subsubsection}{\numberline {14.12.3.7}hasMorePeopleInvolved()}{101}{subsubsection.14.12.3.7}%
+\contentsline {subsubsection}{\numberline {14.12.3.8}hasRoles()}{101}{subsubsection.14.12.3.8}%
+\contentsline {subsubsection}{\numberline {14.12.3.9}readJson()}{101}{subsubsection.14.12.3.9}%
+\contentsline {subsubsection}{\numberline {14.12.3.10}setContainsDate()}{102}{subsubsection.14.12.3.10}%
+\contentsline {subsubsection}{\numberline {14.12.3.11}setContainsPlace()}{102}{subsubsection.14.12.3.11}%
+\contentsline {subsubsection}{\numberline {14.12.3.12}setDescription()}{102}{subsubsection.14.12.3.12}%
+\contentsline {subsubsection}{\numberline {14.12.3.13}setId()}{102}{subsubsection.14.12.3.13}%
+\contentsline {subsubsection}{\numberline {14.12.3.14}setMorePeopleInvolved()}{103}{subsubsection.14.12.3.14}%
+\contentsline {subsubsection}{\numberline {14.12.3.15}setRoles()}{103}{subsubsection.14.12.3.15}%
+\contentsline {subsubsection}{\numberline {14.12.3.16}setTitle()}{103}{subsubsection.14.12.3.16}%
+\contentsline {subsubsection}{\numberline {14.12.3.17}str()}{103}{subsubsection.14.12.3.17}%
+\contentsline {subsection}{\numberline {14.12.4}Member Data Documentation}{103}{subsection.14.12.4}%
+\contentsline {subsubsection}{\numberline {14.12.4.1}containsDate\_}{103}{subsubsection.14.12.4.1}%
+\contentsline {subsubsection}{\numberline {14.12.4.2}containsPlace\_}{104}{subsubsection.14.12.4.2}%
+\contentsline {subsubsection}{\numberline {14.12.4.3}description\_}{104}{subsubsection.14.12.4.3}%
+\contentsline {subsubsection}{\numberline {14.12.4.4}id\_}{104}{subsubsection.14.12.4.4}%
+\contentsline {subsubsection}{\numberline {14.12.4.5}morePeopleInvolved\_}{104}{subsubsection.14.12.4.5}%
+\contentsline {subsubsection}{\numberline {14.12.4.6}roles\_}{104}{subsubsection.14.12.4.6}%
+\contentsline {subsubsection}{\numberline {14.12.4.7}title\_}{104}{subsubsection.14.12.4.7}%
+\contentsline {section}{\numberline {14.13}Export\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{105}{section.14.13}%
+\contentsline {subsection}{\numberline {14.13.1}Detailed Description}{105}{subsection.14.13.1}%
+\contentsline {subsection}{\numberline {14.13.2}Constructor \& Destructor Documentation}{105}{subsection.14.13.2}%
+\contentsline {subsubsection}{\numberline {14.13.2.1}ExportProjectDialog()}{105}{subsubsection.14.13.2.1}%
+\contentsline {subsubsection}{\numberline {14.13.2.2}$\sim $ExportProjectDialog()}{106}{subsubsection.14.13.2.2}%
+\contentsline {subsection}{\numberline {14.13.3}Member Function Documentation}{106}{subsection.14.13.3}%
+\contentsline {subsubsection}{\numberline {14.13.3.1}checkPerson}{106}{subsubsection.14.13.3.1}%
+\contentsline {subsubsection}{\numberline {14.13.3.2}exportProject}{106}{subsubsection.14.13.3.2}%
+\contentsline {subsection}{\numberline {14.13.4}Member Data Documentation}{106}{subsection.14.13.4}%
+\contentsline {subsubsection}{\numberline {14.13.4.1}FT\_}{106}{subsubsection.14.13.4.1}%
+\contentsline {subsubsection}{\numberline {14.13.4.2}ui}{106}{subsubsection.14.13.4.2}%
+\contentsline {section}{\numberline {14.14}Export\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Templates\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{107}{section.14.14}%
+\contentsline {subsection}{\numberline {14.14.1}Detailed Description}{107}{subsection.14.14.1}%
+\contentsline {subsection}{\numberline {14.14.2}Constructor \& Destructor Documentation}{107}{subsection.14.14.2}%
+\contentsline {subsubsection}{\numberline {14.14.2.1}ExportTemplatesDialog()}{107}{subsubsection.14.14.2.1}%
+\contentsline {subsubsection}{\numberline {14.14.2.2}$\sim $ExportTemplatesDialog()}{108}{subsubsection.14.14.2.2}%
+\contentsline {subsection}{\numberline {14.14.3}Member Function Documentation}{108}{subsection.14.14.3}%
+\contentsline {subsubsection}{\numberline {14.14.3.1}exportTemplates}{108}{subsubsection.14.14.3.1}%
+\contentsline {subsection}{\numberline {14.14.4}Member Data Documentation}{108}{subsection.14.14.4}%
+\contentsline {subsubsection}{\numberline {14.14.4.1}FT\_}{108}{subsubsection.14.14.4.1}%
+\contentsline {subsubsection}{\numberline {14.14.4.2}ui}{108}{subsubsection.14.14.4.2}%
+\contentsline {section}{\numberline {14.15}Family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tree Class Reference}{108}{section.14.15}%
+\contentsline {subsection}{\numberline {14.15.1}Detailed Description}{111}{subsection.14.15.1}%
+\contentsline {subsection}{\numberline {14.15.2}Constructor \& Destructor Documentation}{111}{subsection.14.15.2}%
+\contentsline {subsubsection}{\numberline {14.15.2.1}FamilyTree()}{111}{subsubsection.14.15.2.1}%
+\contentsline {subsection}{\numberline {14.15.3}Member Function Documentation}{112}{subsection.14.15.3}%
+\contentsline {subsubsection}{\numberline {14.15.3.1}addEvent()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{112}{subsubsection.14.15.3.1}%
+\contentsline {subsubsection}{\numberline {14.15.3.2}addEvent()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{112}{subsubsection.14.15.3.2}%
+\contentsline {subsubsection}{\numberline {14.15.3.3}addFile()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{112}{subsubsection.14.15.3.3}%
+\contentsline {subsubsection}{\numberline {14.15.3.4}addFile()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{112}{subsubsection.14.15.3.4}%
+\contentsline {subsubsection}{\numberline {14.15.3.5}addPerson()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{113}{subsubsection.14.15.3.5}%
+\contentsline {subsubsection}{\numberline {14.15.3.6}addPerson()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{113}{subsubsection.14.15.3.6}%
+\contentsline {subsubsection}{\numberline {14.15.3.7}addRelation()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{113}{subsubsection.14.15.3.7}%
+\contentsline {subsubsection}{\numberline {14.15.3.8}addRelation()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{114}{subsubsection.14.15.3.8}%
+\contentsline {subsubsection}{\numberline {14.15.3.9}append()}{114}{subsubsection.14.15.3.9}%
+\contentsline {subsubsection}{\numberline {14.15.3.10}checkFileConsistence()}{114}{subsubsection.14.15.3.10}%
+\contentsline {subsubsection}{\numberline {14.15.3.11}checkFileTypeConsistence()}{114}{subsubsection.14.15.3.11}%
+\contentsline {subsubsection}{\numberline {14.15.3.12}clear()}{115}{subsubsection.14.15.3.12}%
+\contentsline {subsubsection}{\numberline {14.15.3.13}clearProjectPaths()}{115}{subsubsection.14.15.3.13}%
+\contentsline {subsubsection}{\numberline {14.15.3.14}copyFile()}{115}{subsubsection.14.15.3.14}%
+\contentsline {subsubsection}{\numberline {14.15.3.15}createDatabase()}{115}{subsubsection.14.15.3.15}%
+\contentsline {subsubsection}{\numberline {14.15.3.16}createEmptyFile()}{115}{subsubsection.14.15.3.16}%
+\contentsline {subsubsection}{\numberline {14.15.3.17}createResourcesDir()}{116}{subsubsection.14.15.3.17}%
+\contentsline {subsubsection}{\numberline {14.15.3.18}enableHelpOnStartup()}{116}{subsubsection.14.15.3.18}%
+\contentsline {subsubsection}{\numberline {14.15.3.19}exportProject()}{116}{subsubsection.14.15.3.19}%
+\contentsline {subsubsection}{\numberline {14.15.3.20}exportTemplates()}{117}{subsubsection.14.15.3.20}%
+\contentsline {subsubsection}{\numberline {14.15.3.21}getEvent()}{117}{subsubsection.14.15.3.21}%
+\contentsline {subsubsection}{\numberline {14.15.3.22}getEvents()}{117}{subsubsection.14.15.3.22}%
+\contentsline {subsubsection}{\numberline {14.15.3.23}getFile()}{117}{subsubsection.14.15.3.23}%
+\contentsline {subsubsection}{\numberline {14.15.3.24}getFileAbsolutePath()}{118}{subsubsection.14.15.3.24}%
+\contentsline {subsubsection}{\numberline {14.15.3.25}getFiles()}{118}{subsubsection.14.15.3.25}%
+\contentsline {subsubsection}{\numberline {14.15.3.26}getGeneralOrphaFiles()}{118}{subsubsection.14.15.3.26}%
+\contentsline {subsubsection}{\numberline {14.15.3.27}getMainPerson()}{119}{subsubsection.14.15.3.27}%
+\contentsline {subsubsection}{\numberline {14.15.3.28}getOrphanFiles()}{119}{subsubsection.14.15.3.28}%
+\contentsline {subsubsection}{\numberline {14.15.3.29}getParentSuggestions()}{119}{subsubsection.14.15.3.29}%
+\contentsline {subsubsection}{\numberline {14.15.3.30}getPartnersSuggestions()}{120}{subsubsection.14.15.3.30}%
+\contentsline {subsubsection}{\numberline {14.15.3.31}getPerson()}{120}{subsubsection.14.15.3.31}%
+\contentsline {subsubsection}{\numberline {14.15.3.32}getPersons()}{120}{subsubsection.14.15.3.32}%
+\contentsline {subsubsection}{\numberline {14.15.3.33}getProjectPaths()}{120}{subsubsection.14.15.3.33}%
+\contentsline {subsubsection}{\numberline {14.15.3.34}getRelation()}{121}{subsubsection.14.15.3.34}%
+\contentsline {subsubsection}{\numberline {14.15.3.35}getRelations()}{121}{subsubsection.14.15.3.35}%
+\contentsline {subsubsection}{\numberline {14.15.3.36}getRelationSuggestions()}{121}{subsubsection.14.15.3.36}%
+\contentsline {subsubsection}{\numberline {14.15.3.37}getSettings()}{121}{subsubsection.14.15.3.37}%
+\contentsline {subsubsection}{\numberline {14.15.3.38}getSiblingsSuggestions()}{122}{subsubsection.14.15.3.38}%
+\contentsline {subsubsection}{\numberline {14.15.3.39}getUrlFile()}{122}{subsubsection.14.15.3.39}%
+\contentsline {subsubsection}{\numberline {14.15.3.40}importProject()}{122}{subsubsection.14.15.3.40}%
+\contentsline {subsubsection}{\numberline {14.15.3.41}importRootDir()}{123}{subsubsection.14.15.3.41}%
+\contentsline {subsubsection}{\numberline {14.15.3.42}importTemplates()}{123}{subsubsection.14.15.3.42}%
+\contentsline {subsubsection}{\numberline {14.15.3.43}isDirectorySet()}{123}{subsubsection.14.15.3.43}%
+\contentsline {subsubsection}{\numberline {14.15.3.44}isSaved()}{123}{subsubsection.14.15.3.44}%
+\contentsline {subsubsection}{\numberline {14.15.3.45}loadDatabaseFile()}{124}{subsubsection.14.15.3.45}%
+\contentsline {subsubsection}{\numberline {14.15.3.46}log()}{124}{subsubsection.14.15.3.46}%
+\contentsline {subsubsection}{\numberline {14.15.3.47}openDatabase()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{124}{subsubsection.14.15.3.47}%
+\contentsline {subsubsection}{\numberline {14.15.3.48}openDatabase()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{125}{subsubsection.14.15.3.48}%
+\contentsline {subsubsection}{\numberline {14.15.3.49}openSingleFileDatabase()}{125}{subsubsection.14.15.3.49}%
+\contentsline {subsubsection}{\numberline {14.15.3.50}printCss()}{125}{subsubsection.14.15.3.50}%
+\contentsline {subsubsection}{\numberline {14.15.3.51}printEvents()}{125}{subsubsection.14.15.3.51}%
+\contentsline {subsubsection}{\numberline {14.15.3.52}printFiles()}{126}{subsubsection.14.15.3.52}%
+\contentsline {subsubsection}{\numberline {14.15.3.53}printHtml()}{126}{subsubsection.14.15.3.53}%
+\contentsline {subsubsection}{\numberline {14.15.3.54}printHtmlPerson()}{126}{subsubsection.14.15.3.54}%
+\contentsline {subsubsection}{\numberline {14.15.3.55}printMainPersonHtml()}{127}{subsubsection.14.15.3.55}%
+\contentsline {subsubsection}{\numberline {14.15.3.56}printPeople()}{127}{subsubsection.14.15.3.56}%
+\contentsline {subsubsection}{\numberline {14.15.3.57}printRelations()}{127}{subsubsection.14.15.3.57}%
+\contentsline {subsubsection}{\numberline {14.15.3.58}promoteRelation()}{127}{subsubsection.14.15.3.58}%
+\contentsline {subsubsection}{\numberline {14.15.3.59}readJsonEvents()}{128}{subsubsection.14.15.3.59}%
+\contentsline {subsubsection}{\numberline {14.15.3.60}readJsonFiles()}{128}{subsubsection.14.15.3.60}%
+\contentsline {subsubsection}{\numberline {14.15.3.61}readJsonPeople()}{128}{subsubsection.14.15.3.61}%
+\contentsline {subsubsection}{\numberline {14.15.3.62}readJsonRelations()}{128}{subsubsection.14.15.3.62}%
+\contentsline {subsubsection}{\numberline {14.15.3.63}removeBackup()}{129}{subsubsection.14.15.3.63}%
+\contentsline {subsubsection}{\numberline {14.15.3.64}removeEvent()}{129}{subsubsection.14.15.3.64}%
+\contentsline {subsubsection}{\numberline {14.15.3.65}removeEventTemplate()}{129}{subsubsection.14.15.3.65}%
+\contentsline {subsubsection}{\numberline {14.15.3.66}removeGeneralOrphanFile()}{129}{subsubsection.14.15.3.66}%
+\contentsline {subsubsection}{\numberline {14.15.3.67}removeOrphanFiles()}{130}{subsubsection.14.15.3.67}%
+\contentsline {subsubsection}{\numberline {14.15.3.68}removePerson()}{130}{subsubsection.14.15.3.68}%
+\contentsline {subsubsection}{\numberline {14.15.3.69}removeRelation()}{130}{subsubsection.14.15.3.69}%
+\contentsline {subsubsection}{\numberline {14.15.3.70}removeRelationTemplate()}{130}{subsubsection.14.15.3.70}%
+\contentsline {subsubsection}{\numberline {14.15.3.71}renameFile()}{130}{subsubsection.14.15.3.71}%
+\contentsline {subsubsection}{\numberline {14.15.3.72}restoreBackup()}{131}{subsubsection.14.15.3.72}%
+\contentsline {subsubsection}{\numberline {14.15.3.73}setMainPerson()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{131}{subsubsection.14.15.3.73}%
+\contentsline {subsubsection}{\numberline {14.15.3.74}setMainPerson()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{131}{subsubsection.14.15.3.74}%
+\contentsline {subsubsection}{\numberline {14.15.3.75}setRelation()}{132}{subsubsection.14.15.3.75}%
+\contentsline {subsubsection}{\numberline {14.15.3.76}setUnsaved()}{132}{subsubsection.14.15.3.76}%
+\contentsline {subsubsection}{\numberline {14.15.3.77}showHelpOnStartup()}{132}{subsubsection.14.15.3.77}%
+\contentsline {subsubsection}{\numberline {14.15.3.78}storeDatabase()}{132}{subsubsection.14.15.3.78}%
+\contentsline {subsubsection}{\numberline {14.15.3.79}storeFileDatabase()}{133}{subsubsection.14.15.3.79}%
+\contentsline {subsubsection}{\numberline {14.15.3.80}templatesBasedOnEventTemplate()}{134}{subsubsection.14.15.3.80}%
+\contentsline {subsubsection}{\numberline {14.15.3.81}templatesBasedOnRelationTemplate()}{134}{subsubsection.14.15.3.81}%
+\contentsline {subsubsection}{\numberline {14.15.3.82}updateEventsWithTemplate()}{134}{subsubsection.14.15.3.82}%
+\contentsline {subsubsection}{\numberline {14.15.3.83}writeConfig()}{135}{subsubsection.14.15.3.83}%
+\contentsline {subsection}{\numberline {14.15.4}Member Data Documentation}{135}{subsection.14.15.4}%
+\contentsline {subsubsection}{\numberline {14.15.4.1}allEvents\_}{135}{subsubsection.14.15.4.1}%
+\contentsline {subsubsection}{\numberline {14.15.4.2}allFiles\_}{135}{subsubsection.14.15.4.2}%
+\contentsline {subsubsection}{\numberline {14.15.4.3}allMedia\_}{135}{subsubsection.14.15.4.3}%
+\contentsline {subsubsection}{\numberline {14.15.4.4}allNotes\_}{135}{subsubsection.14.15.4.4}%
+\contentsline {subsubsection}{\numberline {14.15.4.5}allPersons\_}{135}{subsubsection.14.15.4.5}%
+\contentsline {subsubsection}{\numberline {14.15.4.6}allRelations\_}{136}{subsubsection.14.15.4.6}%
+\contentsline {subsubsection}{\numberline {14.15.4.7}event\_index\_}{136}{subsubsection.14.15.4.7}%
+\contentsline {subsubsection}{\numberline {14.15.4.8}file\_index\_}{136}{subsubsection.14.15.4.8}%
+\contentsline {subsubsection}{\numberline {14.15.4.9}mainPerson\_}{136}{subsubsection.14.15.4.9}%
+\contentsline {subsubsection}{\numberline {14.15.4.10}media\_index\_}{136}{subsubsection.14.15.4.10}%
+\contentsline {subsubsection}{\numberline {14.15.4.11}note\_index\_}{136}{subsubsection.14.15.4.11}%
+\contentsline {subsubsection}{\numberline {14.15.4.12}openHelp}{136}{subsubsection.14.15.4.12}%
+\contentsline {subsubsection}{\numberline {14.15.4.13}parser\_}{136}{subsubsection.14.15.4.13}%
+\contentsline {subsubsection}{\numberline {14.15.4.14}person\_index\_}{137}{subsubsection.14.15.4.14}%
+\contentsline {subsubsection}{\numberline {14.15.4.15}projectPaths}{137}{subsubsection.14.15.4.15}%
+\contentsline {subsubsection}{\numberline {14.15.4.16}relation\_index\_}{137}{subsubsection.14.15.4.16}%
+\contentsline {subsubsection}{\numberline {14.15.4.17}savedChanges\_}{137}{subsubsection.14.15.4.17}%
+\contentsline {subsubsection}{\numberline {14.15.4.18}settings\_}{137}{subsubsection.14.15.4.18}%
+\contentsline {section}{\numberline {14.16}File Class Reference}{137}{section.14.16}%
+\contentsline {subsection}{\numberline {14.16.1}Detailed Description}{138}{subsection.14.16.1}%
+\contentsline {subsection}{\numberline {14.16.2}Constructor \& Destructor Documentation}{138}{subsection.14.16.2}%
+\contentsline {subsubsection}{\numberline {14.16.2.1}File()}{138}{subsubsection.14.16.2.1}%
+\contentsline {subsection}{\numberline {14.16.3}Member Function Documentation}{138}{subsection.14.16.3}%
+\contentsline {subsubsection}{\numberline {14.16.3.1}getFilename()}{138}{subsubsection.14.16.3.1}%
+\contentsline {subsubsection}{\numberline {14.16.3.2}getId()}{139}{subsubsection.14.16.3.2}%
+\contentsline {subsubsection}{\numberline {14.16.3.3}getRealName()}{139}{subsubsection.14.16.3.3}%
+\contentsline {subsubsection}{\numberline {14.16.3.4}readJson()}{139}{subsubsection.14.16.3.4}%
+\contentsline {subsubsection}{\numberline {14.16.3.5}setFilename()}{139}{subsubsection.14.16.3.5}%
+\contentsline {subsubsection}{\numberline {14.16.3.6}setId()}{139}{subsubsection.14.16.3.6}%
+\contentsline {subsection}{\numberline {14.16.4}Member Data Documentation}{141}{subsection.14.16.4}%
+\contentsline {subsubsection}{\numberline {14.16.4.1}filename\_}{141}{subsubsection.14.16.4.1}%
+\contentsline {subsubsection}{\numberline {14.16.4.2}id\_}{141}{subsubsection.14.16.4.2}%
+\contentsline {section}{\numberline {14.17}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tree\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{141}{section.14.17}%
+\contentsline {subsection}{\numberline {14.17.1}Detailed Description}{142}{subsection.14.17.1}%
+\contentsline {subsection}{\numberline {14.17.2}Constructor \& Destructor Documentation}{142}{subsection.14.17.2}%
+\contentsline {subsubsection}{\numberline {14.17.2.1}FileTreeItem()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{142}{subsubsection.14.17.2.1}%
+\contentsline {subsubsection}{\numberline {14.17.2.2}FileTreeItem()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{142}{subsubsection.14.17.2.2}%
+\contentsline {subsection}{\numberline {14.17.3}Member Function Documentation}{144}{subsection.14.17.3}%
+\contentsline {subsubsection}{\numberline {14.17.3.1}addFile()}{144}{subsubsection.14.17.3.1}%
+\contentsline {subsubsection}{\numberline {14.17.3.2}addSubDrive()}{144}{subsubsection.14.17.3.2}%
+\contentsline {subsubsection}{\numberline {14.17.3.3}getDrive()}{144}{subsubsection.14.17.3.3}%
+\contentsline {subsubsection}{\numberline {14.17.3.4}getId()}{145}{subsubsection.14.17.3.4}%
+\contentsline {subsubsection}{\numberline {14.17.3.5}isDirectory()}{145}{subsubsection.14.17.3.5}%
+\contentsline {subsubsection}{\numberline {14.17.3.6}removeFile()}{145}{subsubsection.14.17.3.6}%
+\contentsline {subsubsection}{\numberline {14.17.3.7}removeFolder()}{145}{subsubsection.14.17.3.7}%
+\contentsline {subsubsection}{\numberline {14.17.3.8}rename()}{145}{subsubsection.14.17.3.8}%
+\contentsline {subsection}{\numberline {14.17.4}Member Data Documentation}{146}{subsection.14.17.4}%
+\contentsline {subsubsection}{\numberline {14.17.4.1}drive\_}{146}{subsubsection.14.17.4.1}%
+\contentsline {subsubsection}{\numberline {14.17.4.2}fileId\_}{146}{subsubsection.14.17.4.2}%
+\contentsline {subsubsection}{\numberline {14.17.4.3}FT\_}{146}{subsubsection.14.17.4.3}%
+\contentsline {subsubsection}{\numberline {14.17.4.4}isDir\_}{146}{subsubsection.14.17.4.4}%
+\contentsline {subsubsection}{\numberline {14.17.4.5}type\_}{146}{subsubsection.14.17.4.5}%
+\contentsline {section}{\numberline {14.18}Graphics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View Class Reference}{147}{section.14.18}%
+\contentsline {subsection}{\numberline {14.18.1}Detailed Description}{147}{subsection.14.18.1}%
+\contentsline {subsection}{\numberline {14.18.2}Constructor \& Destructor Documentation}{147}{subsection.14.18.2}%
+\contentsline {subsubsection}{\numberline {14.18.2.1}GraphicsView()}{147}{subsubsection.14.18.2.1}%
+\contentsline {subsection}{\numberline {14.18.3}Member Function Documentation}{147}{subsection.14.18.3}%
+\contentsline {subsubsection}{\numberline {14.18.3.1}wheelEvent()}{147}{subsubsection.14.18.3.1}%
+\contentsline {section}{\numberline {14.19}Help\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{148}{section.14.19}%
+\contentsline {subsection}{\numberline {14.19.1}Detailed Description}{148}{subsection.14.19.1}%
+\contentsline {subsection}{\numberline {14.19.2}Constructor \& Destructor Documentation}{148}{subsection.14.19.2}%
+\contentsline {subsubsection}{\numberline {14.19.2.1}HelpDialog()}{148}{subsubsection.14.19.2.1}%
+\contentsline {subsubsection}{\numberline {14.19.2.2}$\sim $HelpDialog()}{149}{subsubsection.14.19.2.2}%
+\contentsline {subsection}{\numberline {14.19.3}Member Function Documentation}{149}{subsection.14.19.3}%
+\contentsline {subsubsection}{\numberline {14.19.3.1}openHelp}{149}{subsubsection.14.19.3.1}%
+\contentsline {subsection}{\numberline {14.19.4}Member Data Documentation}{149}{subsection.14.19.4}%
+\contentsline {subsubsection}{\numberline {14.19.4.1}FT\_}{149}{subsubsection.14.19.4.1}%
+\contentsline {subsubsection}{\numberline {14.19.4.2}ui}{149}{subsubsection.14.19.4.2}%
+\contentsline {section}{\numberline {14.20}Html\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Export Class Reference}{150}{section.14.20}%
+\contentsline {subsection}{\numberline {14.20.1}Detailed Description}{150}{subsection.14.20.1}%
+\contentsline {subsection}{\numberline {14.20.2}Constructor \& Destructor Documentation}{150}{subsection.14.20.2}%
+\contentsline {subsubsection}{\numberline {14.20.2.1}HtmlExport()}{150}{subsubsection.14.20.2.1}%
+\contentsline {subsubsection}{\numberline {14.20.2.2}$\sim $HtmlExport()}{151}{subsubsection.14.20.2.2}%
+\contentsline {subsection}{\numberline {14.20.3}Member Function Documentation}{151}{subsection.14.20.3}%
+\contentsline {subsubsection}{\numberline {14.20.3.1}allAboveGenerations}{151}{subsubsection.14.20.3.1}%
+\contentsline {subsubsection}{\numberline {14.20.3.2}allBelowGenerations}{151}{subsubsection.14.20.3.2}%
+\contentsline {subsubsection}{\numberline {14.20.3.3}exportAllHtml}{151}{subsubsection.14.20.3.3}%
+\contentsline {subsubsection}{\numberline {14.20.3.4}exportMainHtml}{152}{subsubsection.14.20.3.4}%
+\contentsline {subsection}{\numberline {14.20.4}Member Data Documentation}{152}{subsection.14.20.4}%
+\contentsline {subsubsection}{\numberline {14.20.4.1}FT\_}{152}{subsubsection.14.20.4.1}%
+\contentsline {subsubsection}{\numberline {14.20.4.2}ui}{152}{subsubsection.14.20.4.2}%
+\contentsline {section}{\numberline {14.21}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{152}{section.14.21}%
+\contentsline {subsection}{\numberline {14.21.1}Detailed Description}{158}{subsection.14.21.1}%
+\contentsline {subsection}{\numberline {14.21.2}Constructor \& Destructor Documentation}{158}{subsection.14.21.2}%
+\contentsline {subsubsection}{\numberline {14.21.2.1}MainWindow()}{158}{subsubsection.14.21.2.1}%
+\contentsline {subsubsection}{\numberline {14.21.2.2}$\sim $MainWindow()}{159}{subsubsection.14.21.2.2}%
+\contentsline {subsection}{\numberline {14.21.3}Member Function Documentation}{159}{subsection.14.21.3}%
+\contentsline {subsubsection}{\numberline {14.21.3.1}addGeneralFile()}{159}{subsubsection.14.21.3.1}%
+\contentsline {subsubsection}{\numberline {14.21.3.2}addGeneralFolder()}{159}{subsubsection.14.21.3.2}%
+\contentsline {subsubsection}{\numberline {14.21.3.3}addNewEvent}{159}{subsubsection.14.21.3.3}%
+\contentsline {subsubsection}{\numberline {14.21.3.4}addNewFile}{159}{subsubsection.14.21.3.4}%
+\contentsline {subsubsection}{\numberline {14.21.3.5}addNewFileFolder}{160}{subsubsection.14.21.3.5}%
+\contentsline {subsubsection}{\numberline {14.21.3.6}addNewMedia}{160}{subsubsection.14.21.3.6}%
+\contentsline {subsubsection}{\numberline {14.21.3.7}addNewMediaFolder}{160}{subsubsection.14.21.3.7}%
+\contentsline {subsubsection}{\numberline {14.21.3.8}addNewNote}{160}{subsubsection.14.21.3.8}%
+\contentsline {subsubsection}{\numberline {14.21.3.9}addNewNoteFolder}{160}{subsubsection.14.21.3.9}%
+\contentsline {subsubsection}{\numberline {14.21.3.10}addNewPerson}{160}{subsubsection.14.21.3.10}%
+\contentsline {subsubsection}{\numberline {14.21.3.11}addNewRelation}{160}{subsubsection.14.21.3.11}%
+\contentsline {subsubsection}{\numberline {14.21.3.12}allAboveGenerations}{160}{subsubsection.14.21.3.12}%
+\contentsline {subsubsection}{\numberline {14.21.3.13}allBelowGenerations}{161}{subsubsection.14.21.3.13}%
+\contentsline {subsubsection}{\numberline {14.21.3.14}changeGenerationsDown}{161}{subsubsection.14.21.3.14}%
+\contentsline {subsubsection}{\numberline {14.21.3.15}changeGenerationsUp}{161}{subsubsection.14.21.3.15}%
+\contentsline {subsubsection}{\numberline {14.21.3.16}checkStoreRefreshPersonsInfo}{161}{subsubsection.14.21.3.16}%
+\contentsline {subsubsection}{\numberline {14.21.3.17}clearProjectFilter}{162}{subsubsection.14.21.3.17}%
+\contentsline {subsubsection}{\numberline {14.21.3.18}clearProjectPaths}{162}{subsubsection.14.21.3.18}%
+\contentsline {subsubsection}{\numberline {14.21.3.19}clearUi()}{162}{subsubsection.14.21.3.19}%
+\contentsline {subsubsection}{\numberline {14.21.3.20}closeEvent()}{162}{subsubsection.14.21.3.20}%
+\contentsline {subsubsection}{\numberline {14.21.3.21}connectAllSlots()}{162}{subsubsection.14.21.3.21}%
+\contentsline {subsubsection}{\numberline {14.21.3.22}disableFileFolderPrompt}{162}{subsubsection.14.21.3.22}%
+\contentsline {subsubsection}{\numberline {14.21.3.23}disableMediaFolderPrompt}{162}{subsubsection.14.21.3.23}%
+\contentsline {subsubsection}{\numberline {14.21.3.24}disableNoteFolderPrompt}{163}{subsubsection.14.21.3.24}%
+\contentsline {subsubsection}{\numberline {14.21.3.25}drawCloseContainer()}{163}{subsubsection.14.21.3.25}%
+\contentsline {subsubsection}{\numberline {14.21.3.26}drawCloseFamily()}{164}{subsubsection.14.21.3.26}%
+\contentsline {subsubsection}{\numberline {14.21.3.27}drawFamilyTree()}{164}{subsubsection.14.21.3.27}%
+\contentsline {subsubsection}{\numberline {14.21.3.28}drawGeneralGenerations()}{164}{subsubsection.14.21.3.28}%
+\contentsline {subsubsection}{\numberline {14.21.3.29}drawOlderGenerations()}{165}{subsubsection.14.21.3.29}%
+\contentsline {subsubsection}{\numberline {14.21.3.30}drawPartner()}{165}{subsubsection.14.21.3.30}%
+\contentsline {subsubsection}{\numberline {14.21.3.31}drawYoungerGenerations()}{166}{subsubsection.14.21.3.31}%
+\contentsline {subsubsection}{\numberline {14.21.3.32}editEvent\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{166}{subsubsection.14.21.3.32}%
+\contentsline {subsubsection}{\numberline {14.21.3.33}editEvent()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{166}{subsubsection.14.21.3.33}%
+\contentsline {subsubsection}{\numberline {14.21.3.34}editRelation\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{167}{subsubsection.14.21.3.34}%
+\contentsline {subsubsection}{\numberline {14.21.3.35}editRelation()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{167}{subsubsection.14.21.3.35}%
+\contentsline {subsubsection}{\numberline {14.21.3.36}editTag}{167}{subsubsection.14.21.3.36}%
+\contentsline {subsubsection}{\numberline {14.21.3.37}enableFileFolderPrompt}{167}{subsubsection.14.21.3.37}%
+\contentsline {subsubsection}{\numberline {14.21.3.38}enableGeneralFolderPrompt()}{168}{subsubsection.14.21.3.38}%
+\contentsline {subsubsection}{\numberline {14.21.3.39}enableGeneralFolderRenamePrompt()}{168}{subsubsection.14.21.3.39}%
+\contentsline {subsubsection}{\numberline {14.21.3.40}enableMediaFolderPrompt}{168}{subsubsection.14.21.3.40}%
+\contentsline {subsubsection}{\numberline {14.21.3.41}enableNoteFolderPrompt}{168}{subsubsection.14.21.3.41}%
+\contentsline {subsubsection}{\numberline {14.21.3.42}exportCloseFamilyDiagram()}{168}{subsubsection.14.21.3.42}%
+\contentsline {subsubsection}{\numberline {14.21.3.43}exportCloseFamilyDiagramDialog}{169}{subsubsection.14.21.3.43}%
+\contentsline {subsubsection}{\numberline {14.21.3.44}exportGeneralDiagram()}{169}{subsubsection.14.21.3.44}%
+\contentsline {subsubsection}{\numberline {14.21.3.45}exportHtml}{169}{subsubsection.14.21.3.45}%
+\contentsline {subsubsection}{\numberline {14.21.3.46}exportMainHtml}{169}{subsubsection.14.21.3.46}%
+\contentsline {subsubsection}{\numberline {14.21.3.47}exportProject}{169}{subsubsection.14.21.3.47}%
+\contentsline {subsubsection}{\numberline {14.21.3.48}exportTemplates}{170}{subsubsection.14.21.3.48}%
+\contentsline {subsubsection}{\numberline {14.21.3.49}exportTreeDiagram()}{170}{subsubsection.14.21.3.49}%
+\contentsline {subsubsection}{\numberline {14.21.3.50}exportTreeDiagramDialog}{170}{subsubsection.14.21.3.50}%
+\contentsline {subsubsection}{\numberline {14.21.3.51}filterProjectItems}{170}{subsubsection.14.21.3.51}%
+\contentsline {subsubsection}{\numberline {14.21.3.52}findPerson}{170}{subsubsection.14.21.3.52}%
+\contentsline {subsubsection}{\numberline {14.21.3.53}fitTreeInView}{170}{subsubsection.14.21.3.53}%
+\contentsline {subsubsection}{\numberline {14.21.3.54}generalGenerationNumber()}{171}{subsubsection.14.21.3.54}%
+\contentsline {subsubsection}{\numberline {14.21.3.55}importProject}{171}{subsubsection.14.21.3.55}%
+\contentsline {subsubsection}{\numberline {14.21.3.56}importRootDir}{171}{subsubsection.14.21.3.56}%
+\contentsline {subsubsection}{\numberline {14.21.3.57}importTemplates}{171}{subsubsection.14.21.3.57}%
+\contentsline {subsubsection}{\numberline {14.21.3.58}initializeProjectSubView()}{171}{subsubsection.14.21.3.58}%
+\contentsline {subsubsection}{\numberline {14.21.3.59}initializeProjectView()}{172}{subsubsection.14.21.3.59}%
+\contentsline {subsubsection}{\numberline {14.21.3.60}interractWithProjectItem}{172}{subsubsection.14.21.3.60}%
+\contentsline {subsubsection}{\numberline {14.21.3.61}loadSettings()}{172}{subsubsection.14.21.3.61}%
+\contentsline {subsubsection}{\numberline {14.21.3.62}olderGenerationNumber()}{172}{subsubsection.14.21.3.62}%
+\contentsline {subsubsection}{\numberline {14.21.3.63}openBirthDateDialog}{173}{subsubsection.14.21.3.63}%
+\contentsline {subsubsection}{\numberline {14.21.3.64}openCustomDateDialog()}{173}{subsubsection.14.21.3.64}%
+\contentsline {subsubsection}{\numberline {14.21.3.65}openDeathDateDialog}{173}{subsubsection.14.21.3.65}%
+\contentsline {subsubsection}{\numberline {14.21.3.66}openEventTemplatesDialog}{173}{subsubsection.14.21.3.66}%
+\contentsline {subsubsection}{\numberline {14.21.3.67}openExistingProject}{173}{subsubsection.14.21.3.67}%
+\contentsline {subsubsection}{\numberline {14.21.3.68}openExternalFile()}{173}{subsubsection.14.21.3.68}%
+\contentsline {subsubsection}{\numberline {14.21.3.69}openGeneralFile()}{174}{subsubsection.14.21.3.69}%
+\contentsline {subsubsection}{\numberline {14.21.3.70}openGeneralProject()}{174}{subsubsection.14.21.3.70}%
+\contentsline {subsubsection}{\numberline {14.21.3.71}openGraphicSettings}{174}{subsubsection.14.21.3.71}%
+\contentsline {subsubsection}{\numberline {14.21.3.72}openNewFamilyTreeProject}{174}{subsubsection.14.21.3.72}%
+\contentsline {subsubsection}{\numberline {14.21.3.73}openRelationTemplatesDialog}{174}{subsubsection.14.21.3.73}%
+\contentsline {subsubsection}{\numberline {14.21.3.74}openSelectedFile}{175}{subsubsection.14.21.3.74}%
+\contentsline {subsubsection}{\numberline {14.21.3.75}openSelectedMedia}{175}{subsubsection.14.21.3.75}%
+\contentsline {subsubsection}{\numberline {14.21.3.76}openSelectedNote}{175}{subsubsection.14.21.3.76}%
+\contentsline {subsubsection}{\numberline {14.21.3.77}promoteRelation}{175}{subsubsection.14.21.3.77}%
+\contentsline {subsubsection}{\numberline {14.21.3.78}refreshDates}{175}{subsubsection.14.21.3.78}%
+\contentsline {subsubsection}{\numberline {14.21.3.79}refreshEventTab}{176}{subsubsection.14.21.3.79}%
+\contentsline {subsubsection}{\numberline {14.21.3.80}refreshGraphics}{176}{subsubsection.14.21.3.80}%
+\contentsline {subsubsection}{\numberline {14.21.3.81}refreshPersonsInfoTab()}{176}{subsubsection.14.21.3.81}%
+\contentsline {subsubsection}{\numberline {14.21.3.82}refreshProjectEventsView()}{176}{subsubsection.14.21.3.82}%
+\contentsline {subsubsection}{\numberline {14.21.3.83}refreshProjectFilesView()}{176}{subsubsection.14.21.3.83}%
+\contentsline {subsubsection}{\numberline {14.21.3.84}refreshProjectGeneralFilesView()}{177}{subsubsection.14.21.3.84}%
+\contentsline {subsubsection}{\numberline {14.21.3.85}refreshProjectMediaView()}{177}{subsubsection.14.21.3.85}%
+\contentsline {subsubsection}{\numberline {14.21.3.86}refreshProjectNoteView()}{177}{subsubsection.14.21.3.86}%
+\contentsline {subsubsection}{\numberline {14.21.3.87}refreshProjectRelationsView()}{178}{subsubsection.14.21.3.87}%
+\contentsline {subsubsection}{\numberline {14.21.3.88}refreshProjectView}{178}{subsubsection.14.21.3.88}%
+\contentsline {subsubsection}{\numberline {14.21.3.89}refreshRelationTab}{178}{subsubsection.14.21.3.89}%
+\contentsline {subsubsection}{\numberline {14.21.3.90}refreshTabsWithFiles}{178}{subsubsection.14.21.3.90}%
+\contentsline {subsubsection}{\numberline {14.21.3.91}refreshTagsList}{178}{subsubsection.14.21.3.91}%
+\contentsline {subsubsection}{\numberline {14.21.3.92}refreshUi()}{178}{subsubsection.14.21.3.92}%
+\contentsline {subsubsection}{\numberline {14.21.3.93}removeEvent}{178}{subsubsection.14.21.3.93}%
+\contentsline {subsubsection}{\numberline {14.21.3.94}removeFileFolder}{179}{subsubsection.14.21.3.94}%
+\contentsline {subsubsection}{\numberline {14.21.3.95}removeGeneralFolder()}{179}{subsubsection.14.21.3.95}%
+\contentsline {subsubsection}{\numberline {14.21.3.96}removeMediaFolder}{179}{subsubsection.14.21.3.96}%
+\contentsline {subsubsection}{\numberline {14.21.3.97}removeNoteFolder}{179}{subsubsection.14.21.3.97}%
+\contentsline {subsubsection}{\numberline {14.21.3.98}removePerson}{179}{subsubsection.14.21.3.98}%
+\contentsline {subsubsection}{\numberline {14.21.3.99}removeRelation}{179}{subsubsection.14.21.3.99}%
+\contentsline {subsubsection}{\numberline {14.21.3.100}removeTag}{179}{subsubsection.14.21.3.100}%
+\contentsline {subsubsection}{\numberline {14.21.3.101}renameFile}{180}{subsubsection.14.21.3.101}%
+\contentsline {subsubsection}{\numberline {14.21.3.102}renameGeneralFileItem()}{180}{subsubsection.14.21.3.102}%
+\contentsline {subsubsection}{\numberline {14.21.3.103}renameMedia}{180}{subsubsection.14.21.3.103}%
+\contentsline {subsubsection}{\numberline {14.21.3.104}renameNote}{180}{subsubsection.14.21.3.104}%
+\contentsline {subsubsection}{\numberline {14.21.3.105}saveDatabase}{180}{subsubsection.14.21.3.105}%
+\contentsline {subsubsection}{\numberline {14.21.3.106}saveGraphicsSetting}{180}{subsubsection.14.21.3.106}%
+\contentsline {subsubsection}{\numberline {14.21.3.107}savePersonsInfo()}{181}{subsubsection.14.21.3.107}%
+\contentsline {subsubsection}{\numberline {14.21.3.108}selectOlderGenerationOnly}{181}{subsubsection.14.21.3.108}%
+\contentsline {subsubsection}{\numberline {14.21.3.109}selectSameGenerationOnly}{181}{subsubsection.14.21.3.109}%
+\contentsline {subsubsection}{\numberline {14.21.3.110}selectYoungerGenerationOnly}{181}{subsubsection.14.21.3.110}%
+\contentsline {subsubsection}{\numberline {14.21.3.111}setEnabledDeathAtributes}{181}{subsubsection.14.21.3.111}%
+\contentsline {subsubsection}{\numberline {14.21.3.112}setEventTabVisible}{182}{subsubsection.14.21.3.112}%
+\contentsline {subsubsection}{\numberline {14.21.3.113}setFileTabVisible}{182}{subsubsection.14.21.3.113}%
+\contentsline {subsubsection}{\numberline {14.21.3.114}setGeneralTabVisible}{182}{subsubsection.14.21.3.114}%
+\contentsline {subsubsection}{\numberline {14.21.3.115}setMainPerson}{182}{subsubsection.14.21.3.115}%
+\contentsline {subsubsection}{\numberline {14.21.3.116}setMediaTabVisible}{182}{subsubsection.14.21.3.116}%
+\contentsline {subsubsection}{\numberline {14.21.3.117}setNoteTabVisible}{182}{subsubsection.14.21.3.117}%
+\contentsline {subsubsection}{\numberline {14.21.3.118}setNumberOfGenerations()}{183}{subsubsection.14.21.3.118}%
+\contentsline {subsubsection}{\numberline {14.21.3.119}setRelationTabVisible}{183}{subsubsection.14.21.3.119}%
+\contentsline {subsubsection}{\numberline {14.21.3.120}setTabEast}{183}{subsubsection.14.21.3.120}%
+\contentsline {subsubsection}{\numberline {14.21.3.121}setTabNorth}{183}{subsubsection.14.21.3.121}%
+\contentsline {subsubsection}{\numberline {14.21.3.122}setTabSouth}{183}{subsubsection.14.21.3.122}%
+\contentsline {subsubsection}{\numberline {14.21.3.123}setTabWest}{183}{subsubsection.14.21.3.123}%
+\contentsline {subsubsection}{\numberline {14.21.3.124}setUiElements()}{184}{subsubsection.14.21.3.124}%
+\contentsline {subsubsection}{\numberline {14.21.3.125}showGeneralFiles()}{184}{subsubsection.14.21.3.125}%
+\contentsline {subsubsection}{\numberline {14.21.3.126}showHelp}{184}{subsubsection.14.21.3.126}%
+\contentsline {subsubsection}{\numberline {14.21.3.127}showRenameFile}{184}{subsubsection.14.21.3.127}%
+\contentsline {subsubsection}{\numberline {14.21.3.128}showRenameMedia}{184}{subsubsection.14.21.3.128}%
+\contentsline {subsubsection}{\numberline {14.21.3.129}showRenameNote}{184}{subsubsection.14.21.3.129}%
+\contentsline {subsubsection}{\numberline {14.21.3.130}splitterChanged}{185}{subsubsection.14.21.3.130}%
+\contentsline {subsubsection}{\numberline {14.21.3.131}switchNewTreeProject}{185}{subsubsection.14.21.3.131}%
+\contentsline {subsubsection}{\numberline {14.21.3.132}youngerGenerationNumber()}{185}{subsubsection.14.21.3.132}%
+\contentsline {subsubsection}{\numberline {14.21.3.133}zoomIn}{185}{subsubsection.14.21.3.133}%
+\contentsline {subsubsection}{\numberline {14.21.3.134}zoomOut}{185}{subsubsection.14.21.3.134}%
+\contentsline {subsection}{\numberline {14.21.4}Member Data Documentation}{185}{subsection.14.21.4}%
+\contentsline {subsubsection}{\numberline {14.21.4.1}borderRadius\_}{185}{subsubsection.14.21.4.1}%
+\contentsline {subsubsection}{\numberline {14.21.4.2}font\_}{186}{subsubsection.14.21.4.2}%
+\contentsline {subsubsection}{\numberline {14.21.4.3}FT}{186}{subsubsection.14.21.4.3}%
+\contentsline {subsubsection}{\numberline {14.21.4.4}genSizeDown\_}{186}{subsubsection.14.21.4.4}%
+\contentsline {subsubsection}{\numberline {14.21.4.5}genSizeUp\_}{186}{subsubsection.14.21.4.5}%
+\contentsline {subsubsection}{\numberline {14.21.4.6}highlightedColor\_}{186}{subsubsection.14.21.4.6}%
+\contentsline {subsubsection}{\numberline {14.21.4.7}linePen\_}{186}{subsubsection.14.21.4.7}%
+\contentsline {subsubsection}{\numberline {14.21.4.8}probandColor\_}{186}{subsubsection.14.21.4.8}%
+\contentsline {subsubsection}{\numberline {14.21.4.9}promotedColor\_}{186}{subsubsection.14.21.4.9}%
+\contentsline {subsubsection}{\numberline {14.21.4.10}scene}{187}{subsubsection.14.21.4.10}%
+\contentsline {subsubsection}{\numberline {14.21.4.11}sizeX\_}{187}{subsubsection.14.21.4.11}%
+\contentsline {subsubsection}{\numberline {14.21.4.12}sizeY\_}{187}{subsubsection.14.21.4.12}%
+\contentsline {subsubsection}{\numberline {14.21.4.13}standardColor\_}{187}{subsubsection.14.21.4.13}%
+\contentsline {subsubsection}{\numberline {14.21.4.14}textPen\_}{187}{subsubsection.14.21.4.14}%
+\contentsline {subsubsection}{\numberline {14.21.4.15}treeScene}{187}{subsubsection.14.21.4.15}%
+\contentsline {subsubsection}{\numberline {14.21.4.16}treeView}{187}{subsubsection.14.21.4.16}%
+\contentsline {subsubsection}{\numberline {14.21.4.17}ui}{188}{subsubsection.14.21.4.17}%
+\contentsline {section}{\numberline {14.22}Parser Class Reference}{188}{section.14.22}%
+\contentsline {subsection}{\numberline {14.22.1}Detailed Description}{189}{subsection.14.22.1}%
+\contentsline {subsection}{\numberline {14.22.2}Constructor \& Destructor Documentation}{189}{subsection.14.22.2}%
+\contentsline {subsubsection}{\numberline {14.22.2.1}Parser()}{189}{subsubsection.14.22.2.1}%
+\contentsline {subsection}{\numberline {14.22.3}Member Function Documentation}{189}{subsection.14.22.3}%
+\contentsline {subsubsection}{\numberline {14.22.3.1}checkFileConsistency()}{189}{subsubsection.14.22.3.1}%
+\contentsline {subsubsection}{\numberline {14.22.3.2}clear()}{189}{subsubsection.14.22.3.2}%
+\contentsline {subsubsection}{\numberline {14.22.3.3}containsBackup()}{190}{subsubsection.14.22.3.3}%
+\contentsline {subsubsection}{\numberline {14.22.3.4}containsBackupFile()}{190}{subsubsection.14.22.3.4}%
+\contentsline {subsubsection}{\numberline {14.22.3.5}copyFile()}{190}{subsubsection.14.22.3.5}%
+\contentsline {subsubsection}{\numberline {14.22.3.6}createAllDirs()}{191}{subsubsection.14.22.3.6}%
+\contentsline {subsubsection}{\numberline {14.22.3.7}createEmptyFile()}{191}{subsubsection.14.22.3.7}%
+\contentsline {subsubsection}{\numberline {14.22.3.8}createJsonFile()}{191}{subsubsection.14.22.3.8}%
+\contentsline {subsubsection}{\numberline {14.22.3.9}createResourcesDir()}{191}{subsubsection.14.22.3.9}%
+\contentsline {subsubsection}{\numberline {14.22.3.10}getAbsoluteFilePath()}{192}{subsubsection.14.22.3.10}%
+\contentsline {subsubsection}{\numberline {14.22.3.11}getFileUrl()}{192}{subsubsection.14.22.3.11}%
+\contentsline {subsubsection}{\numberline {14.22.3.12}isRootDirectorySet()}{192}{subsubsection.14.22.3.12}%
+\contentsline {subsubsection}{\numberline {14.22.3.13}log()}{193}{subsubsection.14.22.3.13}%
+\contentsline {subsubsection}{\numberline {14.22.3.14}makeNewDatabase()}{193}{subsubsection.14.22.3.14}%
+\contentsline {subsubsection}{\numberline {14.22.3.15}readConfig()}{193}{subsubsection.14.22.3.15}%
+\contentsline {subsubsection}{\numberline {14.22.3.16}readJSONFile()}{193}{subsubsection.14.22.3.16}%
+\contentsline {subsubsection}{\numberline {14.22.3.17}removeBackup()}{194}{subsubsection.14.22.3.17}%
+\contentsline {subsubsection}{\numberline {14.22.3.18}removeFile()}{194}{subsubsection.14.22.3.18}%
+\contentsline {subsubsection}{\numberline {14.22.3.19}renameFile()}{194}{subsubsection.14.22.3.19}%
+\contentsline {subsubsection}{\numberline {14.22.3.20}restoreBackup()}{194}{subsubsection.14.22.3.20}%
+\contentsline {subsubsection}{\numberline {14.22.3.21}setDatabase()}{195}{subsubsection.14.22.3.21}%
+\contentsline {subsubsection}{\numberline {14.22.3.22}writeConfig()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{195}{subsubsection.14.22.3.22}%
+\contentsline {subsubsection}{\numberline {14.22.3.23}writeConfig()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{195}{subsubsection.14.22.3.23}%
+\contentsline {subsubsection}{\numberline {14.22.3.24}writeHtml()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{196}{subsubsection.14.22.3.24}%
+\contentsline {subsubsection}{\numberline {14.22.3.25}writeHtml()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{196}{subsubsection.14.22.3.25}%
+\contentsline {subsubsection}{\numberline {14.22.3.26}writeJSON()}{196}{subsubsection.14.22.3.26}%
+\contentsline {subsection}{\numberline {14.22.4}Member Data Documentation}{196}{subsection.14.22.4}%
+\contentsline {subsubsection}{\numberline {14.22.4.1}configPath\_}{196}{subsubsection.14.22.4.1}%
+\contentsline {subsubsection}{\numberline {14.22.4.2}root\_}{197}{subsubsection.14.22.4.2}%
+\contentsline {section}{\numberline {14.23}Person Class Reference}{197}{section.14.23}%
+\contentsline {subsection}{\numberline {14.23.1}Detailed Description}{199}{subsection.14.23.1}%
+\contentsline {subsection}{\numberline {14.23.2}Constructor \& Destructor Documentation}{199}{subsection.14.23.2}%
+\contentsline {subsubsection}{\numberline {14.23.2.1}Person()}{199}{subsubsection.14.23.2.1}%
+\contentsline {subsection}{\numberline {14.23.3}Member Function Documentation}{199}{subsection.14.23.3}%
+\contentsline {subsubsection}{\numberline {14.23.3.1}addEvent()}{199}{subsubsection.14.23.3.1}%
+\contentsline {subsubsection}{\numberline {14.23.3.2}addRelation()}{200}{subsubsection.14.23.3.2}%
+\contentsline {subsubsection}{\numberline {14.23.3.3}addTag()}{200}{subsubsection.14.23.3.3}%
+\contentsline {subsubsection}{\numberline {14.23.3.4}birthDate()}{200}{subsubsection.14.23.3.4}%
+\contentsline {subsubsection}{\numberline {14.23.3.5}deathDate()}{200}{subsubsection.14.23.3.5}%
+\contentsline {subsubsection}{\numberline {14.23.3.6}existsTag()}{200}{subsubsection.14.23.3.6}%
+\contentsline {subsubsection}{\numberline {14.23.3.7}exportJson()}{201}{subsubsection.14.23.3.7}%
+\contentsline {subsubsection}{\numberline {14.23.3.8}getAfterTitle()}{201}{subsubsection.14.23.3.8}%
+\contentsline {subsubsection}{\numberline {14.23.3.9}getBirthDate()}{201}{subsubsection.14.23.3.9}%
+\contentsline {subsubsection}{\numberline {14.23.3.10}getBirthPlace()}{202}{subsubsection.14.23.3.10}%
+\contentsline {subsubsection}{\numberline {14.23.3.11}getDeathDate()}{202}{subsubsection.14.23.3.11}%
+\contentsline {subsubsection}{\numberline {14.23.3.12}getDeathPlace()}{202}{subsubsection.14.23.3.12}%
+\contentsline {subsubsection}{\numberline {14.23.3.13}getEvents()}{202}{subsubsection.14.23.3.13}%
+\contentsline {subsubsection}{\numberline {14.23.3.14}getFather()}{202}{subsubsection.14.23.3.14}%
+\contentsline {subsubsection}{\numberline {14.23.3.15}getFilesRoot()}{202}{subsubsection.14.23.3.15}%
+\contentsline {subsubsection}{\numberline {14.23.3.16}getFilesRootPointer()}{203}{subsubsection.14.23.3.16}%
+\contentsline {subsubsection}{\numberline {14.23.3.17}getFrontTitle()}{203}{subsubsection.14.23.3.17}%
+\contentsline {subsubsection}{\numberline {14.23.3.18}getFullName()}{203}{subsubsection.14.23.3.18}%
+\contentsline {subsubsection}{\numberline {14.23.3.19}getGender()}{204}{subsubsection.14.23.3.19}%
+\contentsline {subsubsection}{\numberline {14.23.3.20}getId()}{204}{subsubsection.14.23.3.20}%
+\contentsline {subsubsection}{\numberline {14.23.3.21}getMaidenName()}{204}{subsubsection.14.23.3.21}%
+\contentsline {subsubsection}{\numberline {14.23.3.22}getMother()}{204}{subsubsection.14.23.3.22}%
+\contentsline {subsubsection}{\numberline {14.23.3.23}getName()}{204}{subsubsection.14.23.3.23}%
+\contentsline {subsubsection}{\numberline {14.23.3.24}getPartner()}{205}{subsubsection.14.23.3.24}%
+\contentsline {subsubsection}{\numberline {14.23.3.25}getRelations()}{205}{subsubsection.14.23.3.25}%
+\contentsline {subsubsection}{\numberline {14.23.3.26}getSurname()}{205}{subsubsection.14.23.3.26}%
+\contentsline {subsubsection}{\numberline {14.23.3.27}getTags()}{205}{subsubsection.14.23.3.27}%
+\contentsline {subsubsection}{\numberline {14.23.3.28}importJson()}{205}{subsubsection.14.23.3.28}%
+\contentsline {subsubsection}{\numberline {14.23.3.29}isAlive()}{206}{subsubsection.14.23.3.29}%
+\contentsline {subsubsection}{\numberline {14.23.3.30}printHtml()}{206}{subsubsection.14.23.3.30}%
+\contentsline {subsubsection}{\numberline {14.23.3.31}promoteRelation()}{206}{subsubsection.14.23.3.31}%
+\contentsline {subsubsection}{\numberline {14.23.3.32}readJson()}{206}{subsubsection.14.23.3.32}%
+\contentsline {subsubsection}{\numberline {14.23.3.33}removeEvent()}{207}{subsubsection.14.23.3.33}%
+\contentsline {subsubsection}{\numberline {14.23.3.34}removeRelation()}{207}{subsubsection.14.23.3.34}%
+\contentsline {subsubsection}{\numberline {14.23.3.35}removeTag()}{207}{subsubsection.14.23.3.35}%
+\contentsline {subsubsection}{\numberline {14.23.3.36}setAfterTitle()}{207}{subsubsection.14.23.3.36}%
+\contentsline {subsubsection}{\numberline {14.23.3.37}setBirthDate()}{208}{subsubsection.14.23.3.37}%
+\contentsline {subsubsection}{\numberline {14.23.3.38}setBirthPlace()}{208}{subsubsection.14.23.3.38}%
+\contentsline {subsubsection}{\numberline {14.23.3.39}setDeathDate()}{208}{subsubsection.14.23.3.39}%
+\contentsline {subsubsection}{\numberline {14.23.3.40}setDeathPlace()}{209}{subsubsection.14.23.3.40}%
+\contentsline {subsubsection}{\numberline {14.23.3.41}setFather()}{209}{subsubsection.14.23.3.41}%
+\contentsline {subsubsection}{\numberline {14.23.3.42}setFilesRoot()}{209}{subsubsection.14.23.3.42}%
+\contentsline {subsubsection}{\numberline {14.23.3.43}setFrontTitle()}{209}{subsubsection.14.23.3.43}%
+\contentsline {subsubsection}{\numberline {14.23.3.44}setGender()}{210}{subsubsection.14.23.3.44}%
+\contentsline {subsubsection}{\numberline {14.23.3.45}setId()}{210}{subsubsection.14.23.3.45}%
+\contentsline {subsubsection}{\numberline {14.23.3.46}setLives()}{210}{subsubsection.14.23.3.46}%
+\contentsline {subsubsection}{\numberline {14.23.3.47}setMaidenName()}{210}{subsubsection.14.23.3.47}%
+\contentsline {subsubsection}{\numberline {14.23.3.48}setMother()}{210}{subsubsection.14.23.3.48}%
+\contentsline {subsubsection}{\numberline {14.23.3.49}setName()}{211}{subsubsection.14.23.3.49}%
+\contentsline {subsubsection}{\numberline {14.23.3.50}setPartner()}{211}{subsubsection.14.23.3.50}%
+\contentsline {subsubsection}{\numberline {14.23.3.51}setSurname()}{211}{subsubsection.14.23.3.51}%
+\contentsline {subsubsection}{\numberline {14.23.3.52}str()}{211}{subsubsection.14.23.3.52}%
+\contentsline {subsubsection}{\numberline {14.23.3.53}updateSpecialRelation()}{212}{subsubsection.14.23.3.53}%
+\contentsline {subsection}{\numberline {14.23.4}Member Data Documentation}{213}{subsection.14.23.4}%
+\contentsline {subsubsection}{\numberline {14.23.4.1}dateOfBirth\_}{213}{subsubsection.14.23.4.1}%
+\contentsline {subsubsection}{\numberline {14.23.4.2}dateOfDeath\_}{213}{subsubsection.14.23.4.2}%
+\contentsline {subsubsection}{\numberline {14.23.4.3}events\_}{213}{subsubsection.14.23.4.3}%
+\contentsline {subsubsection}{\numberline {14.23.4.4}father\_}{213}{subsubsection.14.23.4.4}%
+\contentsline {subsubsection}{\numberline {14.23.4.5}gender\_}{213}{subsubsection.14.23.4.5}%
+\contentsline {subsubsection}{\numberline {14.23.4.6}id\_}{213}{subsubsection.14.23.4.6}%
+\contentsline {subsubsection}{\numberline {14.23.4.7}lives\_}{214}{subsubsection.14.23.4.7}%
+\contentsline {subsubsection}{\numberline {14.23.4.8}maidenName\_}{214}{subsubsection.14.23.4.8}%
+\contentsline {subsubsection}{\numberline {14.23.4.9}mother\_}{214}{subsubsection.14.23.4.9}%
+\contentsline {subsubsection}{\numberline {14.23.4.10}name\_}{214}{subsubsection.14.23.4.10}%
+\contentsline {subsubsection}{\numberline {14.23.4.11}partner\_}{214}{subsubsection.14.23.4.11}%
+\contentsline {subsubsection}{\numberline {14.23.4.12}placeOfBirth\_}{214}{subsubsection.14.23.4.12}%
+\contentsline {subsubsection}{\numberline {14.23.4.13}placeOfDeath\_}{214}{subsubsection.14.23.4.13}%
+\contentsline {subsubsection}{\numberline {14.23.4.14}relations\_}{214}{subsubsection.14.23.4.14}%
+\contentsline {subsubsection}{\numberline {14.23.4.15}rootFileDrive\_}{215}{subsubsection.14.23.4.15}%
+\contentsline {subsubsection}{\numberline {14.23.4.16}rootMediaDrive\_}{215}{subsubsection.14.23.4.16}%
+\contentsline {subsubsection}{\numberline {14.23.4.17}rootNoteDrive\_}{215}{subsubsection.14.23.4.17}%
+\contentsline {subsubsection}{\numberline {14.23.4.18}surname\_}{215}{subsubsection.14.23.4.18}%
+\contentsline {subsubsection}{\numberline {14.23.4.19}tags\_}{215}{subsubsection.14.23.4.19}%
+\contentsline {subsubsection}{\numberline {14.23.4.20}titleAfter\_}{215}{subsubsection.14.23.4.20}%
+\contentsline {subsubsection}{\numberline {14.23.4.21}titleInFront\_}{215}{subsubsection.14.23.4.21}%
+\contentsline {section}{\numberline {14.24}Persons\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Graphics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{216}{section.14.24}%
+\contentsline {subsection}{\numberline {14.24.1}Detailed Description}{217}{subsection.14.24.1}%
+\contentsline {subsection}{\numberline {14.24.2}Constructor \& Destructor Documentation}{217}{subsection.14.24.2}%
+\contentsline {subsubsection}{\numberline {14.24.2.1}PersonsGraphicsItem()}{217}{subsubsection.14.24.2.1}%
+\contentsline {subsubsection}{\numberline {14.24.2.2}$\sim $PersonsGraphicsItem()}{218}{subsubsection.14.24.2.2}%
+\contentsline {subsection}{\numberline {14.24.3}Member Function Documentation}{218}{subsection.14.24.3}%
+\contentsline {subsubsection}{\numberline {14.24.3.1}boundingRect()}{218}{subsubsection.14.24.3.1}%
+\contentsline {subsubsection}{\numberline {14.24.3.2}hoverEnterEvent()}{218}{subsubsection.14.24.3.2}%
+\contentsline {subsubsection}{\numberline {14.24.3.3}hoverLeaveEvent()}{218}{subsubsection.14.24.3.3}%
+\contentsline {subsubsection}{\numberline {14.24.3.4}itemClicked}{219}{subsubsection.14.24.3.4}%
+\contentsline {subsubsection}{\numberline {14.24.3.5}mousePressEvent()}{219}{subsubsection.14.24.3.5}%
+\contentsline {subsubsection}{\numberline {14.24.3.6}paint()}{219}{subsubsection.14.24.3.6}%
+\contentsline {subsubsection}{\numberline {14.24.3.7}shape()}{219}{subsubsection.14.24.3.7}%
+\contentsline {subsection}{\numberline {14.24.4}Member Data Documentation}{220}{subsection.14.24.4}%
+\contentsline {subsubsection}{\numberline {14.24.4.1}bold\_text\_}{220}{subsubsection.14.24.4.1}%
+\contentsline {subsubsection}{\numberline {14.24.4.2}borderRadius\_}{220}{subsubsection.14.24.4.2}%
+\contentsline {subsubsection}{\numberline {14.24.4.3}color\_}{220}{subsubsection.14.24.4.3}%
+\contentsline {subsubsection}{\numberline {14.24.4.4}font\_}{220}{subsubsection.14.24.4.4}%
+\contentsline {subsubsection}{\numberline {14.24.4.5}highlighted\_}{220}{subsubsection.14.24.4.5}%
+\contentsline {subsubsection}{\numberline {14.24.4.6}hovered\_}{220}{subsubsection.14.24.4.6}%
+\contentsline {subsubsection}{\numberline {14.24.4.7}pen\_}{220}{subsubsection.14.24.4.7}%
+\contentsline {subsubsection}{\numberline {14.24.4.8}person\_}{221}{subsubsection.14.24.4.8}%
+\contentsline {subsubsection}{\numberline {14.24.4.9}sizex\_}{221}{subsubsection.14.24.4.9}%
+\contentsline {subsubsection}{\numberline {14.24.4.10}sizey\_}{221}{subsubsection.14.24.4.10}%
+\contentsline {subsubsection}{\numberline {14.24.4.11}textLines\_}{221}{subsubsection.14.24.4.11}%
+\contentsline {subsubsection}{\numberline {14.24.4.12}textPen\_}{221}{subsubsection.14.24.4.12}%
+\contentsline {subsubsection}{\numberline {14.24.4.13}x\_}{221}{subsubsection.14.24.4.13}%
+\contentsline {subsubsection}{\numberline {14.24.4.14}y\_}{221}{subsubsection.14.24.4.14}%
+\contentsline {section}{\numberline {14.25}Picture\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Export Class Reference}{222}{section.14.25}%
+\contentsline {subsection}{\numberline {14.25.1}Detailed Description}{222}{subsection.14.25.1}%
+\contentsline {subsection}{\numberline {14.25.2}Constructor \& Destructor Documentation}{222}{subsection.14.25.2}%
+\contentsline {subsubsection}{\numberline {14.25.2.1}PictureExport()}{222}{subsubsection.14.25.2.1}%
+\contentsline {subsubsection}{\numberline {14.25.2.2}$\sim $PictureExport()}{223}{subsubsection.14.25.2.2}%
+\contentsline {subsection}{\numberline {14.25.3}Member Function Documentation}{223}{subsection.14.25.3}%
+\contentsline {subsubsection}{\numberline {14.25.3.1}exportDiagram}{223}{subsubsection.14.25.3.1}%
+\contentsline {subsection}{\numberline {14.25.4}Member Data Documentation}{223}{subsection.14.25.4}%
+\contentsline {subsubsection}{\numberline {14.25.4.1}closeDiagram\_}{223}{subsubsection.14.25.4.1}%
+\contentsline {subsubsection}{\numberline {14.25.4.2}ui}{223}{subsubsection.14.25.4.2}%
+\contentsline {section}{\numberline {14.26}Project\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{223}{section.14.26}%
+\contentsline {subsection}{\numberline {14.26.1}Detailed Description}{224}{subsection.14.26.1}%
+\contentsline {subsection}{\numberline {14.26.2}Constructor \& Destructor Documentation}{224}{subsection.14.26.2}%
+\contentsline {subsubsection}{\numberline {14.26.2.1}ProjectItem()}{224}{subsubsection.14.26.2.1}%
+\contentsline {subsection}{\numberline {14.26.3}Member Function Documentation}{224}{subsection.14.26.3}%
+\contentsline {subsubsection}{\numberline {14.26.3.1}getId()}{224}{subsubsection.14.26.3.1}%
+\contentsline {subsubsection}{\numberline {14.26.3.2}type()}{225}{subsubsection.14.26.3.2}%
+\contentsline {subsection}{\numberline {14.26.4}Member Data Documentation}{225}{subsection.14.26.4}%
+\contentsline {subsubsection}{\numberline {14.26.4.1}id\_}{225}{subsubsection.14.26.4.1}%
+\contentsline {subsubsection}{\numberline {14.26.4.2}type\_}{225}{subsubsection.14.26.4.2}%
+\contentsline {section}{\numberline {14.27}Relation Class Reference}{225}{section.14.27}%
+\contentsline {subsection}{\numberline {14.27.1}Detailed Description}{226}{subsection.14.27.1}%
+\contentsline {subsection}{\numberline {14.27.2}Constructor \& Destructor Documentation}{226}{subsection.14.27.2}%
+\contentsline {subsubsection}{\numberline {14.27.2.1}Relation()}{226}{subsubsection.14.27.2.1}%
+\contentsline {subsection}{\numberline {14.27.3}Member Function Documentation}{226}{subsection.14.27.3}%
+\contentsline {subsubsection}{\numberline {14.27.3.1}getFirstPerson()}{226}{subsubsection.14.27.3.1}%
+\contentsline {subsubsection}{\numberline {14.27.3.2}getId()}{226}{subsubsection.14.27.3.2}%
+\contentsline {subsubsection}{\numberline {14.27.3.3}getSecondPerson()}{227}{subsubsection.14.27.3.3}%
+\contentsline {subsubsection}{\numberline {14.27.3.4}getTemplate()}{227}{subsubsection.14.27.3.4}%
+\contentsline {subsubsection}{\numberline {14.27.3.5}getTheOtherPerson()}{227}{subsubsection.14.27.3.5}%
+\contentsline {subsubsection}{\numberline {14.27.3.6}getTheOtherPersonName()}{227}{subsubsection.14.27.3.6}%
+\contentsline {subsubsection}{\numberline {14.27.3.7}getTitle()}{228}{subsubsection.14.27.3.7}%
+\contentsline {subsubsection}{\numberline {14.27.3.8}getTrait()}{228}{subsubsection.14.27.3.8}%
+\contentsline {subsubsection}{\numberline {14.27.3.9}isOlderGeneration()}{228}{subsubsection.14.27.3.9}%
+\contentsline {subsubsection}{\numberline {14.27.3.10}isParent()}{228}{subsubsection.14.27.3.10}%
+\contentsline {subsubsection}{\numberline {14.27.3.11}isSameGenration()}{229}{subsubsection.14.27.3.11}%
+\contentsline {subsubsection}{\numberline {14.27.3.12}isYoungerGeneration()}{229}{subsubsection.14.27.3.12}%
+\contentsline {subsubsection}{\numberline {14.27.3.13}printHtml()}{229}{subsubsection.14.27.3.13}%
+\contentsline {subsubsection}{\numberline {14.27.3.14}readJson()}{230}{subsubsection.14.27.3.14}%
+\contentsline {subsubsection}{\numberline {14.27.3.15}setId()}{230}{subsubsection.14.27.3.15}%
+\contentsline {subsubsection}{\numberline {14.27.3.16}setPersons()}{230}{subsubsection.14.27.3.16}%
+\contentsline {subsubsection}{\numberline {14.27.3.17}setTemplate()}{230}{subsubsection.14.27.3.17}%
+\contentsline {subsubsection}{\numberline {14.27.3.18}str()}{231}{subsubsection.14.27.3.18}%
+\contentsline {subsection}{\numberline {14.27.4}Member Data Documentation}{231}{subsection.14.27.4}%
+\contentsline {subsubsection}{\numberline {14.27.4.1}id\_}{231}{subsubsection.14.27.4.1}%
+\contentsline {subsubsection}{\numberline {14.27.4.2}person1\_}{231}{subsubsection.14.27.4.2}%
+\contentsline {subsubsection}{\numberline {14.27.4.3}person2\_}{231}{subsubsection.14.27.4.3}%
+\contentsline {subsubsection}{\numberline {14.27.4.4}settings\_}{231}{subsubsection.14.27.4.4}%
+\contentsline {subsubsection}{\numberline {14.27.4.5}template\_}{232}{subsubsection.14.27.4.5}%
+\contentsline {section}{\numberline {14.28}Relation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{232}{section.14.28}%
+\contentsline {subsection}{\numberline {14.28.1}Detailed Description}{233}{subsection.14.28.1}%
+\contentsline {subsection}{\numberline {14.28.2}Constructor \& Destructor Documentation}{233}{subsection.14.28.2}%
+\contentsline {subsubsection}{\numberline {14.28.2.1}RelationDialog()}{233}{subsubsection.14.28.2.1}%
+\contentsline {subsubsection}{\numberline {14.28.2.2}$\sim $RelationDialog()}{233}{subsubsection.14.28.2.2}%
+\contentsline {subsection}{\numberline {14.28.3}Member Function Documentation}{233}{subsection.14.28.3}%
+\contentsline {subsubsection}{\numberline {14.28.3.1}chooseFirstPerson}{233}{subsubsection.14.28.3.1}%
+\contentsline {subsubsection}{\numberline {14.28.3.2}chooseSecondPerson}{234}{subsubsection.14.28.3.2}%
+\contentsline {subsubsection}{\numberline {14.28.3.3}savePerson}{234}{subsubsection.14.28.3.3}%
+\contentsline {subsubsection}{\numberline {14.28.3.4}saveRelation}{234}{subsubsection.14.28.3.4}%
+\contentsline {subsubsection}{\numberline {14.28.3.5}showTemplateDetails}{234}{subsubsection.14.28.3.5}%
+\contentsline {subsubsection}{\numberline {14.28.3.6}switchPersons}{234}{subsubsection.14.28.3.6}%
+\contentsline {subsection}{\numberline {14.28.4}Member Data Documentation}{234}{subsection.14.28.4}%
+\contentsline {subsubsection}{\numberline {14.28.4.1}FT\_}{234}{subsubsection.14.28.4.1}%
+\contentsline {subsubsection}{\numberline {14.28.4.2}person1\_}{234}{subsubsection.14.28.4.2}%
+\contentsline {subsubsection}{\numberline {14.28.4.3}person2\_}{235}{subsubsection.14.28.4.3}%
+\contentsline {subsubsection}{\numberline {14.28.4.4}rel\_}{235}{subsubsection.14.28.4.4}%
+\contentsline {subsubsection}{\numberline {14.28.4.5}saveFirstPerson\_}{235}{subsubsection.14.28.4.5}%
+\contentsline {subsubsection}{\numberline {14.28.4.6}ui}{235}{subsubsection.14.28.4.6}%
+\contentsline {section}{\numberline {14.29}Relation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{235}{section.14.29}%
+\contentsline {subsection}{\numberline {14.29.1}Detailed Description}{236}{subsection.14.29.1}%
+\contentsline {subsection}{\numberline {14.29.2}Constructor \& Destructor Documentation}{236}{subsection.14.29.2}%
+\contentsline {subsubsection}{\numberline {14.29.2.1}RelationItem()}{236}{subsubsection.14.29.2.1}%
+\contentsline {subsection}{\numberline {14.29.3}Member Function Documentation}{236}{subsection.14.29.3}%
+\contentsline {subsubsection}{\numberline {14.29.3.1}getRelation()}{236}{subsubsection.14.29.3.1}%
+\contentsline {subsubsection}{\numberline {14.29.3.2}refreshTexts()}{236}{subsubsection.14.29.3.2}%
+\contentsline {subsection}{\numberline {14.29.4}Member Data Documentation}{237}{subsection.14.29.4}%
+\contentsline {subsubsection}{\numberline {14.29.4.1}FT\_}{237}{subsubsection.14.29.4.1}%
+\contentsline {subsubsection}{\numberline {14.29.4.2}relation\_}{237}{subsubsection.14.29.4.2}%
+\contentsline {section}{\numberline {14.30}Relation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Suggestion Struct Reference}{237}{section.14.30}%
+\contentsline {subsection}{\numberline {14.30.1}Detailed Description}{237}{subsection.14.30.1}%
+\contentsline {subsection}{\numberline {14.30.2}Constructor \& Destructor Documentation}{238}{subsection.14.30.2}%
+\contentsline {subsubsection}{\numberline {14.30.2.1}RelationSuggestion()}{238}{subsubsection.14.30.2.1}%
+\contentsline {subsection}{\numberline {14.30.3}Member Data Documentation}{239}{subsection.14.30.3}%
+\contentsline {subsubsection}{\numberline {14.30.3.1}lockedPerson}{239}{subsubsection.14.30.3.1}%
+\contentsline {subsubsection}{\numberline {14.30.3.2}parent}{239}{subsubsection.14.30.3.2}%
+\contentsline {subsubsection}{\numberline {14.30.3.3}suggestedPerson}{239}{subsubsection.14.30.3.3}%
+\contentsline {subsubsection}{\numberline {14.30.3.4}symetrical}{239}{subsubsection.14.30.3.4}%
+\contentsline {subsubsection}{\numberline {14.30.3.5}trait}{239}{subsubsection.14.30.3.5}%
+\contentsline {section}{\numberline {14.31}Relation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template Class Reference}{240}{section.14.31}%
+\contentsline {subsection}{\numberline {14.31.1}Detailed Description}{240}{subsection.14.31.1}%
+\contentsline {subsection}{\numberline {14.31.2}Constructor \& Destructor Documentation}{241}{subsection.14.31.2}%
+\contentsline {subsubsection}{\numberline {14.31.2.1}RelationTemplate()}{241}{subsubsection.14.31.2.1}%
+\contentsline {subsection}{\numberline {14.31.3}Member Function Documentation}{241}{subsection.14.31.3}%
+\contentsline {subsubsection}{\numberline {14.31.3.1}getDescription()}{241}{subsubsection.14.31.3.1}%
+\contentsline {subsubsection}{\numberline {14.31.3.2}getFirstName()}{241}{subsubsection.14.31.3.2}%
+\contentsline {subsubsection}{\numberline {14.31.3.3}getGenerationDifference()}{241}{subsubsection.14.31.3.3}%
+\contentsline {subsubsection}{\numberline {14.31.3.4}getId()}{241}{subsubsection.14.31.3.4}%
+\contentsline {subsubsection}{\numberline {14.31.3.5}getSecondName()}{242}{subsubsection.14.31.3.5}%
+\contentsline {subsubsection}{\numberline {14.31.3.6}getTitle()}{242}{subsubsection.14.31.3.6}%
+\contentsline {subsubsection}{\numberline {14.31.3.7}getTrait()}{242}{subsubsection.14.31.3.7}%
+\contentsline {subsubsection}{\numberline {14.31.3.8}readJson()}{242}{subsubsection.14.31.3.8}%
+\contentsline {subsubsection}{\numberline {14.31.3.9}setDescription()}{242}{subsubsection.14.31.3.9}%
+\contentsline {subsubsection}{\numberline {14.31.3.10}setFirstName()}{243}{subsubsection.14.31.3.10}%
+\contentsline {subsubsection}{\numberline {14.31.3.11}setGenerationDifference()}{243}{subsubsection.14.31.3.11}%
+\contentsline {subsubsection}{\numberline {14.31.3.12}setId()}{243}{subsubsection.14.31.3.12}%
+\contentsline {subsubsection}{\numberline {14.31.3.13}setSecondName()}{243}{subsubsection.14.31.3.13}%
+\contentsline {subsubsection}{\numberline {14.31.3.14}setTitle()}{244}{subsubsection.14.31.3.14}%
+\contentsline {subsubsection}{\numberline {14.31.3.15}setTrait()}{244}{subsubsection.14.31.3.15}%
+\contentsline {subsubsection}{\numberline {14.31.3.16}str()}{244}{subsubsection.14.31.3.16}%
+\contentsline {subsection}{\numberline {14.31.4}Member Data Documentation}{244}{subsection.14.31.4}%
+\contentsline {subsubsection}{\numberline {14.31.4.1}description\_}{244}{subsubsection.14.31.4.1}%
+\contentsline {subsubsection}{\numberline {14.31.4.2}firstName\_}{244}{subsubsection.14.31.4.2}%
+\contentsline {subsubsection}{\numberline {14.31.4.3}generationDiff\_}{245}{subsubsection.14.31.4.3}%
+\contentsline {subsubsection}{\numberline {14.31.4.4}id\_}{245}{subsubsection.14.31.4.4}%
+\contentsline {subsubsection}{\numberline {14.31.4.5}secondName\_}{245}{subsubsection.14.31.4.5}%
+\contentsline {subsubsection}{\numberline {14.31.4.6}title\_}{245}{subsubsection.14.31.4.6}%
+\contentsline {subsubsection}{\numberline {14.31.4.7}trait\_}{245}{subsubsection.14.31.4.7}%
+\contentsline {section}{\numberline {14.32}Relation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{245}{section.14.32}%
+\contentsline {subsection}{\numberline {14.32.1}Detailed Description}{246}{subsection.14.32.1}%
+\contentsline {subsection}{\numberline {14.32.2}Constructor \& Destructor Documentation}{246}{subsection.14.32.2}%
+\contentsline {subsubsection}{\numberline {14.32.2.1}RelationTemplateDialog()}{246}{subsubsection.14.32.2.1}%
+\contentsline {subsubsection}{\numberline {14.32.2.2}$\sim $RelationTemplateDialog()}{247}{subsubsection.14.32.2.2}%
+\contentsline {subsection}{\numberline {14.32.3}Member Function Documentation}{247}{subsection.14.32.3}%
+\contentsline {subsubsection}{\numberline {14.32.3.1}addDefaults}{247}{subsubsection.14.32.3.1}%
+\contentsline {subsubsection}{\numberline {14.32.3.2}addNewTemplate}{247}{subsubsection.14.32.3.2}%
+\contentsline {subsubsection}{\numberline {14.32.3.3}clear()}{247}{subsubsection.14.32.3.3}%
+\contentsline {subsubsection}{\numberline {14.32.3.4}refreshListWidget()}{247}{subsubsection.14.32.3.4}%
+\contentsline {subsubsection}{\numberline {14.32.3.5}removeTemplate}{247}{subsubsection.14.32.3.5}%
+\contentsline {subsubsection}{\numberline {14.32.3.6}saveTemplate\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{247}{subsubsection.14.32.3.6}%
+\contentsline {subsubsection}{\numberline {14.32.3.7}saveTemplate()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{247}{subsubsection.14.32.3.7}%
+\contentsline {subsubsection}{\numberline {14.32.3.8}setEnabledWidgets()}{248}{subsubsection.14.32.3.8}%
+\contentsline {subsubsection}{\numberline {14.32.3.9}showTemplate}{248}{subsubsection.14.32.3.9}%
+\contentsline {subsection}{\numberline {14.32.4}Member Data Documentation}{248}{subsection.14.32.4}%
+\contentsline {subsubsection}{\numberline {14.32.4.1}addingNew\_}{248}{subsubsection.14.32.4.1}%
+\contentsline {subsubsection}{\numberline {14.32.4.2}FT\_}{248}{subsubsection.14.32.4.2}%
+\contentsline {subsubsection}{\numberline {14.32.4.3}ui}{248}{subsubsection.14.32.4.3}%
+\contentsline {section}{\numberline {14.33}Settings Class Reference}{249}{section.14.33}%
+\contentsline {subsection}{\numberline {14.33.1}Detailed Description}{250}{subsection.14.33.1}%
+\contentsline {subsection}{\numberline {14.33.2}Constructor \& Destructor Documentation}{250}{subsection.14.33.2}%
+\contentsline {subsubsection}{\numberline {14.33.2.1}Settings()}{250}{subsubsection.14.33.2.1}%
+\contentsline {subsection}{\numberline {14.33.3}Member Function Documentation}{250}{subsection.14.33.3}%
+\contentsline {subsubsection}{\numberline {14.33.3.1}addDefaultEvent()}{250}{subsubsection.14.33.3.1}%
+\contentsline {subsubsection}{\numberline {14.33.3.2}addDefaultEvents()}{251}{subsubsection.14.33.3.2}%
+\contentsline {subsubsection}{\numberline {14.33.3.3}addDefaultRelation()}{251}{subsubsection.14.33.3.3}%
+\contentsline {subsubsection}{\numberline {14.33.3.4}addDefaultRelations()}{251}{subsubsection.14.33.3.4}%
+\contentsline {subsubsection}{\numberline {14.33.3.5}addEventTemplate()}{251}{subsubsection.14.33.3.5}%
+\contentsline {subsubsection}{\numberline {14.33.3.6}addRelationTemplate()}{252}{subsubsection.14.33.3.6}%
+\contentsline {subsubsection}{\numberline {14.33.3.7}addTag()}{252}{subsubsection.14.33.3.7}%
+\contentsline {subsubsection}{\numberline {14.33.3.8}clear()}{252}{subsubsection.14.33.3.8}%
+\contentsline {subsubsection}{\numberline {14.33.3.9}exportTemplates()}{252}{subsubsection.14.33.3.9}%
+\contentsline {subsubsection}{\numberline {14.33.3.10}getAppSettings()}{253}{subsubsection.14.33.3.10}%
+\contentsline {subsubsection}{\numberline {14.33.3.11}getEventTemplate()}{253}{subsubsection.14.33.3.11}%
+\contentsline {subsubsection}{\numberline {14.33.3.12}getEventTemplates()}{253}{subsubsection.14.33.3.12}%
+\contentsline {subsubsection}{\numberline {14.33.3.13}getGlobalMainPerson()}{253}{subsubsection.14.33.3.13}%
+\contentsline {subsubsection}{\numberline {14.33.3.14}getRelationTemplate()}{253}{subsubsection.14.33.3.14}%
+\contentsline {subsubsection}{\numberline {14.33.3.15}getRelationTemplates()}{254}{subsubsection.14.33.3.15}%
+\contentsline {subsubsection}{\numberline {14.33.3.16}getTags()}{254}{subsubsection.14.33.3.16}%
+\contentsline {subsubsection}{\numberline {14.33.3.17}importTemplates()}{254}{subsubsection.14.33.3.17}%
+\contentsline {subsubsection}{\numberline {14.33.3.18}indexes()}{254}{subsubsection.14.33.3.18}%
+\contentsline {subsubsection}{\numberline {14.33.3.19}readJson()}{255}{subsubsection.14.33.3.19}%
+\contentsline {subsubsection}{\numberline {14.33.3.20}reIndex()}{255}{subsubsection.14.33.3.20}%
+\contentsline {subsubsection}{\numberline {14.33.3.21}removeEventTemplate()}{255}{subsubsection.14.33.3.21}%
+\contentsline {subsubsection}{\numberline {14.33.3.22}removeRelationTemplate()}{255}{subsubsection.14.33.3.22}%
+\contentsline {subsubsection}{\numberline {14.33.3.23}removeTag()}{257}{subsubsection.14.33.3.23}%
+\contentsline {subsubsection}{\numberline {14.33.3.24}setAppSettings()}{257}{subsubsection.14.33.3.24}%
+\contentsline {subsubsection}{\numberline {14.33.3.25}setGlobalMainPerson()}{257}{subsubsection.14.33.3.25}%
+\contentsline {subsection}{\numberline {14.33.4}Member Data Documentation}{257}{subsection.14.33.4}%
+\contentsline {subsubsection}{\numberline {14.33.4.1}appSettings\_}{257}{subsubsection.14.33.4.1}%
+\contentsline {subsubsection}{\numberline {14.33.4.2}eventTemplateIndex\_}{258}{subsubsection.14.33.4.2}%
+\contentsline {subsubsection}{\numberline {14.33.4.3}eventTemplates\_}{258}{subsubsection.14.33.4.3}%
+\contentsline {subsubsection}{\numberline {14.33.4.4}globalMainPerson\_}{258}{subsubsection.14.33.4.4}%
+\contentsline {subsubsection}{\numberline {14.33.4.5}relationsTemplates\_}{258}{subsubsection.14.33.4.5}%
+\contentsline {subsubsection}{\numberline {14.33.4.6}relationTemplateIndex\_}{258}{subsubsection.14.33.4.6}%
+\contentsline {subsubsection}{\numberline {14.33.4.7}tags\_}{258}{subsubsection.14.33.4.7}%
+\contentsline {section}{\numberline {14.34}Suggestions\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{259}{section.14.34}%
+\contentsline {subsection}{\numberline {14.34.1}Detailed Description}{260}{subsection.14.34.1}%
+\contentsline {subsection}{\numberline {14.34.2}Constructor \& Destructor Documentation}{260}{subsection.14.34.2}%
+\contentsline {subsubsection}{\numberline {14.34.2.1}SuggestionsDialog()}{260}{subsubsection.14.34.2.1}%
+\contentsline {subsubsection}{\numberline {14.34.2.2}$\sim $SuggestionsDialog()}{260}{subsubsection.14.34.2.2}%
+\contentsline {subsection}{\numberline {14.34.3}Member Function Documentation}{260}{subsection.14.34.3}%
+\contentsline {subsubsection}{\numberline {14.34.3.1}removeSuggestion}{260}{subsubsection.14.34.3.1}%
+\contentsline {subsubsection}{\numberline {14.34.3.2}save}{260}{subsubsection.14.34.3.2}%
+\contentsline {subsubsection}{\numberline {14.34.3.3}selectedSuggestion}{260}{subsubsection.14.34.3.3}%
+\contentsline {subsubsection}{\numberline {14.34.3.4}swapPersons}{261}{subsubsection.14.34.3.4}%
+\contentsline {subsubsection}{\numberline {14.34.3.5}switchedTemplate}{261}{subsubsection.14.34.3.5}%
+\contentsline {subsection}{\numberline {14.34.4}Member Data Documentation}{261}{subsection.14.34.4}%
+\contentsline {subsubsection}{\numberline {14.34.4.1}fatherhoods}{261}{subsubsection.14.34.4.1}%
+\contentsline {subsubsection}{\numberline {14.34.4.2}FT\_}{261}{subsubsection.14.34.4.2}%
+\contentsline {subsubsection}{\numberline {14.34.4.3}motherhoods}{261}{subsubsection.14.34.4.3}%
+\contentsline {subsubsection}{\numberline {14.34.4.4}partnerships}{261}{subsubsection.14.34.4.4}%
+\contentsline {subsubsection}{\numberline {14.34.4.5}siblings}{262}{subsubsection.14.34.4.5}%
+\contentsline {subsubsection}{\numberline {14.34.4.6}ui}{262}{subsubsection.14.34.4.6}%
+\contentsline {section}{\numberline {14.35}Tag\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chooser\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{262}{section.14.35}%
+\contentsline {subsection}{\numberline {14.35.1}Detailed Description}{263}{subsection.14.35.1}%
+\contentsline {subsection}{\numberline {14.35.2}Constructor \& Destructor Documentation}{263}{subsection.14.35.2}%
+\contentsline {subsubsection}{\numberline {14.35.2.1}TagChooserDialog()}{263}{subsubsection.14.35.2.1}%
+\contentsline {subsubsection}{\numberline {14.35.2.2}$\sim $TagChooserDialog()}{263}{subsubsection.14.35.2.2}%
+\contentsline {subsection}{\numberline {14.35.3}Member Function Documentation}{263}{subsection.14.35.3}%
+\contentsline {subsubsection}{\numberline {14.35.3.1}changeVisibleWidgets}{263}{subsubsection.14.35.3.1}%
+\contentsline {subsubsection}{\numberline {14.35.3.2}saveTag}{263}{subsubsection.14.35.3.2}%
+\contentsline {subsection}{\numberline {14.35.4}Member Data Documentation}{264}{subsection.14.35.4}%
+\contentsline {subsubsection}{\numberline {14.35.4.1}FT\_}{264}{subsubsection.14.35.4.1}%
+\contentsline {subsubsection}{\numberline {14.35.4.2}newOne\_}{264}{subsubsection.14.35.4.2}%
+\contentsline {subsubsection}{\numberline {14.35.4.3}ui}{264}{subsubsection.14.35.4.3}%
+\contentsline {section}{\numberline {14.36}Virtual\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Drive Class Reference}{264}{section.14.36}%
+\contentsline {subsection}{\numberline {14.36.1}Detailed Description}{265}{subsection.14.36.1}%
+\contentsline {subsection}{\numberline {14.36.2}Constructor \& Destructor Documentation}{265}{subsection.14.36.2}%
+\contentsline {subsubsection}{\numberline {14.36.2.1}VirtualDrive()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{265}{subsubsection.14.36.2.1}%
+\contentsline {subsubsection}{\numberline {14.36.2.2}VirtualDrive()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{265}{subsubsection.14.36.2.2}%
+\contentsline {subsection}{\numberline {14.36.3}Member Function Documentation}{265}{subsection.14.36.3}%
+\contentsline {subsubsection}{\numberline {14.36.3.1}addFile()}{265}{subsubsection.14.36.3.1}%
+\contentsline {subsubsection}{\numberline {14.36.3.2}addSubdrive()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{266}{subsubsection.14.36.3.2}%
+\contentsline {subsubsection}{\numberline {14.36.3.3}addSubdrive()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{266}{subsubsection.14.36.3.3}%
+\contentsline {subsubsection}{\numberline {14.36.3.4}copyDrive()}{266}{subsubsection.14.36.3.4}%
+\contentsline {subsubsection}{\numberline {14.36.3.5}getFiles()}{266}{subsubsection.14.36.3.5}%
+\contentsline {subsubsection}{\numberline {14.36.3.6}getName()}{267}{subsubsection.14.36.3.6}%
+\contentsline {subsubsection}{\numberline {14.36.3.7}getSubdrives()}{267}{subsubsection.14.36.3.7}%
+\contentsline {subsubsection}{\numberline {14.36.3.8}readJson()}{267}{subsubsection.14.36.3.8}%
+\contentsline {subsubsection}{\numberline {14.36.3.9}remove()}{267}{subsubsection.14.36.3.9}%
+\contentsline {subsubsection}{\numberline {14.36.3.10}removeFile()}{267}{subsubsection.14.36.3.10}%
+\contentsline {subsubsection}{\numberline {14.36.3.11}rename()}{269}{subsubsection.14.36.3.11}%
+\contentsline {subsubsection}{\numberline {14.36.3.12}usedFiles()}{269}{subsubsection.14.36.3.12}%
+\contentsline {subsection}{\numberline {14.36.4}Member Data Documentation}{269}{subsection.14.36.4}%
+\contentsline {subsubsection}{\numberline {14.36.4.1}files\_}{269}{subsubsection.14.36.4.1}%
+\contentsline {subsubsection}{\numberline {14.36.4.2}name\_}{269}{subsubsection.14.36.4.2}%
+\contentsline {subsubsection}{\numberline {14.36.4.3}subdrives\_}{269}{subsubsection.14.36.4.3}%
+\contentsline {section}{\numberline {14.37}Visual\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings Class Reference}{270}{section.14.37}%
+\contentsline {subsection}{\numberline {14.37.1}Detailed Description}{271}{subsection.14.37.1}%
+\contentsline {subsection}{\numberline {14.37.2}Constructor \& Destructor Documentation}{271}{subsection.14.37.2}%
+\contentsline {subsubsection}{\numberline {14.37.2.1}VisualSettings()}{271}{subsubsection.14.37.2.1}%
+\contentsline {subsubsection}{\numberline {14.37.2.2}$\sim $VisualSettings()}{272}{subsubsection.14.37.2.2}%
+\contentsline {subsection}{\numberline {14.37.3}Member Function Documentation}{272}{subsection.14.37.3}%
+\contentsline {subsubsection}{\numberline {14.37.3.1}highlightedColor}{272}{subsubsection.14.37.3.1}%
+\contentsline {subsubsection}{\numberline {14.37.3.2}lineColor}{272}{subsubsection.14.37.3.2}%
+\contentsline {subsubsection}{\numberline {14.37.3.3}probandColor}{272}{subsubsection.14.37.3.3}%
+\contentsline {subsubsection}{\numberline {14.37.3.4}promotedColor}{272}{subsubsection.14.37.3.4}%
+\contentsline {subsubsection}{\numberline {14.37.3.5}refresh}{273}{subsubsection.14.37.3.5}%
+\contentsline {subsubsection}{\numberline {14.37.3.6}saveAndExit}{273}{subsubsection.14.37.3.6}%
+\contentsline {subsubsection}{\numberline {14.37.3.7}saveSettings}{273}{subsubsection.14.37.3.7}%
+\contentsline {subsubsection}{\numberline {14.37.3.8}standardColor}{273}{subsubsection.14.37.3.8}%
+\contentsline {subsubsection}{\numberline {14.37.3.9}textColor}{274}{subsubsection.14.37.3.9}%
+\contentsline {subsection}{\numberline {14.37.4}Member Data Documentation}{274}{subsection.14.37.4}%
+\contentsline {subsubsection}{\numberline {14.37.4.1}borderRadius\_}{274}{subsubsection.14.37.4.1}%
+\contentsline {subsubsection}{\numberline {14.37.4.2}font\_}{274}{subsubsection.14.37.4.2}%
+\contentsline {subsubsection}{\numberline {14.37.4.3}highlightedColor\_}{274}{subsubsection.14.37.4.3}%
+\contentsline {subsubsection}{\numberline {14.37.4.4}pen\_}{274}{subsubsection.14.37.4.4}%
+\contentsline {subsubsection}{\numberline {14.37.4.5}probandColor\_}{274}{subsubsection.14.37.4.5}%
+\contentsline {subsubsection}{\numberline {14.37.4.6}promotedColor\_}{274}{subsubsection.14.37.4.6}%
+\contentsline {subsubsection}{\numberline {14.37.4.7}scene}{275}{subsubsection.14.37.4.7}%
+\contentsline {subsubsection}{\numberline {14.37.4.8}sizeX\_}{275}{subsubsection.14.37.4.8}%
+\contentsline {subsubsection}{\numberline {14.37.4.9}sizeY\_}{275}{subsubsection.14.37.4.9}%
+\contentsline {subsubsection}{\numberline {14.37.4.10}standardColor\_}{275}{subsubsection.14.37.4.10}%
+\contentsline {subsubsection}{\numberline {14.37.4.11}textPen\_}{275}{subsubsection.14.37.4.11}%
+\contentsline {subsubsection}{\numberline {14.37.4.12}ui}{275}{subsubsection.14.37.4.12}%
+\contentsline {section}{\numberline {14.38}Wrapped\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Date Class Reference}{275}{section.14.38}%
+\contentsline {subsection}{\numberline {14.38.1}Detailed Description}{276}{subsection.14.38.1}%
+\contentsline {subsection}{\numberline {14.38.2}Constructor \& Destructor Documentation}{276}{subsection.14.38.2}%
+\contentsline {subsubsection}{\numberline {14.38.2.1}WrappedDate()}{276}{subsubsection.14.38.2.1}%
+\contentsline {subsection}{\numberline {14.38.3}Member Function Documentation}{276}{subsection.14.38.3}%
+\contentsline {subsubsection}{\numberline {14.38.3.1}clear()}{276}{subsubsection.14.38.3.1}%
+\contentsline {subsubsection}{\numberline {14.38.3.2}getFirstDate()}{277}{subsubsection.14.38.3.2}%
+\contentsline {subsubsection}{\numberline {14.38.3.3}getSecondDate()}{277}{subsubsection.14.38.3.3}%
+\contentsline {subsubsection}{\numberline {14.38.3.4}getText()}{277}{subsubsection.14.38.3.4}%
+\contentsline {subsubsection}{\numberline {14.38.3.5}isExact()}{277}{subsubsection.14.38.3.5}%
+\contentsline {subsubsection}{\numberline {14.38.3.6}isUnknown()}{277}{subsubsection.14.38.3.6}%
+\contentsline {subsubsection}{\numberline {14.38.3.7}readJson()}{277}{subsubsection.14.38.3.7}%
+\contentsline {subsubsection}{\numberline {14.38.3.8}setFirstDate()}{278}{subsubsection.14.38.3.8}%
+\contentsline {subsubsection}{\numberline {14.38.3.9}setSecondDate()}{278}{subsubsection.14.38.3.9}%
+\contentsline {subsubsection}{\numberline {14.38.3.10}setText()}{278}{subsubsection.14.38.3.10}%
+\contentsline {subsubsection}{\numberline {14.38.3.11}str()}{279}{subsubsection.14.38.3.11}%
+\contentsline {subsubsection}{\numberline {14.38.3.12}updateDate()}{279}{subsubsection.14.38.3.12}%
+\contentsline {subsection}{\numberline {14.38.4}Member Data Documentation}{279}{subsection.14.38.4}%
+\contentsline {subsubsection}{\numberline {14.38.4.1}date1\_}{279}{subsubsection.14.38.4.1}%
+\contentsline {subsubsection}{\numberline {14.38.4.2}date2\_}{279}{subsubsection.14.38.4.2}%
+\contentsline {subsubsection}{\numberline {14.38.4.3}text\_}{279}{subsubsection.14.38.4.3}%
+\contentsline {chapter}{\numberline {15}File Documentation}{281}{chapter.15}%
+\contentsline {section}{\numberline {15.1}core/config.cpp File Reference}{281}{section.15.1}%
+\contentsline {subsection}{\numberline {15.1.1}Detailed Description}{281}{subsection.15.1.1}%
+\contentsline {subsection}{\numberline {15.1.2}Function Documentation}{281}{subsection.15.1.2}%
+\contentsline {subsubsection}{\numberline {15.1.2.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{281}{subsubsection.15.1.2.1}%
+\contentsline {subsubsection}{\numberline {15.1.2.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{282}{subsubsection.15.1.2.2}%
+\contentsline {subsubsection}{\numberline {15.1.2.3}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{282}{subsubsection.15.1.2.3}%
+\contentsline {subsubsection}{\numberline {15.1.2.4}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{282}{subsubsection.15.1.2.4}%
+\contentsline {subsubsection}{\numberline {15.1.2.5}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{283}{subsubsection.15.1.2.5}%
+\contentsline {section}{\numberline {15.2}core/config.h File Reference}{283}{section.15.2}%
+\contentsline {subsection}{\numberline {15.2.1}Detailed Description}{284}{subsection.15.2.1}%
+\contentsline {subsection}{\numberline {15.2.2}Enumeration Type Documentation}{284}{subsection.15.2.2}%
+\contentsline {subsubsection}{\numberline {15.2.2.1}TabPosition}{284}{subsubsection.15.2.2.1}%
+\contentsline {subsubsection}{\numberline {15.2.2.2}Trait}{285}{subsubsection.15.2.2.2}%
+\contentsline {subsection}{\numberline {15.2.3}Function Documentation}{285}{subsection.15.2.3}%
+\contentsline {subsubsection}{\numberline {15.2.3.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{285}{subsubsection.15.2.3.1}%
+\contentsline {subsubsection}{\numberline {15.2.3.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{285}{subsubsection.15.2.3.2}%
+\contentsline {subsubsection}{\numberline {15.2.3.3}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{286}{subsubsection.15.2.3.3}%
+\contentsline {subsubsection}{\numberline {15.2.3.4}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{286}{subsubsection.15.2.3.4}%
+\contentsline {subsubsection}{\numberline {15.2.3.5}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{286}{subsubsection.15.2.3.5}%
+\contentsline {section}{\numberline {15.3}config.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{287}{section.15.3}%
+\contentsline {section}{\numberline {15.4}core/date.cpp File Reference}{289}{section.15.4}%
+\contentsline {subsection}{\numberline {15.4.1}Detailed Description}{289}{subsection.15.4.1}%
+\contentsline {subsection}{\numberline {15.4.2}Function Documentation}{289}{subsection.15.4.2}%
+\contentsline {subsubsection}{\numberline {15.4.2.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{289}{subsubsection.15.4.2.1}%
+\contentsline {subsubsection}{\numberline {15.4.2.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{290}{subsubsection.15.4.2.2}%
+\contentsline {section}{\numberline {15.5}core/date.h File Reference}{290}{section.15.5}%
+\contentsline {subsection}{\numberline {15.5.1}Detailed Description}{290}{subsection.15.5.1}%
+\contentsline {subsection}{\numberline {15.5.2}Function Documentation}{291}{subsection.15.5.2}%
+\contentsline {subsubsection}{\numberline {15.5.2.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{291}{subsubsection.15.5.2.1}%
+\contentsline {subsubsection}{\numberline {15.5.2.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{291}{subsubsection.15.5.2.2}%
+\contentsline {section}{\numberline {15.6}date.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{291}{section.15.6}%
+\contentsline {section}{\numberline {15.7}core/family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tree.cpp File Reference}{292}{section.15.7}%
+\contentsline {subsection}{\numberline {15.7.1}Detailed Description}{292}{subsection.15.7.1}%
+\contentsline {section}{\numberline {15.8}core/family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tree.h File Reference}{292}{section.15.8}%
+\contentsline {subsection}{\numberline {15.8.1}Detailed Description}{293}{subsection.15.8.1}%
+\contentsline {section}{\numberline {15.9}family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tree.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{293}{section.15.9}%
+\contentsline {section}{\numberline {15.10}core/family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tree\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}items.cpp File Reference}{295}{section.15.10}%
+\contentsline {subsection}{\numberline {15.10.1}Detailed Description}{295}{subsection.15.10.1}%
+\contentsline {subsection}{\numberline {15.10.2}Function Documentation}{295}{subsection.15.10.2}%
+\contentsline {subsubsection}{\numberline {15.10.2.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{295}{subsubsection.15.10.2.1}%
+\contentsline {subsubsection}{\numberline {15.10.2.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{295}{subsubsection.15.10.2.2}%
+\contentsline {subsubsection}{\numberline {15.10.2.3}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{296}{subsubsection.15.10.2.3}%
+\contentsline {section}{\numberline {15.11}core/family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tree\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}items.h File Reference}{296}{section.15.11}%
+\contentsline {subsection}{\numberline {15.11.1}Detailed Description}{297}{subsection.15.11.1}%
+\contentsline {subsection}{\numberline {15.11.2}Function Documentation}{297}{subsection.15.11.2}%
+\contentsline {subsubsection}{\numberline {15.11.2.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{297}{subsubsection.15.11.2.1}%
+\contentsline {subsubsection}{\numberline {15.11.2.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{297}{subsubsection.15.11.2.2}%
+\contentsline {subsubsection}{\numberline {15.11.2.3}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{298}{subsubsection.15.11.2.3}%
+\contentsline {section}{\numberline {15.12}family\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tree\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}items.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{298}{section.15.12}%
+\contentsline {section}{\numberline {15.13}core/file\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}parser.cpp File Reference}{299}{section.15.13}%
+\contentsline {subsection}{\numberline {15.13.1}Detailed Description}{299}{subsection.15.13.1}%
+\contentsline {section}{\numberline {15.14}core/file\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}parser.h File Reference}{300}{section.15.14}%
+\contentsline {subsection}{\numberline {15.14.1}Detailed Description}{301}{subsection.15.14.1}%
+\contentsline {section}{\numberline {15.15}file\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}parser.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{301}{section.15.15}%
+\contentsline {section}{\numberline {15.16}core/person.cpp File Reference}{302}{section.15.16}%
+\contentsline {subsection}{\numberline {15.16.1}Detailed Description}{302}{subsection.15.16.1}%
+\contentsline {subsection}{\numberline {15.16.2}Function Documentation}{302}{subsection.15.16.2}%
+\contentsline {subsubsection}{\numberline {15.16.2.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{302}{subsubsection.15.16.2.1}%
+\contentsline {subsubsection}{\numberline {15.16.2.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{302}{subsubsection.15.16.2.2}%
+\contentsline {subsubsection}{\numberline {15.16.2.3}printSizeTContainer()}{303}{subsubsection.15.16.2.3}%
+\contentsline {section}{\numberline {15.17}core/person.h File Reference}{303}{section.15.17}%
+\contentsline {subsection}{\numberline {15.17.1}Detailed Description}{304}{subsection.15.17.1}%
+\contentsline {subsection}{\numberline {15.17.2}Enumeration Type Documentation}{304}{subsection.15.17.2}%
+\contentsline {subsubsection}{\numberline {15.17.2.1}FileType}{304}{subsubsection.15.17.2.1}%
+\contentsline {subsubsection}{\numberline {15.17.2.2}Gender}{304}{subsubsection.15.17.2.2}%
+\contentsline {subsection}{\numberline {15.17.3}Function Documentation}{305}{subsection.15.17.3}%
+\contentsline {subsubsection}{\numberline {15.17.3.1}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{305}{subsubsection.15.17.3.1}%
+\contentsline {subsubsection}{\numberline {15.17.3.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{305}{subsubsection.15.17.3.2}%
+\contentsline {subsubsection}{\numberline {15.17.3.3}printSizeTContainer()}{305}{subsubsection.15.17.3.3}%
+\contentsline {section}{\numberline {15.18}person.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{306}{section.15.18}%
+\contentsline {section}{\numberline {15.19}core/strings.h File Reference}{307}{section.15.19}%
+\contentsline {subsection}{\numberline {15.19.1}Detailed Description}{315}{subsection.15.19.1}%
+\contentsline {subsection}{\numberline {15.19.2}Variable Documentation}{315}{subsection.15.19.2}%
+\contentsline {subsubsection}{\numberline {15.19.2.1}EMPTY\_STRING}{315}{subsubsection.15.19.2.1}%
+\contentsline {section}{\numberline {15.20}strings.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{315}{section.15.20}%
+\contentsline {section}{\numberline {15.21}graphics/dialogs.cpp File Reference}{318}{section.15.21}%
+\contentsline {subsection}{\numberline {15.21.1}Detailed Description}{318}{subsection.15.21.1}%
+\contentsline {section}{\numberline {15.22}graphics/dialogs.h File Reference}{318}{section.15.22}%
+\contentsline {subsection}{\numberline {15.22.1}Detailed Description}{319}{subsection.15.22.1}%
+\contentsline {section}{\numberline {15.23}dialogs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{320}{section.15.23}%
+\contentsline {section}{\numberline {15.24}graphics/graphics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}items.cpp File Reference}{323}{section.15.24}%
+\contentsline {subsection}{\numberline {15.24.1}Detailed Description}{324}{subsection.15.24.1}%
+\contentsline {subsection}{\numberline {15.24.2}Function Documentation}{324}{subsection.15.24.2}%
+\contentsline {subsubsection}{\numberline {15.24.2.1}containsForb()}{324}{subsubsection.15.24.2.1}%
+\contentsline {section}{\numberline {15.25}graphics/graphics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}items.h File Reference}{324}{section.15.25}%
+\contentsline {subsection}{\numberline {15.25.1}Detailed Description}{325}{subsection.15.25.1}%
+\contentsline {subsection}{\numberline {15.25.2}Enumeration Type Documentation}{325}{subsection.15.25.2}%
+\contentsline {subsubsection}{\numberline {15.25.2.1}ProjectItemType}{325}{subsubsection.15.25.2.1}%
+\contentsline {subsection}{\numberline {15.25.3}Function Documentation}{325}{subsection.15.25.3}%
+\contentsline {subsubsection}{\numberline {15.25.3.1}containsForb()}{325}{subsubsection.15.25.3.1}%
+\contentsline {section}{\numberline {15.26}graphics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}items.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{326}{section.15.26}%
+\contentsline {section}{\numberline {15.27}graphics/mainwindow.cpp File Reference}{327}{section.15.27}%
+\contentsline {subsection}{\numberline {15.27.1}Detailed Description}{327}{subsection.15.27.1}%
+\contentsline {section}{\numberline {15.28}graphics/mainwindow.h File Reference}{328}{section.15.28}%
+\contentsline {subsection}{\numberline {15.28.1}Detailed Description}{328}{subsection.15.28.1}%
+\contentsline {section}{\numberline {15.29}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{328}{section.15.29}%
+\contentsline {section}{\numberline {15.30}graphics/mainwindow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}slots.cpp File Reference}{331}{section.15.30}%
+\contentsline {subsection}{\numberline {15.30.1}Detailed Description}{331}{subsection.15.30.1}%
+\contentsline {section}{\numberline {15.31}graphics/resources/icons.md File Reference}{331}{section.15.31}%
+\contentsline {section}{\numberline {15.32}help texts/events.md File Reference}{331}{section.15.32}%
+\contentsline {section}{\numberline {15.33}help texts/files.md File Reference}{331}{section.15.33}%
+\contentsline {section}{\numberline {15.34}help texts/generic.md File Reference}{331}{section.15.34}%
+\contentsline {section}{\numberline {15.35}help texts/layout.md File Reference}{331}{section.15.35}%
+\contentsline {section}{\numberline {15.36}help texts/persons.md File Reference}{331}{section.15.36}%
+\contentsline {section}{\numberline {15.37}help texts/relations.md File Reference}{331}{section.15.37}%
+\contentsline {section}{\numberline {15.38}index.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{331}{section.15.38}%
+\contentsline {section}{\numberline {15.39}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{331}{section.15.39}%
+\contentsline {subsection}{\numberline {15.39.1}Detailed Description}{332}{subsection.15.39.1}%
+\contentsline {subsection}{\numberline {15.39.2}Function Documentation}{332}{subsection.15.39.2}%
+\contentsline {subsubsection}{\numberline {15.39.2.1}main()}{332}{subsubsection.15.39.2.1}%
+\contentsline {chapter}{Index}{333}{section*.178}%

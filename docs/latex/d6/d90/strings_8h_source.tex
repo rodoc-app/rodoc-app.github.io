@@ -1,0 +1,245 @@
+\doxysection{strings.\+h}
+\hypertarget{strings_8h_source}{}\label{strings_8h_source}\index{core/strings.h@{core/strings.h}}
+\mbox{\hyperlink{strings_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ strings\_h\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ strings\_h\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{strings_8h_aefd49a74af3b4afc27512f639bcc336f}{EMPTY\_STRING}}\ =\ \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00011\ \textcolor{comment}{//\ Person\ strings}}
+\DoxyCodeLine{00012\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceperson}{person}}\{}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceperson_aaf716b3c49aab658a9fc39edd93d3b77}{UNKNOWN\_STR}}\ =\ \textcolor{stringliteral}{"{}Unknown"{}};}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceperson_ae34618855c7397ab58243502b4c6d18f}{SURNAME\_STR}}\ =\ \textcolor{stringliteral}{"{}Surname"{}};}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceperson_aa39c2efaeb5eb557dfaac8dd42d2522c}{NAME\_STR}}\ =\ \textcolor{stringliteral}{"{}Name"{}};}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceperson_a6b09fd2f87482bec2d625e217c803ecc}{ROOT}}\ =\ \textcolor{stringliteral}{"{}root"{}};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceperson_a6d106c9842b30985968aa3ce2b476c00}{DATE\_FROM}}\ =\ \textcolor{stringliteral}{"{}From:\ "{}};}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceperson_ac10c40e7a401a8d6204b2605116b6737}{DATE\_TO}}\ =\ \textcolor{stringliteral}{"{}\ to:\ "{}};}
+\DoxyCodeLine{00028\ \}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00031\ \textcolor{comment}{//\ Tag\ chooser\ strings}}
+\DoxyCodeLine{00032\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacetagchooser}{tagchooser}}\{}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacetagchooser_a7838a00ea487462ef5089e121aff0f58}{CUSTOM\_TAG}}\ =\ \textcolor{stringliteral}{"{}+\ Custom\ tag"{}};}
+\DoxyCodeLine{00038\ \}}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00041\ \textcolor{comment}{//\ Add\ file}}
+\DoxyCodeLine{00042\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00045\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceaddfile}{addfile}}\{}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceaddfile_a3a12b2c9ed2e92fb9a0bc5015a81d71e}{NONE}}\ =\ \textcolor{stringliteral}{"{}None"{}};}
+\DoxyCodeLine{00048\ \}}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00051\ \textcolor{comment}{//\ General\ buttons\ texts.}}
+\DoxyCodeLine{00052\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00055\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacebutton}{button}}\{}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacebutton_a79df7037c483076d895270598c4c748c}{ADD\_NEW}}\ =\ \textcolor{stringliteral}{"{}Add\ new"{}};}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacebutton_a11a03a330af5a5cc4ac36dd6b18d5913}{CANCEL}}\ =\ \textcolor{stringliteral}{"{}Cancel"{}};}
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacebutton_adf10990dc342dbf828ea8e0c159414f7}{REMOVE}}\ =\ \textcolor{stringliteral}{"{}Remove"{}};}
+\DoxyCodeLine{00062\ \}}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00065\ \textcolor{comment}{//\ Exceptions\ and\ errors\ strings.}}
+\DoxyCodeLine{00066\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00069\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceerror}{error}}\{}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_a44d0a9f8aa2160cace94a4764312ce2a}{UNKNOWN\_EXCEP\_STR}}\ =\ \textcolor{stringliteral}{"{}Unknown\ exception\ catch."{}};}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_ad4f329640d531152675f4afc6bc80557}{EXCEPTION\_STR}}\ =\ \textcolor{stringliteral}{"{}Exception:\ "{}};}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_ab37556544dd781d3f6c5d3a5ec3d83c1}{CORRUPTED\_DATABASE}}\ =\ \textcolor{stringliteral}{"{}Given\ database\ is\ corrupted:\ "{}};}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_aa131b6e4dc34df1239f9ff7965a8a367}{EMPTY\_BOXES}}\ =\ \textcolor{stringliteral}{"{}All\ boxes\ must\ not\ be\ empty."{}};}
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_a4e3a09ad93a03885509bc2e3337ec88d}{NO\_CHOSEN\_FILE}}\ =\ \textcolor{stringliteral}{"{}No\ file\ was\ chosen."{}};}
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_acf665a76438c7865a88c375ea1174fec}{NO\_ROLE}}\ =\ \textcolor{stringliteral}{"{}Given\ role\ 'no\ role'\ cannot\ be\ used.\ It\ would\ be\ considered\ as\ no\ special\ role."{}};}
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceerror_a7ddec56158745b8060a062b2b07fab9c}{FORBIDDEN\_CHARS}}\ =\ \textcolor{stringliteral}{"{}Text\ cannot\ contain\ forbidden\ characters.\ \&lt;\ \&gt;\ \(\backslash\)"{}"{}};}
+\DoxyCodeLine{00084\ \}}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00087\ \textcolor{comment}{//\ Default\ relations.}}
+\DoxyCodeLine{00088\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00091\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacerelation}{relation}}\{}
+\DoxyCodeLine{00093\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ac7cf0b37661da2f7d125852692dd0d50}{FATHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Fatherhood"{}};}
+\DoxyCodeLine{00095\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a23733f116e3e0685e64500794526ac2d}{FATHERHOOD\_DESC}}\ =\ \textcolor{stringliteral}{"{}Relation\ between\ father\ and\ his\ child."{}};}
+\DoxyCodeLine{00097\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_acd1436bd4e962e98b37d501a63d7ca80}{FATHER}}\ =\ \textcolor{stringliteral}{"{}Father"{}};}
+\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a36082f0dafc3f49028bc05162b00e87e}{CHILD}}\ =\ \textcolor{stringliteral}{"{}Child"{}};}
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a072d048d3db9dfec4d47417d6fb80142}{MOTHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Motherhood"{}};}
+\DoxyCodeLine{00103\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ad7dd8a1d0831d555f7a368e3543885f4}{MOTHERHOOD\_DESC}}\ =\ \textcolor{stringliteral}{"{}Relation\ between\ mother\ and\ her\ child."{}};}
+\DoxyCodeLine{00105\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ad73dac9cb4e50c8e0fdadef6123ba087}{MOTHER}}\ =\ \textcolor{stringliteral}{"{}Mother"{}};}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_af62335ea39a1e38e7b28cf6a588ae33c}{PARTNERSHIP}}\ =\ \textcolor{stringliteral}{"{}Partnership"{}};}
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a87a4e2093d859f2a3c062c5353a7696c}{PARTNERSHIP\_DESC}}\ =\ \textcolor{stringliteral}{"{}Relation\ between\ two\ partners."{}};}
+\DoxyCodeLine{00111\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ae5707eec5f36c4367be7d91236c09938}{PARTNER}}\ =\ \textcolor{stringliteral}{"{}Partner"{}};}
+\DoxyCodeLine{00113\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ac9e708f3475333b418b9fb3f65cf9f9c}{MARRIAGE}}\ =\ \textcolor{stringliteral}{"{}Marriage"{}};}
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ad9edebd4b623a49282644de9f166e76b}{MARRIAGE\_DESC}}\ =\ \textcolor{stringliteral}{"{}Bound\ by\ law\ between\ two\ people.\ Usually\ a\ man\ (husband)\ and\ a\ woman\ (wife)."{}};}
+\DoxyCodeLine{00117\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a79ba053d1d8c1182500fa8e39aa974fb}{WIFE}}\ =\ \textcolor{stringliteral}{"{}Wife"{}};}
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ab39a163245a0fa2751ae7351b2ce3f28}{HUSBAND}}\ =\ \textcolor{stringliteral}{"{}Husband"{}};}
+\DoxyCodeLine{00121\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ac277b41a02bb1f23114b73e073118d82}{ADOPTIVE\_FATHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Adoptive\ fatherhood"{}};}
+\DoxyCodeLine{00123\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a5d16793f3a48903d80c19b939705ca70}{DESC\_ADOPTIVE\_FATHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Fatherhood\ provided\ by\ adopting\ a\ child."{}};}
+\DoxyCodeLine{00125\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_acabd9be9bb9e2be3d5a015c200f630ca}{ADOPTIVE\_FATHER}}\ =\ \textcolor{stringliteral}{"{}Adoptive\ father"{}};}
+\DoxyCodeLine{00127\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a38b10fd0478ffe0aff7785776b966d8c}{ADOPTED\_CHILD}}\ =\ \textcolor{stringliteral}{"{}Adopted\ child"{}};}
+\DoxyCodeLine{00129\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a0b421fd3eed7d815c8a3f485d6a61af7}{ADOPTIVE\_MOTHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Adoptive\ motherhood"{}};}
+\DoxyCodeLine{00131\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a22605542f3c015bc5516ef09d3bba982}{DESC\_ADOPTIVE\_MOTHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Motherhood\ provided\ by\ adopting\ a\ child."{}};}
+\DoxyCodeLine{00133\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_ac6d2616e9d657f1eb6269d9b7f33c1a8}{ADOPTIVE\_MOTHER}}\ =\ \textcolor{stringliteral}{"{}Adoptive\ mother"{}};}
+\DoxyCodeLine{00135\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_aed1ffcb5c797bf643a5dfb405a12affd}{BROTHERHHOD}}\ =\ \textcolor{stringliteral}{"{}Brotherhood"{}};}
+\DoxyCodeLine{00137\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_acea3ca123e2324193d81a6148e9a65df}{DESC\_BROTHERHOOD}}\ =\ \textcolor{stringliteral}{"{}Relation\ between\ two\ brothers."{}};}
+\DoxyCodeLine{00139\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a426cb7328f913aa0302b7882220223a5}{BROTHER}}\ =\ \textcolor{stringliteral}{"{}Brother"{}};}
+\DoxyCodeLine{00141\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a65e5758791cb5977f3ca86bcad47c4fa}{SISTERHOOD}}\ =\ \textcolor{stringliteral}{"{}Sisterhood"{}};}
+\DoxyCodeLine{00143\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_af4d2d8c7ad14403c22c159804230f051}{DESC\_SISTERHOOD}}\ =\ \textcolor{stringliteral}{"{}Relation\ between\ two\ sisters."{}};}
+\DoxyCodeLine{00145\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a5154b460b58e1e743502dc864c3c13d8}{SISTER}}\ =\ \textcolor{stringliteral}{"{}Sister"{}};}
+\DoxyCodeLine{00147\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a2bc24bb59a472f5888a99ba7fa333d8d}{SIBLINGS}}\ =\ \textcolor{stringliteral}{"{}Siblings"{}};}
+\DoxyCodeLine{00149\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacerelation_a058c59d5f993a5ef445dfac2f5414c09}{DESC\_SIBLINGS}}\ =\ \textcolor{stringliteral}{"{}Relation\ between\ brother\ and\ sister."{}};}
+\DoxyCodeLine{00150\ \}}
+\DoxyCodeLine{00151\ }
+\DoxyCodeLine{00152\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00153\ \textcolor{comment}{//\ Default\ events.}}
+\DoxyCodeLine{00154\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00155\ }
+\DoxyCodeLine{00157\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceevents}{events}}\{}
+\DoxyCodeLine{00159\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_ae9df5293c34b27a7568a307810e3e109}{WEDDING}}\ =\ \textcolor{stringliteral}{"{}Wedding"{}};}
+\DoxyCodeLine{00161\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a54124c0914fd6daddc508dfd68671b31}{DESC\_WEDDING}}\ =\ \textcolor{stringliteral}{"{}A\ social\ event\ mainly\ between\ soon\ to\ be\ wife\ and\ husband."{}};;}
+\DoxyCodeLine{00163\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_aebf444430cff1a0dff9da71634845712}{GROOM}}\ =\ \textcolor{stringliteral}{"{}Groom"{}};}
+\DoxyCodeLine{00165\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a5b5413982e166874ec06bfc3f21443b2}{BRIDE}}\ =\ \textcolor{stringliteral}{"{}Bride"{}};}
+\DoxyCodeLine{00167\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a4782949adfc0018976d927cfc87b69c5}{BEST\_MAN}}\ =\ \textcolor{stringliteral}{"{}Best\ man"{}};}
+\DoxyCodeLine{00169\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a9da407d09159c77d631eae592c57adf4}{MAID\_OF\_HONOR}}\ =\ \textcolor{stringliteral}{"{}Maid\ of\ Honor"{}};}
+\DoxyCodeLine{00171\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a9b55f47ab68b93986d94bc092f054551}{DIVORCE}}\ =\ \textcolor{stringliteral}{"{}Divorce"{}};}
+\DoxyCodeLine{00173\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_acfa0e4be5f7b4dea1a8a3768502a068c}{DESC\_DIVORCE}}\ =\ \textcolor{stringliteral}{"{}Divorce\ is\ the\ process\ of\ terminating\ a\ marriage\ or\ marital\ union."{}};}
+\DoxyCodeLine{00175\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a9d0ed181e323dcb49047bad30fbc4545}{FORMER\_HUSBAND}}\ =\ \textcolor{stringliteral}{"{}Former\ husband"{}};}
+\DoxyCodeLine{00177\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_abbc140aac8bfcae5b30d108498a4f0b7}{FORMER\_WIFE}}\ =\ \textcolor{stringliteral}{"{}Former\ wife"{}};}
+\DoxyCodeLine{00179\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a414975df6ebbc5c5b813a55ee6d8c66a}{FUNERAL}}\ =\ \textcolor{stringliteral}{"{}Funeral"{}};}
+\DoxyCodeLine{00181\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_ae0e10dbb194fa66abdea031f15f02d4e}{DESC\_FUNERAL}}\ =\ \textcolor{stringliteral}{"{}A\ funeral\ is\ a\ ceremony\ connected\ with\ the\ final\ disposition\ of\ a\ corpse,\ such\ as\ a\ burial\ or\ cremation,\ with\ the\ attendant\ observances."{}};}
+\DoxyCodeLine{00183\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a58a74b82479fefb7033d2103f21ea6de}{DEAD\_PERSON}}\ =\ \textcolor{stringliteral}{"{}Dead\ person"{}};}
+\DoxyCodeLine{00185\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a92cbf048cd09b15114b316f1f91a6a5e}{GRADUATION}}\ =\ \textcolor{stringliteral}{"{}Graduation"{}};}
+\DoxyCodeLine{00187\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a9e8b611f4e58bd662b791d0c21b307f8}{DESC\_GRADUATION}}\ =\ \textcolor{stringliteral}{"{}Graduation\ is\ the\ awarding\ of\ a\ diploma\ to\ a\ student\ by\ an\ educational\ institution."{}};}
+\DoxyCodeLine{00189\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a78db4b129aa0dfcce53590e5a491a4c9}{GRADUATE}}\ =\ \textcolor{stringliteral}{"{}Graduate"{}};}
+\DoxyCodeLine{00191\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespaceevents_a5f4da347a69ca7e764cf1982bd419109}{NO\_ROLE}}\ =\ \textcolor{stringliteral}{"{}no\ role"{}};}
+\DoxyCodeLine{00192\ \}}
+\DoxyCodeLine{00193\ }
+\DoxyCodeLine{00194\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00195\ \textcolor{comment}{//\ HTML\ Tags\ and\ everything\ with\ html.}}
+\DoxyCodeLine{00196\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00197\ }
+\DoxyCodeLine{00199\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacehtml}{html}}\{}
+\DoxyCodeLine{00201\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_af5a34d564cbef308beafc86637db15f3}{RESOURCES}}\ =\ \textcolor{stringliteral}{"{}resources"{}};}
+\DoxyCodeLine{00203\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_acf0053cda1390bfd2ce39eb04abe01bb}{PREFIX\_CLOSE}}\ =\ \textcolor{stringliteral}{"{}/close-\/"{}};}
+\DoxyCodeLine{00205\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_af2fbeec06af95daef7127e817d1bdcb2}{PREFIX\_FAMILY\_TREE}}\ =\ \textcolor{stringliteral}{"{}/tree-\/"{}};}
+\DoxyCodeLine{00207\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a65b28b18f5a26ee42c1ba9956c35a339}{CUSTOM\_CSS}}\ =\ \textcolor{stringliteral}{"{}styles.css"{}};}
+\DoxyCodeLine{00209\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_aca730c5f28edffecc97a37b3206c0a94}{GENERAL\_INFO}}\ =\ \textcolor{stringliteral}{"{}General\ information"{}};}
+\DoxyCodeLine{00211\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a2f804e9782cffd35cd5e2504b65bee64}{BIRTH\_DATE}}\ =\ \textcolor{stringliteral}{"{}Birth\ date:\ "{}};}
+\DoxyCodeLine{00213\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_aa4e603d3d618ddef716c4f735876d640}{BIRTH\_PLACE}}\ =\ \textcolor{stringliteral}{"{}Birth\ place:\ "{}};}
+\DoxyCodeLine{00215\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_acf961889796216172525c444aa96c3bf}{DEATH\_DATE}}\ =\ \textcolor{stringliteral}{"{}Date\ of\ death:\ "{}};}
+\DoxyCodeLine{00217\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a59e1df31d07b419a9859e3027609fd74}{DEATH\_PLACE}}\ =\ \textcolor{stringliteral}{"{}Place\ of\ death:\ "{}};}
+\DoxyCodeLine{00219\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_ad7bc5f98b17851e97f58ae01c6b6fa69}{GENDER}}\ =\ \textcolor{stringliteral}{"{}Gender:\ "{}};}
+\DoxyCodeLine{00221\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_aad1929b60509d94657ed4328cd2e55b8}{CUSTOM\_TAGS}}\ =\ \textcolor{stringliteral}{"{}Custom\ tags:"{}};}
+\DoxyCodeLine{00223\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_acd7ee7aa1be1cdaa330085ba3fb13f7d}{DESCRIPTION}}\ =\ \textcolor{stringliteral}{"{}Description:"{}};}
+\DoxyCodeLine{00225\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a2c065394554381f343347eb8a68117d9}{NOTE}}\ =\ \textcolor{stringliteral}{"{}Note:"{}};}
+\DoxyCodeLine{00227\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_af3516461fc772f196bbba188bd99094c}{DATE}}\ =\ \textcolor{stringliteral}{"{}Date:\ "{}};}
+\DoxyCodeLine{00229\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a7cfcba0c7249ed0d0cbf49f8cccb0366}{PLACE}}\ =\ \textcolor{stringliteral}{"{}Place:\ "{}};}
+\DoxyCodeLine{00231\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a987b88ff55f1b3018169da718d561225}{PERSONS}}\ =\ \textcolor{stringliteral}{"{}Persons:"{}};}
+\DoxyCodeLine{00233\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a87c472521653aca3ac15c234979fa1cf}{ALL\_PERSONS}}\ =\ \textcolor{stringliteral}{"{}All\ persons"{}};}
+\DoxyCodeLine{00235\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_ac16829145c43bf5aa398a184630f1b95}{EVENTS}}\ =\ \textcolor{stringliteral}{"{}Events"{}};}
+\DoxyCodeLine{00237\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_afca5696d0ca7498922a7bd8ccd3b9cde}{FAMILY\_TREE}}\ =\ \textcolor{stringliteral}{"{}Family\ tree"{}};}
+\DoxyCodeLine{00239\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a0583a572ca049146136a103f0a5d1c2a}{FAMILY\_TREE\_DIAGRAM}}\ =\ \textcolor{stringliteral}{"{}Family\ tree\ diagram"{}};}
+\DoxyCodeLine{00241\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a374562be55137d4988b20941ed4a268a}{RELATIONS}}\ =\ \textcolor{stringliteral}{"{}Relations"{}};}
+\DoxyCodeLine{00243\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_a24f82d8b60c4fe1d1a3c3c8c5c1b0866}{CLOSE\_FAMILY}}\ =\ \textcolor{stringliteral}{"{}Close\ family"{}};}
+\DoxyCodeLine{00245\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacehtml_af2d35dcbf60c175e727bf309c03723d6}{CLOSE\_FAMILY\_DIAGRAM}}\ =\ \textcolor{stringliteral}{"{}Close\ family\ diagram"{}};}
+\DoxyCodeLine{00246\ \}}
+\DoxyCodeLine{00247\ }
+\DoxyCodeLine{00248\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00249\ \textcolor{comment}{//\ JSON\ Labels.}}
+\DoxyCodeLine{00250\ \textcolor{comment}{//\ =====================================================================}}
+\DoxyCodeLine{00251\ }
+\DoxyCodeLine{00253\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacejsonlabel}{jsonlabel}}\{}
+\DoxyCodeLine{00255\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae6fa4c0c03ba1cd048f51cae06145312}{TITLE}}\ =\ \textcolor{stringliteral}{"{}title"{}};}
+\DoxyCodeLine{00257\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a5a6aa47a55506035135a467b48a64672}{ID}}\ =\ \textcolor{stringliteral}{"{}id"{}};}
+\DoxyCodeLine{00259\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a613e18f997baee0dc7c4bfe822ba6bc5}{DESCRIPTION}}\ =\ \textcolor{stringliteral}{"{}description"{}};}
+\DoxyCodeLine{00261\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ac4085e7bbc04bba41fd8a64412f16e62}{CONTAINS\_DATE}}\ =\ \textcolor{stringliteral}{"{}contains\ date"{}};}
+\DoxyCodeLine{00263\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a89df135cb186c8a643eca3039bf07782}{MORE\_PEOPLE}}\ =\ \textcolor{stringliteral}{"{}more\ people"{}};}
+\DoxyCodeLine{00265\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a0c0c297f0a823f132d768286d97aef00}{SPECIAL\_ROLES}}\ =\ \textcolor{stringliteral}{"{}special\ roles"{}};}
+\DoxyCodeLine{00267\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_af19ee18220ee72f3bbeb8767ed0581e8}{NAME}}\ =\ \textcolor{stringliteral}{"{}name"{}};}
+\DoxyCodeLine{00269\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a05c82cb0df55fac261b0467ea2779f07}{FIRST\_NAME}}\ =\ \textcolor{stringliteral}{"{}first\ name"{}};}
+\DoxyCodeLine{00271\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_abf122ffb2e0010a30bcb1e6a89d5d2d8}{SECOND\_NAME}}\ =\ \textcolor{stringliteral}{"{}second\ name"{}};}
+\DoxyCodeLine{00273\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a7d3df959bb6d6e6c30a48e06257e7aaf}{TRAIT}}\ =\ \textcolor{stringliteral}{"{}trait"{}};}
+\DoxyCodeLine{00275\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \ \mbox{\hyperlink{namespacejsonlabel_a0342469a818a3b71c774de8dddd0a325}{GEN\_DIFF}}\ =\ \textcolor{stringliteral}{"{}generation\ difference"{}};}
+\DoxyCodeLine{00277\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae9bc0afa2ba89670a34aeb1a272fe96c}{REL\_TEMPL}}\ =\ \textcolor{stringliteral}{"{}relation\ templates"{}};}
+\DoxyCodeLine{00279\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a06475d85417ef82f4310debec7105fca}{EVE\_TEMPL}}\ =\ \textcolor{stringliteral}{"{}event\ templates"{}};}
+\DoxyCodeLine{00281\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a9411ac7704a8fcc4cd7b8b98bc963068}{TYPE}}\ =\ \textcolor{stringliteral}{"{}type"{}};}
+\DoxyCodeLine{00283\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a391cc426ed5f2cc0d1174304ec0d5ac8}{DATE}}\ =\ \textcolor{stringliteral}{"{}date"{}};}
+\DoxyCodeLine{00285\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae604e6aa1f81d9a03c2618bbfd5491e7}{LAST\_DATE}}\ =\ \textcolor{stringliteral}{"{}last\ date"{}};}
+\DoxyCodeLine{00287\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a22a683d047a116674e9568dfef7eed18}{TEXT}}\ =\ \textcolor{stringliteral}{"{}text"{}};}
+\DoxyCodeLine{00289\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae7ca4f720dba7b82767bf84db2626aac}{TAGS}}\ =\ \textcolor{stringliteral}{"{}tags"{}};}
+\DoxyCodeLine{00291\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a26f0bbe7f45e2c16747c37dea6e5bd0f}{TAG}}\ =\ \textcolor{stringliteral}{"{}tag"{}};}
+\DoxyCodeLine{00293\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ad76834c31cd937a3e91934ff15287324}{RELATIONS}}\ =\ \textcolor{stringliteral}{"{}relations"{}};}
+\DoxyCodeLine{00295\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aa93a9c646821e91b4b526a61aaf35da0}{EVENTS}}\ =\ \textcolor{stringliteral}{"{}events"{}};}
+\DoxyCodeLine{00297\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a0e275c2e0364c6a598dd331acece9aa6}{SURNAME}}\ =\ \textcolor{stringliteral}{"{}surname"{}};}
+\DoxyCodeLine{00299\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aab4c69e3f378121fa3241cf239abc03c}{MAIDEN\_NAME}}\ =\ \textcolor{stringliteral}{"{}maiden\ name"{}};}
+\DoxyCodeLine{00301\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a688b738d75e5a44cca359535364d6945}{VALUE}}\ =\ \textcolor{stringliteral}{"{}value"{}};}
+\DoxyCodeLine{00303\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_af84a883c08f28baace45d24e3184ca77}{BIRTH}}\ =\ \textcolor{stringliteral}{"{}birth"{}};}
+\DoxyCodeLine{00305\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a66e0e479d075864419ad715d2726a628}{DEATH}}\ =\ \textcolor{stringliteral}{"{}death"{}};}
+\DoxyCodeLine{00307\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae9baea46021ce7f032be534b72817555}{VIRTUAL\_DRIVE}}\ =\ \textcolor{stringliteral}{"{}virtual\ drive"{}};}
+\DoxyCodeLine{00309\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a88a3ad871b23922bbf7992b126cafbb9}{MEDIA}}\ =\ \textcolor{stringliteral}{"{}media"{}};}
+\DoxyCodeLine{00311\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aa9dedba89cfb8b150aa38d2fed85ce39}{NOTES}}\ =\ \textcolor{stringliteral}{"{}notes"{}};}
+\DoxyCodeLine{00313\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ad7ac1939f6c81eed59c272795ccc6b45}{FILES}}\ =\ \textcolor{stringliteral}{"{}files"{}};}
+\DoxyCodeLine{00315\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_adf59023a1e3644fb5402d0de0e921a32}{PERSONS}}\ =\ \textcolor{stringliteral}{"{}persons"{}};}
+\DoxyCodeLine{00317\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a8dfb4e9ddd107448034c7a3578c915d9}{TEMPLATE}}\ =\ \textcolor{stringliteral}{"{}template"{}};}
+\DoxyCodeLine{00319\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a896fa747430a5f2ede28796abd7598f0}{TEMPLATES}}\ =\ \textcolor{stringliteral}{"{}templates"{}};}
+\DoxyCodeLine{00321\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae6e87f1b81121f2d8e913e621d36ab53}{FIRST\_PERSON}}\ =\ \textcolor{stringliteral}{"{}first\ person"{}};}
+\DoxyCodeLine{00323\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_abc8adcfefe378cbb990f16f2ec556a6b}{SECOND\_PERSON}}\ =\ \textcolor{stringliteral}{"{}second\ person"{}};}
+\DoxyCodeLine{00325\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a534e81277fa2aebd9679a3c4bbce3a4e}{PLACE}}\ =\ \textcolor{stringliteral}{"{}place"{}};}
+\DoxyCodeLine{00327\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ac04d7595edd2a2cf3fbe9794f8ade497}{ROLE}}\ =\ \textcolor{stringliteral}{"{}role"{}};}
+\DoxyCodeLine{00329\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ad5eaa7b0c3563af53a84aab510a7ff94}{PERSON}}\ =\ \textcolor{stringliteral}{"{}person"{}};}
+\DoxyCodeLine{00331\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a827bd570f2904d309d611afa9f5792ed}{GENDER}}\ =\ \textcolor{stringliteral}{"{}gender"{}};}
+\DoxyCodeLine{00333\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a8613b4f30a8f0db1f62edc3cd53ea2ff}{LIVES}}\ =\ \textcolor{stringliteral}{"{}lives"{}};}
+\DoxyCodeLine{00335\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a43ce1cd51cfddf71c4edb489d9e178e8}{FRONT\_TITLE}}\ =\ \textcolor{stringliteral}{"{}title\ in\ front"{}};}
+\DoxyCodeLine{00337\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a3bf450dc81ba171fa5e756e7752534aa}{AFTER\_TITLE}}\ =\ \textcolor{stringliteral}{"{}title\ after"{}};}
+\DoxyCodeLine{00339\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a15a9bd71c6abca327efd8e713f3848ad}{FATHER}}\ =\ \textcolor{stringliteral}{"{}father"{}};}
+\DoxyCodeLine{00341\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aa96e940fda0eb4373869270ff7acdae4}{MOTHER}}\ =\ \textcolor{stringliteral}{"{}mother"{}};}
+\DoxyCodeLine{00343\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a903d1c94ecdf10d497ad310d3f3580f0}{PARTNER}}\ =\ \textcolor{stringliteral}{"{}partner"{}};}
+\DoxyCodeLine{00345\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_adb0fe1342b6c9244f263c6f670b1836b}{MOVEABLE\_TABS}}\ =\ \textcolor{stringliteral}{"{}moveable\ tabs"{}};}
+\DoxyCodeLine{00347\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aec532fa430e4f97336db3065442f0023}{TAB\_POSITION}}\ =\ \textcolor{stringliteral}{"{}tab\ position"{}};}
+\DoxyCodeLine{00349\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae4f20c80cf2eb74a29d7f2bb066ce393}{GLOBAL\_MAIN\_PERSON}}\ =\ \textcolor{stringliteral}{"{}global\ main\ person"{}};}
+\DoxyCodeLine{00351\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ab925e4aaf10f40f197b35d93cb95e9a7}{CONTAINS\_PLACE}}\ =\ \textcolor{stringliteral}{"{}contains\ place"{}};}
+\DoxyCodeLine{00353\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a0ce1ed309a57b9ba881036810412b8a8}{SHOW\_GENERAL\_TAB}}\ =\ \textcolor{stringliteral}{"{}show\ general\ tab"{}};}
+\DoxyCodeLine{00355\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a90c9b90dd46954d8e589f3bfb5096112}{SHOW\_EVENT\_TAB}}\ =\ \textcolor{stringliteral}{"{}show\ event\ tab"{}};}
+\DoxyCodeLine{00357\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a06aa8a661760172233ad7bff0070cb92}{SHOW\_FILE\_TAB}}\ =\ \textcolor{stringliteral}{"{}show\ file\ tab"{}};}
+\DoxyCodeLine{00359\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a0a4e1cb34366493f88dccb3784374d0d}{SHOW\_MEDIA\_TAB}}\ =\ \textcolor{stringliteral}{"{}show\ media\ tab"{}};}
+\DoxyCodeLine{00361\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a56f15ca608d06cfc3142afaa5fa0c467}{SHOW\_NOTE\_TAB}}\ =\ \textcolor{stringliteral}{"{}show\ note\ tab"{}};}
+\DoxyCodeLine{00363\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ab44133cde61aae239abfd30093f41f61}{SHOW\_RELATION\_TAB}}\ =\ \textcolor{stringliteral}{"{}show\ relation\ tab"{}};}
+\DoxyCodeLine{00365\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a624ed7683c164bf260b882c56d25aed3}{APP\_SETTINGS}}\ =\ \textcolor{stringliteral}{"{}app\ settings"{}};}
+\DoxyCodeLine{00367\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a94ec130080e485c44f370523ad7844f4}{DRIVES}}\ =\ \textcolor{stringliteral}{"{}drives"{}};}
+\DoxyCodeLine{00369\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_acb13120452c1b61ed60dce86c44badde}{EXPORT}}\ =\ \textcolor{stringliteral}{"{}export"{}};}
+\DoxyCodeLine{00371\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a2ee04aaf6c2f18d67afe10d5ca22ca3e}{RED}}\ =\ \textcolor{stringliteral}{"{}red"{}};}
+\DoxyCodeLine{00373\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ad9738e9ee5a050bf400f3d708496d68e}{BLUE}}\ =\ \textcolor{stringliteral}{"{}blue"{}};}
+\DoxyCodeLine{00375\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ac6a8c7b197e7caf1e843f3f3cafe07aa}{GREEN}}\ =\ \textcolor{stringliteral}{"{}green"{}};}
+\DoxyCodeLine{00377\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a0d1b6c6b6ef0a70f7773613525c0698b}{FONT\_FAMILY}}\ =\ \textcolor{stringliteral}{"{}font\ family"{}};}
+\DoxyCodeLine{00379\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ac055a754cac534843f013528c7760ba2}{FONT\_SIZE}}\ =\ \textcolor{stringliteral}{"{}font\ size"{}};}
+\DoxyCodeLine{00381\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aad6edbb262d36a4a7ac0389a26e5e7d8}{HIGHLIGHTED\_COLOR}}\ =\ \textcolor{stringliteral}{"{}highlighted\ color"{}};}
+\DoxyCodeLine{00383\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aeec391e5975f8d3090c850fa835a3928}{PROBANT\_COLOR}}\ =\ \textcolor{stringliteral}{"{}proband\ color"{}};}
+\DoxyCodeLine{00385\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a5aa6860b4cd3f3a7b8649ff80a6e5e3a}{PROMOTED\_COLOR}}\ =\ \textcolor{stringliteral}{"{}promoted\ color"{}};}
+\DoxyCodeLine{00387\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a0b6ad0e70f6bfb95f83f85eeb1a43646}{STANDARD\_COLOR}}\ =\ \textcolor{stringliteral}{"{}standard\ color"{}};}
+\DoxyCodeLine{00389\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a24533d07785e53167681fc86c7587165}{X\_SIZE}}\ =\ \textcolor{stringliteral}{"{}x\ size"{}};}
+\DoxyCodeLine{00391\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a20b737ed4bb9c886708eea67b27def2b}{Y\_SIZE}}\ =\ \textcolor{stringliteral}{"{}y\ size"{}};}
+\DoxyCodeLine{00393\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ae2792da38992ac47f774b0f7b50971fd}{GEN\_SIZE\_UP}}\ =\ \textcolor{stringliteral}{"{}number\ of\ generations\ up"{}};}
+\DoxyCodeLine{00395\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a3e4fdf0eb3c92f0a059516053aa8d950}{GEN\_SIZE\_DOWN}}\ =\ \textcolor{stringliteral}{"{}number\ of\ generations\ down"{}};}
+\DoxyCodeLine{00397\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a4cb9beba87b4c42411b90882e0a79b28}{DIR}}\ =\ \textcolor{stringliteral}{"{}dir"{}};}
+\DoxyCodeLine{00399\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_aead0efe143c7e80222ebc4e3554d1ac2}{ROOT}}\ =\ \textcolor{stringliteral}{"{}root"{}};}
+\DoxyCodeLine{00401\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a8e811d1415a85e7d2682401b46837792}{HELP}}\ =\ \textcolor{stringliteral}{"{}help"{}};}
+\DoxyCodeLine{00403\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ab782ca745851778c389f9e062a96cbd7}{SPLITTER\_POSITION\_ONE}}\ =\ \textcolor{stringliteral}{"{}splitter\ position\ one"{}};}
+\DoxyCodeLine{00405\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_ab3812eb7ae143b987839202d38f76c30}{SPLITTER\_POSITION\_TWO}}\ =\ \textcolor{stringliteral}{"{}splitter\ position\ two"{}};}
+\DoxyCodeLine{00407\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a1797e6d5d01c8fe6ebf551a57fe19bbf}{TEXT\_COLOR}}\ =\ \textcolor{stringliteral}{"{}text\ color"{}};}
+\DoxyCodeLine{00409\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a003e0b6f98237c067681ec5534190adb}{LINE\_COLOR}}\ =\ \textcolor{stringliteral}{"{}line\ color"{}};}
+\DoxyCodeLine{00411\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a01ec98ad05a8c123812f436b2ff34887}{LINE\_WIDTH}}\ =\ \textcolor{stringliteral}{"{}line\ width"{}};}
+\DoxyCodeLine{00413\ \ \ \ \ \textcolor{keyword}{const}\ std::string\ \mbox{\hyperlink{namespacejsonlabel_a2db1911d08277c33906a15d43151c955}{BORDER\_RADIUS}}\ =\ \textcolor{stringliteral}{"{}radius"{}};}
+\DoxyCodeLine{00414\ \}}
+\DoxyCodeLine{00415\ }
+\DoxyCodeLine{00416\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

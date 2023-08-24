@@ -1,0 +1,34 @@
+\chapter{Events}
+\hypertarget{md_help_01texts_2events}{}\label{md_help_01texts_2events}\index{Events@{Events}}
+\label{md_help_01texts_2events_autotoc_md0}%
+\Hypertarget{md_help_01texts_2events_autotoc_md0}%
+ {\bfseries{\doxylink{classEvent}{Event}}} entity allows to describe a particular event and associate it with the following pieces of information\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{\doxylink{classDate}{Date}}} (e.\+g., {\itshape 20. 7. 2023})
+\item {\bfseries{Place}} (e.\+g., {\itshape Prague, Czech Republic})
+\item {\bfseries{List of an arbitrary number of persons}} acting as participants
+\end{DoxyItemize}
+
+In order to make the concept of events more generic and not limit ourselves to certain hard-\/wired event types only, each event is derived from a particular {\bfseries{event template}}.\hypertarget{md_help_01texts_2events_autotoc_md1}{}\doxysection{\texorpdfstring{Event Templates}{Event Templates}}\label{md_help_01texts_2events_autotoc_md1}
+Each template has the following characteristics\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Title}} (e.\+g., {\itshape Wedding})
+\item {\bfseries{Description}} (e.\+g., {\itshape A social event mainly between soon to be wife and husband.})
+\item Flag activating a {\bfseries{date}} (e.\+g., {\itshape enabled})
+\item Flag activating a {\bfseries{place}} (e.\+g., {\itshape disabled})
+\item Arbitrary number of {\bfseries{roles}} allowing to distinguish individual {\bfseries{participating persons}} (e.\+g., {\itshape groom}, {\itshape bride}, ...)
+\item Flag allowing {\bfseries{additional participating persons}} without any roles assigned
+\end{DoxyItemize}\hypertarget{md_help_01texts_2events_autotoc_md2}{}\doxysection{\texorpdfstring{Predefined Templates}{Predefined Templates}}\label{md_help_01texts_2events_autotoc_md2}
+\doxylink{classEvent}{Event} templates must be created first before they can be used. While it is possible to introduce specific user-\/defined templates, several widely used templates were already predefined and are available for import\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Wedding}}
+\item {\bfseries{Divorce}}
+\item {\bfseries{Funeral}}
+\item {\bfseries{Graduation}} 
+\end{DoxyItemize}

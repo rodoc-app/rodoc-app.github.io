@@ -1,0 +1,62 @@
+\doxysection{date.\+h}
+\hypertarget{date_8h_source}{}\label{date_8h_source}\index{core/date.h@{core/date.h}}
+\mbox{\hyperlink{date_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ date\_h\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ date\_h\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <ostream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <ctime>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{strings_8h}{strings.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classDate}{Date}}\{}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00019\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classDate}{Date}}(\textcolor{keywordtype}{int}\ y\ =\ 0,\ \textcolor{keywordtype}{int}\ m\ =\ 0,\ \textcolor{keywordtype}{int}\ d\ =\ 0);}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classDate_a0f253815240e70f4c39cb93cc68bd3f4}{getDay}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classDate_a332f6e3a2f6a40d73742b6dab7be0f64}{getMonth}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classDate_a8b0869f34c2b38d108ab83ee2e770e5d}{getYear}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classDate_a48b353cea2187ad1522bd529fac32880}{isEmpty}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classDate_ae592a9668598c4177683994f4a4ee9bb}{isExact}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDate_a6a4eef59ffef0d373d9883cf0cb7ac70}{read}}(\textcolor{keyword}{const}\ std::string\&\ date);}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDate_a785b3d8fbce101d565528b9032cea462}{setDay}}(\textcolor{keywordtype}{int}\ d);}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDate_ab137497d665577fb8a5e964eafd7dbfd}{setMonth}}(\textcolor{keywordtype}{int}\ m);}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDate_ae50d821702b1998f10487e6eee3f4785}{setYear}}(\textcolor{keywordtype}{int}\ y);}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classDate_a52423df3bb205ab734915faee9018173}{str}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classDate_a5b192adcabf2b2871e3f0b76c1ec1601}{day}};}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classDate_a533843e07c6ac8d19fee9b16f5336ba2}{month}};}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classDate_a3eeced2ed56bc95d56782b9e738db8ea}{year}};}
+\DoxyCodeLine{00062\ \};}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00069\ std::ostream\&\ \mbox{\hyperlink{date_8h_af7ada80c7c34b250f290a8008f0fc047}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classDate}{Date}}\&\ d);}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00072\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classWrappedDate}{WrappedDate}}\{}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classWrappedDate_a1aa0578b0e002c95d7fdd5b8e4cf6dd4}{WrappedDate}}();}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classWrappedDate_ab5d42cf4b770ed518f2b5fde781e082c}{clear}}();}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{classDate}{Date}}\&\ \mbox{\hyperlink{classWrappedDate_abba60fe2cd1922f126f19c74fcbcf967}{getFirstDate}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{classDate}{Date}}\&\ \mbox{\hyperlink{classWrappedDate_add1ffb49ad5f18a2d40b088be244b0ff}{getSecondDate}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classWrappedDate_ab35a0872a4f8e10c18713415ec0dc9d8}{getText}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classWrappedDate_acce5b7e55c288cb3bd7989c180f6913a}{isExact}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classWrappedDate_a4125ee873c588af6aac5470c82e99e8e}{isUnknown}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classWrappedDate_a6e53cae7a9772ee786da9eb0e0471f93}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classWrappedDate_affb2f2e9352f22a33f41a23ee5eeb277}{setFirstDate}}(\textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ m,\ \textcolor{keywordtype}{int}\ d);}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classWrappedDate_a0037e36a1cbeb82091b1f8d7c62ae75a}{setSecondDate}}(\textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ m,\ \textcolor{keywordtype}{int}\ d);}
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classWrappedDate_a578abb1e026bb21d74e0b9707ba00ebf}{setText}}();}
+\DoxyCodeLine{00112\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classWrappedDate_ae16a28b00fb62e81fda3c8e0c42ac924}{str}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classWrappedDate_ae193ab0a7605e909d4f87481df4874e3}{updateDate}}();}
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classDate}{Date}}\ \mbox{\hyperlink{classWrappedDate_ab551914cc915219716b9ad146fee2e65}{date1\_}};}
+\DoxyCodeLine{00119\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classDate}{Date}}\ \mbox{\hyperlink{classWrappedDate_a68dac41a7d96183fc8048a6bd69c65dc}{date2\_}};}
+\DoxyCodeLine{00121\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classWrappedDate_ad9ac722370ae6bd679123484f2165514}{text\_}};}
+\DoxyCodeLine{00122\ \};}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00128\ std::ostream\&\ \mbox{\hyperlink{date_8h_af7ada80c7c34b250f290a8008f0fc047}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}\&\ wd);}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

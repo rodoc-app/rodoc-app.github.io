@@ -1,0 +1,109 @@
+\doxysection{core/config.cpp File Reference}
+\hypertarget{config_8cpp}{}\label{config_8cpp}\index{core/config.cpp@{core/config.cpp}}
+
+
+Source code for configuring the app such as special evens and relations.  
+
+
+{\ttfamily \#include \"{}config.\+h\"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{config_8cpp_a1083f2a1fe147794eb251105282d1c60}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classEventTemplate}{Event\+Template}} \&et)
+\item 
+std\+::ostream \& \mbox{\hyperlink{config_8cpp_a77461c8bfc514fd2c78313fcf523e774}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \&rt)
+\item 
+std\+::ostream \& \mbox{\hyperlink{config_8cpp_a7540a81377bda75ff73af99fa3747540}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{structColor}{Color}} \&color)
+\item 
+std\+::ostream \& \mbox{\hyperlink{config_8cpp_a13bbb5553bc8700a217b8f711043295a}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{structAppSettings}{App\+Settings}} \&as)
+\item 
+std\+::ostream \& \mbox{\hyperlink{config_8cpp_a195bf8042c0dde8e85538d0b0109a0ca}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classSettings}{Settings}} \&settings)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source code for configuring the app such as special evens and relations. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{config_8cpp_a13bbb5553bc8700a217b8f711043295a}\label{config_8cpp_a13bbb5553bc8700a217b8f711043295a} 
+\index{config.cpp@{config.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!config.cpp@{config.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{structAppSettings}{App\+Settings}} \&}]{as }\end{DoxyParamCaption})}
+
+Output the app settings to stream in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em as} & Given app settings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}
+\Hypertarget{config_8cpp_a7540a81377bda75ff73af99fa3747540}\label{config_8cpp_a7540a81377bda75ff73af99fa3747540} 
+\index{config.cpp@{config.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!config.cpp@{config.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{structColor}{Color}} \&}]{color }\end{DoxyParamCaption})}
+
+Output the color to stream in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em color} & Given color. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}
+\Hypertarget{config_8cpp_a1083f2a1fe147794eb251105282d1c60}\label{config_8cpp_a1083f2a1fe147794eb251105282d1c60} 
+\index{config.cpp@{config.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!config.cpp@{config.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classEventTemplate}{Event\+Template}} \&}]{et }\end{DoxyParamCaption})}
+
+Output the event template to stream in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em et} & Given event template. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}
+\Hypertarget{config_8cpp_a77461c8bfc514fd2c78313fcf523e774}\label{config_8cpp_a77461c8bfc514fd2c78313fcf523e774} 
+\index{config.cpp@{config.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!config.cpp@{config.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classRelationTemplate}{Relation\+Template}} \&}]{rt }\end{DoxyParamCaption})}
+
+Output the relation template to stream in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em rt} & Given relation template. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}
+\Hypertarget{config_8cpp_a195bf8042c0dde8e85538d0b0109a0ca}\label{config_8cpp_a195bf8042c0dde8e85538d0b0109a0ca} 
+\index{config.cpp@{config.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!config.cpp@{config.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classSettings}{Settings}} \&}]{setting }\end{DoxyParamCaption})}
+
+Output all the settings to stream in JSON format. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Given stream. \\
+\hline
+{\em setting} & Given settings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the changed stream. 
+\end{DoxyReturn}

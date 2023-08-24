@@ -1,0 +1,173 @@
+\doxysection{config.\+h}
+\hypertarget{config_8h_source}{}\label{config_8h_source}\index{core/config.h@{core/config.h}}
+\mbox{\hyperlink{config_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ config\_h\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ config\_h\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <ostream>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <optional>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <climits>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{strings_8h}{strings.h}}"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEventTemplate}{EventTemplate}}\{}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00019\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classEventTemplate_a9cbb4ab4bd054d0ec8a7b8e9838e1986}{EventTemplate}}();}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_a80e2aec54f5a49661a9cd0c162fbe194}{containsDate}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_a05b8997c2f7a65e6c089cc0d3287a7b9}{containsPlace}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classEventTemplate_aee76f4b3257b3d6f2b2d93abf032a73e}{getDescription}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEventTemplate_aefe9c6ed3450bc67ac468c796bb49987}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::vector<std::string>\&\ \mbox{\hyperlink{classEventTemplate_ad800a0e5e27f6429efe4d8adfe657d98}{getRoles}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classEventTemplate_a0873fdee51fa8308af18f0419d41ebf6}{getTitle}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_a048de05df8938d79854604a149492fa3}{hasMorePeopleInvolved}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_afc7c763e1d6c8b73b985db163fef1a9f}{hasRoles}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTemplate_ac882e5c11b04baf21b0f933d4adfe27e}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTemplate_adbeae231da0b241620d425f0f88b6826}{setContainsDate}}(\textcolor{keywordtype}{bool}\ hasDate);}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTemplate_aea913c15676b92202f5e8df14da579db}{setContainsPlace}}(\textcolor{keywordtype}{bool}\ hasPlace);}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classEventTemplate_a600461aeee8404397cff36af8980fc57}{setDescription}}();}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTemplate_a7b6c6a50fdf1cb154f6c25d74c36c964}{setId}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTemplate_abe865796656c8c94b2ecf96399e1c9b4}{setMorePeopleInvolved}}(\textcolor{keywordtype}{bool}\ morePeople);}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEventTemplate_add2990c01cd0daec2db64b736e9572ff}{setRoles}}(std::vector<std::string>\&\ roles);}
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classEventTemplate_aaf27b8d50a072921635400136aad4c23}{setTitle}}();}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classEventTemplate_a82a6a29b5d8b7c294eb4ff438590586d}{str}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_a8bff591aaeb6fd8e9d223922996b1333}{containsDate\_}};}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_acb4bf76af61d059b44d79a9237f52c42}{containsPlace\_}};}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classEventTemplate_a426b52561a47db99a9e96cf3bc47ee7b}{description\_}};}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEventTemplate_a12c50254d2cd28b4106021189130310a}{id\_}};}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEventTemplate_a8ef78ebe0163f76999fc753b358f2ec6}{morePeopleInvolved\_}};}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{classEventTemplate_a5677fb7e910dc0e270448d341aea2545}{roles\_}};}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classEventTemplate_a376393360f7b69feb9604194de2c3334}{title\_}};}
+\DoxyCodeLine{00086\ \};}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00092\ std::ostream\&\ \mbox{\hyperlink{config_8h_a1083f2a1fe147794eb251105282d1c60}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classEventTemplate}{EventTemplate}}\&\ et);}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00095\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \{\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aac9d3e887722f2bc482bcca9d41c512af}{None}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aad5133298199f69997d92e5d6c0ac1ba8}{Fatherhood}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aaabef86548f3ee05015d67c4b35337e57}{Motherhood}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aa388ba74c39bb7bf91b43bd43f21f5e80}{Partnership}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aa7cf71caec7522cc1abcdbd06bdff94e1}{Sibling}}\};}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00098\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacetrait}{trait}}\{}
+\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keyword}{constexpr}\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{namespacetrait_ad25971c8f59d0351e96fd52ac88625e8}{AllTraits}}[]\ =\ \{\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aac9d3e887722f2bc482bcca9d41c512af}{None}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aad5133298199f69997d92e5d6c0ac1ba8}{Fatherhood}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aaabef86548f3ee05015d67c4b35337e57}{Motherhood}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aa388ba74c39bb7bf91b43bd43f21f5e80}{Partnership}},\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899aa7cf71caec7522cc1abcdbd06bdff94e1}{Sibling}}\};}
+\DoxyCodeLine{00104\ \ \ \ \ std::string\ \mbox{\hyperlink{namespacetrait_a94378c5566c18fb0a3d9368e746f0cd9}{str}}(\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ t);}
+\DoxyCodeLine{00105\ \}}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00108\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelationTemplate}{RelationTemplate}}\{}
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classRelationTemplate_aba2bb7d830a23295472c67cd1f8af7c7}{RelationTemplate}}();}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classRelationTemplate_ac085b35a5506f24ae08eb812da782abd}{getDescription}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classRelationTemplate_aab8d77f8f008e551c85216e46f6d0682}{getFirstName}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classRelationTemplate_ab1688ab1ae73ba084c65166f02ed63f0}{getGenerationDifference}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelationTemplate_a14b48ad1cce6c3ea9353483631dc417c}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classRelationTemplate_ad6fe48c24bea909f9329763063270fe0}{getSecondName}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00129\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classRelationTemplate_afab5716c92fc97fa80dd6a8d97b5fa4a}{getTitle}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00132\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{classRelationTemplate_aa3bd3df7e1b401615ef4ac88a9e159dc}{getTrait}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00135\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplate_a0702aefbf8412eeb09badad7905fb46b}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classRelationTemplate_a9de1babaf88f6c0c910cb966810aa17e}{setDescription}}();}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classRelationTemplate_ac5d85d2a8db94e55abc960a589e132cb}{setFirstName}}();}
+\DoxyCodeLine{00144\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplate_a94f390c1dd73decf20df7cc15027a720}{setGenerationDifference}}(\textcolor{keywordtype}{int}\ diff);}
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplate_aa9f975202de088ea93c5837c3d06ed51}{setId}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00150\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classRelationTemplate_a62d3580fb3e333568611c32c7c8c2db4}{setSecondName}}();}
+\DoxyCodeLine{00153\ \ \ \ \ \ \ \ \ std::string\&\ \mbox{\hyperlink{classRelationTemplate_ae97f7708bb8612b02240990feb1bbfe7}{setTitle}}();}
+\DoxyCodeLine{00156\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelationTemplate_a3755a22816326d0786e99c0e0d8cf747}{setTrait}}(\mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{namespacetrait}{trait}});}
+\DoxyCodeLine{00159\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classRelationTemplate_a0f5b5cd3e17f6d50322f2bbb3ad3a70a}{str}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00160\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00162\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classRelationTemplate_aab2ff9e677d63d4cfe7753de3585a9b1}{description\_}};}
+\DoxyCodeLine{00164\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classRelationTemplate_aff572bbb8d555fadc3f78ac7407c1fea}{firstName\_}};}
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classRelationTemplate_a41f43713875e6cbfe2f43e0f2e2e1f39}{generationDiff\_}};}
+\DoxyCodeLine{00168\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelationTemplate_abe7eca06465b82e0d7cdcacc5832451f}{id\_}};}
+\DoxyCodeLine{00170\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classRelationTemplate_aac081edbffad8f2c030d03c2905356f4}{secondName\_}};}
+\DoxyCodeLine{00172\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classRelationTemplate_ae14e977854dd3742e8ff738ce856828c}{title\_}};}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{classRelationTemplate_a2731b96d3991d658d76c52e82b853cac}{trait\_}};}
+\DoxyCodeLine{00175\ \};}
+\DoxyCodeLine{00176\ }
+\DoxyCodeLine{00181\ std::ostream\&\ \mbox{\hyperlink{config_8h_a1083f2a1fe147794eb251105282d1c60}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classRelationTemplate}{RelationTemplate}}\&\ rt);}
+\DoxyCodeLine{00182\ }
+\DoxyCodeLine{00184\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{config_8h_a308d4cc556b5f464069036637dde61c4}{TabPosition}}\ \{\mbox{\hyperlink{config_8h_a308d4cc556b5f464069036637dde61c4aaeb9634ef4d4fd4a5297ada06f89c3fe}{North}},\ \mbox{\hyperlink{config_8h_a308d4cc556b5f464069036637dde61c4ac15660611b40cfc69e36003c8607311a}{South}},\ \mbox{\hyperlink{config_8h_a308d4cc556b5f464069036637dde61c4a66183dce5a3b8d48fbdfe1f8ede7fcc2}{East}},\ \mbox{\hyperlink{config_8h_a308d4cc556b5f464069036637dde61c4aedd15c5b13ad5525c46d5c9650ddde5f}{West}}\};}
+\DoxyCodeLine{00185\ }
+\DoxyCodeLine{00187\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structColor}{Color}}\{}
+\DoxyCodeLine{00192\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{structColor}{Color}}(\textcolor{keywordtype}{int}\ r\ =\ 255,\ \textcolor{keywordtype}{int}\ g\ =\ 255,\ \textcolor{keywordtype}{int}\ b\ =\ 255);}
+\DoxyCodeLine{00194\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structColor_a3cd71f006939f83ecd756f0ed28db40e}{red}};}
+\DoxyCodeLine{00196\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structColor_afc8d0d81900a12497d1ce001e52b7020}{green}};}
+\DoxyCodeLine{00198\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structColor_a51f2c5eb0ffc788331255fa1c7812880}{blue}};}
+\DoxyCodeLine{00200\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{structColor_aeef3bc20dbf642939f8b7fc7bdc18ee9}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00201\ \};}
+\DoxyCodeLine{00202\ }
+\DoxyCodeLine{00207\ std::ostream\&\ \mbox{\hyperlink{config_8h_a1083f2a1fe147794eb251105282d1c60}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structColor}{Color}}\&\ color);}
+\DoxyCodeLine{00208\ }
+\DoxyCodeLine{00210\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structAppSettings}{AppSettings}}\{}
+\DoxyCodeLine{00212\ \ \ \ \ std::string\ \mbox{\hyperlink{structAppSettings_a0270ffd9378aa295e901e25423b4c930}{fontFamily}};}
+\DoxyCodeLine{00214\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_a1a8adb1d004ae07d0fd18d64d9803c60}{fontSize}};}
+\DoxyCodeLine{00216\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_aa1c2df0d2ced4104dca0a54fc5402b2e}{genSizeDown}};}
+\DoxyCodeLine{00218\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_aa096ff52df0627e9ea95b2a7019f922e}{genSizeUp}};}
+\DoxyCodeLine{00220\ \ \ \ \ \mbox{\hyperlink{structColor}{Color}}\ \mbox{\hyperlink{structAppSettings_a4f2570f49c896a1848aa9145dcec0432}{highlightedColor}};}
+\DoxyCodeLine{00222\ \ \ \ \ \mbox{\hyperlink{structColor}{Color}}\ \mbox{\hyperlink{structAppSettings_af514cffa31ea097b2e8bda813935e2f0}{lineColor}};}
+\DoxyCodeLine{00224\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_a933fd77e4366a68f79dbc4e3d4aac4d9}{lineWidth}};}
+\DoxyCodeLine{00226\ \ \ \ \ \mbox{\hyperlink{structColor}{Color}}\ \mbox{\hyperlink{structAppSettings_acbae709d77e9a59955b1489346f6aa6d}{probandColor}};}
+\DoxyCodeLine{00228\ \ \ \ \ \mbox{\hyperlink{structColor}{Color}}\ \mbox{\hyperlink{structAppSettings_ae713b33c9e978fb9d266a8739142139c}{promoted}};}
+\DoxyCodeLine{00230\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_a08521f451a8f2593157ea3f4058483b5}{radius}};}
+\DoxyCodeLine{00233\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{structAppSettings_aa5baba75bb851c7c38e781d8231cb3e8}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00235\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{structAppSettings_a6abd0f6a680b92127674f3fd18a4b4d6}{setDefault}}();}
+\DoxyCodeLine{00237\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structAppSettings_a50507e1e2815720ea3c4187a382bd6ac}{showEventTab}};}
+\DoxyCodeLine{00239\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structAppSettings_ae73f05e22cbfe21a71c0dbf8448f4d09}{showFileTab}};}
+\DoxyCodeLine{00241\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structAppSettings_aa6c292d5e8565d8f5962cf645bac7394}{showGeneralTab}};}
+\DoxyCodeLine{00243\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structAppSettings_afcb020705dc48600d007283f8787b267}{showMediaTab}};}
+\DoxyCodeLine{00245\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structAppSettings_aa11959b36d871022e7fc14c575c6fc5c}{showNoteTab}};}
+\DoxyCodeLine{00247\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structAppSettings_ae7f14f191bada3aad14dbcc798c3866b}{showRelationTab}};}
+\DoxyCodeLine{00249\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_a224de93d175d5a029a59fae08a932122}{sizeX}};}
+\DoxyCodeLine{00251\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_af415f3644223c23db3db74e49292ccfc}{sizeY}};}
+\DoxyCodeLine{00253\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_a367d282b591b144bb7f647f43c643f91}{splitterPositionOne}};}
+\DoxyCodeLine{00255\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structAppSettings_a482c6867ace88bc9f0b27633387cee8f}{splitterPositionTwo}};}
+\DoxyCodeLine{00257\ \ \ \ \ \mbox{\hyperlink{structColor}{Color}}\ \mbox{\hyperlink{structAppSettings_a70f06c33f47ffe7cd2a03b34b7d08565}{standard}};}
+\DoxyCodeLine{00259\ \ \ \ \ \mbox{\hyperlink{config_8h_a308d4cc556b5f464069036637dde61c4}{TabPosition}}\ \mbox{\hyperlink{structAppSettings_a20170241b7f933b27eaa700094b92ee9}{tabPosition}};}
+\DoxyCodeLine{00261\ \ \ \ \ \mbox{\hyperlink{structColor}{Color}}\ \mbox{\hyperlink{structAppSettings_a8dc369506f69740720ed04275fa50112}{textColor}};}
+\DoxyCodeLine{00262\ \};}
+\DoxyCodeLine{00263\ }
+\DoxyCodeLine{00268\ std::ostream\&\ \mbox{\hyperlink{config_8h_a1083f2a1fe147794eb251105282d1c60}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structAppSettings}{AppSettings}}\&\ as);}
+\DoxyCodeLine{00269\ }
+\DoxyCodeLine{00271\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSettings}{Settings}}\{}
+\DoxyCodeLine{00272\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00274\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSettings_ab7169a6eefce79566dd07db3b1e5e967}{Settings}}();}
+\DoxyCodeLine{00276\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_ab9d42389d90d66ac447a09d14d3837e8}{addDefaultEvents}}();}
+\DoxyCodeLine{00278\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a4be3fe3c96bbc3dd6c12e00d44713ac4}{addDefaultRelations}}();}
+\DoxyCodeLine{00282\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a89d3c723b2900fa3a94cd6c780c6f3bd}{addEventTemplate}}(\mbox{\hyperlink{classEventTemplate}{EventTemplate}}\&\ et);}
+\DoxyCodeLine{00286\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a490a3ea4cbb236eda2cfd45fb6da53e0}{addRelationTemplate}}(\mbox{\hyperlink{classRelationTemplate}{RelationTemplate}}\&\ rt);}
+\DoxyCodeLine{00289\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a096277313ba8a435b972aa7b54d5cda3}{addTag}}(\textcolor{keyword}{const}\ std::string\&\ tag);}
+\DoxyCodeLine{00291\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_add67480066decc8d2f7c27a091a7e4ea}{clear}}();}
+\DoxyCodeLine{00296\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_afa3a01b5e3bb21a1fdecd742fe2f8b39}{exportTemplates}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ std::vector<size\_t>\&\ relIds,\ \textcolor{keyword}{const}\ std::vector<size\_t>\&\ eventIds);}
+\DoxyCodeLine{00299\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{structAppSettings}{AppSettings}}\&\ \mbox{\hyperlink{classSettings_a3c51f019e139ab80f9a83227075ac022}{getAppSettings}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00303\ \ \ \ \ \ \ \ \ std::optional<EventTemplate*>\ \mbox{\hyperlink{classSettings_a17ba1ad657b219934a1dd23407296412}{getEventTemplate}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00306\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::map<size\_t,\ std::unique\_ptr<EventTemplate>>\&\ \mbox{\hyperlink{classSettings_a9b4735b10d5977f4daf6cb4d65d011cc}{getEventTemplates}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00309\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a3c56b682ecc7b2c3498d88077ffcae1c}{getGlobalMainPerson}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00313\ \ \ \ \ \ \ \ \ std::optional<RelationTemplate*>\ \mbox{\hyperlink{classSettings_aebb5c6b75f0e7c80eaf14f34b2208c76}{getRelationTemplate}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00316\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::map<size\_t,\ std::unique\_ptr<RelationTemplate>>\&\ \mbox{\hyperlink{classSettings_a926cf1f54266863590a26ca61e090c1b}{getRelationTemplates}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00319\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::vector<std::string>\&\ \mbox{\hyperlink{classSettings_a0875e0d29848bec9a0c916c7b3815dc3}{getTags}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00323\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a387f224a744e7bc35ebb1ad2cf7026f5}{importTemplates}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00326\ \ \ \ \ \ \ \ \ std::pair<size\_t,\ size\_t>\ \mbox{\hyperlink{classSettings_ace6f331ce5014c9dc086a812df72e458}{indexes}}();}
+\DoxyCodeLine{00329\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a0863dd7f4b333ca7232bb54fc09331c1}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00333\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a01bd04ca826716e72ddf9b6c23aa7a34}{reIndex}}(\textcolor{keywordtype}{size\_t}\ plusEvent,\ \textcolor{keywordtype}{size\_t}\ plusRel);}
+\DoxyCodeLine{00336\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a46dbe3473f846362b1151f87eab0a92d}{removeEventTemplate}}(\textcolor{keywordtype}{size\_t}\ index);}
+\DoxyCodeLine{00339\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a38b27ba9bd9744789126f139ea75f0c6}{removeRelationTemplate}}(\textcolor{keywordtype}{size\_t}\ index);}
+\DoxyCodeLine{00342\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_afa77293cd9803172df29561c6f4c1e32}{removeTag}}(\textcolor{keyword}{const}\ std::string\&\ tag);}
+\DoxyCodeLine{00345\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{structAppSettings}{AppSettings}}\&\ \mbox{\hyperlink{classSettings_ac0faebf075ce93de2a72e8b007ae9614}{setAppSettings}}();}
+\DoxyCodeLine{00348\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_ae16fe3aa2671f5b8852cf549b716d111}{setGlobalMainPerson}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00349\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00357\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_aa01a455864a1438d5e2cc01692f68e74}{addDefaultEvent}}(\textcolor{keyword}{const}\ std::string\&\ title,\ \textcolor{keyword}{const}\ std::string\&\ description,\ \textcolor{keywordtype}{bool}\ date,\ \textcolor{keywordtype}{bool}\ place,\ \textcolor{keywordtype}{bool}\ morePeople,\ std::vector<std::string>\ roles);}
+\DoxyCodeLine{00365\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSettings_a0cc9adb2d8e53792cfd71c75dc92f1c3}{addDefaultRelation}}(\textcolor{keyword}{const}\ std::string\&\ title,\ \textcolor{keyword}{const}\ std::string\&\ description,\ \textcolor{keyword}{const}\ std::string\&\ firstName,\ \textcolor{keyword}{const}\ std::string\&\ secondName,\ \textcolor{keywordtype}{int}\ genDiff,\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{namespacetrait}{trait}});}
+\DoxyCodeLine{00367\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{structAppSettings}{AppSettings}}\ \mbox{\hyperlink{classSettings_ace37a79c635ebb701818644278190a19}{appSettings\_}};}
+\DoxyCodeLine{00369\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a6b29d2385bf074f25977a139d1d7296d}{eventTemplateIndex\_}};}
+\DoxyCodeLine{00371\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<EventTemplate>>\ \mbox{\hyperlink{classSettings_a119733c0ec9a55c2d1d5735acb8aa06a}{eventTemplates\_}};}
+\DoxyCodeLine{00373\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a77abdc5ba3cbbff9d2a5bafd9389a199}{globalMainPerson\_}};}
+\DoxyCodeLine{00375\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classSettings_a18adc7d17dad5bddab8fefb60cbc0d15}{relationTemplateIndex\_}};}
+\DoxyCodeLine{00377\ \ \ \ \ \ \ \ \ std::map<size\_t,\ std::unique\_ptr<RelationTemplate>>\ \mbox{\hyperlink{classSettings_ab13a93511e41fc6a21fe1997b5d30d59}{relationsTemplates\_}};}
+\DoxyCodeLine{00379\ \ \ \ \ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{classSettings_a0ccf99bf2efae7460fdbf94461c82a08}{tags\_}};}
+\DoxyCodeLine{00380\ \};}
+\DoxyCodeLine{00381\ }
+\DoxyCodeLine{00386\ std::ostream\&\ \mbox{\hyperlink{config_8h_a1083f2a1fe147794eb251105282d1c60}{operator\ <<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classSettings}{Settings}}\&\ setting);}
+\DoxyCodeLine{00387\ }
+\DoxyCodeLine{00388\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

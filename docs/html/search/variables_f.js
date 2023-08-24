@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['radius_0',['radius',['../dd/d58/structAppSettings.html#a08521f451a8f2593157ea3f4058483b5',1,'AppSettings']]],
+  ['red_1',['red',['../d0/da2/structColor.html#a3cd71f006939f83ecd756f0ed28db40e',1,'Color']]],
+  ['red_2',['RED',['../d4/d9a/namespacejsonlabel.html#a2ee04aaf6c2f18d67afe10d5ca22ca3e',1,'jsonlabel']]],
+  ['rel_5f_3',['rel_',['../d2/d0d/classRelationDialog.html#ae93bca0fab122aafa77e8fb49f61f261',1,'RelationDialog']]],
+  ['rel_5ftempl_4',['REL_TEMPL',['../d4/d9a/namespacejsonlabel.html#ae9bc0afa2ba89670a34aeb1a272fe96c',1,'jsonlabel']]],
+  ['relation_5f_5',['relation_',['../dd/d7b/classRelationItem.html#ac09d1037da9f75e3cf73f8c9d111c45f',1,'RelationItem']]],
+  ['relation_5findex_5f_6',['relation_index_',['../d4/d96/classFamilyTree.html#a2083e97bf1519682b0c234432cc9a499',1,'FamilyTree']]],
+  ['relations_7',['RELATIONS',['../da/d9d/namespacehtml.html#a374562be55137d4988b20941ed4a268a',1,'html::RELATIONS'],['../d4/d9a/namespacejsonlabel.html#ad76834c31cd937a3e91934ff15287324',1,'jsonlabel::RELATIONS']]],
+  ['relations_5f_8',['relations_',['../d1/d63/classPerson.html#aa18e40d659bf425bfd818ae8ac0eb496',1,'Person']]],
+  ['relationstemplates_5f_9',['relationsTemplates_',['../df/d9a/classSettings.html#ab13a93511e41fc6a21fe1997b5d30d59',1,'Settings']]],
+  ['relationtemplateindex_5f_10',['relationTemplateIndex_',['../df/d9a/classSettings.html#a18adc7d17dad5bddab8fefb60cbc0d15',1,'Settings']]],
+  ['remove_11',['REMOVE',['../dc/d5d/namespacebutton.html#adf10990dc342dbf828ea8e0c159414f7',1,'button']]],
+  ['resources_12',['RESOURCES',['../da/d9d/namespacehtml.html#af5a34d564cbef308beafc86637db15f3',1,'html']]],
+  ['role_13',['ROLE',['../d4/d9a/namespacejsonlabel.html#ac04d7595edd2a2cf3fbe9794f8ade497',1,'jsonlabel']]],
+  ['roles_5f_14',['roles_',['../da/dcd/classEventTemplate.html#a5677fb7e910dc0e270448d341aea2545',1,'EventTemplate']]],
+  ['root_15',['ROOT',['../d0/d81/namespaceperson.html#a6b09fd2f87482bec2d625e217c803ecc',1,'person::ROOT'],['../d4/d9a/namespacejsonlabel.html#aead0efe143c7e80222ebc4e3554d1ac2',1,'jsonlabel::ROOT']]],
+  ['root_5f_16',['root_',['../d0/d40/classParser.html#ab320855f9d84b64f3e6c162c81049c8e',1,'Parser']]],
+  ['rootfiledrive_5f_17',['rootFileDrive_',['../d1/d63/classPerson.html#a4a95b7af5d234b8fc5ece64ec327d712',1,'Person']]],
+  ['rootmediadrive_5f_18',['rootMediaDrive_',['../d1/d63/classPerson.html#a61f3fa377c36be0a0c850cfc2cadb402',1,'Person']]],
+  ['rootnotedrive_5f_19',['rootNoteDrive_',['../d1/d63/classPerson.html#aa7a5135451262643fa5a883cb9320f4c',1,'Person']]]
+];

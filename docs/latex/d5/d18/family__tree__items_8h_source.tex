@@ -1,0 +1,113 @@
+\doxysection{family\+\_\+tree\+\_\+items.\+h}
+\hypertarget{family__tree__items_8h_source}{}\label{family__tree__items_8h_source}\index{core/family\_tree\_items.h@{core/family\_tree\_items.h}}
+\mbox{\hyperlink{family__tree__items_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ family\_tree\_items\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ family\_tree\_items\_}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <ostream>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{config_8h}{config.h}}"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{date_8h}{date.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{strings_8h}{strings.h}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEvent}{Event}}\{}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00019\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classEvent}{Event}}(\mbox{\hyperlink{classSettings}{Settings}}*\ settings);}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_a3b679ce388ad426af846592c3d99ba93}{addPerson}}(\textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{namespaceperson}{person}},\ \textcolor{keyword}{const}\ std::string\&\ role\ =\ \mbox{\hyperlink{namespaceevents_a5f4da347a69ca7e764cf1982bd419109}{events::NO\_ROLE}});}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_ab541ced5d035c4bdde074ae05a2354b9}{clearPersons}}();}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}*\ \mbox{\hyperlink{classEvent_a68262d45afb4e42c1c9f14bb341ab053}{date}}();}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}\&\ \mbox{\hyperlink{classEvent_a51b5bd7176e15ff7d4a352f808073fb5}{getDate}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEvent_a63fcc9a848d8e6968ebfe1f9ee710582}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::vector<std::pair<std::string,\ size\_t>>\&\ \mbox{\hyperlink{classEvent_a44a7c19a1f9d966c1799b2c5ae0871e0}{getPersons}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classEvent_a92c6fd566ec87a931b8ecfb498dba191}{getPlace}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{classSettings}{Settings}}\&\ \mbox{\hyperlink{classEvent_a2382279a38f1298c86d4baca85139f8f}{getSettings}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEvent_a6a9531cd944c867d35792ee8b1c03320}{getTemplate}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classEvent_a426ea3b3babe3d3f6461d9061cc0ac38}{getText}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_a012001747203f2b3d2e86a435f6fec48}{printHtml}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ std::vector<std::pair<std::string,\ std::string>>\&\ persons);}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_a97ce3f6b629fc2593b5d4dfe4efecf04}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classEvent_a8be2df11d61df156ae909eed0e21c4c8}{removePerson}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}\&\ \mbox{\hyperlink{classEvent_abda4308919bb0a5350d46b398f4dfc2f}{setDate}}();}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_a2bf4106ddb365130674bfd48bc30d97e}{setId}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_a4ed0a00edad55b54f334a10bce0ca1d5}{setPlace}}(\textcolor{keyword}{const}\ std::string\&\ place);}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_ac88d5559b22218e99ede9a72d478d582}{setTemplate}}(\textcolor{keywordtype}{size\_t}\ templ);}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classEvent_a55afed75943b6af71a8af00e56eeda71}{setText}}(\textcolor{keyword}{const}\ std::string\&\ text);}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classEvent_a01ddf768402ff66667eb5d44a9260a16}{str}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ std::vector<size\_t>\ \mbox{\hyperlink{classEvent_a14a2d173f683e30e2065718e0b856eb4}{updateToTemplate}}();}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classWrappedDate}{WrappedDate}}\ \mbox{\hyperlink{classEvent_a4f9b03857153af92ebe1683ffc6ee5aa}{date\_}};}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEvent_a3e92c9d4c31b4988ede0492a83827aeb}{id\_}};}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ std::vector<std::pair<std::string,\ size\_t>>\ \mbox{\hyperlink{classEvent_aeffb9d8c96995ca5aeaf18b2220a7ed1}{persons\_}};}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classEvent_aa9f0258fc2a683221a5923b56a30121c}{place\_}};}
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSettings}{Settings}}*\ \mbox{\hyperlink{classEvent_a687fc9cf577dcfcd9e49193a1c36a6c4}{settings\_}};}
+\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classEvent_aea4f63e42f3b4ed0f904edbaff35c318}{template\_}};}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classEvent_a4b3ef44daee83a884f4378c1d3508050}{text\_}};}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00098\ \};}
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00104\ std::ostream\&\ \mbox{\hyperlink{family__tree__items_8h_af12dab80471bda424ca4296f5ae139c0}{operator\ <<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classEvent}{Event}}\&\ e);}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00107\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRelation}{Relation}}\{}
+\DoxyCodeLine{00108\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classRelation}{Relation}}(\mbox{\hyperlink{classSettings}{Settings}}*\ settings);}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_ae703812f57f1be863af1bf60c91ad252}{getFirstPerson}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_abf2e3f8c502cf18b4d2893be24b2edad}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_a524f1c2952939e5eda2006982cbf9f6d}{getSecondPerson}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_a03621dc55fb0147d36f6722db0c71cc1}{getTemplate}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classRelation_a12c517b7ca5befa00e4d6afcef12f0f7}{getTitle}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00130\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_a8489b21ef7f1f6b4f4a1da106087ceeb}{getTheOtherPerson}}(\textcolor{keywordtype}{size\_t}\ current);}
+\DoxyCodeLine{00134\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classRelation_a82d58df64d8393e10e7af6b71261061b}{getTheOtherPersonName}}(\textcolor{keywordtype}{size\_t}\ current);}
+\DoxyCodeLine{00137\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{classRelation_a4300cf462b05b90cfb8ac739c9605a0f}{getTrait}}();}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRelation_a083175efd083cb0eae52282ef5d21b26}{isOlderGeneration}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRelation_ab9c97a8f3f8db45d703a9e312b9277f5}{isParent}}(\textcolor{keywordtype}{size\_t}\ personId);}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRelation_aafeda7e283c0103c5d320c11b758c362}{isSameGenration}}();}
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRelation_a93313750679566f65886a35df399decf}{isYoungerGeneration}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00158\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelation_a4d2af07409d89f4b28aeb1b950b1bd0a}{printHtml}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ std::string\&\ firstPerson,\ \textcolor{keyword}{const}\ std::string\&\ secondPerson,\ \textcolor{keyword}{const}\ std::string\&\ promoted);}
+\DoxyCodeLine{00161\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelation_a1b605bd9ce124ca4149dd9b188770221}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00164\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelation_a1a3fbfcf857cc0b0314e9fc4e9f36e71}{setId}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00168\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelation_a2df4eadc73038c47c19657bac388b303}{setPersons}}(\textcolor{keywordtype}{size\_t}\ person1,\ \textcolor{keywordtype}{size\_t}\ person2);}
+\DoxyCodeLine{00171\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRelation_ad54cbf2349249560a6acefdb847934b5}{setTemplate}}(\textcolor{keywordtype}{size\_t}\ templ);}
+\DoxyCodeLine{00176\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classRelation_ae5dc1d666e856fd77c69b7280509b0bc}{str}}(\textcolor{keyword}{const}\ std::string\&\ firstPerson,\ \textcolor{keyword}{const}\ std::string\&\ secondPerson)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00177\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00179\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_a3b7ce7fff55a4e7909c140ff99f29044}{id\_}};}
+\DoxyCodeLine{00181\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_a871948983b41946ba19176b3ff83241a}{person1\_}};}
+\DoxyCodeLine{00183\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_a9fcb4394eb54f26f2c146643da3dd27f}{person2\_}};}
+\DoxyCodeLine{00185\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classSettings}{Settings}}*\ \mbox{\hyperlink{classRelation_a45f59681f9cd811de775f8db3f525627}{settings\_}};}
+\DoxyCodeLine{00187\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classRelation_ab41dd2330c8e9eb4fc97d17ffbe37e10}{template\_}};}
+\DoxyCodeLine{00188\ \};}
+\DoxyCodeLine{00189\ }
+\DoxyCodeLine{00194\ std::ostream\&\ \mbox{\hyperlink{family__tree__items_8h_af12dab80471bda424ca4296f5ae139c0}{operator<<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classRelation}{Relation}}\&\ r);}
+\DoxyCodeLine{00195\ }
+\DoxyCodeLine{00197\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structRelationSuggestion}{RelationSuggestion}}\{}
+\DoxyCodeLine{00198\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00205\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{structRelationSuggestion}{RelationSuggestion}}(\textcolor{keywordtype}{size\_t}\ lockedP,\ \textcolor{keywordtype}{size\_t}\ suggestedP,\ \textcolor{keywordtype}{bool}\ par,\ \textcolor{keywordtype}{bool}\ sym,\ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ t);}
+\DoxyCodeLine{00207\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{structRelationSuggestion_a9a1049bb47b32ee5c34e52144d5b089a}{lockedPerson}};}
+\DoxyCodeLine{00209\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structRelationSuggestion_ae0c4c90311600bd776191562c4ebe6ed}{parent}};}
+\DoxyCodeLine{00211\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{structRelationSuggestion_ae9c932ede9e7424348cf9afff6ea3d72}{suggestedPerson}};}
+\DoxyCodeLine{00213\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structRelationSuggestion_a152daa73635656fa0e1414f05fe37605}{symetrical}};}
+\DoxyCodeLine{00215\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{config_8h_aedf5450a2a5bc99ed385b1c29255899a}{Trait}}\ \mbox{\hyperlink{structRelationSuggestion_ae734c63ff9d063065f3048501ccf77da}{trait}};}
+\DoxyCodeLine{00216\ \};}
+\DoxyCodeLine{00217\ }
+\DoxyCodeLine{00219\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classFile}{File}}\{}
+\DoxyCodeLine{00220\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00222\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classFile_ae039af5807fc385f41b60644725d15d0}{File}}();}
+\DoxyCodeLine{00225\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{classFile_a436e7277b6b3b0e514d4fa543181a767}{getFilename}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00228\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFile_a4ad9aad30ff70ebfe813713a53738aea}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00231\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classFile_a23c9bd9bdd92f4f5faeb09fe4efa2591}{getRealName}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00234\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFile_a58bfe5d99919aa16e79369d0c1497717}{readJson}}(\textcolor{keyword}{const}\ Json::Value\&\ value);}
+\DoxyCodeLine{00237\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFile_ae33bd717157407f34c8a1718c8e47ea0}{setFilename}}(\textcolor{keyword}{const}\ std::string\&\ fileName);}
+\DoxyCodeLine{00240\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classFile_a2bc3c3f99d7390054a393ad60dc37364}{setId}}(\textcolor{keywordtype}{size\_t}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00241\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00243\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classFile_a9c712b9949ab0537589cc2ab7287625d}{filename\_}};}
+\DoxyCodeLine{00245\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{size\_t}\ \mbox{\hyperlink{classFile_aa676a0b6682021215e291d7b3af6c3ef}{id\_}};}
+\DoxyCodeLine{00246\ \};}
+\DoxyCodeLine{00247\ }
+\DoxyCodeLine{00252\ std::ostream\&\ \mbox{\hyperlink{family__tree__items_8h_af12dab80471bda424ca4296f5ae139c0}{operator\ <<}}(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classFile}{File}}\&\ f);}
+\DoxyCodeLine{00253\ }
+\DoxyCodeLine{00254\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

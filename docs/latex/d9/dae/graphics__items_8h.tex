@@ -1,0 +1,115 @@
+\doxysection{graphics/graphics\+\_\+items.h File Reference}
+\hypertarget{graphics__items_8h}{}\label{graphics__items_8h}\index{graphics/graphics\_items.h@{graphics/graphics\_items.h}}
+
+
+This files contains all graphics items, that are inherited from Qt framework.  
+
+
+{\ttfamily \#include $<$Qt\+Core$>$}\newline
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$typeinfo$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \"{}../core/family\+\_\+tree.\+h\"{}}\newline
+{\ttfamily \#include \"{}../core/strings.\+h\"{}}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classFileTreeItem}{File\+Tree\+Item}}
+\begin{DoxyCompactList}\small\item\em Tree\+Widget Item for general file. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classProjectItem}{Project\+Item}}
+\begin{DoxyCompactList}\small\item\em This is a tree widget item to be shown on a project view. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classEventRoleItem}{Event\+Role\+Item}}
+\begin{DoxyCompactList}\small\item\em Tree widget item for persons in events. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classPersonsGraphicsItem}{Persons\+Graphics\+Item}}
+\begin{DoxyCompactList}\small\item\em Box with persons information. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classCellGraphicsItem}{Cell\+Graphics\+Item}}
+\begin{DoxyCompactList}\small\item\em Cell around all relations. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classGraphicsView}{Graphics\+View}}
+\begin{DoxyCompactList}\small\item\em Class for creating QGraphics\+View with using wheel for zoom in and out. And grabing by mouse moves the view. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classRelationItem}{Relation\+Item}}
+\begin{DoxyCompactList}\small\item\em Class for showing relation suggestion and holding the data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}{Project\+Item\+Type}} \{ \newline
+\mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdadbb05095c8fe5aa4e7e442c5072c1a63}{PROJECT\+\_\+\+PERSON}}
+, \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda5fdee6973fb0455741f13828615ed93b}{PROJECT\+\_\+\+GROUP}}
+, \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdac1ee97c0246919ac62d252c1ae9baeef}{PROJECT\+\_\+\+FILE}}
+, \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdabfa2ee4e5b50730fed0739b7257891d9}{PROJECT\+\_\+\+MEDIA}}
+, \newline
+\mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda2acc8e7a3cc10b2fdd041a0de03eec42}{PROJECT\+\_\+\+NOTE}}
+, \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda4d2e8ce8163b1f312dbf9311a20fa1be}{PROJECT\+\_\+\+EVENTS}}
+, \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdaf095ce711bd48e306b2046b4cdda9c1b}{PROJECT\+\_\+\+RELATIONS}}
+ \}
+\begin{DoxyCompactList}\small\item\em What type of a item is to be shown. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{graphics__items_8h_ab8c04527db91ef84279f20f83af0966e}{contains\+Forb}} (const QString \&value)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This files contains all graphics items, that are inherited from Qt framework. 
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd} 
+\index{graphics\_items.h@{graphics\_items.h}!ProjectItemType@{ProjectItemType}}
+\index{ProjectItemType@{ProjectItemType}!graphics\_items.h@{graphics\_items.h}}
+\doxysubsubsection{\texorpdfstring{ProjectItemType}{ProjectItemType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fd}{Project\+Item\+Type}}}
+
+
+
+What type of a item is to be shown. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_PERSON@{PROJECT\_PERSON}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_PERSON@{PROJECT\_PERSON}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdadbb05095c8fe5aa4e7e442c5072c1a63}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdadbb05095c8fe5aa4e7e442c5072c1a63} 
+PROJECT\+\_\+\+PERSON&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_GROUP@{PROJECT\_GROUP}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_GROUP@{PROJECT\_GROUP}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda5fdee6973fb0455741f13828615ed93b}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda5fdee6973fb0455741f13828615ed93b} 
+PROJECT\+\_\+\+GROUP&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_FILE@{PROJECT\_FILE}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_FILE@{PROJECT\_FILE}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdac1ee97c0246919ac62d252c1ae9baeef}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdac1ee97c0246919ac62d252c1ae9baeef} 
+PROJECT\+\_\+\+FILE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_MEDIA@{PROJECT\_MEDIA}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_MEDIA@{PROJECT\_MEDIA}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdabfa2ee4e5b50730fed0739b7257891d9}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdabfa2ee4e5b50730fed0739b7257891d9} 
+PROJECT\+\_\+\+MEDIA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_NOTE@{PROJECT\_NOTE}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_NOTE@{PROJECT\_NOTE}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda2acc8e7a3cc10b2fdd041a0de03eec42}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda2acc8e7a3cc10b2fdd041a0de03eec42} 
+PROJECT\+\_\+\+NOTE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_EVENTS@{PROJECT\_EVENTS}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_EVENTS@{PROJECT\_EVENTS}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda4d2e8ce8163b1f312dbf9311a20fa1be}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fda4d2e8ce8163b1f312dbf9311a20fa1be} 
+PROJECT\+\_\+\+EVENTS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_RELATIONS@{PROJECT\_RELATIONS}!graphics\_items.h@{graphics\_items.h}}\index{graphics\_items.h@{graphics\_items.h}!PROJECT\_RELATIONS@{PROJECT\_RELATIONS}}}\Hypertarget{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdaf095ce711bd48e306b2046b4cdda9c1b}\label{graphics__items_8h_a133db7c90a851b9010872f4f5b09e4fdaf095ce711bd48e306b2046b4cdda9c1b} 
+PROJECT\+\_\+\+RELATIONS&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{graphics__items_8h_ab8c04527db91ef84279f20f83af0966e}\label{graphics__items_8h_ab8c04527db91ef84279f20f83af0966e} 
+\index{graphics\_items.h@{graphics\_items.h}!containsForb@{containsForb}}
+\index{containsForb@{containsForb}!graphics\_items.h@{graphics\_items.h}}
+\doxysubsubsection{\texorpdfstring{containsForb()}{containsForb()}}
+{\footnotesize\ttfamily bool contains\+Forb (\begin{DoxyParamCaption}\item[{const QString \&}]{value }\end{DoxyParamCaption})}
+
+To clarify that the value contains a forbidden character. 
+\begin{DoxyParams}{Parameters}
+{\em value} & Which value is checked. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if it contains any of forbidden characters. 
+\end{DoxyReturn}

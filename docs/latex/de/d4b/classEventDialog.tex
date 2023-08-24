@@ -1,0 +1,270 @@
+\doxysection{Event\+Dialog Class Reference}
+\hypertarget{classEventDialog}{}\label{classEventDialog}\index{EventDialog@{EventDialog}}
+
+
+Dialog showing single event for editing it.  
+
+
+
+
+{\ttfamily \#include $<$dialogs.\+h$>$}
+
+Inheritance diagram for Event\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{de/d4b/classEventDialog}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classEventDialog_ad53f62489555003c57ca8b4686876f81}{add\+Empty\+Role}} ()
+\begin{DoxyCompactList}\small\item\em Add empty role to the roles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_aa58b17ec2cbfe9e68da4b2348777d505}{choose\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for choosing person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_a41d546d39ae0ba175d947e3ec768acab}{open\+Custom\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Open dialog for custom date. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_ac9b85c42d0b8f79e836683f376d1e23a}{refresh\+Dates}} ()
+\begin{DoxyCompactList}\small\item\em Refresh date from dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_a3e574cc7d7843b6229e4501005409ff1}{refresh\+Persons}} (QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\item 
+void \mbox{\hyperlink{classEventDialog_acf7ea2ea3a23b21b0d7ad7d2d1a266fc}{remove\+Empty\+Role}} ()
+\begin{DoxyCompactList}\small\item\em Remove empty role from the list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_a739a48a67f98d5a6476e63677f4abc23}{remove\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Remove person from its role. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_a755ee82d8133760cb928b48ad1a7f165}{save\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Save the data to the event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEventDialog_a86c113e621104c46123d411ca5e5f1e7}{save\+Person}} (\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}person)
+\item 
+void \mbox{\hyperlink{classEventDialog_a8ba45adf3a5198ce71baf8ea8f1f87ce}{show\+Template}} ()
+\begin{DoxyCompactList}\small\item\em Show the template details. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEventDialog_a827e73af46827f0c8d9e55cfd529ebf9}{Event\+Dialog}} (\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}FT, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, \mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*}event=nullptr)
+\item 
+\mbox{\hyperlink{classEventDialog_aa61019bdaa374db5b554ed51009dc930}{\texorpdfstring{$\sim$}{\string~}\+Event\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classEventDialog_ab3892a9ba29ea63e9dc89c3f42aad90d}{show\+Event\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Show event details. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} \mbox{\hyperlink{classEventDialog_a82aebab3c04252d110bfea748ba6cd64}{date\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Wrapped date of this event. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEventDialog_ad800987f370385d52dd1e2953c3d1f4d}{event\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the event that is being edited, may be a null pointer. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEventDialog_ae4377e9150a239f8d46db1428ba9f987}{FT\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the family tree. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEventDialog_a2ccd7f774a86504e91525d5a3d4d8680}{main\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Pointer to the main person used if no other persons are in event. \end{DoxyCompactList}\item 
+Ui\+::\+Event\+Dialog \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classEventDialog_a484a0c234581e48c5a70fc8356e9308a}{ui}}
+\begin{DoxyCompactList}\small\item\em User interface of the Qt framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog showing single event for editing it. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classEventDialog_a827e73af46827f0c8d9e55cfd529ebf9}\label{classEventDialog_a827e73af46827f0c8d9e55cfd529ebf9} 
+\index{EventDialog@{EventDialog}!EventDialog@{EventDialog}}
+\index{EventDialog@{EventDialog}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{EventDialog()}{EventDialog()}}
+{\footnotesize\ttfamily Event\+Dialog\+::\+Event\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFamilyTree}{Family\+Tree}} \texorpdfstring{$\ast$}{*}}]{FT,  }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr},  }\item[{\mbox{\hyperlink{classEvent}{Event}} \texorpdfstring{$\ast$}{*}}]{event = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Default constructor. 
+\begin{DoxyParams}{Parameters}
+{\em FT} & Pointer to the family tree. \\
+\hline
+{\em parent} & The Qt Widget parent. \\
+\hline
+{\em event} & Which event is being edited if any. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventDialog_aa61019bdaa374db5b554ed51009dc930}\label{classEventDialog_aa61019bdaa374db5b554ed51009dc930} 
+\index{EventDialog@{EventDialog}!````~EventDialog@{\texorpdfstring{$\sim$}{\string~}EventDialog}}
+\index{````~EventDialog@{\texorpdfstring{$\sim$}{\string~}EventDialog}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}EventDialog()}{\string~EventDialog()}}
+{\footnotesize\ttfamily Event\+Dialog\+::\texorpdfstring{$\sim$}{\string~}\+Event\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classEventDialog_ad53f62489555003c57ca8b4686876f81}\label{classEventDialog_ad53f62489555003c57ca8b4686876f81} 
+\index{EventDialog@{EventDialog}!addEmptyRole@{addEmptyRole}}
+\index{addEmptyRole@{addEmptyRole}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{addEmptyRole}{addEmptyRole}}
+{\footnotesize\ttfamily void Event\+Dialog\+::add\+Empty\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Add empty role to the roles. 
+
+\Hypertarget{classEventDialog_aa58b17ec2cbfe9e68da4b2348777d505}\label{classEventDialog_aa58b17ec2cbfe9e68da4b2348777d505} 
+\index{EventDialog@{EventDialog}!choosePerson@{choosePerson}}
+\index{choosePerson@{choosePerson}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{choosePerson}{choosePerson}}
+{\footnotesize\ttfamily void Event\+Dialog\+::choose\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for choosing person. 
+
+\Hypertarget{classEventDialog_a41d546d39ae0ba175d947e3ec768acab}\label{classEventDialog_a41d546d39ae0ba175d947e3ec768acab} 
+\index{EventDialog@{EventDialog}!openCustomDate@{openCustomDate}}
+\index{openCustomDate@{openCustomDate}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{openCustomDate}{openCustomDate}}
+{\footnotesize\ttfamily void Event\+Dialog\+::open\+Custom\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Open dialog for custom date. 
+
+\Hypertarget{classEventDialog_ac9b85c42d0b8f79e836683f376d1e23a}\label{classEventDialog_ac9b85c42d0b8f79e836683f376d1e23a} 
+\index{EventDialog@{EventDialog}!refreshDates@{refreshDates}}
+\index{refreshDates@{refreshDates}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{refreshDates}{refreshDates}}
+{\footnotesize\ttfamily void Event\+Dialog\+::refresh\+Dates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Refresh date from dialog. 
+
+\Hypertarget{classEventDialog_a3e574cc7d7843b6229e4501005409ff1}\label{classEventDialog_a3e574cc7d7843b6229e4501005409ff1} 
+\index{EventDialog@{EventDialog}!refreshPersons@{refreshPersons}}
+\index{refreshPersons@{refreshPersons}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{refreshPersons}{refreshPersons}}
+{\footnotesize\ttfamily void Event\+Dialog\+::refresh\+Persons (\begin{DoxyParamCaption}\item[{QTree\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Refresh persons combo\+Box to the current role and its value. 
+\begin{DoxyParams}{Parameters}
+{\em item} & Which item was clicked on. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventDialog_acf7ea2ea3a23b21b0d7ad7d2d1a266fc}\label{classEventDialog_acf7ea2ea3a23b21b0d7ad7d2d1a266fc} 
+\index{EventDialog@{EventDialog}!removeEmptyRole@{removeEmptyRole}}
+\index{removeEmptyRole@{removeEmptyRole}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{removeEmptyRole}{removeEmptyRole}}
+{\footnotesize\ttfamily void Event\+Dialog\+::remove\+Empty\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove empty role from the list. 
+
+\Hypertarget{classEventDialog_a739a48a67f98d5a6476e63677f4abc23}\label{classEventDialog_a739a48a67f98d5a6476e63677f4abc23} 
+\index{EventDialog@{EventDialog}!removePerson@{removePerson}}
+\index{removePerson@{removePerson}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{removePerson}{removePerson}}
+{\footnotesize\ttfamily void Event\+Dialog\+::remove\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Remove person from its role. 
+
+\Hypertarget{classEventDialog_a755ee82d8133760cb928b48ad1a7f165}\label{classEventDialog_a755ee82d8133760cb928b48ad1a7f165} 
+\index{EventDialog@{EventDialog}!saveEvent@{saveEvent}}
+\index{saveEvent@{saveEvent}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{saveEvent}{saveEvent}}
+{\footnotesize\ttfamily void Event\+Dialog\+::save\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Save the data to the event. 
+
+\Hypertarget{classEventDialog_a86c113e621104c46123d411ca5e5f1e7}\label{classEventDialog_a86c113e621104c46123d411ca5e5f1e7} 
+\index{EventDialog@{EventDialog}!savePerson@{savePerson}}
+\index{savePerson@{savePerson}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{savePerson}{savePerson}}
+{\footnotesize\ttfamily void Event\+Dialog\+::save\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}} \texorpdfstring{$\ast$}{*}}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Save person from dialog. 
+\begin{DoxyParams}{Parameters}
+{\em person} & Which person was selected. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEventDialog_ab3892a9ba29ea63e9dc89c3f42aad90d}\label{classEventDialog_ab3892a9ba29ea63e9dc89c3f42aad90d} 
+\index{EventDialog@{EventDialog}!showEventDetails@{showEventDetails}}
+\index{showEventDetails@{showEventDetails}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{showEventDetails()}{showEventDetails()}}
+{\footnotesize\ttfamily void Event\+Dialog\+::show\+Event\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Show event details. 
+
+\Hypertarget{classEventDialog_a8ba45adf3a5198ce71baf8ea8f1f87ce}\label{classEventDialog_a8ba45adf3a5198ce71baf8ea8f1f87ce} 
+\index{EventDialog@{EventDialog}!showTemplate@{showTemplate}}
+\index{showTemplate@{showTemplate}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{showTemplate}{showTemplate}}
+{\footnotesize\ttfamily void Event\+Dialog\+::show\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Show the template details. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classEventDialog_a82aebab3c04252d110bfea748ba6cd64}\label{classEventDialog_a82aebab3c04252d110bfea748ba6cd64} 
+\index{EventDialog@{EventDialog}!date\_@{date\_}}
+\index{date\_@{date\_}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{date\_}{date\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWrappedDate}{Wrapped\+Date}} Event\+Dialog\+::date\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Wrapped date of this event. 
+
+\Hypertarget{classEventDialog_ad800987f370385d52dd1e2953c3d1f4d}\label{classEventDialog_ad800987f370385d52dd1e2953c3d1f4d} 
+\index{EventDialog@{EventDialog}!event\_@{event\_}}
+\index{event\_@{event\_}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{event\_}{event\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEvent}{Event}}\texorpdfstring{$\ast$}{*} Event\+Dialog\+::event\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the event that is being edited, may be a null pointer. 
+
+\Hypertarget{classEventDialog_ae4377e9150a239f8d46db1428ba9f987}\label{classEventDialog_ae4377e9150a239f8d46db1428ba9f987} 
+\index{EventDialog@{EventDialog}!FT\_@{FT\_}}
+\index{FT\_@{FT\_}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{FT\_}{FT\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFamilyTree}{Family\+Tree}}\texorpdfstring{$\ast$}{*} Event\+Dialog\+::\+FT\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the family tree. 
+
+\Hypertarget{classEventDialog_a2ccd7f774a86504e91525d5a3d4d8680}\label{classEventDialog_a2ccd7f774a86504e91525d5a3d4d8680} 
+\index{EventDialog@{EventDialog}!main\_@{main\_}}
+\index{main\_@{main\_}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{main\_}{main\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPerson}{Person}}\texorpdfstring{$\ast$}{*} Event\+Dialog\+::main\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer to the main person used if no other persons are in event. 
+
+\Hypertarget{classEventDialog_a484a0c234581e48c5a70fc8356e9308a}\label{classEventDialog_a484a0c234581e48c5a70fc8356e9308a} 
+\index{EventDialog@{EventDialog}!ui@{ui}}
+\index{ui@{ui}!EventDialog@{EventDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Event\+Dialog\texorpdfstring{$\ast$}{*} Event\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+User interface of the Qt framework. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+graphics/\mbox{\hyperlink{dialogs_8h}{dialogs.\+h}}\item 
+graphics/\mbox{\hyperlink{dialogs_8cpp}{dialogs.\+cpp}}\end{DoxyCompactItemize}
