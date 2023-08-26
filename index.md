@@ -9,7 +9,7 @@ Welcome to the page dedicated to the family tree organising tool called `rodoc`.
 
 ## Usefull links
 
-[Code](https://github.com/rodoc-app/rodoc-app){: .btn .btn-green} [Documentation](/docs/){: .btn .btn-green} [Wiki](/wiki/){: .btn .btn-green} [Screenshots](/screenshots/){: .btn .btn-green}
+[Code](https://github.com/rodoc-app/rodoc-app){: .btn .btn-green} [Documentation](/docs.html/){: .btn .btn-green} [Wiki](/wiki.html/){: .btn .btn-green} [Screenshots](/screenshots.html/){: .btn .btn-green}
 
 ## Download (*flatpak not yet done*)
 
