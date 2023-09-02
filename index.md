@@ -11,9 +11,11 @@ Welcome to the page dedicated to the family tree organising tool called `rodoc`.
 
 [Code](https://github.com/rodoc-app/rodoc-app){: .btn .btn-green} [Documentation](/docs.html){: .btn .btn-green} [Wiki](/wiki.html){: .btn .btn-green} [Screenshots](/screenshots.html){: .btn .btn-green}
 
-## Download (*flatpak not yet done*)
+## Download
 
-[Windows installer](https://github.com/rodoc-app/rodoc-app/blob/main/release/rodoc-installer.exe){: .btn .btn-blue} [Flatpak](https://github.com/rodoc-app/rodoc-app/blob/main/release/rodoc-flatpak){: .btn .btn-blue}
+(*flatpak not yet done*)
+
+[Windows installer](/download/rodoc-installer.exe){: .btn .btn-blue} [Flatpak](/download/flatpak){: .btn .btn-blue}
 
 ## Pros
 
